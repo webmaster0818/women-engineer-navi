@@ -484,6 +484,32 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">リモートワーク求人を見極めるチェックポイント</h2>
+          <div className="space-y-4">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>「リモート可」と「フルリモート」の違いを確認</h3>
+              <p className="text-sm text-text-light">
+                求人票に「リモート可」と書かれていても、実際には週1〜2回の出社が必要なケースが少なくありません。「フルリモート」であれば完全在宅勤務ですが、「リモート可」は出社頻度が企業やチームによって異なります。転職前に「実際の出社頻度はどのくらいか」をエージェント経由で必ず確認しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>リモート率の実態を確認する</h3>
+              <p className="text-sm text-text-light">
+                求人票に「リモートワーク制度あり」と記載されていても、実際の利用率が低い企業もあります。制度の有無だけでなく、「チーム全体でのリモート利用率」「上司や同僚の在宅勤務状況」など、実態を把握することが重要です。転職エージェントは企業の内部事情に詳しいため、こうしたリアルな情報を提供してくれます。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>フルリモート特化型エージェントの活用</h3>
+              <p className="text-sm text-text-light">
+                確実にフルリモートの求人だけを探したい場合は、ReWorksのようなフルリモート特化型の転職サイトが最適です。ReWorksに掲載されている求人はすべてフルリモート案件のため、「入社してみたらリモートではなかった」というミスマッチを防げます。地方在住の方や、育児・介護で出社が難しい方に特におすすめです。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>

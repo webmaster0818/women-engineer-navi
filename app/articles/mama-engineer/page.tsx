@@ -484,6 +484,44 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">ママエンジニアの転職で確認すべき5つの企業条件</h2>
+          <div className="space-y-4">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 時短勤務制度の有無と適用期間</h3>
+              <p className="text-sm text-text-light">
+                法律では3歳まで時短勤務が義務化されていますが、企業によっては小学校卒業まで延長できる制度を設けているところもあります。転職先を選ぶ際は、制度の有無だけでなく「何歳まで適用されるか」を必ず確認しましょう。エージェントを通じて内部情報を聞くのが確実です。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>2. フレックス・リモートワークの実態</h3>
+              <p className="text-sm text-text-light">
+                制度としてフレックスやリモートワークがあっても、実際にはほとんど利用されていない企業もあります。求人票の表記だけでなく、「実際のリモート率」「フレックスのコアタイム」「チーム内での利用状況」をエージェント経由で確認することが重要です。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 産休育休の取得実績と復帰率</h3>
+              <p className="text-sm text-text-light">
+                産休育休制度があるだけでは不十分です。実際の取得率と、復帰後に元のポジションに戻れているかが重要なポイントです。復帰率が低い企業は、制度はあっても実態としてキャリアが断絶するリスクがあります。女性特化型エージェントなら、こうした内部情報にも詳しいです。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>4. 急な子供の病気時の対応</h3>
+              <p className="text-sm text-text-light">
+                子供の急な発熱や体調不良は避けられません。そんな時に在宅勤務への切り替えが柔軟にできるか、看護休暇が有給で取れるかは、ママエンジニアにとって最も重要な条件の一つです。面接では聞きにくい質問ですが、エージェントを通じて事前に確認しておきましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>5. 女性管理職比率</h3>
+              <p className="text-sm text-text-light">
+                女性管理職の比率は、その企業でキャリアアップの天井（ガラスの天井）がないかを判断する重要な指標です。女性管理職が多い企業は、出産・育児を経てもキャリアを継続できる環境が整っている傾向があります。長期的なキャリアを考える上で必ずチェックしましょう。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>

@@ -708,6 +708,39 @@ export default function Age20sArticlePage() {
         </div>
       </section>
 
+      {/* 年収アップのコツ */}
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">20代女性エンジニアが転職で年収アップするためのコツ</h2>
+          <div className="space-y-4">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-2" style={{ color: "#0891b2" }}>
+                20代はポテンシャル採用が多い
+              </h3>
+              <p className="text-sm text-text-light">
+                20代の転職市場では、現時点のスキルだけでなく将来の成長性を重視する「ポテンシャル採用」が多いのが特徴です。未経験やスキルに自信がなくても、学習意欲や論理的思考力をアピールすることでチャンスをつかめます。特にIT業界は人材不足が深刻なため、20代女性エンジニアは非常に歓迎される傾向にあります。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-2" style={{ color: "#0891b2" }}>
+                複数エージェント併用が年収アップの鍵
+              </h3>
+              <p className="text-sm text-text-light">
+                年収アップを実現するには、IT特化型エージェント（レバテックキャリア・Geeklyなど）と女性特化型エージェント（type女性の転職エージェントなど）の2本立てで併用するのが効果的です。IT特化型で技術力に見合った高年収求人を、女性特化型で産休育休やリモートワークなど働きやすさも兼ね備えた求人を同時に探せます。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-2" style={{ color: "#0891b2" }}>
+                年収交渉はエージェントに任せるのが正解
+              </h3>
+              <p className="text-sm text-text-light">
+                年収交渉は自分からしなくても、転職エージェントが代行してくれます。特に20代は自分の市場価値を過小評価しがちですが、エージェントは業界の相場を熟知しているため、適正年収での交渉を進めてくれます。「言いにくい」と感じる年収の話も、プロに任せることで円滑に進められるのが大きなメリットです。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-10">
         <div className="mx-auto max-w-4xl px-4">

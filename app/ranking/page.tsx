@@ -1154,6 +1154,50 @@ export default function RankingPage() {
         </div>
       </section>
 
+      {/* 転職市場動向 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold flex items-center gap-2">
+            <span className="text-primary">&#9670;</span>
+            女性エンジニアの転職市場2026年の最新動向
+          </h2>
+          <div className="mt-8 space-y-4">
+            <div className="card">
+              <h3 className="font-bold text-base text-primary-dark">
+                IT人材不足で女性エンジニアの需要が急増
+              </h3>
+              <p className="mt-2 text-sm text-text-light leading-relaxed">
+                経済産業省の調査によると、2030年には最大79万人のIT人材が不足すると予測されています。この深刻な人材不足を背景に、女性エンジニアの需要は年々増加しています。企業側もダイバーシティ推進の観点から、女性エンジニアの採用を積極的に進めており、未経験からの転職チャンスも広がっています。
+              </p>
+            </div>
+            <div className="card">
+              <h3 className="font-bold text-base text-primary-dark">
+                リモートワーク普及で女性に働きやすい環境が拡大
+              </h3>
+              <p className="mt-2 text-sm text-text-light leading-relaxed">
+                コロナ禍以降、IT業界ではリモートワークが定着し、女性にとって働きやすい環境が大幅に拡大しました。育児や介護と両立しながらキャリアを築ける企業が増えており、地方在住でも東京の企業で高年収を得られるケースも増加しています。
+              </p>
+            </div>
+            <div className="card">
+              <h3 className="font-bold text-base text-primary-dark">
+                自治体も女性エンジニア育成を後押し
+              </h3>
+              <p className="mt-2 text-sm text-text-light leading-relaxed">
+                東京都は「女性ITエンジニア育成事業」をワークポートが受託（令和6年度）するなど、行政レベルでも女性エンジニアの育成・転職支援が進んでいます。未経験からエンジニアを目指す女性にとって、公的な支援も活用できる追い風の状況です。
+              </p>
+            </div>
+            <div className="card">
+              <h3 className="font-bold text-base text-primary-dark">
+                転職で年収70万円UPの実績も
+              </h3>
+              <p className="mt-2 text-sm text-text-light leading-relaxed">
+                女性エンジニアの平均年収は男性と比較するとまだ差がありますが、転職によって大幅な年収アップを実現するケースが増えています。レバテックキャリアでは転職者の3人に2人が年収70万円以上アップしており、適切なエージェント選びが年収改善の鍵となっています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

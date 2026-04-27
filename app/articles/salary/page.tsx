@@ -693,6 +693,39 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      {/* 年収アップ方法 */}
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性エンジニアの年収を上げる3つの方法</h2>
+          <div className="space-y-4">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+                1. 転職エージェント経由で年収交渉する
+              </h3>
+              <p className="text-sm text-text-light">
+                年収アップの最も確実な方法は、転職エージェントを活用した年収交渉です。レバテックキャリアでは転職者の3人に2人が年収70万円以上アップを実現しています。自分では言い出しにくい年収交渉も、エージェントが企業との間に入って代行してくれるため、適正な市場価値での転職が可能になります。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+                2. マネジメント経験を積む（PM/PL）
+              </h3>
+              <p className="text-sm text-text-light">
+                プロジェクトマネージャー（PM）やプロジェクトリーダー（PL）などのマネジメントポジションに就くことで、年収100万円以上のアップが期待できます。技術力に加えてチームをまとめる経験があると、市場価値が大幅に上がります。現職でリーダー経験を積みながら、より条件の良い企業への転職を目指しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+                3. フリーランスに転向する
+              </h3>
+              <p className="text-sm text-text-light">
+                フリーランスエンジニアに転向すると、同じスキルでも単価が大幅にアップするケースが多いです。特にリモート案件であれば、育児と両立しながら高収入を得ることも可能です。ただし、福利厚生がなくなる点や、案件の安定性については注意が必要です。まずは副業から始めて、フリーランスの働き方が自分に合うか試してみるのもおすすめです。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">

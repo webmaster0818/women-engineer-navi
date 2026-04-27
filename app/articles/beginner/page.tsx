@@ -484,6 +484,32 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">未経験女性がエンジニア転職で選ぶべきプログラミング言語</h2>
+          <div className="space-y-4">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Web系（JavaScript / Python）が女性に人気</h3>
+              <p className="text-sm text-text-light">
+                JavaScriptやPythonなどのWeb系言語は、リモートワーク案件が豊富なため女性エンジニアに特に人気があります。フロントエンド（React/Vue.js）やバックエンド（Python/Node.js）は求人数も多く、未経験からでも比較的学びやすい言語です。在宅勤務と育児を両立したい方には、Web系のスキルを身につけることを強くおすすめします。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>インフラ系（AWS / Linux）は競合が少なく穴場</h3>
+              <p className="text-sm text-text-light">
+                AWSやLinuxなどのインフラ系スキルは、プログラミング言語と比べて学習者が少なく競合が低い穴場領域です。クラウドインフラの需要は急拡大しており、AWS認定資格などを取得すれば未経験でも高い評価を得られます。プログラミングが苦手でもインフラエンジニアとしてキャリアを築く道があります。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>王道ルート：スクール → ポートフォリオ → 転職</h3>
+              <p className="text-sm text-text-light">
+                未経験からエンジニア転職を成功させる王道ルートは、プログラミングスクールで基礎を学び、ポートフォリオ（自作アプリ）を作成し、転職エージェントを活用して転職する流れです。ワークポートの無料スクール「みんスク」を利用すれば、スクール費用を抑えながら転職サポートまで一貫して受けられます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
