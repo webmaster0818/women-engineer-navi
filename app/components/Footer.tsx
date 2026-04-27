@@ -5,16 +5,18 @@ const footerLinks = [
     title: "コンテンツ",
     links: [
       { href: "/ranking/", label: "おすすめエージェント" },
-      { href: "/age-guide/", label: "年代別ガイド" },
-      { href: "/column/", label: "キャリアコラム" },
+      { href: "/articles/age-20s/", label: "20代転職ガイド" },
+      { href: "/articles/age-30s/", label: "30代転職ガイド" },
+      { href: "/articles/beginner/", label: "未経験からエンジニアへ" },
+      { href: "/articles/salary/", label: "年収ガイド" },
     ],
   },
   {
     title: "サイト情報",
     links: [
-      { href: "/about/", label: "当サイトについて" },
-      { href: "/privacy/", label: "プライバシーポリシー" },
-      { href: "/contact/", label: "お問い合わせ" },
+      { href: "/terms/", label: "利用規約" },
+      { href: "/privacy-policy/", label: "プライバシーポリシー" },
+      { href: "/content-policy/", label: "記事制作ポリシー" },
     ],
   },
 ];
