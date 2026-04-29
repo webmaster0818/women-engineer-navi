@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -437,6 +438,19 @@ export default function GeeklyReviewPage() {
           </div>
         </div>
       </section>
+
+      {/* 関連記事 */}
+      <div className="mx-auto max-w-4xl px-4">
+        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <Link href="/articles/web-industry/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} Web系企業への転職ガイド｜女性エンジニアが活躍する理由</Link>
+            <Link href="/articles/game-industry/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} ゲーム業界への転職ガイド｜女性エンジニアの需要と年収</Link>
+            <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} レバテックキャリア vs Geekly徹底比較</Link>
+            <Link href="/articles/salary/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 女性エンジニアの年収ガイド｜平均年収と年収アップの方法</Link>
+          </div>
+        </div>
+      </div>
 
       {/* FAQ */}
       <section className="py-10">

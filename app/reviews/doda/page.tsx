@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -385,6 +386,19 @@ export default function DodaReviewPage() {
           </div>
         </div>
       </section>
+
+      {/* 関連記事 */}
+      <div className="mx-auto max-w-4xl px-4">
+        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
+            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} type女性の転職エージェント vs doda徹底比較</Link>
+            <Link href="/articles/career-path/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} キャリアパス設計ガイド｜5年後・10年後のキャリア設計</Link>
+            <Link href="/articles/sier-industry/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} SIer（システムインテグレーター）への転職ガイド</Link>
+          </div>
+        </div>
+      </div>
 
       {/* FAQ */}
       <section className="py-10">

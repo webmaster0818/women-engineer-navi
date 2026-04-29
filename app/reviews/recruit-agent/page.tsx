@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -386,6 +387,19 @@ export default function RecruitAgentReviewPage() {
           </div>
         </div>
       </section>
+
+      {/* 関連記事 */}
+      <div className="mx-auto max-w-4xl px-4">
+        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <Link href="/articles/age-40s/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 40代女性エンジニアの転職ガイド</Link>
+            <Link href="/articles/workport-vs-recruit/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} ワークポート vs リクルートエージェント徹底比較</Link>
+            <Link href="/articles/salary/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 女性エンジニアの年収ガイド｜平均年収と年収アップの方法</Link>
+            <Link href="/articles/career-path/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} キャリアパス設計ガイド｜5年後・10年後のキャリア設計</Link>
+          </div>
+        </div>
+      </div>
 
       {/* FAQ */}
       <section className="py-10">
