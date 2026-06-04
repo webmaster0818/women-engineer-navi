@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "ワークポート vs リクルートエージェント比較｜女性IT転職向け",
     description:
       "ワークポートとリクルートエージェントを女性エンジニア視点で徹底比較。IT求人の質・サポート体制・年収アップ実績など、転職先選びに必要な情報を詳しく解説します。",
-    url: "https://women-engineer-navi.pages.dev/articles/workport-vs-recruit/",
+    url: "https://women-engineer.com/articles/workport-vs-recruit/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "ワークポートとリクルートエージェントを女性エンジニア視点で徹底比較。IT求人の質・サポート体制・年収アップ実績など、転職先選びに必要な情報を詳しく解説します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/workport-vs-recruit/",
+    "@id": "https://women-engineer.com/articles/workport-vs-recruit/",
   },
 };
 
@@ -96,19 +96,19 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://women-engineer-navi.pages.dev",
+      item: "https://women-engineer.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer-navi.pages.dev/articles/",
+      item: "https://women-engineer.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ワークポート vs リクルートエージェント比較",
-      item: "https://women-engineer-navi.pages.dev/articles/workport-vs-recruit/",
+      item: "https://women-engineer.com/articles/workport-vs-recruit/",
     },
   ],
 };

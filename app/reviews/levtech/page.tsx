@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "レバテックキャリアの口コミ・評判｜女性エンジニアの転職に使える？",
     description:
       "レバテックキャリアを女性エンジニア目線で徹底レビュー。IT特化・求人48,000件以上・年収70万UP実績など、リアルな口コミと評判を紹介。",
-    url: "https://women-engineer-navi.pages.dev/reviews/levtech/",
+    url: "https://women-engineer.com/reviews/levtech/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -31,18 +31,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "レバテックキャリアを女性エンジニア目線で徹底レビュー。IT特化・求人48,000件以上・年収70万UP実績など、リアルな口コミと評判を紹介。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/reviews/levtech/",
+    "@id": "https://women-engineer.com/reviews/levtech/",
   },
 };
 

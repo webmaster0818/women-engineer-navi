@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "記事カテゴリ一覧｜女性エンジニアの転職に役立つ情報",
     description: "女性エンジニアの転職に役立つ記事をカテゴリ別に一覧表示。すべての記事にアクセスできるハブページです。",
-    url: "https://women-engineer-navi.pages.dev/articles/category-index/",
+    url: "https://women-engineer.com/articles/category-index/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -22,10 +22,10 @@ const structuredData = {
   headline: "記事カテゴリ一覧｜女性エンジニアの転職に役立つ情報",
   datePublished: "2026-04-29",
   dateModified: "2026-04-29",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "女性エンジニアの転職に役立つ記事をカテゴリ別に一覧表示。すべての記事にアクセスできるハブページです。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/category-index/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/category-index/" },
 };
 
 const faqData = {
@@ -79,9 +79,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "記事カテゴリ一覧", item: "https://women-engineer-navi.pages.dev/articles/category-index/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "記事カテゴリ一覧", item: "https://women-engineer.com/articles/category-index/" },
   ],
 };
 

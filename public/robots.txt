@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://women-engineer-navi.pages.dev/sitemap.xml
+Sitemap: https://women-engineer.com/sitemap.xml

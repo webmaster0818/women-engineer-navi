@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Web系企業への転職ガイド｜女性エンジニアが活躍する理由",
     description:
       "Web系企業への転職を目指す女性エンジニア向けガイド。Web系企業の特徴・年収・働き方・求められるスキルを徹底解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/web-industry/",
+    url: "https://women-engineer.com/articles/web-industry/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "Web系企業への転職を目指す女性エンジニア向けガイド。Web系企業の特徴・年収・働き方・求められるスキルを徹底解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/web-industry/",
+    "@id": "https://women-engineer.com/articles/web-industry/",
   },
 };
 
@@ -96,19 +96,19 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://women-engineer-navi.pages.dev",
+      item: "https://women-engineer.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer-navi.pages.dev/articles/",
+      item: "https://women-engineer.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Web系企業への転職ガイド",
-      item: "https://women-engineer-navi.pages.dev/articles/web-industry/",
+      item: "https://women-engineer.com/articles/web-industry/",
     },
   ],
 };

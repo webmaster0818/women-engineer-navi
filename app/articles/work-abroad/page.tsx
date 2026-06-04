@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "女性エンジニアの海外転職ガイド｜グローバルキャリアの作り方",
   description: "女性エンジニアの海外転職ガイド。英語力の目安・人気の国・ビザの取得方法・年収比較など、グローバルキャリアを目指すための情報を徹底解説します。",
   alternates: { canonical: "/articles/work-abroad/" },
-  openGraph: { title: "女性エンジニアの海外転職ガイド｜グローバルキャリアの作り方", description: "女性エンジニアの海外転職ガイド。グローバルキャリアを目指すための情報を徹底解説。", url: "https://women-engineer-navi.pages.dev/articles/work-abroad/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "女性エンジニアの海外転職ガイド｜グローバルキャリアの作り方", description: "女性エンジニアの海外転職ガイド。グローバルキャリアを目指すための情報を徹底解説。", url: "https://women-engineer.com/articles/work-abroad/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアの海外転職ガイド｜グローバルキャリアの作り方", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "女性エンジニアの海外転職ガイド。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/work-abroad/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアの海外転職ガイド｜グローバルキャリアの作り方", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "女性エンジニアの海外転職ガイド。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/work-abroad/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "海外転職に必要な英語力はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "一般的にTOEIC800点以上、またはIELTS6.5以上が目安です。ただし、エンジニアの場合は技術力が最も重要視されるため、日常会話レベルの英語力でも技術力があれば採用されるケースもあります。コードレビューや技術ドキュメントの読み書きができる英語力があれば、まずは挑戦してみる価値があります。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "女性エンジニアの海外転職ガイド", item: "https://women-engineer-navi.pages.dev/articles/work-abroad/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "女性エンジニアの海外転職ガイド", item: "https://women-engineer.com/articles/work-abroad/" },
 ] };
 
 export default function ArticlePage() {

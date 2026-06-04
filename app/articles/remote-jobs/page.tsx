@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "女性エンジニアのリモートワーク求人ガイド｜在宅勤務のメリットと探し方",
     description:
       "女性エンジニアのリモートワーク求人ガイド。在宅勤務のメリットと探し方女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
-    url: "https://women-engineer-navi.pages.dev/articles/remote-jobs/",
+    url: "https://women-engineer.com/articles/remote-jobs/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "女性エンジニアのリモートワーク求人ガイド。在宅勤務のメリットと探し方女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/remote-jobs/",
+    "@id": "https://women-engineer.com/articles/remote-jobs/",
   },
 };
 

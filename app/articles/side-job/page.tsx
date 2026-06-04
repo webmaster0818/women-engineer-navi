@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "女性エンジニアの副業ガイド｜おすすめの副業と始め方",
   description: "女性エンジニアにおすすめの副業を徹底解説。プログラミング・Webデザイン・ライティングなど、スキルを活かした副業の始め方と月収目安を紹介します。",
   alternates: { canonical: "/articles/side-job/" },
-  openGraph: { title: "女性エンジニアの副業ガイド｜おすすめの副業と始め方", description: "女性エンジニアにおすすめの副業を徹底解説。スキルを活かした副業の始め方と月収目安を紹介。", url: "https://women-engineer-navi.pages.dev/articles/side-job/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "女性エンジニアの副業ガイド｜おすすめの副業と始め方", description: "女性エンジニアにおすすめの副業を徹底解説。スキルを活かした副業の始め方と月収目安を紹介。", url: "https://women-engineer.com/articles/side-job/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアの副業ガイド｜おすすめの副業と始め方", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "女性エンジニアにおすすめの副業を徹底解説。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/side-job/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアの副業ガイド｜おすすめの副業と始め方", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "女性エンジニアにおすすめの副業を徹底解説。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/side-job/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "エンジニアの副業は会社にバレますか？", acceptedAnswer: { "@type": "Answer", text: "副業が会社にバレる主な原因は住民税の変動です。確定申告時に住民税を「自分で納付（普通徴収）」に設定すれば、会社にバレるリスクを下げられます。ただし、まずは就業規則で副業が認められているか確認し、可能であれば会社に申告するのが安全です。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "女性エンジニアの副業ガイド", item: "https://women-engineer-navi.pages.dev/articles/side-job/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "女性エンジニアの副業ガイド", item: "https://women-engineer.com/articles/side-job/" },
 ] };
 
 export default function ArticlePage() {

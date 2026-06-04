@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Green vs ReWorks比較｜リモート重視の女性エンジニア向け",
     description:
       "GreenとReWorksをリモートワーク重視の女性エンジニア視点で徹底比較。求人の特徴・リモート求人の充実度・サポート体制など、在宅勤務を希望する女性エンジニアに必要な情報を解説します。",
-    url: "https://women-engineer-navi.pages.dev/articles/green-vs-reworks/",
+    url: "https://women-engineer.com/articles/green-vs-reworks/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "GreenとReWorksをリモートワーク重視の女性エンジニア視点で徹底比較。求人の特徴・リモート求人の充実度・サポート体制など、在宅勤務を希望する女性エンジニアに必要な情報を解説します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/green-vs-reworks/",
+    "@id": "https://women-engineer.com/articles/green-vs-reworks/",
   },
 };
 
@@ -96,19 +96,19 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://women-engineer-navi.pages.dev",
+      item: "https://women-engineer.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer-navi.pages.dev/articles/",
+      item: "https://women-engineer.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Green vs ReWorks比較",
-      item: "https://women-engineer-navi.pages.dev/articles/green-vs-reworks/",
+      item: "https://women-engineer.com/articles/green-vs-reworks/",
     },
   ],
 };

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AWS×女性エンジニア｜クラウドインフラの需要と転職方法",
     description: "AWSを活かした女性エンジニアの転職ガイド。クラウドインフラの求人動向・年収・資格・学習方法を詳しく解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/aws-career/",
+    url: "https://women-engineer.com/articles/aws-career/",
     type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP",
   },
 };
@@ -18,10 +18,10 @@ const structuredData = {
   "@context": "https://schema.org", "@type": "Article",
   headline: "AWS×女性エンジニア｜クラウドインフラの需要と転職方法",
   datePublished: "2026-04-28", dateModified: "2026-04-28",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "AWSを活かした女性エンジニアの転職ガイド。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/aws-career/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/aws-career/" },
 };
 
 const faqData = {
@@ -38,9 +38,9 @@ const faqData = {
 const breadcrumbData = {
   "@context": "https://schema.org", "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "AWS×女性エンジニア", item: "https://women-engineer-navi.pages.dev/articles/aws-career/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "AWS×女性エンジニア", item: "https://women-engineer.com/articles/aws-career/" },
   ],
 };
 

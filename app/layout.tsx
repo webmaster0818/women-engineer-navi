@@ -18,9 +18,12 @@ export const metadata: Metadata = {
   },
   description:
     "女性エンジニアに特化した転職エージェント比較サイト。産休育休取得率・リモートワーク率・女性アドバイザー有無など、女性ならではの視点で徹底比較。あなたに最適な転職エージェントが見つかります。",
-  metadataBase: new URL("https://women-engineer-navi.pages.dev"),
+  metadataBase: new URL("https://women-engineer.com"),
   alternates: {
     canonical: "/",
+  },
+  verification: {
+    google: "JO-NDRHK3y8eQ2TRnsVf5plFdj7Ba2VuPzWrL4zMgTA",
   },
   openGraph: {
     type: "website",
@@ -33,7 +36,7 @@ const schemaOrg = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "女性エンジニア転職ナビ",
-  url: "https://women-engineer-navi.pages.dev",
+  url: "https://women-engineer.com",
   description:
     "女性エンジニアに特化した転職エージェント比較サイト。産休育休取得率・リモートワーク率・女性アドバイザー有無など、女性ならではの視点で徹底比較。",
   publisher: {

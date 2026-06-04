@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "type女性の転職エージェントの口コミ・評判｜女性エンジニアへの対応は？",
     description:
       "type女性の転職エージェントを女性エンジニア目線で徹底レビュー。女性特化・全員女性アドバイザーなど、リアルな口コミと評判を紹介。",
-    url: "https://women-engineer-navi.pages.dev/reviews/type-woman/",
+    url: "https://women-engineer.com/reviews/type-woman/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -32,18 +32,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "type女性の転職エージェントを女性エンジニア目線で徹底レビュー。女性特化・年間5,000名カウンセリング・全員女性アドバイザー。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/reviews/type-woman/",
+    "@id": "https://women-engineer.com/reviews/type-woman/",
   },
 };
 

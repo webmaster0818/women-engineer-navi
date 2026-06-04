@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "ワークポートの口コミ・評判｜女性ITエンジニア育成事業受託の実力",
     description:
       "ワークポートを女性エンジニア目線で徹底レビュー。IT特化+全国47拠点・東京都女性ITエンジニア育成事業受託の実力を検証。",
-    url: "https://women-engineer-navi.pages.dev/reviews/workport/",
+    url: "https://women-engineer.com/reviews/workport/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,10 +26,10 @@ const structuredData = {
   headline: "ワークポートの口コミ・評判｜女性ITエンジニア育成事業受託の実力",
   datePublished: "2026-04-27",
   dateModified: "2026-04-27",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "ワークポートを女性エンジニア目線で徹底レビュー。IT特化+全国47拠点・未経験OKの実力を検証。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/reviews/workport/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/workport/" },
 };
 
 const faqData = {

@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "女性エンジニアのポートフォリオ作成ガイド｜転職で差をつける方法",
   description: "女性エンジニアのポートフォリオ作成ガイド。転職で評価されるポートフォリオの作り方、必須要素、GitHubの活用法を詳しく解説します。",
   alternates: { canonical: "/articles/portfolio/" },
-  openGraph: { title: "女性エンジニアのポートフォリオ作成ガイド｜転職で差をつける方法", description: "女性エンジニアのポートフォリオ作成ガイド。転職で評価されるポートフォリオの作り方、必須要素、GitHubの活用法を詳しく解説します。", url: "https://women-engineer-navi.pages.dev/articles/portfolio/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "女性エンジニアのポートフォリオ作成ガイド｜転職で差をつける方法", description: "女性エンジニアのポートフォリオ作成ガイド。転職で評価されるポートフォリオの作り方、必須要素、GitHubの活用法を詳しく解説します。", url: "https://women-engineer.com/articles/portfolio/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアのポートフォリオ作成ガイド｜転職で差をつける方法", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "女性エンジニアのポートフォリオ作成ガイド。転職で評価されるポートフォリオの作り方、必須要素、GitHubの活用法を詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/portfolio/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアのポートフォリオ作成ガイド｜転職で差をつける方法", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "女性エンジニアのポートフォリオ作成ガイド。転職で評価されるポートフォリオの作り方、必須要素、GitHubの活用法を詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/portfolio/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "ポートフォリオは何作品あればいいですか？", acceptedAnswer: { "@type": "Answer", text: "3〜5作品が目安です。数よりも質が重要で、自分の技術力を最大限にアピールできる力作を2〜3作品用意し、残りは小規模なプロジェクトでも構いません。各プロジェクトにはREADMEを丁寧に書き、使用技術・工夫したポイント・デモURLを明記しましょう。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "女性エンジニアのポートフォリオ作成ガイド", item: "https://women-engineer-navi.pages.dev/articles/portfolio/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "女性エンジニアのポートフォリオ作成ガイド", item: "https://women-engineer.com/articles/portfolio/" },
 ] };
 
 export default function ArticlePage() {

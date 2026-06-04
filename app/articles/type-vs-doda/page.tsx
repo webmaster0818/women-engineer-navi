@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "type女性 vs doda比較｜女性エンジニアにおすすめはどっち？",
     description:
       "type女性の転職エージェントとdodaを徹底比較。求人数・サポート体制・女性向け制度の充実度など、女性エンジニアが転職先を選ぶ際に知っておきたいポイントを詳しく解説します。",
-    url: "https://women-engineer-navi.pages.dev/articles/type-vs-doda/",
+    url: "https://women-engineer.com/articles/type-vs-doda/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "type女性の転職エージェントとdodaを徹底比較。求人数・サポート体制・女性向け制度の充実度など、女性エンジニアが転職先を選ぶ際に知っておきたいポイントを詳しく解説します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/type-vs-doda/",
+    "@id": "https://women-engineer.com/articles/type-vs-doda/",
   },
 };
 
@@ -96,19 +96,19 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://women-engineer-navi.pages.dev",
+      item: "https://women-engineer.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer-navi.pages.dev/articles/",
+      item: "https://women-engineer.com/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "type女性 vs doda比較",
-      item: "https://women-engineer-navi.pages.dev/articles/type-vs-doda/",
+      item: "https://women-engineer.com/articles/type-vs-doda/",
     },
   ],
 };

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "30代女性エンジニアの転職ガイド｜年収アップと働き方の両立",
     description:
       "30代女性エンジニアの転職ガイド。年収アップと働き方の両立女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
-    url: "https://women-engineer-navi.pages.dev/articles/age-30s/",
+    url: "https://women-engineer.com/articles/age-30s/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "30代女性エンジニアの転職ガイド。年収アップと働き方の両立女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/age-30s/",
+    "@id": "https://women-engineer.com/articles/age-30s/",
   },
 };
 

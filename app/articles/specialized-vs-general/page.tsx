@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "IT特化型 vs 総合型エージェント｜女性エンジニアの使い分け",
     description:
       "IT特化型 vs 総合型エージェント。女性エンジニアの使い分け女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
-    url: "https://women-engineer-navi.pages.dev/articles/specialized-vs-general/",
+    url: "https://women-engineer.com/articles/specialized-vs-general/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "IT特化型 vs 総合型エージェント。女性エンジニアの使い分け女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/specialized-vs-general/",
+    "@id": "https://women-engineer.com/articles/specialized-vs-general/",
   },
 };
 

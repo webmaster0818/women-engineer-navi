@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "ゲーム業界への転職ガイド｜女性エンジニアの需要と年収",
     description:
       "ゲーム業界への転職を目指す女性エンジニア向けガイド。ゲーム業界の職種・年収・求められるスキルを徹底解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/game-industry/",
+    url: "https://women-engineer.com/articles/game-industry/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -23,10 +23,10 @@ const structuredData = {
   headline: "ゲーム業界への転職ガイド｜女性エンジニアの需要と年収",
   datePublished: "2026-04-29",
   dateModified: "2026-04-29",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "ゲーム業界への転職を目指す女性エンジニア向けガイド。ゲーム業界の職種・年収・求められるスキルを徹底解説。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/game-industry/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/game-industry/" },
 };
 
 const faqData = {
@@ -80,9 +80,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "ゲーム業界への転職ガイド", item: "https://women-engineer-navi.pages.dev/articles/game-industry/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "ゲーム業界への転職ガイド", item: "https://women-engineer.com/articles/game-industry/" },
   ],
 };
 

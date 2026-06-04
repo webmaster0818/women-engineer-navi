@@ -18,7 +18,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       position: index + 1,
       name: item.label,
       ...(item.href
-        ? { item: `https://women-engineer-navi.pages.dev${item.href}` }
+        ? { item: `https://women-engineer.com${item.href}` }
         : {}),
     })),
   };

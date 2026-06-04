@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "女性エンジニアのスタートアップ転職｜ベンチャー企業の魅力とリスク",
   description: "女性エンジニアのスタートアップ転職ガイド。ベンチャー企業で働く魅力とリスク、年収・ストックオプション・働き方の実態を詳しく解説します。",
   alternates: { canonical: "/articles/startup/" },
-  openGraph: { title: "女性エンジニアのスタートアップ転職｜ベンチャー企業の魅力とリスク", description: "女性エンジニアのスタートアップ転職ガイド。ベンチャー企業で働く魅力とリスク、年収・ストックオプション・働き方の実態を詳しく解説します。", url: "https://women-engineer-navi.pages.dev/articles/startup/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "女性エンジニアのスタートアップ転職｜ベンチャー企業の魅力とリスク", description: "女性エンジニアのスタートアップ転職ガイド。ベンチャー企業で働く魅力とリスク、年収・ストックオプション・働き方の実態を詳しく解説します。", url: "https://women-engineer.com/articles/startup/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアのスタートアップ転職｜ベンチャー企業の魅力とリスク", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "女性エンジニアのスタートアップ転職ガイド。ベンチャー企業で働く魅力とリスク、年収・ストックオプション・働き方の実態を詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/startup/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアのスタートアップ転職｜ベンチャー企業の魅力とリスク", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "女性エンジニアのスタートアップ転職ガイド。ベンチャー企業で働く魅力とリスク、年収・ストックオプション・働き方の実態を詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/startup/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "スタートアップとベンチャー企業の違いは何ですか？", acceptedAnswer: { "@type": "Answer", text: "厳密な定義の違いはありませんが、一般的にスタートアップは革新的なビジネスモデルで急成長を目指す企業を指し、ベンチャー企業はより広い意味で新興企業全般を指します。本記事では両者を含めて「スタートアップ」と表記しています。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "女性エンジニアのスタートアップ転職", item: "https://women-engineer-navi.pages.dev/articles/startup/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "女性エンジニアのスタートアップ転職", item: "https://women-engineer.com/articles/startup/" },
 ] };
 
 export default function ArticlePage() {

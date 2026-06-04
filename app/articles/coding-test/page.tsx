@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "エンジニア転職のコーディングテスト対策｜頻出問題と解き方ガイド",
     description: "エンジニア転職のコーディングテスト対策ガイド。頻出のアルゴリズム問題・データ構造・解法パターンを徹底解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/coding-test/",
+    url: "https://women-engineer.com/articles/coding-test/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -22,10 +22,10 @@ const structuredData = {
   headline: "エンジニア転職のコーディングテスト対策｜頻出問題と解き方ガイド",
   datePublished: "2026-04-29",
   dateModified: "2026-04-29",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "エンジニア転職のコーディングテスト対策ガイド。頻出のアルゴリズム問題・データ構造・解法パターンを徹底解説。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/coding-test/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/coding-test/" },
 };
 
 const faqData = {
@@ -79,9 +79,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "コーディングテスト対策", item: "https://women-engineer-navi.pages.dev/articles/coding-test/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "コーディングテスト対策", item: "https://women-engineer.com/articles/coding-test/" },
   ],
 };
 

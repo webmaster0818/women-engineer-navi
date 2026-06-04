@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "産休育休後のエンジニア復帰ガイド｜ブランクを埋める方法",
     description:
       "産休育休後にエンジニアとして復帰するための完全ガイド。ブランク期間の技術キャッチアップ方法、復帰先企業の選び方、時短勤務やリモートワーク可能な求人の探し方まで徹底解説します。スムーズな職場復帰を実現するためのノウハウを紹介します。",
-    url: "https://women-engineer-navi.pages.dev/articles/after-maternity/",
+    url: "https://women-engineer.com/articles/after-maternity/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "産休育休後にエンジニアとして復帰するための完全ガイド。ブランク期間の技術キャッチアップ方法、復帰先企業の選び方、時短勤務やリモートワーク可能な求人の探し方まで徹底解説します。スムーズな職場復帰を実現するためのノウハウを紹介します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/after-maternity/",
+    "@id": "https://women-engineer.com/articles/after-maternity/",
   },
 };
 

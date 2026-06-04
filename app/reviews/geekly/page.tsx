@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Geekly(ギークリー)の口コミ・評判｜女性ITエンジニアの転職実績",
     description:
       "Geekly(ギークリー)を女性エンジニア目線で徹底レビュー。IT特化・独占求人3万件以上・マッチング精度の高さなど、リアルな口コミを紹介。",
-    url: "https://women-engineer-navi.pages.dev/reviews/geekly/",
+    url: "https://women-engineer.com/reviews/geekly/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -29,18 +29,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "Geekly(ギークリー)を女性エンジニア目線で徹底レビュー。IT特化・独占求人3万件以上・マッチング精度の高さを解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/reviews/geekly/",
+    "@id": "https://women-engineer.com/reviews/geekly/",
   },
 };
 

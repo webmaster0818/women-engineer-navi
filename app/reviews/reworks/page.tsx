@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ReWorks(リワークス)の口コミ・評判｜フルリモート×女性エンジニア",
     description: "ReWorks(リワークス)を女性エンジニア目線で徹底レビュー。フルリモート特化の実力を検証。",
-    url: "https://women-engineer-navi.pages.dev/reviews/reworks/",
+    url: "https://women-engineer.com/reviews/reworks/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -25,10 +25,10 @@ const structuredData = {
   headline: "ReWorks(リワークス)の口コミ・評判｜フルリモート×女性エンジニア",
   datePublished: "2026-04-27",
   dateModified: "2026-04-27",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "ReWorks(リワークス)を女性エンジニア目線で徹底レビュー。フルリモート特化の実力を検証。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/reviews/reworks/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/reworks/" },
 };
 
 const faqData = {

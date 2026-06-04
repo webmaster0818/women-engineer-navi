@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "記事制作ポリシー | 女性エンジニア転職ナビ",
     description:
       "女性エンジニア転職ナビの記事制作ポリシーです。コンテンツ制作の方針と評価基準について説明しています。",
-    url: "https://women-engineer-navi.pages.dev/content-policy/",
+    url: "https://women-engineer.com/content-policy/",
     type: "website",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "女性エンジニア転職ナビの記事制作ポリシーです。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/content-policy/",
+    "@id": "https://women-engineer.com/content-policy/",
   },
 };
 
@@ -268,7 +268,7 @@ export default function ContentPolicyPage() {
                     ["運営会社", "株式会社MediaX"],
                     ["所在地", "東京都渋谷区"],
                     ["サイト名", "女性エンジニア転職ナビ"],
-                    ["URL", "https://women-engineer-navi.pages.dev"],
+                    ["URL", "https://women-engineer.com"],
                   ].map(([label, value]) => (
                     <tr key={label}>
                       <th

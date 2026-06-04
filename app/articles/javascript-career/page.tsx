@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "JavaScript×女性エンジニア｜フロントエンド転職の始め方",
     description:
       "JavaScriptを活かした女性エンジニアのフロントエンド転職ガイド。React・TypeScriptの求人動向、年収、学習方法を詳しく解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/javascript-career/",
+    url: "https://women-engineer.com/articles/javascript-career/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -23,10 +23,10 @@ const structuredData = {
   headline: "JavaScript×女性エンジニア｜フロントエンド転職の始め方",
   datePublished: "2026-04-28",
   dateModified: "2026-04-28",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "JavaScriptを活かした女性エンジニアのフロントエンド転職ガイド。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/javascript-career/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/javascript-career/" },
 };
 
 const faqData = {
@@ -80,9 +80,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "JavaScript×女性エンジニア", item: "https://women-engineer-navi.pages.dev/articles/javascript-career/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "JavaScript×女性エンジニア", item: "https://women-engineer.com/articles/javascript-career/" },
   ],
 };
 

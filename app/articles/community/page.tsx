@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "女性エンジニアのコミュニティ・勉強会一覧｜つながりを作る方法",
   description: "女性エンジニア向けのコミュニティ・勉強会・イベントを徹底紹介。ネットワーキングの方法やコミュニティ参加のメリットを詳しく解説します。",
   alternates: { canonical: "/articles/community/" },
-  openGraph: { title: "女性エンジニアのコミュニティ・勉強会一覧｜つながりを作る方法", description: "女性エンジニア向けのコミュニティ・勉強会・イベントを徹底紹介。ネットワーキングの方法やコミュニティ参加のメリットを詳しく解説します。", url: "https://women-engineer-navi.pages.dev/articles/community/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "女性エンジニアのコミュニティ・勉強会一覧｜つながりを作る方法", description: "女性エンジニア向けのコミュニティ・勉強会・イベントを徹底紹介。ネットワーキングの方法やコミュニティ参加のメリットを詳しく解説します。", url: "https://women-engineer.com/articles/community/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアのコミュニティ・勉強会一覧｜つながりを作る方法", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "女性エンジニア向けのコミュニティ・勉強会・イベントを徹底紹介。ネットワーキングの方法やコミュニティ参加のメリットを詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/community/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアのコミュニティ・勉強会一覧｜つながりを作る方法", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "女性エンジニア向けのコミュニティ・勉強会・イベントを徹底紹介。ネットワーキングの方法やコミュニティ参加のメリットを詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/community/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "コミュニティ活動は転職に役立ちますか？", acceptedAnswer: { "@type": "Answer", text: "はい、コミュニティ活動は転職に大いに役立ちます。勉強会での登壇経験やOSSへの貢献は、ポートフォリオのアピール材料になります。また、コミュニティで築いた人脈から、非公開求人の情報や企業の内部事情を得られることもあります。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "女性エンジニアのコミュニティ・勉強会一覧", item: "https://women-engineer-navi.pages.dev/articles/community/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "女性エンジニアのコミュニティ・勉強会一覧", item: "https://women-engineer.com/articles/community/" },
 ] };
 
 export default function ArticlePage() {

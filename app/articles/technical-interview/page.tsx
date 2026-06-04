@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法",
     description: "女性エンジニアの技術面接対策ガイド。コーディングテスト・システム設計課題・技術質問の対策法を徹底解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/technical-interview/",
+    url: "https://women-engineer.com/articles/technical-interview/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -22,10 +22,10 @@ const structuredData = {
   headline: "女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法",
   datePublished: "2026-04-29",
   dateModified: "2026-04-29",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "女性エンジニアの技術面接対策ガイド。コーディングテスト・システム設計課題・技術質問の対策法を徹底解説。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/technical-interview/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/technical-interview/" },
 };
 
 const faqData = {
@@ -79,9 +79,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "技術面接対策", item: "https://women-engineer-navi.pages.dev/articles/technical-interview/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "技術面接対策", item: "https://women-engineer.com/articles/technical-interview/" },
   ],
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Python×女性エンジニア｜求人動向・年収・学習ロードマップ",
     description:
       "Pythonを活かした女性エンジニアの転職ガイド。求人動向・平均年収・学習ロードマップを詳しく解説。Web開発からデータサイエンスまで、Pythonで広がるキャリアの可能性を紹介します。",
-    url: "https://women-engineer-navi.pages.dev/articles/python-career/",
+    url: "https://women-engineer.com/articles/python-career/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -23,11 +23,11 @@ const structuredData = {
   headline: "Python×女性エンジニア｜求人動向・年収・学習ロードマップ",
   datePublished: "2026-04-28",
   dateModified: "2026-04-28",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description:
     "Pythonを活かした女性エンジニアの転職ガイド。求人動向・平均年収・学習ロードマップを詳しく解説。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/python-career/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/python-career/" },
 };
 
 const faqData = {
@@ -81,9 +81,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "Python×女性エンジニア", item: "https://women-engineer-navi.pages.dev/articles/python-career/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "Python×女性エンジニア", item: "https://women-engineer.com/articles/python-career/" },
   ],
 };
 

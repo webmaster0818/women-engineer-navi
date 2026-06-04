@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AI・機械学習×女性エンジニア｜データサイエンス転職ガイド",
     description: "AI・機械学習分野での女性エンジニアの転職ガイド。データサイエンティスト・MLエンジニアの求人動向・年収・必要スキルを解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/ai-ml-career/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP",
+    url: "https://women-engineer.com/articles/ai-ml-career/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP",
   },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "AI・機械学習×女性エンジニア｜データサイエンス転職ガイド", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "AI・機械学習分野での女性エンジニアの転職ガイド。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/ai-ml-career/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "AI・機械学習×女性エンジニア｜データサイエンス転職ガイド", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "AI・機械学習分野での女性エンジニアの転職ガイド。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/ai-ml-career/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "AI・機械学習エンジニアになるにはどのくらいの学習期間が必要ですか？", acceptedAnswer: { "@type": "Answer", text: "プログラミング経験者であれば6ヶ月〜1年が目安です。Pythonの基礎に加え、数学（線形代数・統計学）、機械学習ライブラリ（scikit-learn・TensorFlow・PyTorch）の学習が必要です。未経験からの場合は1〜2年を見込むとよいでしょう。" } },
@@ -23,9 +23,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "AI・機械学習×女性エンジニア", item: "https://women-engineer-navi.pages.dev/articles/ai-ml-career/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "AI・機械学習×女性エンジニア", item: "https://women-engineer.com/articles/ai-ml-career/" },
 ] };
 
 export default function ArticlePage() {

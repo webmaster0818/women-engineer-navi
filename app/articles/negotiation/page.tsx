@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "女性エンジニアの年収交渉術｜自分の市場価値を正しく伝える",
   description: "女性エンジニアのための年収交渉ガイド。市場価値の調べ方、交渉のタイミング、具体的な交渉テクニックを詳しく解説します。",
   alternates: { canonical: "/articles/negotiation/" },
-  openGraph: { title: "女性エンジニアの年収交渉術｜自分の市場価値を正しく伝える", description: "女性エンジニアのための年収交渉ガイド。市場価値の調べ方、交渉のタイミング、具体的な交渉テクニックを詳しく解説します。", url: "https://women-engineer-navi.pages.dev/articles/negotiation/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "女性エンジニアの年収交渉術｜自分の市場価値を正しく伝える", description: "女性エンジニアのための年収交渉ガイド。市場価値の調べ方、交渉のタイミング、具体的な交渉テクニックを詳しく解説します。", url: "https://women-engineer.com/articles/negotiation/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアの年収交渉術｜自分の市場価値を正しく伝える", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "女性エンジニアのための年収交渉ガイド。市場価値の調べ方、交渉のタイミング、具体的な交渉テクニックを詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/negotiation/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "女性エンジニアの年収交渉術｜自分の市場価値を正しく伝える", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "女性エンジニアのための年収交渉ガイド。市場価値の調べ方、交渉のタイミング、具体的な交渉テクニックを詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/negotiation/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "年収交渉をすると評価が下がりませんか？", acceptedAnswer: { "@type": "Answer", text: "適切な方法で行えば評価が下がることはありません。むしろ、自分の価値を理解し主張できることは、ビジネススキルの一つとして評価されます。感情的にならず、客観的なデータ（市場相場、自分の実績）に基づいて交渉することが重要です。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "女性エンジニアの年収交渉術", item: "https://women-engineer-navi.pages.dev/articles/negotiation/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "女性エンジニアの年収交渉術", item: "https://women-engineer.com/articles/negotiation/" },
 ] };
 
 export default function ArticlePage() {

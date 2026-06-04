@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "PM・ディレクター転職ガイド｜女性エンジニアの次のキャリア",
     description:
       "PM・ディレクター転職ガイド。女性エンジニアの次のキャリア女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
-    url: "https://women-engineer-navi.pages.dev/articles/pm-director/",
+    url: "https://women-engineer.com/articles/pm-director/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "PM・ディレクター転職ガイド。女性エンジニアの次のキャリア女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/pm-director/",
+    "@id": "https://women-engineer.com/articles/pm-director/",
   },
 };
 

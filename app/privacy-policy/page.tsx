@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "プライバシーポリシー | 女性エンジニア転職ナビ",
     description:
       "女性エンジニア転職ナビのプライバシーポリシーです。当サイトにおける個人情報の取扱いについて定めています。",
-    url: "https://women-engineer-navi.pages.dev/privacy-policy/",
+    url: "https://women-engineer.com/privacy-policy/",
     type: "website",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "女性エンジニア転職ナビのプライバシーポリシーです。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/privacy-policy/",
+    "@id": "https://women-engineer.com/privacy-policy/",
   },
 };
 
@@ -230,7 +230,7 @@ export default function PrivacyPolicyPage() {
                     ["運営会社", "株式会社MediaX"],
                     ["所在地", "東京都渋谷区"],
                     ["サイト名", "女性エンジニア転職ナビ"],
-                    ["URL", "https://women-engineer-navi.pages.dev"],
+                    ["URL", "https://women-engineer.com"],
                   ].map(([label, value]) => (
                     <tr key={label}>
                       <th

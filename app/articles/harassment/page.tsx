@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "IT業界のハラスメント対策｜女性エンジニアが知るべき権利と相談先",
   description: "IT業界で働く女性エンジニアのためのハラスメント対策ガイド。セクハラ・パワハラの定義、対処法、相談先、法的な権利を詳しく解説します。",
   alternates: { canonical: "/articles/harassment/" },
-  openGraph: { title: "IT業界のハラスメント対策｜女性エンジニアが知るべき権利と相談先", description: "IT業界で働く女性エンジニアのためのハラスメント対策ガイド。セクハラ・パワハラの定義、対処法、相談先、法的な権利を詳しく解説します。", url: "https://women-engineer-navi.pages.dev/articles/harassment/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "IT業界のハラスメント対策｜女性エンジニアが知るべき権利と相談先", description: "IT業界で働く女性エンジニアのためのハラスメント対策ガイド。セクハラ・パワハラの定義、対処法、相談先、法的な権利を詳しく解説します。", url: "https://women-engineer.com/articles/harassment/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "IT業界のハラスメント対策｜女性エンジニアが知るべき権利と相談先", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "IT業界で働く女性エンジニアのためのハラスメント対策ガイド。セクハラ・パワハラの定義、対処法、相談先、法的な権利を詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/harassment/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "IT業界のハラスメント対策｜女性エンジニアが知るべき権利と相談先", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "IT業界で働く女性エンジニアのためのハラスメント対策ガイド。セクハラ・パワハラの定義、対処法、相談先、法的な権利を詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/harassment/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "ハラスメントを受けた場合、まず何をすべきですか？", acceptedAnswer: { "@type": "Answer", text: "まず、ハラスメントの事実を記録しましょう。日時、場所、内容、証人の有無などを詳細に記録します。メールやチャットのスクリーンショットも保存してください。次に、信頼できる同僚や上司に相談し、社内の相談窓口やハラスメント対策委員会に報告しましょう。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "IT業界のハラスメント対策", item: "https://women-engineer-navi.pages.dev/articles/harassment/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "IT業界のハラスメント対策", item: "https://women-engineer.com/articles/harassment/" },
 ] };
 
 export default function ArticlePage() {

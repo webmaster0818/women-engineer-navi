@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "ブランクあり女性エンジニアの復職方法｜スキルの棚卸しと学び直し",
   description: "ブランクのある女性エンジニアの復職ガイド。育休・離職後のスキルの棚卸し方法、最新技術のキャッチアップ、復職支援サービスを詳しく解説します。",
   alternates: { canonical: "/articles/return-to-work/" },
-  openGraph: { title: "ブランクあり女性エンジニアの復職方法｜スキルの棚卸しと学び直し", description: "ブランクのある女性エンジニアの復職ガイド。育休・離職後のスキルの棚卸し方法、最新技術のキャッチアップ、復職支援サービスを詳しく解説します。", url: "https://women-engineer-navi.pages.dev/articles/return-to-work/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
+  openGraph: { title: "ブランクあり女性エンジニアの復職方法｜スキルの棚卸しと学び直し", description: "ブランクのある女性エンジニアの復職ガイド。育休・離職後のスキルの棚卸し方法、最新技術のキャッチアップ、復職支援サービスを詳しく解説します。", url: "https://women-engineer.com/articles/return-to-work/", type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "ブランクあり女性エンジニアの復職方法｜スキルの棚卸しと学び直し", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" }, description: "ブランクのある女性エンジニアの復職ガイド。育休・離職後のスキルの棚卸し方法、最新技術のキャッチアップ、復職支援サービスを詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/return-to-work/" } };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "ブランクあり女性エンジニアの復職方法｜スキルの棚卸しと学び直し", datePublished: "2026-04-28", dateModified: "2026-04-28", author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" }, description: "ブランクのある女性エンジニアの復職ガイド。育休・離職後のスキルの棚卸し方法、最新技術のキャッチアップ、復職支援サービスを詳しく解説します。", mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/return-to-work/" } };
 
 const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "ブランクが3年以上ありますが復職できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、3年以上のブランクがあっても復職は可能です。IT業界は慢性的な人材不足で、ブランクのある経験者も積極的に採用する企業が増えています。ただし、技術トレンドの変化が速いため、最新技術のキャッチアップは必要です。独学やオンライン講座で最新のフレームワークやツールを学び直しましょう。" } },
@@ -19,9 +19,9 @@ const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEnti
 ] };
 
 const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "ブランクあり女性エンジニアの復職方法", item: "https://women-engineer-navi.pages.dev/articles/return-to-work/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+  { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+  { "@type": "ListItem", position: 3, name: "ブランクあり女性エンジニアの復職方法", item: "https://women-engineer.com/articles/return-to-work/" },
 ] };
 
 export default function ArticlePage() {

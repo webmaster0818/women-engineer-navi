@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "女性エンジニアの転職よくある質問30選｜総合FAQ",
     description: "女性エンジニアの転職に関するよくある質問30選を総合的にまとめました。あらゆる疑問にお答えします。",
-    url: "https://women-engineer-navi.pages.dev/articles/faq-all/",
+    url: "https://women-engineer.com/articles/faq-all/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -22,10 +22,10 @@ const structuredData = {
   headline: "女性エンジニアの転職よくある質問30選｜総合FAQ",
   datePublished: "2026-04-29",
   dateModified: "2026-04-29",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "女性エンジニアの転職に関するよくある質問30選を総合的にまとめました。あらゆる疑問にお答えします。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/faq-all/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/faq-all/" },
 };
 
 const faqData = {
@@ -44,9 +44,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "よくある質問30選", item: "https://women-engineer-navi.pages.dev/articles/faq-all/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "よくある質問30選", item: "https://women-engineer.com/articles/faq-all/" },
   ],
 };
 

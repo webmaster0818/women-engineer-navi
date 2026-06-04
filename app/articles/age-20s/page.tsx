@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "20代女性エンジニアの転職ガイド｜キャリアアップの始め方",
     description:
       "20代女性エンジニアのための転職完全ガイド。未経験からのキャリアチェンジ、年収アップの方法、おすすめ転職エージェントまで徹底解説。",
-    url: "https://women-engineer-navi.pages.dev/articles/age-20s/",
+    url: "https://women-engineer.com/articles/age-20s/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -28,18 +28,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "20代女性エンジニアのための転職完全ガイド。未経験からのキャリアチェンジ、年収アップの方法、おすすめ転職エージェントまで徹底解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/articles/age-20s/",
+    "@id": "https://women-engineer.com/articles/age-20s/",
   },
 };
 

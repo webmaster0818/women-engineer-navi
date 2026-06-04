@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "利用規約 | 女性エンジニア転職ナビ",
     description:
       "女性エンジニア転職ナビの利用規約です。当サイトをご利用いただく前に、本利用規約をよくお読みください。",
-    url: "https://women-engineer-navi.pages.dev/terms/",
+    url: "https://women-engineer.com/terms/",
     type: "website",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -26,18 +26,18 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer-navi.pages.dev",
+    url: "https://women-engineer.com",
   },
   description:
     "女性エンジニア転職ナビの利用規約です。",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://women-engineer-navi.pages.dev/terms/",
+    "@id": "https://women-engineer.com/terms/",
   },
 };
 
@@ -215,7 +215,7 @@ export default function TermsPage() {
                     ["運営会社", "株式会社MediaX"],
                     ["所在地", "東京都渋谷区"],
                     ["サイト名", "女性エンジニア転職ナビ"],
-                    ["URL", "https://women-engineer-navi.pages.dev"],
+                    ["URL", "https://women-engineer.com"],
                     ["お問い合わせ", "サイト内のお問い合わせフォームよりご連絡ください"],
                   ].map(([label, value]) => (
                     <tr key={label}>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "女性エンジニアにおすすめの資格10選｜転職で有利になる資格",
     description: "女性エンジニアにおすすめの資格10選。転職で有利になるIT資格を難易度・年収効果とともに紹介。",
-    url: "https://women-engineer-navi.pages.dev/articles/certification/",
+    url: "https://women-engineer.com/articles/certification/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -22,10 +22,10 @@ const structuredData = {
   headline: "女性エンジニアにおすすめの資格10選｜転職で有利になる資格",
   datePublished: "2026-04-29",
   dateModified: "2026-04-29",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "女性エンジニアにおすすめの資格10選。転職で有利になるIT資格を難易度・年収効果とともに紹介。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/articles/certification/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/certification/" },
 };
 
 const faqData = {
@@ -44,9 +44,9 @@ const breadcrumbData = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer-navi.pages.dev" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer-navi.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "おすすめ資格10選", item: "https://women-engineer-navi.pages.dev/articles/certification/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "おすすめ資格10選", item: "https://women-engineer.com/articles/certification/" },
   ],
 };
 

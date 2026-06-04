@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "リクルートエージェントの口コミ・評判｜女性ITエンジニアの求人数は？",
     description: "リクルートエージェントを女性エンジニア目線で徹底レビュー。業界1位の求人74万件の実力を検証。",
-    url: "https://women-engineer-navi.pages.dev/reviews/recruit-agent/",
+    url: "https://women-engineer.com/reviews/recruit-agent/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
     locale: "ja_JP",
@@ -25,10 +25,10 @@ const structuredData = {
   headline: "リクルートエージェントの口コミ・評判｜女性ITエンジニアの求人数は？",
   datePublished: "2026-04-27",
   dateModified: "2026-04-27",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer-navi.pages.dev" },
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description: "リクルートエージェントを女性エンジニア目線で徹底レビュー。業界1位の求人74万件の実力を検証。",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer-navi.pages.dev/reviews/recruit-agent/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/recruit-agent/" },
 };
 
 const faqData = {
