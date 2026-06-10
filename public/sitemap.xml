@@ -97,6 +97,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://women-engineer.com/articles/regional-remote/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://women-engineer.com/articles/remote-jobs/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -212,6 +218,24 @@
   </url>
   <url>
     <loc>https://women-engineer.com/articles/backend/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/nagoya/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/fukuoka/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/tokyo/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -535,6 +559,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://women-engineer.com/articles/salary-by-age/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/salary-by-language/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://women-engineer.com/articles/support-engineer/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -542,6 +578,18 @@
   </url>
   <url>
     <loc>https://women-engineer.com/articles/cert-lpic/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/salary-1000man/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/osaka/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
