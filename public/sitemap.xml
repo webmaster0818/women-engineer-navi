@@ -217,6 +217,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://women-engineer.com/articles/typescript-react/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://women-engineer.com/articles/internal-se/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -313,6 +319,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://women-engineer.com/articles/ruby-career/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://women-engineer.com/articles/javascript-career/</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -321,6 +333,12 @@
   <url>
     <loc>https://women-engineer.com/articles/aws-career/</loc>
     <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/cloud-gcp-azure/</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -446,6 +464,36 @@
   </url>
   <url>
     <loc>https://women-engineer.com/articles/embedded/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/csharp-career/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/sql-database/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/java-career/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/php-career/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/go-career/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
