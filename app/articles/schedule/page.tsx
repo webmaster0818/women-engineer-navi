@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "転職活動のスケジュールガイド｜エンジニア転職にかかる期間",
+  title: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
   description:
-    "転職活動のスケジュールガイド。エンジニア転職にかかる期間女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+    "エンジニア転職のスケジュールを実データで解説。全体3〜6ヶ月の標準モデル、フェーズ別タイムライン（準備2〜4週→応募・選考1〜2ヶ月→内定・退職交渉→引き継ぎ・入社）、入社希望日からの逆算プラン、ボーナス月・保育園入園などタイミングの考え方、民法627条と就業規則の関係まで出典付きで網羅します。",
   alternates: { canonical: "/articles/schedule/" },
   openGraph: {
-    title: "転職活動のスケジュールガイド｜エンジニア転職にかかる期間",
+    title: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
     description:
-      "転職活動のスケジュールガイド。エンジニア転職にかかる期間女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+      "全体3〜6ヶ月の標準モデル、フェーズ別タイムライン、入社希望日からの逆算プラン、ボーナス月・ライフイベントのタイミング、退職の法的ルールまで出典付きで解説。",
     url: "https://women-engineer.com/articles/schedule/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -20,25 +20,14 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "転職活動のスケジュールガイド｜エンジニア転職にかかる期間",
+  headline: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
-  author: {
-    "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
-    url: "https://women-engineer.com",
-  },
+  dateModified: "2026-06-12",
+  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   description:
-    "転職活動のスケジュールガイド。エンジニア転職にかかる期間女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": "https://women-engineer.com/articles/schedule/",
-  },
+    "エンジニア転職のスケジュールガイド。全体3〜6ヶ月の標準モデル、フェーズ別タイムライン、入社希望日からの逆算プラン、ボーナス月・ライフイベントのタイミング、民法627条と就業規則の関係を出典付きで解説。",
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/schedule/" },
 };
 
 const faqData = {
@@ -47,530 +36,445 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "転職スケジュールガイドで最も重要なポイントは何ですか？",
+      name: "エンジニアの転職活動は全体でどのくらいの期間がかかりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "最も重要なのは、自分のスキルと経験を客観的に評価し、市場価値に見合った転職先を選ぶことです。IT特化型の転職エージェントを活用することで、技術力を正当に評価した求人を紹介してもらえます。複数のエージェントに登録して比較検討するのがおすすめです。",
+        text: "準備から入社まで3〜6ヶ月が標準的な目安です。内訳は、準備（実績の棚卸し・書類作成・エージェント登録）に2〜4週間、応募〜選考に1〜2ヶ月、内定後の意思決定と退職交渉に2週間〜1ヶ月、引き継ぎ・有給消化を経て入社までにさらに2週間〜1ヶ月です。マイナビの調査では1社あたりの応募から内定応諾までの平均日数は約1ヶ月（Web面接で31.3日）、厚生労働省「令和2年転職者実態調査」でも転職活動開始から離職までの期間は「1ヶ月以上3ヶ月未満」が28.8%で最多と、選考自体は短期決戦です。エンジニアはコーディングテストや技術面接が挟まる分、1〜2週間長めに見ておくと安心です。",
       },
     },
     {
       "@type": "Question",
-      name: "女性エンジニアならではの注意点はありますか？",
+      name: "退職は本当に2週間前の申し出で可能ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "産休育休制度の取得実績、リモートワークの運用実態、女性管理職の比率、時短勤務制度の詳細など、女性のキャリア継続に関わる情報を事前に確認することが重要です。エージェント経由なら、求人票には載らない企業のリアルな情報を入手できます。",
+        text: "法律上は可能です。期間の定めのない雇用（正社員）の場合、民法627条1項により、解約の申入れの日から2週間を経過することで雇用は終了し、会社の承諾は不要です。就業規則に「退職は1ヶ月前までに申し出ること」とあっても、民法の規定が優先するというのが一般的な解釈です。ただし円満退職を目指すなら、就業規則の予告期間と引き継ぎ・有給消化を踏まえ、退職希望日の1〜1.5ヶ月前に切り出すのが実務的です。スケジュール上は「2週間で辞められる」を前提にせず、退職交渉〜退職に1〜2ヶ月を確保して逆算しましょう。",
       },
     },
     {
       "@type": "Question",
-      name: "転職エージェントは無料で利用できますか？",
+      name: "ボーナスをもらってから退職するのは問題ありませんか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、転職エージェントの利用は完全無料です。エージェントは企業側から成功報酬を受け取るビジネスモデルのため、転職者には費用がかかりません。キャリア相談だけの利用も可能で、転職するか迷っている段階でも気軽に相談できます。",
+        text: "問題ありません。賞与は支給日に在籍していれば受け取る権利があり、受給後に退職を申し出ても法的な問題はありません。逆に注意すべきは「支給日在籍要件」です。就業規則等で「支給日に在籍する者に支給する」と定めることは判例上有効とされており（最高裁昭和57年10月7日・大和銀行事件）、支給日前に退職するとその賞与は受け取れないのが原則です。国家公務員の賞与が6月30日・12月10日支給と定められているように、民間も夏は6月下旬〜7月上旬、冬は12月上旬の支給が多いため、賞与を受け取ってから退職を切り出す場合は7月・12月以降に退職交渉→1〜2ヶ月後の入社、という時間軸になります。",
       },
     },
     {
       "@type": "Question",
-      name: "転職活動にどのくらいの期間がかかりますか？",
+      name: "転職活動を始めるのに有利な時期・避けるべき時期はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "エンジニアの転職活動は平均1〜3ヶ月です。準備期間を含めると2〜4ヶ月が目安です。ただし、希望条件の厳しさや市場状況によって変動します。在職中に転職活動を行い、焦らずに最適な転職先を見つけることをおすすめします。",
+        text: "エンジニアの中途採用は通年で行われており、「この月でないと不利」という決定的な時期はありません。一般論として、4月・10月の期初入社に合わせて求人や選考が活発になる傾向はありますが、欠員補充や増員の求人は年間を通じて出ます。時期よりも重要なのは自分側の固定点です。賞与支給日（受け取ってから退職交渉するか）、保育園の4月入園（多くの自治体で前年秋に申込）、育休復帰のタイミング、現職の繁忙期（引き継ぎのしやすさ）から逆算して、無理のない開始時期を決めるのが現実的です。",
       },
     },
     {
       "@type": "Question",
-      name: "おすすめの転職エージェントはどこですか？",
+      name: "転職した直後に妊娠した場合、育休は取れますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "IT特化型のレバテックキャリアとGeekly、女性特化型のtype女性の転職エージェントがおすすめです。IT特化型はエンジニアの技術力を正当に評価した求人を提案してくれ、女性特化型は産休育休やリモートワークなど女性のニーズに合った求人を紹介してくれます。2〜3社の併用がベストです。",
+        text: "取れる可能性が高いですが、2つの注意点があります。第一に、育児・介護休業法では労使協定により「入社1年未満の労働者」を育児休業の対象から除外できるため、転職先にこの労使協定があると入社1年未満では育休を取得できない場合があります。第二に、育児休業給付金には「休業開始前2年間に賃金支払基礎日数11日以上の月が12ヶ月以上」という要件があり、前職と通算できるケースもありますが、離職期間や雇用保険の加入状況によっては給付を受けられないことがあります。近い将来の出産を考えている場合は、オファー面談で労使協定の有無と育休の取得実績を確認しておくと安心です。",
       },
     },
+  ],
+};
+
+const breadcrumbData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 3, name: "転職スケジュール完全ガイド", item: "https://women-engineer.com/articles/schedule/" },
   ],
 };
 
 export default function ArticlePage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section
-        className="relative py-12 md:py-16"
-        style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
-        }}
-      >
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb
-            items={[
-              { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
-              { label: "転職スケジュールガイド" },
-            ]}
-          />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "転職スケジュール完全ガイド" }]} />
           <div className="mt-4">
-            <span
-              className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#0891b2" }}
-            >
-              転職ガイド
-            </span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>転職ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              転職スケジュールガイド
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                エンジニア転職にかかる期間と進め方
-              </span>
+              エンジニア転職のスケジュール完全ガイド
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">平均期間・逆算プラン・在職中の進め方【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>先に結論：転職スケジュールはこの4点で決まる</h2>
+            <ul className="space-y-3 text-sm text-text-light leading-relaxed">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>全体は3〜6ヶ月が標準。</strong>準備2〜4週間→応募・選考1〜2ヶ月→内定・退職交渉2週間〜1ヶ月→引き継ぎ・入社2週間〜1ヶ月。1社あたりの応募から内定応諾までは平均約1ヶ月です（出典: マイナビ「中途採用状況調査2025年版」Web面接31.3日）。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>国の統計でも選考は短期決戦。</strong>転職活動開始から離職までの期間は「1ヶ月以上3ヶ月未満」が28.8%で最多。離職から次の就職までも「離職期間なし」26.1%＋「1ヶ月未満」27.6%で半数超がほぼブランクなしで移っています（出典: 厚生労働省「令和2年転職者実態調査」）。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>起点は「入社希望日」からの逆算。</strong>退職は法律上2週間前の申し出で可能ですが（民法627条1項）、就業規則の1〜2ヶ月規定と引き継ぎ・有給消化を踏まえ、内定から入社まで1.5〜2ヶ月を見込むのが現実的です。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>ライフイベントは動かせない固定点。</strong>賞与支給日（支給日在籍要件）、保育園の4月入園（申込は前年秋）、育休復帰、転職直後の育休制約（入社1年未満は労使協定で除外可）を先にカレンダーへ置いてから計画を組みます。</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* 目次 */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div
-            className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
-          >
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li>
-                <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
-                  1. エンジニア転職にかかる期間の目安
-                </a>
-              </li>
-              <li>
-                <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
-                  2. 転職準備期間にやるべきこと
-                </a>
-              </li>
-              <li>
-                <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
-                  3. 転職活動の具体的なスケジュール
-                </a>
-              </li>
-              <li>
-                <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
-                  4. 書類選考から面接までの流れ
-                </a>
-              </li>
-              <li>
-                <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
-                  5. 内定から入社までの手続き
-                </a>
-              </li>
-              <li>
-                <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
-                  6. 転職活動を効率化するコツ
-                </a>
-              </li>
-              <li>
-                <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
-                  7. 転職のベストタイミング
-                </a>
-              </li>
-              <li>
-                <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
-                  8. おすすめ転職エージェント
-                </a>
-              </li>
-              <li>
-                <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
-                  9. 転職成功事例
-                </a>
-              </li>
-              <li>
-                <a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>
-                  10. よくある質問
-                </a>
-              </li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. データで見る転職活動の期間【出典付き】</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. フェーズ別タイムラインと逆算プラン</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 在職中に進める場合のスケジュール調整</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 開始時期の決め方：ボーナス・期初・ライフイベント</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 退職〜入社の法的ルール（民法627条・就業規則・有給消化）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. よくある質問</a></li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* エンジニア転職にかかる期間の目安 */}
+      {/* sec1 データで見る期間 */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">エンジニア転職にかかる期間の目安</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">データで見る転職活動の期間【出典付き】</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              エンジニア転職にかかる期間の目安について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              「転職には半年も1年もかかる」というイメージは、データで見ると半分正しく半分誤りです。厚生労働省「令和2年転職者実態調査」によると、転職活動を始めてから直前の勤め先を離職するまでの期間は<strong>「1ヶ月以上3ヶ月未満」が28.8%で最多</strong>、「1ヶ月未満」も18.3%あります。また、離職してから次の勤め先に就職するまでの期間は「離職期間なし」が26.1%、「1ヶ月未満」が27.6%で、<strong>半数超（53.7%）がほぼブランクなしで次の職場へ移っています</strong>（出典: 厚生労働省「令和2年転職者実態調査の概況」）。
             </p>
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、エンジニア転職にかかる期間の目安を考える上でも大きなプラス要因です。
+              選考そのものの所要時間も短くなっています。マイナビ「中途採用状況調査2025年版（2024年実績）」では、<strong>1社あたりの応募から内定応諾までの平均日数はWeb面接で31.3日・対面で29.2日</strong>、応募から一次面接までは平均11.8日、面接回数は平均2.7〜3.0回です。つまり、応募してしまえば1社の決着は約1ヶ月でつきます。
             </p>
             <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
+              一方で「全体が短い」わけではありません。dodaの集計（2025年4月〜2026年3月）では転職成功者の<strong>平均応募社数は31.9社</strong>で、複数社への応募・並行選考が前提です。書類準備や企業研究などの準備期間、内定後の退職交渉・引き継ぎを含めると、<strong>準備開始から入社まで3〜6ヶ月</strong>が現実的な標準レンジになります。マイナビ「転職活動実態調査（2025年）」でも、転職活動者が想定する活動期間は「3ヶ月以上半年未満」が28.1%で最多でした。
             </p>
-            <p>
-              ここでは、エンジニア転職にかかる期間の目安に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse bg-white">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>指標</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>データ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>活動開始〜離職までの期間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「1ヶ月以上3ヶ月未満」28.8%（最多）、「1ヶ月未満」18.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚労省「令和2年転職者実態調査」</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>離職〜次の就職までの期間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「離職期間なし」26.1%＋「1ヶ月未満」27.6%＝53.7%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚労省「令和2年転職者実態調査」</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1社の応募〜内定応諾</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均約1ヶ月（Web面接31.3日・対面29.2日）、応募〜一次面接11.8日</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>マイナビ「中途採用状況調査2025年版」</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>面接回数</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均2.7回（対面）〜3.0回（Web）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>マイナビ「中途採用状況調査2025年版」</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均応募社数</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>31.9社（2025年4月〜2026年3月の転職成功者）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>doda「転職成功者の平均応募社数」</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-light mt-3 leading-relaxed">
+            出典: 厚生労働省「令和2年転職者実態調査の概況」、マイナビキャリアリサーチLab「中途採用状況調査2025年版（2024年実績）」、doda（パーソルキャリア）「転職成功者の平均応募社数」、マイナビキャリアリサーチLab「転職活動実態調査（2025年）」（いずれも2026年6月参照）
+          </p>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong>エンジニア特有の補正:</strong> Web系を中心にコーディングテストや技術面接・カジュアル面談が選考に挟まるため、書類と面接だけで進む職種より<strong>1〜2週間長め</strong>に見積もるのが安全です。選考フローの全体像と各段階の対策は<a href="/articles/interview-guide/" className="underline" style={{ color: "#0891b2" }}>面接対策ガイド</a>で解説しています。
             </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>エンジニア転職にかかる期間の目安に関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* 転職準備期間にやるべきこと */}
+      {/* sec2 フェーズ別タイムライン */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職準備期間にやるべきこと</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">フェーズ別タイムラインと逆算プラン</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              転職準備期間にやるべきことについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、転職準備期間にやるべきことを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、転職準備期間にやるべきことに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+              スケジュールは「いつ始めるか」ではなく<strong>「いつ入社したいか」から逆算</strong>して組みます。全体を4フェーズに分けると、それぞれの所要期間と「詰まりやすいポイント」が見えてきます。
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント1
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                転職準備期間にやるべきことにおいて最も重要なのは、自分の強みと市場のニーズをマッチさせることです。IT業界は技術の進歩が速いため、常に最新のトレンドを意識しながら、自分のスキルセットをアップデートしていきましょう。
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-sm border-collapse bg-white">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>フェーズ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>目安期間</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主なタスク</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>① 準備</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2〜4週間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実績の棚卸し・職務経歴書/スキルシート作成・エージェント登録・希望条件の整理</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>② 応募・選考</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1〜2ヶ月</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>複数社へ並行応募・コーディングテスト・面接2〜3回（1社あたり応募〜内定応諾は平均約1ヶ月）</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>③ 内定・退職交渉</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2週間〜1ヶ月</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>オファー面談で条件確認→内定承諾→入社日合意→直属の上司へ退職を申し出</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>④ 引き継ぎ・入社</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2週間〜1ヶ月</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>引き継ぎ資料の整備・有給消化・退職手続き・入社書類の準備</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="space-y-4">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-2">
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>PHASE 1</span>
+                <h3 className="text-lg font-bold">準備（2〜4週間）— ここで全体の質が決まる</h3>
+              </div>
+              <p className="text-sm text-text-light leading-relaxed">
+                実績の棚卸しと書類作成が中心です。職務経歴書に書いた内容はそのまま面接の質問リストになるため、<strong>「数字つきの実績」をこの段階で言語化しておくと、後のフェーズ全てが速くなります</strong>。dodaの集計では転職成功者の平均応募社数は31.9社。書類は一度作って終わりではなく、応募しながら磨く前提で「8割の完成度でまず出せる状態」を目指しましょう。
+                → 書き方の詳細は<a href="/articles/resume-guide/" className="underline" style={{ color: "#0891b2" }}>職務経歴書・スキルシートの書き方</a>
               </p>
             </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント2
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなく、ワークライフバランスや職場環境も重要な判断基準になります。産休育休制度の充実度やリモートワークの可否なども含めて、総合的に評価しましょう。
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-2">
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>PHASE 2</span>
+                <h3 className="text-lg font-bold">応募・選考（1〜2ヶ月）— 並行で進めて足並みを揃える</h3>
+              </div>
+              <p className="text-sm text-text-light leading-relaxed">
+                応募から一次面接まで平均11.8日、内定応諾まで約1ヶ月（出典: マイナビ「中途採用状況調査2025年版」）。1社ずつ順番に受けると応募社数×1ヶ月かかってしまうため、<strong>5〜10社程度を同時並行で進め、選考の進度を揃える</strong>のが鉄則です。本命の選考が遅れている間に他社の内定回答期限が来る「時間切れ」が最も多い失敗パターン。エージェント経由なら選考スピードの調整を依頼できます。面接は平均2.7〜3.0回、IT業種の一次面接は8割超がWeb面接です。
+                → 面接の準備は<a href="/articles/interview-guide/" className="underline" style={{ color: "#0891b2" }}>面接対策ガイド</a>
               </p>
             </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント3
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                転職エージェントの活用は、効率的な転職活動に欠かせません。IT特化型と女性特化型のエージェントを併用することで、技術面と生活面の両方のニーズに合った求人を見つけやすくなります。
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-2">
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>PHASE 3</span>
+                <h3 className="text-lg font-bold">内定・退職交渉（2週間〜1ヶ月）— 順番を間違えない</h3>
+              </div>
+              <p className="text-sm text-text-light leading-relaxed">
+                安全な順番は<strong>「(1)労働条件通知書を書面で確認→(2)入社日を合意→(3)内定承諾→(4)現職に退職を申し出る」</strong>です。退職の意思表示は必ず内定承諾の後。内定の回答期限は一般に数日〜1週間程度なので、オファー面談で年収・働き方・産育休の運用などを確認し、迷う材料を潰しておきます。退職の切り出しは退職希望日の1〜1.5ヶ月前が実務的な目安です。
+                → 条件確認の項目は<a href="/articles/offer-meeting/" className="underline" style={{ color: "#0891b2" }}>オファー面談で確認すべきこと</a>
               </p>
             </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント4
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                実際に転職に成功した女性エンジニアの多くが、「エージェントに相談して良かった」と語っています。自分の市場価値を客観的に把握し、適正な年収で転職するためにも、プロのアドバイスを活用しましょう。
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-2">
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>PHASE 4</span>
+                <h3 className="text-lg font-bold">引き継ぎ・入社（2週間〜1ヶ月）— エンジニアは引き継ぎが重い</h3>
+              </div>
+              <p className="text-sm text-text-light leading-relaxed">
+                エンジニアはコード・運用手順・アカウント権限・暗黙知のドキュメント化など、引き継ぎ資料の整備に時間がかかります。残有給の消化期間も含めて、<strong>退職日と入社日の間に余裕を持たせる</strong>のがトラブル回避のコツ。社会保険の空白を作らないため、退職日の翌日を入社日にする（月末退職→翌月1日入社）設計が一般的です。
+                → 円満退職の手順は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#0891b2" }}>円満退職・退職交渉の進め方</a>
               </p>
             </div>
+          </div>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#ecfeff", border: "1px solid #0891b2" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>逆算プランの例：10月1日入社にしたい場合</h3>
+            <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li><strong>6月上旬:</strong> 準備開始（棚卸し・書類・エージェント登録）</li>
+              <li><strong>6月下旬〜8月上旬:</strong> 応募・選考（5〜10社並行、技術面接・コーディングテスト含む）</li>
+              <li><strong>8月中旬:</strong> オファー面談→内定承諾→入社日合意→退職を申し出（就業規則の1ヶ月前規定をクリア）</li>
+              <li><strong>8月下旬〜9月末:</strong> 引き継ぎ＋有給消化、9月30日退職</li>
+              <li><strong>10月1日:</strong> 入社（社会保険の空白なし）</li>
+            </ul>
+            <p className="text-sm text-text-light leading-relaxed mt-3">
+              選考が想定より延びることは普通にあるので、<strong>入社希望日には±1ヶ月のバッファ</strong>を持たせておくと精神的にも交渉的にも楽になります。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* 転職活動の具体的なスケジュール */}
+      {/* sec3 在職中の進め方 */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職活動の具体的なスケジュール</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">在職中に進める場合のスケジュール調整</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              転職活動の具体的なスケジュールについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              収入を維持しながら焦らず選べるという理由から、転職活動は<strong>在職中に進めるのが基本形</strong>です。実際、厚労省の調査でも半数超が離職期間ほぼなしで次の職場へ移っており（出典: 厚生労働省「令和2年転職者実態調査」）、「辞めてから探す」は少数派です。ただし在職中は使える時間が限られるため、スケジュール面では次の3点を織り込みます。
             </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、転職活動の具体的なスケジュールを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、転職活動の具体的なスケジュールに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+          </div>
+          <div className="space-y-4">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>1. 全体期間は長め（3〜6ヶ月）に見積もる</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                平日夜と週末しか使えない分、書類準備や企業研究のペースは離職後活動より遅くなります。「準備2週間」を「準備1ヶ月」に、選考も面接日程の調整分だけ後ろ倒しになる前提で組みましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>2. 面接はWeb面接・夜間枠に寄せて消耗を減らす</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                IT・通信業種では一次面接の8割超がWeb面接です（出典: マイナビ「中途採用状況調査2025年版」）。一次〜二次はオンライン・平日夜に集約し、有給や半休は最終面接など対面が必要な場面に温存するのが効率的。エージェントに「平日夜・オンライン希望」と最初に伝えておくと日程調整がまとまります。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>3. 現職の繁忙期と退職時期の衝突を先に避ける</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                リリース直前やプロジェクトの山場に退職交渉が重なると、引き止めが強くなり円満退職が難しくなります。逆算の段階で「この月に退職を切り出すことになるが、現職のカレンダー的に現実的か」を確認しておきましょう。
+              </p>
+            </div>
+          </div>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              会社に知られない進め方、平日面接の具体的な日程調整術、育児と両立する時間の作り方など、<strong>在職中ならではの実務テクニック</strong>は<a href="/articles/job-hunting-while-employed/" className="underline" style={{ color: "#0891b2" }}>在職中の転職活動の進め方ガイド</a>で詳しく解説しています。本記事は全体スケジュールの設計図として併せてお使いください。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 書類選考から面接までの流れ */}
+      {/* sec4 タイミング論 */}
       <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">書類選考から面接までの流れ</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">開始時期の決め方：ボーナス・期初・ライフイベント</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              書類選考から面接までの流れについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              エンジニアの中途採用は通年で行われており、「絶対に有利な月」はありません。それよりも、<strong>自分側の動かせない固定点をカレンダーに置き、そこから逆算する</strong>方がスケジュールの精度は上がります。固定点になりやすいのは次の3つです。
             </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、書類選考から面接までの流れを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、書類選考から面接までの流れに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>書類選考から面接までの流れに関する最新の市場動向を把握する</span>
+          </div>
+          <div className="space-y-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>固定点1: 賞与支給日 —「支給日在籍要件」を確認する</h3>
+              <p className="text-sm text-text-light leading-relaxed mb-3">
+                多くの企業は就業規則等で「賞与は支給日に在籍する者に支給する」と定めており、この<strong>支給日在籍要件は判例上有効</strong>とされています（最高裁昭和57年10月7日・大和銀行事件）。支給日前に退職すると、算定期間を満勤していても賞与は受け取れないのが原則です。国家公務員の賞与（期末・勤勉手当）が6月30日・12月10日支給と定められているように、民間でも夏は6月下旬〜7月上旬・冬は12月上旬の支給が多数派です。
+              </p>
+              <p className="text-sm text-text-light leading-relaxed">
+                賞与を受け取ってから動く場合の典型形は「<strong>6月末〜7月に賞与受給→7月に退職交渉→9〜10月入社</strong>」「<strong>12月に賞与受給→年明けに退職交渉→2〜4月入社</strong>」。受給後すぐの退職申し出は法的に問題ありませんが、自社の就業規則で支給日と在籍要件を必ず確認してから逆算しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>固定点2: 期初入社（4月・10月）— こだわりすぎない</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                4月・10月の期初は組織変更や予算の関係で受け入れ態勢が整いやすく、中途入社者が複数同時に入るためオンボーディングが手厚い傾向があります。一方、エンジニアの求人は欠員補充・増員とも通年で出ており、<strong>期初を待つために2〜3ヶ月活動を止める合理性は薄い</strong>のが実情です。「結果的に期初になればラッキー」程度に考え、選考の進度を優先しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>固定点3: ライフイベント — 保育園・育休・出産の時間軸</h3>
+              <ul className="text-sm text-text-light space-y-3 mb-3">
+                <li>
+                  <strong>保育園の4月入園:</strong> 認可保育園の4月一斉入園は、多くの自治体で<strong>前年の10〜12月に申込、1〜2月に結果通知</strong>というスケジュールです。申込時点の就労状況が利用調整（点数）に影響するため、入園申込の直前に離職期間を作るのはリスクがあります。転職するなら「申込前に入社を済ませる」か「内定通知書を就労予定の証明に使えるか自治体に確認する」のどちらかを先に決めましょう。
                 </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
+                <li>
+                  <strong>育休からの復帰直後:</strong> 復帰→保育園の慣らし保育→生活リズムの安定までは想定外の欠勤も多く、転職活動と並行するのは負荷が高い時期です。復帰後数ヶ月は現職で勤務実績を作り、生活が回り始めてから動く方がスケジュールは崩れにくくなります。働き方の選択肢は<a href="/articles/mama-engineer/" className="underline" style={{ color: "#0891b2" }}>ママエンジニアの働き方ガイド</a>を参考にしてください。
                 </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
+                <li>
+                  <strong>転職直後の妊娠・育休:</strong> 育児・介護休業法では、労使協定により<strong>入社1年未満の労働者を育児休業の対象から除外できます</strong>。また育児休業給付金には「休業開始前2年間に賃金支払基礎日数11日以上の月が12ヶ月以上」という要件があります（出典: 厚生労働省「育児・介護休業法のあらまし」、ハローワーク「育児休業給付」）。近い将来の出産を考えている場合は、労使協定の有無と育休取得実績をオファー面談で確認しておくと、入社後のギャップを避けられます。
                 </li>
               </ul>
+              <p className="text-sm text-text-light leading-relaxed">
+                ライフイベントは「転職を諦める理由」ではなく「スケジュールの制約条件」です。固定点を先に置けば、動ける期間は必ず見つかります。
+              </p>
             </div>
           </div>
+          <p className="text-xs text-text-light mt-3 leading-relaxed">
+            出典: 最高裁昭和57年10月7日判決（大和銀行事件）— 賞与の支給日在籍要件を有効と判断、人事院「期末手当・勤勉手当」— 国家公務員の賞与支給日は6月30日・12月10日、厚生労働省「育児・介護休業法のあらまし」— 労使協定による入社1年未満の労働者の育休除外、ハローワークインターネットサービス「育児休業給付」— みなし被保険者期間12ヶ月以上の要件（いずれも2026年6月参照）
+          </p>
         </div>
       </section>
 
-      {/* 内定から入社までの手続き */}
+      {/* sec5 退職の法的整理 */}
       <section id="sec5" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">内定から入社までの手続き</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">退職〜入社の法的ルール（民法627条・就業規則・有給消化）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              内定から入社までの手続きについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、内定から入社までの手続きを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、内定から入社までの手続きに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+              スケジュールの最終盤で効いてくるのが退職の法的ルールです。誤解が多いポイントなので、事実関係を整理しておきます。
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント1
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                内定から入社までの手続きにおいて最も重要なのは、自分の強みと市場のニーズをマッチさせることです。IT業界は技術の進歩が速いため、常に最新のトレンドを意識しながら、自分のスキルセットをアップデートしていきましょう。
+          <div className="space-y-4">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>法律上の最短は「申し出から2週間」（民法627条1項）</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                期間の定めのない雇用（正社員）の場合、民法627条1項は「解約の申入れの日から二週間を経過することによって終了する」と定めており、<strong>会社の承諾がなくても退職は成立します</strong>。「退職は認めない」「後任が決まるまで辞めさせない」という引き止めに法的な拘束力はありません（出典: e-Gov法令検索「民法」第627条、2026年6月参照）。
               </p>
             </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント2
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなく、ワークライフバランスや職場環境も重要な判断基準になります。産休育休制度の充実度やリモートワークの可否なども含めて、総合的に評価しましょう。
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>就業規則の「1ヶ月前」とどちらが優先か</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                就業規則に「退職は1ヶ月前（2ヶ月前）までに申し出ること」とある企業は多くあります。民法627条の2週間との関係では、<strong>民法の規定が優先するというのが一般的な解釈</strong>です。ただし円満退職と引き継ぎの観点では就業規則の予告期間を尊重するのが現実的で、スケジュール設計上は「法律上の最短2週間」を前提にせず、<strong>退職の申し出から退職日まで1〜2ヶ月</strong>を確保しておくのが安全です。
               </p>
             </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント3
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                転職エージェントの活用は、効率的な転職活動に欠かせません。IT特化型と女性特化型のエージェントを併用することで、技術面と生活面の両方のニーズに合った求人を見つけやすくなります。
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>有給消化は労働者の権利 — ただし期間を計算に入れる</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                年次有給休暇は労働基準法39条に基づく権利で、退職前にまとめて取得することも可能です。会社には時季変更権がありますが、退職日を越えて時季を変更することはできないため、<strong>退職日までの残日数消化を会社が拒むことは原則できません</strong>。一方スケジュール面では、残有給が20日あれば実質約1ヶ月分の勤務日が消えるため、「最終出社日」と「退職日」が大きくずれます。引き継ぎ完了→有給消化→退職日→入社日の順で、退職交渉の最初に時系列を共有しておくと揉めません（出典: 労働基準法第39条、厚生労働省「年次有給休暇の取得促進」、2026年6月参照）。
               </p>
             </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント4
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                実際に転職に成功した女性エンジニアの多くが、「エージェントに相談して良かった」と語っています。自分の市場価値を客観的に把握し、適正な年収で転職するためにも、プロのアドバイスを活用しましょう。
-              </p>
-            </div>
+          </div>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              退職の切り出し方、引き止め（カウンターオファー）への対応、ソースコードや権限まわりのエンジニア特有の注意点は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#0891b2" }}>円満退職・退職交渉の進め方ガイド</a>で具体的に解説しています。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* 転職活動を効率化するコツ */}
+      {/* FAQ */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職活動を効率化するコツ</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              転職活動を効率化するコツについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、転職活動を効率化するコツを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、転職活動を効率化するコツに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
+          <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
+          <div className="space-y-4">
+            {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+                <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
+                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
+                </summary>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* 転職のベストタイミング */}
-      <section id="sec7" className="py-10">
+      {/* 出典 */}
+      <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職のベストタイミング</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              転職のベストタイミングについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、転職のベストタイミングを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、転職のベストタイミングに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>転職のベストタイミングに関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold mb-6">出典・参考</h2>
+          <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+            <li>・出典: 厚生労働省「令和2年転職者実態調査の概況」（2026年6月参照）— 転職活動開始から離職までの期間「1ヶ月以上3ヶ月未満」28.8%・「1ヶ月未満」18.3%、離職から就職までの期間「離職期間なし」26.1%・「1ヶ月未満」27.6%</li>
+            <li>・出典: マイナビキャリアリサーチLab「中途採用状況調査2025年版（2024年実績）」（従業員3名以上の企業の人事担当者1,500名、2024年12月調査、2026年6月参照）— 応募〜内定応諾の平均日数（Web面接31.3日・対面29.2日）、応募〜面接の平均日数11.8日、平均面接回数（Web3.0回・対面2.7回）、IT・通信・インターネット業種の一次面接「Web面接が50%以上」81.6%</li>
+            <li>・出典: doda（パーソルキャリア）「『何社受ける？』転職成功者の平均応募社数、書類や面接の通過率は？」（集計期間: 2025年4月〜2026年3月、2026年6月参照）— 転職成功者の平均応募社数31.9社</li>
+            <li>・出典: マイナビキャリアリサーチLab「転職活動実態調査（2025年）」（2025年7月調査、2026年6月参照）— 転職活動者の想定活動期間は「3ヶ月以上半年未満」28.1%で最多</li>
+            <li>・出典: e-Gov法令検索「民法」第627条1項（2026年6月参照）— 期間の定めのない雇用は解約申入れから2週間の経過で終了</li>
+            <li>・出典: 労働基準法第39条、厚生労働省「年次有給休暇の取得促進」特設サイト（2026年6月参照）— 年次有給休暇の権利と取得ルール</li>
+            <li>・参考: 最高裁昭和57年10月7日判決（大和銀行事件）— 賞与の支給日在籍要件を有効と判断</li>
+            <li>・参考: 人事院「期末手当・勤勉手当」（2026年6月参照）— 国家公務員の賞与支給日は6月30日・12月10日</li>
+            <li>・参考: 厚生労働省「育児・介護休業法のあらまし」、ハローワークインターネットサービス「育児休業給付」（いずれも2026年6月参照）— 労使協定による入社1年未満の労働者の育休除外、育児休業給付金の被保険者期間要件</li>
+          </ul>
         </div>
       </section>
 
@@ -648,132 +552,34 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                転職成功者Aさん（30代前半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">中小IT企業のエンジニア / 年収400万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                  <p className="text-sm font-bold">大手Web企業のシニアエンジニア / 年収580万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                IT特化型エージェントを活用し、技術力を正当に評価してくれる企業に出会いました。年収180万円アップに加え、フルリモート勤務が可能になり、ワークライフバランスが大幅に改善。「エージェントに相談して本当に良かった」と語っています。
-              </p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                転職成功者Bさん（20代後半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">SES企業のエンジニア / 年収350万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                  <p className="text-sm font-bold">自社開発企業のエンジニア / 年収480万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                女性特化型のエージェントを利用し、産休育休制度が充実した自社開発企業に転職。年収130万円アップと働きやすい環境の両方を手に入れました。「女性の悩みに寄り添ったサポートが心強かった」とのこと。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
-          <div className="space-y-4">
-            {faqData.mainEntity.map(
-              (
-                faq: { name: string; acceptedAnswer: { text: string } },
-                i: number
-              ) => (
-                <details
-                  key={i}
-                  className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
-                >
-                  <summary
-                    className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
-                  >
-                    <span className="pr-4">{faq.name}</span>
-                    <span className="transition-transform group-open:rotate-180">
-                      &#9662;
-                    </span>
-                  </summary>
-                  <div
-                    className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
-                  >
-                    <p className="pt-4">{faq.acceptedAnswer.text}</p>
-                  </div>
-                </details>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
       {/* 関連記事 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a
-              href="/articles/salary/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                女性エンジニアの年収ガイド
-              </h3>
-              <p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p>
+            <a href="/articles/job-hunting-while-employed/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>在職中の転職活動の進め方</h3>
+              <p className="text-sm text-text-light">面接の日程調整術・会社に知られない注意点</p>
             </a>
-            <a
-              href="/articles/career-path/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                キャリアパス設計ガイド
-              </h3>
-              <p className="text-sm text-text-light">5年後・10年後のキャリア設計</p>
+            <a href="/articles/amicable-resignation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>円満退職・退職交渉の進め方</h3>
+              <p className="text-sm text-text-light">切り出し方・引き止め対応・引き継ぎの手順</p>
             </a>
-            <a
-              href="/articles/remote-jobs/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                リモートワーク求人ガイド
-              </h3>
-              <p className="text-sm text-text-light">在宅勤務のメリットと探し方</p>
+            <a href="/articles/resume-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職務経歴書の書き方</h3>
+              <p className="text-sm text-text-light">準備フェーズの土台になる実績の棚卸し</p>
             </a>
-            <a
-              href="/articles/how-to-choose/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                エージェント選び方ガイド
-              </h3>
-              <p className="text-sm text-text-light">失敗しない5つのポイント</p>
+            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>面接対策ガイド</h3>
+              <p className="text-sm text-text-light">選考フロー全体図と頻出質問の答え方</p>
+            </a>
+            <a href="/articles/offer-meeting/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>オファー面談で確認すべきこと</h3>
+              <p className="text-sm text-text-light">内定後の条件交渉・制度確認のチェックリスト</p>
+            </a>
+            <a href="/articles/mama-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ママエンジニアの働き方ガイド</h3>
+              <p className="text-sm text-text-light">育児と両立する働き方と法制度</p>
             </a>
           </div>
         </div>

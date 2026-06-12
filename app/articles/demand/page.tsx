@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性エンジニアの需要と将来性｜2026年のIT業界トレンド",
+  title: "女性エンジニアの需要はなぜ高い？統計データで見る市場価値【2026年最新】",
   description:
-    "女性エンジニアの需要と将来性。2026年のIT業界トレンド女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+    "女性エンジニアの需要を統計データで検証。IT人材は2030年に最大約79万人不足（経産省）、エンジニア求人倍率10.68倍（doda）、日本の女性エンジニア比率18.8%はOECD平均以下。人材不足×低い女性比率×ダイバーシティ要請×政策の後押しという構造的理由と、需要を年収・キャリアに変える方法を全数値出典付きで解説します。",
   alternates: { canonical: "/articles/demand/" },
   openGraph: {
-    title: "女性エンジニアの需要と将来性｜2026年のIT業界トレンド",
+    title: "女性エンジニアの需要はなぜ高い？統計データで見る市場価値【2026年最新】",
     description:
-      "女性エンジニアの需要と将来性。2026年のIT業界トレンド女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+      "IT人材は2030年に最大約79万人不足（経産省）、エンジニア求人倍率10.68倍（doda）、女性エンジニア比率18.8%。女性エンジニアの需要が高い構造的理由を統計データと出典で論証し、需要を市場価値に変える方法まで解説します。",
     url: "https://women-engineer.com/articles/demand/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性エンジニアの需要と将来性｜2026年のIT業界トレンド",
+  headline: "女性エンジニアの需要はなぜ高い？統計データで見る市場価値【2026年最新】",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "女性エンジニアの需要と将来性。2026年のIT業界トレンド女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+    "IT人材は2030年に最大約79万人不足（経済産業省）、エンジニア求人倍率10.68倍（doda）、日本の女性エンジニア比率18.8%（ヒューマンリソシア）。女性エンジニアの需要が高い構造的理由を公的統計・公開調査の出典付きで論証したデータ記事。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/demand/",
@@ -47,42 +47,42 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "女性エンジニアの需要と将来性で最も重要なポイントは何ですか？",
+      name: "女性エンジニアの需要は本当に高いのですか？データはありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "最も重要なのは、自分のスキルと経験を客観的に評価し、市場価値に見合った転職先を選ぶことです。IT特化型の転職エージェントを活用することで、技術力を正当に評価した求人を紹介してもらえます。複数のエージェントに登録して比較検討するのがおすすめです。",
+        text: "あります。まず職種全体として、エンジニア（IT・通信）の転職求人倍率は10.68倍（パーソルキャリア「doda転職求人倍率レポート」2026年3月、全職種平均2.39倍）で、1人の転職希望者に約10件の求人がある状態です。背景には経済産業省「IT人材需給に関する調査」が示す2030年に最大約79万人のIT人材不足という構造的な需給ギャップがあります。さらにIPA「DX動向2025」では、DXを推進する人材が量的に不足していると答えた日本企業は85.1%に達します。この「全体需要の高さ」に、女性比率18.8%という少数派ゆえのダイバーシティ採用の動きが重なるのが、女性エンジニアの需要の実態です。",
       },
     },
     {
       "@type": "Question",
-      name: "女性エンジニアならではの注意点はありますか？",
+      name: "なぜ企業は女性エンジニアの採用・登用を強化しているのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "産休育休制度の取得実績、リモートワークの運用実態、女性管理職の比率、時短勤務制度の詳細など、女性のキャリア継続に関わる情報を事前に確認することが重要です。エージェント経由なら、求人票には載らない企業のリアルな情報を入手できます。",
+        text: "理由は大きく3つです。(1)人材不足への対応：2030年に最大約79万人のIT人材不足（経済産業省）が見込まれる中、女性比率18.8%のIT業界には未開拓の採用母集団が残っています。(2)法令・開示要請：2026年4月施行の改正女性活躍推進法により、男女間賃金差異と女性管理職比率の公表義務が常時雇用101人以上の企業に拡大され、女性の採用・登用実績が外部から見える時代になりました。(3)政府目標：女性版骨太の方針2023は東証プライム上場企業の女性役員比率を2030年までに30%以上とする目標を掲げています。採用・登用の実績づくりが企業の経営課題になっているのが現状です。",
       },
     },
     {
       "@type": "Question",
-      name: "転職エージェントは無料で利用できますか？",
+      name: "日本の女性エンジニア比率はどのくらいですか？海外と比べて低いのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、転職エージェントの利用は完全無料です。エージェントは企業側から成功報酬を受け取るビジネスモデルのため、転職者には費用がかかりません。キャリア相談だけの利用も可能で、転職するか迷っている段階でも気軽に相談できます。",
+        text: "ヒューマンリソシア「データで見る世界のITエンジニアレポート」によると、日本のITエンジニアに占める女性比率は18.8%（2023年データ）で、OECD平均の20.6%を下回り、比較33カ国中17位です。約5人に1人未満という少数派であることが、逆に「女性エンジニアを増やしたい」という企業・政府双方の動きを生んでいます。なお、この比率は調査によって定義（対象職種の範囲）が異なるため、出典とセットで読むことが重要です。",
       },
     },
     {
       "@type": "Question",
-      name: "転職活動にどのくらいの期間がかかりますか？",
+      name: "未経験の女性でもエンジニア需要の恩恵を受けられますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "エンジニアの転職活動は平均1〜3ヶ月です。準備期間を含めると2〜4ヶ月が目安です。ただし、希望条件の厳しさや市場状況によって変動します。在職中に転職活動を行い、焦らずに最適な転職先を見つけることをおすすめします。",
+        text: "受けられますが、条件があります。求人倍率10.68倍（doda、2026年3月）は経験者を含むIT・通信全体の値で、未経験者向け求人の倍率はこれより低くなります。一方で政府は「女性デジタル人材育成プラン」（2022年4月・男女共同参画会議決定）でデジタルスキル習得支援と就労支援を推進しており、自治体の無料講座や東京都の女性向けIT育成事業など、未経験から学べる公的支援が整っています。需要の恩恵を受けるには、3〜6か月程度の学習でポートフォリオを作り、需要の高い分野のスキルを示せる状態にすることが前提です。",
       },
     },
     {
       "@type": "Question",
-      name: "おすすめの転職エージェントはどこですか？",
+      name: "特に需要が高い職種・スキルは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "IT特化型のレバテックキャリアとGeekly、女性特化型のtype女性の転職エージェントがおすすめです。IT特化型はエンジニアの技術力を正当に評価した求人を提案してくれ、女性特化型は産休育休やリモートワークなど女性のニーズに合った求人を紹介してくれます。2〜3社の併用がベストです。",
+        text: "年収データから逆算すると、上流工程・クラウド・AI・セキュリティ分野の需要が突出しています。dodaの「平均年収ランキング2025」では技術系（IT/通信）の最高はプロジェクトマネジャーの707万円で、セキュリティコンサルタント/アナリスト649万円、プリセールス642万円が続きます。高い年収は採用競争の激しさ＝需要の強さの表れです。IPA「DX動向2025」でもDX推進人材の量が「大幅に不足」とする企業が58.5%に上り、DX文脈のスキル（クラウド、データ活用、AI）は今後も需要が続くと読めます。",
       },
     },
   ],
@@ -112,7 +112,7 @@ export default function ArticlePage() {
             items={[
               { label: "ホーム", href: "/" },
               { label: "転職コラム", href: "/articles/" },
-              { label: "女性エンジニアの需要と将来性" },
+              { label: "女性エンジニアの需要データ" },
             ]}
           />
           <div className="mt-4">
@@ -120,21 +120,48 @@ export default function ArticlePage() {
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
               style={{ backgroundColor: "#0891b2" }}
             >
-              業界分析
+              データ・統計
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              女性エンジニアの需要と将来性
+              女性エンジニアの需要はなぜ高い？
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                2026年最新のIT業界トレンドを分析
+                統計データで見る市場価値【2026年最新】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>結論：データで見る女性エンジニアの需要</h2>
+            <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span>IT人材は<strong>2030年に最大約79万人不足</strong>の試算（出典: 経済産業省「IT人材需給に関する調査」）。エンジニア（IT・通信）の転職求人倍率は<strong>10.68倍</strong>と全職種平均2.39倍の4倍超です（出典: doda転職求人倍率レポート・2026年3月）。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span>日本のITエンジニアの女性比率は<strong>18.8%</strong>で、OECD平均20.6%を下回る33カ国中17位（出典: ヒューマンリソシア）。<strong>人材不足なのに女性が少ない</strong>＝企業にとって最大の未開拓採用層です。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span>政策も後押し。「<strong>女性デジタル人材育成プラン</strong>」（2022年・男女共同参画会議）に加え、<strong>2026年4月施行の改正女性活躍推進法</strong>で男女間賃金差異・女性管理職比率の公表義務が101人以上の企業へ拡大。女性の採用・登用が企業の開示項目になりました。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span>ただし需要は「女性だから」ではなく<strong>スキルとセット</strong>で発生します。需要を年収に変える職種・スキル戦略は本文6章へ。</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* 目次 */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
@@ -144,37 +171,37 @@ export default function ArticlePage() {
             <ol className="space-y-2 text-sm">
               <li>
                 <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
-                  1. 女性エンジニアの需要が高い理由
+                  1. IT人材不足の現状 — 経産省試算と求人倍率データ
                 </a>
               </li>
               <li>
                 <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
-                  2. 2026年のIT業界の主要トレンド
+                  2. 女性エンジニア比率の統計 — 日本とOECDの比較
                 </a>
               </li>
               <li>
                 <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
-                  3. 需要が高いスキル・技術分野
+                  3. 需要が高い4つの構造的理由（データで論証）
                 </a>
               </li>
               <li>
                 <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
-                  4. 女性エンジニアの将来性
+                  4. 政策の後押し — 女性デジタル人材育成プランと改正女性活躍推進法
                 </a>
               </li>
               <li>
                 <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
-                  5. IT業界のダイバーシティ推進の現状
+                  5. 企業のダイバーシティ採用はどこまで本気か
                 </a>
               </li>
               <li>
                 <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
-                  6. 需要の高い職種ランキング
+                  6. 需要を市場価値に変える方法 — 職種選択とスキル投資
                 </a>
               </li>
               <li>
                 <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
-                  7. 将来を見据えたスキル投資
+                  7. データを読むときの3つの注意点
                 </a>
               </li>
               <li>
@@ -184,12 +211,12 @@ export default function ArticlePage() {
               </li>
               <li>
                 <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
-                  9. 転職成功事例
+                  9. よくある質問
                 </a>
               </li>
               <li>
                 <a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>
-                  10. よくある質問
+                  10. 出典・参考資料
                 </a>
               </li>
             </ol>
@@ -197,384 +224,305 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* 女性エンジニアの需要が高い理由 */}
+      {/* sec1 IT人材不足 */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">女性エンジニアの需要が高い理由</h2>
+          <h2 className="text-2xl font-bold mb-6">IT人材不足の現状 — 経産省試算と求人倍率データ</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              女性エンジニアの需要が高い理由について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              女性エンジニアの需要を語る出発点は、IT人材全体の需給ギャップです。経済産業省「IT人材需給に関する調査」（みずほ情報総研、2019年4月公表）は、IT需要の伸びと労働生産性の変化に応じた3つのシナリオで2030年のIT人材不足数を試算しています。
+            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>シナリオ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>前提（IT需要の伸び率）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>2030年の不足数</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>低位シナリオ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約16万人</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>中位シナリオ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約2〜5%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約45万人</td>
+                </tr>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>高位シナリオ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約3〜9%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>最大約79万人</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-text-light text-sm mt-3">
+            出典: 経済産業省「IT人材需給に関する調査」（みずほ情報総研、2019年4月公表）（2026年6月参照）。よく引用される「79万人不足」は高位シナリオの値です。
+          </p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              この需給ギャップは、転職市場の数値にそのまま表れています。パーソルキャリア「doda転職求人倍率レポート」（2026年4月発行版）によると、2026年3月の転職求人倍率は全職種平均2.39倍に対し、<strong>エンジニア（IT・通信）は10.68倍</strong>。転職希望者1人に対して約10件の求人がある計算で、全職種の中でも突出した売り手市場です。
             </p>
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、女性エンジニアの需要が高い理由を考える上でも大きなプラス要因です。
+              さらに企業側の実感を示すのがIPA（情報処理推進機構）「DX動向2025」です。DXを推進する人材の「量」が不足していると答えた日本企業は<strong>85.1%</strong>（「大幅に不足している」だけで58.5%）。米国の23.8%、ドイツの44.6%と比べても、日本の人材不足感は突出しています。
             </p>
             <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
+              つまり「エンジニアの需要が高い」は感覚論ではなく、<strong>政府試算・求人倍率・企業調査の3系統のデータが揃って示す事実</strong>です。この大きな需要の中に、女性エンジニア固有の需要構造が乗っています。次章で見ていきます。
             </p>
-            <p>
-              ここでは、女性エンジニアの需要が高い理由に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性エンジニアの需要が高い理由に関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* 2026年のIT業界の主要トレンド */}
+      {/* sec2 女性比率 */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">2026年のIT業界の主要トレンド</h2>
+          <h2 className="text-2xl font-bold mb-6">女性エンジニア比率の統計 — 日本とOECDの比較</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              2026年のIT業界の主要トレンドについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、2026年のIT業界の主要トレンドを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、2026年のIT業界の主要トレンドに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+              ヒューマンリソシア「データで見る世界のITエンジニアレポート」によると、日本のITエンジニアに占める女性比率は<strong>18.8%</strong>（2023年データ）です。OECD平均の20.6%を下回り、比較対象の33カ国中17位。エンジニアの約5人に4人以上が男性という構成は、他の主要職種と比べても女性が明確な少数派であることを示します。
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント1
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                2026年のIT業界の主要トレンドにおいて最も重要なのは、自分の強みと市場のニーズをマッチさせることです。IT業界は技術の進歩が速いため、常に最新のトレンドを意識しながら、自分のスキルセットをアップデートしていきましょう。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント2
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなく、ワークライフバランスや職場環境も重要な判断基準になります。産休育休制度の充実度やリモートワークの可否なども含めて、総合的に評価しましょう。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント3
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                転職エージェントの活用は、効率的な転職活動に欠かせません。IT特化型と女性特化型のエージェントを併用することで、技術面と生活面の両方のニーズに合った求人を見つけやすくなります。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント4
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                実際に転職に成功した女性エンジニアの多くが、「エージェントに相談して良かった」と語っています。自分の市場価値を客観的に把握し、適正な年収で転職するためにも、プロのアドバイスを活用しましょう。
-              </p>
-            </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>指標</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>数値</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>日本のITエンジニア女性比率</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>18.8%（2023年データ）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ヒューマンリソシア「データで見る世界のITエンジニアレポート」</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>OECD平均の女性比率</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>20.6%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同上</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>日本の国際順位</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>比較33カ国中17位</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同上</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-text-light text-sm mt-3">
+            出典: ヒューマンリソシア「データで見る世界のITエンジニアレポート」（2026年6月参照）。女性比率は調査ごとに対象職種の定義が異なるため、数値は出典とセットで参照してください。
+          </p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              重要なのは、この「18.8%」を人材不足（前章）と重ねて読むことです。エンジニアが79万人規模で足りなくなる試算がある一方、<strong>労働力の半分を占める女性がエンジニア職では2割弱しかいない</strong>。企業から見れば、女性は採用市場に残された最大の未開拓層であり、政府から見れば、デジタル分野のジェンダーギャップ解消と人材確保を同時に達成できる政策ターゲットです。
+            </p>
+            <p>
+              実際、この構図が4章で扱う「女性デジタル人材育成プラン」の出発点になっています。少数派であることは現場で心細さにつながる面もありますが、<strong>需要の観点では明確に追い風</strong>──これがデータから言える結論です。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* 需要が高いスキル・技術分野 */}
+      {/* sec3 構造的理由 */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">需要が高いスキル・技術分野</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">需要が高い4つの構造的理由（データで論証）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              需要が高いスキル・技術分野について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              ここまでのデータを整理すると、女性エンジニアの需要は「一時的なブーム」ではなく、4つの要因が重なった<strong>構造的なもの</strong>だと分かります。それぞれに数値の裏付けがあります。
             </p>
+          </div>
+          <div className="space-y-4">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由1: IT人材の絶対数が足りない</h3>
+              <p className="text-sm text-text-light">
+                2030年に最大約79万人不足（出典: 経済産業省）、求人倍率10.68倍（出典: doda・2026年3月）、企業の85.1%がDX人材の量不足を認識（出典: IPA「DX動向2025」）。<strong>性別以前に、エンジニアという職種全体が長期の売り手市場</strong>です。需要の土台はここにあります。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由2: 女性比率18.8%＝最大の未開拓採用層</h3>
+              <p className="text-sm text-text-light">
+                人材が足りないのに、女性はエンジニアの2割弱しかいません（出典: ヒューマンリソシア）。男性エンジニアの獲得競争が激化する中、<strong>女性の採用母集団を広げることが人材確保の合理的な戦略</strong>になっており、女性向け採用イベントやリターン採用（復職者向け採用）を行う企業が増えています。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由3: ダイバーシティが「開示される経営指標」になった</h3>
+              <p className="text-sm text-text-light">
+                2026年4月施行の改正女性活躍推進法で、<strong>男女間賃金差異と女性管理職比率の公表義務が常時雇用101人以上の企業に拡大</strong>（出典: 厚生労働省）。女性版骨太の方針2023は東証プライム上場企業の女性役員比率を<strong>2030年までに30%以上</strong>とする目標を設定（出典: 内閣府男女共同参画局）。女性の採用・登用は「善意の取り組み」から「外部に開示される経営指標」へ変わり、実績づくりの需要が生まれています。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由4: 政府が予算をつけて女性デジタル人材を育成している</h3>
+              <p className="text-sm text-text-light">
+                「女性デジタル人材育成プラン」（2022年4月・男女共同参画会議決定）により、デジタルスキル習得支援と就労支援が国・自治体の事業として展開されています（出典: 内閣府男女共同参画局）。<strong>学習段階から公的支援がある職種は他にほとんどなく</strong>、未経験からの参入ルートが制度として整備されているのが特徴です（詳細は次章）。
+              </p>
+            </div>
+          </div>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、需要が高いスキル・技術分野を考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、需要が高いスキル・技術分野に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+              まとめると、<strong>「人材不足（需要の土台）×低い女性比率（未開拓層）×開示義務化（企業の動機）×政策の後押し（参入支援）」</strong>の4つが同時に働いているのが2026年の状況です。一つの要因が崩れても他が残る多重構造のため、需要は短期では消えにくいと考えられます。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 女性エンジニアの将来性 */}
+      {/* sec4 政策 */}
       <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">女性エンジニアの将来性</h2>
+          <h2 className="text-2xl font-bold mb-6">政策の後押し — 女性デジタル人材育成プランと改正女性活躍推進法</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              女性エンジニアの将来性について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              女性エンジニアに関係する政策は、実在する公的文書で確認できます。代表的な3つを整理します。
+            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>政策</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>内容</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>女性デジタル人材育成プラン<br />（2022年4月26日決定）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男女共同参画会議で決定。就労に直結するデジタルスキルの習得支援と、デジタル分野への就労支援を政府一体で集中的に推進。自治体の無料・低額講座等の事業に展開</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>内閣府男女共同参画局</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>改正女性活躍推進法<br />（2026年4月1日施行）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男女間賃金差異の公表義務を常時雇用101人以上の企業に拡大し、女性管理職比率の公表を新たに義務化（101〜300人企業は計3項目以上の公表が必要）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>女性版骨太の方針2023<br />（2023年6月決定）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>東証プライム上場企業の女性役員比率を2030年までに30%以上とする目標。2025年をめどに女性役員最低1人の選任を促す（努力義務）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>内閣府男女共同参画局</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-text-light text-sm mt-3">
+            出典: 内閣府男女共同参画局「女性デジタル人材育成プラン」、厚生労働省「改正女性活躍推進法」関連資料（いずれも2026年6月参照）。
+          </p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              転職者の視点で重要なのは2点です。第一に、<strong>未経験者には学習段階の公的支援がある</strong>こと。女性デジタル人材育成プランに基づく事業として、自治体の女性向けITスキル講座が各地で実施されており、東京都の事例は<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#0891b2" }}>東京都の女性ITエンジニア育成事業の記事</a>で詳しく解説しています。
             </p>
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、女性エンジニアの将来性を考える上でも大きなプラス要因です。
+              第二に、<strong>経験者には「開示時代の選社眼」が持てる</strong>こと。2026年4月以降、101人以上の企業は男女間賃金差異と女性管理職比率を公表するため、応募前に企業の実態を数値で比較できます。賃金差が小さく女性管理職比率が高い企業の見極め方は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の記事</a>を参照してください。
             </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、女性エンジニアの将来性に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性エンジニアの将来性に関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* IT業界のダイバーシティ推進の現状 */}
+      {/* sec5 ダイバーシティ採用動向 */}
       <section id="sec5" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">IT業界のダイバーシティ推進の現状</h2>
+          <h2 className="text-2xl font-bold mb-6">企業のダイバーシティ採用はどこまで本気か</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              IT業界のダイバーシティ推進の現状について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              「ダイバーシティ採用」は掛け声だけの企業と、実態が伴う企業に分かれます。本気度を測る客観的な手がかりは、<strong>企業が外部に公表している数値</strong>です。
             </p>
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、IT業界のダイバーシティ推進の現状を考える上でも大きなプラス要因です。
+              まず制度面では、女性活躍推進法に基づき常時雇用101人以上の企業は行動計画の策定・情報公表が義務で、厚生労働省「女性の活躍推進企業データベース」で<strong>企業名から女性採用比率・女性管理職比率・男女別の育休取得率などを無料検索</strong>できます。2026年4月の改正施行後は男女間賃金差異・女性管理職比率の公表対象が101人以上へ広がるため、比較できる企業数はさらに増えます。
             </p>
             <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
+              上場企業については、2023年3月期から有価証券報告書で女性管理職比率・男性育休取得率・男女間賃金差異の開示が義務化されており（出典: 金融庁・企業内容等の開示に関する内閣府令の改正）、投資家もこれらの数値で企業を評価します。<strong>採用ページの言葉ではなく、開示数値の推移で本気度を判断できる</strong>時代です。
             </p>
             <p>
-              ここでは、IT業界のダイバーシティ推進の現状に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+              なお、IT業界はこの文脈で有利な実態データを持っています。情報通信業の育休取得率は女性94.4%・男性58.1%と全産業平均（女性86.6%・男性40.5%）を大きく上回り（出典: 厚生労働省「令和6年度雇用均等基本調査」）、テレワーク導入率は94.3%と全産業トップ（出典: 総務省「令和6年通信利用動向調査」）。<strong>「長く働き続けられる環境」の整備が他業界より進んでいる</strong>ことが、女性のキャリア継続と需要の好循環を支えています。
             </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント1
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                IT業界のダイバーシティ推進の現状において最も重要なのは、自分の強みと市場のニーズをマッチさせることです。IT業界は技術の進歩が速いため、常に最新のトレンドを意識しながら、自分のスキルセットをアップデートしていきましょう。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント2
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなく、ワークライフバランスや職場環境も重要な判断基準になります。産休育休制度の充実度やリモートワークの可否なども含めて、総合的に評価しましょう。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント3
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                転職エージェントの活用は、効率的な転職活動に欠かせません。IT特化型と女性特化型のエージェントを併用することで、技術面と生活面の両方のニーズに合った求人を見つけやすくなります。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント4
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                実際に転職に成功した女性エンジニアの多くが、「エージェントに相談して良かった」と語っています。自分の市場価値を客観的に把握し、適正な年収で転職するためにも、プロのアドバイスを活用しましょう。
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* 需要の高い職種ランキング */}
+      {/* sec6 市場価値に変える */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">需要の高い職種ランキング</h2>
+          <h2 className="text-2xl font-bold mb-6">需要を市場価値に変える方法 — 職種選択とスキル投資</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              需要の高い職種ランキングについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              需要が高くても、それが自動的に年収やキャリアに変わるわけではありません。需要の強い分野に自分のスキルを寄せることで初めて市場価値になります。判断材料として、dodaの「平均年収ランキング2025」による技術系（IT/通信）の高年収職種を見てみます。<strong>年収の高さは、採用競争の激しさ＝需要の強さの代理指標</strong>です。
+            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種（技術系 IT/通信）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>需要の背景</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プロジェクトマネジャー</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>707万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>DX案件の増加に対し上流人材が恒常的に不足</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>セキュリティコンサルタント/アナリスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>649万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>サイバー攻撃対策・法令対応で需要が拡大</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プリセールス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>642万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SaaS拡大で技術×提案の複合人材が希少</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-text-light text-sm mt-3">
+            出典: パーソルキャリア「doda平均年収ランキング2025」技術系（IT/通信）（2026年6月参照）。
+          </p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              スキル面では、IPA「DX動向2025」が示すとおりDX推進人材（クラウド・データ活用・AI関連）の不足感が最も強く、この領域のスキル投資は需要に直結します。女性ITエンジニアの平均年収419万円（出典: doda「平均年収ランキング2025」）に対し、上記の高需要職種は200万円以上高い水準にあり、<strong>職種選択そのものが最大の年収戦略</strong>です。年収データの全体像は<a href="/articles/salary/" className="underline" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</a>で詳しく整理しています。
             </p>
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、需要の高い職種ランキングを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、需要の高い職種ランキングに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+              キャリアの組み立て方は段階によって異なります。未経験から参入するなら、公的支援を活用しつつ3〜6か月の学習でポートフォリオを作るのが現実的なルートです（<a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>未経験から女性エンジニアになる方法</a>）。経験者なら、マネジメント・スペシャリスト・フリーランスなどの選択肢を5年単位で設計することで需要を長期の市場価値に変えられます（<a href="/articles/career-path/" className="underline" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</a>）。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 将来を見据えたスキル投資 */}
+      {/* sec7 注意点 */}
       <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">将来を見据えたスキル投資</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              将来を見据えたスキル投資について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、将来を見据えたスキル投資を考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、将来を見据えたスキル投資に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>将来を見据えたスキル投資に関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
-              </ul>
+          <h2 className="text-2xl font-bold mb-6">データを読むときの3つの注意点</h2>
+          <div className="space-y-4">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 「79万人不足」は最大シナリオの値</h3>
+              <p className="text-sm text-text-light">
+                経産省の試算は低位約16万人・中位約45万人・高位約79万人の3シナリオで、79万人は最も需要が伸びるケースです。また2019年公表の試算であり、AIによる生産性向上などで実際の数値は変わりえます。「最大で79万人という試算がある」という読み方が正確です。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>2. 求人倍率10.68倍は「経験者を含むIT・通信全体」の単月値</h3>
+              <p className="text-sm text-text-light">
+                doda転職求人倍率レポートの値は月次で変動し、経験者向け求人が大半を占めます。未経験者向け・地方・特定職種に絞ると倍率は下がるため、「自分の条件での需要」はエージェント経由で個別に確認するのが確実です。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 需要は「女性だから」ではなく「スキル×女性比率の文脈」で生まれる</h3>
+              <p className="text-sm text-text-light">
+                開示義務や政府目標は採用の追い風ですが、選考で評価されるのはスキルと実績です。「女性優遇で採用される」と読むのは誤りで、「同等のスキルなら需要構造が有利に働く」が正しい理解です。だからこそ6章のとおり、需要の強い分野へのスキル投資が市場価値を決めます。
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* おすすめ転職エージェント */}
+      {/* sec8 おすすめ転職エージェント */}
       <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
@@ -648,53 +596,8 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* 成功事例 */}
+      {/* sec9 FAQ */}
       <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                転職成功者Aさん（30代前半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">中小IT企業のエンジニア / 年収400万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                  <p className="text-sm font-bold">大手Web企業のシニアエンジニア / 年収580万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                IT特化型エージェントを活用し、技術力を正当に評価してくれる企業に出会いました。年収180万円アップに加え、フルリモート勤務が可能になり、ワークライフバランスが大幅に改善。「エージェントに相談して本当に良かった」と語っています。
-              </p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                転職成功者Bさん（20代後半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">SES企業のエンジニア / 年収350万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                  <p className="text-sm font-bold">自社開発企業のエンジニア / 年収480万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                女性特化型のエージェントを利用し、産休育休制度が充実した自社開発企業に転職。年収130万円アップと働きやすい環境の両方を手に入れました。「女性の悩みに寄り添ったサポートが心強かった」とのこと。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
@@ -730,6 +633,29 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      {/* sec10 出典 */}
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
+          <ul className="space-y-2 text-sm text-text-light">
+            <li>・出典: 経済産業省「IT人材需給に関する調査」（みずほ情報総研、2019年4月公表）（2026年6月参照）— 2030年のIT人材不足試算：低位約16万人・中位約45万人・高位最大約79万人</li>
+            <li>・出典: パーソルキャリア「doda転職求人倍率レポート」2026年4月発行版（2026年6月参照）— 2026年3月の転職求人倍率：全体2.39倍、エンジニア（IT・通信）10.68倍</li>
+            <li>・出典: ヒューマンリソシア「データで見る世界のITエンジニアレポート」（2026年6月参照）— 日本のITエンジニア女性比率18.8%（2023年データ）、OECD平均20.6%、比較33カ国中17位</li>
+            <li>・出典: IPA（独立行政法人情報処理推進機構）「DX動向2025」（2026年6月参照）— DX推進人材の量が不足とする日本企業85.1%（「大幅に不足」58.5%）、米国23.8%・ドイツ44.6%</li>
+            <li>・出典: 内閣府男女共同参画局「女性デジタル人材育成プラン」（2022年4月26日男女共同参画会議決定）（2026年6月参照）— デジタルスキル習得支援・就労支援の政府一体推進</li>
+            <li>・出典: 厚生労働省「改正女性活躍推進法」関連資料（2026年6月参照）— 2026年4月1日施行：男女間賃金差異の公表義務を101人以上に拡大、女性管理職比率の公表を新規義務化</li>
+            <li>・出典: 内閣府男女共同参画局「女性活躍・男女共同参画の重点方針2023（女性版骨太の方針2023）」（2026年6月参照）— 東証プライム上場企業の女性役員比率を2030年までに30%以上とする目標</li>
+            <li>・出典: 金融庁「企業内容等の開示に関する内閣府令」改正（2026年6月参照）— 2023年3月期から有価証券報告書で女性管理職比率・男性育休取得率・男女間賃金差異の開示義務化</li>
+            <li>・出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）— 情報通信業の育休取得率 女性94.4%・男性58.1%（全産業平均 女性86.6%・男性40.5%）</li>
+            <li>・出典: 総務省「令和6年通信利用動向調査」（2026年6月参照）— テレワーク導入率：情報通信業94.3%、企業全体47.3%</li>
+            <li>・出典: パーソルキャリア「doda平均年収ランキング2025」（2026年6月参照）— 技術系（IT/通信）女性平均419万円、プロジェクトマネジャー707万円、セキュリティコンサルタント/アナリスト649万円、プリセールス642万円</li>
+          </ul>
+          <p className="text-xs text-text-light mt-4">
+            ※ 本記事の統計値はすべて上記の公的統計および公開調査に基づきます。「79万人不足」は複数シナリオのうち最大値、求人倍率は月次変動のある単月値です。女性比率は調査ごとに対象職種の定義が異なるため、数値は出典とセットでご参照ください。最新の制度・数値は各出典元をご確認ください。
+          </p>
+        </div>
+      </section>
+
       {/* 関連記事 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
@@ -743,7 +669,17 @@ export default function ArticlePage() {
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
                 女性エンジニアの年収ガイド
               </h3>
-              <p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p>
+              <p className="text-sm text-text-light">平均年収の実データと年収アップ戦略</p>
+            </a>
+            <a
+              href="/articles/beginner/"
+              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
+              style={{ borderColor: "#d1dce5" }}
+            >
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+                未経験から女性エンジニアになる方法
+              </h3>
+              <p className="text-sm text-text-light">現実的な学習期間と転職活動の進め方</p>
             </a>
             <a
               href="/articles/career-path/"
@@ -756,24 +692,14 @@ export default function ArticlePage() {
               <p className="text-sm text-text-light">5年後・10年後のキャリア設計</p>
             </a>
             <a
-              href="/articles/remote-jobs/"
+              href="/articles/tokyo-women-training/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
               style={{ borderColor: "#d1dce5" }}
             >
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                リモートワーク求人ガイド
+                東京都の女性ITエンジニア育成事業
               </h3>
-              <p className="text-sm text-text-light">在宅勤務のメリットと探し方</p>
-            </a>
-            <a
-              href="/articles/how-to-choose/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                エージェント選び方ガイド
-              </h3>
-              <p className="text-sm text-text-light">失敗しない5つのポイント</p>
+              <p className="text-sm text-text-light">無料で学べる公的支援の内容と申込方法</p>
             </a>
           </div>
         </div>
