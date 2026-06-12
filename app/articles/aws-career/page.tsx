@@ -2,36 +2,78 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "AWS×女性エンジニア｜クラウドインフラの需要と転職方法",
+  title: "女性AWSエンジニア転職ガイド｜年収・需要・未経験からのロードマップ【2026年】",
   description:
-    "AWSを活かした女性エンジニアの転職ガイド。クラウドインフラの求人動向・年収・資格・学習方法を詳しく解説。インフラエンジニアやSREを目指す女性向けの情報を網羅します。",
+    "女性AWSエンジニアの転職ガイド2026年版。クラウドエンジニアの平均年収488万円（AWS特化で約580万円）・フリーランス月単価72万円などの実データ、国内クラウド市場の成長（2029年に8.8兆円予測）、EC2/S3基礎→IaC→コンテナ→セキュリティのスキルマップ、インフラ未経験からのロードマップを出典付きで解説します。",
   alternates: { canonical: "/articles/aws-career/" },
   openGraph: {
-    title: "AWS×女性エンジニア｜クラウドインフラの需要と転職方法",
-    description: "AWSを活かした女性エンジニアの転職ガイド。クラウドインフラの求人動向・年収・資格・学習方法を詳しく解説。",
+    title: "女性AWSエンジニア転職ガイド｜年収・需要・未経験からのロードマップ【2026年】",
+    description:
+      "女性AWSエンジニアの年収・需要・スキルマップ・未経験からのロードマップを実データと出典付きで解説。リモート適性が高くライフイベントと両立しやすい職種です。",
     url: "https://women-engineer.com/articles/aws-career/",
-    type: "article", siteName: "女性エンジニア転職ナビ", locale: "ja_JP",
+    type: "article",
+    siteName: "女性エンジニア転職ナビ",
+    locale: "ja_JP",
   },
 };
 
 const structuredData = {
-  "@context": "https://schema.org", "@type": "Article",
-  headline: "AWS×女性エンジニア｜クラウドインフラの需要と転職方法",
-  datePublished: "2026-04-28", dateModified: "2026-04-28",
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "女性AWSエンジニア転職ガイド｜年収・需要・未経験からのロードマップ【2026年】",
+  datePublished: "2026-04-28",
+  dateModified: "2026-06-12",
   author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  description: "AWSを活かした女性エンジニアの転職ガイド。",
+  description:
+    "女性AWSエンジニアの年収・需要・スキルマップ・未経験からのロードマップを実データと出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/aws-career/" },
 };
 
 const faqData = {
-  "@context": "https://schema.org", "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "AWS未経験から転職は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、AWS未経験からでもクラウドエンジニアへの転職は可能です。AWS認定クラウドプラクティショナーやソリューションアーキテクトアソシエイトの資格を取得し、ハンズオンで実践経験を積むことで、未経験からの転職を実現できます。学習期間は3〜6ヶ月が目安です。" } },
-    { "@type": "Question", name: "AWSエンジニアの年収はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "AWSエンジニアの平均年収は約550万〜800万円です。AWS認定資格を複数持ち、IaCやコンテナの経験があると年収700万〜1,000万円以上も期待できます。SREやクラウドアーキテクトのポジションでは年収900万〜1,200万円の求人もあります。" } },
-    { "@type": "Question", name: "AWS認定資格は転職に有利ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、AWS認定資格は転職に非常に有利です。特にソリューションアーキテクトアソシエイト（SAA）は、クラウドエンジニアの登竜門として多くの企業で評価されます。プロフェッショナルレベルの資格を持っていると、さらに市場価値が高まります。" } },
-    { "@type": "Question", name: "AWSとAzure、GCP、どれを学ぶべきですか？", acceptedAnswer: { "@type": "Answer", text: "2026年現在、クラウド市場のシェアはAWSが最大で、求人数も最も多いです。まずAWSを学び、基礎を固めた上でAzureやGCPにスキルを広げるのがおすすめです。マルチクラウドの知識があると、さらに市場価値が高まります。" } },
-    { "@type": "Question", name: "女性のインフラエンジニアは少ないですか？", acceptedAnswer: { "@type": "Answer", text: "女性のインフラエンジニアはまだ少数派ですが、クラウドの普及に伴い増加傾向にあります。従来のオンプレミスインフラと異なり、クラウドインフラはコードで管理するため、物理的な作業が少なく、リモートワークとの相性も良いです。女性エンジニアにとっても働きやすい分野です。" } },
+    {
+      "@type": "Question",
+      name: "AWSエンジニアの平均年収はいくらですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "クラウドエンジニア（正社員）の平均年収は488万円（求人ボックス 給料ナビ、2026年6月参照）で、ボリュームゾーンは431万〜518万円、全体レンジは344万〜1,040万円と幅があります。AWSに特化したエンジニアではGeeklyの自社データで平均約580万円と、エンジニア全体平均（537万円）より高水準です。フリーランスのAWS案件は平均月単価72万4,081円（レバテックフリーランス、2025年6月時点）で、年収換算では870万円前後になります。IaC・コンテナ・セキュリティまで扱える人材ほど上振れします。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "インフラ未経験の女性でもAWSエンジニアになれますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "可能です。Linux・ネットワークの基礎 → AWSの基本サービス（EC2/S3/VPC/RDS/IAM）→ IaC（Terraform/CloudFormation）→ コンテナ（Docker）の順で学び、自分でAWS上に小さな環境を構築した実績（ハンズオン＋構成図）を用意するのが王道ルートです。学習期間は1日2〜3時間で6ヶ月〜1年が目安。ヘルプデスク・運用監視・社内SEなど隣接職種からの段階的なキャリアチェンジも現実的で、AWS認定資格（CLF→SAA）が知識の証明として有効です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "AWSエンジニアはリモートワークしやすい職種ですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "リモート適性が特に高い職種です。クラウドのインフラはすべてインターネット経由のコンソールやコードで管理でき、データセンターへの物理的な出社を前提としません。総務省「令和6年通信利用動向調査」では情報通信業のテレワーク導入率は94.3%（企業全体は47.3%）と全産業で最も高い水準です。育児・介護と両立したい女性にとって、場所に縛られず成果で評価されやすいクラウド領域は有力な選択肢です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "AWSエンジニアの需要は今後も続きますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "高い需要が続く見込みです。IDC Japanは国内パブリッククラウドサービス市場が2024年に4兆1,423億円（前年比26.1%増）に達し、2024〜2029年は年平均16.3%で成長して2029年には約2.1倍の8兆8,164億円になると予測しています。生成AIの活用やクラウドマイグレーションが成長を後押ししており、dodaの転職求人倍率（2026年4月）でもエンジニア（IT・通信）は10倍超と人材不足が続いています。クラウドを設計・運用できる人材の市場価値は当面高止まりする見通しです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "AWSとGCP・Azure、どれから学ぶべきですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "迷ったらAWSからで問題ありません。Synergy Research Groupの調査では2026年第1四半期の世界クラウドインフラ市場シェアはAWSが28%で首位（Microsoft 21%、Google 14%）。国内でもMM総研の調査でIaaS利用企業の54.7%がAWSを利用しており、求人数・学習教材ともに最も充実しています。クラウドの基本概念（仮想サーバー・ストレージ・IAM・IaC）は3社で共通するため、AWSで土台を作ればAzure/GCPへの応用は容易です。詳しい比較は当サイトのGCP・Azure記事で解説しています。",
+      },
+    },
   ],
 };
 
@@ -40,7 +82,7 @@ const breadcrumbData = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
     { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
-    { "@type": "ListItem", position: 3, name: "AWS×女性エンジニア", item: "https://women-engineer.com/articles/aws-career/" },
+    { "@type": "ListItem", position: 3, name: "女性AWSエンジニア転職ガイド", item: "https://women-engineer.com/articles/aws-career/" },
   ],
 };
 
@@ -51,196 +93,256 @@ export default function ArticlePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
+      {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "AWS×女性エンジニア" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "女性AWSエンジニア転職ガイド" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>スキル・言語ガイド</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>職種別ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              AWS×女性エンジニア
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">クラウドインフラの需要と転職方法</span>
+              女性AWSエンジニア転職ガイド
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・需要・未経験からのロードマップ【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月28日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
           </div>
         </div>
       </section>
 
+      {/* 結論ボックス */}
       <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論</h2>
+            <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li>・<strong>需要は実データで右肩上がり</strong>。国内パブリッククラウド市場は2024年に4兆1,423億円（前年比26.1%増）、2029年には約2.1倍の8兆8,164億円と予測（出典: IDC Japan、2026年6月参照）</li>
+              <li>・<strong>年収はクラウドエンジニア平均488万円、AWS特化で約580万円</strong>。フリーランスAWS案件は平均月単価72万円で年収換算870万円前後（出典: 求人ボックス・Geekly・レバテックフリーランス、2026年6月参照）</li>
+              <li>・<strong>リモート適性が最高クラス</strong>。インフラをコードと画面で管理する職種で、情報通信業のテレワーク導入率は94.3%（出典: 総務省「令和6年通信利用動向調査」、2026年6月参照）</li>
+              <li>・スキルは<strong>EC2/S3など基礎 → IaC（Terraform）→ コンテナ（Docker/Kubernetes）→ セキュリティ</strong>の順に積むのが王道。インフラ未経験からでも6ヶ月〜1年で入口に立てる</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 目次 */}
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. クラウドインフラの求人動向</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. AWSエンジニアの年収データ</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. AWS認定資格ガイド</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. AWSの主要サービスと学習順序</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. Infrastructure as Code（IaC）の重要性</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. SRE・DevOpsのキャリアパス</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 女性AWSエンジニアの転職成功事例</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 学習ロードマップ</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. AWSエンジニアとは（仕事内容）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. クラウド需要の実データ（市場成長とAWSのシェア）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 女性がAWSエンジニアとして長く働きやすい理由</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. AWSエンジニアの年収相場（出典付き）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. スキルマップ（基礎→IaC→コンテナ→セキュリティ）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. インフラ未経験から目指すロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. AWSエンジニアのキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. 出典一覧</a></li>
             </ol>
           </div>
         </div>
       </section>
 
+      {/* sec1 とは */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">クラウドインフラの求人動向</h2>
+          <h2 className="text-2xl font-bold mb-6">AWSエンジニアとは（仕事内容）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
-            <p>2026年現在、クラウドインフラの需要は爆発的に伸びています。企業のDX推進やクラウドマイグレーション（オンプレミスからクラウドへの移行）が加速しており、AWSをはじめとするクラウドサービスのスキルを持つエンジニアは引く手あまたの状況です。</p>
-            <p>特にAWSは国内クラウド市場でトップシェアを誇り、AWS関連の求人数は年々増加しています。EC2、S3、Lambda、ECSなどの基本サービスに加え、IaC（Terraform/CloudFormation）やコンテナ（Docker/Kubernetes）のスキルがあると、さらに多くの求人にアクセスできます。</p>
-            <p>女性のクラウドエンジニアはまだ少数派ですが、だからこそ企業からの注目度は高いです。ダイバーシティの推進を進める大手企業やメガベンチャーでは、女性インフラエンジニアの採用に積極的で、経験の浅い段階でも教育体制が整った企業に入社できるチャンスがあります。</p>
-            <p>クラウドインフラの仕事はリモートワークとの相性が良いのも特徴です。クラウドの管理・運用はすべてインターネット経由で行えるため、自宅からでも問題なく作業できます。育児と両立したい女性エンジニアにとって、クラウドインフラは非常に魅力的な分野です。</p>
+            <p>
+              AWSエンジニアは、Amazon Web Services（AWS）を使ってサービスの基盤――サーバー・ネットワーク・データベース・セキュリティを設計・構築・運用する職種です。従来は機材を購入してデータセンターに設置していたインフラを、AWSではブラウザ上の操作やコードで構築できるため、「インフラエンジニアのクラウド版」と考えると分かりやすいでしょう。
+            </p>
+            <p>
+              具体的な業務は、(1)システム要件に合わせたAWS構成の設計（どのサービスをどう組み合わせるか）、(2)EC2・S3・VPC・RDSなどを使った環境構築、(3)TerraformやCloudFormationによるインフラのコード化（IaC）、(4)監視・障害対応・コスト最適化などの運用、(5)IAM設計やネットワーク制御などのセキュリティ対策です。設計から運用まで一気通貫で関わるほど市場価値が高くなります。
+            </p>
+            <p>
+              なお、本記事は「AWSエンジニアという職種とキャリア」に焦点を当てています。AWS認定資格（CLF・SAAなど）の難易度や勉強法は<a href="/articles/cert-aws/" className="underline" style={{ color: "#0891b2" }}>AWS認定資格ガイド</a>で、GCP・Azureとの違いと選び方は<a href="/articles/cloud-gcp-azure/" className="underline" style={{ color: "#0891b2" }}>GCP・Azureクラウドエンジニアガイド</a>で詳しく解説しています。
+            </p>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>AWSエンジニアの主な担当領域</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>クラウドアーキテクチャ設計（可用性・コスト・性能のバランス）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>環境構築（EC2 / S3 / VPC / RDS / Lambda / ECSなど）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>IaC（Terraform / CloudFormation / CDK）によるコード管理</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>CI/CD・自動化（GitHub Actions / CodePipeline）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>監視・運用・コスト最適化（CloudWatch / Cost Explorer）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>セキュリティ（IAM設計 / GuardDuty / Security Hub）</span></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
+      {/* sec2 需要の実データ */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">AWSエンジニアの年収データ</h2>
+          <h2 className="text-2xl font-bold mb-6">クラウド需要の実データ（市場成長とAWSのシェア）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
-            <p>AWSエンジニアの年収は、IT業界の中でも高水準です。需要に対して人材が不足しているため、スキルに応じた高い年収が期待できます。経験1〜2年で450万〜550万円、経験3〜5年で600万〜800万円、経験5年以上で800万〜1,200万円が目安です。</p>
-            <p>特に年収を上げやすいのは、AWS認定資格の上位レベルを取得しているケースです。ソリューションアーキテクトプロフェッショナルやDevOpsエンジニアプロフェッショナルなどの資格を持っていると、年収800万円以上のオファーを受けやすくなります。</p>
-            <p>SRE（Site Reliability Engineering）やクラウドアーキテクトのポジションでは、さらに高い年収が期待できます。システム全体の信頼性を担保するSREは、年収900万〜1,200万円の求人も珍しくなく、クラウドアーキテクトでは年収1,000万円以上も可能です。</p>
-            <p>フリーランスのAWSエンジニアの場合、月単価70万〜120万円が相場です。Terraform+Docker+Kubernetesのスキルセットがあると、月単価100万円以上の案件も視野に入ります。</p>
-          </div>
-          <div className="overflow-x-auto mt-6">
-            <table className="w-full border-collapse text-sm">
-              <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>ポジション</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>年収レンジ</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>求められるスキル</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td className="border p-3" style={{ borderColor: "#d1dce5" }}>クラウドエンジニア（ジュニア）</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>450万〜550万円</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>AWS基礎、Linux</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border p-3" style={{ borderColor: "#d1dce5" }}>クラウドエンジニア（ミドル）</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>600万〜800万円</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>IaC、コンテナ、CI/CD</td></tr>
-                <tr><td className="border p-3" style={{ borderColor: "#d1dce5" }}>SRE</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>800万〜1,200万円</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>Kubernetes、監視、自動化</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border p-3" style={{ borderColor: "#d1dce5" }}>クラウドアーキテクト</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>900万〜1,500万円</td><td className="border p-3" style={{ borderColor: "#d1dce5" }}>設計力、マルチクラウド</td></tr>
-              </tbody>
-            </table>
+            <p>
+              「クラウドの需要が高い」という話は定型句になりがちですが、数字で確認しておきましょう。IDC Japanの予測によると、国内パブリッククラウドサービス市場は<strong>2024年に4兆1,423億円（前年比26.1%増）</strong>に達し、2024〜2029年は<strong>年平均成長率（CAGR）16.3%</strong>で拡大、<strong>2029年には2024年比約2.1倍の8兆8,164億円</strong>に達する見込みです。クラウドマイグレーション、クラウドネイティブ化、生成AI活用が成長の牽引役とされています。
+            </p>
+            <p className="text-sm">出典: IDC Japan「国内パブリッククラウドサービス市場予測」プレスリリース（2026年6月参照）</p>
+            <p>
+              その市場の中でAWSは依然として最大手です。Synergy Research Groupの調査では、<strong>2026年第1四半期の世界クラウドインフラ市場シェアはAWSが28%で首位</strong>（Microsoft 21%、Google 14%、上位3社で67%）。同四半期の世界のクラウド支出は1,290億ドルで前年同期比35%増と、成長はむしろ加速しています。国内でも、MM総研の調査でIaaS利用企業の<strong>54.7%がAWSを利用</strong>（Azure 44.0%、GCP 26.2%、2022年6月時点・複数利用含む）しており、求人市場でも「AWS経験」を求める案件が最も多いのが実情です。
+            </p>
+            <p className="text-sm">出典: Synergy Research Group（2026年第1四半期）、MM総研「国内クラウドサービス需要動向調査」（いずれも2026年6月参照）</p>
+            <p>
+              一方で人材は足りていません。dodaの転職求人倍率レポート（2026年4月）ではエンジニア（IT・通信）の求人倍率は<strong>10倍超</strong>と全職種で突出しており、経済産業省「IT人材需給に関する調査」も2030年に最大79万人のIT人材不足を試算しています。市場が伸び続ける一方で担い手が不足している――これがAWSエンジニアの需要が高い構造的な理由です。
+            </p>
+            <p className="text-sm">出典: doda「転職求人倍率レポート（2026年4月）」、経済産業省「IT人材需給に関する調査」（いずれも2026年6月参照）</p>
           </div>
         </div>
       </section>
 
+      {/* sec3 女性が働きやすい理由 */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">AWS認定資格ガイド</h2>
+          <h2 className="text-2xl font-bold mb-6">女性がAWSエンジニアとして長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
-            <p>AWS認定資格は、AWSスキルを客観的に証明する有効な手段です。転職市場では資格保有者が優遇される傾向にあり、特に実務経験が少ない段階では資格の価値が大きくなります。</p>
-            <p>まず取得を目指すべきは、AWS認定クラウドプラクティショナー（CLF）です。クラウドの基礎知識を問う入門レベルの資格で、1〜2ヶ月の学習で取得可能です。次に目指すのが、ソリューションアーキテクトアソシエイト（SAA）です。AWSの設計ベストプラクティスを問う資格で、クラウドエンジニアの定番資格として多くの企業で評価されています。</p>
-            <p>さらにキャリアアップを目指す場合は、DevOpsエンジニアプロフェッショナルやソリューションアーキテクトプロフェッショナルなどの上位資格を取得しましょう。専門分野の資格（データベース、セキュリティ、ネットワーキングなど）も、専門性を証明する手段として有効です。</p>
-            <p>資格取得の学習には、AWS公式のトレーニング、Udemyの模擬試験、書籍、ハンズオンラボなどを活用しましょう。AWSの無料利用枠を使って実際にサービスを触りながら学ぶのが最も効果的です。</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">AWSの主要サービスと学習順序</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>AWSには200以上のサービスがありますが、まず押さえるべき基本サービスがあります。コンピューティング（EC2, Lambda, ECS）、ストレージ（S3, EBS）、ネットワーキング（VPC, CloudFront, Route 53）、データベース（RDS, DynamoDB）が基礎として重要です。</p>
-            <p>次のステップとして、IAM（アクセス管理）、CloudWatch（監視）、CloudFormation/CDK（IaC）、CodePipeline（CI/CD）などの運用・管理系サービスを学びましょう。これらのサービスを使いこなせると、実務で即戦力として活躍できます。</p>
-            <p>サーバーレスアーキテクチャ（Lambda, API Gateway, DynamoDB, S3）は、近年特に人気が高まっている分野です。サーバーの管理が不要で、コストも使った分だけという特徴は、効率的なシステム構築に最適です。</p>
-            <p>コンテナ技術（ECS, EKS, Fargate）も重要です。Dockerコンテナの基礎を理解した上で、AWSのコンテナサービスを使ったアプリケーションのデプロイ・運用ができると、市場価値が大きく高まります。</p>
+            <p>
+              クラウドインフラはIT職種の中でも特に「場所を選ばない」仕事です。ライフイベントとキャリアを両立したい女性にとって、構造的に有利な要素が揃っています。
+            </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>基礎サービス（まず学ぶべき）</h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・EC2（仮想サーバー）</li>
-                <li>・S3（ストレージ）</li>
-                <li>・VPC（ネットワーク）</li>
-                <li>・RDS（データベース）</li>
-                <li>・IAM（アクセス管理）</li>
-              </ul>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. リモート適性が最高クラス</h3>
+              <p className="text-text-light text-sm leading-relaxed">クラウドのインフラはコンソールとコードで完結し、データセンターへの出社や機器の物理作業を前提としません。情報通信業のテレワーク導入率は94.3%と全産業トップ（出典: 総務省「令和6年通信利用動向調査」、2026年6月参照）。中でもクラウド運用はフルリモート求人が見つけやすい領域です。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>応用サービス（次に学ぶべき）</h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・Lambda（サーバーレス）</li>
-                <li>・ECS/EKS（コンテナ）</li>
-                <li>・CloudFormation/CDK（IaC）</li>
-                <li>・CloudWatch（監視）</li>
-                <li>・CodePipeline（CI/CD）</li>
-              </ul>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 深夜の駆けつけ対応が減っている</h3>
+              <p className="text-text-light text-sm leading-relaxed">オンプレミス時代の「障害時にデータセンターへ駆けつける」働き方は、クラウド化と自動復旧の仕組み（オートスケーリング・マネージドサービス）で大きく減りました。体力勝負ではなく設計と自動化の質で勝負する職種に変わっています。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. スキルが客観的に証明でき復帰しやすい</h3>
+              <p className="text-text-light text-sm leading-relaxed">AWS認定資格・IaCのコード・構成図など、スキルが形に残りやすい職種です。産休育休でブランクが空いても「何ができるか」を客観的に示せるため、復帰・再転職の交渉がしやすいのが強みです。資格の選び方は<a href="/articles/cert-aws/" className="underline" style={{ color: "#0891b2" }}>AWS認定資格ガイド</a>を参照してください。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 需要超過で「会社を選べる」立場になれる</h3>
+              <p className="text-text-light text-sm leading-relaxed">エンジニア求人倍率10倍超（出典: doda、2026年4月）の売り手市場では、産休育休実績・リモート運用・時短可否といった条件で企業を選別できます。需要の高い職種ほど、働きやすさを妥協せずに済みます。</p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* sec4 年収 */}
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">AWSエンジニアの年収相場（出典付き）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              クラウドエンジニア（正社員）の平均年収は<strong>488万円</strong>で、ボリュームゾーンは431万〜518万円、全体レンジは344万〜1,040万円と幅があります。AWSに特化したエンジニアでは、Geeklyの自社データで<strong>平均約580万円</strong>と、同社のエンジニア全体平均（537万円）を上回ります。スキルの掛け合わせ次第で上限が大きく伸びる職種です。
+            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典・備考</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>クラウドエンジニア（正社員平均）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>488万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>求人ボックス 給料ナビ。ボリュームゾーン431万〜518万円</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>同・政府統計ベース</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>556万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>賃金構造基本統計調査をもとにした求人ボックス掲載値</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>AWSエンジニア（特化）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約580万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Geekly自社データ。エンジニア全体537万円より高水準</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス（AWS案件）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均月単価72万4,081円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>レバテックフリーランス（2025年6月時点）。年収換算約870万円</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-text-light text-sm mt-3">出典: 求人ボックス 給料ナビ「クラウドエンジニアの年収・時給」、Geekly「AWSエンジニアの年収」、レバテックフリーランス「フリーランスAWSエンジニア案件の単価・年収」（いずれも2026年6月参照）</p>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li>① <strong>IaC・コンテナ・セキュリティを掛け合わせる</strong>。Terraform＋Kubernetes＋セキュリティ設計まで担えると、SRE・アーキテクト級の求人（公開求人では800万円超の水準も）が視野に入る</li>
+              <li>② <strong>設計（上流）の経験を積む</strong>。構築・運用だけでなく「なぜこの構成か」を語れる人材は希少</li>
+              <li>③ <strong>エージェント経由で年収交渉</strong>。他職種の年収水準は<a href="/articles/salary-by-job/" className="underline" style={{ color: "#0891b2" }}>職種別年収ガイド</a>で比較し、市場価値を客観評価してもらう</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* sec5 スキルマップ */}
       <section id="sec5" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">Infrastructure as Code（IaC）の重要性</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>IaC（Infrastructure as Code）は、インフラの構成をコードで管理する手法です。Terraform、AWS CloudFormation、AWS CDKなどのツールを使い、インフラの構築・変更・削除をコードベースで行います。現代のクラウドエンジニアにとって、IaCのスキルは必須と言えます。</p>
-            <p>IaCのメリットは、インフラの再現性、バージョン管理、自動化が可能になることです。手動でAWSコンソールから設定するのと異なり、コードで管理することで、環境の再構築やチームでの共同作業が容易になります。</p>
-            <p>Terraformは、AWS以外のクラウドサービス（Azure、GCP）にも対応したマルチクラウドIaCツールとして人気が高いです。HCL（HashiCorp Configuration Language）という独自の言語を使いますが、学習コストは低く、数週間で基礎を身につけられます。</p>
-            <p>AWS CDKは、TypeScriptやPythonなどのプログラミング言語でAWSインフラを定義できるツールです。プログラミング経験のある方には学習しやすく、ロジックを含むインフラ定義が可能なため、複雑な構成にも対応できます。</p>
+          <h2 className="text-2xl font-bold mb-6">スキルマップ（基礎→IaC→コンテナ→セキュリティ）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              AWSには200以上のサービスがありますが、全部を覚える必要はありません。実務と年収に直結する順に、4つのフェーズで積み上げるのが効率的です。
+            </p>
           </div>
+          <div className="space-y-4">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3"><span className="rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>Phase 1</span><h3 className="text-lg font-bold">基礎サービス（EC2 / S3 / VPC / RDS / IAM）</h3></div>
+              <p className="text-sm text-text-light leading-relaxed">仮想サーバー（EC2）・ストレージ（S3）・ネットワーク（VPC）・データベース（RDS）・権限管理（IAM）の5つがAWSの土台です。前提としてLinuxコマンドとTCP/IP・DNSの基礎も押さえましょう。無料利用枠で実際に手を動かし、「Webサーバーを建てて公開する」までを自力でできれば合格ラインです。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3"><span className="rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>Phase 2</span><h3 className="text-lg font-bold">IaC（Terraform / CloudFormation / CDK）</h3></div>
+              <p className="text-sm text-text-light leading-relaxed">インフラをコードで定義・管理するIaCは、現在のクラウド求人で事実上の必須スキルです。マルチクラウド対応のTerraformが業界標準的な存在で、AWS純正ならCloudFormation、プログラミング経験者にはTypeScript/Pythonで書けるCDKも選択肢。Gitでのコード管理とセットで身につけます。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3"><span className="rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>Phase 3</span><h3 className="text-lg font-bold">コンテナ（Docker → ECS / Fargate → EKS / Kubernetes）</h3></div>
+              <p className="text-sm text-text-light leading-relaxed">アプリの実行環境をコンテナ化するDockerを基礎に、AWSのコンテナ基盤（ECS / Fargate）、さらに大規模運用のKubernetes（EKS）へ。コンテナ＋CI/CD（GitHub Actions / CodePipeline）まで扱えると、SRE・DevOps系の高単価求人に手が届きます。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3"><span className="rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>Phase 4</span><h3 className="text-lg font-bold">セキュリティ・運用設計（IAM設計 / GuardDuty / 監視 / コスト）</h3></div>
+              <p className="text-sm text-text-light leading-relaxed">最小権限のIAM設計、脅威検知（GuardDuty / Security Hub）、監視設計（CloudWatch）、コスト最適化までカバーできると「任せられるクラウド人材」として評価が一段上がります。クラウドのセキュリティ事故の多くは設定ミス起因のため、この領域の需要は安定して高い状態が続いています。</p>
+            </div>
+          </div>
+          <p className="text-text-light leading-relaxed mt-4 text-sm">
+            学習の節目として、Phase 1の終わりにAWS認定クラウドプラクティショナー（CLF）、Phase 2の頃にソリューションアーキテクトアソシエイト（SAA）を取得すると、知識の抜けを確認しながら転職市場へのアピール材料も作れます。資格の体系・難易度・勉強法は<a href="/articles/cert-aws/" className="underline" style={{ color: "#0891b2" }}>AWS認定資格ガイド</a>で詳しく解説しています。
+          </p>
         </div>
       </section>
 
+      {/* sec6 未経験ロードマップ */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SRE・DevOpsのキャリアパス</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>SRE（Site Reliability Engineering）は、サービスの信頼性を技術的に担保するエンジニアリング分野です。Googleが提唱したコンセプトで、AWSなどのクラウドインフラのスキルをベースに、モニタリング、自動化、インシデント対応などを担当します。</p>
-            <p>SREのキャリアパスは、インフラエンジニアやバックエンドエンジニアからの転向が一般的です。AWS+Docker+Kubernetes+Terraform+CI/CDのスキルセットに加え、プログラミング力（Python/Go）と運用経験があると、SREとしてのキャリアを構築しやすくなります。</p>
-            <p>DevOpsエンジニアは、開発（Dev）と運用（Ops）の橋渡しをする役割です。CI/CDパイプラインの構築・運用、インフラの自動化、開発チームとの連携など、幅広い業務を担当します。AWSスキルをベースに、Jenkins/GitHub Actions/GitLab CIなどのCI/CDツールの経験が求められます。</p>
-            <p>女性SRE/DevOpsエンジニアは非常に少ないですが、だからこそ企業からの注目度は高いです。論理的思考力と問題解決能力が求められる分野で、性別に関係なくスキルで評価される環境が整っています。</p>
+          <h2 className="text-2xl font-bold mb-6">インフラ未経験から目指すロードマップ</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              IT未経験・インフラ未経験からでも、1日2〜3時間の学習で<strong>6ヶ月〜1年</strong>がAWSエンジニアの入口に立つ目安です。ヘルプデスク・運用監視・社内SE・事務職からのキャリアチェンジ事例が多い職種で、オンプレミスのインフラ経験者なら3〜6ヶ月程度に短縮できます。従来型インフラからの転身は<a href="/articles/infrastructure/" className="underline" style={{ color: "#0891b2" }}>インフラエンジニア転職ガイド</a>も参考にしてください。
+            </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              ["STEP1", "Linux・ネットワークの基礎（1〜2ヶ月）", "Linuxの基本コマンド、TCP/IP・DNS・HTTPの仕組みを学びます。クラウドの裏側はLinuxとネットワークなので、ここを飛ばすと後で必ず詰まります。"],
+              ["STEP2", "AWSの基礎サービスをハンズオンで（1〜2ヶ月）", "EC2・S3・VPC・RDS・IAMを無料利用枠で実際に構築。「WordPressをEC2＋RDSで公開する」など、定番構成を自分の手で作ってみるのが近道です。"],
+              ["STEP3", "資格で知識を体系化（CLF→SAA）", "AWS認定クラウドプラクティショナー（CLF）→ソリューションアーキテクトアソシエイト（SAA）の順で取得。未経験者の書類選考での説得力が大きく変わります。"],
+              ["STEP4", "IaCとGitを身につける（1〜2ヶ月）", "STEP2で手動構築した環境をTerraformで作り直してみましょう。コードはGitHubで公開すれば、そのままポートフォリオになります。"],
+              ["STEP5", "ポートフォリオを構成図付きでまとめる", "「構成図＋IaCコード＋設計意図の説明」のセットが最強の応募書類です。なぜこの構成にしたか（コスト・可用性・セキュリティ）を自分の言葉で語れるように。"],
+              ["STEP6", "IT特化エージェントで求人を絞り込む", "未経験可のクラウド運用・構築ポジションからスタートし、実務でIaC・コンテナ経験を積んで2〜3年でステップアップするのが現実的なルートです。"],
+            ].map(([step, title, desc], i) => (
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+                <div>
+                  <h3 className="font-bold mb-1">{title}</h3>
+                  <p className="text-sm text-text-light leading-relaxed">{desc}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
+      {/* sec7 キャリアパス */}
       <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">女性AWSエンジニアの転職成功事例</h2>
-          <div className="space-y-4">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>Aさん / 29歳 / ヘルプデスクからクラウドエンジニアへ</p>
-              <p className="text-sm text-text-light leading-relaxed">「IT企業のヘルプデスクで3年働いた後、AWSの資格取得を目指しました。CLFとSAAを取得し、レバテックキャリア経由でSaaS企業のクラウドエンジニアに転職。Terraformを使ったインフラ構築を担当し、年収は350万から550万にアップしました。」</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#7c3aed" }}>Bさん / 34歳 / SES企業のサーバーエンジニアからSREへ</p>
-              <p className="text-sm text-text-light leading-relaxed">「オンプレミスのサーバー運用をしていましたが、クラウドに興味を持ちAWSを独学。Docker+Kubernetes+Terraformのスキルも身につけ、メガベンチャーのSREチームに転職しました。年収は480万から800万と大幅アップ。フルリモートで育児との両立も実現しています。」</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>Cさん / 27歳 / バックエンドエンジニアからDevOpsへ</p>
-              <p className="text-sm text-text-light leading-relaxed">「PythonのバックエンドエンジニアとしてAWSを使っていたことがきっかけで、インフラに興味を持ちました。AWS CDKとGitHub Actionsを使ったCI/CD構築の経験をアピールして、DevOpsエンジニアとして転職。年収は520万から700万にアップしました。」</p>
-            </div>
+          <h2 className="text-2xl font-bold mb-6">AWSエンジニアのキャリアパス</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>AWSエンジニアは「クラウドの基礎体力」が身につく職種で、そこからの分岐が豊富です。代表的な進路は次の4つです。</p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>SRE / DevOpsエンジニア</h3><p className="text-sm text-text-light">サービスの信頼性と開発効率を技術で支える花形ポジション。Kubernetes・自動化・監視設計が武器になります。詳しくは<a href="/articles/sre-devops/" className="underline" style={{ color: "#0891b2" }}>SRE・DevOpsエンジニアガイド</a>へ。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>クラウドアーキテクト</h3><p className="text-sm text-text-light">システム全体の構成を設計する上流職。コスト・可用性・セキュリティのトレードオフを判断する役割で、公開求人では年収レンジの上限が最も高い進路のひとつです。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>マルチクラウド / 専門特化</h3><p className="text-sm text-text-light">Azure・GCPにスキルを広げてマルチクラウド人材になる道や、セキュリティ・データ基盤への特化。比較検討は<a href="/articles/cloud-gcp-azure/" className="underline" style={{ color: "#0891b2" }}>GCP・Azureガイド</a>を参照。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>フリーランス・柔軟な働き方</h3><p className="text-sm text-text-light">AWS案件の平均月単価は72万円台（レバテックフリーランス、2025年6月時点）。リモート案件が多く、ライフステージに合わせて稼働を調整しやすい進路です。</p></div>
           </div>
         </div>
       </section>
 
+      {/* sec8 エージェント（原文維持） */}
       <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">学習ロードマップ</h2>
-          <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>STEP 1：Linux基礎+ネットワーク基礎（1ヶ月）</h3>
-              <p className="text-sm text-text-light leading-relaxed">Linuxのコマンド操作、TCP/IPの基礎、DNSやHTTPの仕組みを学びます。インフラの土台となる知識なので、しっかり固めましょう。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>STEP 2：AWS基礎+CLF取得（1〜2ヶ月）</h3>
-              <p className="text-sm text-text-light leading-relaxed">AWSの基本サービス（EC2, S3, VPC, RDS, IAM）を学び、AWS認定クラウドプラクティショナーを取得します。AWSの無料利用枠を使って実際にハンズオンで触りましょう。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>STEP 3：SAA取得+IaC学習（2〜3ヶ月）</h3>
-              <p className="text-sm text-text-light leading-relaxed">ソリューションアーキテクトアソシエイト（SAA）を取得しながら、TerraformやCloudFormationでIaCの基礎を学びます。Docker/コンテナの基礎も並行して学習しましょう。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>STEP 4：転職活動（1〜3ヶ月）</h3>
-              <p className="text-sm text-text-light leading-relaxed">IT特化型の転職エージェントに登録し、AWS求人を紹介してもらいます。資格とハンズオン経験をアピールし、クラウドエンジニアとしてのキャリアをスタートしましょう。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="sec9" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -252,7 +354,8 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* sec9 FAQ */}
+      <section id="sec9" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
@@ -271,487 +374,54 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      {/* sec10 出典一覧 */}
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">出典一覧</h2>
+          <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+            <li>・出典: IDC Japan「国内パブリッククラウドサービス市場予測」プレスリリース（2026年6月参照）— 2024年市場規模4兆1,423億円（前年比26.1%増）、2024〜2029年CAGR 16.3%、2029年8兆8,164億円（2024年比約2.1倍）</li>
+            <li>・出典: Synergy Research Group（2026年第1四半期、2026年6月参照）— 世界クラウドインフラ市場シェア：AWS 28%・Microsoft 21%・Google 14%（上位3社で67%）、四半期支出1,290億ドル（前年同期比35%増）</li>
+            <li>・出典: MM総研「国内クラウドサービス需要動向調査」（2022年6月時点、2026年6月参照）— IaaS利用企業のAWS利用率54.7%、Azure 44.0%、GCP 26.2%（複数利用含む）</li>
+            <li>・出典: 求人ボックス 給料ナビ「クラウドエンジニアの年収・時給」（2026年6月参照）— 正社員平均年収488万円、ボリュームゾーン431万〜518万円、全体レンジ344万〜1,040万円、賃金構造基本統計調査ベース556万円</li>
+            <li>・出典: Geekly「AWSエンジニアの年収」（自社データ、2026年6月参照）— AWSエンジニア平均約580万円、エンジニア全体平均537万円</li>
+            <li>・出典: レバテックフリーランス「フリーランスAWSエンジニア案件の単価・年収」（2025年6月時点データ、2026年6月参照）— AWS案件の平均月単価72万4,081円</li>
+            <li>・出典: 総務省「令和6年通信利用動向調査」（2026年6月参照）— テレワーク導入率：情報通信業94.3%、企業全体47.3%</li>
+            <li>・出典: doda（パーソルキャリア）「転職求人倍率レポート（2026年4月）」（2026年6月参照）— エンジニア（IT・通信）の求人倍率10倍超</li>
+            <li>・出典: 経済産業省「IT人材需給に関する調査」（2026年6月参照）— 2030年に最大79万人のIT人材不足を試算</li>
+          </ul>
+          <p className="text-xs text-text-light mt-4">※ ポジション別の年収レンジ等、出典の明記がない金額は公開求人水準をもとにした目安です。</p>
+        </div>
+      </section>
+
+      {/* 関連記事 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/infrastructure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>インフラエンジニアガイド</h3>
-              <p className="text-sm text-text-light">女性インフラエンジニアの転職事情</p>
+            <a href="/articles/cert-aws/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>AWS認定資格ガイド</h3>
+              <p className="text-sm text-text-light">取得すべき順番・難易度・勉強法</p>
             </a>
-            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Python×女性エンジニア</h3>
-              <p className="text-sm text-text-light">求人動向・年収・学習ロードマップ</p>
+            <a href="/articles/cloud-gcp-azure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>GCP・Azureクラウドエンジニアガイド</h3>
+              <p className="text-sm text-text-light">AWSとの違いとマルチクラウド戦略</p>
+            </a>
+            <a href="/articles/infrastructure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>インフラエンジニア転職ガイド</h3>
+              <p className="text-sm text-text-light">クラウド時代の安定職種</p>
+            </a>
+            <a href="/articles/sre-devops/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SRE・DevOpsエンジニアガイド</h3>
+              <p className="text-sm text-text-light">AWSスキルを活かす上位キャリア</p>
+            </a>
+            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職種別年収ガイド</h3>
+              <p className="text-sm text-text-light">エンジニア職種ごとの年収比較</p>
             </a>
             <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3>
               <p className="text-sm text-text-light">平均年収と年収アップの方法</p>
             </a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</h3>
-              <p className="text-sm text-text-light">5年後・10年後のキャリア設計</p>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      
-      {/* 補足情報 1 */}
-      <section className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <div
-            className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5" }}
-          >
-            <h3
-              className="text-lg font-bold mb-4"
-              style={{ color: "#0891b2" }}
-            >
-              押さえておくべきポイント
-            </h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  最新の市場動向を把握し、自分のスキルとの適合度を確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  複数の転職エージェントを活用して求人情報を幅広く収集する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  女性ならではの視点で企業の働きやすさを事前に確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  産休育休制度の取得実績やリモートワークの運用実態をチェックする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  長期的なキャリアプランを見据えた判断をする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  先輩女性エンジニアの体験談やロールモデルから学ぶ
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#0891b2" }}
-              >
-                メリット
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                IT業界は技術力で評価される実力主義の傾向が強く、性別に関係なくスキルに応じた公正な待遇を受けやすい環境です。転職エージェントを活用することで、自分の市場価値を客観的に把握し、最適な条件での転職を実現できます。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#7c3aed" }}
-              >
-                注意点
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなくワークライフバランスや職場環境も重要な判断基準です。産休育休制度の充実度やリモートワークの可否、女性管理職の比率なども含めて総合的に評価しましょう。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 補足情報 2 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <div
-            className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5" }}
-          >
-            <h3
-              className="text-lg font-bold mb-4"
-              style={{ color: "#0891b2" }}
-            >
-              押さえておくべきポイント
-            </h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  最新の市場動向を把握し、自分のスキルとの適合度を確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  複数の転職エージェントを活用して求人情報を幅広く収集する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  女性ならではの視点で企業の働きやすさを事前に確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  産休育休制度の取得実績やリモートワークの運用実態をチェックする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  長期的なキャリアプランを見据えた判断をする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  先輩女性エンジニアの体験談やロールモデルから学ぶ
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#0891b2" }}
-              >
-                メリット
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                IT業界は技術力で評価される実力主義の傾向が強く、性別に関係なくスキルに応じた公正な待遇を受けやすい環境です。転職エージェントを活用することで、自分の市場価値を客観的に把握し、最適な条件での転職を実現できます。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#7c3aed" }}
-              >
-                注意点
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなくワークライフバランスや職場環境も重要な判断基準です。産休育休制度の充実度やリモートワークの可否、女性管理職の比率なども含めて総合的に評価しましょう。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 補足情報 3 */}
-      <section className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <div
-            className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5" }}
-          >
-            <h3
-              className="text-lg font-bold mb-4"
-              style={{ color: "#0891b2" }}
-            >
-              押さえておくべきポイント
-            </h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  最新の市場動向を把握し、自分のスキルとの適合度を確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  複数の転職エージェントを活用して求人情報を幅広く収集する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  女性ならではの視点で企業の働きやすさを事前に確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  産休育休制度の取得実績やリモートワークの運用実態をチェックする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  長期的なキャリアプランを見据えた判断をする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  先輩女性エンジニアの体験談やロールモデルから学ぶ
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#0891b2" }}
-              >
-                メリット
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                IT業界は技術力で評価される実力主義の傾向が強く、性別に関係なくスキルに応じた公正な待遇を受けやすい環境です。転職エージェントを活用することで、自分の市場価値を客観的に把握し、最適な条件での転職を実現できます。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#7c3aed" }}
-              >
-                注意点
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなくワークライフバランスや職場環境も重要な判断基準です。産休育休制度の充実度やリモートワークの可否、女性管理職の比率なども含めて総合的に評価しましょう。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 補足情報 4 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <div
-            className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5" }}
-          >
-            <h3
-              className="text-lg font-bold mb-4"
-              style={{ color: "#0891b2" }}
-            >
-              押さえておくべきポイント
-            </h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  最新の市場動向を把握し、自分のスキルとの適合度を確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  複数の転職エージェントを活用して求人情報を幅広く収集する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  女性ならではの視点で企業の働きやすさを事前に確認する
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  産休育休制度の取得実績やリモートワークの運用実態をチェックする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  長期的なキャリアプランを見据えた判断をする
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span
-                  style={{ color: "#0891b2" }}
-                  className="mt-1 font-bold"
-                >
-                  &#10003;
-                </span>
-                <span>
-                  先輩女性エンジニアの体験談やロールモデルから学ぶ
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#0891b2" }}
-              >
-                メリット
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                IT業界は技術力で評価される実力主義の傾向が強く、性別に関係なくスキルに応じた公正な待遇を受けやすい環境です。転職エージェントを活用することで、自分の市場価値を客観的に把握し、最適な条件での転職を実現できます。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3
-                className="text-lg font-bold mb-3"
-                style={{ color: "#7c3aed" }}
-              >
-                注意点
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなくワークライフバランスや職場環境も重要な判断基準です。産休育休制度の充実度やリモートワークの可否、女性管理職の比率なども含めて総合的に評価しましょう。
-              </p>
-            </div>
           </div>
         </div>
       </section>
