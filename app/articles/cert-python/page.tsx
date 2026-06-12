@@ -208,7 +208,7 @@ export default function ArticlePage() {
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python3エンジニア認定データ分析試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>11,000円<br />(学割6,600円)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>11,000円<br />(学割5,500円)</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>合格率 約81.5%<br />正答率70%以上で合格</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★☆ データ分析・AI入門。40問・60分。基礎の次に</td>
                 </tr>

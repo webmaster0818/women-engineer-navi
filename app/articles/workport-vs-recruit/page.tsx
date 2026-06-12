@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ワークポート vs リクルートエージェント比較｜女性IT転職向け",
+  title: "ワークポートとリクルートエージェントの違い｜女性エンジニアの使い分け【2026年】",
   description:
-    "ワークポートとリクルートエージェントを女性エンジニア視点で徹底比較。IT求人の質・サポート体制・年収アップ実績など、転職先選びに必要な情報を詳しく解説します。",
+    "ワークポートとリクルートエージェントの違いを公式サイトの公開情報のみで整理。運営会社・求人数の公式表示・サポート体制を出典付きで比較し、未経験・経験者・地方在住など状況別の使い分けを中立に解説します。",
   alternates: { canonical: "/articles/workport-vs-recruit/" },
   openGraph: {
-    title: "ワークポート vs リクルートエージェント比較｜女性IT転職向け",
+    title: "ワークポートとリクルートエージェントの違い｜女性エンジニアの使い分け【2026年】",
     description:
-      "ワークポートとリクルートエージェントを女性エンジニア視点で徹底比較。IT求人の質・サポート体制・年収アップ実績など、転職先選びに必要な情報を詳しく解説します。",
+      "ワークポートとリクルートエージェントの違いを公式サイトの公開情報のみで整理。運営会社・求人数の公式表示・サポート体制を出典付きで比較し、状況別の使い分けを中立に解説します。",
     url: "https://women-engineer.com/articles/workport-vs-recruit/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "ワークポート vs リクルートエージェント比較｜女性IT転職向け",
+  headline: "ワークポートとリクルートエージェントの違い｜女性エンジニアの使い分け【2026年】",
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "ワークポートとリクルートエージェントを女性エンジニア視点で徹底比較。IT求人の質・サポート体制・年収アップ実績など、転職先選びに必要な情報を詳しく解説します。",
+    "ワークポートとリクルートエージェントの違いを公式サイトの公開情報のみで整理。運営会社・求人数の公式表示・サポート体制を出典付きで比較し、状況別の使い分けを中立に解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/workport-vs-recruit/",
@@ -47,42 +47,42 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "ワークポートとリクルートエージェントはどちらがIT転職に強いですか？",
+      name: "ワークポートとリクルートエージェントはどう違いますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "IT・Web業界に特化した転職を考えるなら、ワークポートがおすすめです。IT業界出身のコンシェルジュが多数在籍しており、技術的な理解に基づいた求人提案をしてくれます。リクルートエージェントは総合力が高く、IT以外の業界も含めた幅広い選択肢を提供してくれます。両方に登録して比較するのがベストです。",
+        text: "どちらも全業界・全職種を扱う総合型の転職エージェントですが、公式サイトの公開情報からは構造の違いが読み取れます。ワークポートは公式サイトで「全国47都道府県に拠点展開している総合型転職エージェント」と説明し、会社情報の事業内容にIT・Web・ゲーム業界の人材紹介を明記しています（求人数は15万件以上・2026年4月1日時点の公式表示）。リクルートエージェントは公式サイトで「業界最大級の求人データベース」を掲げ、公開求人約76万件・非公開求人約27万件（2026年5月30日時点の公式表示）と案内しています。どちらが優れているかではなく、規模感と事業の重心が異なるサービスです。",
       },
     },
     {
       "@type": "Question",
-      name: "ワークポートは未経験からのIT転職に対応していますか？",
+      name: "求人数はどちらが多いですか？単純に比較できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、ワークポートは未経験からのIT転職支援に強みを持っています。無料のプログラミングスクール「みんスク」を運営しており、学習からIT転職までを一貫してサポートしてくれます。未経験可のIT求人も多く保有しているため、キャリアチェンジを考える女性にもおすすめです。",
+        text: "公式サイトの表示では、ワークポートが「求人数15万件以上」（2026年4月1日時点）、リクルートエージェントが「公開求人約76万件・非公開求人約27万件」（2026年5月30日時点）です。ただし、集計時点・公開と非公開の区分・求人数のカウント方法（採用予定人数ベースかどうか等）が各社で異なるため、数値の単純比較で優劣は判断できません。また、表示総数のうち自分の職種・地域・条件に合う求人がどれだけあるかは人によって異なるので、最終的には登録後に紹介される求人で判断するのが確実です。",
       },
     },
     {
       "@type": "Question",
-      name: "リクルートエージェントの女性向けサポートは充実していますか？",
+      name: "リクルートエージェントの運営会社は株式会社リクルートではないのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "リクルートエージェントは総合型ですが、女性の転職支援にも力を入れています。女性向けの転職コラムや、女性活躍企業の特集ページを提供しているほか、女性アドバイザーも多数在籍しています。求人数が業界最大級のため、女性が活躍できるIT企業の選択肢も豊富です。",
+        text: "現在の運営会社は株式会社インディードリクルートパートナーズです。リクルートグループの体制変更に伴い、2025年4月1日に株式会社リクルートから分割するかたちで設立された会社で、本社は東京都千代田区丸の内です。株式会社リクルートの公式サイトでも、2025年4月1日よりリクルートエージェント等のサービス提供会社が変更となる旨が告知されています。リクルートグループ内での移管であり、サービス名称は「リクルートエージェント」のまま提供されています。",
       },
     },
     {
       "@type": "Question",
-      name: "転職までのスピードはどちらが速いですか？",
+      name: "ワークポートとリクルートエージェントはどちらも無料で使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "スピード転職を重視するなら、ワークポートがおすすめです。登録後の対応が非常に速く、早ければ登録当日に求人紹介を受けられます。ワークポートの「スピード感のある対応」は口コミでも高く評価されています。リクルートエージェントも丁寧なサポートを提供しますが、カウンセリングの予約に少し時間がかかる場合があります。",
+        text: "はい、どちらも求職者は無料で利用できます。ワークポート公式サイトは「ワークポートの転職支援サービスは、すべて無料でご利用いただけます。転職エージェントは人材を募集している企業さまから紹介手数料をいただくことにより事業を運営しています」と説明し、リクルートエージェント公式サイトも「ご利用頂く転職者様からは一切料金を頂いておりません」と明記しています。これは2社に限らず、職業安定法により有料職業紹介事業者が求職者から手数料を取ることが原則禁止されているためです。",
       },
     },
     {
       "@type": "Question",
-      name: "年収交渉はどちらのエージェントが強いですか？",
+      name: "ワークポートとリクルートエージェントは併用してもいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "年収交渉力はリクルートエージェントに定評があります。業界最大級の転職支援実績に基づく交渉ノウハウと、企業との強固な関係性を活かした交渉が強みです。ワークポートもIT業界の相場を熟知した交渉を行ってくれますが、リクルートブランドの交渉力は業界トップクラスです。",
+        text: "併用は可能で、ルール上もマナー上も問題ありません。両社は規模感や事業の重心が異なるため、紹介される求人や提案の傾向を見比べる材料になります。併用時の注意点は、同じ求人に複数のエージェント経由で重複応募しないこと（応募管理は自分で一元化する）、併用していること自体は隠さず伝えること、登録数を増やしすぎて面談・連絡の管理が破綻しないようにすることの3点です。総合型同士の併用に加えて、IT特化型や女性特化型を組み合わせる考え方もあります。",
       },
     },
   ],
@@ -152,18 +152,50 @@ export default function ArticlePage() {
               エージェント比較
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              ワークポート vs リクルートエージェント比較
+              ワークポートとリクルートエージェントの違い
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                女性IT転職向けの徹底比較ガイド
+                女性エンジニアの使い分け【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月28日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div
+            className="rounded-xl p-6"
+            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+          >
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+              この記事の結論
+            </h2>
+            <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li>
+                ① 2社はどちらも総合型だが構造が異なる。<strong>ワークポート</strong>は事業内容にIT・Web・ゲーム業界の人材紹介を明記する<strong>IT寄りの総合型</strong>（求人数15万件以上・2026年4月1日時点の公式表示）、<strong>リクルートエージェント</strong>は「業界最大級の求人データベース」を掲げる<strong>最大手の総合型</strong>（公開求人約76万件・2026年5月30日時点の公式表示）
+              </li>
+              <li>
+                ② 求人数は<strong>集計時点・公開非公開の区分・カウント方法が各社で異なる</strong>ため、数値の単純比較で優劣は判断できない
+              </li>
+              <li>
+                ③ どちらが良いかは<strong>優劣ではなく状況次第</strong>。IT職種の選択肢を深掘りしたいか、業界横断で母数を最大化したいかで軸を決め、迷うなら<strong>併用して提案を見比べる</strong>のが現実的
+              </li>
+              <li>
+                ④ どちらも<strong>求職者は完全無料</strong>（両社公式サイトに明記）。カテゴリ全体の使い分けの考え方は
+                <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#0891b2" }}>
+                  IT特化型と総合型の違い
+                </a>
+                も参照
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* 目次 */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
@@ -173,52 +205,47 @@ export default function ArticlePage() {
             <ol className="space-y-2 text-sm">
               <li>
                 <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
-                  1. ワークポートとリクルートエージェントの基本情報
+                  1. 2社の基本情報（公式サイトの公開情報）
                 </a>
               </li>
               <li>
                 <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
-                  2. IT・エンジニア求人数の比較
+                  2. 公式公開情報の比較表（全行出典付き）
                 </a>
               </li>
               <li>
                 <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
-                  3. 女性エンジニアへのサポート体制
+                  3. 構造の違い: IT寄り総合型と最大手総合型
                 </a>
               </li>
               <li>
                 <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
-                  4. 未経験からのIT転職支援
+                  4. 運営会社について知っておきたいこと
                 </a>
               </li>
               <li>
                 <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
-                  5. 年収アップ・年収交渉力の比較
+                  5. 状況別の向き不向きの考え方
                 </a>
               </li>
               <li>
                 <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
-                  6. 口コミ・評判の比較
+                  6. 併用の考え方と注意点
                 </a>
               </li>
               <li>
                 <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
-                  7. 対応スピードと使いやすさ
+                  7. 比較するときに気をつけたいこと
                 </a>
               </li>
               <li>
                 <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
-                  8. タイプ別おすすめ判定
+                  8. よくある質問
                 </a>
               </li>
               <li>
                 <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
-                  9. 併用のすすめと注意点
-                </a>
-              </li>
-              <li>
-                <a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>
-                  10. よくある質問
+                  9. 出典・参考資料
                 </a>
               </li>
             </ol>
@@ -226,300 +253,308 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* sec1 */}
+      {/* sec1 基本情報 */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">ワークポートとリクルートエージェントの基本情報</h2>
+          <h2 className="text-2xl font-bold mb-6">2社の基本情報（公式サイトの公開情報）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              ワークポートは、IT・Web業界に強い転職エージェントとして知られています。もともとIT特化型のエージェントとしてスタートし、現在は総合型にサービスを拡大していますが、IT業界への転職支援は依然として最大の強みです。転職コンシェルジュと呼ばれるアドバイザーが、IT業界の最新動向に精通した求人提案を行います。
+              この記事では、ワークポートとリクルートエージェントの違いを<strong>各社公式サイトで確認できた公開情報のみ</strong>で整理します。両社とも全業界・全職種を扱う総合型の転職エージェントであり、どちらが優れているかを断定する記事ではありません。構造の違いを理解して、自分の状況に合う使い方を判断するための材料としてください。
             </p>
+            <div className="rounded-xl border p-6 mt-2" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+                ワークポート
+              </h3>
+              <p className="text-sm leading-relaxed">
+                株式会社ワークポートが運営する転職エージェント。公式サイトでは「全国47都道府県に拠点展開している総合型転職エージェント」と説明され、求人数は<strong>15万件以上</strong>（2026年4月1日時点）、人材紹介20年以上の実績、転職相談実績100万人（2025年6月1日時点）と表示されています。会社情報の事業内容には<strong>IT・Web・ゲーム業界の人材紹介</strong>が明記されており、専任の「転職コンシェルジュ」が求人紹介から書類添削・面接対策・条件交渉までを支援する体制と、転職活動の進捗を管理できるツール「eコンシェル」を公式に案内しています（出典: ワークポート公式サイト（2026年6月参照））。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
+                リクルートエージェント
+              </h3>
+              <p className="text-sm leading-relaxed">
+                株式会社インディードリクルートパートナーズ（2025年4月1日に株式会社リクルートから分割により設立）が運営する転職エージェント。公式サイトでは「業界最大級の求人データベース」を掲げ、<strong>公開求人約76万件・非公開求人約27万件</strong>（2026年5月30日時点）と表示されています。「転職支援実績No.1」の表記には「厚生労働省『人材サービス総合サイト』における無期雇用および4ヵ月以上の有期雇用の合計人数（2019年度実績）」という公式注記が付されています。キャリアアドバイザーによる求人紹介・職務経歴書の添削・面接対策が公式に案内されており、職種「SE・ITエンジニア」の求人検索ページやエンジニア向け転職ノウハウのページも公式サイト内に用意されています（出典: リクルートエージェント公式サイト（2026年6月参照））。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* sec2 比較表 */}
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">公式公開情報の比較表（全行出典付き）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              リクルートエージェントは、リクルートグループが運営する国内最大級の転職エージェントです。非公開求人を含めた圧倒的な求人数と、長年の転職支援で培ったノウハウが強みです。IT・エンジニア職専門のアドバイザーチームも備えており、技術職の転職にも高い専門性で対応しています。
-            </p>
-            <p>
-              女性エンジニアがこの2社を比較する際に重要なのは、IT業界への専門性を重視するか、総合力と求人数を重視するかという点です。ワークポートはIT業界の「空気感」を理解したアドバイザーが多く、技術的な会話が通じやすいという声が多いです。一方、リクルートエージェントは企業との太いパイプを活かした独占求人や、交渉力の強さが魅力です。
-            </p>
-            <p>
-              2026年のIT業界は人材不足が続いており、女性エンジニアの需要は高まる一方です。どちらのエージェントを選んでも、しっかりとしたサポートを受けながら転職活動を進めることができます。自分の優先順位に合わせて、メインで使うエージェントを選びましょう。
+              各社公式サイトで確認できた公開情報を並べると次のとおりです。<strong>求人数は集計時点・区分・カウント方法が各社で異なる</strong>ため、数値の大小だけで優劣を判断しないでください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
-            <table className="w-full border-collapse text-sm">
+            <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>比較項目</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>ワークポート</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>リクルートエージェント</th>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ワークポート</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>リクルートエージェント</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>タイプ</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>IT特化寄りの総合型</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>総合型（最大手）</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>求人数</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>約80,000件</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>約300,000件以上</td>
+              <tbody className="text-text-light">
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>運営会社</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>株式会社ワークポート</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>株式会社インディードリクルートパートナーズ（2025年4月1日に株式会社リクルートより分割し設立）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>各社公式サイト会社情報（2026年6月参照）</td>
                 </tr>
                 <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>IT求人の強み</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>Web・ゲーム・IT企業に強い</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>大手SIer・社内SEに強い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>公式サイトでの自社説明</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「全国47都道府県に拠点展開している総合型転職エージェント」</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「業界最大級の求人データベース」を持つ転職エージェント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>対応速度</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>非常に速い</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>標準的</td>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>求人数（公式表示）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>15万件以上（2026年4月1日時点）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>公開求人約76万件・非公開求人約27万件（2026年5月30日時点）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）※時点・集計方法が異なる</td>
                 </tr>
                 <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>年収交渉</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>IT業界の相場に精通</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>交渉力が業界トップ</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITとの関わり（公式記載）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>事業内容にIT・Web・ゲーム業界の人材紹介を明記</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>職種「SE・ITエンジニア」の求人検索ページ、エンジニア向け転職ノウハウページを公式に用意</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ワークポート公式サイト会社情報／リクルートエージェント公式サイト（2026年6月参照）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>料金</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>完全無料</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>完全無料</td>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>担当者・サポート（公式案内）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>専任「転職コンシェルジュ」による求人紹介・書類添削・面接対策・条件交渉、進捗管理ツール「eコンシェル」</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>キャリアアドバイザーによる求人紹介・職務経歴書添削・面接対策</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>実績（公式表示）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>人材紹介20年以上、転職相談実績100万人（2025年6月1日時点）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>転職支援実績No.1（厚労省「人材サービス総合サイト」2019年度実績に基づく公式注記あり）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）※集計対象・期間が異なる</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>利用料金</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>無料（企業からの紹介手数料で運営と公式に説明）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>無料（「転職者様からは一切料金を頂いておりません」と公式に明記）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-light leading-relaxed mt-4 text-sm">
+            ※ 上表はすべて各社公式サイトの表示に基づきます。数値は参照時点のものであり、最新の値は必ず各公式サイトでご確認ください。エージェントという仕組みそのもの（無料で使える理由や成功報酬モデル）の解説は
+            <a href="/articles/agent-vs-site/" className="underline" style={{ color: "#0891b2" }}>
+              転職エージェントと転職サイトの違い
+            </a>
+            にまとめています。
+          </p>
         </div>
       </section>
 
-      {/* sec2 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">IT・エンジニア求人数の比較</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              IT・エンジニア求人に関して、リクルートエージェントは総数で圧倒的ですが、ワークポートはIT業界に特化した求人のクオリティに定評があります。ワークポートのIT求人は全体の約7割を占めており、Web系・ゲーム業界・スタートアップなど、成長企業の求人が多いのが特徴です。
-            </p>
-            <p>
-              リクルートエージェントのIT求人は、大手SIer、メーカー系SI、社内SE、外資系IT企業など、安定志向の求人が充実しています。非公開求人の数も業界最大級で、リクルートエージェントでしか出会えない求人も多数あります。女性エンジニアの場合、大手企業は福利厚生が充実していることが多いため、リクルートエージェントの求人は働きやすさの面でもメリットがあります。
-            </p>
-            <p>
-              ワークポートは、特にWeb系企業やSaaS企業の求人に強みがあります。React、TypeScript、Python、Go言語など、モダンな技術スタックを使う企業の求人が多く、技術志向の女性エンジニアにとっては魅力的なラインナップです。また、リモートワーク可能な求人の割合も高く、柔軟な働き方を求める女性に適しています。
-            </p>
-            <p>
-              年収レンジで見ると、リクルートエージェントは年収800万円以上のハイクラス求人が豊富です。ワークポートは年収400万円〜700万円がボリュームゾーンですが、スキルの高いエンジニアには年収800万円以上の求人も提案してくれます。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* sec3 */}
+      {/* sec3 構造の違い */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">女性エンジニアへのサポート体制</h2>
+          <h2 className="text-2xl font-bold mb-6">構造の違い: IT寄り総合型と最大手総合型</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              女性エンジニアへのサポートについて、両社のアプローチは異なります。ワークポートはIT業界の専門知識を活かしたサポートが中心で、技術面での適切なマッチングに強みがあります。女性に特化したサービスではありませんが、女性コンシェルジュも在籍しており、女性ならではの相談にも対応してくれます。
+              比較表からわかるのは、2社が「特化型 vs 総合型」の対立ではなく、<strong>総合型の中での重心の違い</strong>だということです。
             </p>
             <p>
-              リクルートエージェントは、女性の転職支援にも力を入れており、女性活躍推進企業の特集ページや、ワーキングマザー向けの求人特集を提供しています。また、リクルートグループ自体がダイバーシティを重視しており、女性のキャリアに理解のあるアドバイザーが多いのも特徴です。
+              ワークポートは総合型でありながら、会社情報の事業内容に<strong>IT・Web・ゲーム業界の人材紹介を明記</strong>しています（出典: ワークポート公式サイト会社情報（2026年6月参照））。全職種を扱いつつ、IT領域を事業の柱の一つとして掲げている構造です。
             </p>
             <p>
-              両社ともにオンライン面談に対応しており、在職中の転職活動もスムーズに進められます。特にワークポートは土日や夜間の対応にも柔軟で、忙しい女性エンジニアにとって利用しやすい環境が整っています。
+              リクルートエージェントは<strong>「業界最大級の求人データベース」</strong>を掲げる規模重視の総合型で、公開求人約76万件・非公開求人約27万件（2026年5月30日時点）という公式表示はその規模感を示しています。IT職種についても「SE・ITエンジニア」の求人検索ページが公式に用意されており、全業界の求人の中の一カテゴリとしてIT職種をカバーする構造です（出典: リクルートエージェント公式サイト（2026年6月参照））。
             </p>
             <p>
-              職務経歴書や履歴書の添削サポートも両社ともに充実しています。エンジニアの場合、技術スキルの棚卸しと、それを分かりやすく伝える書類作成が重要ですが、IT業界に精通したアドバイザーが的確なアドバイスを提供してくれます。
+              つまり女性エンジニアにとっての論点は、「IT領域を柱とする総合型で職種理解の深い提案を受けたいか」「最大規模のデータベースで業界横断の選択肢を最大化したいか」という<strong>軸の置き方</strong>です。どちらの軸が正しいかは人によって異なり、両方を見たい場合は併用という選択肢があります。IT特化型（求人をIT・Web業界に限定するカテゴリ）も含めた全体像は
+              <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#0891b2" }}>
+                IT特化型と総合型転職エージェントの違い
+              </a>
+              で整理しています。
             </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ワークポートのサポート
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                IT業界出身のコンシェルジュが技術面のマッチングを徹底サポート。対応スピードが速く、登録当日に求人紹介を受けられることも。無料プログラミングスクール「みんスク」で未経験者の学習もサポートしています。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                リクルートエージェントのサポート
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                業界最大手の信頼感と、企業との強固な関係性を活かしたサポートが特徴です。非公開求人の紹介、年収交渉、面接対策まで一貫してサポート。女性活躍推進企業の情報も豊富に保有しています。
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* sec4 */}
+      {/* sec4 運営会社 */}
       <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">未経験からのIT転職支援</h2>
+          <h2 className="text-2xl font-bold mb-6">運営会社について知っておきたいこと</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              未経験からIT業界への転職を考える女性にとって、ワークポートは非常に心強いパートナーです。無料のプログラミングスクール「みんスク」を運営しており、学習からIT転職までを一貫してサポートしてくれます。PHP、Java、Pythonなど、未経験者でも学びやすい言語を中心にカリキュラムが組まれています。
+              社名で比較するサービスだからこそ、運営会社の現在の姿は正確に押さえておきましょう。
             </p>
             <p>
-              リクルートエージェントでも未経験可のIT求人は取り扱っていますが、ワークポートほど未経験者支援に特化したサービスは提供していません。ただし、求人数の多さを活かして、未経験からでも挑戦できるポジション（ヘルプデスク、テスター、ITサポートなど）を幅広く紹介してくれます。
+              <strong>ワークポート</strong>の運営会社は株式会社ワークポートです。公式サイトでは人材紹介20年以上の実績と、全国47都道府県への拠点展開が案内されています（出典: ワークポート公式サイト（2026年6月参照））。
             </p>
             <p>
-              女性が未経験からIT業界に入る場合、最初のステップとして品質管理（QA）やIT事務、テクニカルサポートなどのポジションからスタートし、徐々に開発やインフラへステップアップしていくキャリアパスが一般的です。ワークポートはこうしたステップアップのプランを含めた提案をしてくれます。
+              <strong>リクルートエージェント</strong>は、「リクルート」の名を冠していますが、現在の運営会社は<strong>株式会社インディードリクルートパートナーズ</strong>です。リクルートグループの体制変更に伴い、2025年4月1日に株式会社リクルートから分割するかたちで設立された会社で、本社は東京都千代田区丸の内に置かれています（出典: 株式会社インディードリクルートパートナーズ公式サイト会社概要（2026年6月参照））。株式会社リクルートの公式サイトでも、2025年4月1日よりリクルートエージェント等のサービス提供会社が変更となる旨が告知されています（出典: 株式会社リクルート公式サイト「2025年4月1日より提供会社が変更となるサービス」（2026年6月参照））。グループ内での移管であり、サービスは「リクルートエージェント」の名称のまま提供されています。
             </p>
-            <p>
-              経験者の転職では、リクルートエージェントの方がハイクラス求人や大手企業の求人が豊富なため、キャリアアップを目指す女性エンジニアにはリクルートエージェントもおすすめです。経験年数や目指すキャリアに応じて使い分けるとよいでしょう。
+            <p className="text-sm">
+              なお、有料職業紹介事業者は厚生労働大臣の許可制です。利用前に許可事業者かどうかを確認したい場合は、厚生労働省の「人材サービス総合サイト」で事業所名から検索できます（出典: 厚生労働省 人材サービス総合サイト（2026年6月参照））。
             </p>
           </div>
         </div>
       </section>
 
-      {/* sec5 */}
+      {/* sec5 状況別 */}
       <section id="sec5" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">年収アップ・年収交渉力の比較</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">状況別の向き不向きの考え方</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              年収交渉力では、リクルートエージェントが一歩リードしています。業界最大手としての交渉力は圧倒的で、企業との長年の関係性を活かした年収交渉が可能です。特に大手企業への転職では、リクルートブランドの影響力が年収交渉にもプラスに働きます。
+              「どちらが合うか」は優劣ではなく、あなたの状況と何を重視するかで決まります。公式公開情報から読み取れる構造差をもとに、状況別の考え方を中立に整理します。<strong>いずれも傾向の話であり、最終的には実際に紹介される求人と担当者との相性で判断してください</strong>。
             </p>
-            <p>
-              ワークポートの年収交渉は、IT業界の相場に基づいた的確な提案が特徴です。技術スキルの市場価値を正しく評価し、スキルに見合った年収を引き出してくれます。Web系企業やスタートアップでは、年収テーブルに柔軟性がある場合が多く、ワークポートのコンシェルジュがうまく交渉してくれるケースも少なくありません。
-            </p>
-            <p>
-              女性エンジニアの場合、年収交渉に苦手意識を持つ方も多いですが、エージェントに任せることで適正な市場価値で転職できます。自分の技術スキルと経験を正しく評価してもらい、性別に関係なく公正な年収を得るためにも、エージェントの活用は有効です。
-            </p>
-            <p>
-              実績としては、リクルートエージェント経由の転職で年収100万円以上アップを実現したエンジニアも多数います。ワークポート経由でも、SES企業から自社開発企業への転職で年収80万円〜150万円アップした事例が報告されています。
-            </p>
+          </div>
+          <div className="space-y-4">
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                未経験
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">未経験・経験が浅い → 総合型2社は選択肢の入口になり得る。ただし紹介可否は経歴次第</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  両社とも全職種を扱う総合型のため、IT職種に限らず幅広い求人の中から現在の経歴で応募できる選択肢を探せる構造です。ただしエージェントは企業からの成功報酬で運営されるため、どのエージェントでも紹介できる求人がない段階では支援が薄くなることがあります。学習やポートフォリオ作りと並行して進めるのが現実的です。学習ロードマップは
+                  <a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>
+                    未経験からエンジニアになる完全ガイド
+                  </a>
+                  を参照してください。
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                経験者
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">実務経験がある → IT領域の提案の深さと求人母数、どちらを軸にするかで選ぶ</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  IT・Web・ゲーム領域を事業の柱とするワークポートの構造はIT職種の深掘りに、業界最大級のデータベースを掲げるリクルートエージェントの構造は社内SE・ITコンサルなど業界横断の比較に、それぞれ向いた作りといえます。ただし担当者個人の力量差はカテゴリ差より大きいことも多いため、提案の質を実際に見比べるのが確実です。
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>
+                地方在住
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">地方で探したい → 拠点・求人の地域カバレッジを公式サイトで確認する</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  ワークポートは「全国47都道府県に拠点展開」を公式に掲げており（出典: ワークポート公式サイト（2026年6月参照））、リクルートエージェントも都道府県別の求人検索ページを公式に用意しています。地方の場合は表示総数より「自分の県の自分の職種の求人数」が実態に近い指標なので、登録前に各公式サイトの検索で確認しておくと判断しやすくなります。
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                業界横断
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">IT業界以外も視野に入れたい → 求人母数の大きさが比較の材料を増やす</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  事業会社の社内SEや異業種のDX部門などIT業界の外も含めて比較したい場合、選択肢の母数が大きいほど比較材料は増えます。一方で母数が大きいほど絞り込みの軸（働き方の条件・技術環境など）を自分で明確にしておく必要もあります。条件整理のチェックポイントは
+                  <a href="/articles/how-to-choose/" className="underline" style={{ color: "#0891b2" }}>
+                    転職エージェントの選び方ガイド
+                  </a>
+                  にまとめています。
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* sec6 */}
+      {/* sec6 併用 */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">口コミ・評判の比較</h2>
-          <div className="space-y-4 mt-2">
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>ワークポート利用者 / 27歳 / Webエンジニア</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「登録してすぐに電話がかかってきて、その日のうちに面談を設定してもらえました。対応のスピードが圧倒的。コンシェルジュがIT業界に詳しく、技術的な話が通じるのが嬉しかったです。結果、モダンな技術スタックを使うSaaS企業に転職でき、年収も60万円アップしました。」
-              </p>
-            </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <p className="text-sm font-bold mb-2" style={{ color: "#7c3aed" }}>リクルートエージェント利用者 / 33歳 / インフラエンジニア</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「求人数が本当に多くて、自分では見つけられなかった企業を多数紹介してもらえました。特に大手企業の非公開求人は魅力的でした。年収交渉もしっかりやってもらい、年収120万円アップで大手SIerに転職できました。女性管理職が多い企業を条件に加えたら、しっかり対応してもらえました。」
-              </p>
-            </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>ワークポート利用者 / 25歳 / 未経験からIT転職</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「事務職からITエンジニアへのキャリアチェンジでお世話になりました。みんスクでプログラミングの基礎を学び、ワークポートから未経験OKの開発企業を紹介してもらいました。女性でも未経験から挑戦できる環境があると知れて、一歩踏み出す勇気をもらえました。」
-              </p>
-            </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <p className="text-sm font-bold mb-2" style={{ color: "#7c3aed" }}>リクルートエージェント利用者 / 29歳 / バックエンドエンジニア</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「担当のアドバイザーがとても丁寧で、私のキャリアプランを一緒に考えてくれました。複数の内定をもらった後の条件交渉でも、最適な選択ができるようアドバイスしてくれました。リモートワーク可で、女性エンジニアが多い企業に転職できて満足しています。」
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* sec7 */}
-      <section id="sec7" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">対応スピードと使いやすさ</h2>
+          <h2 className="text-2xl font-bold mb-6">併用の考え方と注意点</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              対応スピードでは、ワークポートが圧倒的に速いと評判です。登録後すぐに連絡がもらえ、早ければ当日中にキャリアカウンセリングを設定してもらえます。急いで転職したい方や、短期間で転職を決めたい方にはワークポートが向いています。
-            </p>
-            <p>
-              リクルートエージェントは登録から初回面談まで数日〜1週間程度かかることがありますが、面談後のサポートは非常に丁寧です。じっくりとキャリアプランを練りたい方、複数の選択肢を慎重に比較したい方にはリクルートエージェントが向いています。
-            </p>
-            <p>
-              使いやすさの面では、ワークポート独自の転職活動管理ツール「eコンシェル」が便利です。応募状況や面接スケジュールを一元管理でき、コンシェルジュとのやり取りもツール上で行えます。リクルートエージェントも専用のマイページが用意されており、求人の閲覧や応募管理がオンラインで完結します。
-            </p>
-            <p>
-              在職中の女性エンジニアにとっては、スマートフォンでの操作性も重要なポイントです。両社ともにスマホ対応していますが、ワークポートのeコンシェルはスマホアプリの使い勝手が良いと評価されています。
+              「どちらか1社に決めなければならない」というルールはありません。複数エージェントの併用は制度上も実態上も一般的で、構造の異なる2社なら、紹介される求人や提案の傾向を見比べる材料になります。特にこの2社は「IT領域を柱とする総合型」と「最大規模の総合型」という重心の違いがあるため、同じ経歴に対する提案の角度の違いが見えやすい組み合わせです。
             </p>
           </div>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+              併用する場合の3つの注意点
+            </h3>
+            <ul className="space-y-3 text-sm text-text-light">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span>
+                  <strong>重複応募をしない</strong>: 同じ求人に両方のエージェント経由で応募すると、企業・エージェント双方の信頼を損ないます。応募先は自分でスプレッドシート等に一元管理する
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span>
+                  <strong>併用を隠さない</strong>: 他社も利用していると伝えるのは普通のことで、選考スケジュールの調整もしやすくなります
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span>
+                  <strong>広げすぎない</strong>: 登録数が多すぎると面談・連絡の管理が破綻します。軸＋サブの2〜3社から始め、提案の質と担当者との相性で比重を移すのが現実的です
+                </span>
+              </li>
+            </ul>
+          </div>
+          <p className="text-text-light leading-relaxed mt-4 text-sm">
+            総合型2社の併用に加えて、IT特化型や女性特化型を組み合わせる考え方（「技術の評価」と「働き方の条件」を別の軸で検証する方法）は
+            <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#0891b2" }}>
+              IT特化型と総合型の違い
+            </a>
+            で詳しく解説しています。
+          </p>
         </div>
       </section>
 
-      {/* sec8 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* sec7 注意点 */}
+      <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">タイプ別おすすめ判定</h2>
-          <div className="space-y-4 mt-2">
+          <h2 className="text-2xl font-bold mb-6">比較するときに気をつけたいこと</h2>
+          <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ワークポートがおすすめの人
+                1. 求人数の「単位」は各社で違う
               </h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・Web系・SaaS企業でモダンな技術を使いたい</li>
-                <li>・スピード感を持って転職活動を進めたい</li>
-                <li>・未経験からIT業界に挑戦したい</li>
-                <li>・IT業界に詳しいアドバイザーに相談したい</li>
-                <li>・リモートワーク可能な求人を探している</li>
-              </ul>
+              <p className="text-text-light text-sm leading-relaxed">
+                公式表示の求人数は、集計時点・公開非公開の区分・カウント方法（求人票単位か採用予定人数単位か等）が各社で異なります。数値の大小をそのまま優劣と読み替えないようにしましょう。
+              </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                リクルートエージェントがおすすめの人
+                2. 「No.1」表記は注記まで読む
               </h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・できるだけ多くの求人から比較検討したい</li>
-                <li>・大手企業や安定した企業への転職を目指している</li>
-                <li>・年収交渉力の高いエージェントを利用したい</li>
-                <li>・じっくりとキャリアプランを考えたい</li>
-                <li>・ハイクラス求人（年収800万円以上）を探している</li>
-              </ul>
+              <p className="text-text-light text-sm leading-relaxed">
+                各社が掲げる実績・受賞・No.1表記には、集計対象・期間・調査主体の注記が付いています。何の集計に基づく表記なのかを公式サイトの注記で確認すると、情報を正しく位置づけられます。
+              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">併用のすすめと注意点</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              ワークポートとリクルートエージェントの併用は、女性エンジニアの転職活動において非常に効果的です。ワークポートのIT専門性とスピード感、リクルートエージェントの求人数と交渉力、それぞれの強みを活かすことで、より良い転職先を見つけやすくなります。
-            </p>
-            <p>
-              併用する際の注意点として、同じ企業に複数のエージェントから応募しないようにしましょう。企業側に不信感を与えてしまう可能性があります。また、各エージェントにはそれぞれ他のエージェントも利用していることを伝えておくと、よりスムーズにサポートを受けられます。
-            </p>
-            <p>
-              併用の効果的な使い方としては、ワークポートでWeb系・スタートアップの求人を探しながら、リクルートエージェントで大手企業・安定企業の求人もチェックするという方法がおすすめです。異なるタイプの企業を比較することで、自分に本当に合った環境が見えてきます。
-            </p>
-            <p>
-              さらに、IT特化型のレバテックキャリアやGeeklyを加えて3社併用するのも一つの手です。IT特化型と総合型をバランスよく活用することで、転職の成功率を高めることができます。
-            </p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+                3. 口コミより自分の面談体験
+              </h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                ネット上の口コミは投稿者の経歴・時期・担当者に依存し、あなたに当てはまるとは限りません。どちらも無料で利用できるので、実際の面談で「自分の職種・条件への理解度」を確かめるのが最も確実な比較方法です。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
+                4. 女性エンジニアならではの確認軸を持つ
+              </h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                産休育休の取得実績・時短勤務の運用・リモートワークの定着度など、求人票に出にくい情報をどこまで具体的に答えられるかは、どちらのエージェントでも担当者の力量を測る試金石になります。面談で同じ質問をぶつけて答えを見比べるのがおすすめです。
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
@@ -530,7 +565,7 @@ export default function ArticlePage() {
               ) => (
                 <details
                   key={i}
-                  className="group rounded-xl border overflow-hidden"
+                  className="group rounded-xl border overflow-hidden bg-white"
                   style={{ borderColor: "#d1dce5" }}
                 >
                   <summary
@@ -552,6 +587,36 @@ export default function ArticlePage() {
               )
             )}
           </div>
+        </div>
+      </section>
+
+      {/* 出典 */}
+      <section id="sec9" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
+          <ul className="space-y-3 text-sm text-text-light leading-relaxed">
+            <li>
+              ・出典: ワークポート公式サイト（2026年6月参照）— 総合型転職エージェントとしての自社説明、全国47都道府県への拠点展開、求人数15万件以上（2026年4月1日時点）、転職相談実績100万人（2025年6月1日時点）、人材紹介20年以上、転職コンシェルジュ・eコンシェル、無料の仕組み（企業からの紹介手数料で運営）
+            </li>
+            <li>
+              ・出典: ワークポート公式サイト 会社情報・事業内容（2026年6月参照）— 運営会社（株式会社ワークポート）、事業内容としてのIT・Web・ゲーム業界の人材紹介
+            </li>
+            <li>
+              ・出典: リクルートエージェント公式サイト（2026年6月参照）— 公開求人約76万件・非公開求人約27万件（2026年5月30日時点）、業界最大級の求人データベース、転職支援実績No.1（厚生労働省「人材サービス総合サイト」2019年度実績に基づく公式注記）、キャリアアドバイザーによるサポート内容、利用無料の明記、SE・ITエンジニアの求人検索ページ
+            </li>
+            <li>
+              ・出典: 株式会社インディードリクルートパートナーズ公式サイト 会社概要（2026年6月参照）— 2025年4月1日に株式会社リクルートより分割し設立、本社所在地（東京都千代田区丸の内）
+            </li>
+            <li>
+              ・出典: 株式会社リクルート公式サイト「2025年4月1日より提供会社が変更となるサービス」（2026年6月参照）— リクルートエージェント等の提供会社変更の告知
+            </li>
+            <li>
+              ・出典: 厚生労働省「人材サービス総合サイト」（2026年6月参照）— 有料職業紹介の許可事業者の検索
+            </li>
+          </ul>
+          <p className="mt-4 text-xs text-text-light">
+            ※ 本記事の固有情報は各社公式サイトで確認できた公開情報のみに基づいています。求人数等の数値は参照時点の表示であり、集計時点・カウント方法は各社で異なるため単純比較はできません。最新のサービス内容は必ず各公式サイトでご確認ください。本記事は特定のサービスの優劣を断定するものではありません。
+          </p>
         </div>
       </section>
 

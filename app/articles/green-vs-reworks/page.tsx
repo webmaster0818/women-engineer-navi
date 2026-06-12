@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Green vs ReWorks比較｜リモート重視の女性エンジニア向け",
+  title: "GreenとReWorksの違い｜女性エンジニアの転職サイト使い分け【2026年】",
   description:
-    "GreenとReWorksをリモートワーク重視の女性エンジニア視点で徹底比較。求人の特徴・リモート求人の充実度・サポート体制など、在宅勤務を希望する女性エンジニアに必要な情報を解説します。",
+    "GreenとReWorksの違いを公式サイトの公開情報に基づき整理。Greenは株式会社アトラエ運営のIT/Web業界に強い転職サイト、ReWorksは株式会社アイドマ・ホールディングス運営のフルリモート正社員特化型転職支援サイト。運営会社・機能・料金を出典付きで比較し、女性エンジニアの状況別の使い分けを解説します。",
   alternates: { canonical: "/articles/green-vs-reworks/" },
   openGraph: {
-    title: "Green vs ReWorks比較｜リモート重視の女性エンジニア向け",
+    title: "GreenとReWorksの違い｜女性エンジニアの転職サイト使い分け【2026年】",
     description:
-      "GreenとReWorksをリモートワーク重視の女性エンジニア視点で徹底比較。求人の特徴・リモート求人の充実度・サポート体制など、在宅勤務を希望する女性エンジニアに必要な情報を解説します。",
+      "GreenとReWorksの違いを公式サイトの公開情報に基づき整理。運営会社・サービス形態・特化領域・スカウト等の機能を出典付きで比較し、女性エンジニアの状況別の使い分けを中立に解説します。",
     url: "https://women-engineer.com/articles/green-vs-reworks/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Green vs ReWorks比較｜リモート重視の女性エンジニア向け",
+  headline: "GreenとReWorksの違い｜女性エンジニアの転職サイト使い分け【2026年】",
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "GreenとReWorksをリモートワーク重視の女性エンジニア視点で徹底比較。求人の特徴・リモート求人の充実度・サポート体制など、在宅勤務を希望する女性エンジニアに必要な情報を解説します。",
+    "GreenとReWorksの違いを公式サイトの公開情報に基づき整理。運営会社・サービス形態・特化領域・スカウト等の機能を出典付きで比較し、女性エンジニアの状況別の使い分けを中立に解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/green-vs-reworks/",
@@ -47,42 +47,42 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "GreenとReWorksはどちらがリモートワーク求人に強いですか？",
+      name: "GreenとReWorksは何が違いますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ReWorksはフルリモートワーク求人に特化したサービスのため、完全在宅勤務を希望する場合はReWorksが適しています。Greenはリモートワーク可能な求人も多いですが、IT・Web業界全般をカバーする転職サイトのため、ハイブリッド勤務や出社ベースの求人も含まれます。フルリモート限定で探すならReWorks、選択肢を広くしたいならGreenがおすすめです。",
+        text: "特化している軸が異なります。Greenは株式会社アトラエが運営し、公式サイトで「IT/Web業界の求人・中途採用情報に強い転職サイト」と説明されているサービスです。ReWorksは株式会社アイドマ・ホールディングスが運営し、公式サイトで「フルリモート正社員特化型転職支援サイト」と説明されています（いずれも2026年6月時点の各公式サイトの表記）。Greenは「IT/Web業界」という業界の軸、ReWorksは「フルリモート正社員」という働き方の軸で求人を扱う整理になり、どちらが優れているかではなく探す軸の違いです。",
       },
     },
     {
       "@type": "Question",
-      name: "Greenはエンジニア転職にどのくらい強いですか？",
+      name: "GreenとReWorksはどちらも無料で使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "GreenはIT・Web業界に特化した転職サイトで、エンジニア求人が全体の約6割を占めます。スタートアップからメガベンチャーまで幅広いIT企業の求人を掲載しており、企業から直接スカウトが届く機能も人気です。カジュアル面談という形で気軽に企業と話せるのも、エンジニア転職に適した特徴です。",
+        text: "はい。Green公式サイトには「求職者の方はすべての機能を無料でご利用いただけます。求人閲覧・応募・スカウト受信・メッセージのやり取りなどに料金は一切かかりません」と明記されています。ReWorksも公式サイトで会員登録は無料と案内されており、キャリアコンサルタントによる相談も無料相談として案内されています（2026年6月時点の各公式サイトの記載）。",
       },
     },
     {
       "@type": "Question",
-      name: "ReWorksは未経験でも利用できますか？",
+      name: "スカウト機能はGreenとReWorksのどちらにもありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、ReWorksは未経験者向けのリモートワーク求人も取り扱っています。キャリア相談やリモートワークに必要なスキルの習得支援も行っており、リモートワーク未経験の方でもサポートを受けながら在宅勤務の仕事を見つけることができます。IT業界以外のリモートワーク求人もあるのが特徴です。",
+        text: "あります。Green公式サイトには「企業からスカウトが届くほか、気になる企業や求人には自分から応募することも可能。企業の担当者と直接やりとりができる」と記載されています。ReWorksの公式サイトでも、企業が求職者のプロフィールを見てスカウトする機能が案内されています。どちらも、職務経歴やスキルなどプロフィールの充実度がスカウトを受け取る前提になる点は共通です。",
       },
     },
     {
       "@type": "Question",
-      name: "Greenのスカウト機能はどのように活用すればいいですか？",
+      name: "GreenやReWorksは転職エージェントとは違うのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Greenのスカウト機能を活用するには、プロフィールを充実させることが重要です。特に技術スキル、これまでの開発経験、ポートフォリオなどを詳しく記載しましょう。企業の採用担当者がプロフィールを見てスカウトを送るため、情報が充実しているほど質の高いスカウトが届きやすくなります。",
+        text: "仕組みが異なります。GreenとReWorksはいずれも、自分で求人を探して応募したり企業からのスカウトを受け取ったりする「サイト型」のサービスで、担当キャリアアドバイザーが求人紹介・日程調整・条件交渉などを仲介するエージェント型（有料職業紹介）とは形態が違います。なおReWorksは、キャリアコンサルタントによる無料相談やオンライン講座も公式サイトで案内しており、サイト型に相談サポートを組み合わせた形です。サイト型とエージェント型の違いの全体像は「転職エージェントと転職サイトの違い」の記事で詳しく解説しています。",
       },
     },
     {
       "@type": "Question",
-      name: "リモートワークで注意すべき点は何ですか？",
+      name: "GreenとReWorksは併用してもいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "リモートワーク求人を選ぶ際は、フルリモートかハイブリッドかを確認しましょう。また、リモートワーク手当の有無、通信環境の要件、コアタイムの有無なども重要なチェックポイントです。入社後のオンボーディング体制や、チームのコミュニケーションツール、定期的なオフライン交流の機会があるかも確認しておくと安心です。",
+        text: "併用できます。GreenはIT/Web業界という「業界」の軸、ReWorksはフルリモート正社員という「働き方」の軸で求人を扱うため、両方に登録して選択肢を見比べる使い方が可能です。どちらも求職者は無料で利用できます。ただし、同じ企業の同じ求人に複数の経路から重複して応募すると企業側の混乱を招くため、応募状況はスプレッドシートなどで自分が一元管理しましょう。",
       },
     },
   ],
@@ -107,7 +107,7 @@ const breadcrumbData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "Green vs ReWorks比較",
+      name: "GreenとReWorksの違い",
       item: "https://women-engineer.com/articles/green-vs-reworks/",
     },
   ],
@@ -141,7 +141,7 @@ export default function ArticlePage() {
             items={[
               { label: "ホーム", href: "/" },
               { label: "転職コラム", href: "/articles/" },
-              { label: "Green vs ReWorks比較" },
+              { label: "GreenとReWorksの違い" },
             ]}
           />
           <div className="mt-4">
@@ -149,21 +149,53 @@ export default function ArticlePage() {
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
               style={{ backgroundColor: "#f97066" }}
             >
-              エージェント比較
+              転職サイト比較
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              Green vs ReWorks比較
+              GreenとReWorksの違い
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                リモート重視の女性エンジニア向け徹底比較
+                女性エンジニアの転職サイト使い分け【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月28日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div
+            className="rounded-xl p-6"
+            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+          >
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+              この記事の結論
+            </h2>
+            <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li>
+                ① 2つのサービスは<strong>特化の軸が違う</strong>。Greenは「IT/Web業界の求人・中途採用情報に強い転職サイト」（Green公式サイトの表記）、ReWorksは「フルリモート正社員特化型転職支援サイト」（ReWorks公式サイトの表記）。優劣ではなく<strong>業界の軸か、働き方の軸か</strong>の違い
+              </li>
+              <li>
+                ② どちらも担当者が仲介するエージェント型ではなく、<strong>自分で探す／スカウトを受け取るサイト型</strong>。求職者の利用はどちらも無料（各公式サイト記載）
+              </li>
+              <li>
+                ③ 使い分けの目安は、<strong>IT/Web業界の中で広く比較したいならGreen</strong>を起点に、<strong>フルリモート（完全在宅）が絶対条件ならReWorks</strong>を起点に。両方を満たしたい場合は併用して見比べる
+              </li>
+              <li>
+                ④ 求人紹介や条件交渉まで任せたい場合は、サイト型と仕組みが異なる<strong>エージェント型の併用</strong>も選択肢。違いは
+                <a href="/articles/agent-vs-site/" className="underline" style={{ color: "#0891b2" }}>
+                  転職エージェントと転職サイトの違い
+                </a>
+                で整理しています
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* 目次 */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
@@ -171,311 +203,279 @@ export default function ArticlePage() {
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. GreenとReWorksの基本情報</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. リモートワーク求人の充実度</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. IT・エンジニア求人の比較</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. サービスの使い方と機能比較</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 女性エンジニアへのサポート</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 利用者の口コミ・評判</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. リモートワーク成功のポイント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. タイプ別おすすめ判定</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 併用と他サービスとの組み合わせ</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. GreenとReWorksの基本情報（公式サイトの記載から）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 公式公開情報の比較表</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 「業界の軸」と「働き方の軸」の違いを読み解く</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 状況別・どちらを起点にするか</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. エージェント型サービスとの違い</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 併用と他サービスとの組み合わせ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. よくある質問</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 出典・参考資料</a></li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* sec1 */}
+      {/* sec1 基本情報 */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">GreenとReWorksの基本情報</h2>
+          <h2 className="text-2xl font-bold mb-6">GreenとReWorksの基本情報（公式サイトの記載から）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              GreenはIT・Web業界に特化した転職サイトとして、多くのエンジニアに利用されています。企業と求職者が直接つながるダイレクトリクルーティング型のサービスで、企業からのスカウトやカジュアル面談を通じて、自分に合った企業を見つけることができます。スタートアップからメガベンチャーまで、IT業界の成長企業が多数利用しています。
+              本記事では、両サービスの固有情報は<strong>公式サイトで確認できた公開情報のみ</strong>を、公式の表現に沿って記載します（いずれも2026年6月参照）。求人件数など、公式サイト上で確認できなかった数値は記載していません。最新の情報は必ず各公式サイトでご確認ください。
             </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-lg font-bold">Green（グリーン）</h3>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                  IT/Web業界に強い転職サイト
+                </span>
+              </div>
+              <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+                <li>
+                  ・公式サイトでは「<strong>IT/Web業界の求人・中途採用情報に強い転職サイト</strong>」「IT業界やIT関連の求人規模が国内最大級の転職サービス」と説明されています
+                </li>
+                <li>
+                  ・「企業からスカウトが届くほか、気になる企業や求人には自分から応募することも可能。企業の担当者と直接やりとりができる」と案内されています
+                </li>
+                <li>
+                  ・公式の転職ガイドでは「カジュアル面談から始める転職」や「気になる」機能の活用が紹介されています
+                </li>
+                <li>
+                  ・料金については「求職者の方はすべての機能を無料でご利用いただけます。求人閲覧・応募・スカウト受信・メッセージのやり取りなどに料金は一切かかりません」と明記されています
+                </li>
+                <li>
+                  ・運営会社は<strong>株式会社アトラエ</strong>（Atrae, Inc.）です
+                </li>
+              </ul>
+              <p className="mt-3 text-xs text-text-light">
+                出典: Green公式サイト・Green公式転職ガイド・株式会社アトラエ公式サイト（2026年6月参照）
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-lg font-bold">ReWorks（リワークス）</h3>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                  フルリモート正社員特化
+                </span>
+              </div>
+              <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+                <li>
+                  ・公式サイトでは「<strong>フルリモート正社員特化型転職支援サイト</strong>」と説明され、「フルリモート社員は、リワークスで検索。」というメッセージが掲げられています
+                </li>
+                <li>
+                  ・企業が求職者のプロフィールを見てスカウトする機能が案内されています
+                </li>
+                <li>
+                  ・「経験豊富なキャリアコンサルタントによる無料相談」や、オンライン講座（キャリアカレッジ）が案内されています
+                </li>
+                <li>
+                  ・会員登録は無料と案内されています
+                </li>
+                <li>
+                  ・運営会社は<strong>株式会社アイドマ・ホールディングス</strong>（Aidma Holdings, Inc.）です
+                </li>
+              </ul>
+              <p className="mt-3 text-xs text-text-light">
+                出典: ReWorks公式サイト・株式会社アイドマ・ホールディングス公式サイト（2026年6月参照）
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* sec2 比較表 */}
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">公式公開情報の比較表</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              ReWorksはフルリモートワーク求人に特化した転職支援サービスです。完全在宅勤務が可能な求人のみを取り扱っており、場所を選ばない働き方を実現したい方に最適なサービスです。キャリアカウンセリングやリモートワークに必要なスキルの習得支援も提供しており、リモートワークが初めての方でも安心して利用できます。
-            </p>
-            <p>
-              女性エンジニアがこの2つのサービスを検討する背景には、リモートワークへの強いニーズがあります。育児との両立、通勤時間の削減、地方在住でのキャリア構築など、リモートワークは女性エンジニアの多様な働き方を実現する重要な選択肢です。
-            </p>
-            <p>
-              2026年現在、IT業界ではリモートワークが定着しており、フルリモート・ハイブリッド勤務を採用する企業が増え続けています。この流れは女性エンジニアにとって追い風であり、GreenやReWorksを活用することで、理想の働き方を実現しやすい環境が整っています。
+              各公式サイトで確認できた公開情報を並べると次のとおりです。<strong>優劣を示す表ではなく、性格の違いを把握するための整理</strong>としてご覧ください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
             <table className="w-full border-collapse text-sm">
               <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>比較項目</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>Green</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>ReWorks</th>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>Green</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ReWorks</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>タイプ</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>IT特化型転職サイト</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>フルリモート特化型</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>リモート求人</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>多数あり（ハイブリッド含む）</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>全求人がフルリモート</td>
+              <tbody className="text-text-light">
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>運営会社</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>株式会社アトラエ（Atrae, Inc.）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>株式会社アイドマ・ホールディングス（Aidma Holdings, Inc.）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
                 </tr>
                 <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>IT求人</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>エンジニア求人が約6割</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>IT系含む幅広い職種</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>サービス形態</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>転職サイト（自分で応募＋企業からのスカウト）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>転職支援サイト（求人検索＋スカウト＋無料相談）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>スカウト</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>企業から直接スカウト</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>キャリア相談型</td>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>特化領域（公式表記）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>「IT/Web業界の求人・中途採用情報に強い転職サイト」</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>「フルリモート正社員特化型転職支援サイト」</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
                 </tr>
                 <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>カジュアル面談</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>あり（気軽に企業と対話）</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>キャリアカウンセリング対応</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>スカウト</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>あり（企業からスカウトが届き、企業の担当者と直接やりとり可能）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>あり（企業がプロフィールを見てスカウト）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>料金</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>完全無料</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>完全無料</td>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>相談・サポート（公式案内）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>公式転職ガイドで「カジュアル面談から始める転職」や「気になる」機能の活用を案内</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>キャリアコンサルタントによる無料相談、オンライン講座（キャリアカレッジ）を案内</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>Green公式転職ガイド・ReWorks公式サイト（2026年6月参照）</td>
+                </tr>
+                <tr>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>料金</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>求職者はすべての機能を無料で利用可能</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>会員登録は無料</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>各公式サイト（2026年6月参照）</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="mt-4 text-xs text-text-light">
+            ※ 掲載求人数は、両サービスとも公式サイト上で常時掲載の確定値を確認できなかったため記載していません。求人の件数・内訳は各公式サイトの検索画面で最新の状況をご確認ください。
+          </p>
         </div>
       </section>
 
-      {/* sec2 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">リモートワーク求人の充実度</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              リモートワーク求人に関しては、ReWorksが圧倒的な強みを持っています。ReWorksのすべての求人がフルリモートワーク対応であり、完全在宅勤務を前提とした求人のみが掲載されています。地方在住の方や、通勤が難しい状況にある方にとって、非常に使いやすいサービスです。
-            </p>
-            <p>
-              Greenのリモートワーク求人は、フルリモートからハイブリッド（週1〜3日出社）まで幅広い形態が含まれています。「リモートワーク可」で検索できるため、リモートワーク対応の企業を効率的に探すことができます。ただし、求人によってリモートワークの条件が異なるため、詳細を確認する必要があります。
-            </p>
-            <p>
-              女性エンジニアがリモートワークを重視する理由はさまざまです。育児との両立はもちろん、通勤ストレスの軽減、集中できる環境での開発、地方でのキャリア構築など、ライフスタイルに合わせた働き方を実現したいという思いがあります。
-            </p>
-            <p>
-              ReWorksでは、リモートワークに特化したキャリアサポートも提供しています。自宅での作業環境の整え方、リモートでのコミュニケーションスキル、自己管理のコツなど、在宅勤務を成功させるためのアドバイスも受けられます。Greenでは、企業のリモートワーク実態を企業ページで確認でき、社員のリモートワーク体験談が掲載されている企業もあります。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* sec3 */}
+      {/* sec3 軸の違い */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">IT・エンジニア求人の比較</h2>
+          <h2 className="text-2xl font-bold mb-6">「業界の軸」と「働き方の軸」の違いを読み解く</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              IT・エンジニア求人に関しては、GreenがReWorksを大きく上回っています。Greenのエンジニア求人は全体の約6割を占め、フロントエンド、バックエンド、インフラ、モバイル、データサイエンスなど、あらゆるエンジニア職種をカバーしています。
+              比較表からわかる最大のポイントは、両サービスが<strong>同じ土俵で競合しているわけではない</strong>ことです。Greenは「IT/Web業界」という<strong>業界</strong>を軸に求人を扱う転職サイトであり、ReWorksは「フルリモート正社員」という<strong>働き方</strong>を軸に求人を扱う転職支援サイトです（いずれも各公式サイトの表記、2026年6月参照）。
             </p>
             <p>
-              ReWorksのIT求人は、フルリモートで対応可能なポジションが中心です。Webエンジニア、フロントエンドエンジニア、バックエンドエンジニアなどの求人がありますが、インフラエンジニアやハードウェア関連のエンジニア求人は少ない傾向にあります。IT以外の職種（カスタマーサクセス、マーケティング、事務など）のリモート求人も取り扱っています。
+              軸が違うということは、探せる範囲の性格も変わります。業界の軸で探す場合、働き方（フルリモート・ハイブリッド・出社）は求人ごとの条件として確認していくことになります。一方、働き方の軸で探す場合は、フルリモートという条件が先に絞り込まれた状態から、職種や業界を選んでいく順序になります。<strong>どちらの順序が合うかは、あなたの優先順位次第</strong>です。
             </p>
             <p>
-              技術スタック別に見ると、Greenではモダンな技術（React、TypeScript、Go、Rust、Kubernetes）を使う企業の求人が多く、技術志向のエンジニアに人気があります。ReWorksの IT求人は、実務で即戦力として働ける技術（PHP、Ruby、Python、JavaScript）を求めるものが中心です。
+              女性エンジニアの場合、育児や介護との両立、地方在住でのキャリア継続などを理由にリモートワークを重視する人が多い一方で、技術環境や事業内容を軸にキャリアを選びたい人も多くいます。「リモートは譲れない条件なのか、できれば嬉しい条件なのか」を先に言語化しておくと、どちらのサービスを起点にするかが決めやすくなります。リモート求人の探し方の全体像は
+              <a href="/articles/remote-jobs/" className="underline" style={{ color: "#0891b2" }}>
+                リモートワーク求人ガイド
+              </a>
+              、フルリモートを制度として運用している企業の調べ方は
+              <a href="/articles/fullremote-companies/" className="underline" style={{ color: "#0891b2" }}>
+                フルリモート企業の探し方
+              </a>
+              で詳しく解説しています。
             </p>
-            <p>
-              年収レンジで見ると、Greenは年収500万円〜900万円がボリュームゾーンで、スタートアップのCTO候補など年収1,000万円以上の求人もあります。ReWorksは年収400万円〜600万円が中心ですが、フルリモートの利点（通勤費・居住費の削減）を考慮すると実質的な待遇は悪くありません。
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>GreenのIT求人の特徴</h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・エンジニア求人が全体の約6割</li>
-                <li>・モダン技術を使う成長企業が多い</li>
-                <li>・スカウト機能で企業から直接アプローチ</li>
-                <li>・カジュアル面談で気軽に企業を知れる</li>
-                <li>・年収500万〜900万がボリュームゾーン</li>
-              </ul>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>ReWorksのIT求人の特徴</h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・すべてフルリモート対応</li>
-                <li>・Webエンジニア系の求人が中心</li>
-                <li>・未経験者向けのIT求人もあり</li>
-                <li>・リモートワークスキルの習得支援</li>
-                <li>・地方在住でも応募可能</li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* sec4 */}
+      {/* sec4 状況別 */}
       <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">サービスの使い方と機能比較</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">状況別・どちらを起点にするか</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              Greenの最大の特徴は、企業からのスカウト機能です。プロフィールを登録しておくだけで、企業の採用担当者から直接スカウトメッセージが届きます。気になるスカウトには「気になる」ボタンで反応でき、カジュアル面談につなげることができます。選考前に企業の雰囲気を知れるのは、転職先選びで大きなメリットです。
+              優劣ではなく軸の違いである以上、「自分の今の優先順位」から起点を決めるのが現実的です。次の整理を目安にしてください。
             </p>
-            <p>
-              ReWorksはキャリアカウンセリング型のサービスです。登録後、キャリアアドバイザーとの面談を通じて、リモートワークに適した求人を紹介してもらえます。自分のスキルや経験、希望する働き方をヒアリングした上で、最適な求人をマッチングしてくれるため、効率的に転職活動を進められます。
-            </p>
-            <p>
-              Greenでは、企業ページに社員インタビューや開発環境の情報が掲載されている場合があり、企業研究に役立ちます。応募前に企業の技術スタックや社風を確認できるのは、エンジニアにとって重要なポイントです。
-            </p>
-            <p>
-              ReWorksでは、リモートワークに必要なスキルの習得支援も行っています。オンラインでの学習コンテンツや、リモートワーク経験者からのアドバイスなど、在宅勤務をスムーズに始めるためのサポートが充実しています。
-            </p>
+          </div>
+          <div className="space-y-4">
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                業界重視
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">IT/Web業界の中で技術環境や事業内容を広く比較したい → Greenを起点に</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  Greenは公式に「IT/Web業界の求人・中途採用情報に強い転職サイト」と説明されており、業界を軸に求人を見比べたい人に合う形態です。働き方の条件（リモート可否や出社頻度）は求人ごとに異なるため、応募・面談の段階で個別に確認しましょう。
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                在宅最優先
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">フルリモート（完全在宅）が絶対条件 → ReWorksを起点に</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  ReWorksは公式に「フルリモート正社員特化型転職支援サイト」と説明されており、働き方の条件を先に固定して探したい人に合う形態です。地方在住でのキャリア継続や、通勤を前提にできない事情がある場合の起点になります。フルリモートで働く企業側の制度の見極め方は
+                  <a href="/articles/fullremote-companies/" className="underline" style={{ color: "#0891b2" }}>
+                    フルリモート企業の探し方
+                  </a>
+                  も参考にしてください。
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>
+                両立したい
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">「IT/Web業界」も「リモート」も両方大事 → 併用して見比べる</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  どちらも求職者は無料で利用できるため（各公式サイト記載）、両方に登録して「業界の軸で見つかる求人」と「働き方の軸で見つかる求人」を見比べる使い方ができます。リモートワークの条件（フルリモートかハイブリッドか、コアタイムや手当の有無）は求人・企業ごとに異なるので、
+                  <a href="/articles/remote-jobs/" className="underline" style={{ color: "#0891b2" }}>
+                    リモートワーク求人ガイド
+                  </a>
+                  のチェックポイントで個別に確認しましょう。
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                相談したい
+              </span>
+              <div>
+                <h3 className="font-bold mb-1">誰かに相談しながら進めたい → 相談サポートの有無と形を確認</h3>
+                <p className="text-sm text-text-light leading-relaxed">
+                  ReWorksは公式サイトでキャリアコンサルタントによる無料相談を案内しており、Greenの公式転職ガイドではカジュアル面談から始める転職が紹介されています。求人紹介から条件交渉まで担当者に任せたい場合は、次のセクションで説明するエージェント型サービスという別の選択肢もあります。
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* sec5 */}
+      {/* sec5 エージェント型との違い */}
       <section id="sec5" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">女性エンジニアへのサポート</h2>
+          <h2 className="text-2xl font-bold mb-6">エージェント型サービスとの違い</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              Greenは女性特化型のサービスではありませんが、IT業界で活躍する女性エンジニアの利用者が多いです。企業ページでは、女性社員のインタビューや、ダイバーシティへの取り組みを掲載している企業もあり、女性が働きやすい環境かどうかを事前に確認できます。
+              GreenとReWorksを比較する際に押さえておきたいのは、<strong>どちらも「サイト型」のサービス</strong>だという点です。サイト型は、自分で求人を検索して応募したり、プロフィールを登録して企業からのスカウトを受け取ったりする形態で、応募先の選定や日程調整、条件の確認は基本的に自分で進めます。
             </p>
             <p>
-              ReWorksは女性の利用者が多いサービスで、ワーキングマザーや育児中の女性への理解があるキャリアアドバイザーが在籍しています。フルリモートワークは育児との両立に最適な働き方であり、ReWorksはその点を強みとしてサービスを展開しています。
+              一方の<strong>エージェント型</strong>（有料職業紹介）は、担当のキャリアアドバイザーが求人紹介・書類添削・面接日程の調整・条件交渉などを仲介する形態です。自分のペースで広く見比べたいならサイト型、伴走してもらいながら進めたいならエージェント型と、ここでも優劣ではなく形態の違いがあります。なおReWorksは、サイト型でありながらキャリアコンサルタントによる無料相談を公式に案内しており、両者の中間的な使い方ができる形です（出典: ReWorks公式サイト、2026年6月参照）。
             </p>
             <p>
-              女性エンジニアがリモートワークを選ぶ際に気になるのは、キャリアアップの機会が維持されるかどうかです。リモートワークだと評価されにくいのではないか、昇進に不利にならないかという不安を持つ方も多いでしょう。Greenに掲載されている企業の多くは、リモートワーク前提の評価制度を導入しており、成果ベースの公正な評価が行われています。
-            </p>
-            <p>
-              ReWorksでは、リモートワークでのキャリアアップ事例も紹介しており、在宅勤務でもキャリアを伸ばせることを具体的に示しています。フルリモートでマネージャーに昇進した事例や、地方在住で都内企業のリードエンジニアとして活躍している事例など、女性エンジニアのロールモデルとなる情報が得られます。
+              サイト型とエージェント型の仕組み・お金の流れ・使い分けの全体像は
+              <a href="/articles/agent-vs-site/" className="underline" style={{ color: "#0891b2" }}>
+                転職エージェントと転職サイトの違い
+              </a>
+              で詳しく解説しています。エージェント型を併用する場合の個社の選び方は
+              <a href="/articles/how-to-choose/" className="underline" style={{ color: "#0891b2" }}>
+                転職エージェントの選び方ガイド
+              </a>
+              を参考にしてください。
             </p>
           </div>
         </div>
       </section>
 
-      {/* sec6 */}
+      {/* sec6 併用 */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">利用者の口コミ・評判</h2>
-          <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>Green利用者 / 29歳 / フロントエンドエンジニア</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「スカウト機能が便利で、自分では見つけられなかったスタートアップから声がかかりました。カジュアル面談で実際の開発環境や働き方を聞けたのが良かったです。結果、リモートワーク中心のSaaS企業に転職し、技術力を活かしながら育児との両立もできています。」
-              </p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#7c3aed" }}>ReWorks利用者 / 34歳 / バックエンドエンジニア</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「地方に住んでいるため、フルリモートの求人を探していました。ReWorksではすべての求人がフルリモートなので、検索の手間が省けて効率的でした。アドバイザーもリモートワーク事情に詳しく、自宅での環境整備のアドバイスまでもらえました。」
-              </p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>Green利用者 / 26歳 / バックエンドエンジニア</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「企業ページで社員インタビューや技術ブログが見れるので、企業の雰囲気がよく分かりました。女性エンジニアの社員インタビューがある企業を中心にチェックしていました。React+TypeScriptの経験を活かして、リモート可のメガベンチャーに転職できました。」
-              </p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#7c3aed" }}>ReWorks利用者 / 31歳 / Webエンジニア（育児中）</p>
-              <p className="text-sm text-text-light leading-relaxed">
-                「出産後に育児と両立できる仕事を探していて、ReWorksを見つけました。フルリモートに特化しているだけあって、子育て中の方への理解がある企業が多い印象です。時間に融通が利く環境で、スキルを維持しながら働けています。」
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* sec7 */}
-      <section id="sec7" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">リモートワーク成功のポイント</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              リモートワークを成功させるためには、環境整備とコミュニケーションスキルが重要です。自宅での作業スペースを確保し、安定したインターネット接続環境を整えましょう。デスクやチェア、モニターなどの作業環境にも投資する価値があります。
-            </p>
-            <p>
-              コミュニケーション面では、Slack、Zoom、Notionなどのツールを使いこなすスキルが求められます。テキストベースのコミュニケーションが増えるため、分かりやすい文章を書くスキルや、適切なタイミングでの報連相が重要になります。
-            </p>
-            <p>
-              自己管理も大切なポイントです。オフィスに通勤しない分、オンとオフの切り替えが難しくなることがあります。作業時間を決めて規則正しく働く、定期的に休憩を取る、終業時間を守るなど、自分なりのルーティンを作ることが長期的なリモートワークの成功につながります。
-            </p>
-            <p>
-              女性エンジニアの場合、育児との両立でリモートワークを選ぶケースも多いですが、「在宅だから子どもの面倒を見ながら仕事ができる」と考えるのは注意が必要です。保育園やシッターサービスの活用も含めて、仕事に集中できる環境を整えましょう。
-            </p>
-          </div>
-          <div
-            className="rounded-xl border p-6 mt-6"
-            style={{ borderColor: "#d1dce5" }}
-          >
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-              リモートワーク成功のチェックリスト
-            </h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                <span>安定したインターネット環境を確保する</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                <span>専用の作業スペースを設ける</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                <span>コミュニケーションツールを使いこなす</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                <span>オンとオフの切り替えルーティンを作る</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                <span>定期的にチームメンバーと1on1を設定する</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">タイプ別おすすめ判定</h2>
-          <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Greenがおすすめの人</h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・IT・Web業界でエンジニアとして転職したい</li>
-                <li>・リモートワーク可能な求人を幅広く探したい</li>
-                <li>・企業からのスカウトを受けて選択肢を広げたい</li>
-                <li>・モダンな技術スタックを使う企業で働きたい</li>
-                <li>・カジュアル面談で企業の雰囲気を確認したい</li>
-              </ul>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>ReWorksがおすすめの人</h3>
-              <ul className="space-y-2 text-sm text-text-light">
-                <li>・フルリモートワークを絶対条件にしたい</li>
-                <li>・地方在住で通勤が難しい</li>
-                <li>・育児との両立のために完全在宅で働きたい</li>
-                <li>・リモートワークが初めてでサポートが欲しい</li>
-                <li>・IT以外の職種でもリモートワークを検討している</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 */}
-      <section id="sec9" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">併用と他サービスとの組み合わせ</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              GreenとReWorksは特徴が大きく異なるため、併用することで転職の選択肢を最大限に広げることができます。Greenでモダンな技術を使うIT企業からのスカウトを待ちながら、ReWorksでフルリモートの求人を探すという使い方がおすすめです。
+              GreenとReWorksは特化の軸が異なるため、併用することで「業界の軸」と「働き方の軸」の両面から選択肢を見比べられます。どちらも求職者は無料で利用できるため（各公式サイト記載、2026年6月参照）、併用のコストはかかりません。
             </p>
             <p>
               さらに効果的なのは、転職エージェントとの併用です。レバテックキャリアやGeeklyなどのIT特化型エージェントに登録し、専門アドバイザーのサポートを受けながら、GreenやReWorksの求人もチェックするという方法が、多くの女性エンジニアに支持されています。
@@ -491,7 +491,7 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
@@ -512,26 +512,53 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      {/* 出典 */}
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
+          <ul className="space-y-3 text-sm text-text-light leading-relaxed">
+            <li>
+              ・出典: Green公式サイト（2026年6月参照）— 「IT/Web業界の求人・中途採用情報に強い転職サイト」の表記、スカウト・「気になる」・企業担当者との直接のやりとりに関する案内、求職者はすべての機能を無料で利用できる旨の記載
+            </li>
+            <li>
+              ・出典: Green公式サイト 転職ガイド（2026年6月参照）— 「カジュアル面談から始める転職」「スカウトを活用し、面談をしよう」等の案内
+            </li>
+            <li>
+              ・出典: 株式会社アトラエ公式サイト（2026年6月参照）— 運営会社の正式名称（株式会社アトラエ／Atrae, Inc.）
+            </li>
+            <li>
+              ・出典: ReWorks公式サイト（2026年6月参照）— 「フルリモート正社員特化型転職支援サイト」の表記、スカウト機能・キャリアコンサルタントによる無料相談・オンライン講座（キャリアカレッジ）の案内、会員登録無料の記載
+            </li>
+            <li>
+              ・出典: 株式会社アイドマ・ホールディングス公式サイト（2026年6月参照）— 運営会社の正式名称（株式会社アイドマ・ホールディングス／Aidma Holdings, Inc.）
+            </li>
+          </ul>
+          <p className="mt-4 text-xs text-text-light">
+            ※ 本記事は各公式サイトの公開情報（2026年6月時点）に基づく中立的な整理であり、両サービスの優劣を示すものではありません。掲載求人数・サービス内容は変更される場合があるため、最新情報は必ず各公式サイトでご確認ください。
+          </p>
+        </div>
+      </section>
+
       {/* 関連記事 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
+            <a href="/articles/agent-vs-site/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>転職エージェントと転職サイトの違い</h3>
+              <p className="text-sm text-text-light">サイト型とエージェント型の仕組みを整理</p>
+            </a>
             <a href="/articles/remote-jobs/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>リモートワーク求人ガイド</h3>
               <p className="text-sm text-text-light">在宅勤務のメリットと探し方</p>
             </a>
-            <a href="/articles/type-vs-doda/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>type女性 vs doda比較</h3>
-              <p className="text-sm text-text-light">女性エンジニアにおすすめはどっち？</p>
+            <a href="/articles/fullremote-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>フルリモート企業の探し方</h3>
+              <p className="text-sm text-text-light">制度として定着している企業の見極め方</p>
             </a>
-            <a href="/articles/workport-vs-recruit/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ワークポート vs リクルートエージェント</h3>
-              <p className="text-sm text-text-light">女性IT転職向けの比較ガイド</p>
-            </a>
-            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ワークライフバランスガイド</h3>
-              <p className="text-sm text-text-light">仕事とプライベートの両立方法</p>
+            <a href="/articles/how-to-choose/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>エージェント選び方ガイド</h3>
+              <p className="text-sm text-text-light">失敗しない選び方のチェックポイント</p>
             </a>
           </div>
         </div>

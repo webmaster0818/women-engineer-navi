@@ -14,3 +14,10 @@
 - 新規1: tokyo-women-training（東京都「女性ITエンジニア育成事業」実在確認済・令和8年度アデコ受託）
 - sitemap 113→114URL、GSC再送信errors:0、本番反映を全URL確認済み。Discord報告済み。
 - バッチ2着手: age-20s/age-40s/after-maternity/return-to-work/maternity-leave-rate/frontend/javascript-career/python-career（比較系5本はエージェント文言保護のため後バッチで慎重対応）
+
+## 2026-06-12 バッチ2・3完了✅（Tier A 16本）
+- バッチ2: age-20s/age-40s/after-maternity/return-to-work/maternity-leave-rate/frontend/javascript-career/python-career
+- バッチ3: ai-ml-career/data-scientist/aws-career/infrastructure/qa-tester/web-designer/pm-director/specialized-vs-general
+- 全て実データ・出典付き（厚労省PDF直接抽出含む）、エージェント紹介/CTA原文維持、架空事例削除、sitemap lastmod更新
+- 進捗: 24/54本完了（バッチ1含む）。残り: 比較系5本(agent-vs-site/type-vs-doda/levtech-vs-geekly/green-vs-reworks/workport-vs-recruit※エージェント文言保護で慎重対応)+Tier B 25本
+- 注意: CF Pages反映に数分ラグあり。検証は反映確認後に行う
