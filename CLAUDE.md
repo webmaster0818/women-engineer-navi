@@ -27,3 +27,9 @@
 - ハブ3本: how-to-choose（許可事業者・法定公開実績の確認方法軸）/certification（資格マップ、cert-6ページの親ハブ化）/career-path（5類型マップ、本日リライト分と数値整合）
 - 重要発見: リクルートエージェント運営は2025/4から「インディードリクルートパートナーズ」（分割設立）。cert-pythonデータ分析学割を公式値5,500円に修正
 - 進捗: 32/54本完了。残りTier B 22本（freelance/long-career-tips等career-pathからリンクされる定型文を優先推奨）
+
+## 2026-06-12 バッチ5完了✅（選考クラスタ+α 8本）
+- portfolio/resume-guide/interview-guide/technical-interview/negotiation/freelance/programming-school/success-stories
+- success-storiesは架空体験談集→統計ベース「成功パターン分析」へ全面転換（モデルケースは三重注記）
+- programming-schoolは特定スクール優劣なし「選び方基準+給付金活用」軸へ転換
+- 進捗: 40/54本+新規1本。残りTier B 14本: harassment/work-life-balance/side-job/startup/game-industry/web-industry/sier-industry/ses-vs-jisha/community/demand/schedule/work-abroad/category-index/faq-all

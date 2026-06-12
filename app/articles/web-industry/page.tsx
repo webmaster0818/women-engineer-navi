@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Web系企業への転職ガイド｜女性エンジニアが活躍する理由",
+  title: "Web業界で働く女性エンジニアのリアル｜年収・文化・SIerとの違い【2026年】",
   description:
-    "Web系企業への転職を目指す女性エンジニア向けガイド。Web系企業の特徴・年収・働き方・求められるスキルを徹底解説。自社開発・受託・SESの違いや、女性が活躍しやすい理由も紹介します。",
+    "Web業界（自社サービス・メガベンチャー・受託・スタートアップ）の構造と年収相場を公的データで解説。doda調査ではインターネット業界の平均年収440万円とSIer481万円より低い一方、job tagのWebサービス開発SEは578.5万円。SIerとの文化差や女性比率18.8%の実態、未経験では入りにくい現実まで正直に整理します。",
   alternates: { canonical: "/articles/web-industry/" },
   openGraph: {
-    title: "Web系企業への転職ガイド｜女性エンジニアが活躍する理由",
+    title: "Web業界で働く女性エンジニアのリアル｜年収・文化・SIerとの違い【2026年】",
     description:
-      "Web系企業への転職を目指す女性エンジニア向けガイド。Web系企業の特徴・年収・働き方・求められるスキルを徹底解説。",
+      "Web業界の構造・年収相場・SIerとの文化差・女性比率を公的データと出典付きで解説。未経験転職の現実的なルートも正直に紹介します。",
     url: "https://women-engineer.com/articles/web-industry/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Web系企業への転職ガイド｜女性エンジニアが活躍する理由",
+  headline: "Web業界で働く女性エンジニアのリアル｜年収・文化・SIerとの違い【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-04-29",
+  dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "Web系企業への転職を目指す女性エンジニア向けガイド。Web系企業の特徴・年収・働き方・求められるスキルを徹底解説。",
+    "Web業界の構造・年収相場・SIerとの文化差・女性比率を公的データと出典付きで解説。未経験転職の現実的なルートも正直に紹介。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/web-industry/",
@@ -47,42 +47,42 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Web系企業とSIerの違いは何ですか？",
+      name: "Web系企業の年収はSIerより高いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Web系企業は自社サービスの開発・運営を行う企業が多く、アジャイル開発やモダンな技術スタックを採用する傾向があります。一方SIerはクライアントからの受託開発が中心で、ウォーターフォール型の開発が多いです。働き方もWeb系は私服勤務・フレックスが一般的で、自由度が高い傾向にあります。",
+        text: "業種平均で見ると必ずしも高くありません。doda「平均年収ランキング2025」では、インターネット/広告/メディア業界の平均年収は440万円で、システムインテグレータ（481万円）やITコンサルティング（505万円）を下回ります。一方、厚生労働省job tagではシステムエンジニア（Webサービス開発）の年収は578.5万円とされており、同じWeb業界でも企業規模・職種・スキルによる差が非常に大きいのが実態です。メガベンチャーや上場テック企業では高水準ですが、「Web系なら誰でも高年収」ではない点に注意が必要です。",
       },
     },
     {
       "@type": "Question",
-      name: "Web系企業に転職するために必要なスキルは？",
+      name: "Web業界とSIer、女性エンジニアにはどちらが働きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "フロントエンドならReact・Vue.js・TypeScript、バックエンドならGo・Python・Node.js・Ruby on Railsなどのモダンな技術が求められます。加えてGit・Docker・CI/CDなどの開発ツールの経験、アジャイル開発の理解も重要です。ポートフォリオやGitHubでのアウトプットがあると選考で有利になります。",
+        text: "一概にどちらが良いとは言えず、重視する条件次第です。Web業界は技術選定の裁量・私服勤務・リモートやフレックスの柔軟さに強みがあり、総務省の令和6年通信利用動向調査では情報通信業のテレワーク導入率は94.3%と全産業で最も高い水準です。一方、大手SIerは体系的な研修制度・産休育休の取得実績・雇用の安定性に強みがあります。教育を受けながら着実に育ちたい人はSIer、裁量とスピードを求める人はWeb系が合いやすい傾向です。",
       },
     },
     {
       "@type": "Question",
-      name: "Web系企業は女性エンジニアが働きやすいですか？",
+      name: "未経験からWeb系自社開発企業に転職できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、Web系企業は女性エンジニアにとって働きやすい環境が整っている傾向があります。リモートワークやフレックスタイム制度が充実しており、育児との両立がしやすいです。また、成果主義の評価制度を採用する企業が多く、性別に関係なくスキルで評価される文化があります。",
+        text: "正直に言うと、完全未経験からの自社開発企業への直接転職は狭き門です。自社開発企業の中途採用は即戦力（実務経験者）が中心で、未経験者は経験者と同じ枠で比較されるためです。現実的なのは、(1)受託開発やSIerで1〜3年の実務経験を積んでから移る、(2)ポートフォリオと学習実績を作りポテンシャル採用枠を狙う、(3)テスター・サポートなど周辺職種から開発に近づく、という段階的なルートです。遠回りに見えても、実務経験を挟む方が結果的に早く確実です。",
       },
     },
     {
       "@type": "Question",
-      name: "SIerからWeb系企業への転職は可能ですか？",
+      name: "Web業界の女性エンジニア比率はどのくらいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "十分可能です。SIerで培ったシステム設計力・要件定義力・プロジェクト管理スキルはWeb系企業でも高く評価されます。ただし、モダンな技術スタックの習得が必要なため、転職前にReactやDockerなどを独学で学んでおくと有利です。IT特化型エージェントを活用すれば、SIer出身者歓迎の求人を紹介してもらえます。",
+        text: "日本のITエンジニア全体の女性比率は18.8%（OECD加盟33カ国中17位、OECD平均は20.6%）という調査があります。また情報サービス産業協会（JISA）の基本統計調査では、会員企業のITエンジニアのうち女性は22.6%で、女性エンジニア数は2013年の約3.1万人から2023年の約4.6万人へ10年間で約46%増加しています。まだ少数派ではあるものの増加傾向が続いており、リモートワークの普及した Web業界はライフイベントと両立しやすい環境が整いつつあります。",
       },
     },
     {
       "@type": "Question",
-      name: "Web系企業の年収はどのくらいですか？",
+      name: "SIerからWeb系への転職では何が評価されますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Web系企業のエンジニア年収は経験年数やスキルにより幅がありますが、中央値は約500〜700万円程度です。メガベンチャーやテック企業では800万円以上も珍しくありません。スタートアップではストックオプションが付くケースもあります。SIerと比較するとベース給はやや低い場合もありますが、福利厚生やリモート環境を含めた総合的な条件で判断することが大切です。",
+        text: "要件定義・基本設計などの上流経験、データベース設計、大規模システムの品質管理、顧客折衝・プロジェクト推進の経験は、Web系企業でも高く評価されます。一方で、React/TypeScriptやGo、Docker・CI/CDなどのモダンスタックは入社前にキャッチアップしておく必要があります。SIerでの経験＋自主学習のポートフォリオという組み合わせが定番の合格パターンで、IT特化型エージェント経由でSIer出身者歓迎求人を探すのが効率的です。",
       },
     },
   ],
@@ -107,7 +107,7 @@ const breadcrumbData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "Web系企業への転職ガイド",
+      name: "Web業界で働く女性エンジニアのリアル",
       item: "https://women-engineer.com/articles/web-industry/",
     },
   ],
@@ -141,7 +141,7 @@ export default function WebIndustryPage() {
             items={[
               { label: "ホーム", href: "/" },
               { label: "転職コラム", href: "/articles/" },
-              { label: "Web系企業への転職ガイド" },
+              { label: "Web業界で働く女性エンジニアのリアル" },
             ]}
           />
           <div className="mt-4">
@@ -152,18 +152,49 @@ export default function WebIndustryPage() {
               業界ガイド
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              Web系企業への転職ガイド
+              Web業界で働く女性エンジニアのリアル
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                女性エンジニアが活躍する理由を徹底解説
+                年収・文化・SIerとの違いを実データで解説【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月29日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div
+            className="rounded-xl p-6"
+            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+          >
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+              この記事の結論
+            </h2>
+            <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li>
+                ・Web業界は<strong>自社サービス／メガベンチャー／Web受託／スタートアップ</strong>の4タイプで働き方が大きく異なる。「Web系」と一括りにせずタイプで選ぶことが重要
+              </li>
+              <li>
+                ・年収は<strong>「Web系＝高年収」は半分神話</strong>。業種平均ではインターネット/広告/メディア440万円とSIer（481万円）より低い一方、Webサービス開発SEの年収は578.5万円（厚労省job tag）と職種・企業差が極めて大きい
+              </li>
+              <li>
+                ・文化面はモダン技術・裁量・私服・リモート（情報通信業のテレワーク導入率94.3%）が強み。逆に<strong>研修制度や雇用の安定性はSIerに分がある</strong>ことも多い
+              </li>
+              <li>
+                ・女性ITエンジニア比率は18.8%とまだ少数派だが、10年間で女性エンジニア数は約46%増。リモート普及でライフイベントとの両立環境は改善傾向
+              </li>
+              <li>
+                ・<strong>完全未経験から自社開発企業への直接転職は狭き門</strong>。受託・SIerで実務経験を積んでから移る段階ルートが現実的
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* 目次 */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
@@ -173,52 +204,47 @@ export default function WebIndustryPage() {
             <ol className="space-y-2 text-sm">
               <li>
                 <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
-                  1. Web系企業とは？基本的な特徴
+                  1. Web業界の構造｜4タイプの企業を整理
                 </a>
               </li>
               <li>
                 <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
-                  2. Web系企業の種類と分類
+                  2. 実データで見るWeb業界の市場と需要
                 </a>
               </li>
               <li>
                 <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
-                  3. Web系企業で女性エンジニアが活躍する理由
+                  3. Web業界の年収相場｜「Web系＝高年収」は半分神話
                 </a>
               </li>
               <li>
                 <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
-                  4. Web系企業の年収相場
+                  4. SIerとの文化の違い｜どちらが良いかは人による
                 </a>
               </li>
               <li>
                 <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
-                  5. 求められるスキルと技術スタック
+                  5. 女性エンジニアから見たWeb業界
                 </a>
               </li>
               <li>
                 <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
-                  6. Web系企業の働き方・福利厚生
+                  6. Web業界転職の現実的なルート
                 </a>
               </li>
               <li>
                 <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
-                  7. SIerからWeb系への転職ロードマップ
+                  7. Web系転職に強いエージェント
                 </a>
               </li>
               <li>
                 <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
-                  8. Web系転職に強いエージェント
+                  8. よくある質問
                 </a>
               </li>
               <li>
                 <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
-                  9. 転職成功事例
-                </a>
-              </li>
-              <li>
-                <a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>
-                  10. よくある質問
+                  9. 出典一覧
                 </a>
               </li>
             </ol>
@@ -226,476 +252,376 @@ export default function WebIndustryPage() {
         </div>
       </section>
 
-      {/* Web系企業とは */}
+      {/* sec1 Web業界の構造 */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">Web系企業とは？基本的な特徴</h2>
+          <h2 className="text-2xl font-bold mb-6">Web業界の構造｜4タイプの企業を整理</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              Web系企業とは、インターネットを通じてサービスやプロダクトを提供する企業の総称です。EC・SNS・SaaS・メディア・フィンテックなど、Webサービスの開発・運営を主な事業とする企業が該当します。自社サービスを持つ企業が多く、開発から運用まで一貫して携われるのが大きな魅力です。
-            </p>
-            <p>
-              Web系企業の最大の特徴は、技術やイノベーションに対するオープンな姿勢です。新しい技術を積極的に取り入れ、エンジニアが技術選定に関与できる文化が根付いています。2026年現在、AI・クラウドネイティブ・マイクロサービスなど最先端の技術に触れられる環境は、エンジニアとしての成長を加速させます。
-            </p>
-            <p>
-              また、Web系企業はSIerと比較して組織がフラットな傾向があり、エンジニアの裁量が大きいのも特徴です。コードレビュー文化やテスト自動化、CI/CDパイプラインの整備など、モダンな開発プラクティスが日常的に実践されています。女性エンジニアにとっても、実力主義の評価制度は大きなメリットです。
-            </p>
-            <p>
-              さらに、リモートワークやフレックスタイム制度を早期に導入した企業が多く、柔軟な働き方ができる点も見逃せません。育児や介護との両立を考える女性エンジニアにとって、Web系企業は非常に魅力的な選択肢となっています。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                Web系企業の主な特徴
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自社サービスの開発・運営が中心で、ユーザーの反応をダイレクトに感じられる</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>モダンな技術スタック（React・Go・Kubernetesなど）を採用する傾向</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>アジャイル開発・スクラム手法が主流で、開発サイクルが速い</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>リモートワーク・フレックスタイム制度が充実している企業が多い</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>成果主義の評価制度で、性別に関係なくスキルで評価される</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Web系企業の種類 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">Web系企業の種類と分類</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              一口にWeb系企業といっても、事業モデルや規模によって大きく特徴が異なります。転職先を選ぶ際には、自分が求める環境と企業タイプのマッチングが重要です。ここでは主な3つのカテゴリに分けて解説します。
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-3 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                メガベンチャー
-              </h3>
-              <p className="text-sm text-text-light mb-3">
-                サイバーエージェント・楽天・Yahoo!・メルカリ・LINEなど、大規模なWebサービスを展開する企業です。
-              </p>
-              <ul className="text-sm text-text-light space-y-1">
-                <li>- 安定した経営基盤と福利厚生</li>
-                <li>- 大規模サービスの開発経験が積める</li>
-                <li>- 年収600〜1,000万円以上も</li>
-                <li>- 産休育休の取得実績が豊富</li>
-              </ul>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                成長スタートアップ
-              </h3>
-              <p className="text-sm text-text-light mb-3">
-                シリーズA〜C程度の資金調達済みで急成長中のスタートアップ企業です。SaaS・フィンテック・ヘルステックなど分野は多様です。
-              </p>
-              <ul className="text-sm text-text-light space-y-1">
-                <li>- 少人数で裁量権が大きい</li>
-                <li>- 最新技術を積極採用</li>
-                <li>- ストックオプションの付与も</li>
-                <li>- リモートフルフレックスが多い</li>
-              </ul>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>
-                Web受託開発
-              </h3>
-              <p className="text-sm text-text-light mb-3">
-                クライアントのWebサービスやアプリの受託開発を行う企業です。多様なプロジェクトに携われるのが特徴です。
-              </p>
-              <ul className="text-sm text-text-light space-y-1">
-                <li>- 様々な業界の開発経験が積める</li>
-                <li>- 技術選定の幅が広い</li>
-                <li>- プロジェクト単位で業務が変わる</li>
-                <li>- チーム開発のスキルが磨ける</li>
-              </ul>
-            </div>
-          </div>
-          <div className="space-y-4 text-text-light leading-relaxed mt-6">
-            <p>
-              メガベンチャーは安定性と規模が魅力ですが、組織が大きい分、意思決定のスピードはスタートアップに劣ることがあります。一方、スタートアップは成長機会が豊富ですが、福利厚生や経営の安定性では劣る場合があります。Web受託開発は様々な技術に触れられる反面、自社プロダクトへの愛着は持ちにくいかもしれません。
-            </p>
-            <p>
-              女性エンジニアとして長期的なキャリアを考える場合、産休育休の取得実績や復帰後のポジション保証、時短勤務制度の有無なども確認しておきましょう。メガベンチャーはこれらの制度が整っている企業が多い傾向にあります。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 女性が活躍する理由 */}
-      <section id="sec3" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">Web系企業で女性エンジニアが活躍する理由</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              Web系企業は、従来のIT企業と比較して女性エンジニアが活躍しやすい環境が整っています。その理由は単に制度面だけではなく、組織文化や評価制度にも関係しています。具体的な理由を見ていきましょう。
-            </p>
-          </div>
-          <div className="space-y-4 mt-6">
-            {[
-              {
-                title: "リモートワーク・フレックスの充実",
-                desc: "Web系企業の約70%がリモートワークを導入しており、フルリモートの企業も珍しくありません。フレックスタイム制度と組み合わせることで、育児や家事との両立が格段にしやすくなります。通勤時間がなくなることで、1日あたり1〜2時間の余裕が生まれるケースが多いです。",
-              },
-              {
-                title: "実力主義の評価制度",
-                desc: "Web系企業では年功序列ではなく、スキルと成果で評価される文化が根付いています。性別や年齢に関係なく、技術力やプロダクトへの貢献度で昇進・昇給が決まるため、女性エンジニアにとって公正な環境です。コードの品質やチームへの貢献が可視化されやすい開発体制も特徴です。",
-              },
-              {
-                title: "ダイバーシティの推進",
-                desc: "多くのWeb系企業がダイバーシティ＆インクルージョンを経営方針として掲げており、女性エンジニアの採用・育成に積極的です。メンタリングプログラムや社内コミュニティの整備、女性エンジニア向けイベントの開催など、具体的な施策を展開する企業が増えています。",
-              },
-              {
-                title: "副業・兼業OKの企業が多い",
-                desc: "Web系企業は副業を認めている企業が多く、本業以外でのスキルアップや収入増加が可能です。フリーランスとしての案件獲得やOSS活動、技術ブログの執筆など、エンジニアとしての市場価値を高める活動がしやすい環境です。",
-              },
-              {
-                title: "スキルアップ支援が充実",
-                desc: "カンファレンス参加費の補助、書籍購入費の支給、オンライン学習プラットフォームのライセンス提供など、エンジニアのスキルアップを支援する制度が充実しています。技術勉強会やハッカソンを社内で開催する企業も多く、常に最新技術をキャッチアップできる環境があります。",
-              },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="rounded-xl border bg-white p-6"
-                style={{ borderColor: "#d1dce5" }}
-              >
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>
-                  {i + 1}. {item.title}
-                </h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div className="space-y-4 text-text-light leading-relaxed mt-6">
-            <p>
-              これらの要因が重なることで、Web系企業は女性エンジニアが長期的にキャリアを築きやすい環境となっています。実際に、メガベンチャーでは女性エンジニア比率が20〜30%に達する企業も出てきており、ロールモデルとなる先輩女性エンジニアも増えています。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 年収相場 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">Web系企業の年収相場</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              Web系企業のエンジニア年収は、経験年数・スキル・企業規模によって大きく異なります。2026年の最新データをもとに、職種別・経験年数別の年収相場を解説します。
-            </p>
-          </div>
-          <div className="overflow-x-auto mt-6">
-            <table className="w-full border-collapse rounded-lg overflow-hidden">
-              <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">経験年数</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">フロントエンド</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">バックエンド</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">フルスタック</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  ["1〜3年", "350〜500万円", "400〜550万円", "400〜550万円"],
-                  ["3〜5年", "500〜700万円", "550〜750万円", "550〜750万円"],
-                  ["5〜8年", "650〜900万円", "700〜950万円", "700〜1,000万円"],
-                  ["8年以上", "800〜1,200万円", "850〜1,300万円", "900〜1,400万円"],
-                ].map(([exp, fe, be, fs], i) => (
-                  <tr
-                    key={i}
-                    className={i % 2 === 0 ? "bg-white" : ""}
-                    style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}
-                  >
-                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d1dce5" }}>
-                      {exp}
-                    </td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>
-                      {fe}
-                    </td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>
-                      {be}
-                    </td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>
-                      {fs}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="space-y-4 text-text-light leading-relaxed mt-6">
-            <p>
-              上記はあくまで目安であり、特にメガベンチャーやテック系上場企業ではこれ以上の年収も珍しくありません。年収アップのためには、技術力の向上に加えて、リーダー経験やアーキテクチャ設計の実績が重要です。
-            </p>
-            <p>
-              Web系企業では年収以外にも、ストックオプション・RSU（制限付き株式ユニット）・各種手当など、給与以外の報酬が充実しているケースがあります。転職時にはこれらの総合的な条件を比較することをおすすめします。
-            </p>
-            <p>
-              女性エンジニアの場合、時短勤務を利用する場合の年収への影響も事前に確認しておきましょう。フルタイム復帰後の年収回復プランがある企業を選ぶことで、長期的なキャリアにおける年収ダウンを最小限に抑えられます。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 求められるスキル */}
-      <section id="sec5" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">求められるスキルと技術スタック</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              Web系企業で求められるスキルは、ポジションによって異なりますが、共通して重視されるのは「モダンな技術スタックの実務経験」と「自走力」です。2026年現在のトレンドを踏まえた必須スキルを整理します。
+              「Web業界」と一括りに語られがちですが、実際には事業モデルによって働き方・年収・求められるスキルが大きく異なります。転職で後悔しないために、まず次の4タイプを区別して考えましょう。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                フロントエンドエンジニア
+                ① 自社サービス企業（中堅Web系）
               </h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span>
-                  <span>React / Next.js / Vue.js / Nuxt.js</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span>
-                  <span>TypeScript（必須レベル）</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span>
-                  <span>HTML/CSS / Tailwind CSS / CSS-in-JS</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span>
-                  <span>テスト（Jest・Testing Library・Playwright）</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span>
-                  <span>パフォーマンス最適化・Core Web Vitals</span>
-                </li>
-              </ul>
+              <p className="text-sm text-text-light leading-relaxed">
+                自社でECサイト・SaaS・メディアなどを開発・運営する企業。プロダクトの企画から運用・改善まで一気通貫で関われるのが最大の魅力です。ユーザーの反応が数字で返ってくるため、改善のサイクルを回す面白さがあります。技術選定の裁量が大きい反面、事業の浮き沈みが処遇に直結しやすい側面もあります。
+              </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                バックエンドエンジニア
+                ② メガベンチャー・大手テック
               </h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span>
-                  <span>Go / Python / Ruby / Node.js / Java</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span>
-                  <span>REST API / GraphQL設計</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span>
-                  <span>RDB（MySQL・PostgreSQL）/ NoSQL</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span>
-                  <span>Docker / Kubernetes / マイクロサービス</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span>
-                  <span>AWS / GCP / Azure（いずれか）</span>
-                </li>
-              </ul>
+              <p className="text-sm text-text-light leading-relaxed">
+                大規模な自社サービスを複数展開する上場企業群。大規模トラフィックを支える技術的挑戦と、大手ならではの福利厚生・産休育休制度の両方を得やすいタイプです。給与水準はWeb業界の中で最も高い層に入りますが、その分中途採用の選考難易度も高く、即戦力の実務経験が前提になります。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>
+                ③ Web受託開発企業
+              </h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                クライアントのWebサービス・アプリを受託で開発する企業。多様な業界・技術に触れられ、実務経験を積む入口として現実的な選択肢です。一方で納期・予算はクライアント次第で、担当案件によって労働環境が変わりやすい点は把握しておきましょう。SES（客先常駐）との違いは
+                <a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SES・受託・自社開発の違い</a>
+                で詳しく解説しています。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#10b981" }}>
+                ④ スタートアップ
+              </h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                資金調達をしながら急成長を目指す少人数組織。裁量の大きさ・成長速度・ストックオプションの可能性が魅力ですが、制度の未整備や事業リスクと表裏一体です。産休育休の「制度はあるが前例がない」企業も少なくないため、女性のキャリア継続の観点では見極めが特に重要です。詳しくは
+                <a href="/articles/startup/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>スタートアップ転職ガイド</a>
+                をご覧ください。
+              </p>
             </div>
           </div>
-          <div
-            className="rounded-xl border p-6 mt-6"
-            style={{ borderColor: "#d1dce5" }}
-          >
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-              共通で求められるスキル
-            </h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                  &#10003;
-                </span>
-                <span>Git / GitHub を使ったチーム開発経験</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                  &#10003;
-                </span>
-                <span>CI/CD パイプラインの構築・運用経験</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                  &#10003;
-                </span>
-                <span>アジャイル開発・スクラムの実践経験</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                  &#10003;
-                </span>
-                <span>コードレビューの経験（レビュアー・被レビュアー両方）</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                  &#10003;
-                </span>
-                <span>技術的な課題の自走的な解決力</span>
-              </li>
-            </ul>
+          <div className="overflow-x-auto mt-8">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>タイプ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の傾向</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>働き方の傾向</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>向いている人</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>自社サービス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業界平均並み〜やや上。事業の成長に連動</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リモート・フレックスが浸透。改善サイクル中心</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>プロダクトを育てたい人</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>メガベンチャー</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業界内で最高水準の層。選考難易度も高い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>制度・福利厚生が充実。産休育休実績も豊富</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>大規模開発と安定を両立したい人</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Web受託</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業界平均〜やや下から始まることが多い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>案件次第で繁閑差。多様な技術に触れられる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務経験を積みたい人・幅を広げたい人</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>スタートアップ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>幅が大きい。SOなど株式報酬の可能性あり</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>裁量最大・制度は未整備のことも</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>変化とスピードを楽しめる人</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+          <p className="text-xs text-text-light mt-3">
+            ※年収の傾向は後述のdoda「平均年収ランキング2025」・厚生労働省job tagの公開データをもとにした定性的整理です。個別企業の条件は必ず求人・面談で確認してください。
+          </p>
+        </div>
+      </section>
+
+      {/* sec2 市場と需要 */}
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">実データで見るWeb業界の市場と需要</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              すべてのスキルを最初から持っている必要はありません。まずは自分が目指すポジションに必要な技術を優先的に学び、入社後にスキルの幅を広げていく戦略が効果的です。ポートフォリオやGitHubでの実績を示せると、選考でも大きなアドバンテージになります。
+              Web業界の事業基盤であるEC・ネットサービス市場は拡大が続いています。経済産業省の「令和6年度電子商取引に関する市場調査」によると、2024年の日本のBtoC-EC（消費者向け電子商取引）市場規模は<strong>26.1兆円</strong>（前年比5.1%増）、BtoB-ECは<strong>514.4兆円</strong>（同10.6%増）に達しました。Webサービスを支えるエンジニアの仕事の土台となる市場そのものが、毎年伸び続けている状況です。
+            </p>
+            <p className="text-xs">出典: 経済産業省「令和6年度電子商取引に関する市場調査」（2026年6月参照）</p>
+            <p>
+              人材需要も高水準です。厚生労働省の職業情報提供サイトjob tagでは、システムエンジニア（Webサービス開発）の<strong>有効求人倍率は2.57倍</strong>（令和6年度）とされ、求職者1人に対して2.5件以上の求人がある売り手市場が続いています。また経済産業省「IT人材需給に関する調査」（2019年3月）は、2030年にIT人材が最大約79万人不足する可能性を試算しており、中長期でも需要が大きく崩れにくい職種といえます。
+            </p>
+            <p className="text-xs">出典: 厚生労働省 職業情報提供サイトjob tag「システムエンジニア（Webサービス開発）」／経済産業省「IT人材需給に関する調査」（いずれも2026年6月参照）</p>
+            <div className="grid gap-4 md:grid-cols-3 mt-4">
+              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d1dce5" }}>
+                <p className="text-2xl font-bold" style={{ color: "#0891b2" }}>26.1兆円</p>
+                <p className="text-xs text-text-light mt-1">2024年BtoC-EC市場規模（前年比+5.1%）</p>
+              </div>
+              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d1dce5" }}>
+                <p className="text-2xl font-bold" style={{ color: "#7c3aed" }}>2.57倍</p>
+                <p className="text-xs text-text-light mt-1">Webサービス開発SEの有効求人倍率（令和6年度）</p>
+              </div>
+              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d1dce5" }}>
+                <p className="text-2xl font-bold" style={{ color: "#f97066" }}>最大79万人</p>
+                <p className="text-xs text-text-light mt-1">2030年のIT人材不足試算（経産省）</p>
+              </div>
+            </div>
+            <p className="mt-4">
+              ただし「業界が伸びている＝誰でも入れる」ではありません。需要の中心は実務経験者であり、未経験者にとっての門の狭さは後述の通りです。この点を踏まえて戦略を立てることが、Web業界転職の成否を分けます。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 働き方・福利厚生 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* sec3 年収相場 */}
+      <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">Web系企業の働き方・福利厚生</h2>
+          <h2 className="text-2xl font-bold mb-6">Web業界の年収相場｜「Web系＝高年収」は半分神話</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              Web系企業は従来のIT企業と比較して、柔軟で先進的な働き方を提供しています。特に女性エンジニアにとって重要な制度面を中心に、Web系企業の働き方を解説します。
+              SNSでは「Web系に行けば年収が上がる」という言説をよく見かけますが、公開データを見るとそう単純ではありません。doda「平均年収ランキング2025」によると、ITエンジニア全体の平均年収は<strong>469万円</strong>（正社員全体の平均は429万円）。業種別ではむしろ<strong>インターネット/広告/メディア業界（440万円）はシステムインテグレータ（481万円）より低い</strong>のが実態です。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
-            <table className="w-full border-collapse rounded-lg overflow-hidden">
+            <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">項目</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">Web系企業</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">従来型SIer</th>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
                 </tr>
               </thead>
-              <tbody>
-                {[
-                  ["リモートワーク", "フルリモート〜ハイブリッド", "週1〜2回程度が中心"],
-                  ["勤務時間", "フレックスタイム制が主流", "固定勤務が多い"],
-                  ["服装", "私服・カジュアル", "ビジネスカジュアル〜スーツ"],
-                  ["副業", "許可する企業が多い", "原則禁止が多い"],
-                  ["産休育休", "取得率高く復帰率も高い", "制度はあるが実績に差"],
-                  ["時短勤務", "柔軟に対応する企業が多い", "制度はあるが利用しにくい場合も"],
-                  ["スキルアップ支援", "書籍購入・カンファ参加費補助", "資格取得支援が中心"],
-                ].map(([item, web, sier], i) => (
-                  <tr
-                    key={i}
-                    className={i % 2 === 0 ? "bg-white" : ""}
-                    style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}
-                  >
-                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d1dce5", color: "#0891b2" }}>
-                      {item}
-                    </td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>
-                      {web}
-                    </td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>
-                      {sier}
-                    </td>
-                  </tr>
-                ))}
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>正社員全体</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>429万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }} rowSpan={6}>doda「平均年収ランキング2025」（パーソルキャリア、2025年12月発表）</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITエンジニア全体</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>469万円</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>インターネット/広告/メディア業界</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>440万円</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>システムインテグレータ（SIer）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>481万円</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ソフトウェア/パッケージベンダ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>493万円</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITコンサルティング</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>505万円</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>システムエンジニア（Webサービス開発）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>578.5万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省 job tag（令和7年賃金構造基本統計調査ベース）</td>
+                </tr>
               </tbody>
             </table>
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              特にメガベンチャーでは、育児支援として企業内保育所の設置やベビーシッター補助、病児保育サポートなどを提供している企業もあります。これらの福利厚生は転職エージェント経由で詳しく確認できるため、求人票だけでは分からない実態を把握するためにもエージェントの活用をおすすめします。
+              注目すべきは数字の「ズレ」です。転職サービスの登録者ベース（doda）ではインターネット業界の平均は440万円にとどまる一方、国の賃金統計をもとにしたjob tagでは、Webサービス開発を担うシステムエンジニアの年収は<strong>578.5万円</strong>（平均年齢37.1歳）。つまりWeb業界は、<strong>経験の浅い層と経験豊富な層・大手と中小の年収差が非常に大きい業界</strong>だということです。
             </p>
             <p>
-              また、Web系企業特有の福利厚生として、最新スペックのPC貸与、デュアルモニター環境の提供、リモートワーク手当、コワーキングスペース利用補助などがあります。エンジニアが快適に開発に集中できる環境が整備されているのが特徴です。
+              メガベンチャーや上場テック企業のシニアエンジニアは高水準ですが、若手中心の中小Web企業や広告・メディア系は平均を押し下げています。「Web系だから高い／低い」ではなく、<strong>どのタイプの企業で・どの職種スキルを持つか</strong>で決まると考えてください。職種別の詳しい年収は
+              <a href="/articles/frontend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>フロントエンド</a>
+              ・
+              <a href="/articles/backend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>バックエンド</a>
+              の各ガイドで解説しています。
+            </p>
+            <p className="text-xs">
+              出典: doda「平均年収ランキング2025」（パーソルキャリア）／厚生労働省 職業情報提供サイトjob tag「システムエンジニア（Webサービス開発）」（いずれも2026年6月参照）
             </p>
           </div>
         </div>
       </section>
 
-      {/* SIerからの転職ロードマップ */}
-      <section id="sec7" className="py-10">
+      {/* sec4 SIerとの文化差 */}
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerからWeb系への転職ロードマップ</h2>
+          <h2 className="text-2xl font-bold mb-6">SIerとの文化の違い｜どちらが良いかは人による</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              SIerからWeb系企業への転職は、多くのエンジニアが検討するキャリアチェンジです。計画的に準備すれば、SIerでの経験を活かしながらWeb系でのキャリアをスタートできます。以下のステップで進めていきましょう。
+              Web業界とSIerは同じ「ITエンジニア」でも文化が大きく異なります。ネット上では「SIer＝古い、Web系＝先進的」という単純化が目立ちますが、実際には<strong>それぞれに合理性のあるトレードオフ</strong>です。公平に比較します。
             </p>
           </div>
-          <div className="space-y-4 mt-6">
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>Web業界の傾向</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>SIerの傾向</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>技術スタック</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>React/TypeScript・Go・クラウドネイティブなど自社で選定。新技術の採用が速い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>顧客システムの要件に従う。Java・実績ある枯れた技術が中心で堅実</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>開発スタイル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>アジャイル・小さくリリースして改善。裁量が大きい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ウォーターフォール中心。ドキュメントと品質管理が体系的</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>評価制度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>成果・技術力ベースが主流。昇給の上下動が大きめ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>等級・年次ベースの要素が残る。緩やかだが着実に上がる</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>服装・社風</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>私服・フラットな組織が多い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ビジネスカジュアル〜スーツ。顧客対応上の規律あり</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>リモートワーク</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>浸透度が高い（情報通信業のテレワーク導入率94.3%）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>導入は進むが、客先常駐案件では顧客の方針に左右される</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>教育・研修</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>OJT・自走前提。体系的な研修は薄い企業が多い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>新人研修・資格支援が体系的。未経験育成の実績が厚い</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>安定性</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>事業の浮き沈みが処遇に直結しやすい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>長期契約・大手親会社などで雇用が安定しやすい</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-light mt-3">
+            出典: テレワーク導入率は総務省「令和6年通信利用動向調査」（企業全体47.3%、情報通信業94.3%）（2026年6月参照）。その他は両業界の一般的傾向の整理であり、企業による差があります。
+          </p>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Web業界が合う人</h3>
+              <ul className="text-sm text-text-light space-y-2">
+                <li>・モダンな技術を自分で選び、速いサイクルで作りたい</li>
+                <li>・成果ベースの評価で年功に縛られたくない</li>
+                <li>・リモート・フレックスなど働き方の柔軟さを最優先したい</li>
+                <li>・自走して学び続けることが苦にならない</li>
+              </ul>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>SIerが合う人</h3>
+              <ul className="text-sm text-text-light space-y-2">
+                <li>・体系的な研修で着実に育ちたい（未経験・第二新卒含む）</li>
+                <li>・雇用と収入の安定性を重視したい</li>
+                <li>・社会インフラ級の大規模プロジェクトに関わりたい</li>
+                <li>・要件定義などの上流工程・マネジメントを目指したい</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-text-light leading-relaxed mt-6">
+            SIerの働き方・年収の詳細は
+            <a href="/articles/sier-industry/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SIerへの転職ガイド</a>
+            、契約形態ごとの違いは
+            <a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SES・受託・自社開発の違い</a>
+            をあわせてご覧ください。
+          </p>
+        </div>
+      </section>
+
+      {/* sec5 女性エンジニアから見たWeb業界 */}
+      <section id="sec5" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性エンジニアから見たWeb業界</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              まず現状の数字を直視すると、日本のITエンジニアに占める女性の比率は<strong>18.8%</strong>で、OECD加盟33カ国中17位（OECD平均20.6%）という調査があります。情報サービス産業協会（JISA）の会員企業調査でも、ITエンジニアのうち女性は<strong>22.6%</strong>。Web業界を含むIT業界全体で、女性はまだ少数派です。
+            </p>
+            <p>
+              一方で変化も明確です。JISAの統計では女性エンジニア数は2013年の約3.1万人から2023年には約4.6万人へと<strong>10年間で約46%増加</strong>。さらに総務省の調査では、情報通信業のテレワーク導入率は<strong>94.3%</strong>と全産業トップで（企業全体は47.3%）、通勤や転居の制約を受けにくい働き方が業界標準になりつつあります。
+            </p>
+            <p className="text-xs">
+              出典: ヒューマンホールディングス「ITエンジニアの女性比率に関する調査」（2025年）／情報サービス産業協会（JISA）「情報サービス産業基本統計調査」／総務省「令和6年通信利用動向調査」（いずれも2026年6月参照）
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Web業界のプラス面</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                リモート・フレックスの浸透により、育児・介護との両立や時短勤務の選択肢が広い。成果が可視化されやすい開発職は、勤務時間の長さではなくアウトプットで評価されやすく、時短でも実力が認められやすい構造です。メガベンチャーを中心にD&I施策や産休育休の取得実績を公開する企業も増えています。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>注意すべき点</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                企業差が極めて大きいのがWeb業界です。スタートアップや小規模企業では「制度はあるが取得前例がない」ケースが現実にあります。求人票だけでは分からない、産休育休の取得・復帰実績、時短勤務者の評価運用、女性管理職の有無は、エージェント経由や面談で必ず確認しましょう。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* sec6 現実的なルート */}
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">Web業界転職の現実的なルート</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              ここは正直にお伝えします。<strong>完全未経験から人気の自社開発企業へ直接転職するのは狭き門</strong>です。自社開発企業の中途採用は即戦力が中心で、未経験者は経験者と同じ土俵で比較されるためです。「未経験OK・Web系」を強調する求人の中には、実態がSES（客先常駐）であるケースも混ざっているため注意が必要です。その上で、現在地別の現実的なルートは次の通りです。
+            </p>
+          </div>
+          <div className="space-y-4">
             {[
-              {
-                step: "STEP 1",
-                title: "自己分析と目標設定（1〜2週間）",
-                desc: "現在のスキルを棚卸しし、Web系で活かせる強みを整理します。SIerでの設計経験・チームマネジメント・顧客折衝力は強いアピールポイントになります。目指すポジション（フロントエンド・バックエンド・フルスタック）を決めましょう。",
-              },
-              {
-                step: "STEP 2",
-                title: "技術スキルの習得（1〜3ヶ月）",
-                desc: "React・TypeScriptなどのモダンフロントエンド、またはGo・Pythonなどのバックエンド技術を学びます。UdemyやProgateで基礎を固め、実際にアプリケーションを作ってみることが重要です。DockerやGitHub Actionsなどの開発ツールにも慣れておきましょう。",
-              },
-              {
-                step: "STEP 3",
-                title: "ポートフォリオ作成（2〜4週間）",
-                desc: "学んだ技術を使って実際のWebアプリケーションを開発し、GitHubに公開します。READMEに技術選定の理由や設計思想を記載すると、技術力のアピールになります。デプロイまで行い、実際に動くものを見せられるようにしましょう。",
-              },
-              {
-                step: "STEP 4",
-                title: "転職エージェント登録・求人選定（1〜2週間）",
-                desc: "レバテックキャリアやGeeklyなどIT特化型エージェントに登録し、Web系企業の求人を紹介してもらいます。SIer出身者歓迎の求人も多く、未経験のWeb系技術でもポテンシャル採用を行う企業があります。複数のエージェントを並行利用するのがおすすめです。",
-              },
-              {
-                step: "STEP 5",
-                title: "選考・内定（1〜2ヶ月）",
-                desc: "コーディングテストや技術面接の対策を行い、選考に臨みます。SIerでの経験とWeb系への熱意をバランスよく伝えることがポイントです。年収交渉はエージェントに任せることで、客観的な市場価値に基づいた条件を引き出せます。",
-              },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="rounded-xl border bg-white p-6"
-                style={{ borderColor: "#d1dce5" }}
-              >
-                <div className="flex items-center gap-3 mb-2">
-                  <span
-                    className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white"
-                    style={{ backgroundColor: "#0891b2" }}
-                  >
-                    {item.step}
-                  </span>
-                  <h3 className="text-lg font-bold">{item.title}</h3>
+              [
+                "ルートA",
+                "IT実務経験者（SIer・SESなど）→ Web系",
+                "最も成功率が高いルート。要件定義・DB設計・品質管理などの経験は評価対象になります。React/TypeScript・Go・Docker/CI/CDなどモダンスタックを自主学習し、小さくてもポートフォリオを用意してから応募するのが定番。IT特化型エージェントで「SIer出身者歓迎」の求人を絞り込めます。",
+              ],
+              [
+                "ルートB",
+                "完全未経験 → 受託・SIerで経験 → Web系",
+                "遠回りに見えて確実なルート。研修のある受託・SIerで1〜3年の実務経験を積み、開発の基礎体力（Git・チーム開発・テスト）を付けてからWeb系へ移ります。job tagの有効求人倍率2.57倍が示す通り経験者の需要は高く、実務経験さえあれば選択肢は大きく開けます。",
+              ],
+              [
+                "ルートC",
+                "完全未経験 → ポテンシャル採用で直接Web系",
+                "不可能ではありませんが、20代など若手が中心で、学習実績とポートフォリオの完成度勝負になります。独学・スクールで半年〜1年学び、公開できる制作物を作った上で挑戦を。書類で落ち続ける場合は、ルートBへの切り替えを早めに判断するのが賢明です。",
+              ],
+              [
+                "ルートD",
+                "周辺職種から開発へ（社内異動・ジョブチェンジ）",
+                "テスター・QA・カスタマーサポート・Webディレクターなどの職種でWeb企業に入り、社内で開発にスライドする方法。企業文化への適応が済んでいる分、異動のハードルは外部転職より低いことがあります。入社前に異動実績の有無を確認しておきましょう。",
+              ],
+            ].map(([step, title, desc], i) => (
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+                <div>
+                  <h3 className="font-bold mb-1">{title}</h3>
+                  <p className="text-sm text-text-light leading-relaxed">{desc}</p>
                 </div>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
+          <p className="text-text-light leading-relaxed mt-6">
+            目指す職種を先に決めると学習が迷子になりません。画面・UIを作りたい人は
+            <a href="/articles/frontend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>フロントエンドエンジニア転職ガイド</a>
+            、API・データベースなど仕組み側に興味がある人は
+            <a href="/articles/backend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</a>
+            で、必要スキルとロードマップを確認してください。
+          </p>
         </div>
       </section>
 
-      {/* おすすめエージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* sec7 おすすめエージェント */}
+      <section id="sec7" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">Web系転職に強いエージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -760,61 +686,8 @@ export default function WebIndustryPage() {
         </div>
       </section>
 
-      {/* 転職成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            {[
-              {
-                profile: "30歳・SIer SE → メガベンチャー バックエンドエンジニア",
-                before: "年収450万円（SIer・Java開発5年）",
-                after: "年収650万円（自社Webサービス・Go言語）",
-                point: "SIerでの設計経験を評価され、ポテンシャル採用。独学でGoを習得し、ポートフォリオを作成したことが決め手に。フルリモートで育児との両立も実現。",
-              },
-              {
-                profile: "28歳・受託開発 → SaaSスタートアップ フロントエンドエンジニア",
-                before: "年収380万円（受託開発・jQuery/PHP）",
-                after: "年収550万円（自社SaaS・React/TypeScript）",
-                point: "受託開発で培った顧客視点でのUI設計力が評価された。ReactとTypeScriptは独学で3ヶ月学習。ストックオプションも付与され、将来的な報酬アップにも期待。",
-              },
-              {
-                profile: "35歳・SIer PM → Eコマース テックリード",
-                before: "年収600万円（SIer・PM歴3年）",
-                after: "年収800万円（EC企業・テックリード）",
-                point: "PM経験を活かしてテックリードポジションに。技術選定やチームビルディングの実績がフルスタックの技術力と合わせて高く評価された。フレックス制度を活用し、子供の送迎にも対応。",
-              },
-            ].map((story, i) => (
-              <div
-                key={i}
-                className="rounded-xl border bg-white p-6"
-                style={{ borderColor: "#d1dce5" }}
-              >
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                  事例{i + 1}: {story.profile}
-                </h3>
-                <div className="grid gap-4 md:grid-cols-2 mb-3">
-                  <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                    <p className="text-xs font-bold mb-1" style={{ color: "#f97066" }}>転職前</p>
-                    <p className="text-sm text-text-light">{story.before}</p>
-                  </div>
-                  <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                    <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                    <p className="text-sm text-text-light">{story.after}</p>
-                  </div>
-                </div>
-                <p className="text-sm text-text-light leading-relaxed">
-                  <span className="font-bold" style={{ color: "#7c3aed" }}>成功のポイント: </span>
-                  {story.point}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* sec8 FAQ */}
+      <section id="sec8" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
@@ -857,6 +730,27 @@ export default function WebIndustryPage() {
         </div>
       </section>
 
+      {/* sec9 出典一覧 */}
+      <section id="sec9" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">出典一覧</h2>
+          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li>・出典: 経済産業省「令和6年度電子商取引に関する市場調査」2025年8月公表（2026年6月参照）</li>
+              <li>・出典: doda「平均年収ランキング2025」パーソルキャリア、2025年12月発表（2026年6月参照）</li>
+              <li>・出典: 厚生労働省 職業情報提供サイトjob tag「システムエンジニア（Webサービス開発）」令和7年賃金構造基本統計調査ベース（2026年6月参照）</li>
+              <li>・出典: 総務省「令和6年通信利用動向調査」（2026年6月参照）</li>
+              <li>・出典: ヒューマンホールディングス「ITエンジニアの女性比率に関する調査」2025年（2026年6月参照）</li>
+              <li>・出典: 一般社団法人情報サービス産業協会（JISA）「情報サービス産業基本統計調査」（2026年6月参照）</li>
+              <li>・出典: 経済産業省「IT人材需給に関する調査」2019年3月（2026年6月参照）</li>
+            </ul>
+            <p className="text-xs text-text-light mt-4">
+              ※本記事の年収・統計データは上記公開資料に基づく参考値です。調査主体・対象・時期により数値は異なり、個別の求人条件を保証するものではありません。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* 関連記事 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
@@ -873,14 +767,14 @@ export default function WebIndustryPage() {
               <p className="text-sm text-text-light">SIerの働き方と女性エンジニアの活躍</p>
             </a>
             <a
-              href="/articles/game-industry/"
+              href="/articles/ses-vs-jisha/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
               style={{ borderColor: "#d1dce5" }}
             >
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                ゲーム業界への転職ガイド
+                SES・受託・自社開発の違い
               </h3>
-              <p className="text-sm text-text-light">ゲーム業界の需要と年収を解説</p>
+              <p className="text-sm text-text-light">契約形態ごとの働き方を徹底比較</p>
             </a>
             <a
               href="/articles/startup/"
@@ -901,6 +795,26 @@ export default function WebIndustryPage() {
                 フロントエンドエンジニア転職
               </h3>
               <p className="text-sm text-text-light">フロントエンド特化のキャリアガイド</p>
+            </a>
+            <a
+              href="/articles/backend/"
+              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
+              style={{ borderColor: "#d1dce5" }}
+            >
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+                バックエンドエンジニア転職ガイド
+              </h3>
+              <p className="text-sm text-text-light">年収・必要スキル・未経験からの道</p>
+            </a>
+            <a
+              href="/articles/game-industry/"
+              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
+              style={{ borderColor: "#d1dce5" }}
+            >
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+                ゲーム業界への転職ガイド
+              </h3>
+              <p className="text-sm text-text-light">ゲーム業界の需要と年収を解説</p>
             </a>
           </div>
         </div>

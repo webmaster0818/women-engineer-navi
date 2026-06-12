@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "SIer（システムインテグレーター）への転職ガイド｜女性エンジニアの働き方",
+  title: "SIerで働く女性エンジニアのリアル｜年収・安定性・Web系との違い【2026年】",
   description:
-    "SIer（システムインテグレーター）への転職を目指す女性エンジニア向けガイド。SIerの種類・年収・キャリアパス・働き方を徹底解説。大手SIerとWeb系の違いや女性エンジニアが活躍するポイントも紹介します。",
+    "SIer業界の構造（元請け〜多重下請けピラミッド）と女性エンジニアの働きやすさを実データで解説。大手SIerの有価証券報告書ベースの平均年収（788万〜1,322万円）、プラチナくるみん等の認定実績、配属ガチャ・客先常駐の注意点、Web系との違いまで出典付きでまとめました。",
   alternates: { canonical: "/articles/sier-industry/" },
   openGraph: {
-    title: "SIer（システムインテグレーター）への転職ガイド｜女性エンジニアの働き方",
+    title: "SIerで働く女性エンジニアのリアル｜年収・安定性・Web系との違い【2026年】",
     description:
-      "SIerへの転職を目指す女性エンジニア向けガイド。SIerの種類・年収・キャリアパス・働き方を徹底解説。",
+      "SIer業界の構造と女性エンジニアの働きやすさを実データで解説。大手SIerの有報平均年収・産育休の認定実績・注意点まで出典付き。",
     url: "https://women-engineer.com/articles/sier-industry/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "SIer（システムインテグレーター）への転職ガイド｜女性エンジニアの働き方",
+  headline: "SIerで働く女性エンジニアのリアル｜年収・安定性・Web系との違い【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-04-29",
+  dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "SIerへの転職を目指す女性エンジニア向けガイド。SIerの種類・年収・キャリアパス・働き方を徹底解説。",
+    "SIer業界の構造と女性エンジニアの働きやすさを実データで解説。大手SIerの有報平均年収・産育休の認定実績・注意点まで出典付き。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/sier-industry/",
@@ -47,42 +47,42 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "SIerとは何ですか？",
+      name: "SIer業界の「多重下請け構造」とは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SIer（System Integrator）とは、企業や官公庁のシステム開発・運用を請け負うIT企業のことです。顧客の業務課題をヒアリングし、要件定義からシステム設計・開発・テスト・保守運用まで一貫して対応します。NTTデータ・富士通・NEC・日立などの大手企業がSIerの代表例です。",
+        text: "顧客から直接受注した元請けSIerが、開発工程を一次下請け・二次下請けへと多段階に再委託していくピラミッド型の産業構造のことです。公正取引委員会の「ソフトウェア業の下請取引等に関する実態調査報告書」（令和4年6月）は、この構造の下で買いたたきや無償のやり直し要求、中抜き事業者による多層化といった問題が生じていると指摘しています。同じ「SIer」でも、元請けか下請けかで年収・裁量・働き方が大きく変わるため、転職時は応募先がどの層に位置するかの確認が不可欠です。",
       },
     },
     {
       "@type": "Question",
-      name: "SIerは女性エンジニアが働きやすい環境ですか？",
+      name: "大手SIerの年収は実際どのくらいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "大手SIerは福利厚生が充実しており、産休育休取得率が高く、女性エンジニアにとって長期的なキャリア形成がしやすい環境です。特にメーカー系・ユーザー系SIerは安定した経営基盤を持ち、時短勤務制度や在宅勤務制度なども整備されています。ただし、プロジェクト単位で客先常駐になる場合もあるため、事前に確認することをおすすめします。",
+        text: "各社の有価証券報告書（2025年3月期）によると、平均年間給与は野村総合研究所1,322万円、日立製作所961万円、富士通929万円、NTTデータグループ（持株会社）923万円、TIS807万円、SCSK788万円です。いずれもエンジニア以外を含む全社員平均で、富士通・日立はIT以外の部門も含む点に注意が必要です。一方、二次請け以下の中小SIerはこの水準を大きく下回ることが多く、同じ業界でも所属する層によって年収差が大きいのが実態です。",
       },
     },
     {
       "@type": "Question",
-      name: "SIerからWeb系への転職は難しいですか？",
+      name: "SIerは女性エンジニアが働きやすい業界ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SIerで培った設計力・要件定義力・プロジェクト管理スキルはWeb系企業でも高く評価されるため、適切な準備をすれば十分可能です。ただし、モダンな技術スタック（React・Docker・CI/CDなど）の習得が必要で、ポートフォリオの作成もおすすめです。IT特化型エージェントを利用すればSIer出身者向けの求人を紹介してもらえます。",
+        text: "大手SIerは制度面の充実を公式データで確認できる企業が多いです。例えばNTTデータはプラチナくるみん（2019年）とえるぼし3段階目（2017年）を取得済みで、行動計画では2030年度末までに女性管理職比率20%という数値目標を公表しています。SCSKは育児休業復帰率95.0%・有給休暇取得率89.4%（2025年3月期）を採用サイトで開示し、2025年11月にはプラチナくるみんプラスを取得しました。ただしこれは大手・元請け層の話で、下請け層や客先常駐中心の企業では制度はあっても使いにくい場合があるため、取得・復帰の実績数値まで確認することをおすすめします。",
       },
     },
     {
       "@type": "Question",
-      name: "SIerの年収はどのくらいですか？",
+      name: "SIerとWeb系企業はどちらを選ぶべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SIerの年収は企業の規模やポジションによって大きく異なります。大手SIer（NTTデータ・富士通など）の平均年収は600〜800万円程度で、管理職クラスでは1,000万円以上も珍しくありません。中堅SIerは400〜600万円、独立系SIerは350〜550万円が目安です。",
+        text: "重視する軸によります。SIer（特に大手）は教育制度・産育休などの制度の厚さ、雇用の安定性、大規模プロジェクト経験が強みで、未経験者の研修制度も手厚い傾向です。一方Web系は技術スタックの新しさ、リモートワークの柔軟さ、開発スピードが強みです。SIerはJavaなど堅実な技術が中心で要件定義・設計など上流スキルが積み上がる反面、配属によってはレガシー技術が続くリスクもあります。「制度の充実と安定」を優先するならSIer、「モダン技術と柔軟な働き方」を優先するならWeb系が候補になります。",
       },
     },
     {
       "@type": "Question",
-      name: "SIerで役立つ資格は何ですか？",
+      name: "SIerから社内SEやWeb系への転職は可能ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "基本情報技術者試験・応用情報技術者試験はSIerでは必須レベルで求められることが多いです。加えて、プロジェクトマネージャ試験、ITストラテジスト、AWS認定資格、Oracle認定資格なども評価されます。SIerでは資格取得支援制度が充実している企業が多く、資格手当が支給されるケースもあります。",
+        text: "可能です。SIerで培った要件定義・設計・ベンダー管理・プロジェクト推進の経験は、社内SE（事業会社の情報システム部門）では特に高く評価されます。Web系へ移る場合は、React・Docker・CI/CDなどモダンな技術スタックの自習とポートフォリオで補強するのが定石です。経済産業省「IT人材需給に関する調査」は2030年に最大79万人のIT人材不足を試算しており、SIer出身者の受け皿は広い状況です。IT特化型エージェントを使うと、SIer経験の棚卸しと移籍先の選定がスムーズになります。",
       },
     },
   ],
@@ -107,7 +107,7 @@ const breadcrumbData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "SIerへの転職ガイド",
+      name: "SIerで働く女性エンジニアのリアル",
       item: "https://women-engineer.com/articles/sier-industry/",
     },
   ],
@@ -141,7 +141,7 @@ export default function SierIndustryPage() {
             items={[
               { label: "ホーム", href: "/" },
               { label: "転職コラム", href: "/articles/" },
-              { label: "SIerへの転職ガイド" },
+              { label: "SIerで働く女性エンジニアのリアル" },
             ]}
           />
           <div className="mt-4">
@@ -152,12 +152,39 @@ export default function SierIndustryPage() {
               業界ガイド
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              SIer（システムインテグレーター）への転職ガイド
+              SIerで働く女性エンジニアのリアル
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                女性エンジニアの働き方を徹底解説
+                年収・安定性・Web系との違いを実データで解説【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月29日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>この記事の結論</h2>
+            <ul className="space-y-3 text-sm md:text-base">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>SIerは「どの会社か」より先に「どの層か」で働き方が決まる業界。</strong>元請け→一次→二次と続く多重下請け構造は公正取引委員会の実態調査（令和4年6月）でも買いたたき・中抜き等の問題が指摘されており、同じSIerでも層によって年収・裁量・常駐の有無が大きく変わります。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>大手・元請け層の待遇は有価証券報告書で確認できる。</strong>2025年3月期の平均年間給与（全社員平均）は野村総合研究所1,322万円、NTTデータグループ923万円、TIS 807万円、SCSK 788万円など。一方で下請け層はこの水準を大きく下回ることが多いのが実態です。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>女性にとっての強みは「制度が実績数値で確認できる」こと。</strong>NTTデータはプラチナくるみん＋えるぼし3段階目、SCSKは育休復帰率95.0%・プラチナくるみんプラス（2025年11月）と、公式に検証できる実績を持つ大手が多い業界です。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>注意点は配属ガチャ・レガシー技術・客先常駐の3つ。</strong>入社前に「常駐比率」「担当できる工程」「使用技術」を確認すれば回避可能性が大きく上がります。確認方法は本文で解説します。</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -171,75 +198,75 @@ export default function SierIndustryPage() {
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. SIerの基本知識と業界構造</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. SIerの種類と特徴</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. SIerで女性エンジニアが働くメリット</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. SIerの年収と待遇</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. SIerのキャリアパス</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. SIerで求められるスキル</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. SIerの注意点とデメリット</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. SIerとは｜元請け〜下請けピラミッドの実態</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. SIerの4分類と「層」の見分け方</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 大手SIerの平均年収（有価証券報告書ベース）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. SIerが女性エンジニアに向く面（実データ）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 注意点｜配属ガチャ・レガシー技術・客先常駐</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. SIerとWeb系の違い</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. SIer経験者のキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. SIer転職に強いエージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. 出典・参考資料</a></li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* SIerの基本知識 */}
+      {/* sec1 構造 */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerの基本知識と業界構造</h2>
+          <h2 className="text-2xl font-bold mb-6">SIerとは｜元請け〜下請けピラミッドの実態</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              SIer（System Integrator、システムインテグレーター）は、企業や官公庁の情報システムの企画・設計・開発・運用を一括して請け負うIT企業です。日本のIT業界において非常に大きな存在で、IT市場全体の約半分を占めると言われています。
+              SIer（System Integrator、システムインテグレーター）は、企業や官公庁の情報システムの企画・要件定義から設計・開発・テスト・保守運用までを請け負うIT企業です。金融機関の勘定系、官公庁の行政システム、製造業の基幹システムなど、社会インフラ級の大規模システムを支えているのがSIer業界です。
             </p>
             <p>
-              SIerの主な業務は、クライアント企業の業務課題をITで解決することです。ヒアリングによる課題抽出、要件定義、基本設計・詳細設計、プログラミング、テスト、本番リリース、保守運用と、システム開発のライフサイクル全体に関わります。
+              この業界を理解するうえで避けて通れないのが<strong>多重下請け構造</strong>です。顧客から直接受注する元請けSIerがプロジェクト全体を管理し、開発工程を一次下請けへ、一次下請けがさらに二次下請けへと再委託していくピラミッド型の構造が広く存在します。公正取引委員会が令和4年6月に公表した「ソフトウェア業の下請取引等に関する実態調査報告書」は、この構造の下で<strong>下請代金の買いたたき、無償の仕様変更・やり直し要求、自ら開発をほとんど行わない「中抜き事業者」による構造の多層化</strong>といった問題が生じていると指摘しています（出典: 公正取引委員会・令和4年6月29日公表、2026年6月参照）。
             </p>
             <p>
-              2026年現在、SIer業界はDX（デジタルトランスフォーメーション）需要の拡大により、活況を呈しています。官公庁や金融機関のシステム刷新、レガシーシステムのモダナイゼーション、クラウド移行プロジェクトなど、大規模な案件が相次いでいます。
-            </p>
-            <p>
-              SIer業界は多重下請け構造が特徴的で、大手SIer（元請け）が受注したプロジェクトを二次請け・三次請けのSIerに発注する形態が一般的です。転職する際は、自分がどの階層で働くことになるかを確認することが重要です。
+              経済産業省も「情報サービス・ソフトウェア産業における下請適正取引等の推進のためのガイドライン」を策定し、取引適正化を促してきました。つまり<strong>「下請け構造の問題は公的機関が公式に認めている業界課題」</strong>であり、転職時に応募先がピラミッドのどの層にいるかを確認するのは、決して失礼な質問ではなく必須の自衛策です。
             </p>
             <div
               className="rounded-xl border p-6 mt-6"
               style={{ borderColor: "#d1dce5" }}
             >
               <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                SIer業界の基本構造
+                層によってこう変わる（ピラミッドの実態）
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">
                   <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                  <span>元請けSIer：顧客から直接受注し、プロジェクト全体を管理</span>
+                  <span><strong>元請け（プライム）</strong>: 顧客と直接契約。要件定義・全体設計・プロジェクト管理が中心で、年収水準・制度・裁量が最も大きい層</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                  <span>二次請け：元請けから発注を受け、特定工程の開発を担当</span>
+                  <span><strong>一次下請け</strong>: 元請けから特定サブシステムや工程を受託。設計〜開発を担い、企業によっては元請け案件も持つ</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                  <span>三次請け以降：さらに細分化された作業を担当</span>
+                  <span><strong>二次下請け以降</strong>: 製造（コーディング）・テストなど細分化された工程が中心。客先常駐の比率が上がり、単価のしわ寄せを受けやすい層</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
-                  <span>上流工程ほど年収が高く、裁量も大きい傾向</span>
+                  <span><strong>確認方法</strong>: 面接で「プライム案件の比率」「商流（何次請けか）」「常駐と自社内開発の比率」を質問する。明確に答えない企業は要注意</span>
                 </li>
               </ul>
             </div>
+            <p className="mt-4">
+              なお、客先に常駐して労働力を提供する契約形態（SES）とSIerの請負の違いは、<a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SESと自社開発の比較記事</a>で詳しく解説しています。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* SIerの種類 */}
+      {/* sec2 4分類 */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerの種類と特徴</h2>
+          <h2 className="text-2xl font-bold mb-6">SIerの4分類と「層」の見分け方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              SIerは大きく4つの種類に分類され、それぞれ特徴や強みが異なります。転職先を選ぶ際には、各タイプの違いを理解した上で、自分のキャリアプランに合った企業を選びましょう。
+              SIerは出自によって大きく4タイプに分類されます。ただし重要なのは分類そのものより、<strong>そのタイプが構造上どの層に入りやすいか</strong>です。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -247,26 +274,26 @@ export default function SierIndustryPage() {
               {
                 type: "メーカー系SIer",
                 color: "#0891b2",
-                examples: "富士通・NEC・日立製作所",
-                features: ["ハードウェアメーカーのIT部門が独立", "親会社のブランド力と安定経営", "大規模案件が多い", "福利厚生が非常に充実", "平均年収: 600〜800万円"],
+                examples: "富士通・NEC・日立製作所（のIT部門/グループ）",
+                features: ["ハードウェアメーカー本体またはそのIT子会社", "官公庁・金融など超大規模案件の元請けが多い", "親会社水準の制度・福利厚生", "グループ内子会社は一次請け的な位置づけのことも"],
               },
               {
                 type: "ユーザー系SIer",
                 color: "#7c3aed",
-                examples: "NTTデータ・SCSK・BIPROGY",
-                features: ["親会社（ユーザー企業）のIT部門が独立", "親会社や同グループ企業の案件が安定", "業界特化の知見が蓄積", "働き方改革に積極的", "平均年収: 550〜750万円"],
+                examples: "NTTデータ・SCSK・BIPROGY など",
+                features: ["商社・通信などの情報システム部門が独立した系譜", "親会社・グループ案件という安定基盤", "業界（金融・流通など）特化の知見が蓄積", "元請け比率が高い企業が多い"],
               },
               {
                 type: "独立系SIer",
                 color: "#f97066",
-                examples: "TIS・大塚商会・オービック",
-                features: ["特定の親会社を持たず独立経営", "幅広い業界の案件を受注", "技術選定の自由度が比較的高い", "企業規模による差が大きい", "平均年収: 400〜700万円"],
+                examples: "TIS・大塚商会・オービック など",
+                features: ["特定の親会社を持たない独立資本", "大手独立系は元請け、中小は下請け中心と二極化", "技術選定の自由度が比較的高い", "企業規模による待遇差が最も大きいタイプ"],
               },
               {
                 type: "コンサル系SIer",
                 color: "#10b981",
-                examples: "アクセンチュア・アビームコンサルティング",
-                features: ["経営コンサルとIT開発を一体提供", "上流工程（企画・戦略）に強い", "グローバル案件も多い", "年収水準が高い", "平均年収: 700〜1,200万円"],
+                examples: "アクセンチュア・アビームコンサルティング など",
+                features: ["戦略・業務コンサルとIT実装を一体提供", "企画・構想策定などの最上流から参画", "年収水準は高いが稼働も高くなりがち", "成果主義の色が濃く、制度より個人裁量の文化"],
               },
             ].map((sier, i) => (
               <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
@@ -280,82 +307,188 @@ export default function SierIndustryPage() {
               </div>
             ))}
           </div>
+          <p className="text-text-light leading-relaxed mt-6 text-sm">
+            ※ 同じ「メーカー系」「ユーザー系」でも、グループ内の開発子会社・孫会社は親会社より待遇水準が下がるのが一般的です。求人票の社名がグループ名を冠していても、<strong>「本体か子会社か」「何次請けの案件が中心か」</strong>は必ず分けて確認しましょう。
+          </p>
         </div>
       </section>
 
-      {/* 女性エンジニアのメリット */}
+      {/* sec3 年収 */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerで女性エンジニアが働くメリット</h2>
+          <h2 className="text-2xl font-bold mb-6">大手SIerの平均年収（有価証券報告書ベース）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              SIer、特に大手企業は福利厚生が充実しており、女性エンジニアが長期的にキャリアを築ける環境が整っています。Web系企業とは異なる強みがありますので、具体的に見ていきましょう。
-            </p>
-          </div>
-          <div className="space-y-4 mt-6">
-            {[
-              {
-                title: "充実した福利厚生と安定性",
-                desc: "大手SIerは上場企業が多く、経営基盤が安定しています。住宅手当・家族手当・退職金制度・企業年金など、長期雇用を前提とした福利厚生が充実しており、ライフステージの変化に合わせた柔軟な働き方が可能です。",
-              },
-              {
-                title: "産休育休の取得実績が豊富",
-                desc: "大手SIerの産休育休取得率は90%以上の企業がほとんどで、育休からの復帰率も高水準です。育児時短勤務は子供が小学校入学まで利用可能な企業も多く、男性の育休取得も推進されています。",
-              },
-              {
-                title: "体系的なキャリアパス",
-                desc: "SIerでは「SE→リーダー→マネージャー→部長」という明確なキャリアパスが用意されています。技術力を磨くスペシャリストコースも整備されている企業が多く、自分の志向に合わせたキャリア選択が可能です。",
-              },
-              {
-                title: "大規模プロジェクトの経験",
-                desc: "数十億円規模のシステム開発プロジェクトに携われることはSIerならではの経験です。金融・通信・官公庁などの社会インフラを支えるシステムの開発は、やりがいと専門性の両方を得られます。",
-              },
-              {
-                title: "資格取得支援制度",
-                desc: "SIerでは資格取得を積極的に支援する企業が多く、受験費用の補助や合格時の報奨金が支給されます。基本情報技術者から高度情報処理技術者まで、段階的にスキルアップできる環境が整っています。",
-              },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>{i + 1}. {item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 年収と待遇 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerの年収と待遇</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              SIerの年収は企業規模とポジションによって大きく異なります。以下に2026年の最新データをもとにした年収目安を示します。
+              「SIerの年収」は推計値が氾濫していますが、上場企業については<strong>有価証券報告書に記載される「平均年間給与」</strong>という公式の一次データが存在します。2025年3月期（2024年度）の主要各社の数値は次のとおりです。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
             <table className="w-full border-collapse rounded-lg overflow-hidden">
               <thead>
                 <tr style={{ backgroundColor: "#0891b2" }}>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">ポジション</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">大手SIer</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">中堅SIer</th>
-                  <th className="px-4 py-3 text-left text-sm font-bold text-white">独立系SIer</th>
+                  <th className="px-4 py-3 text-left text-sm font-bold text-white">企業名</th>
+                  <th className="px-4 py-3 text-left text-sm font-bold text-white">平均年間給与</th>
+                  <th className="px-4 py-3 text-left text-sm font-bold text-white">平均年齢</th>
+                  <th className="px-4 py-3 text-left text-sm font-bold text-white">備考</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ["新卒〜3年目", "400〜500万円", "350〜420万円", "300〜400万円"],
-                  ["SE（4〜7年目）", "500〜700万円", "420〜550万円", "400〜520万円"],
-                  ["リーダー・主任", "650〜850万円", "520〜680万円", "480〜620万円"],
-                  ["マネージャー・課長", "800〜1,000万円", "650〜800万円", "580〜750万円"],
-                  ["部長以上", "1,000〜1,400万円", "800〜1,000万円", "700〜900万円"],
-                ].map(([pos, large, mid, indie], i) => (
+                  ["野村総合研究所（NRI）", "1,322万円", "39.9歳", "コンサル＋ITの一体提供"],
+                  ["日立製作所", "961万円", "42.6歳", "IT以外の部門を含む全社平均"],
+                  ["富士通", "929万円", "42.0歳", "IT以外の部門を含む全社平均"],
+                  ["NTTデータグループ", "923万円", "39.7歳", "持株会社の従業員の数値"],
+                  ["TIS", "807万円", "40.6歳", "独立系大手"],
+                  ["SCSK", "788万円", "44.9歳", "住友商事グループ"],
+                ].map(([name, salary, age, note], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
-                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d1dce5" }}>{pos}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{large}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{mid}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{indie}</td>
+                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d1dce5" }}>{name}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{salary}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{age}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-light mt-2">出典: 各社有価証券報告書（2025年3月期）の「平均年間給与」（2026年6月参照）</p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              読み方の注意点が3つあります。第一に、これらは<strong>エンジニア以外（営業・管理部門等）を含む全社員平均</strong>であり、若手エンジニア個人の年収ではありません。第二に、富士通・日立はITサービス以外の事業も含む会社全体の数値、NTTデータグループは持株会社の数値です。第三に、ここに載るのは<strong>ピラミッドの最上位層だけ</strong>という点です。二次請け以下の中小SIerの給与水準はこの表とは別世界であることが多く、公正取引委員会の実態調査が指摘する「下流へのしわ寄せ」は年収にも表れます。
+            </p>
+            <p>
+              逆に言えば、SIer業界で年収を上げる最短ルートは「同じ層の中で頑張る」ことではなく、<strong>より上の層（元請け・一次請け）へ移ること</strong>です。下請けSIerで設計・リーダー経験を積み、大手SIerの中途採用に応募するのは王道のキャリア戦略です。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* sec4 女性に向く面 */}
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">SIerが女性エンジニアに向く面（実データ）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              「大手SIerは制度が手厚い」と言われますが、重要なのはそれが<strong>公式に検証できる実績数値として公開されている</strong>ことです。代表例を見てみましょう。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>NTTデータ｜プラチナくるみん＋えるぼし3段階目</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                2017年に女性活躍推進法に基づく<strong>「えるぼし」最上位の3段階目</strong>に認定され、2019年には子育てサポート企業の上位認定<strong>「プラチナくるみん」</strong>を取得（いずれも公式ニュースリリースで確認可能）。さらに現在の行動計画（2026年4月〜2031年3月）では<strong>「2030年度末までに女性管理職比率20%」「男性育休等取得率100%の継続」</strong>という期限付きの数値目標を公表しています。
+              </p>
+              <p className="text-xs text-text-light mt-2">出典: NTTデータ ニュースリリース（2017年9月・2019年11月）、NTTデータグループ「ダイバーシティ、エクイティ＆インクルージョン」（2026年6月参照）</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>SCSK｜育休復帰率95.0%・残業削減の先進企業</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                採用サイトのデータ集で2025年3月期実績として<strong>育児休業復帰率95.0%、有給休暇取得率89.4%、平均勤続年数17.2年</strong>を公開。2013年から続く「スマートワーク・チャレンジ」により残業削減を進め、2015〜2020年度には月平均残業20時間以下を達成したことを公式サイトで紹介しています。2025年11月には不妊治療との両立支援も評価する<strong>「プラチナくるみんプラス」</strong>を取得しました。
+              </p>
+              <p className="text-xs text-text-light mt-2">出典: SCSK「採用情報 データ集」「働き方改革」・ニュースリリース（2025年11月12日）（2026年6月参照）</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>富士通｜女性幹部比率を毎年開示</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                女性幹部社員比率を毎年度公開しており、<strong>2024年度実績はグループ16.8%（単体11.5%）</strong>。厚生労働省「令和6年度雇用均等基本調査」による課長相当職の女性割合の全産業平均12.3%と比較する基準として使えます。中期経営計画の非財務指標として目標値も掲げており、「実績＋目標＋期限」をセットで開示する典型例です。
+              </p>
+              <p className="text-xs text-text-light mt-2">出典: 富士通 統合レポート・人材戦略説明資料、厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</p>
+            </div>
+          </div>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>構造的にSIer大手が女性に向きやすい3つの理由</h3>
+            <ul className="space-y-3 text-sm text-text-light">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>教育制度が体系化されている</strong>: 新卒一括採用の歴史が長く、階層別研修・資格取得支援（受験料補助・報奨金）が制度として整備されている企業が多い。文系出身・未経験からエンジニアを育てるノウハウの蓄積はWeb系より厚い傾向</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>プロジェクトが長期で計画的</strong>: 数年単位の大規模案件が多く、工程と要員計画が事前に引かれるため、産育休・時短のスケジュールを組み込みやすい。厚生労働省の調査では女性の育休取得率は全産業で86.6%まで上昇しており、制度の整った大手SIerでは取得がほぼ前提になっている</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>評価される能力が長持ちする</strong>: 要件定義・設計・品質管理・顧客折衝といった上流スキルは技術トレンドに左右されにくく、ブランクの影響を受けにくい。復職後も「設計力・調整力」で勝負できる</span>
+              </li>
+            </ul>
+            <p className="text-xs text-text-light mt-3">出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</p>
+          </div>
+          <p className="text-text-light leading-relaxed mt-6 text-sm">
+            制度の充実した企業の具体的な見極め方（くるみん・えるぼしの調べ方、行動計画の読み方）は、<a href="/articles/women-friendly-companies/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の見極め方</a>で詳しく解説しています。
+          </p>
+        </div>
+      </section>
+
+      {/* sec5 注意点 */}
+      <section id="sec5" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">注意点｜配属ガチャ・レガシー技術・客先常駐</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              SIerのメリットは主に「大手・元請け層」のものです。公平を期すため、業界全体に共通する3つのリスクと、入社前にできる対策を整理します。
+            </p>
+          </div>
+          <div className="space-y-4 mt-6">
+            {[
+              {
+                title: "1. 配属ガチャ｜同じ会社でも部署で別世界",
+                desc: "大手SIerは事業部ごとに顧客業界・技術・働き方が大きく異なります。最新のクラウド案件を扱うDX部門もあれば、20年稼働の基幹システムを保守し続ける部門もあり、配属によってキャリアの方向が大きく変わります。対策: 中途採用は部署・案件を特定して採用する「ジョブ型」求人を選ぶこと。配属先を確約しない「総合職一括採用」型の中途求人は、面接で配属プロセスを必ず確認しましょう。",
+              },
+              {
+                title: "2. レガシー技術の長期化リスク",
+                desc: "経済産業省「DXレポート」（2018年）は、複雑化・老朽化したレガシーシステムが残存した場合の経済損失を指摘し（いわゆる「2025年の崖」）、基幹系の刷新を促してきました。裏を返せば、SIerにはレガシーシステムの保守・移行案件が今も大量に存在します。COBOLや古いJavaの保守だけが長く続くと市場価値の更新が止まるリスクがあります。対策: モダナイゼーション（クラウド移行・再構築）案件は「レガシーとモダン両方の経験」が積める狙い目です。面接で「移行先の技術スタック」を質問しましょう。",
+              },
+              {
+                title: "3. 客先常駐の可能性",
+                desc: "SIerでも、特に下請け層では顧客先に常駐して開発する形態が珍しくありません。常駐自体が悪いわけではありませんが、自社の評価者から働きぶりが見えにくい、リモートワークや時短の運用が常駐先のルールに左右される、といった制約が生じがちです。対策: 面接で「自社内開発と常駐の比率」「常駐の場合のリモート可否」「評価は誰がするのか」を確認すること。回答が曖昧な場合、実態はSESに近い可能性があります。",
+              },
+              {
+                title: "4. 下請け層の構造的な待遇差",
+                desc: "公正取引委員会の実態調査（令和4年6月）が指摘するとおり、多重下請け構造の下流では単価の買いたたきや無償のやり直しが起きやすく、それは従業員の年収・残業に直結します。対策: 応募先の「プライム（元請け）案件比率」を確認し、二次請け以下が中心の企業は慎重に検討すること。エージェント経由なら商流の実態を事前に確認してもらえます。",
+              },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>{item.title}</h3>
+                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-text-light mt-4">出典: 公正取引委員会「ソフトウェア業の下請取引等に関する実態調査報告書」（令和4年6月）、経済産業省「DXレポート」（2018年）（2026年6月参照）</p>
+        </div>
+      </section>
+
+      {/* sec6 Web系との違い */}
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">SIerとWeb系の違い</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              転職先として比較されることの多いSIerとWeb系（自社サービス）企業。どちらが上という話ではなく、<strong>得られるものと求められるものが違う</strong>と理解するのが正確です。
+            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full border-collapse rounded-lg overflow-hidden">
+              <thead>
+                <tr style={{ backgroundColor: "#0891b2" }}>
+                  <th className="px-4 py-3 text-left text-sm font-bold text-white">比較軸</th>
+                  <th className="px-4 py-3 text-left text-sm font-bold text-white">SIer（大手・元請け）</th>
+                  <th className="px-4 py-3 text-left text-sm font-bold text-white">Web系（自社サービス）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["開発スタイル", "ウォーターフォール中心・長期計画型", "アジャイル中心・高速リリース型"],
+                  ["主な技術", "Java・C#・Oracle など堅実・実績重視", "TypeScript・Go・クラウドネイティブ"],
+                  ["積み上がるスキル", "要件定義・設計・PM・顧客折衝（上流）", "実装力・モダン技術・プロダクト思考"],
+                  ["教育制度", "体系的な研修・資格支援が手厚い傾向", "OJT中心・自走前提の企業が多い"],
+                  ["制度・福利厚生", "産育休・時短など制度が厚く実績も公開", "企業差が大きい（柔軟な企業は非常に柔軟）"],
+                  ["働く場所", "自社・客先（常駐の可能性あり）", "リモートワーク比率が高い傾向"],
+                  ["評価のされ方", "工程責任・マネジメントで昇給", "技術力・プロダクト貢献で昇給"],
+                ].map(([axis, sier, web], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
+                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d1dce5" }}>{axis}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{sier}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{web}</td>
                   </tr>
                 ))}
               </tbody>
@@ -363,131 +496,40 @@ export default function SierIndustryPage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              大手SIerは年功序列の要素が残る企業が多いため、若手のうちは年収が低めに感じることもありますが、長期的にはWeb系企業と同等以上の年収に達するケースも多いです。また、退職金や企業年金を含めた生涯賃金では大手SIerが有利になることが多いです。
-            </p>
-            <p>
-              女性エンジニアの場合、時短勤務期間中は年収が下がることがありますが、フルタイム復帰後に元の水準に戻る企業がほとんどです。昇格・昇進においても性別による差を設けない企業が増えており、女性管理職の比率も年々上昇しています。
+              SIerの中核技術であるJavaは求人数が安定して多く、金融・公共系で長く使える武器になります。詳しくは<a href="/articles/java-career/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>Javaエンジニアのキャリアガイド</a>を参照してください。Web系業界の働き方・年収・企業の選び方は<a href="/articles/web-industry/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>Web系企業への転職ガイド</a>で詳しく解説しています。
             </p>
           </div>
         </div>
       </section>
 
-      {/* キャリアパス */}
-      <section id="sec5" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerのキャリアパス</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              SIerでのキャリアパスは大きく「マネジメントコース」と「スペシャリストコース」の2つに分かれます。自分の志向や強みに合わせて選択できる体制を整えている企業が増えています。
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>マネジメントコース</h3>
-              <div className="space-y-3">
-                {["SE（1〜3年目）: プログラミング・テスト", "SE（4〜6年目）: 詳細設計・基本設計", "リーダー（7〜10年目）: チーム管理・顧客折衝", "マネージャー（10年目〜）: プロジェクト管理・予算管理", "部長・事業部長: 事業戦略・組織マネジメント"].map((step, i) => (
-                  <div key={i} className="flex items-start gap-2 text-sm text-text-light">
-                    <span className="inline-block rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold text-white flex-shrink-0" style={{ backgroundColor: "#0891b2" }}>{i + 1}</span>
-                    <span>{step}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>スペシャリストコース</h3>
-              <div className="space-y-3">
-                {["SE（1〜3年目）: 基礎技術の習得", "シニアSE（4〜7年目）: 専門技術の深堀り", "エキスパート（8〜12年目）: 技術リード・アーキテクト", "プリンシパル（12年目〜）: 技術戦略・全社的な技術指針", "フェロー: 業界をリードする技術者"].map((step, i) => (
-                  <div key={i} className="flex items-start gap-2 text-sm text-text-light">
-                    <span className="inline-block rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold text-white flex-shrink-0" style={{ backgroundColor: "#7c3aed" }}>{i + 1}</span>
-                    <span>{step}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="space-y-4 text-text-light leading-relaxed mt-6">
-            <p>
-              女性エンジニアの場合、産休育休を挟んでもキャリアパスを維持できる制度が整っている企業を選ぶことが重要です。大手SIerでは「育児中のプロジェクトアサイン配慮」や「復帰後のキャッチアッププログラム」を用意している企業もあります。
-            </p>
-            <p>
-              また、SIerでの経験を活かしてコンサルタント・社内SE・フリーランスなどにキャリアチェンジする選択肢もあります。SIerで得た業務知識と技術力は、どのキャリアパスでも強力な武器になります。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 求められるスキル */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerで求められるスキル</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              SIerでは技術力に加えて、コミュニケーション力やドキュメント作成力が重視されます。クライアントとの折衝が発生する場面も多いため、総合的なビジネススキルが求められます。
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>技術スキル</h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span>Java / C# / Python / COBOL</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span>Oracle / SQL Server / PostgreSQL</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span>AWS / Azure / GCPなどクラウド技術</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span>Linux / Windows Server</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span>ネットワーク・セキュリティの基礎</span></li>
-              </ul>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>ビジネススキル</h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>要件定義・設計書の作成力</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>顧客折衝・プレゼンテーション</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>プロジェクト管理（WBS・進捗管理）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>品質管理・テスト計画</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>チームビルディング・人材育成</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 注意点とデメリット */}
+      {/* sec7 キャリアパス */}
       <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">SIerの注意点とデメリット</h2>
+          <h2 className="text-2xl font-bold mb-6">SIer経験者のキャリアパス</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              SIerにはメリットが多い反面、転職前に知っておくべきデメリットや注意点もあります。以下のポイントを理解した上で、自分に合っているかを判断しましょう。
+              SIerで積み上がる「要件定義・設計・プロジェクト推進・顧客折衝」は、業界の内外で換金性の高いスキルセットです。経済産業省「IT人材需給に関する調査」は2030年に最大79万人のIT人材不足を試算しており、SIer経験者の受け皿は広い状況が続いています。
             </p>
           </div>
-          <div className="space-y-4 mt-6">
-            {[
-              {
-                title: "客先常駐のリスク",
-                desc: "SIerの中にはエンジニアをクライアント先に常駐させる形態をとる企業があります。客先常駐の場合、自社のチームとの交流が減り、キャリア形成が難しくなることがあります。転職前に常駐比率を確認しましょう。",
-                color: "#f97066",
-              },
-              {
-                title: "技術のレガシー化",
-                desc: "大手SIerでは金融や官公庁の基幹系システムを扱うことが多く、COBOLやJavaの古いバージョンなど、レガシーな技術を使い続けるケースがあります。最新技術を学びたい場合は、DX部門やクラウド推進部門を目指すと良いでしょう。",
-                color: "#f97066",
-              },
-              {
-                title: "残業が多くなりやすい",
-                desc: "プロジェクトの納期前やシステムの本番リリース前には、残業が増加しやすい傾向があります。ただし近年は働き方改革により改善が進んでおり、大手SIerでは月平均残業時間が20時間以下の企業も増えています。",
-                color: "#f97066",
-              },
-              {
-                title: "多重下請け構造の影響",
-                desc: "二次請け・三次請けのSIerでは、元請けのSIerと比較して年収が低く、作業の裁量も限られることがあります。転職先の企業がどの階層に位置するかを事前に確認することが重要です。",
-                color: "#f97066",
-              },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: item.color }}>{item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>上の層へ移る（SIer内ステップアップ）</h3>
+              <p className="text-sm text-text-light leading-relaxed">下請けSIer→大手元請けSIerへの転職は年収・裁量の改善幅が大きい王道ルート。設計経験＋応用情報・PM系資格が武器になります。大手の中途採用はジョブ型が増えており、部署を選んで応募できます。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>社内SE（事業会社の情シス）へ</h3>
+              <p className="text-sm text-text-light leading-relaxed">SIerでのベンダー管理・要件定義経験がそのまま活きる人気進路。発注側に回るため納期プレッシャーが緩和され、ワークライフバランスを重視する女性に選ばれやすい選択肢です。詳しくは<a href="/articles/internal-se/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>社内SE転職ガイド</a>へ。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>Web系・自社開発へ</h3>
+              <p className="text-sm text-text-light leading-relaxed">設計力・品質管理の素養は評価されますが、モダンスタック（クラウド・CI/CD・モダンフレームワーク）の自習とポートフォリオで「実装も追いついている」ことを示すのが鍵。20代〜30代前半なら未経験スタックでもポテンシャル評価が期待できます。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>ITコンサル・PMOへ</h3>
+              <p className="text-sm text-text-light leading-relaxed">大規模プロジェクトの推進経験を最も高く買うのがコンサル業界。年収レンジは上がる一方、稼働や成果プレッシャーも上がるため、ライフプランと相談して選びたい進路です。</p>
+            </div>
           </div>
+          <p className="text-xs text-text-light mt-4">出典: 経済産業省「IT人材需給に関する調査」（2019年）（2026年6月参照）</p>
         </div>
       </section>
 
@@ -532,54 +574,8 @@ export default function SierIndustryPage() {
         </div>
       </section>
 
-      {/* 転職成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            {[
-              {
-                profile: "29歳・独立系SIer → 大手メーカー系SIer SE",
-                before: "年収380万円（独立系SIer・Java開発4年）",
-                after: "年収520万円（メーカー系SIer・クラウド案件）",
-                point: "独立系SIerでの開発経験とAWS資格を活かし、大手SIerのクラウド推進部門に転職。年収140万円アップに加え、リモートワーク制度と充実した福利厚生を獲得。",
-              },
-              {
-                profile: "33歳・Web系企業 → ユーザー系SIer PM",
-                before: "年収550万円（Web系企業・リードエンジニア）",
-                after: "年収650万円（ユーザー系SIer・PM）",
-                point: "Web系企業でのマネジメント経験を評価され、SIerのPMポジションに。安定した環境で産休育休を取得し、復帰後もPMとして活躍中。退職金制度もあり長期的な安心感を得た。",
-              },
-              {
-                profile: "26歳・SES企業 → 大手独立系SIer SE",
-                before: "年収320万円（SES・テスト工程中心）",
-                after: "年収450万円（独立系SIer・上流工程）",
-                point: "SESでのテスト経験を基礎として評価されつつ、基本情報技術者資格の取得とポテンシャルで大手独立系に採用。設計工程から携われるようになり、キャリアの幅が大きく広がった。",
-              },
-            ].map((story, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>事例{i + 1}: {story.profile}</h3>
-                <div className="grid gap-4 md:grid-cols-2 mb-3">
-                  <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                    <p className="text-xs font-bold mb-1" style={{ color: "#f97066" }}>転職前</p>
-                    <p className="text-sm text-text-light">{story.before}</p>
-                  </div>
-                  <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                    <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                    <p className="text-sm text-text-light">{story.after}</p>
-                  </div>
-                </div>
-                <p className="text-sm text-text-light leading-relaxed">
-                  <span className="font-bold" style={{ color: "#7c3aed" }}>成功のポイント: </span>{story.point}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec9" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
@@ -600,6 +596,25 @@ export default function SierIndustryPage() {
         </div>
       </section>
 
+      {/* 出典 */}
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
+          <ul className="space-y-2 text-sm text-text-light leading-relaxed list-disc pl-5">
+            <li>出典: 公正取引委員会「ソフトウェア業の下請取引等に関する実態調査報告書」（令和4年6月29日公表）（2026年6月参照）</li>
+            <li>出典: 経済産業省「情報サービス・ソフトウェア産業における下請適正取引等の推進のためのガイドライン」（2026年6月参照）</li>
+            <li>出典: 経済産業省「DXレポート 〜ITシステム『2025年の崖』克服とDXの本格的な展開〜」（2018年）（2026年6月参照）</li>
+            <li>出典: 経済産業省「IT人材需給に関する調査」（2019年）（2026年6月参照）</li>
+            <li>出典: 野村総合研究所・日立製作所・富士通・NTTデータグループ・TIS・SCSK 各社有価証券報告書（2025年3月期）「平均年間給与」（2026年6月参照）</li>
+            <li>出典: NTTデータ ニュースリリース「『えるぼし』企業に認定」（2017年9月）・「優良な子育てサポート企業として『プラチナくるみん』を取得」（2019年11月）（2026年6月参照）</li>
+            <li>出典: NTTデータグループ「ダイバーシティ、エクイティ＆インクルージョン」（2026年6月参照）</li>
+            <li>出典: SCSK「採用情報 データ集」・「働き方改革（サステナビリティ）」・ニュースリリース「プラチナくるみんプラス認定を取得」（2025年11月12日）（2026年6月参照）</li>
+            <li>出典: 富士通「統合レポート・人材戦略説明資料・サステナビリティデータ」（2026年6月参照）</li>
+            <li>出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</li>
+          </ul>
+        </div>
+      </section>
+
       {/* 関連記事 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
@@ -607,19 +622,23 @@ export default function SierIndustryPage() {
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/web-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Web系企業への転職ガイド</h3>
-              <p className="text-sm text-text-light">Web系企業の特徴と女性が活躍する理由</p>
+              <p className="text-sm text-text-light">SIerと比較されるWeb系の働き方と特徴</p>
             </a>
             <a href="/articles/ses-vs-jisha/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SES vs 自社開発の比較</h3>
-              <p className="text-sm text-text-light">SESと自社開発の違いを徹底比較</p>
+              <p className="text-sm text-text-light">客先常駐との契約形態の違いを整理</p>
             </a>
-            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>おすすめ資格10選</h3>
-              <p className="text-sm text-text-light">転職で有利になる資格を紹介</p>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の見極め方</h3>
+              <p className="text-sm text-text-light">くるみん・えるぼし・公開データの読み方</p>
             </a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</h3>
-              <p className="text-sm text-text-light">5年後・10年後のキャリア設計</p>
+            <a href="/articles/internal-se/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>社内SE転職ガイド</h3>
+              <p className="text-sm text-text-light">SIer経験が活きる人気のキャリアパス</p>
+            </a>
+            <a href="/articles/java-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Javaエンジニアのキャリアガイド</h3>
+              <p className="text-sm text-text-light">SIerの中核技術Javaで築くキャリア</p>
             </a>
           </div>
         </div>
