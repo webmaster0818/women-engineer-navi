@@ -21,3 +21,9 @@
 - 全て実データ・出典付き（厚労省PDF直接抽出含む）、エージェント紹介/CTA原文維持、架空事例削除、sitemap lastmod更新
 - 進捗: 24/54本完了（バッチ1含む）。残り: 比較系5本(agent-vs-site/type-vs-doda/levtech-vs-geekly/green-vs-reworks/workport-vs-recruit※エージェント文言保護で慎重対応)+Tier B 25本
 - 注意: CF Pages反映に数分ラグあり。検証は反映確認後に行う
+
+## 2026-06-12 バッチ4完了✅（比較系5本+ハブ3本）
+- 比較系5本（agent-vs-site/type-vs-doda/levtech-vs-geekly/green-vs-reworks/workport-vs-recruit）: 公式公開値のみ・優劣断定なし・架空口コミ全削除・保護ブロックはdiff検証で原文一致確認
+- ハブ3本: how-to-choose（許可事業者・法定公開実績の確認方法軸）/certification（資格マップ、cert-6ページの親ハブ化）/career-path（5類型マップ、本日リライト分と数値整合）
+- 重要発見: リクルートエージェント運営は2025/4から「インディードリクルートパートナーズ」（分割設立）。cert-pythonデータ分析学割を公式値5,500円に修正
+- 進捗: 32/54本完了。残りTier B 22本（freelance/long-career-tips等career-pathからリンクされる定型文を優先推奨）

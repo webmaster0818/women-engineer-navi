@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法",
+  title: "エンジニア技術面接の対策ガイド｜ライブコーディング・設計質問・深掘りへの備え【2026年】",
   description:
-    "女性エンジニアの技術面接対策ガイド。コーディングテスト・システム設計課題・技術質問の対策法を徹底解説。面接で聞かれる質問例と回答のポイント、事前準備の進め方も紹介します。",
+    "エンジニア転職の技術面接対策を実情ベースで解説。ライブコーディング・システム設計・技術深掘り・ペアプロの4形式と評価観点、詰まったときの立ち回り、STAR法での経験整理、未経験者のポートフォリオ連携まで。AI協働時代の技術面接の変化も出典付きで網羅します。",
   alternates: { canonical: "/articles/technical-interview/" },
   openGraph: {
-    title: "女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法",
-    description: "女性エンジニアの技術面接対策ガイド。コーディングテスト・システム設計課題・技術質問の対策法を徹底解説。",
+    title: "エンジニア技術面接の対策ガイド｜ライブコーディング・設計質問・深掘りへの備え【2026年】",
+    description:
+      "ライブコーディング・システム設計・技術深掘り・ペアプロの4形式と評価観点、詰まったときの立ち回りを出典付きで解説。",
     url: "https://women-engineer.com/articles/technical-interview/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -19,12 +20,13 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法",
+  headline: "エンジニア技術面接の対策ガイド｜ライブコーディング・設計質問・深掘りへの備え【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-04-29",
+  dateModified: "2026-06-12",
   author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  description: "女性エンジニアの技術面接対策ガイド。コーディングテスト・システム設計課題・技術質問の対策法を徹底解説。",
+  description:
+    "エンジニア技術面接の対策ガイド。ライブコーディング・システム設計・技術深掘り・ペアプロの4形式と評価観点、詰まったときの立ち回り、経験レベル別の準備法を出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/technical-interview/" },
 };
 
@@ -34,42 +36,42 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "技術面接ではどんな質問が出ますか？",
+      name: "技術面接とコーディングテストは何が違うのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "技術面接では主に3種類の質問が出ます。(1)技術的な知識を問う質問（使用言語・フレームワーク・設計パターンなど）、(2)過去のプロジェクト経験に関する深掘り質問、(3)技術的な課題解決力を測る質問（コーディングテスト・設計課題）です。企業によってはホワイトボードコーディングやライブコーディングが実施されることもあります。",
+        text: "コーディングテストは自宅などで一人で受ける自動採点型の試験で、書類選考の直後に課されることが多いステップです。一方、技術面接は面接官（現場エンジニア）と対話しながら進む選考で、ライブコーディング・システム設計・過去プロジェクトの深掘りなどが行われます。コーディングテストが「解けたか」を測るのに対し、技術面接は「どう考えて解くか」「チームで一緒に働けるか」を見る場です。HireRooのように、コーディングテストの提出コードを面接官が参照しながら深掘り質問をする「スキル面接」形式を提供するサービスもあり、テストと面接は地続きになりつつあります。",
       },
     },
     {
       "@type": "Question",
-      name: "技術面接の準備にどのくらいの期間が必要ですか？",
+      name: "ライブコーディングで頭が真っ白になったらどうすればいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "一般的に2週間〜1ヶ月程度の準備期間を確保することをおすすめします。コーディングテスト対策には毎日1〜2問のアルゴリズム問題を解くことが効果的です。システム設計は書籍やオンライン教材で1〜2週間学習し、実際に設計図を描く練習をしましょう。在職中の場合は、1日30分〜1時間の学習を継続するのが現実的です。",
+        text: "黙り込まないことが最重要です。技術面接は会話の場なので、「入力の範囲を確認させてください」「まず愚直な解法から考えます」と声に出すだけで思考が再起動し、面接官も軌道修正のヒントをくれます。具体例を2〜3個手で書いてパターンを探す、解けなくても部分的に動くコードを書く、計算量が悪い解法でも「まずこれで動かして、ここがボトルネックなので改善します」と宣言する、という立ち回りで「詰まったときにどう動く人か」をむしろプラスに評価してもらえます。",
       },
     },
     {
       "@type": "Question",
-      name: "女性エンジニアならではの面接対策はありますか？",
+      name: "システム設計の面接は経験が浅くても出題されますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "技術面接の内容自体に性別による差はありません。しかし、面接の場でキャリアプランについて聞かれた際に、産休育休の取得予定や時短勤務の希望を率直に伝えることは問題ありません。むしろ、制度が整っている企業かどうかを確認する良い機会です。転職エージェント経由なら、事前に企業の女性活躍状況を確認できます。",
+        text: "本格的なシステム設計面接は主にミドル〜シニア層やテックリード候補が対象で、未経験・ジュニア層の選考で大規模分散システムの設計をゼロから問われることは多くありません。ただし「あなたのポートフォリオはなぜこの構成にしたのか」「テーブル設計をどう考えたか」という小さな設計質問はレベルを問わず出ます。自分の作ったものの構成図を描いて、選択理由とトレードオフ（他の選択肢を選ばなかった理由）を説明できるようにしておけば、ジュニア層の設計質問はカバーできます。",
       },
     },
     {
       "@type": "Question",
-      name: "コーディングテストが苦手ですが対策法はありますか？",
+      name: "知らない技術について質問されたら「分かりません」と答えていいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "コーディングテストが苦手な場合、LeetCodeやAtCoderで段階的に練習するのが効果的です。まずはEasy問題を50問程度解き、基本的なデータ構造とアルゴリズムを身につけましょう。その後Medium問題に挑戦し、解法パターンを蓄積していきます。模擬面接を受けることで、時間制限下での解答力も向上します。",
+        text: "知ったかぶりよりはるかに良い回答です。技術面接の面接官は現場エンジニアなので、曖昧な知識で取り繕うとすぐに見抜かれ、信頼を失います。「その技術は実務で使った経験がありません」と正直に伝えた上で、「類似の◯◯なら経験があります。共通点から推測すると…」と既知の知識から考える姿勢を見せるのが理想です。エンジニアの実務は「知らないことを調べて解決する」ことの連続なので、未知の問題への向き合い方そのものが評価対象になっています。",
       },
     },
     {
       "@type": "Question",
-      name: "システム設計の面接ではどんな問題が出ますか？",
+      name: "技術面接でGitHub CopilotなどのAIツールを使ってもいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "システム設計面接では「URLの短縮サービスを設計してください」「チャットアプリのバックエンドを設計してください」「SNSのタイムライン機能を設計してください」などの問題が出ます。スケーラビリティ・可用性・データ整合性などの非機能要件をどう考慮するかが評価ポイントです。",
+        text: "面接官・企業の指示に従うのが鉄則です。2026年現在、対応は二極化しています。HireRooのようにAIツールの利用を前提に「AIと協働して解く力」ごと評価する形式を提供するサービスがある一方、AI利用を禁止し、その場の思考力を見るためにあえてライブ形式・対面形式で実施する企業もあります。無断利用は不正行為とみなされるリスクがあるため、案内に明記がなければ面接冒頭に「AIツールや検索の利用は可能ですか」と確認しましょう。この確認自体が、ルールを確かめてから動く実務的な姿勢として好印象です。",
       },
     },
   ],
@@ -99,108 +101,182 @@ export default function TechnicalInterviewPage() {
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#f97066" }}>面接・選考</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              女性エンジニアの技術面接対策
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">コーディングテスト・設計課題の準備法を徹底解説</span>
+              エンジニア技術面接の対策ガイド
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">ライブコーディング・設計質問・深掘りへの備え【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月29日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>先に結論：技術面接で見られているのは「正解」ではない</h2>
+            <ul className="space-y-3 text-sm text-text-light leading-relaxed">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>形式は主に4つ。</strong> ライブコーディング／システム設計／技術知識・経験の深掘り／ペアプログラミング・ホワイトボード。どれも面接官（現場エンジニア）との<strong>対話</strong>で進みます。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>評価の中心は思考プロセス。</strong> 完答できなくても、考えを声に出し、制約を確認し、トレードオフに言及できれば評価されます。逆に、黙って正解だけ出すスタイルは損をします。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>経験者は過去プロジェクトの深掘り、未経験者は学習過程の説明</strong>が主戦場。それぞれSTAR法とポートフォリオで事前に整理しておくのが最短の対策です。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span><strong>2026年の変化:</strong> 生成AIの普及で自動採点テストだけでは実力を測りにくくなり、対話型のライブ評価を重視する企業が増えています。AIツールの扱いは企業ごとに異なるため、<strong>面接前のルール確認が必須</strong>です。</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* 目次 */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 技術面接の種類と流れ</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. コーディングテストの対策</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. システム設計面接の対策</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 技術質問・経験深掘りの対策</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. ポートフォリオの活用法</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 面接当日のポイント</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. よく出る技術質問30選</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 女性エンジニア特有の質問への対処</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. おすすめ対策リソース</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 技術面接の位置づけ：コーディングテストとの違い</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 技術面接の4形式と評価観点【一覧表】</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 評価されるのは「正解」より思考プロセス</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 経験者向け：プロジェクト深掘りに備えるSTAR整理</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 未経験・経験が浅い人向け：学習過程とポートフォリオで戦う</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. ライブコーディング・設計面接の練習方法</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 当日の立ち回りとやりがちなNG</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* 技術面接の種類 */}
+      {/* sec1 位置づけ */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">技術面接の種類と流れ</h2>
+          <h2 className="text-2xl font-bold mb-6">技術面接の位置づけ：コーディングテストとの違い</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              エンジニアの転職面接では、一般的な面接に加えて技術的な評価が行われます。企業によって形式は異なりますが、主に以下の3つの種類があります。選考プロセスを理解し、それぞれに対応した準備を行うことが重要です。
+              エンジニア転職の選考は、おおむね「書類選考 → コーディングテスト（オンライン・自動採点） → 技術面接（1〜2回） → 最終面接」という流れで進みます。このうち<strong>技術面接</strong>は、現場のエンジニアが面接官となり、対話しながら技術力と働き方を確かめる選考です。一人で受けて自動採点される<a href="/articles/coding-test/" className="underline" style={{ color: "#0891b2" }}>コーディングテスト</a>とは、見られているものが根本的に違います。
             </p>
             <p>
-              一般的なエンジニア転職の選考フローは、書類選考 → コーディングテスト（オンライン） → 技術面接（1〜2回） → 最終面接（役員・人事）という流れです。Web系企業やメガベンチャーほど技術面接の比重が高い傾向があります。
+              コーディングテストが「制限時間内に正しく動くコードを書けたか」という<strong>結果</strong>を測るのに対し、技術面接は「どう考えてその解にたどり着くか」「分からないとき・詰まったときにどう振る舞うか」「技術的な判断を言葉で説明できるか」という<strong>過程と対話</strong>を見ます。採用側にとって技術面接は、入社後に一緒に働く場面のシミュレーションです。設計の議論ができるか、コードレビューでのやり取りが成立するか、を面接という形で確かめています。
             </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-3 mt-6">
-            {[
-              { title: "コーディングテスト", desc: "アルゴリズム・データ構造の問題をオンラインで解答します。制限時間内にコードを書き、テストケースを通過させる形式が一般的です。HackerRank・Codility・自社開発の問題を使用する企業が多いです。", color: "#0891b2" },
-              { title: "システム設計面接", desc: "大規模システムのアーキテクチャを設計する面接です。面接官とディスカッションしながら、要件の整理から設計の詳細化まで行います。主にシニアレベル以上で実施されます。", color: "#7c3aed" },
-              { title: "技術質問・経験深掘り", desc: "過去のプロジェクト経験や技術的な意思決定について深掘りされます。使用技術の選定理由、直面した課題とその解決方法、チームでの役割などが聞かれます。", color: "#f97066" },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-3" style={{ color: item.color }}>{item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
+            <p>
+              2026年の特徴として、テストと面接の境界が薄れつつあります。技術面接サービスのHireRooは、コーディングテストで候補者が提出したコードや設計書を解析し、面接で深掘りすべき質問と模範解答を自動生成する「スキル面接」機能を2025年3月にリリースしました（出典: 株式会社ハイヤールー プレスリリース、2025年3月11日）。つまり<strong>テストで書いたコードが、そのまま面接の質問材料になる</strong>運用が広がっています。テストを「通過したら終わり」と考えず、自分の提出コードの設計判断を説明できる状態で面接に臨むことが、2026年の標準的な備えです。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* コーディングテスト対策 */}
+      {/* sec2 4形式と評価観点 */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">コーディングテストの対策</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">技術面接の4形式と評価観点【一覧表】</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              コーディングテストは多くのIT企業で実施されており、特にWeb系企業やメガベンチャーでは重要な選考ステップです。アルゴリズムとデータ構造の基礎知識が問われるため、計画的な準備が必要です。
+              技術面接の形式は企業によって異なりますが、大きく次の4つに整理できます。どの形式が来るかは選考案内や転職エージェント経由で事前に確認できることが多いので、志望企業の形式に合わせて準備の重心を変えましょう。
             </p>
           </div>
-          <div className="space-y-4 mt-6">
-            {[
-              { title: "基本データ構造の復習", desc: "配列・リスト・スタック・キュー・ハッシュマップ・ツリー・グラフなどの基本データ構造の特性と操作を理解しましょう。各データ構造の計算量（O記法）も押さえておくことが重要です。特にハッシュマップとツリーは頻出です。" },
-              { title: "主要アルゴリズムの習得", desc: "ソート（クイックソート・マージソート）、探索（二分探索・BFS・DFS）、動的計画法、貪欲法、スライディングウィンドウなどの定番アルゴリズムを実装できるようにしましょう。解法パターンを覚えることで、初見の問題にも対応しやすくなります。" },
-              { title: "練習問題を毎日解く", desc: "LeetCode・AtCoder・HackerRankで毎日1〜2問ずつ練習しましょう。最初はEasyレベルから始め、慣れてきたらMediumに進みます。2週間で30〜50問解けば、基本的なパターンをカバーできます。" },
-              { title: "時間を計って解く練習", desc: "本番では制限時間があるため、時間を意識した練習が重要です。Easy問題は15〜20分、Medium問題は30〜40分を目安に解く練習をしましょう。解けなかった問題は解説を読んで理解し、翌日に再挑戦します。" },
-              { title: "コードの品質にも注意", desc: "正解を出すだけでなく、変数名の命名・コードの読みやすさ・エッジケースの処理なども評価されます。コメントで思考プロセスを示すことも有効です。実務で書くコードと同じ品質を意識しましょう。" },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>{i + 1}. {item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>形式</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>内容</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な評価観点</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr className="bg-white">
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ライブコーディング</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>面接官の前で（オンラインなら共有エディタで）リアルタイムにコードを書く。アルゴリズム問題や小さな実装課題が題材。HireRooのライブコーディング機能はビデオ・チャット・リアルタイム編集エディタを備え、解答過程を記録して後から再生できる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>思考の言語化、制約確認の質問力、詰まったときのリカバリー、コードの読みやすさ</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>システム設計</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「URL短縮サービスを設計して」のようなお題で、要件整理→全体構成→詳細化→スケール戦略を面接官と議論。作図ツールやホワイトボードで構成図を描きながら進む。主にミドル〜シニア層対象</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>要件を質問で具体化する力、非機能要件（可用性・整合性・スケーラビリティ）への目配り、トレードオフの説明</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>技術知識・経験の深掘り</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>職務経歴書やポートフォリオをもとに「なぜその技術を選んだのか」「障害時にどう対応したか」を掘り下げる質疑。レベルを問わず最も広く行われる形式</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術選定の判断根拠、課題解決の再現性、失敗からの学習、経歴の一貫性</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ペアプログラミング／ホワイトボード</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>面接官とペアになって実務に近い課題を一緒に進める形式や、対面でホワイトボードに擬似コード・図を書きながら解く形式。実際の開発風景に最も近い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>協働のしやすさ、フィードバックの受け止め方、抽象化・図解の力、コミュニケーションの自然さ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-light mt-3 leading-relaxed">
+            出典: HireRoo公式サイト・ヘルプセンター（ライブコーディング機能・出題形式、2026年6月参照）、CodeZine「エンジニア採用のためのコーディング試験サービス『HireRoo』、ライブコーディング機能を大幅アップデート」（2023年3月22日）
+          </p>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2026年の潮流：対話型評価への回帰</h3>
+            <p className="text-sm text-text-light leading-relaxed">
+              生成AIの普及で、自宅受験の自動採点テストだけでは「本人の実力」を測りにくくなりました。その結果、<strong>面接官が同席するライブ形式の比重が上がっています</strong>。対応は二極化しており、HireRooのようにAIツールの利用を前提に「AIと協働して解く力」ごと評価する流れと、AIを遮断してその場の思考力を見るライブ・対面形式を強化する流れの両方があります（出典: HireRoo公式サイト、2026年6月参照。コーディングテスト側のAI利用ルールは<a href="/articles/coding-test/" className="underline" style={{ color: "#7c3aed" }}>コーディングテスト対策ガイド</a>参照）。どちらの企業に当たっても困らないよう、「AIなしで考え切る練習」と「AIに的確な指示を出し出力を検証する練習」の両方をしておくのが安全です。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* システム設計面接 */}
+      {/* sec3 思考プロセス */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">システム設計面接の対策</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">評価されるのは「正解」より思考プロセス</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              システム設計面接は、主にシニアエンジニアやテックリード候補に対して実施されます。正解が一つではない問題に対して、面接官とディスカッションしながら設計を進めるプロセスが評価されます。
+              技術面接で最も多い誤解が「完答できなければ落ちる」というものです。実際には、面接官は<strong>一緒に働いたときの姿</strong>を見ています。実務では初見で正解が分かる問題のほうが珍しく、「分からない状態からどう前進するか」こそが日常です。だからこそ、詰まった場面はマイナスではなく、立ち回り次第で<strong>最大のアピール機会</strong>になります。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>システム設計面接の進め方</h3>
+          <div className="space-y-4">
+            {[
+              { name: "1. 考えていることを声に出す（最重要）", desc: "「まず全探索なら確実に解けます。ただ計算量がO(N²)なので、Nが大きいと厳しい。ソートして二分探索に置き換えられないか考えます」——このように思考を実況するだけで、面接官はあなたの頭の中を評価できます。黙って3分悩むのと、声に出して3分悩むのとでは、得られる評価がまったく違います。沈黙が続くと面接官は助け舟すら出せません。", color: "#0891b2" },
+              { name: "2. 書き始める前に制約を確認する", desc: "「入力の最大サイズはどのくらいですか」「重複や空入力は考慮すべきですか」「実行速度と読みやすさ、どちらを優先しますか」。要件を質問で具体化する行動は、実務の要件定義そのものとして高く評価されます。逆に、思い込みで書き始めて後から仕様違いに気づくのは典型的な減点パターンです。", color: "#7c3aed" },
+              { name: "3. トレードオフに言及する", desc: "「ハッシュマップを使えば検索はO(1)になりますが、メモリを余分に使います。今回はデータ量が小さいのでこちらを選びます」。技術に万能の正解はなく、選択には必ず代償があります。メリットだけでなく「何を捨てたか」を言える人は、設計を任せられる人として一段上の評価を受けます。これはライブコーディングでも設計面接でも経験の深掘りでも共通する、技術面接全体の採点軸です。", color: "#0891b2" },
+              { name: "4. 詰まったら「現在地」を宣言してから動く", desc: "「いま、この条件分岐の整理で詰まっています。具体例を2つ書いて確かめます」と現在地を言葉にすると、自分の思考も整理され、面接官もヒントを出しやすくなります。面接官のヒントを素直に受け取って軌道修正できるかどうかも評価対象です。ヒントをもらうこと自体は減点ではありません。実務でレビュー指摘を受け入れられるかを見ています。", color: "#f97066" },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: item.color }}>{item.name}</h3>
+                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong>補足:</strong> 解答過程そのものが採点対象になる傾向は、ツール側の進化からも裏づけられます。HireRooのライブコーディング機能は解答過程を記録し、面接官が後からプレイバックして評価項目に沿って振り返れる仕組みを備えています（出典: CodeZine、2023年3月22日）。「最後に動いたコード」だけでなく「そこに至る道筋」が記録され、評価される時代です。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* sec4 経験者向け */}
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">経験者向け：プロジェクト深掘りに備えるSTAR整理</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              実務経験者の技術面接で最も時間を割かれるのが、過去プロジェクトの深掘りです。「経歴書に書いてあることを話せばいい」と油断すると、「なぜ？」を3回重ねられたところで言葉に詰まります。面接官は経歴の事実ではなく、<strong>あなた自身の判断と貢献がどこにあったか</strong>を知りたいからです。主要プロジェクト2〜3本を、STAR法で事前に分解しておきましょう。
+            </p>
+          </div>
+          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>STAR法によるプロジェクト整理テンプレート</h3>
             <div className="space-y-4">
               {[
-                { step: "1. 要件の明確化（5分）", desc: "機能要件・非機能要件を面接官に質問して確認します。ユーザー数・リクエスト数・データ量などの規模感を把握しましょう。" },
-                { step: "2. 概要設計（10分）", desc: "全体のアーキテクチャを描きます。クライアント・API・データベース・キャッシュなどのコンポーネントを配置し、データの流れを示します。" },
-                { step: "3. 詳細設計（15分）", desc: "各コンポーネントの詳細を議論します。APIエンドポイント設計・データベーススキーマ・キャッシュ戦略などを具体的に説明します。" },
-                { step: "4. スケーラビリティ（10分）", desc: "ユーザー数の増加にどう対応するかを議論します。水平スケーリング・ロードバランシング・データベースシャーディングなどの戦略を提案します。" },
+                { step: "S（Situation）状況", desc: "どんなサービス・チーム規模・技術スタックだったか。「BtoB SaaSの管理画面、エンジニア5名、React+Rails」のように30秒で説明できる粒度に圧縮します。" },
+                { step: "T（Task）課題と自分の役割", desc: "何が問題で、自分は何を任されたか。「一覧画面の表示に10秒かかりユーザーから改善要望が多発。パフォーマンス改善を担当」のように、課題は可能なら数値で語ります。" },
+                { step: "A（Action）自分の行動と判断", desc: "深掘りの本丸。「何をしたか」だけでなく「他にどんな選択肢があり、なぜそれを選んだか」まで用意します。「キャッシュ導入も検討したが、データ更新頻度が高く不整合リスクがあるため、まずN+1クエリの解消とインデックス追加を選んだ」のように、捨てた選択肢とその理由がセットで語れると強いです。" },
+                { step: "R（Result）結果と学び", desc: "結果は数値で（表示時間10秒→1.5秒、エラー率など）。うまくいかなかった場合も「この経験から、計測してから最適化する習慣がついた」のように学びで締めれば十分評価されます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
-                  <span className="inline-block rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold text-white flex-shrink-0 mt-1" style={{ backgroundColor: "#0891b2" }}>{i + 1}</span>
+                  <span className="rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold text-white flex-shrink-0 mt-1" style={{ backgroundColor: "#7c3aed" }}>{i + 1}</span>
                   <div>
                     <h4 className="font-bold text-sm">{item.step}</h4>
                     <p className="text-sm text-text-light">{item.desc}</p>
@@ -209,207 +285,130 @@ export default function TechnicalInterviewPage() {
               ))}
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3aed" }}>よく出るシステム設計のテーマ</h3>
-            <div className="grid gap-3 md:grid-cols-2">
-              {[
-                "URL短縮サービス（TinyURL）",
-                "チャットアプリ（Slack風）",
-                "SNSのタイムライン設計",
-                "ECサイトの注文システム",
-                "動画配信プラットフォーム",
-                "検索エンジンの設計",
-                "通知システムの設計",
-                "ファイルストレージサービス",
-              ].map((topic, i) => (
-                <div key={i} className="flex items-center gap-2 text-sm text-text-light">
-                  <span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span>
-                  <span>{topic}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 技術質問対策 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">技術質問・経験深掘りの対策</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              技術面接では、過去のプロジェクト経験を深掘りされることが多いです。STAR法（Situation・Task・Action・Result）を使って、具体的かつ論理的に説明する準備をしましょう。
-            </p>
-          </div>
-          <div className="space-y-4 mt-6">
-            {[
-              { title: "プロジェクト経験の整理", desc: "過去2〜3年の主要プロジェクトについて、使用技術・自分の役割・チーム規模・成果を整理します。技術的な課題とその解決方法は特に詳しく話せるように準備しましょう。「なぜその技術を選んだのか」「他の選択肢との比較」なども聞かれます。" },
-              { title: "技術的な意思決定の説明", desc: "アーキテクチャの選定理由、パフォーマンス改善の手法、技術的負債の解消方法など、技術的な意思決定について論理的に説明できるようにします。トレードオフを理解し、メリット・デメリットを客観的に述べることが重要です。" },
-              { title: "失敗経験の共有", desc: "技術的な失敗やトラブル対応の経験も聞かれます。重要なのは失敗自体ではなく、そこから何を学び、どう改善したかです。インシデント対応や障害復旧の経験は、責任感と問題解決力のアピールになります。" },
-              { title: "チーム開発での役割", desc: "コードレビューの取り組み、後輩の指導、チーム内での技術的なリーダーシップなど、個人の技術力だけでなくチームへの貢献もアピールポイントになります。特にシニアポジションでは重視されます。" },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>{item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ポートフォリオ */}
-      <section id="sec5" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">ポートフォリオの活用法</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              ポートフォリオは技術面接で大きなアドバンテージとなります。GitHubリポジトリや個人プロジェクトを通じて、コードの品質や技術的な判断力を事前にアピールできます。
-            </p>
-          </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>効果的なポートフォリオの要素</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>実際に動作するWebアプリケーション（デプロイ済み）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>きれいなREADME（概要・技術選定理由・アーキテクチャ図）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>テストコードの充実（ユニットテスト・E2Eテスト）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>CI/CDパイプラインの構築（GitHub Actions等）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>技術ブログでの情報発信</span></li>
-            </ul>
-          </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              ポートフォリオは完璧なものを作る必要はありません。大切なのは、技術に対する情熱と学習意欲を示すことです。小さなアプリケーションでも、テストやドキュメントがしっかりしていれば高く評価されます。
+              深掘りで頻出の追撃質問は「なぜその技術を選んだのか」「他の選択肢は検討したか」「もう一度やるなら何を変えるか」「チームの反対はなかったか」の4つです。STARのA（Action）を厚めに準備しておけば、どの追撃にも同じ素材で答えられます。失敗談・障害対応の経験はむしろ強力な持ち札です。隠さず、対応プロセスと再発防止まで語れるように整理しておきましょう。
             </p>
             <p>
-              面接時にはポートフォリオの技術選定理由やアーキテクチャについて説明を求められることがあります。なぜその技術を選んだのか、どんな課題をどう解決したのかを説明できるようにしておきましょう。
+              なお、技術面接の終盤には逆質問の時間がほぼ必ずあります。「技術的な関心の深さ」を示す最後のチャンスなので、<a href="/articles/reverse-questions/" className="underline" style={{ color: "#0891b2" }}>逆質問の準備ガイド</a>で開発体制・技術選定・レビュー文化について聞く質問を用意しておきましょう。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 面接当日のポイント */}
+      {/* sec5 未経験・浅い経験向け */}
+      <section id="sec5" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">未経験・経験が浅い人向け：学習過程とポートフォリオで戦う</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              実務経験がない・浅い場合、深掘りの対象はポートフォリオと学習過程になります。ここで差がつくのは作品の完成度そのものより、<strong>「自分で考えて作った」ことを自分の言葉で説明できるか</strong>です。生成AIで見栄えの良い作品を作れる時代だからこそ、面接官は「この人は中身を理解しているか」を対話で確かめにきます。
+            </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              { title: "ポートフォリオの全行に責任を持つ", desc: "面接官は「この処理はなぜこう書いたのですか」とピンポイントで聞いてきます。AIや教材のコードを写した部分が残っているなら、最低限「何をしているか」を説明できる状態にしておくこと。説明できない箇所が見つかると、ポートフォリオ全体の信頼が崩れます。AIを使ったなら使ったと正直に言い、「AIの出力のここが間違っていたので直した」と語れるほうが、2026年の面接ではむしろ評価されます。" },
+              { title: "「なぜ」を3階層で用意する", desc: "なぜこのテーマか（課題意識）、なぜこの技術構成か（選定理由）、なぜこの設計か（実装判断）。この3階層の「なぜ」に答えられれば、ジュニア層の技術面接の深掘りはほぼカバーできます。作品の構成図を1枚描いておくと、設計質問にもそのまま使えます。" },
+              { title: "学習過程を「再現性のある物語」として語る", desc: "「3ヶ月で◯◯を作れるようになった人は、入社後も同じ速度で吸収する」と面接官に思わせるのがゴールです。何から始め、どこで詰まり、どう調べて解決したか。エラーとの格闘の具体例を1つ話せるだけで、学習の解像度が伝わります。学習記録（ブログ・GitHubの草・学習ログ）は客観的な裏づけになります。" },
+              { title: "客観指標で土台を補強する", desc: "経歴で語れない分、コーディングテストのスコアが効きます。paizaスキルチェックのBランク（上位30%・実務スキル相当）を取っておけば、基礎実装力の客観的な証明になり、面接でも「Bランク相当の実装力がある前提」で話が進みます（出典: paiza公式サイト、2026年6月参照）。取得までの道筋は別記事で解説しています。" },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>{i + 1}. {item.title}</h3>
+                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-text-light text-sm leading-relaxed mt-6">
+            ポートフォリオの作り方（README・テスト・デプロイまで含めた仕上げ方）は<a href="/articles/portfolio/" className="underline" style={{ color: "#0891b2" }}>ポートフォリオ作成ガイド</a>、paizaランクの上げ方を含むテスト対策は<a href="/articles/coding-test/" className="underline" style={{ color: "#0891b2" }}>コーディングテスト対策ガイド</a>を参照してください。
+          </p>
+        </div>
+      </section>
+
+      {/* sec6 練習方法 */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">面接当日のポイント</h2>
-          <div className="space-y-4 mt-4">
-            {[
-              { title: "思考プロセスを声に出す", desc: "コーディングテストや設計面接では、考えていることを声に出して説明しましょう。正解にたどり着けなくても、思考プロセスが評価されます。「まずは愚直な解法を考えます」「計算量を改善するために...」など、思考の流れを共有することが大切です。" },
-              { title: "分からないことは正直に伝える", desc: "知らない技術について質問された場合、知ったかぶりをするのではなく、正直に伝えた上で「類似の技術では〇〇の経験があります」と関連知識をアピールしましょう。学習意欲や正直さも評価ポイントです。" },
-              { title: "質問を恐れない", desc: "技術面接では面接官に質問することが推奨されています。要件の確認・制約条件の確認・エッジケースの確認など、適切な質問ができることは実務能力の証明になります。「この問題の入力範囲は？」「データの更新頻度は？」など具体的に質問しましょう。" },
-              { title: "テスト環境の事前確認", desc: "オンライン面接の場合は、事前にカメラ・マイク・ネットワークの動作を確認しましょう。コーディング環境（IDE・エディタ）も事前に確認し、使い慣れた設定で臨めるようにしておきます。" },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>{item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* よく出る技術質問 */}
-      <section id="sec7" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">よく出る技術質問30選</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>技術面接でよく聞かれる質問を分野別にまとめました。回答の方向性を準備しておくと、面接で落ち着いて答えられます。</p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            {[
-              { category: "プログラミング基礎", questions: ["オブジェクト指向の3つの特徴は？", "RESTful APIの設計原則は？", "SQLのJOINの種類と違いは？", "デザインパターンで使ったことのあるものは？", "非同期処理の実装方法は？"] },
-              { category: "Web技術", questions: ["HTTPメソッドの種類と使い分けは？", "認証・認可の違いは？", "CORSとは何か説明してください", "キャッシュの戦略について", "WebSocketとHTTPの違いは？"] },
-              { category: "インフラ・DevOps", questions: ["コンテナとVMの違いは？", "CI/CDの構築経験を教えてください", "ロードバランサーの種類は？", "データベースのインデックスの仕組みは？", "マイクロサービスのメリットとデメリットは？"] },
-              { category: "経験・キャリア", questions: ["最も技術的に難しかったプロジェクトは？", "コードレビューで重視するポイントは？", "技術選定の際に重視する基準は？", "パフォーマンス改善の経験を教えてください", "今後学びたい技術は何ですか？"] },
-              { category: "設計・アーキテクチャ", questions: ["モノリスとマイクロサービスの判断基準は？", "データベースの正規化について", "スケーラビリティの確保方法は？", "障害対策・リカバリーの設計は？", "テスト戦略の考え方は？"] },
-              { category: "チーム・プロセス", questions: ["アジャイル開発の実践経験は？", "チーム内の技術的な意見対立の解消法は？", "技術的負債への取り組み方は？", "後輩の育成やメンタリング経験は？", "リモートでのチーム開発の工夫は？"] },
-            ].map((group, i) => (
-              <div key={i} className="rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-base font-bold mb-3" style={{ color: "#0891b2" }}>{group.category}</h3>
-                <ul className="space-y-2 text-sm text-text-light">
-                  {group.questions.map((q, j) => (
-                    <li key={j} className="flex items-start gap-2">
-                      <span className="font-bold" style={{ color: "#7c3aed" }}>{i * 5 + j + 1}.</span>
-                      <span>{q}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 女性特有の質問 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">女性エンジニア特有の質問への対処</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">ライブコーディング・設計面接の練習方法</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              技術面接の内容自体に性別による差はありませんが、キャリアに関する質問では女性エンジニアならではの視点で答える場面があるかもしれません。以下のポイントを押さえておきましょう。
+              ライブコーディングの練習で重要なのは、問題を解く練習（インプット）と<strong>「人前で声に出しながら解く」練習（アウトプット）を分けて積む</strong>ことです。一人で黙々と解けるのに本番で固まる人は、後者の練習が足りていないだけです。
             </p>
           </div>
-          <div className="space-y-4 mt-6">
-            {[
-              { title: "キャリアプランについて", desc: "「今後のキャリアプランは？」と聞かれた際に、技術的な成長目標を中心に話しましょう。ライフイベント（結婚・出産等）について聞かれた場合は、企業の制度を確認する良い機会と捉え、率直にコミュニケーションを取ることをおすすめします。" },
-              { title: "働き方の希望について", desc: "リモートワークや時短勤務の希望がある場合は、面接の場で確認しても問題ありません。ただし、転職エージェントを通じて事前に企業の制度を確認しておくことで、面接では技術的な話題に集中できます。" },
-              { title: "ロールモデルとしての期待", desc: "女性エンジニアとしてのロールモデルや、ダイバーシティへの考え方について聞かれることがあります。自分の経験や価値観を素直に伝えれば問題ありません。チームの多様性がプロダクトの品質向上に繋がるという視点は好印象です。" },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>{item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
+          <div className="space-y-4">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3">
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>Step 1</span>
+                <h3 className="text-lg font-bold">解く力の土台づくり</h3>
               </div>
-            ))}
+              <p className="text-sm text-text-light leading-relaxed">
+                AtCoder Beginner Contest（ABC）のA〜C問題やLeetCodeのEasy〜Medium、paizaスキルチェックの練習問題を毎日1〜2問。ライブコーディングの題材はコーディングテストと重なるため、この土台は共通です。詳しい難易度の目安とロードマップは<a href="/articles/coding-test/" className="underline" style={{ color: "#0891b2" }}>コーディングテスト対策ガイド</a>に譲ります。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3">
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>Step 2</span>
+                <h3 className="text-lg font-bold">「声に出して解く」を習慣化する</h3>
+              </div>
+              <p className="text-sm text-text-light leading-relaxed">
+                普段の練習の最後の1問を「実況モード」に切り替えます。制約確認→方針宣言→実装→テストの流れを、独り言でいいので必ず声に出す。スマホで録画して聞き返すと、沈黙の長さや説明の飛びが客観視できます。これだけで本番の振る舞いが大きく変わります。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div className="flex items-center gap-3 mb-3">
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>Step 3</span>
+                <h3 className="text-lg font-bold">対人の模擬面接で仕上げる</h3>
+              </div>
+              <p className="text-sm text-text-light leading-relaxed">
+                最も手軽なのは<strong>IT特化型転職エージェントの模擬面接</strong>です。志望企業の面接形式・過去の質問傾向を踏まえた練習ができ、無料です。エンジニアの友人・同僚に面接官役を頼むのも有効です。英語に抵抗がなければ、海外のピア模擬面接サービスPramp（2024年7月以降はExponentのプラットフォームに統合され、無料のピア面接を継続提供）でライブコーディングの実戦経験を積めます（出典: Exponent公式サイト、2026年6月参照）。
+              </p>
+            </div>
+          </div>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>システム設計面接の学習リソース（ミドル〜シニア向け）</h3>
+            <p className="text-sm text-text-light leading-relaxed mb-3">
+              設計面接が予告されている場合は、定番の学習リソースで「進め方の型」を身につけるのが近道です。型とは、要件の明確化→概算見積もり→全体構成→詳細化→スケール戦略、という議論の順序のことです。
+            </p>
+            <ul className="text-sm text-text-light space-y-2">
+              <li>・書籍『システム設計の面接試験』（Alex Xu著、ソシム）— URL短縮・チャット・ニュースフィードなど頻出お題の設計プロセスを解説した定番書の日本語版</li>
+              <li>・書籍『世界で闘うプログラミング力を鍛える本』（マイナビ出版）— コーディング面接全般の古典。アルゴリズム面接の質問例が豊富</li>
+              <li>・The System Design Primer（GitHubで公開されている無料の英語教材）— 設計面接の頻出トピックを体系的にカバー</li>
+            </ul>
+            <p className="text-sm text-text-light leading-relaxed mt-3">
+              読むだけでなく、頻出お題（URL短縮サービス・チャットアプリ・通知システムなど）について、自分で紙に構成図を描いて15分話す練習をすると定着します。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* おすすめリソース */}
-      <section id="sec9" className="py-10">
+      {/* sec7 当日の立ち回り */}
+      <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">おすすめ対策リソース</h2>
-          <div className="grid gap-6 md:grid-cols-2 mt-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>コーディング練習</h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li>- LeetCode（アルゴリズム練習の定番）</li>
-                <li>- AtCoder（日本語対応の競技プログラミング）</li>
-                <li>- HackerRank（多言語対応の練習サイト）</li>
-                <li>- Codility（実際の選考でも使われる）</li>
-              </ul>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>システム設計</h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li>- 「System Design Interview」書籍</li>
-                <li>- Grokking the System Design Interview</li>
-                <li>- System Design Primer（GitHub）</li>
-                <li>- 技術ブログの事例記事</li>
-              </ul>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>書籍</h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li>- 「世界で闘うプログラミング力を鍛える本」</li>
-                <li>- 「アルゴリズム実技検定 公式テキスト」</li>
-                <li>- 「Web技術の基本」</li>
-                <li>- 「達人に学ぶDB設計」</li>
-              </ul>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#10b981" }}>模擬面接</h3>
-              <ul className="text-sm text-text-light space-y-2">
-                <li>- 転職エージェントの面接対策</li>
-                <li>- Pramp（ペア模擬面接サービス）</li>
-                <li>- エンジニア勉強会での練習</li>
-                <li>- 同僚・友人との模擬面接</li>
-              </ul>
-            </div>
+          <h2 className="text-2xl font-bold mb-6">当日の立ち回りとやりがちなNG</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>実力どおりの評価を受けられない原因の多くは、技術力ではなく当日の振る舞いにあります。頻出のNGパターンを知っておけば、それだけで回避できます。</p>
           </div>
+          <div className="space-y-4">
+            {[
+              { title: "黙り込む・考え込みすぎる", desc: "技術面接最大のNG。沈黙が1分続いたら、現在地の宣言（「◯◯の整理で悩んでいます」）か質問に切り替えましょう。面接官はあなたの思考が見えないと評価のしようがありません。" },
+              { title: "知ったかぶり", desc: "面接官は現場エンジニアです。曖昧な理解で専門用語を使うと、追撃質問で必ず露呈し、正直さへの信頼まで失います。「使ったことはありませんが、概念としては◯◯と理解しています」が正解です。" },
+              { title: "仕様を確認せずに書き始める", desc: "出題直後にいきなりコードを書き出すのは、要件を聞かずに実装する人という印象を与えます。最初の1〜2分は制約・入出力・優先事項の確認に使いましょう。確認の質問は減点ではなく加点です。" },
+              { title: "面接官のヒントを無視する", desc: "面接官が「◯◯の場合はどうなりますか？」と聞くのは、多くの場合バグや考慮漏れへの誘導です。自分の方針に固執せず、いったん立ち止まって検討する柔軟さを見せましょう。協働できるかの試金石です。" },
+              { title: "AI・検索のルールを確認しない", desc: "オンライン面接で許可なくAI補完や検索を使うのは不正と受け取られかねません。案内に明記がなければ冒頭に確認を。逆にAI利用前提の面接なら、堂々と使いつつ出力の検証過程を声に出すことが評価につながります。" },
+              { title: "環境トラブルで時間を溶かす", desc: "オンラインの場合、カメラ・マイク・画面共有・指定エディタの動作は前日までに確認。使い慣れたエディタ設定とブラウザで臨み、当日は静かな環境と安定した回線を確保しましょう。" },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>{i + 1}. {item.title}</h3>
+                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-text-light text-sm leading-relaxed mt-6">
+            技術面接の前後には、人事面接やカジュアル面談など別種の面接も挟まります。選考フロー全体の流れと各ステップの位置づけは<a href="/articles/interview-guide/" className="underline" style={{ color: "#0891b2" }}>エンジニア面接ガイド</a>で確認しておきましょう。面接後は、聞かれた質問・自分の回答・解けなかった問題をすぐ記録しておくと、二次面接や他社選考にそのまま活きます。
+          </p>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
@@ -428,82 +427,41 @@ export default function TechnicalInterviewPage() {
         </div>
       </section>
 
-      {/* 面接後のフォローアップ */}
+      {/* 出典 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">面接後のフォローアップ</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              技術面接が終わった後のフォローアップも重要です。以下のポイントを押さえることで、合格率を高めることができます。
-            </p>
-          </div>
-          <div className="space-y-4 mt-6">
-            {[
-              { title: "面接の振り返りを記録する", desc: "面接終了後すぐに、聞かれた質問・自分の回答・手応えを記録しましょう。次の面接に活かせるだけでなく、同じ企業の二次面接に向けた準備にもなります。解けなかった問題は後で復習し、解法を身につけておきましょう。" },
-              { title: "エージェントへのフィードバック共有", desc: "面接の内容や雰囲気をエージェントに報告することで、次回以降の面接対策がより精度の高いものになります。企業側のフィードバックもエージェント経由で確認でき、改善ポイントが明確になります。" },
-              { title: "技術課題のフォローアップ", desc: "面接で出された課題に対して追加で調べたことや、より良い解法を思いついた場合は、エージェント経由で企業に伝えてもらうことも可能です。技術への探究心をアピールできます。" },
-              { title: "複数企業の選考を並行して進める", desc: "1社に絞らず、2〜3社の選考を並行して進めることで、内定時の条件交渉で有利になります。面接経験を積むことで実力も向上するため、第一志望以外の企業も積極的に受けましょう。" },
-            ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>{item.title}</h3>
-                <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
+          <h2 className="text-2xl font-bold mb-6">出典・参考</h2>
+          <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+            <li>・出典: HireRoo公式サイト・ヘルプセンター（2026年6月参照）— ライブコーディング機能（ビデオ・チャット・リアルタイム編集エディタ・ドローイングツール）、アルゴリズム／システムデザイン形式の出題、AI協働を前提としたスキル評価</li>
+            <li>・出典: 株式会社ハイヤールー プレスリリース（PR TIMES、2025年3月11日）— 「スキル面接」機能リリース。候補者の提出コード・設計書を解析し、面接で深掘りすべき質問と模範解答を自動生成</li>
+            <li>・出典: CodeZine「エンジニア採用のためのコーディング試験サービス『HireRoo』、ライブコーディング機能を大幅アップデート」（2023年3月22日）— 解答過程の記録・プレイバック、面接中のリアルタイム評価記録</li>
+            <li>・出典: paiza「プログラミングスキルチェック」公式ページ（2026年6月参照）— Bランク=上位30%・実務スキル相当のランク定義</li>
+            <li>・出典: Exponent公式サイト（2026年6月参照）— ピア模擬面接サービスPrampは2024年7月以降Exponentのプラットフォームに統合され、無料のピア面接を継続提供</li>
+          </ul>
         </div>
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10">
+      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/coding-test/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>コーディングテスト対策</h3>
-              <p className="text-sm text-text-light">頻出問題と解き方ガイド</p>
+              <p className="text-sm text-text-light">技術面接の前段に多いWebテストの形式と対策ロードマップ</p>
             </a>
             <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ポートフォリオ作成ガイド</h3>
-              <p className="text-sm text-text-light">エンジニア転職に効くポートフォリオ</p>
-            </a>
-            <a href="/articles/resume-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職務経歴書の書き方</h3>
-              <p className="text-sm text-text-light">技術力をアピールする書き方</p>
+              <p className="text-sm text-text-light">深掘り質問に耐えるポートフォリオの作り方</p>
             </a>
             <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
               <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>面接ガイド</h3>
-              <p className="text-sm text-text-light">エンジニア面接の全体像</p>
+              <p className="text-sm text-text-light">エンジニア選考フローの全体像と各ステップの位置づけ</p>
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* まとめチェックリスト */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">技術面接準備チェックリスト</h2>
-          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-            <div className="space-y-3">
-              {[
-                "過去のプロジェクト経験を3つ以上整理した",
-                "各プロジェクトでの技術的な課題と解決方法を説明できる",
-                "使用技術の選定理由を論理的に述べられる",
-                "アルゴリズムとデータ構造の基礎を復習した",
-                "LeetCodeまたはAtCoderで20問以上解いた",
-                "システム設計の基本パターンを学習した",
-                "模擬面接を少なくとも1回は実施した",
-                "ポートフォリオを最新の状態に更新した",
-                "面接環境（カメラ・マイク・ネットワーク）を確認した",
-                "逆質問の準備をした（企業の技術スタック・チーム構成・開発文化等）",
-              ].map((item, i) => (
-                <div key={i} className="flex items-start gap-3 text-sm text-text-light">
-                  <span className="inline-flex items-center justify-center w-6 h-6 rounded border flex-shrink-0 mt-0.5" style={{ borderColor: "#d1dce5" }}>
-                    <span style={{ color: "#0891b2" }} className="font-bold text-xs">&#10003;</span>
-                  </span>
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
+            <a href="/articles/reverse-questions/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>逆質問の準備ガイド</h3>
+              <p className="text-sm text-text-light">技術面接の終盤で差がつく逆質問の組み立て方</p>
+            </a>
           </div>
         </div>
       </section>
