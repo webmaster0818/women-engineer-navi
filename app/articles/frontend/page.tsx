@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "フロントエンドエンジニア転職ガイド｜女性に人気の理由と求人",
+  title: "女性フロントエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   description:
-    "フロントエンドエンジニア転職ガイド。女性に人気の理由と求人女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+    "女性フロントエンドエンジニアの転職ガイド。平均年収446万円（20代378万〜40代655万）やReact・TypeScriptなど必要スキル、未経験からのロードマップ、AI時代の役割の変化、キャリアパスを出典付きの実データで解説。おすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/frontend/" },
   openGraph: {
-    title: "フロントエンドエンジニア転職ガイド｜女性に人気の理由と求人",
+    title: "女性フロントエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "フロントエンドエンジニア転職ガイド。女性に人気の理由と求人女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+      "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを実データで徹底解説。",
     url: "https://women-engineer.com/articles/frontend/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "フロントエンドエンジニア転職ガイド｜女性に人気の理由と求人",
+  headline: "女性フロントエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "フロントエンドエンジニア転職ガイド。女性に人気の理由と求人女性エンジニアの転職を成功させるための情報を徹底解説。おすすめの転職エージェントや成功事例も紹介します。",
+    "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを実データで解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/frontend/",
@@ -47,42 +47,42 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "フロントエンドエンジニア転職ガイドで最も重要なポイントは何ですか？",
+      name: "女性フロントエンドエンジニアの平均年収はいくらですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "最も重要なのは、自分のスキルと経験を客観的に評価し、市場価値に見合った転職先を選ぶことです。IT特化型の転職エージェントを活用することで、技術力を正当に評価した求人を紹介してもらえます。複数のエージェントに登録して比較検討するのがおすすめです。",
+        text: "フロントエンドエンジニア全体の平均年収は約446万円です（求人ボックス 給料ナビ、2026年6月参照）。年代別では20代で約378万円、30代で約559万円、40代で約655万円と、経験とともに着実に上がります。フリーランスではReact案件の平均月単価が77万円（レバテックフリーランス、2026年6月参照）で、年収換算800万円台も現実的です。性別による求人条件の差はなく、React・TypeScriptのスキルと実績がそのまま年収に反映される職種です。",
       },
     },
     {
       "@type": "Question",
-      name: "女性エンジニアならではの注意点はありますか？",
+      name: "未経験の女性でもフロントエンドエンジニアになれますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "産休育休制度の取得実績、リモートワークの運用実態、女性管理職の比率、時短勤務制度の詳細など、女性のキャリア継続に関わる情報を事前に確認することが重要です。エージェント経由なら、求人票には載らない企業のリアルな情報を入手できます。",
+        text: "可能です。HTML/CSS → JavaScript → React・TypeScript → ポートフォリオ作成という順序で、1日2〜3時間の学習なら半年〜1年が目安です。フロントエンドは書いたコードの結果がすぐ画面に表示されるため学習のフィードバックが速く、バックエンドに比べて最初の一歩を踏み出しやすいのが特徴です。Webデザイナーや事務職からの転身事例も多く、未経験可・ポテンシャル採用の求人も一定数あります。",
       },
     },
     {
       "@type": "Question",
-      name: "転職エージェントは無料で利用できますか？",
+      name: "フロントエンドの仕事はAIに奪われますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、転職エージェントの利用は完全無料です。エージェントは企業側から成功報酬を受け取るビジネスモデルのため、転職者には費用がかかりません。キャリア相談だけの利用も可能で、転職するか迷っている段階でも気軽に相談できます。",
+        text: "定型的なUI実装はAIによる自動化が進んでいますが、職種そのものがなくなる状況ではありません。実際、レバテックフリーランスのReact案件は6,500件超・平均月単価77万円（2026年6月参照）と需要は堅調です。一方で役割は「コードを書く人」から「要件を設計し、AIの生成物をレビューし、UX・アクセシビリティ・パフォーマンスまで品質を担保する人」へ移っており、設計力とAIツールを使いこなす力が今後の評価軸になります。",
       },
     },
     {
       "@type": "Question",
-      name: "転職活動にどのくらいの期間がかかりますか？",
+      name: "ReactとVue.jsのどちらを学ぶべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "エンジニアの転職活動は平均1〜3ヶ月です。準備期間を含めると2〜4ヶ月が目安です。ただし、希望条件の厳しさや市場状況によって変動します。在職中に転職活動を行い、焦らずに最適な転職先を見つけることをおすすめします。",
+        text: "迷ったらReact＋TypeScriptをおすすめします。レバテックフリーランスではReact案件6,598件・TypeScript案件6,303件（2026年6月参照）と求人ボリュームが大きく、転職市場での選択肢が最も広い組み合わせです。Vue.jsは学習しやすく国内の受託・自社開発でも使われていますが、求人数ではReactが優勢です。Reactを軸に、必要に応じてNext.jsやVueへ広げるのが効率的です。",
       },
     },
     {
       "@type": "Question",
-      name: "おすすめの転職エージェントはどこですか？",
+      name: "Webデザイナーからフロントエンドエンジニアに転身できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "IT特化型のレバテックキャリアとGeekly、女性特化型のtype女性の転職エージェントがおすすめです。IT特化型はエンジニアの技術力を正当に評価した求人を提案してくれ、女性特化型は産休育休やリモートワークなど女性のニーズに合った求人を紹介してくれます。2〜3社の併用がベストです。",
+        text: "転身しやすいルートのひとつです。Figmaなどのデザインツール経験、UI/UXへの感覚、HTML/CSSの知識はそのまま強みになり、JavaScript → React・TypeScriptを足せば実務レベルに到達できます。デザインとエンジニアリングの両方が分かる人材は「UXエンジニア」としても評価され、デザイナー出身であることがキャリアの差別化要因になります。デザインシステムの構築・運用ができる人材は特に重宝されます。",
       },
     },
   ],
@@ -103,9 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
-        }}
+        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -123,12 +121,28 @@ export default function ArticlePage() {
               職種別ガイド
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              フロントエンドエンジニア転職ガイド
+              女性フロントエンドエンジニア転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                女性に人気の理由と最新の求人動向
+                年収・必要スキル・未経験からの道のりを実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論</h2>
+            <ul className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li>・フロントエンドエンジニアの平均年収は<strong>約446万円</strong>。20代378万円 → 30代559万円 → 40代655万円と経験で着実に伸びる</li>
+              <li>・フリーランスのReact案件は<strong>平均月単価77万円</strong>（6,500件超）。スキル次第で年収800万円台が射程に入る</li>
+              <li>・学ぶべきは<strong>HTML/CSS/JavaScript → React・TypeScript → Next.js</strong>の順。React＋TypeScriptが2026年の事実上の標準</li>
+              <li>・成果が画面に見える職種なので学習を始めやすく、デザイナー経験も強みになる。未経験は半年〜1年の学習が目安</li>
+              <li>・AIで定型実装の自動化は進むが需要は堅調。役割は「設計・UX・品質を担保する人」へ高度化しており、早めの参入が有利</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -136,445 +150,266 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div
-            className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
-          >
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li>
-                <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
-                  1. フロントエンドエンジニアとは
-                </a>
-              </li>
-              <li>
-                <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
-                  2. 女性にフロントエンドが人気の理由
-                </a>
-              </li>
-              <li>
-                <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
-                  3. 必要なスキルと学習ロードマップ
-                </a>
-              </li>
-              <li>
-                <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
-                  4. フロントエンドの年収相場
-                </a>
-              </li>
-              <li>
-                <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
-                  5. フロントエンドの求人動向
-                </a>
-              </li>
-              <li>
-                <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
-                  6. 未経験からフロントエンドエンジニアになるには
-                </a>
-              </li>
-              <li>
-                <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
-                  7. フロントエンドのキャリアパス
-                </a>
-              </li>
-              <li>
-                <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
-                  8. おすすめ転職エージェント
-                </a>
-              </li>
-              <li>
-                <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
-                  9. 転職成功事例
-                </a>
-              </li>
-              <li>
-                <a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>
-                  10. よくある質問
-                </a>
-              </li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. フロントエンドエンジニアとは（仕事内容）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 女性がフロントエンドで活躍しやすい理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキル（レベル別ロードマップ）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. フロントエンドの年収相場（年代別・経験別）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 求人動向とAIコーディング時代の変化</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験から目指すロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. フロントエンドのキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* フロントエンドエンジニアとは */}
+      {/* sec1 とは */}
       <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">フロントエンドエンジニアとは</h2>
+          <h2 className="text-2xl font-bold mb-6">フロントエンドエンジニアとは（仕事内容）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              フロントエンドエンジニアとはについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              フロントエンドエンジニアは、WebサイトやWebアプリの「ユーザーが直接触れる部分」――画面のレイアウト、ボタンや入力フォームの動き、表示速度や使い心地を設計・実装する職種です。HTML/CSS/JavaScriptを土台に、現在はReactやTypeScriptといったモダンな技術で開発するのが主流です。
             </p>
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、フロントエンドエンジニアとはを考える上でも大きなプラス要因です。
+              具体的な業務は、(1)デザイナーが作成したFigmaなどのデザインをコードとして実装する、(2)ReactやNext.jsでUIコンポーネントを開発する、(3)APIを通じてバックエンドとデータをやり取りする画面側の処理を書く、(4)表示速度（Core Web Vitals）やアクセシビリティを改善する、(5)デザインシステムを整備してUIの品質を揃える、など。デザイナー・バックエンドエンジニアと連携しながら、サービスの「顔」を作ります。
             </p>
             <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
+              サーバーやデータベースを担当する<a href="/articles/backend/" className="underline" style={{ color: "#0891b2" }}>バックエンドエンジニア</a>が「データの正確さ・処理の安全性」を支えるのに対し、フロントエンドは「ユーザー体験そのもの」を担当します。自分の書いたコードの結果がすぐ画面に表示されるため、成果が目に見えやすく、学習のフィードバックが速いのが大きな特徴です。
             </p>
-            <p>
-              ここでは、フロントエンドエンジニアとはに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>フロントエンドの主な担当領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>フロントエンドエンジニアとはに関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>UI実装（HTML / CSS / JavaScript / TypeScript）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>フレームワークでのコンポーネント開発（React / Next.js / Vue.js）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>API連携・状態管理（REST / GraphQL、データ取得と画面反映）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>パフォーマンス改善（表示速度・Core Web Vitals）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>アクセシビリティ・レスポンシブ対応</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>デザイナーとの連携・デザインシステム整備（Figma）</span></li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 女性にフロントエンドが人気の理由 */}
+      {/* sec2 女性が活躍しやすい理由 */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">女性にフロントエンドが人気の理由</h2>
+          <h2 className="text-2xl font-bold mb-6">女性がフロントエンドで活躍しやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              女性にフロントエンドが人気の理由について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、女性にフロントエンドが人気の理由を考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、女性にフロントエンドが人気の理由に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+              IT人材の女性比率はまだ2割程度とされますが、フロントエンドはエンジニア職の中でも女性の参入・活躍が目立つ領域です。理由は「向き不向きが性別で決まる」からではなく、職種の構造として始めやすく続けやすい条件が揃っているためです。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント1
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性にフロントエンドが人気の理由において最も重要なのは、自分の強みと市場のニーズをマッチさせることです。IT業界は技術の進歩が速いため、常に最新のトレンドを意識しながら、自分のスキルセットをアップデートしていきましょう。
-              </p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 成果が画面に見えて学習を始めやすい</h3>
+              <p className="text-text-light text-sm leading-relaxed">書いたコードの結果が即座にブラウザに表示されるため、初学者でも達成感を得やすく挫折しにくい構造です。サーバーやDBの環境構築でつまずきがちなバックエンドより、最初の一歩のハードルが低い職種です。</p>
             </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント2
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなく、ワークライフバランスや職場環境も重要な判断基準になります。産休育休制度の充実度やリモートワークの可否なども含めて、総合的に評価しましょう。
-              </p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. デザイン・UXとの境界領域が強みになる</h3>
+              <p className="text-text-light text-sm leading-relaxed">Webデザイナー経験やUI/UXへの感覚がそのまま実務の武器になります。「デザインの意図を理解して実装できる」「使いやすさに気づける」人材は希少で、デザイナーからの転身ルートも確立されています。</p>
             </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント3
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                転職エージェントの活用は、効率的な転職活動に欠かせません。IT特化型と女性特化型のエージェントを併用することで、技術面と生活面の両方のニーズに合った求人を見つけやすくなります。
-              </p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. リモート・フレックスと相性が良い</h3>
+              <p className="text-text-light text-sm leading-relaxed">開発がオンラインで完結しやすく、Web系企業を中心にフルリモート・フレックスの求人が豊富です。通勤負担を減らし、育児・介護とエンジニアキャリアを両立しやすい働き方を選べます。</p>
             </div>
-            <div
-              className="rounded-xl border bg-white p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント4
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                実際に転職に成功した女性エンジニアの多くが、「エージェントに相談して良かった」と語っています。自分の市場価値を客観的に把握し、適正な年収で転職するためにも、プロのアドバイスを活用しましょう。
-              </p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 成果物で評価され時短でも実力が示せる</h3>
+              <p className="text-text-light text-sm leading-relaxed">担当した画面・コンポーネント・改善した表示速度などが客観的な実績として残るため、勤務時間の長さではなく成果で評価されやすく、産休育休後の時短勤務でも実力を示しやすい職種です。</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 必要なスキルと学習ロードマップ */}
+      {/* sec3 スキル */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">必要なスキルと学習ロードマップ</h2>
+          <h2 className="text-2xl font-bold mb-6">必要なスキル（レベル別ロードマップ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              必要なスキルと学習ロードマップについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              フロントエンドのスキルは積み上げ式です。<strong>HTML/CSS/JavaScriptの基礎 → React・TypeScript → Next.jsなどの応用</strong>と、レベルを分けて段階的に習得していくのが効率的です。2026年時点の求人では、TypeScript×Reactの組み合わせが事実上の標準になっています。
             </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>レベル</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Level 1<br />基礎</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>HTML / CSS / JavaScript</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>すべての土台。模写コーディングと簡単な動的処理（フォーム・タブ切替など）まで作れるように</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Level 2<br />実務標準</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>React / TypeScript</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>転職市場の中心スキル。レバテックフリーランスでReact案件6,598件・TypeScript案件6,303件と求人ボリューム最大級</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Level 3<br />差別化</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Next.js / テスト / パフォーマンス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Next.jsでの開発経験、Jest・Playwrightなどのテスト、Core Web Vitals改善は年収アップに直結</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f8fafb" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>周辺<br />スキル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Git / Figma / アクセシビリティ / AIツール</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Gitは必須。デザイン連携力とGitHub CopilotなどAI開発ツールの活用経験は2026年の採用で評価が高い</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-light mt-2">出典: レバテックフリーランス「React／TypeScriptのフリーランス案件一覧」（2026年6月参照）</p>
+          <p className="text-text-light leading-relaxed mt-4 text-sm">
+            JavaScriptの学び方は<a href="/articles/javascript-career/" className="underline" style={{ color: "#0891b2" }}>JavaScriptエンジニアのキャリアガイド</a>、React・TypeScriptの習得戦略は<a href="/articles/typescript-react/" className="underline" style={{ color: "#0891b2" }}>TypeScript×Reactガイド</a>で詳しく解説しています。
+          </p>
+        </div>
+      </section>
+
+      {/* sec4 年収 */}
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">フロントエンドの年収相場（年代別・経験別）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、必要なスキルと学習ロードマップを考える上でも大きなプラス要因です。
+              フロントエンドエンジニア全体の平均年収は<strong>約446万円</strong>（求人ボックス 給料ナビ）。ボリュームゾーンは415万〜495万円で、東京都は474万円と地域差もあります。年代別に見ると経験とともに着実に上がり、40代では約655万円に達します。
             </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、必要なスキルと学習ロードマップに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>全体平均</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約446万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ボリュームゾーン415万〜495万円。東京都は474万円</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約378万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>20代前半322万円／20代後半434万円</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約559万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>30代前半518万円／30代後半601万円</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約655万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>40代前半625万円／40代後半685万円</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>月単価 約77万円（React案件）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>レバテック調査では年代を問わず年収換算800万円前後</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-light mt-2">
+            出典: 求人ボックス 給料ナビ「フロントエンドエンジニアの年収・時給」（2026年6月参照）／Relance「フロントエンドエンジニアの平均年収」厚生労働省job tag掲載データをもとにした年代別集計（2026年6月参照）／レバテックフリーランス「フロントエンドエンジニアの平均年収調査」週5日稼働案件の集計（2026年6月参照）
+          </p>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li>① <strong>React・TypeScript＋Next.js</strong>のモダンスタックを実務レベルにする（求人の選択肢と単価が大きく変わる）</li>
+              <li>② <strong>設計・パフォーマンス・アクセシビリティ</strong>など「実装の一段上」の経験を積む（AI時代に価値が上がる領域）</li>
+              <li>③ <strong>エージェント経由で年収交渉</strong>する。市場価値を客観評価してもらい、適正年収とのギャップを埋める</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* フロントエンドの年収相場 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* sec5 求人動向とAI時代 */}
+      <section id="sec5" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">フロントエンドの年収相場</h2>
+          <h2 className="text-2xl font-bold mb-6">求人動向とAIコーディング時代の変化</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              フロントエンドの年収相場について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              フロントエンドの需要は2026年時点でも堅調です。レバテックフリーランスではReact案件が6,598件（平均月単価77万円）、TypeScript案件が6,303件（同77万円）掲載されており、Webサービス・SaaSを中心に企業の採用意欲は続いています（出典: レバテックフリーランス 案件一覧、2026年6月参照）。
             </p>
             <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、フロントエンドの年収相場を考える上でも大きなプラス要因です。
+              一方で、生成AIの影響を最も受けやすい職種のひとつであることも事実です。フロントエンドは成果物が視覚的で正誤判定がしやすく、ReactなどのUIパターンが標準化されているため、デザインカンプからのコード生成や定型的なUI実装はAIによる自動化が急速に進んでいます（出典: CIO Japan「なぜAI時代にフロントエンドの仕事から消えていくのか」2026年2月公開、2026年6月参照）。
             </p>
             <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
+              ただし業界の共通認識は「職種の消滅」ではなく「役割の高度化」です。@ITは2026年1月の記事で、定型的なコーディング作業はもはやエンジニアの役割の中心ではなくなり、AIを使いこなして開発全体を推進する役割へ移行すると指摘しています（出典: @IT「AIがコードを書く時代、IT／AIエンジニアはどうなる？」2026年1月公開、2026年6月参照）。具体的には次のような変化です。
             </p>
-            <p>
-              ここでは、フロントエンドの年収相場に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>フロントエンドの年収相場に関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>AIに置き換わりつつある仕事</h3>
+              <ul className="space-y-2 text-sm text-text-light">
+                <li>・デザインカンプの単純なコーディング</li>
+                <li>・定型的なUIコンポーネントの実装</li>
+                <li>・ボイラープレート（決まりきったコード）の記述</li>
+                <li>・簡単なLP・サイト制作（ノーコード/AIビルダーで代替）</li>
+              </ul>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>価値が上がっている仕事</h3>
+              <ul className="space-y-2 text-sm text-text-light">
+                <li>・要件をUI設計・コンポーネント設計に落とす力</li>
+                <li>・AIが生成したコードのレビューと品質担保</li>
+                <li>・アクセシビリティ・パフォーマンスの最適化</li>
+                <li>・UX視点での改善提案、デザインシステム運用</li>
               </ul>
             </div>
           </div>
+          <p className="text-text-light leading-relaxed mt-6 text-sm">
+            つまり2026年のフロントエンド転職では、「Reactが書ける」だけでなく<strong>「AIツールを使って速く正確に作れる」「設計とUXまで考えられる」</strong>ことが評価の分かれ目です。これから学ぶ人にとっては、AI活用を前提にスキルを組み立てられる分、むしろ追い付きやすいタイミングとも言えます。
+          </p>
         </div>
       </section>
 
-      {/* フロントエンドの求人動向 */}
-      <section id="sec5" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">フロントエンドの求人動向</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              フロントエンドの求人動向について、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、フロントエンドの求人動向を考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、フロントエンドの求人動向に関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント1
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                フロントエンドの求人動向において最も重要なのは、自分の強みと市場のニーズをマッチさせることです。IT業界は技術の進歩が速いため、常に最新のトレンドを意識しながら、自分のスキルセットをアップデートしていきましょう。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント2
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                女性エンジニアとしてのキャリアを長期的に考える場合、技術力だけでなく、ワークライフバランスや職場環境も重要な判断基準になります。産休育休制度の充実度やリモートワークの可否なども含めて、総合的に評価しましょう。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
-                ポイント3
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                転職エージェントの活用は、効率的な転職活動に欠かせません。IT特化型と女性特化型のエージェントを併用することで、技術面と生活面の両方のニーズに合った求人を見つけやすくなります。
-              </p>
-            </div>
-            <div
-              className="rounded-xl border p-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                ポイント4
-              </h3>
-              <p className="text-text-light text-sm leading-relaxed">
-                実際に転職に成功した女性エンジニアの多くが、「エージェントに相談して良かった」と語っています。自分の市場価値を客観的に把握し、適正な年収で転職するためにも、プロのアドバイスを活用しましょう。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 未経験からフロントエンドエンジニアになるには */}
+      {/* sec6 未経験ロードマップ */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">未経験からフロントエンドエンジニアになるには</h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
+          <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              未経験からフロントエンドエンジニアになるにはについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
+              1日2〜3時間の学習で<strong>半年〜1年</strong>が目安です。フロントエンドは結果がすぐ画面で確認できるため、独学でも進捗を実感しやすいのが利点。次の順序で進めると挫折しにくいです。
             </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、未経験からフロントエンドエンジニアになるにはを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、未経験からフロントエンドエンジニアになるにはに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
+          </div>
+          <div className="space-y-4">
+            {[
+              ["STEP1", "HTML / CSSで「見た目」を作れるようになる", "Webページの構造とスタイルを習得し、既存サイトの模写コーディングまで。最初の成果物が早く作れるのがフロントエンドの強みです。"],
+              ["STEP2", "JavaScriptで「動き」を付ける", "変数・関数・DOM操作・非同期処理など基礎文法を丁寧に。タブ切替・モーダル・フォームバリデーションなど小さな部品を自作してみましょう。"],
+              ["STEP3", "Reactを習得する", "コンポーネント・props・state・hooksの考え方を理解し、ToDoアプリやAPIからデータを取得して表示するアプリを作成。ここが転職市場との接続点です。"],
+              ["STEP4", "TypeScriptを導入する", "Reactに型を付けて書けるようにします。2026年の新規開発はTypeScriptが事実上の標準で、求人の必須要件になっていることが多いスキルです。"],
+              ["STEP5", "Git・AIツール・周辺知識", "GitHubでのコード管理は必須。GitHub CopilotなどのAI開発ツールも実務を想定して使い慣れておくと、採用時の評価につながります。"],
+              ["STEP6", "ポートフォリオを公開する", "Next.jsなどで作ったWebアプリを実際にデプロイして公開。デザイン・実装・公開まで一人で完結した実績が、未経験転職で最も効きます。"],
+            ].map(([step, title, desc], i) => (
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+                <div>
+                  <h3 className="font-bold mb-1">{title}</h3>
+                  <p className="text-sm text-text-light leading-relaxed">{desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Webデザイナー経験者は近道できる</h3>
+            <p className="text-sm text-text-light leading-relaxed">
+              <a href="/articles/web-designer/" className="underline" style={{ color: "#0891b2" }}>Webデザイナー</a>からの転身なら、STEP1のHTML/CSSとFigmaの知識は既にあるため、JavaScript以降に集中できます。デザインの意図を理解して実装できる人材は現場で重宝され、デザインとコードの両方が分かる「UXエンジニア」というキャリアにもつながります。
             </p>
           </div>
         </div>
       </section>
 
-      {/* フロントエンドのキャリアパス */}
+      {/* sec7 キャリアパス */}
       <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">フロントエンドのキャリアパス</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              フロントエンドのキャリアパスについて、女性エンジニアの視点から詳しく解説します。IT業界で活躍する女性エンジニアにとって、正確な情報と適切な戦略を持つことは、キャリアを成功させるための鍵となります。
-            </p>
-            <p>
-              2026年現在、IT業界では女性エンジニアの活躍が急速に広がっています。ダイバーシティ推進の流れに加え、リモートワークの普及やフレックスタイム制度の充実により、女性がエンジニアとして長く活躍できる環境が整いつつあります。この状況は、フロントエンドのキャリアパスを考える上でも大きなプラス要因です。
-            </p>
-            <p>
-              実際のデータを見ると、女性エンジニアの需要は年々高まっており、企業の採用意欲も強い状況が続いています。特にWeb系企業やSaaS企業では、女性エンジニアの比率を高めるための施策を積極的に行っています。
-            </p>
-            <p>
-              ここでは、フロントエンドのキャリアパスに関する最新情報をもとに、女性エンジニアが知っておくべきポイントを具体的に解説していきます。転職エージェントの活用方法や、実際の成功事例も交えながら、実践的なアドバイスをお伝えします。
-            </p>
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                押さえておくべきポイント
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>フロントエンドのキャリアパスに関する最新の市場動向を把握する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>自分のスキルセットと市場価値を客観的に分析する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>複数の転職エージェントを活用して情報を集める</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>長期的なキャリアプランを見据えた判断をする</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>女性ならではの視点で企業の働きやすさを確認する</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                    &#10003;
-                  </span>
-                  <span>先輩女性エンジニアの体験談から学ぶ</span>
-                </li>
-              </ul>
-            </div>
+            <p>フロントエンドは「UI実装」を起点に、技術・デザイン・マネジメントのどの方向にも広げられる職種です。代表的な進路は次の通りです。</p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>技術を深める：リードFE／アーキテクト</h3><p className="text-sm text-text-light">設計・パフォーマンス・デザインシステムをリードするリードフロントエンドエンジニアへ。AI時代に価値が上がる「設計と品質担保」の専門家として高年収を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>領域を広げる：フルスタック</h3><p className="text-sm text-text-light">Node.jsやNext.jsのサーバー機能を入口に<a href="/articles/backend/" className="underline" style={{ color: "#0891b2" }}>バックエンド</a>へ領域を拡大。一人でサービスを作り切れる人材は市場価値が高く、フリーランスでも有利。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>デザインと融合：UXエンジニア</h3><p className="text-sm text-text-light">デザインとエンジニアリングの境界で、プロトタイピングやデザインシステムを担う<a href="/articles/ux-designer/" className="underline" style={{ color: "#0891b2" }}>UXデザイナー・UXエンジニア</a>へ。デザイナー出身者の強みが最も活きる道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">フリーランスとしてReact案件（平均月単価77万円）を中心にリモートで働く道。成果物で実力を示しやすく、ライフステージに合わせて稼働を調整しやすい。</p></div>
           </div>
         </div>
       </section>
 
-      {/* おすすめ転職エージェント */}
+      {/* sec8 エージェント */}
       <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
@@ -648,84 +483,38 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* 成功事例 */}
-      <section id="sec9" className="py-10">
+      {/* FAQ */}
+      <section id="sec9" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                転職成功者Aさん（30代前半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">中小IT企業のエンジニア / 年収400万円</p>
+          <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
+          <div className="space-y-4">
+            {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+                  <span className="pr-4">{faq.name}</span>
+                  <span className="transition-transform group-open:rotate-180">&#9662;</span>
+                </summary>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                  <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                  <p className="text-sm font-bold">大手Web企業のシニアエンジニア / 年収580万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                IT特化型エージェントを活用し、技術力を正当に評価してくれる企業に出会いました。年収180万円アップに加え、フルリモート勤務が可能になり、ワークライフバランスが大幅に改善。「エージェントに相談して本当に良かった」と語っています。
-              </p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                転職成功者Bさん（20代後半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">SES企業のエンジニア / 年収350万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
-                  <p className="text-sm font-bold">自社開発企業のエンジニア / 年収480万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                女性特化型のエージェントを利用し、産休育休制度が充実した自社開発企業に転職。年収130万円アップと働きやすい環境の両方を手に入れました。「女性の悩みに寄り添ったサポートが心強かった」とのこと。
-              </p>
-            </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* 出典 */}
+      <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
-          <div className="space-y-4">
-            {faqData.mainEntity.map(
-              (
-                faq: { name: string; acceptedAnswer: { text: string } },
-                i: number
-              ) => (
-                <details
-                  key={i}
-                  className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
-                >
-                  <summary
-                    className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
-                  >
-                    <span className="pr-4">{faq.name}</span>
-                    <span className="transition-transform group-open:rotate-180">
-                      &#9662;
-                    </span>
-                  </summary>
-                  <div
-                    className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
-                  >
-                    <p className="pt-4">{faq.acceptedAnswer.text}</p>
-                  </div>
-                </details>
-              )
-            )}
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+            <h2 className="text-lg font-bold mb-3">この記事の主な出典</h2>
+            <ul className="space-y-1 text-xs text-text-light">
+              <li>・出典: 求人ボックス 給料ナビ「フロントエンドエンジニアの年収・時給」（2026年6月参照）</li>
+              <li>・出典: Relance「フロントエンドエンジニアの平均年収」厚生労働省job tag掲載データ等をもとにした集計（2026年6月参照）</li>
+              <li>・出典: レバテックフリーランス「フロントエンドエンジニアの平均年収調査」「React／TypeScriptのフリーランス案件一覧」（2026年6月参照）</li>
+              <li>・出典: @IT「AIがコードを書く時代、IT／AIエンジニアはどうなる？ 2026年に求められる4つの役割とは」（2026年1月公開、2026年6月参照）</li>
+              <li>・出典: CIO Japan「なぜAI時代にフロントエンドの仕事から消えていくのか」（2026年2月公開、2026年6月参照）</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -735,46 +524,12 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a
-              href="/articles/salary/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                女性エンジニアの年収ガイド
-              </h3>
-              <p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p>
-            </a>
-            <a
-              href="/articles/career-path/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                キャリアパス設計ガイド
-              </h3>
-              <p className="text-sm text-text-light">5年後・10年後のキャリア設計</p>
-            </a>
-            <a
-              href="/articles/remote-jobs/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                リモートワーク求人ガイド
-              </h3>
-              <p className="text-sm text-text-light">在宅勤務のメリットと探し方</p>
-            </a>
-            <a
-              href="/articles/how-to-choose/"
-              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                エージェント選び方ガイド
-              </h3>
-              <p className="text-sm text-text-light">失敗しない5つのポイント</p>
-            </a>
+            <a href="/articles/backend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">フロントエンドとの違いも解説</p></a>
+            <a href="/articles/typescript-react/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>TypeScript×Reactのキャリア</h3><p className="text-sm text-text-light">2026年の標準スタックを武器にする</p></a>
+            <a href="/articles/javascript-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>JavaScriptエンジニアのキャリア</h3><p className="text-sm text-text-light">フロントエンドの土台になる言語</p></a>
+            <a href="/articles/ux-designer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>UXデザイナー転職ガイド</h3><p className="text-sm text-text-light">デザインとの境界領域キャリア</p></a>
+            <a href="/articles/web-designer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Webデザイナー転職ガイド</h3><p className="text-sm text-text-light">フロントエンドへの転身ルートも</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
           </div>
         </div>
       </section>

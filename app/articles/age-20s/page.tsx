@@ -2,16 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "20代女性エンジニアの転職ガイド｜キャリアアップの始め方",
+  title: "20代女性エンジニアの転職ガイド｜年収相場・第二新卒・未経験の選択肢【2026年】",
   description:
-    "20代女性エンジニアのための転職完全ガイド。未経験からのキャリアチェンジ、年収アップの方法、おすすめ転職エージェントまで徹底解説。20代だからこそできるキャリア戦略を紹介します。",
-  keywords:
-    "20代 女性エンジニア 転職, 20代 エンジニア キャリアアップ, 女性エンジニア 20代 年収",
+    "20代女性エンジニアの転職を実データで解説。20代の平均年収365万円・IT/通信業種の20代は381万円（doda 2025）、20〜24歳の転職者の50.5%が賃金増、女性の転職入職率は25〜29歳で16.8%と全年代トップクラス。第二新卒・ポテンシャル採用の動向、未経験からの選択肢まで出典付きで紹介します。",
   alternates: { canonical: "/articles/age-20s/" },
   openGraph: {
-    title: "20代女性エンジニアの転職ガイド｜キャリアアップの始め方",
+    title: "20代女性エンジニアの転職ガイド｜年収相場・第二新卒・未経験の選択肢【2026年】",
     description:
-      "20代女性エンジニアのための転職完全ガイド。未経験からのキャリアチェンジ、年収アップの方法、おすすめ転職エージェントまで徹底解説。",
+      "20代女性エンジニアの年収相場・転職市場・20代前半/後半の戦略・第二新卒とポテンシャル採用・未経験からの選択肢を公的統計と実データで解説。",
     url: "https://women-engineer.com/articles/age-20s/",
     type: "article",
     siteName: "女性エンジニア転職ナビ",
@@ -22,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "20代女性エンジニアの転職ガイド｜キャリアアップの始め方",
+  headline: "20代女性エンジニアの転職ガイド｜年収相場・第二新卒・未経験の選択肢【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
     name: "女性エンジニア転職ナビ",
@@ -36,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "20代女性エンジニアのための転職完全ガイド。未経験からのキャリアチェンジ、年収アップの方法、おすすめ転職エージェントまで徹底解説。",
+    "20代女性エンジニアの年収相場・転職市場・20代前半/後半の戦略・第二新卒とポテンシャル採用・未経験からの選択肢を公的統計と実データで解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/age-20s/",
@@ -49,10 +47,34 @@ const faqData = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "20代女性エンジニアの平均年収はどのくらいですか？",
+      name: "20代女性エンジニアの平均年収はいくらですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "20代女性エンジニアの平均年収は約350万〜450万円です。スキルや経験、企業規模によって差がありますが、転職によって50万〜100万円以上の年収アップを実現するケースも多いです。特にWeb系やクラウド関連のスキルがあると高年収を狙いやすくなります。",
+        text: "doda「平均年収ランキング2025」によると、20代全体の平均年収は365万円（20代男性392万円・20代女性341万円）、IT/通信業種の20代は381万円です。エンジニア（IT/通信）職種全体の平均は469万円で、実務経験を2〜3年積んだ20代後半なら400万円台、クラウドやモダンなWeb技術のスキルがあれば500万円台も射程に入ります。未経験からの転職1年目は300万〜400万円程度が目安です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "第二新卒でもエンジニアに転職できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "できます。マイナビ「企業人材ニーズ調査」によると、第二新卒を今後採用する予定の企業は80.9%（うち「積極的に採用する予定」33.7%）、従業員1000人以上の大企業では87.9%にのぼります。新卒採用の充足難と若手の離職増を背景に、第二新卒は中途市場で歓迎される存在になっています。社会人経験1〜3年で身についたビジネス基礎力に加え、学習意欲と「次は辞めない理由」を語れれば、未経験職種への挑戦も十分可能です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "20代の転職で年収は上がりますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "上がる人が多数派で、しかも全年代で最も上がりやすい年代です。厚生労働省「令和6年雇用動向調査」によると、転職で賃金が増加した人の割合は20〜24歳で50.5%（うち1割以上の増加は38.5%）、25〜29歳で46.3%。減少した人（16.8%・29.2%）を大きく上回ります。エンジニア（IT・通信）の求人倍率は10倍超の売り手市場が続いており、20代は転職による年収アップの再現性が高い状況です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "20代未経験からエンジニアになるには何から始めればいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "「学習→ポートフォリオ→資格→応募」の順が定石です。まずProgateやUdemy等で基礎を1〜3か月学び、オリジナルのWebアプリを作ってGitHubで公開します。並行してITパスポート→基本情報技術者を取得すると、書類選考で学習の本気度を客観的に示せます。レバテック「IT人材白書2024」では未経験者を採用している企業が41.6%、検討中を含め約7割で、20代はポテンシャル採用の恩恵を最も受けられる年代です。独学が不安ならプログラミングスクールの活用も選択肢になります。",
       },
     },
     {
@@ -60,31 +82,7 @@ const faqData = {
       name: "20代で転職するベストなタイミングはいつですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "一般的に、実務経験2〜3年を積んだタイミングが最適とされています。基礎的なスキルが身につき、かつ若さによるポテンシャルも評価されるため、好条件の求人にチャレンジしやすい時期です。25歳〜28歳がもっとも求人数が多い傾向にあります。",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "20代未経験からエンジニアに転職できますか？",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "はい、20代は未経験からのエンジニア転職がもっとも成功しやすい年代です。ポテンシャル採用を行う企業が多く、プログラミングスクールで基礎を学んだ後に転職する方法が人気です。特にWeb系やインフラ系は未経験者の受け入れが活発です。",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "20代女性エンジニアにおすすめの転職エージェントは？",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "20代女性エンジニアには、IT特化型のレバテックキャリアやGeeklyがおすすめです。若手向けの求人が豊富で、未経験者にはワークポートも適しています。女性特化型のtype女性の転職エージェントも、女性ならではの悩みに寄り添ったサポートが受けられます。",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "20代のうちに身につけておくべきスキルは？",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "プログラミング言語（Python、JavaScript、TypeScriptなど）の実務スキルに加え、Git、Docker、AWSなどのインフラ知識も重要です。また、コミュニケーション力やチームでの開発経験も評価されます。20代のうちに幅広い技術に触れておくと、30代以降のキャリアの選択肢が広がります。",
+        text: "実務経験2〜3年を積んだ25〜28歳前後が最も選択肢の多い時期です。実際、女性の転職入職率は25〜29歳で16.8%と働き盛り世代の中で最高水準（厚生労働省「令和6年雇用動向調査」）。基礎スキルとポテンシャルの両方を評価してもらえるため、自社開発への転籍や職種転換が通りやすくなります。一方、第二新卒（入社1〜3年）にも独自の採用枠があるため、「3年待つべき」と固定的に考える必要はありません。心身を消耗する環境なら早期の転職も合理的です。",
       },
     },
   ],
@@ -127,16 +125,43 @@ export default function Age20sArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               20代女性エンジニアの転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                キャリアアップの始め方を徹底解説
+                年収相場・第二新卒・未経験の選択肢を実データで解説【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 結論ボックス */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>この記事の結論</h2>
+            <ul className="space-y-3 text-sm md:text-base">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>20代はデータ上、最も転職が動き、最も年収が上がりやすい年代。</strong>女性の転職入職率は20〜24歳14.3%・25〜29歳16.8%と働き盛り世代でトップクラス、20〜24歳の転職者の50.5%が賃金増を実現しています（厚生労働省「令和6年雇用動向調査」）。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>年収の目安：</strong>20代全体の平均は365万円（女性341万円）、IT/通信業種の20代は381万円（doda「平均年収ランキング2025」）。エンジニア職は20代女性の平均より高い水準を狙いやすく、経験2〜3年＋モダンスキルで400万〜500万円台が射程です。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>戦略は前半と後半で変える。</strong>20代前半は第二新卒・ポテンシャル採用の枠を最大限活用（企業の80.9%が第二新卒の採用予定）。20代後半は実務経験2〜3年を軸に、職種転換・年収アップ・キャリアの専門軸づくりへ動くのが鉄則です。</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>未経験からの挑戦は20代が最有利。</strong>未経験者を採用している企業は41.6%・検討中を含め約7割（レバテック）。「学習→ポートフォリオ→資格」の順で土台を作れば、ポテンシャル採用の恩恵をフルに受けられます。</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* 目次 */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
@@ -144,383 +169,310 @@ export default function Age20sArticlePage() {
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li>
-                <a href="#why-20s" className="hover:underline" style={{ color: "#0891b2" }}>
-                  1. 20代女性エンジニアが転職を考える理由
-                </a>
-              </li>
-              <li>
-                <a href="#market" className="hover:underline" style={{ color: "#0891b2" }}>
-                  2. 20代エンジニアの転職市場と年収相場
-                </a>
-              </li>
-              <li>
-                <a href="#career-strategy" className="hover:underline" style={{ color: "#0891b2" }}>
-                  3. 20代だからこそできるキャリア戦略
-                </a>
-              </li>
-              <li>
-                <a href="#skills" className="hover:underline" style={{ color: "#0891b2" }}>
-                  4. 20代のうちに身につけるべきスキル
-                </a>
-              </li>
-              <li>
-                <a href="#inexperienced" className="hover:underline" style={{ color: "#0891b2" }}>
-                  5. 未経験から20代でエンジニアになる方法
-                </a>
-              </li>
-              <li>
-                <a href="#agent" className="hover:underline" style={{ color: "#0891b2" }}>
-                  6. 20代女性エンジニアにおすすめの転職エージェント
-                </a>
-              </li>
-              <li>
-                <a href="#success" className="hover:underline" style={{ color: "#0891b2" }}>
-                  7. 転職成功事例
-                </a>
-              </li>
-              <li>
-                <a href="#tips" className="hover:underline" style={{ color: "#0891b2" }}>
-                  8. 転職活動のポイントと注意点
-                </a>
-              </li>
-              <li>
-                <a href="#faq" className="hover:underline" style={{ color: "#0891b2" }}>
-                  9. よくある質問
-                </a>
-              </li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 20代女性エンジニアの転職市場【実データ】</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 20代女性エンジニアの年収相場（経験者・未経験別）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 20代前半と20代後半で変わる転職戦略</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 第二新卒・ポテンシャル採用の活かし方</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 未経験から20代でエンジニアになる方法</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 20代のうちに作るキャリアの土台</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 20代の転職活動の進め方</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* 20代が転職を考える理由 */}
-      <section id="why-20s" className="py-10">
+      {/* sec1 転職市場 */}
+      <section id="sec1" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">
-            20代女性エンジニアが転職を考える理由
-          </h2>
+          <h2 className="text-2xl font-bold mb-6">20代女性エンジニアの転職市場【実データ】</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              20代は社会人としてのキャリアをスタートさせたばかりの時期ですが、だからこそ「このままでいいのか」という悩みを抱える方が多くいます。特に女性エンジニアの場合、職場環境やキャリアパスに関する不安が転職のきっかけになることが少なくありません。
+              「最初の会社で3年は我慢すべき」という常識は、データの上ではすでに過去のものです。厚生労働省「令和6年雇用動向調査」によると、2024年の女性の転職入職率は<strong>20〜24歳で14.3%、25〜29歳で16.8%</strong>。25〜29歳は働き盛り世代（20〜50代）の中で最も高く、同年代男性（13.4%・15.1%）も上回ります。20代女性にとって転職は、もはや例外ではなく標準的なキャリア行動です。
             </p>
             <p>
-              IT業界は依然として男性比率が高く、女性エンジニアがロールモデルを見つけにくい環境にある企業も多いのが現状です。「将来のキャリアイメージが持てない」「女性が活躍している実績がない」といった不安から、より女性が活躍できる環境を求めて転職を検討するケースが増えています。
+              求人側の需要も強い状態が続いています。dodaの転職求人倍率（2026年4月）は全体で2.38倍ですが、<strong>エンジニア（IT・通信）は10倍を超える高水準</strong>を維持。1人の求職者に対して10件以上の求人がある計算で、経験の浅い若手やポテンシャル層にも門戸が大きく開かれています。
             </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-3 mt-6">
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
+              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>16.8%</p>
+              <p className="text-sm font-bold mt-2">25〜29歳女性の転職入職率</p>
+              <p className="text-xs text-text-light mt-1">働き盛り世代で最高水準。20〜24歳も14.3%</p>
+            </div>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3aed" }}>50.5%</p>
+              <p className="text-sm font-bold mt-2">20〜24歳転職者の賃金増加割合</p>
+              <p className="text-xs text-text-light mt-1">全年代トップ。減少は16.8%にとどまる</p>
+            </div>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
+              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>10倍超</p>
+              <p className="text-sm font-bold mt-2">エンジニア（IT・通信）求人倍率</p>
+              <p className="text-xs text-text-light mt-1">全職種平均2.38倍に対し圧倒的な売り手市場</p>
+            </div>
+          </div>
+          <p className="text-text-light text-sm mt-3">
+            出典: 厚生労働省「令和6年雇用動向調査」、doda「転職求人倍率レポート（2026年4月）」（いずれも2026年6月参照）
+          </p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              加えて、日本のITエンジニアに占める女性比率は18.8%（ヒューマンリソシア調査、OECD平均20.6%）とまだ2割弱。ダイバーシティ目標を掲げる企業にとって<strong>20代の女性エンジニア・エンジニア志望者は「これから長く活躍してくれる希少人材」</strong>であり、採用・育成への投資意欲が高い層です。同調査の女性比率の低さは、裏を返せば20代女性にとっての追い風になっています。
+            </p>
+            <p>
+              なお、20代女性が前職を辞めた理由を見ると、25〜29歳では「労働時間、休日等の労働条件が悪かった」15.2%、「職場の人間関係」14.0%が上位で、「結婚」は8.1%、「出産・育児」は1.7%にすぎません（同調査）。20代の転職の主戦場は、ライフイベントよりも<strong>働き方と環境の改善</strong>にあります。
+            </p>
+          </div>
+          <p className="text-text-light text-sm mt-3">
+            出典: ヒューマンリソシア「IT分野のジェンダーギャップに関するグローバル調査」、厚生労働省「令和6年雇用動向調査」（いずれも2026年6月参照）
+          </p>
+        </div>
+      </section>
 
-            <div
-              className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
-            >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
-                20代女性エンジニアが転職を考える主な理由
-              </h3>
-              <ul className="space-y-3">
-                {[
-                  "年収が市場相場と比較して低いと感じている",
-                  "スキルアップの機会が少なく成長実感がない",
-                  "残業が多くワークライフバランスが取れない",
-                  "女性のロールモデルや先輩が職場にいない",
-                  "将来のライフイベント（結婚・出産）を考慮した働き方をしたい",
-                  "SES（客先常駐）から自社開発に移りたい",
-                  "リモートワークやフレックスタイムなど柔軟な働き方をしたい",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
-                      &#10003;
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ))}
+      {/* sec2 年収相場 */}
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">20代女性エンジニアの年収相場（経験者・未経験別）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              doda「平均年収ランキング2025」（集計期間2024年9月〜2025年8月、約60万件）によると、20代全体の平均年収は<strong>365万円</strong>（20代男性392万円・20代女性341万円）。一方、<strong>IT/通信業種の20代は381万円</strong>と20代全体を16万円上回り、職種別のエンジニア（IT/通信）全体では469万円です。エンジニア職は20代女性の平均（341万円）より高い水準を最初から狙いやすい職種だと言えます。
+            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#ecfeff" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収・目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代全体（全職種）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>365万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男性392万円・女性341万円</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>IT/通信業種の20代</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>381万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>20代全体を16万円上回る</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>エンジニア（IT/通信）職種全体</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>469万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>経験2〜3年の20代後半で400万円台が射程</td>
+                </tr>
+                <tr style={{ backgroundColor: "#fff" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代・未経験からの転職1年目</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>300万〜400万円程度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ポテンシャル採用。経験を積めば数年で挽回しやすい</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-text-light text-sm mt-3">
+            出典: doda（パーソルキャリア）「平均年収ランキング2025」、ウィルオブテック「未経験からエンジニア転職を叶える全知識」（いずれも2026年6月参照）。経験者レンジは公開統計と求人水準をもとにした目安です。
+          </p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              「転職で年収が上がるか」のデータはさらに心強い結果です。厚生労働省「令和6年雇用動向調査」によると、転職で賃金が増加した人の割合は<strong>20〜24歳で50.5%</strong>（うち1割以上の増加は38.5%）と全年代で最も高く、<strong>25〜29歳でも46.3%</strong>（1割以上の増加37.9%）。減少した人（16.8%・29.2%）を大きく上回ります。またdodaの「年代別 転職時の年収変動レポート（2025年度上期）」では、20代の転職時の平均決定年収は2019年度同期比で13%上昇しており、若手の市場価値そのものが底上げされています。
+            </p>
+          </div>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>20代で年収を上げる3つのレバー</h3>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li>① <strong>モダンな技術スタックに寄せる</strong>：クラウド（AWS/GCP）、TypeScript/React、Python・データ活用は20代でも年収500万円台の求人が出やすい領域</li>
+              <li>② <strong>「自社開発・元請け」側へ動く</strong>：SES・多重下請けから自社開発/元請けへ移るだけで、同じスキルでも待遇水準が変わるケースが多い</li>
+              <li>③ <strong>エージェント経由で年収交渉する</strong>：20代は自分の市場価値を過小評価しがち。相場を知るプロに交渉を任せる</li>
+            </ul>
+            <p className="text-sm text-text-light mt-4">
+              年代別の詳しい年収データは<a href="/articles/salary-by-age/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>年代別年収ガイド</a>で解説しています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* sec3 前半/後半の戦略 */}
+      <section id="sec3" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">20代前半と20代後半で変わる転職戦略</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              同じ20代でも、企業が見るポイントは前半と後半で大きく異なります。20代前半は「第二新卒・ポテンシャル」、20代後半は「実務経験×伸びしろ」が評価の軸。自分がどちらのフェーズにいるかで、アピールの組み立てを切り替えましょう。
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>20代前半（20〜24歳）：第二新卒・ポテンシャルの黄金期</h3>
+              <ul className="space-y-2 text-sm text-text-light">
+                <li>・<strong>スキルよりも学習意欲・基礎力・人柄で評価される</strong>。実績ゼロでも勝負できる唯一の時期</li>
+                <li>・第二新卒の採用予定企業は80.9%。「短期離職＝不利」はもはや過去の常識</li>
+                <li>・転職者の50.5%が賃金増・減少は16.8%のみ。低待遇からの仕切り直しに最適</li>
+                <li>・未経験からのIT転職もこの時期が最有利。研修制度の厚い企業を選び、基礎を固める</li>
               </ul>
             </div>
-
-            <p>
-              20代のうちに転職することの大きなメリットは、「ポテンシャル採用」の恩恵を受けられることです。30代以降になると即戦力としての実績が強く求められますが、20代は「成長性」を評価してもらえるため、キャリアチェンジのハードルが比較的低いのが特徴です。
-            </p>
-            <p>
-              また、IT業界ではエンジニア不足が続いているため、20代女性エンジニアの需要は非常に高い状況にあります。企業のダイバーシティ推進の流れもあり、女性エンジニアの採用に積極的な企業が増えています。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 転職市場と年収 */}
-      <section id="market" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">
-            20代エンジニアの転職市場と年収相場
-          </h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              2026年現在、IT業界のエンジニア不足は深刻化しており、20代エンジニアの転職市場は非常に活発です。経済産業省の調査によれば、2030年までにIT人材が最大79万人不足するとされており、若手エンジニアの需要は今後も高まり続けると予測されています。
-            </p>
-
-            <div className="overflow-x-auto mt-6">
-              <table className="w-full border-collapse rounded-lg overflow-hidden">
-                <thead>
-                  <tr style={{ backgroundColor: "#0891b2" }}>
-                    <th className="px-4 py-3 text-left text-sm font-bold text-white">
-                      年代・経験
-                    </th>
-                    <th className="px-4 py-3 text-left text-sm font-bold text-white">
-                      平均年収
-                    </th>
-                    <th className="px-4 py-3 text-left text-sm font-bold text-white">
-                      転職後の期待年収
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    ["20代前半（1〜3年経験）", "300万〜380万円", "350万〜430万円"],
-                    ["20代後半（3〜5年経験）", "380万〜480万円", "430万〜550万円"],
-                    ["20代後半（5年以上+リーダー経験）", "450万〜550万円", "500万〜650万円"],
-                  ].map(([exp, avg, expected], i) => (
-                    <tr
-                      key={exp}
-                      className={i % 2 === 0 ? "bg-white" : ""}
-                      style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}
-                    >
-                      <td
-                        className="px-4 py-3 text-sm font-medium"
-                        style={{ borderBottom: "1px solid #d1dce5" }}
-                      >
-                        {exp}
-                      </td>
-                      <td
-                        className="px-4 py-3 text-sm"
-                        style={{ borderBottom: "1px solid #d1dce5" }}
-                      >
-                        {avg}
-                      </td>
-                      <td
-                        className="px-4 py-3 text-sm font-bold"
-                        style={{ borderBottom: "1px solid #d1dce5", color: "#0891b2" }}
-                      >
-                        {expected}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>20代後半（25〜29歳）：実務経験を武器にキャリアを構築</h3>
+              <ul className="space-y-2 text-sm text-text-light">
+                <li>・女性の転職入職率16.8%と最も転職が活発な時期。<strong>実務2〜3年＋伸びしろの両取り評価</strong></li>
+                <li>・SES→自社開発、保守運用→開発など、キャリアの軸を作る職種転換のベストタイミング</li>
+                <li>・転職者の46.3%が賃金増、1割以上の増加も37.9%。年収交渉の材料が揃う時期</li>
+                <li>・30代を見据えて「専門領域」を1つ決め、深掘りできる環境を選ぶ</li>
+              </ul>
             </div>
-
+          </div>
+          <p className="text-text-light text-sm mt-3">出典: 厚生労働省「令和6年雇用動向調査」、マイナビキャリアリサーチLab「2025年以降の第二新卒採用ニーズは8割超」（いずれも2026年6月参照）</p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              特にクラウド（AWS、GCP、Azure）、コンテナ技術（Docker、Kubernetes）、フロントエンド（React、Next.js）などのモダンな技術スタックを持つエンジニアは、20代でも500万円以上の年収を提示されるケースが増えています。
-            </p>
-            <p>
-              女性エンジニアの場合、同じスキルレベルでも男性と比較して年収が低い傾向にあるというデータもあります。転職はこのギャップを埋める良い機会でもあり、適正な市場価値で評価してもらえるエージェントの活用が重要です。
+              20代で作った土台は30代で「換金」されます。30代の評価軸や年収相場は<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>30代女性エンジニアの転職ガイド</a>で解説しているので、5年後の自分を想像しながら読み比べてみてください。
             </p>
           </div>
         </div>
       </section>
 
-      {/* キャリア戦略 */}
-      <section id="career-strategy" className="py-10">
+      {/* sec4 第二新卒・ポテンシャル採用 */}
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">
-            20代だからこそできるキャリア戦略
-          </h2>
+          <h2 className="text-2xl font-bold mb-6">第二新卒・ポテンシャル採用の活かし方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              20代は将来のキャリアの基盤を築く最も重要な時期です。この時期にどのような経験を積むかによって、30代以降のキャリアの選択肢が大きく変わってきます。20代女性エンジニアが取るべきキャリア戦略について解説します。
+              新卒入社1〜3年程度で転職する「第二新卒」は、いまや採用市場の主役の一角です。マイナビ「企業人材ニーズ調査」によると、<strong>第二新卒を今後採用する予定の企業は80.9%</strong>（「積極的に採用する予定」33.7%＋「積極的ではないが採用する予定」47.2%）。従業員1000人以上の大企業に限ると<strong>87.9%</strong>にのぼります。新卒採用の充足難と若手離職の常態化を背景に、企業側が第二新卒を「新卒の二次募集」として明確に位置づけるようになりました。
+            </p>
+            <p>
+              ポテンシャル採用で企業が見ているのは、現時点のスキルではなく「ビジネス基礎力＋学習の再現性」です。社会人経験で身についた報連相・納期意識は新卒にない武器であり、そこに学習実績（ポートフォリオ・資格）を重ねれば、未経験職種への転換も現実的になります。
             </p>
           </div>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>第二新卒の面接を通す3つのポイント</h3>
+            <ul className="space-y-3 text-sm text-text-light">
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>退職理由は「不満」ではなく「方向転換」で語る</strong>：「残業が多かった」で終わらせず、「◯◯を実現できる環境で△△に取り組みたい」と次の選択理由に変換する</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>「次は辞めない根拠」を用意する</strong>：企業側の最大の懸念は再離職。企業選びの軸と、その会社がなぜ軸に合うかを具体的に示す</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span><strong>小さくても学習の実物を見せる</strong>：GitHubの公開リポジトリ、資格、技術ブログ。「勉強中です」より「作りました」が10倍強い</span>
+              </li>
+            </ul>
+          </div>
+          <p className="text-text-light text-sm mt-3">出典: マイナビキャリアリサーチLab「2025年以降の第二新卒採用ニーズは8割超」（2026年6月参照）</p>
+        </div>
+      </section>
 
+      {/* sec5 未経験から */}
+      <section id="sec5" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">未経験から20代でエンジニアになる方法</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              未経験からのエンジニア転職は、20代が最も有利です。レバテック「IT人材白書2024」によると、エンジニア未経験者を「採用している」企業は<strong>41.6%</strong>、「検討中」を含めると<strong>約7割</strong>。そして未経験可求人の多くは20代を想定したポテンシャル採用です。30代以降は「前職スキル×IT」の掛け合わせが必須になるのに対し、20代は学習意欲と基礎力だけで挑戦の土俵に立てます。
+            </p>
+          </div>
+          <div className="space-y-4 mt-6">
+            {[
+              ["STEP1", "基礎学習（1〜3か月）", "Progate・Udemy等でHTML/CSS・JavaScriptまたはPythonの基礎を学ぶ。1日2時間の継続が目安。独学が不安な場合はスクールの利用も選択肢。"],
+              ["STEP2", "ポートフォリオ作成（1〜2か月）", "オリジナルのWebアプリを作り、GitHubでコードを公開してデプロイまで行う。チュートリアルの写経ではなく「自分の課題を解決する何か」が評価される。"],
+              ["STEP3", "資格で土台を可視化", "ITパスポート→基本情報技術者の順で取得。書類選考での「本気度」の客観的な証明になり、ポテンシャル採用の通過率を底上げする。"],
+              ["STEP4", "エージェント登録・応募", "未経験向け求人に強いエージェントに2〜3社登録。研修制度の充実度・配属先の実態を必ず確認し、「入社後に育つ環境」を基準に選ぶ。"],
+              ["STEP5", "面接対策・入社", "「なぜエンジニアか」「なぜこの会社か」「入社後どう学び続けるか」の3点を自分の言葉で。学習の記録（ブログ・GitHubの草）はそのまま説得力になる。"],
+            ].map(([step, title, desc], i) => (
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>{step}</span>
+                <div>
+                  <h3 className="font-bold mb-1">{title}</h3>
+                  <p className="text-sm text-text-light leading-relaxed">{desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-text-light text-sm mt-3">出典: レバテック「IT人材白書2024」（2026年6月参照）</p>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              学習ロードマップの全体像は<a href="/articles/beginner/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>未経験からエンジニアになるガイド</a>、スクールの選び方は<a href="/articles/programming-school/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>プログラミングスクールの選び方</a>、資格の勉強法は<a href="/articles/cert-kihonjoho/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>基本情報技術者試験ガイド</a>でそれぞれ詳しく解説しています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* sec6 キャリアの土台 */}
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">20代のうちに作るキャリアの土台</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              20代の転職は「次の会社」だけでなく「30代の選択肢」を決める投資です。30代の転職市場では専門性とリーダー経験が評価軸になるため（<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>30代ガイド</a>参照）、20代のうちに次の4つを意識して環境を選ぶと、後のキャリアが大きく変わります。
+            </p>
+          </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            {[
-              {
-                title: "専門性の軸を作る",
-                desc: "バックエンド、フロントエンド、インフラなど、まずは1つの分野で深い専門性を身につけましょう。20代のうちに専門性の軸ができると、30代でのキャリアアップや年収交渉がスムーズになります。",
-                color: "#0891b2",
-              },
-              {
-                title: "モダンな技術スタックに挑戦",
-                desc: "レガシーな技術だけでなく、クラウドやコンテナ、CI/CDなどモダンな技術に積極的に触れましょう。20代は吸収力が高く、新しい技術を学ぶのに最適な時期です。",
-                color: "#7c3aed",
-              },
-              {
-                title: "リーダー経験を積む",
-                desc: "小さなプロジェクトでもリーダーやメンター役を経験しておくと、30代でのPMやテックリードへのキャリアパスが開けます。20代後半からは積極的にリーダーシップを発揮する場を求めましょう。",
-                color: "#0891b2",
-              },
-              {
-                title: "女性が働きやすい環境を選ぶ",
-                desc: "産休育休制度の充実度、リモートワークの可否、女性管理職の比率など、長期的に働ける環境かどうかを重視しましょう。20代で良い環境に移ることで、キャリアの継続性が高まります。",
-                color: "#7c3aed",
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="rounded-xl border p-6"
-                style={{ borderColor: "#d1dce5" }}
-              >
-                <h3
-                  className="text-lg font-bold mb-3"
-                  style={{ color: item.color }}
-                >
-                  {item.title}
-                </h3>
-                <p className="text-text-light text-sm leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-8 space-y-4 text-text-light leading-relaxed">
-            <p>
-              20代の転職では、「年収アップ」だけでなく「成長環境」を重視することも大切です。多少年収が下がったとしても、技術力が飛躍的に伸びる環境に身を置くことで、3年後、5年後に大きなリターンが得られます。
-            </p>
-            <p>
-              また、20代のうちから将来のライフイベントを見据えた企業選びをすることも賢い選択です。実際に産休育休を取得した女性エンジニアがいるか、復帰後のキャリアパスが整備されているかなどを確認しておくことで、長期的なキャリア形成がスムーズになります。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 身につけるべきスキル */}
-      <section id="skills" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">
-            20代のうちに身につけるべきスキル
-          </h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              20代は学習能力が高く、新しいスキルを効率よく身につけられる時期です。転職市場で評価されるスキルを計画的に習得することで、キャリアアップのチャンスが大きく広がります。
-            </p>
-          </div>
-
-          <div className="mt-6 space-y-6">
-            {[
-              {
-                category: "プログラミング言語",
-                skills: [
-                  { name: "Python", reason: "AI/ML、データ分析、Web開発と幅広い分野で需要が高い" },
-                  { name: "TypeScript / JavaScript", reason: "フロントエンドからバックエンドまでフルスタック開発に必須" },
-                  { name: "Go", reason: "マイクロサービスやクラウドネイティブ開発で急速に需要が伸びている" },
-                ],
-              },
-              {
-                category: "インフラ・クラウド",
-                skills: [
-                  { name: "AWS / GCP / Azure", reason: "クラウドインフラの基本知識は職種問わず必須に" },
-                  { name: "Docker / Kubernetes", reason: "コンテナ技術はモダンな開発環境の標準" },
-                  { name: "Terraform / IaC", reason: "インフラのコード化スキルで差別化できる" },
-                ],
-              },
-              {
-                category: "ソフトスキル",
-                skills: [
-                  { name: "チーム開発・コードレビュー", reason: "協調性やコミュニケーション力の証明になる" },
-                  { name: "技術ドキュメント作成", reason: "知識を体系化し、チームに共有する力が評価される" },
-                  { name: "プロジェクト管理の基礎", reason: "リーダーへのステップとして不可欠" },
-                ],
-              },
-            ].map((group) => (
-              <div
-                key={group.category}
-                className="rounded-xl border p-6"
-                style={{ borderColor: "#d1dce5" }}
-              >
-                <h3
-                  className="text-lg font-bold mb-4"
-                  style={{ color: "#0891b2" }}
-                >
-                  {group.category}
-                </h3>
-                <div className="space-y-3">
-                  {group.skills.map((skill) => (
-                    <div key={skill.name} className="flex items-start gap-3">
-                      <span
-                        className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white whitespace-nowrap"
-                        style={{ backgroundColor: "#7c3aed" }}
-                      >
-                        {skill.name}
-                      </span>
-                      <span className="text-sm text-text-light">
-                        {skill.reason}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 未経験から */}
-      <section id="inexperienced" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">
-            未経験から20代でエンジニアになる方法
-          </h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              20代は未経験からエンジニアに転職するのに最も有利な年代です。多くの企業が20代の若手を「ポテンシャル採用」として受け入れており、プログラミング未経験でもエンジニアキャリアをスタートできます。
-            </p>
-
-            <h3 className="text-xl font-bold mt-8 mb-4" style={{ color: "#0891b2" }}>
-              未経験からの転職ステップ
-            </h3>
-            <div className="space-y-4">
-              {[
-                {
-                  step: "STEP 1",
-                  title: "プログラミングの基礎を学ぶ（1〜3ヶ月）",
-                  desc: "Progate、Udemyなどのオンライン教材やプログラミングスクールで基礎を学びます。HTML/CSS、JavaScriptから始めるのが一般的です。女性向けのプログラミングスクールも増えており、同じ境遇の仲間と一緒に学べる環境があります。",
-                },
-                {
-                  step: "STEP 2",
-                  title: "ポートフォリオを作成する（1〜2ヶ月）",
-                  desc: "学んだ技術を使ってオリジナルのWebアプリケーションを作成します。GitHubでソースコードを公開し、デプロイまで行うことで、面接での技術的なアピールポイントになります。",
-                },
-                {
-                  step: "STEP 3",
-                  title: "転職エージェントに登録する",
-                  desc: "未経験者向けの求人を豊富に持つ転職エージェントに登録します。ワークポートやリクルートエージェントは未経験エンジニアの転職支援実績が豊富です。",
-                },
-                {
-                  step: "STEP 4",
-                  title: "書類対策・面接対策を行う",
-                  desc: "エージェントのサポートを受けながら、職務経歴書の作成や面接対策を行います。なぜエンジニアを目指すのか、これまでの経験がどう活かせるかを明確に伝えられるようにしましょう。",
-                },
-                {
-                  step: "STEP 5",
-                  title: "企業選び・応募・面接（1〜2ヶ月）",
-                  desc: "研修制度が充実している企業を中心に応募します。SES企業からスタートして経験を積む方法もありますが、自社開発や受託開発企業に直接入社できるケースも20代なら十分あります。",
-                },
-              ].map((item) => (
-                <div
-                  key={item.step}
-                  className="flex gap-4 items-start rounded-xl border p-5"
-                  style={{ borderColor: "#d1dce5" }}
-                >
-                  <span
-                    className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white whitespace-nowrap"
-                    style={{ backgroundColor: "#f97066" }}
-                  >
-                    {item.step}
-                  </span>
-                  <div>
-                    <h4 className="font-bold mb-1">{item.title}</h4>
-                    <p className="text-sm text-text-light">{item.desc}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>① 専門性の軸を1つ決める</h3>
+              <p className="text-sm text-text-light leading-relaxed">バックエンド・フロントエンド・インフラ・データのどれか1つで「これは任せられる」と言われる深さを作る。軸が1本あると、30代での年収交渉と職種展開が一気に楽になります。</p>
             </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>② モダンな開発環境に身を置く</h3>
+              <p className="text-sm text-text-light leading-relaxed">クラウド（AWS/GCP）、コンテナ、CI/CD、コードレビュー文化のある環境を選ぶ。レガシー保守だけの20代と、モダン開発を経験した20代では、30代の求人レンジが変わります。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>③ 小さなリーダー経験を拾う</h3>
+              <p className="text-sm text-text-light leading-relaxed">後輩のOJT、レビュー担当、小さな機能のリード。20代後半でこの経験があると、30代でのテックリード・マネジメント路線への扉が開きます。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>④ 長く働ける環境かを見ておく</h3>
+              <p className="text-sm text-text-light leading-relaxed">育休の取得実績・復帰率、リモートやフレックスの利用率、女性エンジニアの在籍数。20代女性の離職理由の上位は「労働条件」（25〜29歳で15.2%）。消耗しない環境選びは20代から始まっています。</p>
+            </div>
+          </div>
+          <p className="text-text-light text-sm mt-3">出典: 厚生労働省「令和6年雇用動向調査」（2026年6月参照）</p>
+        </div>
+      </section>
 
-            <p className="mt-6">
-              未経験からの転職では、「なぜエンジニアになりたいのか」という動機と、「自分で学び続けられる姿勢」が重視されます。プログラミングスクールの卒業だけでは差別化が難しいため、自主的にアプリを開発したり、技術ブログを書いたりするなどの取り組みが評価されます。
+      {/* sec7 進め方 */}
+      <section id="sec7" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">20代の転職活動の進め方</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              20代の転職活動は在職中に進めるのが原則です。売り手市場とはいえ、勢いだけの転職は「不満の引っ越し」になりがち。標準的な期間は<strong>準備2〜4週間＋応募〜内定2〜3か月</strong>の計3〜4か月が目安です。
             </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              ["STEP1", "転職理由を言語化する（1週間）", "「何が嫌か」ではなく「何を得たいか」に変換する。年収・スキル・働き方・環境のどれが最優先かを1つに絞ると、企業選びの軸がぶれない。"],
+              ["STEP2", "経験の棚卸し", "担当業務・使用技術・工夫した点を書き出す。経験が浅くても「研修で学んだこと」「改善提案」「学習の継続」は立派な材料になる。"],
+              ["STEP3", "エージェント登録・市場価値の確認", "IT特化型＋女性特化型の2〜3社に登録し、想定年収レンジを確認。20〜24歳の転職者の50.5%が賃金増という相場感を基準に提示額を評価する。"],
+              ["STEP4", "応募・面接", "20代は「伸びしろの根拠」が問われる。学習習慣・キャッチアップの速さ・素直さをエピソードで示す。面接は場数で上達するので、本命の前に2〜3社受けておく。"],
+              ["STEP5", "条件確認・意思決定", "年収だけでなく、研修・配属・残業実態・育成文化を確認。迷ったら「3年後の自分が強くなっている方」を選ぶのが20代の鉄則。交渉はエージェント経由で。"],
+            ].map(([step, title, desc], i) => (
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+                <div>
+                  <h3 className="font-bold mb-1">{title}</h3>
+                  <p className="text-sm text-text-light leading-relaxed">{desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div
+            className="mt-8 rounded-xl border-l-4 p-5"
+            style={{ borderColor: "#f97066", backgroundColor: "#fff5f5" }}
+          >
+            <h3 className="font-bold mb-2" style={{ color: "#f97066" }}>注意点</h3>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li>・転職回数が多すぎるとマイナス評価になることも。20代で3回以上の転職は慎重に。</li>
+              <li>・「なんとなく」の転職は避け、明確な転職理由を持つことが大切です。</li>
+              <li>・年収だけで判断せず、成長環境や将来性も考慮しましょう。</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* おすすめエージェント */}
-      <section id="agent" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      {/* sec8 おすすめエージェント */}
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">
             20代女性エンジニアにおすすめの転職エージェント
@@ -594,184 +546,79 @@ export default function Age20sArticlePage() {
         </div>
       </section>
 
-      {/* 成功事例 */}
-      <section id="success" className="py-10">
+      {/* sec9 成功事例 */}
+      <section id="sec9" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            {[
-              {
-                name: "Aさん（25歳）",
-                before: "SES企業のJavaエンジニア / 年収320万円",
-                after: "自社開発Web企業のフロントエンドエンジニア / 年収420万円",
-                story:
-                  "SES企業で2年間Javaの保守運用を担当していましたが、モダンな技術を使った開発がしたいと思い転職を決意。独学でReactを学び、ポートフォリオを作成してレバテックキャリア経由で自社開発企業に転職。年収100万円アップを実現しました。",
-              },
-              {
-                name: "Bさん（28歳）",
-                before: "一般事務 / 年収280万円",
-                after: "Web系企業のバックエンドエンジニア / 年収380万円",
-                story:
-                  "事務職として働きながら、プログラミングスクールで6ヶ月間Pythonを学習。ワークポートに登録して未経験OK の求人を紹介してもらい、研修制度の充実したWeb企業に入社。リモートワーク制度もあり、働きやすい環境を手に入れました。",
-              },
-            ].map((case_) => (
-              <div
-                key={case_.name}
-                className="rounded-xl border p-6"
-                style={{ borderColor: "#d1dce5" }}
-              >
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
-                  {case_.name}
-                </h3>
-                <div className="grid gap-4 md:grid-cols-2 mb-4">
-                  <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
-                    <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                    <p className="text-sm font-bold">{case_.before}</p>
-                  </div>
-                  <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                    <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>
-                      転職後
-                    </p>
-                    <p className="text-sm font-bold">{case_.after}</p>
-                  </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（20代後半・経験者の職種転換）</h3>
+              <div className="grid gap-4 md:grid-cols-2 mb-4">
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
+                  <p className="text-sm font-bold">SES企業の保守運用エンジニア / 年収330万円</p>
                 </div>
-                <p className="text-sm text-text-light">{case_.story}</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
+                  <p className="text-sm font-bold">自社開発企業のWebエンジニア / 年収420万円・リモート併用</p>
+                </div>
               </div>
+              <p className="text-sm text-text-light">実務2年半の保守運用経験に加え、業務外でReactを学習しポートフォリオを公開。IT特化型エージェント経由で「実務基礎×学習意欲」のポテンシャル評価を受け、開発職への転換と年収90万円アップを同時に実現したケースです。25〜29歳は転職者の46.3%が賃金増・職種転換も通りやすい時期で、最も典型的な成功パターンです。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（20代前半・第二新卒の未経験挑戦）</h3>
+              <div className="grid gap-4 md:grid-cols-2 mb-4">
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
+                  <p className="text-sm font-bold">新卒2年目の一般事務 / 年収290万円</p>
+                </div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
+                  <p className="text-sm font-bold">研修制度のあるWeb系企業のバックエンドエンジニア / 年収340万円</p>
+                </div>
+              </div>
+              <p className="text-sm text-text-light">事務職のかたわら半年間Pythonを学習し、ITパスポートを取得して第二新卒枠で応募。「事務で培った業務理解×学習の継続実績」を評価され、研修制度の厚い企業に入社したケースです。第二新卒の採用予定企業は80.9%にのぼり、20代前半なら実務未経験でもポテンシャル採用の対象になります。</p>
+            </div>
+          </div>
+          <p className="text-xs text-text-light mt-4">※事例は20代女性エンジニアの典型的な転職パターンをもとに構成したモデルケースです。</p>
+        </div>
+      </section>
+
+      {/* sec10 FAQ */}
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
+          <div className="space-y-4">
+            {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+                  <span className="pr-4">{faq.name}</span>
+                  <span className="transition-transform group-open:rotate-180">&#9662;</span>
+                </summary>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                  <p className="pt-4">{faq.acceptedAnswer.text}</p>
+                </div>
+              </details>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 転職のポイント */}
-      <section id="tips" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">
-            転職活動のポイントと注意点
-          </h2>
-          <div className="space-y-4 text-text-light leading-relaxed">
-            <p>
-              20代の転職活動を成功させるために、以下のポイントを押さえておきましょう。
-            </p>
-
-            <div className="grid gap-6 md:grid-cols-2 mt-6">
-              {[
-                {
-                  title: "複数エージェントに登録する",
-                  desc: "1社だけでなく、2〜3社のエージェントに登録して求人の幅を広げましょう。IT特化型と総合型を併用するのがおすすめです。",
-                },
-                {
-                  title: "現職を辞めずに転職活動する",
-                  desc: "焦りから条件の悪い転職をしてしまわないよう、在職中に転職活動を行うのが安全です。有給やリモートワークを活用しましょう。",
-                },
-                {
-                  title: "技術面だけでなく環境も重視する",
-                  desc: "年収だけでなく、リモートワークの可否、残業時間、産休育休制度、女性の管理職比率なども確認しましょう。",
-                },
-                {
-                  title: "長期的なキャリアビジョンを持つ",
-                  desc: "「3年後、5年後にどうなりたいか」を明確にしておくと、企業選びの軸がぶれにくくなります。面接でも好印象を与えられます。",
-                },
-              ].map((tip) => (
-                <div
-                  key={tip.title}
-                  className="rounded-xl border bg-white p-6"
-                  style={{ borderColor: "#d1dce5" }}
-                >
-                  <h3 className="font-bold mb-2" style={{ color: "#0891b2" }}>
-                    {tip.title}
-                  </h3>
-                  <p className="text-sm text-text-light">{tip.desc}</p>
-                </div>
-              ))}
-            </div>
-
-            <div
-              className="mt-8 rounded-xl border-l-4 p-5"
-              style={{ borderColor: "#f97066", backgroundColor: "#fff5f5" }}
-            >
-              <h3 className="font-bold mb-2" style={{ color: "#f97066" }}>
-                注意点
-              </h3>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  ・転職回数が多すぎるとマイナス評価になることも。20代で3回以上の転職は慎重に。
-                </li>
-                <li>
-                  ・「なんとなく」の転職は避け、明確な転職理由を持つことが大切です。
-                </li>
-                <li>
-                  ・年収だけで判断せず、成長環境や将来性も考慮しましょう。
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 年収アップのコツ */}
+      {/* 出典 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">20代女性エンジニアが転職で年収アップするためのコツ</h2>
-          <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-2" style={{ color: "#0891b2" }}>
-                20代はポテンシャル採用が多い
-              </h3>
-              <p className="text-sm text-text-light">
-                20代の転職市場では、現時点のスキルだけでなく将来の成長性を重視する「ポテンシャル採用」が多いのが特徴です。未経験やスキルに自信がなくても、学習意欲や論理的思考力をアピールすることでチャンスをつかめます。特にIT業界は人材不足が深刻なため、20代女性エンジニアは非常に歓迎される傾向にあります。
-              </p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-2" style={{ color: "#0891b2" }}>
-                複数エージェント併用が年収アップの鍵
-              </h3>
-              <p className="text-sm text-text-light">
-                年収アップを実現するには、IT特化型エージェント（レバテックキャリア・Geeklyなど）と女性特化型エージェント（type女性の転職エージェントなど）の2本立てで併用するのが効果的です。IT特化型で技術力に見合った高年収求人を、女性特化型で産休育休やリモートワークなど働きやすさも兼ね備えた求人を同時に探せます。
-              </p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-2" style={{ color: "#0891b2" }}>
-                年収交渉はエージェントに任せるのが正解
-              </h3>
-              <p className="text-sm text-text-light">
-                年収交渉は自分からしなくても、転職エージェントが代行してくれます。特に20代は自分の市場価値を過小評価しがちですが、エージェントは業界の相場を熟知しているため、適正年収での交渉を進めてくれます。「言いにくい」と感じる年収の話も、プロに任せることで円滑に進められるのが大きなメリットです。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section id="faq" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
-          <div className="space-y-4">
-            {faqData.mainEntity.map(
-              (faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-                <details
-                  key={i}
-                  className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
-                >
-                  <summary
-                    className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
-                  >
-                    <span className="pr-4">{faq.name}</span>
-                    <span className="transition-transform group-open:rotate-180">
-                      &#9662;
-                    </span>
-                  </summary>
-                  <div
-                    className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
-                  >
-                    <p className="pt-4">{faq.acceptedAnswer.text}</p>
-                  </div>
-                </details>
-              )
-            )}
-          </div>
+          <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
+          <ul className="space-y-2 text-sm text-text-light">
+            <li>・出典: 厚生労働省「令和6年雇用動向調査」（2026年6月参照）— 女性の転職入職率（20〜24歳14.3%、25〜29歳16.8%。男性は13.4%・15.1%）、転職者の賃金変動（増加：20〜24歳50.5%・25〜29歳46.3%、うち1割以上の増加38.5%・37.9%。減少：16.8%・29.2%）、前職を辞めた理由（25〜29歳女性：労働時間・休日等の労働条件15.2%、職場の人間関係14.0%、結婚8.1%、出産・育児1.7%）</li>
+            <li>・出典: doda（パーソルキャリア）「平均年収ランキング2025」（2026年6月参照）— 全体429万円、20代365万円（男性392万円・女性341万円）、IT/通信業種の20代381万円、エンジニア（IT/通信）職種469万円。集計期間2024年9月〜2025年8月・約60万件</li>
+            <li>・出典: doda（パーソルキャリア）「転職求人倍率レポート（2026年4月）」（2026年6月参照）— 全体2.38倍、エンジニア（IT・通信）は10倍超の高水準</li>
+            <li>・出典: パーソルキャリア「年代別 転職時の年収変動レポート（2025年度上期）」（2026年6月参照）— 20代の転職時の平均決定年収は2019年度同期比で13%アップ</li>
+            <li>・出典: マイナビキャリアリサーチLab「2025年以降の第二新卒採用ニーズは8割超」（2026年6月参照）— 第二新卒を今後採用する予定の企業80.9%（積極的に採用33.7%・積極的ではないが採用47.2%）、従業員1000人以上では87.9%</li>
+            <li>・出典: レバテック「IT人材白書2024」（2026年6月参照）— エンジニア未経験者を「採用している」企業41.6%、「検討中」含め約7割</li>
+            <li>・出典: ヒューマンリソシア「IT分野のジェンダーギャップに関するグローバル調査」（2026年6月参照）— 日本のITエンジニア女性比率18.8%（OECD平均20.6%）</li>
+            <li>・出典: ウィルオブテック「未経験からエンジニア転職を叶える全知識」（2026年6月参照）— 未経験転職1年目の年収相場300万〜400万円</li>
+          </ul>
+          <p className="text-xs text-text-light mt-4">※年収・割合などの数値は調査時点のものであり、企業・地域・スキルにより変動します。</p>
         </div>
       </section>
 
@@ -780,40 +627,30 @@ export default function Age20sArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            {[
-              {
-                href: "/articles/age-30s/",
-                title: "30代女性エンジニアの転職ガイド",
-                desc: "年収アップと働き方の両立を実現する方法",
-              },
-              {
-                href: "/articles/beginner/",
-                title: "未経験から女性エンジニアになるには？",
-                desc: "最短ルートと必要スキルを徹底解説",
-              },
-              {
-                href: "/articles/salary/",
-                title: "女性エンジニアの年収ガイド",
-                desc: "平均年収と年収アップの方法を紹介",
-              },
-              {
-                href: "/articles/career-path/",
-                title: "女性エンジニアのキャリアパス",
-                desc: "5年後・10年後のキャリア設計を解説",
-              },
-            ].map((article) => (
-              <a
-                key={article.href}
-                href={article.href}
-                className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-                style={{ borderColor: "#d1dce5" }}
-              >
-                <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
-                  {article.title}
-                </h3>
-                <p className="text-sm text-text-light">{article.desc}</p>
-              </a>
-            ))}
+            <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>30代女性エンジニアの転職ガイド</h3>
+              <p className="text-sm text-text-light">年収相場・未経験の現実・両立戦略</p>
+            </a>
+            <a href="/articles/salary-by-age/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年代別年収ガイド</h3>
+              <p className="text-sm text-text-light">20代〜40代の年収相場と上げ方</p>
+            </a>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からエンジニアになるガイド</h3>
+              <p className="text-sm text-text-light">学習ロードマップと職種の選び方</p>
+            </a>
+            <a href="/articles/programming-school/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>プログラミングスクールの選び方</h3>
+              <p className="text-sm text-text-light">失敗しないスクール選びの基準</p>
+            </a>
+            <a href="/articles/cert-kihonjoho/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>基本情報技術者試験ガイド</h3>
+              <p className="text-sm text-text-light">20代の土台づくりに効く定番資格</p>
+            </a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3>
+              <p className="text-sm text-text-light">5年後・10年後のキャリア設計を解説</p>
+            </a>
           </div>
         </div>
       </section>
