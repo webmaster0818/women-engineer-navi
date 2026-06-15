@@ -5,10 +5,20 @@ const footerLinks = [
     title: "コンテンツ",
     links: [
       { href: "/ranking/", label: "おすすめエージェント" },
-      { href: "/articles/age-20s/", label: "20代転職ガイド" },
-      { href: "/articles/age-30s/", label: "30代転職ガイド" },
+      { href: "/articles/category-index/", label: "記事一覧" },
+      { href: "/articles/faq-all/", label: "よくある質問" },
       { href: "/articles/beginner/", label: "未経験からエンジニアへ" },
       { href: "/articles/salary/", label: "年収ガイド" },
+    ],
+  },
+  {
+    title: "カテゴリから探す",
+    links: [
+      { href: "/articles/career-path/", label: "職種別キャリア" },
+      { href: "/articles/certification/", label: "資格・学習" },
+      { href: "/articles/age-30s/", label: "年代別の転職" },
+      { href: "/articles/remote-jobs/", label: "リモート・働き方" },
+      { href: "/articles/mama-engineer/", label: "産休育休・両立" },
     ],
   },
   {
@@ -25,7 +35,7 @@ export default function Footer() {
   return (
     <footer className="bg-footer text-white">
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
             <Link href="/" className="text-lg font-bold">

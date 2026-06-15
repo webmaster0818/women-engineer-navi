@@ -110,8 +110,8 @@ export default function HomePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <Link href="/age-guide/" className="btn-outline text-base">
-              年代別ガイドを見る
+            <Link href="/articles/category-index/" className="btn-outline text-base">
+              お役立ち記事を見る
             </Link>
           </div>
         </div>
@@ -154,6 +154,47 @@ export default function HomePage() {
                 <div className="mt-2 text-sm text-text-light">{stat.label}</div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Browse by theme */}
+      <section className="py-16 md:py-20">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center">
+            <span className="text-gradient">目的</span>から記事を探す
+          </h2>
+          <p className="mt-4 text-center text-text-light">
+            職種・年収・資格・働き方など、テーマ別に女性エンジニアの転職・キャリア記事を用意しています
+          </p>
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { label: "職種別キャリア", desc: "バックエンド・データ・AI ほか", href: "/articles/career-path/" },
+              { label: "年収・単価データ", desc: "年代別・職種別・言語別の実額", href: "/articles/salary/" },
+              { label: "資格・学習", desc: "基本情報・AWS・Python ほか", href: "/articles/certification/" },
+              { label: "未経験から転職", desc: "ロードマップと現実", href: "/articles/beginner/" },
+              { label: "年代別の転職", desc: "20代・30代・40代の戦略", href: "/articles/age-30s/" },
+              { label: "リモート・働き方", desc: "在宅・時短・フリーランス", href: "/articles/remote-jobs/" },
+              { label: "産休育休・両立", desc: "ライフイベントとキャリア", href: "/articles/mama-engineer/" },
+              { label: "選考・面接対策", desc: "職務経歴書・技術面接ほか", href: "/articles/interview-guide/" },
+            ].map((cat) => (
+              <Link key={cat.href} href={cat.href} className="card group block">
+                <h3 className="font-bold text-sm md:text-base group-hover:text-primary transition-colors">
+                  {cat.label}
+                </h3>
+                <p className="mt-1.5 text-xs text-text-light leading-relaxed">
+                  {cat.desc}
+                </p>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/articles/category-index/" className="btn-cta text-base">
+              すべての記事を見る
+            </Link>
+            <Link href="/articles/faq-all/" className="btn-outline text-base">
+              よくある質問をまとめて見る
+            </Link>
           </div>
         </div>
       </section>

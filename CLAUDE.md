@@ -33,3 +33,9 @@
 - success-storiesは架空体験談集→統計ベース「成功パターン分析」へ全面転換（モデルケースは三重注記）
 - programming-schoolは特定スクール優劣なし「選び方基準+給付金活用」軸へ転換
 - 進捗: 40/54本+新規1本。残りTier B 14本: harassment/work-life-balance/side-job/startup/game-industry/web-industry/sier-industry/ses-vs-jisha/community/demand/schedule/work-abroad/category-index/faq-all
+
+## 2026-06-12 バッチ6・7完了✅【既存53本リライト全完了】
+- バッチ6: faq-all(19問FAQハブ)/ses-vs-jisha/web-industry/sier-industry/game-industry/work-life-balance/harassment(カスハラ2026年10月施行を正確に)/side-job
+- バッチ7(最終): startup(SO税制正確)/community(実在確認済み10件・WWC解散2024を訂正)/demand(統計データ記事)/schedule/work-abroad/category-index(全100記事ハブ)
+- sitemapのage-30s/mama-engineer lastmod漏れも修正。これで既存53本+新規1本=54本すべて実データ・出典付き完了
+- 残課題: ranking/reviews/トップ（保護ルールのため要相談・未着手）、cert-python実践系の学割表記（未検証のため未修正）
