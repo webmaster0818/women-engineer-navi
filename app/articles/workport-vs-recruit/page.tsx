@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "ワークポートとリクルートエージェントの違いを公式サイトの公開情報のみで整理。運営会社・求人数の公式表示・サポート体制を出典付きで比較し、状況別の使い分けを中立に解説します。",
     url: "https://women-engineer.com/articles/workport-vs-recruit/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

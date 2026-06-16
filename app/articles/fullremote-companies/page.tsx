@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "本当に働きやすいフルリモート企業の見極め方。出社頻度・評価制度・オンボーディング・リモート手当のチェックリスト、面接で聞くべき質問、口コミの集め方を女性視点で解説。",
     url: "https://women-engineer.com/articles/fullremote-companies/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

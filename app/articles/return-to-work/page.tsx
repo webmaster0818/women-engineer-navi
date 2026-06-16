@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "第1子出産前後の就業継続率69.5%や正規雇用比率のL字カーブなど公的統計と、教育訓練給付（最大80%）・経産省リスキリング支援（最大56万円）など実在の支援制度を出典付きで解説。ブランク年数別の復職戦略がわかります。",
     url: "https://women-engineer.com/articles/return-to-work/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

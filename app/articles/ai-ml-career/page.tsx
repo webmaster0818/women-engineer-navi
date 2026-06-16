@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "AI・機械学習エンジニアの年収相場・求人急増データ・必要スキル・未経験からの現実的な段階ルートを、求人統計と公的調査の出典付きで解説。",
     url: "https://women-engineer.com/articles/ai-ml-career/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

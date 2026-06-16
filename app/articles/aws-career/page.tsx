@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性AWSエンジニアの年収・需要・スキルマップ・未経験からのロードマップを実データと出典付きで解説。リモート適性が高くライフイベントと両立しやすい職種です。",
     url: "https://women-engineer.com/articles/aws-career/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "女性AWSエンジニア転職ガイド｜年収・需要・未経験からのロードマップ【2026年】",
   datePublished: "2026-04-28",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "女性AWSエンジニアの年収・需要・スキルマップ・未経験からのロードマップを実データと出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/aws-career/" },

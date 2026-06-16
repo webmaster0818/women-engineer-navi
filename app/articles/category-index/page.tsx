@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "記事カテゴリ一覧｜女性エンジニア転職ナビの歩き方【全記事ガイド】",
+  title: "記事カテゴリ一覧｜CareeHUB for womanの歩き方【全記事ガイド】",
   description:
-    "女性エンジニア転職ナビの全100記事を13カテゴリに整理した記事ハブ。はじめての方向けガイドから職種・言語・資格・年収・働き方・両立・年代別・地域・選考対策・業界研究・エージェント比較・キャリアまで、目的の記事がすぐ見つかります。",
+    "CareeHUB for womanの全100記事を13カテゴリに整理した記事ハブ。はじめての方向けガイドから職種・言語・資格・年収・働き方・両立・年代別・地域・選考対策・業界研究・エージェント比較・キャリアまで、目的の記事がすぐ見つかります。",
   alternates: { canonical: "/articles/category-index/" },
   openGraph: {
-    title: "記事カテゴリ一覧｜女性エンジニア転職ナビの歩き方【全記事ガイド】",
+    title: "記事カテゴリ一覧｜CareeHUB for womanの歩き方【全記事ガイド】",
     description:
       "全100記事を13カテゴリに整理した記事ハブ。職種・言語・資格・年収・働き方・両立・選考対策など、目的の記事がすぐ見つかります。",
     url: "https://women-engineer.com/articles/category-index/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -20,13 +20,13 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "記事カテゴリ一覧｜女性エンジニア転職ナビの歩き方【全記事ガイド】",
+  headline: "記事カテゴリ一覧｜CareeHUB for womanの歩き方【全記事ガイド】",
   datePublished: "2026-04-29",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
-    "女性エンジニア転職ナビの全100記事を13カテゴリに整理した記事ハブ。目的別スタートガイドつきで、読むべき記事がすぐ見つかります。",
+    "CareeHUB for womanの全100記事を13カテゴリに整理した記事ハブ。目的別スタートガイドつきで、読むべき記事がすぐ見つかります。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/category-index/" },
 };
 
@@ -320,7 +320,7 @@ export default function CategoryIndexPage() {
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>全記事ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               記事カテゴリ一覧
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニア転職ナビの歩き方【全{totalArticles}記事】</span>
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">CareeHUB for womanの歩き方【全{totalArticles}記事】</span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
           </div>
@@ -333,7 +333,7 @@ export default function CategoryIndexPage() {
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>このページの使い方</h2>
             <p className="text-sm text-text-light leading-relaxed">
-              女性エンジニア転職ナビの全{totalArticles}記事を、13のカテゴリに整理した記事ハブです。何から読むか迷ったら、まず下の「目的別スタートガイド」から自分に近いパターンを選んでください。読みたいテーマが決まっている方は、カテゴリ別目次から該当カテゴリへジャンプできます。各記事は公的統計・公開調査の実データと出典に基づいて作成しています。
+              CareeHUB for womanの全{totalArticles}記事を、13のカテゴリに整理した記事ハブです。何から読むか迷ったら、まず下の「目的別スタートガイド」から自分に近いパターンを選んでください。読みたいテーマが決まっている方は、カテゴリ別目次から該当カテゴリへジャンプできます。各記事は公的統計・公開調査の実データと出典に基づいて作成しています。
             </p>
           </div>
         </div>

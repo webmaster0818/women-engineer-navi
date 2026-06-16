@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "育休中のエンジニアがスキルアップ・リスキリングに取り組む方法を実データで解説。おすすめ学習分野・スキマ時間の学習法・資格・教育訓練給付金などの支援制度・復職/転職への活かし方まで。",
     url: "https://women-engineer.com/articles/reskilling-leave/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

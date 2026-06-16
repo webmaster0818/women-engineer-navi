@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "東京の女性エンジニア転職を実データで解説。全国最多の求人、高い年収相場、働きやすい企業、未経験ステップ、リモートと保活・通勤事情まで。",
     url: "https://women-engineer.com/articles/tokyo/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

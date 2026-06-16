@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "厚労省「人材サービス総合サイト」での許可確認・実績データの読み方、職業紹介優良事業者認定制度、面談での見極め質問リストまで。転職エージェントの選び方を検証可能な情報で解説します。",
     url: "https://women-engineer.com/articles/how-to-choose/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Green（グリーン）を女性エンジニア目線で徹底レビュー。カジュアル面談・スカウト型の実力を検証。",
     url: "https://women-engineer.com/reviews/green/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -24,8 +24,8 @@ const structuredData = {
   headline: "Greenの口コミ・評判｜女性エンジニアのカジュアル転職に最適？",
   datePublished: "2026-04-27",
   dateModified: "2026-04-27",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "Green（グリーン）を女性エンジニア目線で徹底レビュー。カジュアル面談・スカウト型の実力を検証。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/green/" },
 };

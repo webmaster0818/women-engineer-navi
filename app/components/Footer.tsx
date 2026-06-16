@@ -42,11 +42,12 @@ export default function Footer() {
               <span aria-hidden className="text-secondary text-base leading-none">
                 &#9670;
               </span>
-              <span
-                className="text-lg font-bold tracking-wide text-[#f3e7dd]"
-                style={{ fontFamily: "var(--font-shippori), serif" }}
-              >
-                女性エンジニア転職ナビ
+              <span className="text-xl text-[#f3e7dd]" style={{ fontFamily: "var(--font-fraunces), serif" }}>
+                <span style={{ fontWeight: 500 }}>CareeHUB</span>
+                <span className="text-[#c4ab9e]" style={{ fontStyle: "italic", fontWeight: 400 }}>
+                  {" "}
+                  for woman
+                </span>
               </span>
             </Link>
             <p
@@ -88,7 +89,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-6 border-t border-[#473640] text-center">
           <p className="text-[0.7rem] tracking-[0.18em] text-[#9c8278]">
-            &copy; {new Date().getFullYear()} 女性エンジニア転職ナビ ALL RIGHTS RESERVED.
+            &copy; {new Date().getFullYear()} CareeHUB for woman ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>

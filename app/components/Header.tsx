@@ -26,16 +26,17 @@ export default function Header() {
           </span>
           <span className="flex flex-col leading-none">
             <span
-              className="font-serif font-bold text-[1.15rem] tracking-wide text-text"
-              style={{ fontFamily: "var(--font-shippori), serif" }}
+              className="text-[1.25rem] text-text"
+              style={{ fontFamily: "var(--font-fraunces), serif" }}
             >
-              女性エンジニア転職ナビ
+              <span style={{ fontWeight: 500 }}>CareeHUB</span>
+              <span className="text-text-light" style={{ fontStyle: "italic", fontWeight: 400 }}>
+                {" "}
+                for woman
+              </span>
             </span>
-            <span
-              className="mt-1 text-[0.6rem] tracking-[0.25em] text-text-light uppercase"
-              style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}
-            >
-              Women in Tech Careers
+            <span className="mt-1 text-[0.58rem] tracking-[0.22em] text-text-light">
+              女性エンジニアの転職・キャリア
             </span>
           </span>
         </Link>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "ライブコーディング・システム設計・技術深掘り・ペアプロの4形式と評価観点、詰まったときの立ち回りを出典付きで解説。",
     url: "https://women-engineer.com/articles/technical-interview/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "エンジニア技術面接の対策ガイド｜ライブコーディング・設計質問・深掘りへの備え【2026年】",
   datePublished: "2026-04-29",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "エンジニア技術面接の対策ガイド。ライブコーディング・システム設計・技術深掘り・ペアプロの4形式と評価観点、詰まったときの立ち回り、経験レベル別の準備法を出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/technical-interview/" },

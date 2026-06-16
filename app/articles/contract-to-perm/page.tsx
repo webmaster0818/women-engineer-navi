@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "契約社員エンジニアの女性が正社員を目指すためのガイド。無期転換ルール・正社員登用制度・具体ステップ・メリデメ・転職という別ルート・安定戦略を実データで解説。",
     url: "https://women-engineer.com/articles/contract-to-perm/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

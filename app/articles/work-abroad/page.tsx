@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "国別年収比較（出典付き）・就労ビザの基礎・海外で働く4つのルート・英語力の現実的なラインを実データで解説。",
     url: "https://women-engineer.com/articles/work-abroad/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

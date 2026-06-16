@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "レバテックキャリアを女性エンジニア目線で徹底レビュー。IT特化・求人48,000件以上・年収70万UP実績など、リアルな口コミと評判を紹介。",
     url: "https://women-engineer.com/reviews/levtech/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -30,12 +30,12 @@ const structuredData = {
   dateModified: "2026-04-27",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

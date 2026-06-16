@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "育児中の女性エンジニアの1日を、リモート例・出社例のタイムスケジュール表で具体的に解説。使える制度・両立の工夫・病児対応・本音・メンタル維持まで。",
     url: "https://women-engineer.com/articles/work-childcare-day/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

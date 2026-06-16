@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "IT業界の残業は月16.5時間（全産業13.2時間）、有給取得率66.9%、フレックス導入率35.9%で産業別トップ。公的統計でWLBの実態と職場の見極め方を解説。",
     url: "https://women-engineer.com/articles/work-life-balance/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "女性エンジニア転職ナビ | 女性ITエンジニアのための転職エージェント比較サイト",
+  title: "CareeHUB for woman | 女性ITエンジニアのための転職エージェント比較サイト",
   description:
     "女性エンジニアに特化した転職エージェント比較サイト。産休育休取得率・リモートワーク率・女性アドバイザー有無など、女性ならではの視点で徹底比較。あなたに最適な転職エージェントが見つかります。",
   alternates: { canonical: "/" },

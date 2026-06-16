@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "Web業界の構造・年収相場・SIerとの文化差・女性比率を公的データと出典付きで解説。未経験転職の現実的なルートも正直に紹介します。",
     url: "https://women-engineer.com/articles/web-industry/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

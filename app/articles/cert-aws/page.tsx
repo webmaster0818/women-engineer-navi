@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "AWS認定の体系・難易度・受験料・勉強時間・勉強法・年収アップ効果を実データで解説。女性エンジニアがどの資格から取るべきかも紹介。",
     url: "https://women-engineer.com/articles/cert-aws/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

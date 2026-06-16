@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "40代女性エンジニアの年収相場・転職市場・マネジメント/スペシャリスト/社内SEのキャリア戦略・未経験挑戦の現実的な選択肢を公的統計と実データで解説。",
     url: "https://women-engineer.com/articles/age-40s/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

@@ -4,15 +4,15 @@ import Breadcrumb from "../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "利用規約",
   description:
-    "女性エンジニア転職ナビの利用規約です。当サイトをご利用いただく前に、本利用規約をよくお読みください。",
+    "CareeHUB for womanの利用規約です。当サイトをご利用いただく前に、本利用規約をよくお読みください。",
   alternates: { canonical: "/terms/" },
   openGraph: {
-    title: "利用規約 | 女性エンジニア転職ナビ",
+    title: "利用規約 | CareeHUB for woman",
     description:
-      "女性エンジニア転職ナビの利用規約です。当サイトをご利用いただく前に、本利用規約をよくお読みください。",
+      "CareeHUB for womanの利用規約です。当サイトをご利用いただく前に、本利用規約をよくお読みください。",
     url: "https://women-engineer.com/terms/",
     type: "website",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -20,21 +20,21 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "利用規約 | 女性エンジニア転職ナビ",
+  headline: "利用規約 | CareeHUB for woman",
   datePublished: "2026-04-27",
   dateModified: "2026-04-27",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:
-    "女性エンジニア転職ナビの利用規約です。",
+    "CareeHUB for womanの利用規約です。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/terms/",
@@ -77,7 +77,7 @@ export default function TermsPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div className="prose prose-gray max-w-none space-y-8 text-text-light leading-relaxed">
             <p>
-              この利用規約（以下「本規約」といいます）は、株式会社MediaX（以下「当社」といいます。所在地：東京都渋谷区）が運営するウェブサイト「女性エンジニア転職ナビ」（以下「当サイト」といいます）の利用条件を定めるものです。当サイトをご利用いただく全てのお客様（以下「利用者」といいます）には、本規約に同意のうえ、当サイトをご利用いただくものとします。
+              この利用規約（以下「本規約」といいます）は、株式会社MediaX（以下「当社」といいます。所在地：東京都渋谷区）が運営するウェブサイト「CareeHUB for woman」（以下「当サイト」といいます）の利用条件を定めるものです。当サイトをご利用いただく全てのお客様（以下「利用者」といいます）には、本規約に同意のうえ、当サイトをご利用いただくものとします。
             </p>
 
             <div>
@@ -214,7 +214,7 @@ export default function TermsPage() {
                   {[
                     ["運営会社", "株式会社MediaX"],
                     ["所在地", "東京都渋谷区"],
-                    ["サイト名", "女性エンジニア転職ナビ"],
+                    ["サイト名", "CareeHUB for woman"],
                     ["URL", "https://women-engineer.com"],
                     ["お問い合わせ", "サイト内のお問い合わせフォームよりご連絡ください"],
                   ].map(([label, value]) => (

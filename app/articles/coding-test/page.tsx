@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "paiza・Track Test・HireRoo・AtCoder PASTなど実在サービスの形式比較と、レベル別対策ロードマップを出典付きで解説。",
     url: "https://women-engineer.com/articles/coding-test/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "転職のコーディングテスト対策ガイド｜出題形式・難易度・対策ロードマップ【2026年】",
   datePublished: "2026-04-29",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "転職のコーディングテスト対策ガイド。paiza・Track Test・HireRoo・AtCoder PASTなど実在サービスの形式比較、レベル別対策ロードマップ、落ちやすいポイントを出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/coding-test/" },

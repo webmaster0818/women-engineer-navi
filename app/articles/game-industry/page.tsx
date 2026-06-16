@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "国内市場規模・職種別年収・必要スキル・働き方の実態を、ファミ通ゲーム白書やCESA調査などの実データで解説。女性エンジニアがゲーム業界へ転職する現実的なルートを紹介します。",
     url: "https://women-engineer.com/articles/game-industry/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "ゲーム業界で働く女性エンジニア｜年収・職種・必要スキルと転職ルート【2026年】",
   datePublished: "2026-04-29",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "国内市場規模・職種別年収・必要スキル・働き方の実態を、ファミ通ゲーム白書やCESA調査などの実データで解説。女性エンジニアがゲーム業界へ転職する現実的なルートを紹介。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/game-industry/" },

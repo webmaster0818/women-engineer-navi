@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "転職エージェントと転職サイトの違いを仕組みと制度から解説。職業安定法上の位置づけ、成功報酬モデル、厚労省の公的調査による利用実態を出典付きで整理し、状況別の使い分けを紹介します。",
     url: "https://women-engineer.com/articles/agent-vs-site/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

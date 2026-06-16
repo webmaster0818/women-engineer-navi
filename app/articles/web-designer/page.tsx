@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "Webデザイナーとエンジニアの年収差、AIによるデザイナー職の変化、デザイン経験が強みになる領域、学習ロードマップを実データ・出典付きで解説。",
     url: "https://women-engineer.com/articles/web-designer/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

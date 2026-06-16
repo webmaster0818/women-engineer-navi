@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "福岡のIT転職市場・年収相場・女性が働きやすい企業・リモート移住・転職事例を実データで徹底解説。「女性エンジニア 転職 福岡」の決定版ガイド。",
     url: "https://women-engineer.com/articles/fukuoka/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

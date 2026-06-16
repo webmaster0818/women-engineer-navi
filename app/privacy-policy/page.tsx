@@ -4,15 +4,15 @@ import Breadcrumb from "../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "プライバシーポリシー",
   description:
-    "女性エンジニア転職ナビのプライバシーポリシーです。当サイトにおける個人情報の取扱いについて定めています。",
+    "CareeHUB for womanのプライバシーポリシーです。当サイトにおける個人情報の取扱いについて定めています。",
   alternates: { canonical: "/privacy-policy/" },
   openGraph: {
-    title: "プライバシーポリシー | 女性エンジニア転職ナビ",
+    title: "プライバシーポリシー | CareeHUB for woman",
     description:
-      "女性エンジニア転職ナビのプライバシーポリシーです。当サイトにおける個人情報の取扱いについて定めています。",
+      "CareeHUB for womanのプライバシーポリシーです。当サイトにおける個人情報の取扱いについて定めています。",
     url: "https://women-engineer.com/privacy-policy/",
     type: "website",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -20,21 +20,21 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "プライバシーポリシー | 女性エンジニア転職ナビ",
+  headline: "プライバシーポリシー | CareeHUB for woman",
   datePublished: "2026-04-27",
   dateModified: "2026-04-27",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:
-    "女性エンジニア転職ナビのプライバシーポリシーです。",
+    "CareeHUB for womanのプライバシーポリシーです。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/privacy-policy/",
@@ -77,7 +77,7 @@ export default function PrivacyPolicyPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div className="prose prose-gray max-w-none space-y-8 text-text-light leading-relaxed">
             <p>
-              株式会社MediaX（以下「当社」といいます。所在地：東京都渋谷区）は、当社が運営するウェブサイト「女性エンジニア転職ナビ」（以下「当サイト」といいます）において、利用者の個人情報の保護に細心の注意を払い、以下のプライバシーポリシー（以下「本ポリシー」といいます）に基づき、適切に取り扱います。
+              株式会社MediaX（以下「当社」といいます。所在地：東京都渋谷区）は、当社が運営するウェブサイト「CareeHUB for woman」（以下「当サイト」といいます）において、利用者の個人情報の保護に細心の注意を払い、以下のプライバシーポリシー（以下「本ポリシー」といいます）に基づき、適切に取り扱います。
             </p>
 
             <div>
@@ -229,7 +229,7 @@ export default function PrivacyPolicyPage() {
                   {[
                     ["運営会社", "株式会社MediaX"],
                     ["所在地", "東京都渋谷区"],
-                    ["サイト名", "女性エンジニア転職ナビ"],
+                    ["サイト名", "CareeHUB for woman"],
                     ["URL", "https://women-engineer.com"],
                   ].map(([label, value]) => (
                     <tr key={label}>

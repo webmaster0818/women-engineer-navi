@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性ITエンジニアの平均年収は419万円、女性SEは約497万円。年代別・職種別の実データと男女賃金差、年収アップの具体策を2026年最新データで解説。",
     url: "https://women-engineer.com/articles/salary/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

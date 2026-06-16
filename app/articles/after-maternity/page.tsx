@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "育休からの復職率93.2%・女性の育休取得率86.6%などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを給付金・保育園・心証の3論点で整理。転職タイミングの判断基準がわかります。",
     url: "https://women-engineer.com/articles/after-maternity/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

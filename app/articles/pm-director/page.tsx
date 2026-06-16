@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "PM平均年収707万円（doda2025）・PdM約774万円・Webディレクター約495万円。3職種の違いとエンジニアからの移行ルート、両立の実態を実データで解説。",
     url: "https://women-engineer.com/articles/pm-director/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

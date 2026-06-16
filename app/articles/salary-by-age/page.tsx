@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性エンジニアの20代〜50代の年収推移を実額で解説。男女差の理由・ライフイベントの影響・年代別の年収アップ戦略を年代別年収表とともに紹介。",
     url: "https://women-engineer.com/articles/salary-by-age/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

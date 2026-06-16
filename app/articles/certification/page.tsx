@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "基本情報・応用情報・AWS・LPIC・Python・データベース系資格を目的×レベル別マップで整理。受験料・形式を公式出典付きで解説する決定版ガイド。",
     url: "https://women-engineer.com/articles/certification/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "女性エンジニアの資格ガイド｜目的別おすすめ資格マップと優先順位【2026年】",
   datePublished: "2026-04-29",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "基本情報・応用情報・AWS・LPIC・Python・データベース系資格を目的×レベル別マップで整理。受験料・形式を公式出典付きで解説する決定版ガイド。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/certification/" },

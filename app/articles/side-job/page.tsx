@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "副業容認企業64.0%・副業実施率11.0%・平均時給3,617円（パーソル総合研究所2025）。形態別単価、20万円ルールの正確な税務、就業規則の注意点を実データで解説。",
     url: "https://women-engineer.com/articles/side-job/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

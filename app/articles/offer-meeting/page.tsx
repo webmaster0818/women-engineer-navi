@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "内定後のオファー面談で確認すべき項目チェックリスト、年収交渉のコツ、辞退の対応、女性のライフプラン確認ポイントを実データで解説。",
     url: "https://women-engineer.com/articles/offer-meeting/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

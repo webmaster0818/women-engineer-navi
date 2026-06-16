@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "選考フロー全体図・頻出質問4カテゴリの答え方フレーム・結婚出産の質問への対処・オンライン面接チェックリストを出典付きで解説。",
     url: "https://women-engineer.com/articles/interview-guide/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "女性エンジニアの転職面接対策｜流れ・頻出質問・答え方の組み立て【2026年】",
   datePublished: "2026-04-27",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "エンジニア転職の面接対策ガイド。選考フロー全体図、頻出質問4カテゴリの答え方フレーム、結婚・出産の質問への対処、オンライン面接チェックリストを出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/interview-guide/" },

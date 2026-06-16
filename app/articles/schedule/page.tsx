@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "全体3〜6ヶ月の標準モデル、フェーズ別タイムライン、入社希望日からの逆算プラン、ボーナス月・ライフイベントのタイミング、退職の法的ルールまで出典付きで解説。",
     url: "https://women-engineer.com/articles/schedule/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
   datePublished: "2026-04-27",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "エンジニア転職のスケジュールガイド。全体3〜6ヶ月の標準モデル、フェーズ別タイムライン、入社希望日からの逆算プラン、ボーナス月・ライフイベントのタイミング、民法627条と就業規則の関係を出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/schedule/" },

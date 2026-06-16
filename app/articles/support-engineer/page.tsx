@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性に人気のテクニカルサポート／カスタマーサクセス転職を実データで徹底解説。年収・未経験からのなり方・SaaS拡大による求人動向・キャリアパス。",
     url: "https://women-engineer.com/articles/support-engineer/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

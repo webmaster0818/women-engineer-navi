@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "IT業界の女性管理職比率、EM・PMへのルート、管理職の年収、必要なスキル、女性特有の課題と対策、えるぼし認定企業の見極め方を実データで徹底解説。",
     url: "https://women-engineer.com/articles/women-manager/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

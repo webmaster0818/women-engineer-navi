@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "平均年収419万〜約497万円、求人倍率10.68倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブです。",
     url: "https://women-engineer.com/articles/faq-all/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
   datePublished: "2026-04-29",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "平均年収419万〜約497万円、求人倍率10.68倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブ。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/faq-all/" },

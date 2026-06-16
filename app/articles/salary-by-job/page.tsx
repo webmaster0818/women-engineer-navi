@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "主要IT職種の平均年収を女性視点で一覧比較。高年収職種の傾向・年収を上げる戦略・年代別推移・未経験からの道を実データで解説。",
     url: "https://women-engineer.com/articles/salary-by-job/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

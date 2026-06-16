@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "エンジニア転職のカジュアル面談を徹底対策。面接との違い・目的・当日の流れ・事前準備・逆質問例・NG行動・面接に進むコツを具体例で解説。女性の働き方確認の活用法も。",
     url: "https://women-engineer.com/articles/casual-interview/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

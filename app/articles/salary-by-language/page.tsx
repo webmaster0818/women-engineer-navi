@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "主要プログラミング言語の平均年収・フリーランス単価を比較。高単価言語の理由、女性が年収を上げる言語選び、未経験から狙える言語を実データで解説。",
     url: "https://women-engineer.com/articles/salary-by-language/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

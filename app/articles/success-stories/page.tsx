@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "転職者の40.5%が賃金増・成功者の平均応募社数31.9社。架空の体験談ではなく、公的統計から見える転職成功の共通要因をパターン別に分析します。",
     url: "https://women-engineer.com/articles/success-stories/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

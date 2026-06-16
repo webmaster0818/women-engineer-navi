@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "type女性の転職エージェントとdodaの違いを公式公開情報に基づいて整理。女性特化エージェントと総合型転職サービスという形態の違いから、状況別の使い分け・併用時の注意点を出典付きで解説します。",
     url: "https://women-engineer.com/articles/type-vs-doda/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

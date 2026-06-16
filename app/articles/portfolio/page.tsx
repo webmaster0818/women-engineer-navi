@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "未経験は必須級・経験者はGitHubで代替可という実情から、職種別に作るべきもの・評価されるポイント・AI生成コードの扱いまで解説。",
     url: "https://women-engineer.com/articles/portfolio/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "エンジニア転職のポートフォリオ作成ガイド｜職種別の作るべきもの・評価ポイント【2026年】",
   datePublished: "2026-04-28",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "エンジニア転職のポートフォリオ作成ガイド。職種別・経験別の位置づけ、評価されるポイントと落とし穴、AI生成コードの扱い、ブランク中の制作法までを解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/portfolio/" },

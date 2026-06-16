@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを実データで徹底解説。",
     url: "https://women-engineer.com/articles/frontend/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

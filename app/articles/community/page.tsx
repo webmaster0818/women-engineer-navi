@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "2026年6月時点で活動を確認できた女性エンジニア向けコミュニティのみを紹介。対象・活動内容・参加方法、解散・休止情報まで正直に解説。",
     url: "https://women-engineer.com/articles/community/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

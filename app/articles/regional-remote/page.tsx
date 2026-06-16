@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "地方在住の女性エンジニアがフルリモートで東京水準の年収を得る方法・求人の探し方・移住の注意点・育児介護との両立を実データで徹底解説。",
     url: "https://women-engineer.com/articles/regional-remote/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -26,12 +26,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

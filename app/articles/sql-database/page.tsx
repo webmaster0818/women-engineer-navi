@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。データエンジニアとの違いも明確に。",
     url: "https://women-engineer.com/articles/sql-database/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

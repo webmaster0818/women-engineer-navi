@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "民法627条と就業規則の関係、退職の切り出し方、退職交渉のSTEP、カウンターオファー対応、引き継ぎ・有給消化、エンジニア特有の注意点まで実務ベースで解説。",
     url: "https://women-engineer.com/articles/amicable-resignation/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

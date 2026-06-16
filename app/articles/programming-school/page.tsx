@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "独学・民間スクール・公的職業訓練の比較と、教育訓練給付（最大80%）・経産省リスキリング支援（最大56万円）・求職者支援制度（無料訓練＋月10万円）など実在の給付金制度を出典付きで解説。誇大広告に惑わされないスクール選び7つのチェックポイントを紹介。",
     url: "https://women-engineer.com/articles/programming-school/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

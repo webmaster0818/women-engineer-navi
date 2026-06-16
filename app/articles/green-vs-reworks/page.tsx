@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "GreenとReWorksの違いを公式サイトの公開情報に基づき整理。運営会社・サービス形態・特化領域・スカウト等の機能を出典付きで比較し、女性エンジニアの状況別の使い分けを中立に解説します。",
     url: "https://women-engineer.com/articles/green-vs-reworks/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

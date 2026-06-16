@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "Python3エンジニア認定基礎試験・データ分析試験の難易度・合格率・受験料・勉強法を実データで解説。女性エンジニアに役立つ理由とキャリア・年収への影響も紹介。",
     url: "https://women-engineer.com/articles/cert-python/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

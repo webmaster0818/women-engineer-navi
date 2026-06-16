@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "東京都「女性ITエンジニア育成事業」の対象者・コース内容・費用（受講料無料）・申込方法・就職支援を公式情報をもとに解説。応募前のチェックポイントと修了後の転職活動の進め方も紹介。",
     url: "https://women-engineer.com/articles/tokyo-women-training/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

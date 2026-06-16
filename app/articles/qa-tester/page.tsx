@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "テスター→QAエンジニア→自動化エンジニアの段階別年収、JSTQB資格、AI時代のQA職の変化を実データ・出典付きで解説。未経験女性の入口職種としての現実も率直に。",
     url: "https://women-engineer.com/articles/qa-tester/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

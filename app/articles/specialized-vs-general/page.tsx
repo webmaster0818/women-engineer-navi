@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "IT特化型と総合型転職エージェントの違いをカテゴリ別に比較。フェーズ別の使い分け方と、転職エージェントが無料で使える仕組みを厚労省の制度に基づき出典付きで解説します。",
     url: "https://women-engineer.com/articles/specialized-vs-general/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

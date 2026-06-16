@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "SES・受託・自社開発の違いを契約形態から正確に解説。産育休・リモートの決まり方など女性エンジニア視点の固有論点と、求人票での見極めチェックリストつき。",
     url: "https://women-engineer.com/articles/ses-vs-jisha/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

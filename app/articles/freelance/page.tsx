@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "職種別単価相場（SE月72万円・PM88万円等=レバテックフリーランス）、会社員との保障比較、フリーランス新法、独立ステップとリスクを実データで解説。",
     url: "https://women-engineer.com/articles/freelance/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

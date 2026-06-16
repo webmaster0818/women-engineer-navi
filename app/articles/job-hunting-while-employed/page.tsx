@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "在職中の転職活動の進め方を女性エンジニア向けに解説。スケジュール・面接日程の調整術・バレない注意点・退職交渉のタイミングを実例つきで紹介。",
     url: "https://women-engineer.com/articles/job-hunting-while-employed/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

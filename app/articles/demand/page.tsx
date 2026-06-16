@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "IT人材は2030年に最大約79万人不足（経産省）、エンジニア求人倍率10.68倍（doda）、女性エンジニア比率18.8%。女性エンジニアの需要が高い構造的理由を統計データと出典で論証し、需要を市場価値に変える方法まで解説します。",
     url: "https://women-engineer.com/articles/demand/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性インフラエンジニアの年収（ラダー別）・未経験から運用監視で入るルート・夜勤の実態と回避策・資格ルート・クラウド化の影響を実データで解説。",
     url: "https://women-engineer.com/articles/infrastructure/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

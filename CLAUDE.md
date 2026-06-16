@@ -47,3 +47,12 @@
 - Footer: 「カテゴリから探す」列追加(career-path/certification/age-30s/remote-jobs/mama-engineer)、コンテンツ列にcategory-index・faq-all追加、grid-cols-3→4
 - 料金・エージェント紹介文・ranking/reviewsは一切不変更。sitemap114(homepage lastmod2026-06-15)。deploy=women-engineer-navi-deploy、本番(women-engineer.com)で切れリンク0・hub200・クラスタ導線をcurl検証。GSC再送信
 - 残: GSC観測後CTR改善/資格クラスタ拡張、一次データDB・ロールモデル(中期)、ranking/reviews/トップ刷新(要承認・保留)
+
+## 2026-06-16 デザイン全面刷新✅（MediaXAI「デザイン改良・女性らしい風合い+働く楽しさ・AI感排除・凝った感・絵文字不使用」）
+- コンセプト=エディトリアル・アトリエ: 温かみのあるクリーム紙(#f7f1ea)+ローズプラム(#7c3a55)+テラコッタ(#c15f47)+ゴールド(#bd8a3c)、紙グレインテクスチャ
+- フォント: 見出し=Shippori Mincho(明朝で工芸・上品さ)、本文=Zen Kaku Gothic New、Latin装飾=Fraunces italic(eyebrow/numeral)。Noto Sans廃止
+- globals.css配色トークン全刷新→.card/.btn/.section/.text-gradientが全117ページに波及。旧シアン×紫グラデ(AI感)を全廃
+- 記事100+本の直書きhex(旧#0891b2/#7c3aed/#d1dce5等)を温色へ一括置換13029箇所/112ファイル。teal/blueクラスも置換。残存0を検証。意味のあるstatus色(緑/赤/琥珀)は保持
+- Header/Footer/トップ再設計: 明朝ワードマーク+Fraunces英字ラベル、非対称ヒーロー+マニフェストパネル+装飾アンパサンド、番号付き理由(01/02/03)、明朝の数字スタッツ、ダークプラムCTA。絵文字不使用(◆等の活字記号のみ)
+- Chrome headlessでPC/モバイル/記事の描画を目視検証→本番(women-engineer.com)反映確認・font読込OK・旧シアン0。deploy=women-engineer-navi-deploy、sitemap lastmod更新
+- 料金/エージェント紹介文/ranking/reviewsの文言は不変更(視覚のみ刷新)。★☆=レビュー星(絵文字でなく活字記号)は機能上保持

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性エンジニアが辞める理由と長く働き続けるコツを実データで解説。学び続ける習慣・キャリアの棚卸し・メンター・燃え尽き対策・働き方の見直しまで、長期視点のキャリア設計を女性視点でまとめました。",
     url: "https://women-engineer.com/articles/long-career-tips/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

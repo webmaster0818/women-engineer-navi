@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "プロジェクト単位の構成テンプレ、成果の定量化、ブランク・時短希望の伝え方、厚労省履歴書様式例の公的事実まで出典付きで解説。",
     url: "https://women-engineer.com/articles/resume-guide/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -23,8 +23,8 @@ const structuredData = {
   headline: "女性エンジニアの職務経歴書ガイド｜スキルシートの書き方・ブランクの伝え方【2026年】",
   datePublished: "2026-04-27",
   dateModified: "2026-06-12",
-  author: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
-  publisher: { "@type": "Organization", name: "女性エンジニア転職ナビ", url: "https://women-engineer.com" },
+  author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
     "エンジニアの職務経歴書・スキルシートの書き方ガイド。プロジェクト単位の構成テンプレ、成果の定量化、ブランク・時短希望の伝え方、厚労省履歴書様式例の公的事実を出典付きで解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/resume-guide/" },

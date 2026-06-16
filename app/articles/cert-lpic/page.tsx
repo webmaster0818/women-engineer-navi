@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "LPIC・LinuCの違い・レベル別難易度・受験料・勉強時間・教材・年収への影響を、インフラ職を目指す女性エンジニア向けに実データで徹底解説。",
     url: "https://women-engineer.com/articles/cert-lpic/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

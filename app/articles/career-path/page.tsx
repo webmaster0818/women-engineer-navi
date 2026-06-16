@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "スペシャリスト・マネジメント・PM/PdM・社内SE・フリーランスの5類型を年収データ付きで比較。ライフイベントを織り込んだキャリア設計まで公的統計と実データで解説。",
     url: "https://women-engineer.com/articles/career-path/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "20代女性エンジニアの年収相場・転職市場・20代前半/後半の戦略・第二新卒とポテンシャル採用・未経験からの選択肢を公的統計と実データで解説。",
     url: "https://women-engineer.com/articles/age-20s/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

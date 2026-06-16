@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "SIer業界の構造と女性エンジニアの働きやすさを実データで解説。大手SIerの有報平均年収・産育休の認定実績・注意点まで出典付き。",
     url: "https://women-engineer.com/articles/sier-industry/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

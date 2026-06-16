@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "IT業界（情報通信業）の育休取得率は女性94.4%・男性58.1%（令和6年度雇用均等基本調査）。全産業比較・年次推移・男女別・企業公開値を出典付きで整理し、企業ごとの実績の調べ方も解説します。",
     url: "https://women-engineer.com/articles/maternity-leave-rate/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

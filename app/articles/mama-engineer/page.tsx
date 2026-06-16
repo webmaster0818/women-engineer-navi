@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "女性の育休取得率86.6%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法を出典付きで解説。育児と両立しやすい職種・働き方がわかります。",
     url: "https://women-engineer.com/articles/mama-engineer/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "大阪・関西の女性エンジニア転職を実データで解説。求人動向・年収相場・働きやすい関西企業・リモートで東京案件を受ける選択肢まで網羅。",
     url: "https://women-engineer.com/articles/osaka/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

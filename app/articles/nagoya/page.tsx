@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "名古屋・東海のIT転職市場、年収相場、女性が働きやすい東海企業、未経験からのステップを実データで解説。製造業DXとリモートで広がる選択肢を紹介します。",
     url: "https://women-engineer.com/articles/nagoya/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -26,12 +26,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

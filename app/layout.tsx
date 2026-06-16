@@ -28,8 +28,8 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | 女性エンジニア転職ナビ",
-    default: "女性エンジニア転職ナビ | 女性ITエンジニアのための転職エージェント比較サイト",
+    template: "%s | CareeHUB for woman",
+    default: "CareeHUB for woman | 女性ITエンジニアのための転職エージェント比較サイト",
   },
   description:
     "女性エンジニアに特化した転職エージェント比較サイト。産休育休取得率・リモートワーク率・女性アドバイザー有無など、女性ならではの視点で徹底比較。あなたに最適な転職エージェントが見つかります。",
@@ -43,20 +43,20 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
   },
 };
 
 const schemaOrg = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "女性エンジニア転職ナビ",
+  name: "CareeHUB for woman",
   url: "https://women-engineer.com",
   description:
     "女性エンジニアに特化した転職エージェント比較サイト。産休育休取得率・リモートワーク率・女性アドバイザー有無など、女性ならではの視点で徹底比較。",
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
   },
 };
 

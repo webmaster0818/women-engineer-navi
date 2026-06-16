@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "OSS-DB・ORACLE MASTER・データベーススペシャリストの難易度・受験料・勉強時間・勉強法・年収への影響を実データで比較。女性エンジニアがDB資格で市場価値を上げる方法を解説。",
     url: "https://women-engineer.com/articles/cert-database/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

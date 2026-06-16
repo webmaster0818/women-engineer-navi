@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "エンジニア転職の面接で評価される逆質問の例文を、カテゴリ別・フェーズ別で網羅。NG例や女性がキャリア継続を確認する聞き方、準備法まで実例豊富に解説。",
     url: "https://women-engineer.com/articles/reverse-questions/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-10",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

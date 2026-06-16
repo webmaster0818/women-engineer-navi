@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "国内スタートアップの資金調達動向、フェーズ別の働き方の違い、税制適格ストックオプションの正確な仕組み、産育休の法定制度まで実データ・出典付きで解説。",
     url: "https://women-engineer.com/articles/startup/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

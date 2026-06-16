@@ -4,15 +4,15 @@ import Breadcrumb from "../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "記事制作ポリシー",
   description:
-    "女性エンジニア転職ナビの記事制作ポリシーです。当サイトのコンテンツ制作における方針、情報の正確性、評価基準について説明しています。",
+    "CareeHUB for womanの記事制作ポリシーです。当サイトのコンテンツ制作における方針、情報の正確性、評価基準について説明しています。",
   alternates: { canonical: "/content-policy/" },
   openGraph: {
-    title: "記事制作ポリシー | 女性エンジニア転職ナビ",
+    title: "記事制作ポリシー | CareeHUB for woman",
     description:
-      "女性エンジニア転職ナビの記事制作ポリシーです。コンテンツ制作の方針と評価基準について説明しています。",
+      "CareeHUB for womanの記事制作ポリシーです。コンテンツ制作の方針と評価基準について説明しています。",
     url: "https://women-engineer.com/content-policy/",
     type: "website",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -20,21 +20,21 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "記事制作ポリシー | 女性エンジニア転職ナビ",
+  headline: "記事制作ポリシー | CareeHUB for woman",
   datePublished: "2026-04-27",
   dateModified: "2026-04-27",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:
-    "女性エンジニア転職ナビの記事制作ポリシーです。",
+    "CareeHUB for womanの記事制作ポリシーです。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/content-policy/",
@@ -77,7 +77,7 @@ export default function ContentPolicyPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div className="prose prose-gray max-w-none space-y-8 text-text-light leading-relaxed">
             <p>
-              「女性エンジニア転職ナビ」（運営: 株式会社MediaX、東京都渋谷区）は、女性エンジニアの転職活動を支援するための情報サイトです。当サイトでは、読者の皆様に信頼性の高い情報をお届けするため、以下の方針に基づいてコンテンツを制作しています。
+              「CareeHUB for woman」（運営: 株式会社MediaX、東京都渋谷区）は、女性エンジニアの転職活動を支援するための情報サイトです。当サイトでは、読者の皆様に信頼性の高い情報をお届けするため、以下の方針に基づいてコンテンツを制作しています。
             </p>
 
             <div>
@@ -267,7 +267,7 @@ export default function ContentPolicyPage() {
                   {[
                     ["運営会社", "株式会社MediaX"],
                     ["所在地", "東京都渋谷区"],
-                    ["サイト名", "女性エンジニア転職ナビ"],
+                    ["サイト名", "CareeHUB for woman"],
                     ["URL", "https://women-engineer.com"],
                   ].map(([label, value]) => (
                     <tr key={label}>

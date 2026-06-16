@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "レバテックキャリアとGeeklyの違いを公式公開情報で比較。得意領域・拠点・求人数の公式表示の違いと、職種・志望業界・地域別の向き不向きを出典付きで中立に整理します。",
     url: "https://women-engineer.com/articles/levtech-vs-geekly/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:

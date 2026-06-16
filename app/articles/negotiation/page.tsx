@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "交渉した人の85〜91%が年収アップに成功。転職時の昇給額の男女差データから、交渉のタイミング・相場の調べ方・伝え方の実例まで2026年最新データで解説。",
     url: "https://women-engineer.com/articles/negotiation/",
     type: "article",
-    siteName: "女性エンジニア転職ナビ",
+    siteName: "CareeHUB for woman",
     locale: "ja_JP",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   dateModified: "2026-06-12",
   author: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   publisher: {
     "@type": "Organization",
-    name: "女性エンジニア転職ナビ",
+    name: "CareeHUB for woman",
     url: "https://women-engineer.com",
   },
   description:
