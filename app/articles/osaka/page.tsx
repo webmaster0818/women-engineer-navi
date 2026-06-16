@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               地域別ガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 大阪・関西のIT転職市場の全体像</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 求人動向と大阪ならではの特徴</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 大阪・関西の年収相場（東京との比較表）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 女性が働きやすい関西の企業</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 未経験から大阪で転職するには（STEP）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. リモートで選択肢を広げる（東京案件）</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 転職成功事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 大阪・関西のIT転職市場の全体像</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 求人動向と大阪ならではの特徴</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 大阪・関西の年収相場（東京との比較表）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が働きやすい関西の企業</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験から大阪で転職するには（STEP）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. リモートで選択肢を広げる（東京案件）</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 転職成功事例</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -165,12 +165,12 @@ export default function ArticlePage() {
             <p>
               一方で、IT人材における女性比率は全国的にまだ2割程度。関西も同様ですが、ダイバーシティ推進とリモート普及で、女性が長くキャリアを築ける環境は着実に整いつつあります。「東京に出ないとエンジニアとして伸びない」という時代は終わりつつあり、<strong>大阪に住みながら東京水準の仕事をする</strong>選択肢も現実的になりました。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>大阪・関西で働く3つの強み</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>大阪・関西で働く3つの強み</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>東京に次ぐ全国2位の求人規模。西日本では圧倒的な選択肢</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>家賃・生活費が東京より安く、同じ年収でも可処分所得が多い</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>リモートを使えば大阪在住のまま東京案件・東京水準の年収も狙える</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>東京に次ぐ全国2位の求人規模。西日本では圧倒的な選択肢</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>家賃・生活費が東京より安く、同じ年収でも可処分所得が多い</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>リモートを使えば大阪在住のまま東京案件・東京水準の年収も狙える</span></li>
               </ul>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 求人動向と特徴 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">求人動向と大阪ならではの特徴</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -190,20 +190,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. SIer・受託が多く上流を経験しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. SIer・受託が多く上流を経験しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">TISや関西系SIerが多く、要件定義・設計など上流工程に関われる求人が豊富。設計力は流行に左右されにくく、女性のブランク復帰時にも武器になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 自社開発・SaaSの有力企業も本社を構える</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 自社開発・SaaSの有力企業も本社を構える</h3>
               <p className="text-text-light text-sm leading-relaxed">さくらインターネット、ラクス、カプコンなど大阪本社の自社開発企業が存在。グランフロント大阪にはLINEヤフー・サイバーエージェント系の拠点もあります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 大手の安定×ホワイトな社風</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 大手の安定×ホワイトな社風</h3>
               <p className="text-text-light text-sm leading-relaxed">NCS&Aは平均勤続年数16年超、公共案件中心で経営が安定。有給取得・育休取得率が高水準の企業が多く、腰を据えて長く働きたい女性に向きます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. ゲーム・Web業界の集積</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. ゲーム・Web業界の集積</h3>
               <p className="text-text-light text-sm leading-relaxed">カプコン（大阪本社）をはじめ、難波・心斎橋にゲーム・Web系が点在。クリエイティブ職やQA、Unityエンジニアなど多様な職種の入り口があります。</p>
             </div>
           </div>
@@ -222,38 +222,38 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>大阪・関西の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>東京の目安／備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>大阪・関西の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>東京の目安／備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>SE平均年収</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約620万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>東京 約706万円（差 約86万円）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>SE平均年収</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約620万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>東京 約706万円（差 約86万円）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>情報通信業 平均</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約645万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>東京 約719万円（差 約74万円）</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>情報通信業 平均</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約645万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>東京 約719万円（差 約74万円）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>大手SIer（例）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>700万〜800万円台</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>TIS約803万円・NCS&A約723万円</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>大手SIer（例）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>700万〜800万円台</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>TIS約803万円・NCS&A約723万円</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス単価</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>常駐は東京比 約10〜20%低め</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>東京案件をリモート受注すれば差は解消</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス単価</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>常駐は東京比 約10〜20%低め</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>東京案件をリモート受注すれば差は解消</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>「東京より低い」を覆す3つの考え方</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>「東京より低い」を覆す3つの考え方</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>可処分所得で比較</strong>。大阪は家賃が東京の6〜7割程度。額面の差ほど生活は苦しくない</li>
               <li>② <strong>リモートで東京案件を受ける</strong>。住所は大阪のまま、年収だけ東京水準にできる</li>
@@ -264,7 +264,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 女性が働きやすい関西の企業 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性が働きやすい関西の企業</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -273,20 +273,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-5">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">さくらインターネット（大阪市・自社開発）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>クラウド基盤</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">さくらインターネット（大阪市・自社開発）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>クラウド基盤</span></div>
               <p className="text-sm text-text-light leading-relaxed">大阪本社の東証プライム上場企業。産休・育休後の時短勤務やリモートワークが整い、女性管理職も多いと社員口コミで評価されています。多様な働き方を掲げる社風で、ライフイベントと両立しながらインフラ・クラウドの専門性を深めたい人に向きます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">ラクス（大阪発・SaaS）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>自社開発SaaS</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">ラクス（大阪発・SaaS）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>自社開発SaaS</span></div>
               <p className="text-sm text-text-light leading-relaxed">「楽楽精算」「メールディーラー」などBtoB SaaSを展開。プロダクト開発に長く携われ、自社サービスゆえ仕様理解が積み上がるのが魅力。成果が可視化されやすく、時短勤務でも評価されやすい職場です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">NCS&A（大阪市・老舗SIer）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>安定・長期就業</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">NCS&A（大阪市・老舗SIer）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>安定・長期就業</span></div>
               <p className="text-sm text-text-light leading-relaxed">平均勤続年数16年超、公共案件中心で経営が安定。腰を据えて長く働きたい、ブランクなくキャリアを継続したい女性に向く堅実な環境です。上流の業務知識が資産になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">LINEヤフー／サイバーエージェント系（グランフロント大阪）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>大手Web</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-2"><h3 className="text-lg font-bold">LINEヤフー／サイバーエージェント系（グランフロント大阪）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>大手Web</span></div>
               <p className="text-sm text-text-light leading-relaxed">うめきたのグランフロント大阪に開発拠点。大手ならではの制度の手厚さとリモート・フレックスの柔軟性があり、モダンな技術スタックに関西で触れたい女性にとって貴重な選択肢です。Cygamesなどゲーム系拠点もあります。</p>
             </div>
           </div>
@@ -314,8 +314,8 @@ export default function ArticlePage() {
               ["STEP5", "未経験可×研修ありの求人を狙う", "大阪のSIer・受託は研修が手厚い企業が多い。育休実績や復帰率も同時にチェック。"],
               ["STEP6", "エージェントで関西求人を絞り込む", "IT特化型＋女性特化型を併用。関西に強いアドバイザーに、働き方の条件で求人を絞ってもらう。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -327,7 +327,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 リモートで選択肢を広げる */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">リモートで選択肢を広げる（東京案件）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -342,12 +342,12 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>大阪で働く × 大阪企業</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>大阪で働く × 大阪企業</h3>
               <p className="text-sm text-text-light">通勤前提だが地元密着。SIer・受託や大阪本社の自社開発が中心。生活コストの安さと両立しやすさが魅力。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>大阪に住む × 東京企業（リモート）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>大阪に住む × 東京企業（リモート）</h3>
               <p className="text-sm text-text-light">モダン技術・高単価・最新案件にアクセス。可処分所得を最大化できる。地方在住女性に特に相性が良い。</p>
             </div>
           </div>
@@ -362,45 +362,45 @@ export default function ArticlePage() {
             <p>大阪・関西の求人を正しく評価してもらうには、IT特化型と女性特化型の併用が効果的です。関西拠点・リモート案件の両方を見られるアドバイザーを選びましょう。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。大阪オフィスもあり関西求人に強く、フルリモートで東京案件を受ける相談もしやすい。女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、関西IT企業の情報も豊富。年収アップ実績が多く、スピーディーなマッチングと年収交渉力に定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。関西の働きやすい企業を、働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、関西求人とリモート案件の両方に強いアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
 
       {/* sec8 成功事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代前半・大阪在住／SIer→東京SaaSのリモート）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・大阪在住／SIer→東京SaaSのリモート）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">大阪・本町のSIerで業務系開発 / 年収480万円・出社</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">東京SaaS企業のバックエンド（TypeScript/AWS）/ 年収640万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">大阪・本町のSIerで業務系開発 / 年収480万円・出社</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">東京SaaS企業のバックエンド（TypeScript/AWS）/ 年収640万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">SIerで培った設計力に、独学でAWSとTypeScriptを上乗せ。IT特化型エージェント経由で東京企業のフルリモート求人に応募し、大阪から一度も引っ越さず年収160万円アップを実現しました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Dさん（20代後半・未経験→大阪の自社開発企業）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・未経験→大阪の自社開発企業）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">関西の販売職（IT未経験）/ 年収310万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">大阪本社の自社開発企業（PHP/Laravel）/ 年収400万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">関西の販売職（IT未経験）/ 年収310万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">大阪本社の自社開発企業（PHP/Laravel）/ 年収400万円</p></div>
               </div>
               <p className="text-sm text-text-light">スクールでPHP/Laravelを学びCRUD＋API付きのポートフォリオを公開。梅田の勉強会で得たつながりも活かし、育休実績のある大阪本社の自社開発企業へ。通勤圏内で長く働ける基盤を得ました。</p>
             </div>
@@ -414,12 +414,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -429,14 +429,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
-            <a href="/articles/remote-jobs/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>リモートワーク求人ガイド</h3><p className="text-sm text-text-light">大阪在住で東京案件を受ける選択肢</p></a>
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">育休・復帰率の見極め方</p></a>
-            <a href="/articles/sier-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SIer業界の転職ガイド</h3><p className="text-sm text-text-light">関西に多いSIerの実態と働き方</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/remote-jobs/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>リモートワーク求人ガイド</h3><p className="text-sm text-text-light">大阪在住で東京案件を受ける選択肢</p></a>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">育休・復帰率の見極め方</p></a>
+            <a href="/articles/sier-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SIer業界の転職ガイド</h3><p className="text-sm text-text-light">関西に多いSIerの実態と働き方</p></a>
           </div>
         </div>
       </section>
@@ -444,10 +444,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">大阪・関西で理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。関西求人もリモート案件も、あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

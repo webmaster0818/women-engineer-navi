@@ -53,7 +53,7 @@ export default function ContentPolicyPage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -81,7 +81,7 @@ export default function ContentPolicyPage() {
             </p>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 1. コンテンツ制作の基本方針
               </h2>
               <p>当サイトは以下の基本方針に基づいてコンテンツを制作しています。</p>
@@ -110,7 +110,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 2. 情報源と調査方法
               </h2>
               <p>当サイトのコンテンツは、以下の情報源に基づいて制作しています。</p>
@@ -125,7 +125,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 3. 転職エージェントの評価基準
               </h2>
               <p>
@@ -134,7 +134,7 @@ export default function ContentPolicyPage() {
               <div className="overflow-x-auto mt-6">
                 <table className="w-full border-collapse rounded-lg overflow-hidden">
                   <thead>
-                    <tr style={{ backgroundColor: "#0891b2" }}>
+                    <tr style={{ backgroundColor: "#7c3a55" }}>
                       <th className="px-4 py-3 text-left text-sm font-bold text-white">
                         評価項目
                       </th>
@@ -155,17 +155,17 @@ export default function ContentPolicyPage() {
                       <tr
                         key={item}
                         className={i % 2 === 0 ? "bg-white" : ""}
-                        style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}
+                        style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}
                       >
                         <td
                           className="px-4 py-3 text-sm font-bold"
-                          style={{ borderBottom: "1px solid #d1dce5", color: "#0891b2" }}
+                          style={{ borderBottom: "1px solid #d9c7b8", color: "#7c3a55" }}
                         >
                           {item}
                         </td>
                         <td
                           className="px-4 py-3 text-sm"
-                          style={{ borderBottom: "1px solid #d1dce5" }}
+                          style={{ borderBottom: "1px solid #d9c7b8" }}
                         >
                           {detail}
                         </td>
@@ -177,7 +177,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 4. アフィリエイト広告について
               </h2>
               <p>
@@ -192,7 +192,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 5. コンテンツの更新・修正方針
               </h2>
               <p>当サイトは、以下の方針でコンテンツの更新・修正を行っています。</p>
@@ -213,7 +213,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 6. ランキング・おすすめの掲載基準
               </h2>
               <p>
@@ -225,7 +225,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 7. 編集体制
               </h2>
               <p>
@@ -237,7 +237,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 8. 景品表示法等の法令遵守
               </h2>
               <p>
@@ -249,7 +249,7 @@ export default function ContentPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 9. お問い合わせ
               </h2>
               <p>
@@ -259,7 +259,7 @@ export default function ContentPolicyPage() {
 
             <div
               className="rounded-xl border p-6 mt-8"
-              style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+              style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
             >
               <h2 className="text-lg font-bold mb-4">運営者情報</h2>
               <table className="w-full">
@@ -273,7 +273,7 @@ export default function ContentPolicyPage() {
                     <tr key={label}>
                       <th
                         className="px-4 py-2 text-left text-sm font-bold w-32"
-                        style={{ color: "#0891b2" }}
+                        style={{ color: "#7c3a55" }}
                       >
                         {label}
                       </th>

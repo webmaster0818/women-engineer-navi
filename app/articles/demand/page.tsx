@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#0891b2" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               データ・統計
             </span>
@@ -136,23 +136,23 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>結論：データで見る女性エンジニアの需要</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：データで見る女性エンジニアの需要</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>IT人材は<strong>2030年に最大約79万人不足</strong>の試算（出典: 経済産業省「IT人材需給に関する調査」）。エンジニア（IT・通信）の転職求人倍率は<strong>10.68倍</strong>と全職種平均2.39倍の4倍超です（出典: doda転職求人倍率レポート・2026年3月）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>日本のITエンジニアの女性比率は<strong>18.8%</strong>で、OECD平均20.6%を下回る33カ国中17位（出典: ヒューマンリソシア）。<strong>人材不足なのに女性が少ない</strong>＝企業にとって最大の未開拓採用層です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>政策も後押し。「<strong>女性デジタル人材育成プラン</strong>」（2022年・男女共同参画会議）に加え、<strong>2026年4月施行の改正女性活躍推進法</strong>で男女間賃金差異・女性管理職比率の公表義務が101人以上の企業へ拡大。女性の採用・登用が企業の開示項目になりました。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>ただし需要は「女性だから」ではなく<strong>スキルとセット</strong>で発生します。需要を年収に変える職種・スキル戦略は本文6章へ。</span>
               </li>
             </ul>
@@ -165,57 +165,57 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
               <li>
-                <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>
                   1. IT人材不足の現状 — 経産省試算と求人倍率データ
                 </a>
               </li>
               <li>
-                <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>
                   2. 女性エンジニア比率の統計 — 日本とOECDの比較
                 </a>
               </li>
               <li>
-                <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>
                   3. 需要が高い4つの構造的理由（データで論証）
                 </a>
               </li>
               <li>
-                <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>
                   4. 政策の後押し — 女性デジタル人材育成プランと改正女性活躍推進法
                 </a>
               </li>
               <li>
-                <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>
                   5. 企業のダイバーシティ採用はどこまで本気か
                 </a>
               </li>
               <li>
-                <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>
                   6. 需要を市場価値に変える方法 — 職種選択とスキル投資
                 </a>
               </li>
               <li>
-                <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>
                   7. データを読むときの3つの注意点
                 </a>
               </li>
               <li>
-                <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>
                   8. おすすめ転職エージェント
                 </a>
               </li>
               <li>
-                <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>
                   9. よくある質問
                 </a>
               </li>
               <li>
-                <a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>
                   10. 出典・参考資料
                 </a>
               </li>
@@ -236,27 +236,27 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>シナリオ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>前提（IT需要の伸び率）</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>2030年の不足数</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>シナリオ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>前提（IT需要の伸び率）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>2030年の不足数</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>低位シナリオ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約16万人</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>低位シナリオ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約16万人</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>中位シナリオ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約2〜5%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約45万人</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>中位シナリオ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約2〜5%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約45万人</td>
                 </tr>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>高位シナリオ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約3〜9%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>最大約79万人</td>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>高位シナリオ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約3〜9%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>最大約79万人</td>
                 </tr>
               </tbody>
             </table>
@@ -279,7 +279,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性比率 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニア比率の統計 — 日本とOECDの比較</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -290,27 +290,27 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>指標</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>数値</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>指標</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>数値</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>日本のITエンジニア女性比率</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>18.8%（2023年データ）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ヒューマンリソシア「データで見る世界のITエンジニアレポート」</td>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>日本のITエンジニア女性比率</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>18.8%（2023年データ）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ヒューマンリソシア「データで見る世界のITエンジニアレポート」</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>OECD平均の女性比率</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>20.6%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同上</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>OECD平均の女性比率</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>20.6%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>同上</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>日本の国際順位</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>比較33カ国中17位</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同上</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>日本の国際順位</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>比較33カ国中17位</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>同上</td>
                 </tr>
               </tbody>
             </table>
@@ -339,26 +339,26 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由1: IT人材の絶対数が足りない</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>理由1: IT人材の絶対数が足りない</h3>
               <p className="text-sm text-text-light">
                 2030年に最大約79万人不足（出典: 経済産業省）、求人倍率10.68倍（出典: doda・2026年3月）、企業の85.1%がDX人材の量不足を認識（出典: IPA「DX動向2025」）。<strong>性別以前に、エンジニアという職種全体が長期の売り手市場</strong>です。需要の土台はここにあります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由2: 女性比率18.8%＝最大の未開拓採用層</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>理由2: 女性比率18.8%＝最大の未開拓採用層</h3>
               <p className="text-sm text-text-light">
                 人材が足りないのに、女性はエンジニアの2割弱しかいません（出典: ヒューマンリソシア）。男性エンジニアの獲得競争が激化する中、<strong>女性の採用母集団を広げることが人材確保の合理的な戦略</strong>になっており、女性向け採用イベントやリターン採用（復職者向け採用）を行う企業が増えています。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由3: ダイバーシティが「開示される経営指標」になった</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>理由3: ダイバーシティが「開示される経営指標」になった</h3>
               <p className="text-sm text-text-light">
                 2026年4月施行の改正女性活躍推進法で、<strong>男女間賃金差異と女性管理職比率の公表義務が常時雇用101人以上の企業に拡大</strong>（出典: 厚生労働省）。女性版骨太の方針2023は東証プライム上場企業の女性役員比率を<strong>2030年までに30%以上</strong>とする目標を設定（出典: 内閣府男女共同参画局）。女性の採用・登用は「善意の取り組み」から「外部に開示される経営指標」へ変わり、実績づくりの需要が生まれています。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>理由4: 政府が予算をつけて女性デジタル人材を育成している</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>理由4: 政府が予算をつけて女性デジタル人材を育成している</h3>
               <p className="text-sm text-text-light">
                 「女性デジタル人材育成プラン」（2022年4月・男女共同参画会議決定）により、デジタルスキル習得支援と就労支援が国・自治体の事業として展開されています（出典: 内閣府男女共同参画局）。<strong>学習段階から公的支援がある職種は他にほとんどなく</strong>、未経験からの参入ルートが制度として整備されているのが特徴です（詳細は次章）。
               </p>
@@ -373,7 +373,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 政策 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">政策の後押し — 女性デジタル人材育成プランと改正女性活躍推進法</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -384,27 +384,27 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>政策</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>内容</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>政策</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>内容</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>女性デジタル人材育成プラン<br />（2022年4月26日決定）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男女共同参画会議で決定。就労に直結するデジタルスキルの習得支援と、デジタル分野への就労支援を政府一体で集中的に推進。自治体の無料・低額講座等の事業に展開</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>内閣府男女共同参画局</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>女性デジタル人材育成プラン<br />（2022年4月26日決定）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>男女共同参画会議で決定。就労に直結するデジタルスキルの習得支援と、デジタル分野への就労支援を政府一体で集中的に推進。自治体の無料・低額講座等の事業に展開</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>内閣府男女共同参画局</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>改正女性活躍推進法<br />（2026年4月1日施行）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男女間賃金差異の公表義務を常時雇用101人以上の企業に拡大し、女性管理職比率の公表を新たに義務化（101〜300人企業は計3項目以上の公表が必要）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>改正女性活躍推進法<br />（2026年4月1日施行）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>男女間賃金差異の公表義務を常時雇用101人以上の企業に拡大し、女性管理職比率の公表を新たに義務化（101〜300人企業は計3項目以上の公表が必要）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>女性版骨太の方針2023<br />（2023年6月決定）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>東証プライム上場企業の女性役員比率を2030年までに30%以上とする目標。2025年をめどに女性役員最低1人の選任を促す（努力義務）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>内閣府男女共同参画局</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>女性版骨太の方針2023<br />（2023年6月決定）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>東証プライム上場企業の女性役員比率を2030年までに30%以上とする目標。2025年をめどに女性役員最低1人の選任を促す（努力義務）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>内閣府男女共同参画局</td>
                 </tr>
               </tbody>
             </table>
@@ -414,10 +414,10 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              転職者の視点で重要なのは2点です。第一に、<strong>未経験者には学習段階の公的支援がある</strong>こと。女性デジタル人材育成プランに基づく事業として、自治体の女性向けITスキル講座が各地で実施されており、東京都の事例は<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#0891b2" }}>東京都の女性ITエンジニア育成事業の記事</a>で詳しく解説しています。
+              転職者の視点で重要なのは2点です。第一に、<strong>未経験者には学習段階の公的支援がある</strong>こと。女性デジタル人材育成プランに基づく事業として、自治体の女性向けITスキル講座が各地で実施されており、東京都の事例は<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>東京都の女性ITエンジニア育成事業の記事</a>で詳しく解説しています。
             </p>
             <p>
-              第二に、<strong>経験者には「開示時代の選社眼」が持てる</strong>こと。2026年4月以降、101人以上の企業は男女間賃金差異と女性管理職比率を公表するため、応募前に企業の実態を数値で比較できます。賃金差が小さく女性管理職比率が高い企業の見極め方は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の記事</a>を参照してください。
+              第二に、<strong>経験者には「開示時代の選社眼」が持てる</strong>こと。2026年4月以降、101人以上の企業は男女間賃金差異と女性管理職比率を公表するため、応募前に企業の実態を数値で比較できます。賃金差が小さく女性管理職比率が高い企業の見極め方は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の記事</a>を参照してください。
             </p>
           </div>
         </div>
@@ -445,7 +445,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 市場価値に変える */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">需要を市場価値に変える方法 — 職種選択とスキル投資</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -456,27 +456,27 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種（技術系 IT/通信）</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>需要の背景</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種（技術系 IT/通信）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>需要の背景</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プロジェクトマネジャー</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>707万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>DX案件の増加に対し上流人材が恒常的に不足</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>プロジェクトマネジャー</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>707万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>DX案件の増加に対し上流人材が恒常的に不足</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>セキュリティコンサルタント/アナリスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>649万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>サイバー攻撃対策・法令対応で需要が拡大</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>セキュリティコンサルタント/アナリスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>649万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>サイバー攻撃対策・法令対応で需要が拡大</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プリセールス</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>642万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SaaS拡大で技術×提案の複合人材が希少</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>プリセールス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>642万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SaaS拡大で技術×提案の複合人材が希少</td>
                 </tr>
               </tbody>
             </table>
@@ -486,10 +486,10 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              スキル面では、IPA「DX動向2025」が示すとおりDX推進人材（クラウド・データ活用・AI関連）の不足感が最も強く、この領域のスキル投資は需要に直結します。女性ITエンジニアの平均年収419万円（出典: doda「平均年収ランキング2025」）に対し、上記の高需要職種は200万円以上高い水準にあり、<strong>職種選択そのものが最大の年収戦略</strong>です。年収データの全体像は<a href="/articles/salary/" className="underline" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</a>で詳しく整理しています。
+              スキル面では、IPA「DX動向2025」が示すとおりDX推進人材（クラウド・データ活用・AI関連）の不足感が最も強く、この領域のスキル投資は需要に直結します。女性ITエンジニアの平均年収419万円（出典: doda「平均年収ランキング2025」）に対し、上記の高需要職種は200万円以上高い水準にあり、<strong>職種選択そのものが最大の年収戦略</strong>です。年収データの全体像は<a href="/articles/salary/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</a>で詳しく整理しています。
             </p>
             <p>
-              キャリアの組み立て方は段階によって異なります。未経験から参入するなら、公的支援を活用しつつ3〜6か月の学習でポートフォリオを作るのが現実的なルートです（<a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>未経験から女性エンジニアになる方法</a>）。経験者なら、マネジメント・スペシャリスト・フリーランスなどの選択肢を5年単位で設計することで需要を長期の市場価値に変えられます（<a href="/articles/career-path/" className="underline" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</a>）。
+              キャリアの組み立て方は段階によって異なります。未経験から参入するなら、公的支援を活用しつつ3〜6か月の学習でポートフォリオを作るのが現実的なルートです（<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験から女性エンジニアになる方法</a>）。経験者なら、マネジメント・スペシャリスト・フリーランスなどの選択肢を5年単位で設計することで需要を長期の市場価値に変えられます（<a href="/articles/career-path/" className="underline" style={{ color: "#7c3a55" }}>キャリアパス設計ガイド</a>）。
             </p>
           </div>
         </div>
@@ -500,20 +500,20 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">データを読むときの3つの注意点</h2>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 「79万人不足」は最大シナリオの値</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 「79万人不足」は最大シナリオの値</h3>
               <p className="text-sm text-text-light">
                 経産省の試算は低位約16万人・中位約45万人・高位約79万人の3シナリオで、79万人は最も需要が伸びるケースです。また2019年公表の試算であり、AIによる生産性向上などで実際の数値は変わりえます。「最大で79万人という試算がある」という読み方が正確です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>2. 求人倍率10.68倍は「経験者を含むIT・通信全体」の単月値</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 求人倍率10.68倍は「経験者を含むIT・通信全体」の単月値</h3>
               <p className="text-sm text-text-light">
                 doda転職求人倍率レポートの値は月次で変動し、経験者向け求人が大半を占めます。未経験者向け・地方・特定職種に絞ると倍率は下がるため、「自分の条件での需要」はエージェント経由で個別に確認するのが確実です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 需要は「女性だから」ではなく「スキル×女性比率の文脈」で生まれる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 需要は「女性だから」ではなく「スキル×女性比率の文脈」で生まれる</h3>
               <p className="text-sm text-text-light">
                 開示義務や政府目標は採用の追い風ですが、選考で評価されるのはスキルと実績です。「女性優遇で採用される」と読むのは誤りで、「同等のスキルなら需要構造が有利に働く」が正しい理解です。だからこそ6章のとおり、需要の強い分野へのスキル投資が市場価値を決めます。
               </p>
@@ -523,7 +523,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 おすすめ転職エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -532,10 +532,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -543,10 +543,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -554,10 +554,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -565,10 +565,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -579,7 +579,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -588,7 +588,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -609,11 +609,11 @@ export default function ArticlePage() {
                 <details
                   key={i}
                   className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <summary
                     className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     <span className="pr-4">{faq.name}</span>
                     <span className="transition-transform group-open:rotate-180">
@@ -622,7 +622,7 @@ export default function ArticlePage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">{faq.acceptedAnswer.text}</p>
                   </div>
@@ -634,7 +634,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec10 出典 */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
@@ -664,9 +664,9 @@ export default function ArticlePage() {
             <a
               href="/articles/salary/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 女性エンジニアの年収ガイド
               </h3>
               <p className="text-sm text-text-light">平均年収の実データと年収アップ戦略</p>
@@ -674,9 +674,9 @@ export default function ArticlePage() {
             <a
               href="/articles/beginner/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 未経験から女性エンジニアになる方法
               </h3>
               <p className="text-sm text-text-light">現実的な学習期間と転職活動の進め方</p>
@@ -684,9 +684,9 @@ export default function ArticlePage() {
             <a
               href="/articles/career-path/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 キャリアパス設計ガイド
               </h3>
               <p className="text-sm text-text-light">5年後・10年後のキャリア設計</p>
@@ -694,9 +694,9 @@ export default function ArticlePage() {
             <a
               href="/articles/tokyo-women-training/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 東京都の女性ITエンジニア育成事業
               </h3>
               <p className="text-sm text-text-light">無料で学べる公的支援の内容と申込方法</p>
@@ -711,7 +711,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -723,7 +723,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

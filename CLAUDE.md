@@ -39,3 +39,11 @@
 - バッチ7(最終): startup(SO税制正確)/community(実在確認済み10件・WWC解散2024を訂正)/demand(統計データ記事)/schedule/work-abroad/category-index(全100記事ハブ)
 - sitemapのage-30s/mama-engineer lastmod漏れも修正。これで既存53本+新規1本=54本すべて実データ・出典付き完了
 - 残課題: ranking/reviews/トップ（保護ルールのため要相談・未着手）、cert-python実践系の学割表記（未検証のため未修正）
+
+## 2026-06-15 内部リンクハブ強化✅（MediaXAI「進めてください」承認・戦略①の実装）
+- 🐛切れリンク3件修正: Header navの/age-guide/・/column/（実在せず全114ページのstickyヘッダーで404）+トップHero「年代別ガイドを見る」/age-guide/。→記事一覧(category-index)・FAQ(faq-all)・お役立ち記事へ張替
+- Header: トップ/おすすめエージェント/記事一覧(/articles/category-index/)/よくある質問(/articles/faq-all/)に再構成
+- トップに「目的から記事を探す」セクション新設: 8クラスタ導線(職種career-path/年収salary/資格certification/未経験beginner/年代age-30s/リモートremote-jobs/産育mama-engineer/選考interview-guide)+全記事・FAQ CTA。全リンク実在確認済
+- Footer: 「カテゴリから探す」列追加(career-path/certification/age-30s/remote-jobs/mama-engineer)、コンテンツ列にcategory-index・faq-all追加、grid-cols-3→4
+- 料金・エージェント紹介文・ranking/reviewsは一切不変更。sitemap114(homepage lastmod2026-06-15)。deploy=women-engineer-navi-deploy、本番(women-engineer.com)で切れリンク0・hub200・クラスタ導線をcurl検証。GSC再送信
+- 残: GSC観測後CTR改善/資格クラスタ拡張、一次データDB・ロールモデル(中期)、ranking/reviews/トップ刷新(要承認・保留)

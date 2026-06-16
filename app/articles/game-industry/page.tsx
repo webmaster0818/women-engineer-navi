@@ -95,11 +95,11 @@ export default function GameIndustryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "ゲーム業界で働く女性エンジニア" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>業界ガイド</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>業界ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               ゲーム業界で働く女性エンジニア
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・職種・必要スキルと転職ルートを実データで解説【2026年】</span>
@@ -112,14 +112,14 @@ export default function GameIndustryPage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>国内ゲームコンテンツ市場は<strong>2兆3,961億円</strong>（2024年・前年比3.4%増）と拡大が続き、エンジニア需要は底堅い（出典: ファミ通ゲーム白書2025）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>ゲームプログラマーの平均年収は<strong>517万円</strong>（求人掲載ベース・2026年5月時点）。現役開発者中心の調査では平均<strong>674万円</strong>と、経験を積むほど水準が上がる</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>女性開発者比率は<strong>21.9%</strong>。エンジニア職の女性はまだ少数派で、だからこそ採用ニーズがある（出典: CESA調査）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>異業種からの最短ルートは<strong>サーバーサイド・インフラ・QA</strong>。Web系の経験がほぼそのまま通用する。クライアント開発志望ならUnity＋C#のポートフォリオが事実上必須</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>働き方は改善傾向だが、リリース前の繁忙（クランチ）は企業差が大きい。<strong>残業実績と代休制度の確認</strong>が転職成功の鍵</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>国内ゲームコンテンツ市場は<strong>2兆3,961億円</strong>（2024年・前年比3.4%増）と拡大が続き、エンジニア需要は底堅い（出典: ファミ通ゲーム白書2025）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>ゲームプログラマーの平均年収は<strong>517万円</strong>（求人掲載ベース・2026年5月時点）。現役開発者中心の調査では平均<strong>674万円</strong>と、経験を積むほど水準が上がる</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>女性開発者比率は<strong>21.9%</strong>。エンジニア職の女性はまだ少数派で、だからこそ採用ニーズがある（出典: CESA調査）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>異業種からの最短ルートは<strong>サーバーサイド・インフラ・QA</strong>。Web系の経験がほぼそのまま通用する。クライアント開発志望ならUnity＋C#のポートフォリオが事実上必須</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>働き方は改善傾向だが、リリース前の繁忙（クランチ）は企業差が大きい。<strong>残業実績と代休制度の確認</strong>が転職成功の鍵</span></li>
             </ul>
           </div>
         </div>
@@ -128,18 +128,18 @@ export default function GameIndustryPage() {
       {/* 目次 */}
       <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. ゲーム業界の今（市場規模と動向）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. データで見る女性ゲーム開発者の現在地</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 職種マップ（クライアント／サーバ／ツール／QA）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 年収相場と統計の読み方</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 必要なスキルと学習ルート</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 働き方の実態（魅力とクランチを公平に）</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 未経験・異業種からの現実的な入り方</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. ゲーム業界に強いエージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. ゲーム業界の今（市場規模と動向）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. データで見る女性ゲーム開発者の現在地</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 職種マップ（クライアント／サーバ／ツール／QA）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 年収相場と統計の読み方</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 必要なスキルと学習ルート</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 働き方の実態（魅力とクランチを公平に）</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 未経験・異業種からの現実的な入り方</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. ゲーム業界に強いエージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function GameIndustryPage() {
       </section>
 
       {/* sec2 女性開発者の現在地 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">データで見る女性ゲーム開発者の現在地</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -196,49 +196,49 @@ export default function GameIndustryPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な仕事</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な技術</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な仕事</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な技術</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>クライアント</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ゲーム本体（画面・操作・演出）の実装。プレイヤーが触れる部分すべて</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Unity（C#）/ Unreal Engine（C++）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均517万円・幅354万〜797万円（ゲームプログラマー全体）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>クライアント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ゲーム本体（画面・操作・演出）の実装。プレイヤーが触れる部分すべて</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Unity（C#）/ Unreal Engine（C++）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均517万円・幅354万〜797万円（ゲームプログラマー全体）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>サーバーサイド</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ユーザーデータ・課金・マッチング・ランキング。大規模トラフィック処理</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Go / Python / Java、AWS / GCP</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>バックエンド全体で平均500万〜520万円が目安</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>サーバーサイド</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ユーザーデータ・課金・マッチング・ランキング。大規模トラフィック処理</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Go / Python / Java、AWS / GCP</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>バックエンド全体で平均500万〜520万円が目安</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ツール・TA</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>開発効率化ツール・アセットパイプライン構築。アートと開発の橋渡し（テクニカルアーティスト）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>C# / Python、DCCツール連携</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>公開統計が少なく、ゲームプログラマー全体の幅（354万〜797万円）の中で経験により決まる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ツール・TA</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>開発効率化ツール・アセットパイプライン構築。アートと開発の橋渡し（テクニカルアーティスト）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>C# / Python、DCCツール連携</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>公開統計が少なく、ゲームプログラマー全体の幅（354万〜797万円）の中で経験により決まる</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>QA・テスター</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>品質保証・テスト計画・テスト自動化・不具合管理</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>テスト設計 / 自動化ツール</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>テスター平均426万円・QAエンジニア平均481万円</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>QA・テスター</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>品質保証・テスト計画・テスト自動化・不具合管理</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>テスト設計 / 自動化ツール</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>テスター平均426万円・QAエンジニア平均481万円</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-text-light mt-3">
-            出典: 求人ボックス 給料ナビ「ゲームプログラマーの年収」（2026年5月時点データ、2026年6月参照）、ウィルオブテック「QAエンジニアの年収は低い？」（2026年6月参照）。サーバーサイドは当サイト<a href="/articles/backend/" className="hover:underline font-bold" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</a>掲載の各種統計に基づく目安。企業規模・経験により変動します。
+            出典: 求人ボックス 給料ナビ「ゲームプログラマーの年収」（2026年5月時点データ、2026年6月参照）、ウィルオブテック「QAエンジニアの年収は低い？」（2026年6月参照）。サーバーサイドは当サイト<a href="/articles/backend/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>バックエンドエンジニア転職ガイド</a>掲載の各種統計に基づく目安。企業規模・経験により変動します。
           </p>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>入りやすさの目安</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>入りやすさの目安</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>サーバーサイド・インフラ</strong>: Web系経験がほぼそのまま通用。異業種からの最短ルート</li>
-              <li>② <strong>QA</strong>: テスト自動化経験があれば未経験業界でも評価されやすい。<a href="/articles/qa-tester/" className="hover:underline font-bold" style={{ color: "#0891b2" }}>QA・テスターから始めるキャリア</a>も参照</li>
+              <li>② <strong>QA</strong>: テスト自動化経験があれば未経験業界でも評価されやすい。<a href="/articles/qa-tester/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>QA・テスターから始めるキャリア</a>も参照</li>
               <li>③ <strong>クライアント</strong>: Unity＋C#のポートフォリオが事実上必須。専門性が高いぶん代えがきかない人材になれる</li>
               <li>④ <strong>ツール・TA</strong>: 求人数は少なめだが競合も少ない。クライアント経験からの横展開が一般的</li>
             </ul>
@@ -247,7 +247,7 @@ export default function GameIndustryPage() {
       </section>
 
       {/* sec4 年収相場 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">年収相場と統計の読み方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -258,27 +258,27 @@ export default function GameIndustryPage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>統計</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>数値</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>性質</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>統計</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>数値</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>性質</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>求人ボックス 給料ナビ<br />（ゲームプログラマー）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均517万円<br />幅354万〜797万円<br />ボリュームゾーン520万〜575万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>求人掲載給与ベース（2026年5月時点）。「これから採用する人」への提示額</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>求人ボックス 給料ナビ<br />（ゲームプログラマー）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均517万円<br />幅354万〜797万円<br />ボリュームゾーン520万〜575万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>求人掲載給与ベース（2026年5月時点）。「これから採用する人」への提示額</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>レバテックキャリア統計<br />（Unityに関わるエンジニア）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均417万円<br />中央値450万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>転職サービス登録者の実績ベース。若手・転職検討層が多く含まれ低めに出る</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>レバテックキャリア統計<br />（Unityに関わるエンジニア）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均417万円<br />中央値450万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>転職サービス登録者の実績ベース。若手・転職検討層が多く含まれ低めに出る</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>CEDEC調査2025<br />（ゲーム開発者全体）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>個人年収平均674.21万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>現役開発者（カンファレンス参加層中心・エンジニアが43.1%）の回答。経験者の実態に近く高めに出る</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>CEDEC調査2025<br />（ゲーム開発者全体）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>個人年収平均674.21万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>現役開発者（カンファレンス参加層中心・エンジニアが43.1%）の回答。経験者の実態に近く高めに出る</td>
                 </tr>
               </tbody>
             </table>
@@ -286,8 +286,8 @@ export default function GameIndustryPage() {
           <p className="text-sm text-text-light mt-3">
             出典: 求人ボックス 給料ナビ「ゲームプログラマーの年収」（2026年6月参照）、レバテックキャリア「Unityに関わるエンジニアの平均年収・給料の統計」（2026年6月参照）、CEDEC「ゲーム開発者の就業とキャリア形成2025」（ゲームメーカーズ報道、2026年6月参照）
           </p>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>統計から読み取れる3つのこと</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>統計から読み取れる3つのこと</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>入口の水準は400万円台</strong>。未経験〜若手のうちは他のIT職種と大きな差はない</li>
               <li>② <strong>経験を積むと600万円台後半以上が現実的</strong>。現役開発者中心の調査では平均674万円。CEDEC調査では前年から年収が上がった人が77.9%にのぼる</li>
@@ -307,28 +307,28 @@ export default function GameIndustryPage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>クライアント志望（ゲームを作る側の王道）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>クライアント志望（ゲームを作る側の王道）</h3>
               <ul className="text-sm text-text-light space-y-2">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span><strong>Unity＋C#</strong>: スマホゲーム中心。無料で始められ学習資料が豊富。未経験からの入口に最適</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span><strong>Unreal Engine＋C++</strong>: コンシューマー・ハイエンド向け。専門性が高く競合が少ない</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span>3D数学の基礎（ベクトル・行列）、メモリ管理・最適化の意識</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#9654;</span><span>小さくても「完成させて公開した」ゲームのポートフォリオ</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span><strong>Unity＋C#</strong>: スマホゲーム中心。無料で始められ学習資料が豊富。未経験からの入口に最適</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span><strong>Unreal Engine＋C++</strong>: コンシューマー・ハイエンド向け。専門性が高く競合が少ない</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span>3D数学の基礎（ベクトル・行列）、メモリ管理・最適化の意識</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span>小さくても「完成させて公開した」ゲームのポートフォリオ</span></li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>サーバー・QA志望（異業種経験が活きる側）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>サーバー・QA志望（異業種経験が活きる側）</h3>
               <ul className="text-sm text-text-light space-y-2">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>Go / Python / Java でのAPI開発経験</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>AWS / GCP、MySQL / Redis、大規模トラフィック対応</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>リアルタイム通信（WebSocket / gRPC）があれば加点</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="font-bold">&#9654;</span><span>QAはテスト設計＋自動化（Selenium等の経験はゲームにも応用可）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span>Go / Python / Java でのAPI開発経験</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span>AWS / GCP、MySQL / Redis、大規模トラフィック対応</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span>リアルタイム通信（WebSocket / gRPC）があれば加点</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#9654;</span><span>QAはテスト設計＋自動化（Selenium等の経験はゲームにも応用可）</span></li>
               </ul>
             </div>
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              未経験からクライアントエンジニアを目指すなら、<strong>Unity＋C#から入るのが最短ルート</strong>です。C#は文法が体系的で学びやすく、同じ言語で業務系システム開発にも通用するため、仮にゲーム業界が合わなくてもキャリアが潰しにくいのが利点です。C#のキャリア全体像は<a href="/articles/csharp-career/" className="hover:underline font-bold" style={{ color: "#0891b2" }}>女性C#エンジニアの転職ガイド</a>で詳しく解説しています。
+              未経験からクライアントエンジニアを目指すなら、<strong>Unity＋C#から入るのが最短ルート</strong>です。C#は文法が体系的で学びやすく、同じ言語で業務系システム開発にも通用するため、仮にゲーム業界が合わなくてもキャリアが潰しにくいのが利点です。C#のキャリア全体像は<a href="/articles/csharp-career/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>女性C#エンジニアの転職ガイド</a>で詳しく解説しています。
             </p>
           </div>
           <div className="space-y-4 mt-6">
@@ -339,8 +339,8 @@ export default function GameIndustryPage() {
               ["STEP4", "公開とポートフォリオ化", "unityroomやitch.io等で公開し、GitHubにコードを置く。工夫した点を言語化しておく。"],
               ["STEP5", "ゲーム業界に強いエージェントに相談", "ポートフォリオの見せ方・狙える求人レンジを客観評価してもらい、応募戦略を立てる。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -352,7 +352,7 @@ export default function GameIndustryPage() {
       </section>
 
       {/* sec6 働き方の実態 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">働き方の実態（魅力とクランチを公平に）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -361,27 +361,27 @@ export default function GameIndustryPage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>魅力</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>魅力</h3>
               <ul className="text-sm text-text-light space-y-2 leading-relaxed">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#10003;</span><span>自分の作ったものをユーザーが「楽しんでくれる」実感が直接得られる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#10003;</span><span>転職経験者55.2%・転職で年収が上がった人77.9%（CEDEC調査2025）。実力が流動性の高い市場で評価される</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#10003;</span><span>フレックス・リモートの導入が進み、特にサーバー・インフラ職は在宅と相性が良い</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="font-bold">&#10003;</span><span>最適化・リアルタイム処理のスキルは他業界でも通用する資産になる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#10003;</span><span>自分の作ったものをユーザーが「楽しんでくれる」実感が直接得られる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#10003;</span><span>転職経験者55.2%・転職で年収が上がった人77.9%（CEDEC調査2025）。実力が流動性の高い市場で評価される</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#10003;</span><span>フレックス・リモートの導入が進み、特にサーバー・インフラ職は在宅と相性が良い</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="font-bold">&#10003;</span><span>最適化・リアルタイム処理のスキルは他業界でも通用する資産になる</span></li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>注意点</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>注意点</h3>
               <ul className="text-sm text-text-light space-y-2 leading-relaxed">
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="font-bold">&#9888;</span><span>マスターアップ前・大型アップデート前は負荷が上がりやすい（いわゆるクランチ）。改善傾向にあるが企業差・プロジェクト差が大きい</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="font-bold">&#9888;</span><span>運営型タイトルはイベントサイクルやメンテナンス対応で不定期の対応が発生しうる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="font-bold">&#9888;</span><span>現在の職場での就業年数は女性平均5.66年と男性（8.11年）より短い（CESA調査2023）。長く働ける制度の実態確認が重要</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="font-bold">&#9888;</span><span>プロジェクトの中止・方針転換が起こりうる業界特性も理解しておく</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>マスターアップ前・大型アップデート前は負荷が上がりやすい（いわゆるクランチ）。改善傾向にあるが企業差・プロジェクト差が大きい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>運営型タイトルはイベントサイクルやメンテナンス対応で不定期の対応が発生しうる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>現在の職場での就業年数は女性平均5.66年と男性（8.11年）より短い（CESA調査2023）。長く働ける制度の実態確認が重要</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>プロジェクトの中止・方針転換が起こりうる業界特性も理解しておく</span></li>
               </ul>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>転職前に確認すべき5項目</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>転職前に確認すべき5項目</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① 平均残業時間の<strong>実績値</strong>（「みなし」ではなく直近の実測）</li>
               <li>② リリース後の代休・リフレッシュ休暇の運用実態</li>
@@ -400,7 +400,7 @@ export default function GameIndustryPage() {
           <h2 className="text-2xl font-bold mb-6">未経験・異業種からの現実的な入り方</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              「ゲーム業界＝狭き門」のイメージがありますが、入口を選べば現実的です。特に運営型のスマホゲームはWebサービスと技術構成が近いため、<strong>Web業界での経験がほぼそのまま評価されます</strong>。Web業界との比較は<a href="/articles/web-industry/" className="hover:underline font-bold" style={{ color: "#0891b2" }}>Web系企業への転職ガイド</a>も参考にしてください。
+              「ゲーム業界＝狭き門」のイメージがありますが、入口を選べば現実的です。特に運営型のスマホゲームはWebサービスと技術構成が近いため、<strong>Web業界での経験がほぼそのまま評価されます</strong>。Web業界との比較は<a href="/articles/web-industry/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>Web系企業への転職ガイド</a>も参考にしてください。
             </p>
           </div>
           <div className="space-y-4">
@@ -410,9 +410,9 @@ export default function GameIndustryPage() {
               { step: "ルート3", title: "Unityポートフォリオ → クライアントエンジニア", desc: "完全未経験からクライアント職を狙う場合は、Unity＋C#で小さなゲームを完成・公開するポートフォリオが事実上の必須条件です。学習期間は1日2〜3時間で半年程度が一つの目安です。" },
               { step: "ルート4", title: "業界研究 + エージェント活用で選考対策", desc: "応募先のゲームを実際にプレイし、CEDECの講演資料などで業界特有の技術課題を把握すると、面接の説得力が大きく上がります。求人の探し方は業界特化エージェントの併用が効率的です。" },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{item.step}</span>
+                  <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{item.step}</span>
                   <h3 className="text-lg font-bold">{item.title}</h3>
                 </div>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
@@ -423,28 +423,28 @@ export default function GameIndustryPage() {
       </section>
 
       {/* おすすめエージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">ゲーム業界に強いエージェント</h2>
           <div className="space-y-4 mt-4">
             {[
-              { name: "Geekly", badge: "ゲーム業界特化", color: "#7c3aed", desc: "IT・Web・ゲーム業界特化の転職エージェント。大手ゲーム会社からインディーゲームスタジオまで幅広い求人を保有。書類選考通過率3.4倍の実績。", link: "/reviews/geekly/" },
-              { name: "レバテックキャリア", badge: "IT特化型", color: "#0891b2", desc: "IT業界全般に強いエージェントで、ゲーム業界の求人も豊富。技術力を重視した求人提案が特徴で、年収交渉にも強い。", link: "/reviews/levtech/" },
+              { name: "Geekly", badge: "ゲーム業界特化", color: "#7c3a55", desc: "IT・Web・ゲーム業界特化の転職エージェント。大手ゲーム会社からインディーゲームスタジオまで幅広い求人を保有。書類選考通過率3.4倍の実績。", link: "/reviews/geekly/" },
+              { name: "レバテックキャリア", badge: "IT特化型", color: "#7c3a55", desc: "IT業界全般に強いエージェントで、ゲーム業界の求人も豊富。技術力を重視した求人提案が特徴で、年収交渉にも強い。", link: "/reviews/levtech/" },
               { name: "Green", badge: "スカウト型", color: "#10b981", desc: "ゲーム会社からの直接スカウトが届くプラットフォーム。カジュアル面談から始められるため、まずは業界の雰囲気を知りたい方におすすめ。", link: "/reviews/green/" },
             ].map((agent, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <div className="flex items-center gap-3 mb-2">
                   <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: agent.color }}>{agent.badge}</span>
                   <h3 className="text-lg font-bold">{agent.name}</h3>
                 </div>
                 <p className="text-sm text-text-light leading-relaxed mb-3">{agent.desc}</p>
-                <a href={agent.link} className="text-sm font-bold hover:underline" style={{ color: "#0891b2" }}>{agent.name}の詳細レビューを見る →</a>
+                <a href={agent.link} className="text-sm font-bold hover:underline" style={{ color: "#7c3a55" }}>{agent.name}の詳細レビューを見る →</a>
               </div>
             ))}
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p className="text-sm">
-              レバテックキャリアとGeeklyのどちらに登録すべきか迷う場合は、両社の特徴を並べて比較した<a href="/articles/levtech-vs-geekly/" className="hover:underline font-bold" style={{ color: "#0891b2" }}>レバテックキャリアとGeeklyの比較記事</a>が参考になります。ゲーム業界を含むかどうか・サポートの進め方など、公開情報ベースで違いを整理しています。
+              レバテックキャリアとGeeklyのどちらに登録すべきか迷う場合は、両社の特徴を並べて比較した<a href="/articles/levtech-vs-geekly/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>レバテックキャリアとGeeklyの比較記事</a>が参考になります。ゲーム業界を含むかどうか・サポートの進め方など、公開情報ベースで違いを整理しています。
             </p>
           </div>
         </div>
@@ -456,13 +456,13 @@ export default function GameIndustryPage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}
@@ -471,7 +471,7 @@ export default function GameIndustryPage() {
       </section>
 
       {/* 出典一覧 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">本記事の出典</h2>
           <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -491,20 +491,20 @@ export default function GameIndustryPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/csharp-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性C#エンジニアの転職ガイド</h3>
+            <a href="/articles/csharp-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性C#エンジニアの転職ガイド</h3>
               <p className="text-sm text-text-light">Unityゲーム開発と業務系、C#で広がる2つの道</p>
             </a>
-            <a href="/articles/web-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Web系企業への転職ガイド</h3>
+            <a href="/articles/web-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Web系企業への転職ガイド</h3>
               <p className="text-sm text-text-light">ゲームサーバーに近い技術構成のWeb業界を知る</p>
             </a>
-            <a href="/articles/qa-tester/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>QAエンジニア・テスター転職ガイド</h3>
+            <a href="/articles/qa-tester/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>QAエンジニア・テスター転職ガイド</h3>
               <p className="text-sm text-text-light">ゲーム業界への入口にもなるQA職の全体像</p>
             </a>
-            <a href="/articles/levtech-vs-geekly/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>レバテックキャリアとGeeklyを比較</h3>
+            <a href="/articles/levtech-vs-geekly/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>レバテックキャリアとGeeklyを比較</h3>
               <p className="text-sm text-text-light">ゲーム業界に強いのはどっち？公開情報で比較</p>
             </a>
           </div>
@@ -514,10 +514,10 @@ export default function GameIndustryPage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">ゲーム業界への転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">ゲーム業界に強いエージェントに無料相談して、理想のポジションを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

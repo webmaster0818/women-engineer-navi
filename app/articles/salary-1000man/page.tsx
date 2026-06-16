@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               年収ガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 年収1000万のリアル（達成できる割合）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 1000万に届く職種・ルート（一覧表）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキルと経験年数</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 女性が1000万を目指す5つの戦略</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 外資・フリーランスという選択</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 年収を上げる転職事例</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. よくある質問</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 関連記事</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 年収1000万のリアル（達成できる割合）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 1000万に届く職種・ルート（一覧表）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキルと経験年数</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が1000万を目指す5つの戦略</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 外資・フリーランスという選択</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 年収を上げる転職事例</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 関連記事</a></li>
             </ol>
           </div>
         </div>
@@ -165,12 +165,12 @@ export default function ArticlePage() {
             <p>
               重要なのは、コンサルファームや外資系テックのように<strong>年齢・性別に関係なく成果で評価される領域</strong>を選ぶこと。実際、20代でマネージャーに昇進し1000万円以上を得ている女性も存在します。本記事では、その「届く場所」と「届くための具体的なルート」を順に解説します。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>年収1000万に到達するための3条件</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>年収1000万に到達するための3条件</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>高年収レンジの職種</strong>に身を置く（SRE / データ / コンサル / EM / 外資 / 高単価フリーランス）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>希少な専門性</strong>または<strong>上流・マネジメント</strong>のどちらかで突き抜ける</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>市場価値を正しく評価</strong>してくれる環境（実力主義の企業・適正単価の案件）に移る</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>高年収レンジの職種</strong>に身を置く（SRE / データ / コンサル / EM / 外資 / 高単価フリーランス）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>希少な専門性</strong>または<strong>上流・マネジメント</strong>のどちらかで突き抜ける</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>市場価値を正しく評価</strong>してくれる環境（実力主義の企業・適正単価の案件）に移る</span></li>
               </ul>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 職種・ルート表 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">1000万に届く職種・ルート（一覧表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -189,42 +189,42 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種・ルート</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収レンジの目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>1000万への近道</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種・ルート</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収レンジの目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>1000万への近道</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>エンジニアリングマネージャー（EM）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>900〜1200万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>開発力＋チーム/組織のマネジメント。中心レンジが1000万に最も近い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>エンジニアリングマネージャー（EM）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>900〜1200万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>開発力＋チーム/組織のマネジメント。中心レンジが1000万に最も近い</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITコンサルタント</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>シニア/マネージャー級 1000〜1700万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上流（IT戦略・要件定義）×経営層提案。30歳前後でマネージャー昇進例も</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ITコンサルタント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>シニア/マネージャー級 1000〜1700万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上流（IT戦略・要件定義）×経営層提案。30歳前後でマネージャー昇進例も</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>SRE / DevOps</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>シニアで850〜1200万円（外資はさらに上）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>クラウド×IaC×Kubernetesの大規模運用。フリーランス平均は約991万円</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>SRE / DevOps</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>シニアで850〜1200万円（外資はさらに上）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>クラウド×IaC×Kubernetesの大規模運用。フリーランス平均は約991万円</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンティスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上位層で1000万円超</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>機械学習×ビジネス成果の実績。外資なら20代到達例も</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンティスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上位層で1000万円超</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>機械学習×ビジネス成果の実績。外資なら20代到達例も</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>外資系テックエンジニア</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基本給＋RSUでトータル2000万円超も</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>英語力＋高い技術力。実力主義で性別・年齢に依存しにくい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>外資系テックエンジニア</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基本給＋RSUでトータル2000万円超も</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>英語力＋高い技術力。実力主義で性別・年齢に依存しにくい</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>高単価フリーランス</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>月80〜100万円超（年収換算1000万円前後）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>EM/SRE級は月100万円超の案件も。稼働調整しながら高単価維持が可能</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>高単価フリーランス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>月80〜100万円超（年収換算1000万円前後）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>EM/SRE級は月100万円超の案件も。稼働調整しながら高単価維持が可能</td>
                 </tr>
               </tbody>
             </table>
@@ -247,37 +247,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>必要スキル</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>経験年数の目安</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>必要スキル</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>経験年数の目安</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>SRE / DevOps</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AWS/GCP/Azure設計運用、Terraform等のIaC、Docker/Kubernetesの大規模運用</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>シニア（7年以上）で1000万円が視野</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>SRE / DevOps</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AWS/GCP/Azure設計運用、Terraform等のIaC、Docker/Kubernetesの大規模運用</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>シニア（7年以上）で1000万円が視野</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンティスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python、統計・機械学習、SQL、ビジネス課題への翻訳力</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>3年以上＋明確な成果実績（外資なら20代も）</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITコンサルタント</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>要件定義・IT戦略立案、業務知識、経営層への提案・折衝力</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>シニア/マネージャー級（30歳前後の昇進例あり）</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>エンジニアリングマネージャー</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術力＋ピープルマネジメント、採用・評価、プロジェクト推進</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>開発5年以上＋リード/マネジメント経験</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンティスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python、統計・機械学習、SQL、ビジネス課題への翻訳力</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>3年以上＋明確な成果実績（外資なら20代も）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>外資系エンジニア</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>高い技術力＋ビジネス英語、アルゴリズム/設計の選考対策</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>3〜5年＋強みの専門領域</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ITコンサルタント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>要件定義・IT戦略立案、業務知識、経営層への提案・折衝力</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>シニア/マネージャー級（30歳前後の昇進例あり）</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>エンジニアリングマネージャー</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術力＋ピープルマネジメント、採用・評価、プロジェクト推進</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>開発5年以上＋リード/マネジメント経験</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>外資系エンジニア</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>高い技術力＋ビジネス英語、アルゴリズム/設計の選考対策</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>3〜5年＋強みの専門領域</td>
                 </tr>
               </tbody>
             </table>
@@ -289,7 +289,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 女性が目指す5つの戦略 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性が1000万を目指す5つの戦略</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -305,8 +305,8 @@ export default function ArticlePage() {
               ["戦略4", "外資・実力主義の環境を選ぶ", "外資系テックやコンサルファームは年齢・性別ではなく成果で評価する文化。RSU込みでトータル2000万円超の例もあり、20代女性のマネージャー昇進・1000万円到達例も存在する。"],
               ["戦略5", "独立して単価を自分で決める", "高単価フリーランスなら月80〜100万円超（年収換算1000万円前後）。フラクショナルな業務委託EMなど、稼働日数を調整しながら高単価を維持し、ライフイベントと両立する道もある。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -314,8 +314,8 @@ export default function ArticlePage() {
               </div>
             ))}
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>5つの戦略を貫く一本の軸</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>5つの戦略を貫く一本の軸</h3>
             <p className="text-sm text-text-light leading-relaxed">
               いずれの戦略も、<strong>「替えがきかない人になる」</strong>という一点に収束します。女性比率が低い領域ほど、希少性で価値が際立ちます。育児・介護で稼働に制約があっても、専門性と単価で勝負すれば1000万円は十分に狙えます。
             </p>
@@ -333,13 +333,13 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>外資系テック企業</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>外資系テック企業</h3>
               <p className="text-text-light text-sm leading-relaxed mb-3">基本給に加え<strong>RSU（自社株）やサインオンボーナス</strong>が乗り、トータルコンペンセーションが2000万円を超えるケースもあります。実力主義で年齢・性別に依存しにくく、優秀なら20代で1000万円に届く可能性も。</p>
               <p className="text-text-light text-sm leading-relaxed"><strong>条件:</strong> ビジネス英語、アルゴリズム/システム設計の選考対策、専門領域での明確な実績。腰を据えてキャリアの最大値を取りに行きたい人向け。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>高単価フリーランス</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>高単価フリーランス</h3>
               <p className="text-text-light text-sm leading-relaxed mb-3">月単価80〜100万円超（年収換算1000万円前後）が目安。SREやEM級では<strong>月100万円超の案件</strong>もあり、フリーランスSREの平均年収は約991万円。稼働日数を調整しながら高単価を維持できます。</p>
               <p className="text-text-light text-sm leading-relaxed"><strong>条件:</strong> 即戦力の専門スキル、案件獲得力、税務・社会保険の自己管理。早期到達と働き方の自由度を重視する人向け。</p>
             </div>
@@ -351,31 +351,31 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 転職事例 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">年収を上げる転職事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代前半・インフラ→SRE）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・インフラ→SRE）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerのインフラ運用 / 年収520万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaS企業のSRE / 年収920万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerのインフラ運用 / 年収520万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のSRE / 年収920万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">AWSとTerraform（IaC）、Kubernetesの運用経験を業務外でも積み上げ、SREへ職種転換。希少性の高い領域に移ったことで、時短勤務を維持しつつ年収400万円アップとフルリモートを同時に実現しました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Dさん（30代後半・SE→ITコンサル）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（30代後半・SE→ITコンサル）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">業務系SE（実装中心）/ 年収600万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">ITコンサル（要件定義・IT戦略）/ 年収1080万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">業務系SE（実装中心）/ 年収600万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">ITコンサル（要件定義・IT戦略）/ 年収1080万円</p></div>
               </div>
               <p className="text-sm text-text-light">実装スキルに加え、要件定義・上流での顧客折衝の実績を職務経歴書で整理。実力主義のコンサルファームに上流人材として転職し、シニア級として1000万円の大台を突破しました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Eさん（40代・テックリード→独立EM）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Eさん（40代・テックリード→独立EM）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">独立前</p><p className="text-sm font-bold">自社開発のテックリード / 年収780万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>独立後</p><p className="text-sm font-bold">業務委託EM（月単価100万円）/ 年収換算1100万円超</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">独立前</p><p className="text-sm font-bold">自社開発のテックリード / 年収780万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>独立後</p><p className="text-sm font-bold">業務委託EM（月単価100万円）/ 年収換算1100万円超</p></div>
               </div>
               <p className="text-sm text-text-light">開発リード＋組織マネジメントの経験を武器に、フラクショナルな業務委託EMとして独立。月100万円前後の案件を組み合わせ、稼働日数を調整しながら育児と両立しつつ1000万円超を実現しています。</p>
             </div>
@@ -391,39 +391,39 @@ export default function ArticlePage() {
             <p>年収1000万円を狙うなら、ハイクラス求人と年収交渉に強いエージェントの活用が近道です。技術を正当に評価してもらうIT特化型と、働き方を両立させる女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーがSRE・データ・クラウドなど高年収領域の技術スタックを理解した提案をしてくれます。年収交渉にも強く、リモート求人も多数です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。EMやハイクラス求人にも対応し、スピーディーなマッチングと年収交渉力に定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。高年収と働きやすさを両立させたい人に最適で、条件で絞り込みやすいのが強みです。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで年収交渉の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分の市場価値を客観的に評価してくれるアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden bg-white" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden bg-white" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -437,10 +437,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの基本</p></a>
-            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職種別の年収比較</h3><p className="text-sm text-text-light">どの職種が高年収か一覧で解説</p></a>
-            <a href="/articles/it-consultant/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ITコンサルタント転職ガイド</h3><p className="text-sm text-text-light">上流で1000万を狙える職種</p></a>
-            <a href="/articles/freelance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>フリーランスという働き方</h3><p className="text-sm text-text-light">高単価で独立する道</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの基本</p></a>
+            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職種別の年収比較</h3><p className="text-sm text-text-light">どの職種が高年収か一覧で解説</p></a>
+            <a href="/articles/it-consultant/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ITコンサルタント転職ガイド</h3><p className="text-sm text-text-light">上流で1000万を狙える職種</p></a>
+            <a href="/articles/freelance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>フリーランスという働き方</h3><p className="text-sm text-text-light">高単価で独立する道</p></a>
           </div>
         </div>
       </section>
@@ -448,10 +448,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">年収1000万への一歩を踏み出しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたの市場価値と最短ルートを一緒に見極めましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

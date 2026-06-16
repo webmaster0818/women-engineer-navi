@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               資格ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. Python資格とは（種類と全体像）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. Python資格の種類と難易度（比較表）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 女性エンジニアにPython資格が役立つ理由</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 各試験の出題範囲</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 勉強時間と勉強法（STEP）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. おすすめ教材・学習サービス</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 取得後の年収・キャリアへの影響</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. 関連記事</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. Python資格とは（種類と全体像）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. Python資格の種類と難易度（比較表）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 女性エンジニアにPython資格が役立つ理由</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 各試験の出題範囲</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 勉強時間と勉強法（STEP）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. おすすめ教材・学習サービス</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 取得後の年収・キャリアへの影響</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. 関連記事</a></li>
             </ol>
           </div>
         </div>
@@ -166,14 +166,14 @@ export default function ArticlePage() {
             <p>
               資格は「実務力そのもの」ではありませんが、未経験・ブランクありの方が<strong>学習の抜け漏れを体系的に埋め、習得を客観的に示す</strong>のに有効です。資格取得をゴールにせず、ポートフォリオ制作・実務への橋渡しとして使うのがポイントです。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>Python資格でできるようになること</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>Python資格でできるようになること</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Pythonの文法・標準ライブラリの体系的な理解（基礎試験）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>NumPy / pandas / Matplotlib / scikit-learn を使ったデータ分析（データ分析試験）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>実務寄りのライブラリ活用・設計の知識（実践試験）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>履歴書・職務経歴書・ポートフォリオでのスキルアピール</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>AI・データ分析・自動化など高需要領域への足がかり</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Pythonの文法・標準ライブラリの体系的な理解（基礎試験）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>NumPy / pandas / Matplotlib / scikit-learn を使ったデータ分析（データ分析試験）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>実務寄りのライブラリ活用・設計の知識（実践試験）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>履歴書・職務経歴書・ポートフォリオでのスキルアピール</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>AI・データ分析・自動化など高需要領域への足がかり</span></li>
               </ul>
             </div>
           </div>
@@ -181,7 +181,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 種類と難易度（表） */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">Python資格の種類と難易度（比較表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -192,37 +192,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>資格</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>受験料(税込)</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>合格率/合格ライン</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>難易度・対象</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>資格</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>受験料(税込)</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>合格率/合格ライン</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>難易度・対象</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python3エンジニア認定基礎試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>11,000円<br />(学割5,500円)</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>合格率 約75〜80%<br />正答率70%以上で合格</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★☆☆ 入門。文法40問・60分。これから始める人に最適</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python3エンジニア認定基礎試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>11,000円<br />(学割5,500円)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>合格率 約75〜80%<br />正答率70%以上で合格</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★☆☆ 入門。文法40問・60分。これから始める人に最適</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python3エンジニア認定データ分析試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>11,000円<br />(学割5,500円)</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>合格率 約81.5%<br />正答率70%以上で合格</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★☆ データ分析・AI入門。40問・60分。基礎の次に</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python3エンジニア認定データ分析試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>11,000円<br />(学割5,500円)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>合格率 約81.5%<br />正答率70%以上で合格</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★☆ データ分析・AI入門。40問・60分。基礎の次に</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python3エンジニア認定実践試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>13,200円<br />(学割6,600円)</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>正答率70%以上で合格<br />(90%以上でSuper Engineer)</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★★ 実務寄り。基礎より難。中級者向け</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python3エンジニア認定実践試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>13,200円<br />(学割6,600円)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>正答率70%以上で合格<br />(90%以上でSuper Engineer)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★★ 実務寄り。基礎より難。中級者向け</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データ分析実践試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>11,000円<br />(学割6,600円)</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>正答率70%以上で合格</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★★ 分析実務寄り。データ分析試験の上位</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データ分析実践試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>11,000円<br />(学割6,600円)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>正答率70%以上で合格</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★★ 分析実務寄り。データ分析試験の上位</td>
                 </tr>
               </tbody>
             </table>
@@ -243,20 +243,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 学習コストが低く在宅で取りやすい</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 学習コストが低く在宅で取りやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">Pythonは文法がシンプルで、基礎試験は40〜50時間が目安。1日1.5〜2時間のスキマ学習でも1〜1.5カ月で到達でき、育児・仕事と並行して進めやすい資格です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. ブランクを「学び直しの証拠」に変えられる</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. ブランクを「学び直しの証拠」に変えられる</h3>
               <p className="text-text-light text-sm leading-relaxed">育休・離職で空白期間がある場合も、資格は「学習を再開し、形に残るスキルを習得した」客観的な証明に。書類選考やカジュアル面談で前向きな印象を与えられます。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. AI・データ分析という成長領域に直結</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. AI・データ分析という成長領域に直結</h3>
               <p className="text-text-light text-sm leading-relaxed">データ分析試験はNumPy・pandas・scikit-learnを学べ、データ分析・機械学習職への入口に。生成AI時代に最も需要が伸びている領域へ、女性も挑戦しやすくなります。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. リモート求人が多く働き方を選びやすい</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. リモート求人が多く働き方を選びやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">Pythonを使うデータ分析・バックエンド・自動化はフルリモート求人が豊富。資格でスキルを示せれば、ライフイベントと両立できる柔軟な働き方を選びやすくなります。</p>
             </div>
           </div>
@@ -264,7 +264,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 出題範囲 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">各試験の出題範囲</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -273,8 +273,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>基礎試験（主教材：オライリー『Pythonチュートリアル 第4版』）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>基礎試験（主教材：オライリー『Pythonチュートリアル 第4版』）</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">40問・60分・選択式。文法と標準ライブラリの基礎が中心で、出題比率の目安は次の通りです。</p>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・データ構造（リスト・辞書・タプル・集合）／制御構文：比重大</li>
@@ -283,8 +283,8 @@ export default function ArticlePage() {
                 <li>・仮想環境・エラーとデバッグの基礎</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>データ分析試験（主教材：『Pythonによるあたらしいデータ分析の教科書 第3版』）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>データ分析試験（主教材：『Pythonによるあたらしいデータ分析の教科書 第3版』）</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">40問・60分・選択式。<strong>約67.5%（27問）が第4章「ライブラリによる分析実践」</strong>から出題されます。主要ライブラリの操作が合否を分けます。</p>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・データ分析の概要・実行環境（Jupyter Notebook など）</li>
@@ -293,8 +293,8 @@ export default function ArticlePage() {
                 <li>・<strong>Matplotlib</strong>（可視化）／<strong>scikit-learn</strong>（機械学習の基礎）</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>実践試験（主教材：技術評論社『Python実践レシピ』）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>実践試験（主教材：技術評論社『Python実践レシピ』）</h3>
               <p className="text-sm text-text-light leading-relaxed">全19章のうち、7・12・15・19章を除く15章が出題範囲。標準ライブラリの実務的な使い方やパッケージ管理など、現場寄りの内容です。正答率90%以上で「Python Super Engineer」の呼称が使えます。</p>
             </div>
           </div>
@@ -319,8 +319,8 @@ export default function ArticlePage() {
               ["STEP5", "模擬試験を繰り返し正答率8割を安定させる", "複数回分の模試を繰り返し、安定して8割以上を取れる状態に。データ分析試験は第4章のライブラリ操作を重点的に固めます。"],
               ["STEP6", "CBT会場で受験・次の資格やポートフォリオへ", "ほぼ毎日受験可能。合格したら、簡単なデータ分析やWebアプリを作って公開し、資格＋成果物で転職準備を進めます。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -332,7 +332,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 おすすめ教材 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ教材・学習サービス</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -343,37 +343,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>教材・サービス</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>対象</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>教材・サービス</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>対象</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>オライリー『Pythonチュートリアル 第4版』</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎試験の主教材。これが出題範囲そのもの</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>オライリー『Pythonチュートリアル 第4版』</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎試験の主教材。これが出題範囲そのもの</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>『Pythonによるあたらしいデータ分析の教科書 第3版』</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>データ分析試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>データ分析試験の主教材。第4章を重点学習</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>『Pythonによるあたらしいデータ分析の教科書 第3版』</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>データ分析試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>データ分析試験の主教材。第4章を重点学習</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>PRIME STUDY（プライム・ストラテジー）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎/データ分析</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>無料の模擬試験＋動画解説。協会認定で本番に近い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>PRIME STUDY（プライム・ストラテジー）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎/データ分析</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>無料の模擬試験＋動画解説。協会認定で本番に近い</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>DIVE INTO EXAM（DIVE INTO CODE）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎/データ分析</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>無料の模擬試験。会員登録で繰り返し受験可能</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>DIVE INTO EXAM（DIVE INTO CODE）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎/データ分析</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>無料の模擬試験。会員登録で繰り返し受験可能</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Udemy / 各種オンライン講座</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>全般</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>動画で手を動かしたい人向け。セール時は安価</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Udemy / 各種オンライン講座</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>全般</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>動画で手を動かしたい人向け。セール時は安価</td>
                 </tr>
               </tbody>
             </table>
@@ -396,22 +396,22 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>キャリア</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>Python資格との関係</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>キャリア</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>Python資格との関係</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Pythonエンジニア(平均)</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約653万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎・実践試験が土台の証明に</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データアナリスト</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約500〜700万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>データ分析試験がそのまま入口</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンティスト</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約600〜1,200万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>データ分析試験→上位資格(G検定/E資格)へ</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス(Python)</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>正社員＋200〜400万円も</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務経験＋スキル証明で高単価案件へ</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Pythonエンジニア(平均)</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約653万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎・実践試験が土台の証明に</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データアナリスト</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約500〜700万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>データ分析試験がそのまま入口</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンティスト</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約600〜1,200万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>データ分析試験→上位資格(G検定/E資格)へ</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス(Python)</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>正社員＋200〜400万円も</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務経験＋スキル証明で高単価案件へ</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>資格を年収・キャリアに活かす3つのコツ</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>資格を年収・キャリアに活かす3つのコツ</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>資格＋ポートフォリオ</strong>で「使える」ことを示す（分析ノートやWebアプリを公開）</li>
               <li>② <strong>データ分析試験→G検定/E資格</strong>へとステップアップし、AI領域での市場価値を高める</li>
@@ -422,30 +422,30 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>Python資格とポートフォリオを正当に評価してもらうには、IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーがPython・データ分析のスキルを理解した提案をしてくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、Pythonを軸とした自社開発・データ職への転職に向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。資格取得で再就職を目指すブランクありの方や、働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -456,12 +456,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -471,14 +471,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">需要の高いPythonで広がる道</p></a>
-            <a href="/articles/data-scientist/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>データサイエンティスト転職ガイド</h3><p className="text-sm text-text-light">データ分析試験の先にある高年収職</p></a>
-            <a href="/articles/ai-ml-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>AI・機械学習エンジニアのキャリア</h3><p className="text-sm text-text-light">生成AI時代に伸びる領域</p></a>
-            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職に役立つ資格を総まとめ</p></a>
+            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">需要の高いPythonで広がる道</p></a>
+            <a href="/articles/data-scientist/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>データサイエンティスト転職ガイド</h3><p className="text-sm text-text-light">データ分析試験の先にある高年収職</p></a>
+            <a href="/articles/ai-ml-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>AI・機械学習エンジニアのキャリア</h3><p className="text-sm text-text-light">生成AI時代に伸びる領域</p></a>
+            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職に役立つ資格を総まとめ</p></a>
           </div>
         </div>
       </section>
@@ -486,10 +486,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">Python資格を武器に、理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。資格とスキルを活かせるキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               資格ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. データベース資格とは（何が証明できるのか）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 主要なDB資格の種類と難易度（比較表）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 女性エンジニアにDB資格が役立つ理由</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 各資格の出題範囲（何が問われるか）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 勉強時間と勉強法（STEPで解説）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. おすすめ教材・問題集</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 取得後の年収・キャリアへの影響</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. 関連記事</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. データベース資格とは（何が証明できるのか）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 主要なDB資格の種類と難易度（比較表）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 女性エンジニアにDB資格が役立つ理由</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 各資格の出題範囲（何が問われるか）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 勉強時間と勉強法（STEPで解説）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. おすすめ教材・問題集</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 取得後の年収・キャリアへの影響</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. 関連記事</a></li>
             </ol>
           </div>
         </div>
@@ -166,14 +166,14 @@ export default function ArticlePage() {
             <p>
               これらの資格は「SQLが書ける」だけでなく、<strong>正規化・ER図に基づくテーブル設計</strong>、<strong>インデックス・実行計画によるチューニング</strong>、<strong>バックアップ・リカバリなどの運用管理</strong>まで体系的に学べる点が強みです。実務では断片的になりがちな知識を、試験勉強を通じて「抜け漏れなく」整理できるため、独学エンジニアの弱点補強にも向いています。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>DB資格で証明できるスキル</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>DB資格で証明できるスキル</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>SQL（SELECT / JOIN / 集計 / サブクエリ / トランザクション）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>テーブル設計・正規化・ER図によるデータモデリング</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>インデックス設計・実行計画の読解・パフォーマンスチューニング</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>バックアップ・リカバリ・障害対応などの運用管理</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>PostgreSQL / Oracle といった製品固有の知識</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>SQL（SELECT / JOIN / 集計 / サブクエリ / トランザクション）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>テーブル設計・正規化・ER図によるデータモデリング</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>インデックス設計・実行計画の読解・パフォーマンスチューニング</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>バックアップ・リカバリ・障害対応などの運用管理</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>PostgreSQL / Oracle といった製品固有の知識</span></li>
               </ul>
             </div>
           </div>
@@ -181,7 +181,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 種類と難易度 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">主要なDB資格の種類と難易度（比較表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -192,56 +192,56 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>資格</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>対象DB</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>難易度</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>受験料</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>勉強時間の目安</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>資格</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>対象DB</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>難易度</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>受験料</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>勉強時間の目安</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ORACLE MASTER Bronze</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Oracle</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>入門（易しめ）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約41,773円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1〜3ヶ月</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ORACLE MASTER Bronze</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Oracle</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>入門（易しめ）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約41,773円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1〜3ヶ月</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>OSS-DB Silver</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>PostgreSQL</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>初級〜中級</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>16,500円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1〜3ヶ月</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>OSS-DB Silver</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>PostgreSQL</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>初級〜中級</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>16,500円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1〜3ヶ月</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ORACLE MASTER Silver</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Oracle</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>中級</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約41,773円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2〜4ヶ月</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ORACLE MASTER Silver</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Oracle</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>中級</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約41,773円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2〜4ヶ月</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>OSS-DB Gold</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>PostgreSQL</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>中級〜上級</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>17,600円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>半年〜1年</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>OSS-DB Gold</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>PostgreSQL</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>中級〜上級</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>17,600円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>半年〜1年</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ORACLE MASTER Gold</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Oracle</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上級</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約41,773円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>半年〜1年</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ORACLE MASTER Gold</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Oracle</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上級</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約41,773円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>半年〜1年</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データベーススペシャリスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>製品非依存（国家試験）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>最難関（レベル4）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>7,500円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>200時間以上</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データベーススペシャリスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>製品非依存（国家試験）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>最難関（レベル4）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>7,500円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>200時間以上</td>
                 </tr>
               </tbody>
             </table>
@@ -262,20 +262,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. スキルが陳腐化しにくくブランク復帰に強い</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. スキルが陳腐化しにくくブランク復帰に強い</h3>
               <p className="text-text-light text-sm leading-relaxed">SQLや正規化・ER図の考え方は数十年通用する普遍的な技術。産休育休でブランクが空いても価値が落ちにくく、資格はその力を客観的に証明してくれます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 隙間時間で取得しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 隙間時間で取得しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">OSS-DB SilverやORACLE MASTER BronzeはPing-tやWeb問題集をスマホで解け、1〜3ヶ月で取得可能。育児・家事の合間でも積み上げやすい資格です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 実力が客観評価され交渉材料になる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 実力が客観評価され交渉材料になる</h3>
               <p className="text-text-light text-sm leading-relaxed">資格は書類選考の通過率を上げ、年収交渉の根拠になります。性別ではなくスキルで判断されやすくなり、適正な評価を得る後押しになります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. リモート・上流職種への足がかりになる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. リモート・上流職種への足がかりになる</h3>
               <p className="text-text-light text-sm leading-relaxed">DB設計・チューニングは上流寄りで、リモート求人も豊富。DBスペシャリストなどを取ると、時間ではなく成果で評価される職域に移りやすくなります。</p>
             </div>
           </div>
@@ -283,23 +283,23 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 出題範囲 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">各資格の出題範囲（何が問われるか）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>資格ごとに「どこまでの深さ」が問われるかが異なります。志望業界と現在のレベルに合わせて選びましょう。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>OSS-DB Silver / Gold（PostgreSQL）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>OSS-DB Silver / Gold（PostgreSQL）</h3>
               <p className="text-sm text-text-light leading-relaxed">Silverは全50問・CBT形式で、出題は「一般知識16％／運用管理52％／開発・SQL32％」の構成。インストール・設定・基本的な運用とSQLが中心で、難易度は基本情報技術者のDB分野と同程度です。Goldはサーバー構築・高度な運用管理・性能監視・パフォーマンスチューニング・障害対応など、PostgreSQLの内部構造に踏み込んだ実務的な内容で、応用情報技術者に近い難度です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>ORACLE MASTER Bronze / Silver / Gold（Oracle）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>ORACLE MASTER Bronze / Silver / Gold（Oracle）</h3>
               <p className="text-sm text-text-light leading-relaxed">BronzeはOracle Databaseの基礎とSQL、DBA（データベース管理者）として最低限必要な管理知識が範囲。Silverはそこに日常的な運用管理とより実践的なSQLが加わり、Goldはバックアップ・リカバリ、性能管理、より高度な運用設計まで問われます。Oracleは企業の基幹システムで広く使われるため、SIer・大企業での評価・知名度が特に高い系統です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>データベーススペシャリスト（IPA・レベル4）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>データベーススペシャリスト（IPA・レベル4）</h3>
               <p className="text-sm text-text-light leading-relaxed">製品に依存しない国家試験で、午前I・午前II・午後I・午後IIの4区分すべてで100点満点中60点以上が必要。午後は概念データモデル・正規化・ER図に基づくデータベース設計、SQL、物理設計や運用設計を記述式で問う本格的な内容です。合格率は15〜18％と難関ですが、設計力そのものを証明できるため評価が高く、DB職のキャリアの「到達点」として位置づけられます。</p>
             </div>
           </div>
@@ -324,8 +324,8 @@ export default function ArticlePage() {
               ["STEP5", "無料環境で手を動かす", "PostgreSQLやOracle Database XE（無償版）を自宅PCに入れ、実際にSQLを実行・テーブルを設計。手を動かすと知識が定着し、実務でも即戦力になります。"],
               ["STEP6", "模試・直前演習で仕上げる", "本番形式（CBTや時間配分）に慣れる。DBスペシャリストは午後IIの長文に時間がかかるため、時間を計って解く練習を必ず行いましょう。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -337,7 +337,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 おすすめ教材 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ教材・問題集</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -346,33 +346,33 @@ export default function ArticlePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>資格</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>定番テキスト</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>演習</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>資格</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>定番テキスト</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>演習</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>OSS-DB Silver / Gold</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>『OSS教科書 OSS-DB Silver / Gold』（翔泳社）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Ping-t（無料範囲あり）・公式サンプル問題</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>OSS-DB Silver / Gold</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>『OSS教科書 OSS-DB Silver / Gold』（翔泳社）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Ping-t（無料範囲あり）・公式サンプル問題</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ORACLE MASTER</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>黒本『オラクルマスター教科書』（翔泳社）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Ping-t・白本（問題集）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ORACLE MASTER</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>黒本『オラクルマスター教科書』（翔泳社）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Ping-t・白本（問題集）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データベーススペシャリスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>『情報処理教科書 データベーススペシャリスト』（翔泳社）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>IPA公開の過去問・db-siken.com（無料）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データベーススペシャリスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>『情報処理教科書 データベーススペシャリスト』（翔泳社）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>IPA公開の過去問・db-siken.com（無料）</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>費用を抑えるコツ</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>費用を抑えるコツ</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>過去問・無料問題集を主軸に</strong>（DBスペシャリストはIPA公開過去問・db-siken.comが無料）</li>
               <li>② <strong>練習環境はOSS・無償版を活用</strong>（PostgreSQLは無料、Oracle XEは無償ライセンス）</li>
@@ -394,22 +394,22 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>フェーズ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>効く資格</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>フェーズ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>効く資格</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>未経験〜若手</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>350万〜450万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ORACLE MASTER Bronze / OSS-DB Silver</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>運用・開発の実務者</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>450万〜600万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ORACLE MASTER Silver / OSS-DB Gold</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>設計・チューニング担当</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>600万〜750万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ORACLE MASTER Gold / DBスペシャリスト</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>DBスペシャリスト / フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>700万円〜</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>DBスペシャリスト＋実務実績</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>未経験〜若手</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>350万〜450万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ORACLE MASTER Bronze / OSS-DB Silver</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>運用・開発の実務者</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>450万〜600万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ORACLE MASTER Silver / OSS-DB Gold</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>設計・チューニング担当</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>600万〜750万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ORACLE MASTER Gold / DBスペシャリスト</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>DBスペシャリスト / フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>700万円〜</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>DBスペシャリスト＋実務実績</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>キャリアの広がり方</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>キャリアの広がり方</h3>
             <p className="text-sm text-text-light leading-relaxed">
               DBスキルは応用が利き、<strong>データベースエンジニア／DBA</strong>はもちろん、<strong>バックエンドエンジニア</strong>（設計力で差別化）、<strong>データエンジニア</strong>（データ基盤・ETL）、<strong>SRE</strong>（高可用性・性能）へと横展開できます。資格手当（月5,000〜1万円程度）や合格報奨金を設ける企業も多く、特にORACLE MASTER GoldとDBスペシャリストは社内評価・転職市場の両方で武器になります。
             </p>
@@ -418,30 +418,30 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>取得した資格を正当に評価してもらうには、DBスキルを理解できるIT特化型と、女性のキャリア継続に強い女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。OSS-DBやORACLE MASTER、DBスペシャリストといった資格の意味を理解したアドバイザーが、設計・チューニングのスキルを踏まえた提案をしてくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。DB資格を年収交渉の材料として活かす提案に長け、スピーディーなマッチングに定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。資格で得たスキルを、働き方の条件と両立させながら活かしたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">資格を活かせるかはエージェント選びで決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、DBスキルを正しく評価してくれるアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -452,12 +452,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -467,14 +467,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/sql-database/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SQL・データベースの基礎ガイド</h3><p className="text-sm text-text-light">資格学習の土台になるSQLとDB設計</p></a>
-            <a href="/articles/data-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>データエンジニア転職ガイド</h3><p className="text-sm text-text-light">DBスキルを活かせる伸びしろの大きい職種</p></a>
-            <a href="/articles/backend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">DB設計が中核になるサーバーサイド職</p></a>
-            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職に効く資格を分野別に解説</p></a>
+            <a href="/articles/sql-database/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SQL・データベースの基礎ガイド</h3><p className="text-sm text-text-light">資格学習の土台になるSQLとDB設計</p></a>
+            <a href="/articles/data-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>データエンジニア転職ガイド</h3><p className="text-sm text-text-light">DBスキルを活かせる伸びしろの大きい職種</p></a>
+            <a href="/articles/backend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>バックエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">DB設計が中核になるサーバーサイド職</p></a>
+            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職に効く資格を分野別に解説</p></a>
           </div>
         </div>
       </section>
@@ -482,10 +482,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">DB資格を活かして理想の転職を</h2>
             <p className="text-white/90 mb-6">取得した資格を正しく評価してくれるエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

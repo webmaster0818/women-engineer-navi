@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               職種別ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. データエンジニアとは（データサイエンティストとの違い）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 女性がデータエンジニアで長く働きやすい理由</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキルとツール</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. データエンジニアの年収相場（年代別）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 求人動向と将来性</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験から目指すロードマップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. データエンジニアのキャリアパス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. データエンジニアとは（データサイエンティストとの違い）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 女性がデータエンジニアで長く働きやすい理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキルとツール</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. データエンジニアの年収相場（年代別）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 求人動向と将来性</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から目指すロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. データエンジニアのキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,15 +166,15 @@ export default function ArticlePage() {
             <p>
               データ基盤は一般に、<strong>ETL層（データ連携）→ DWH層（データ蓄積）→ BI層（データ活用）</strong>の3層で考えます。データエンジニアはこの全体を見渡し、どこにどんな構造でデータを置き、どう流すかを設計します。地味に見えて、企業のデータ活用そのものを左右する基盤的な仕事です。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>データエンジニアの主な担当領域</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>データエンジニアの主な担当領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ETL/ELTパイプラインの設計・実装（dbt / Airflow / Fivetran など）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>DWH・データレイクの設計・運用（BigQuery / Snowflake / Redshift）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>SQLによるデータ抽出・統合・変換、データモデリング</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Python（Pandas / PySpark）での大規模データ加工・自動化</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>データ品質・監視・パイプラインの安定運用</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>クラウド（AWS / GCP / Azure）でのデータ基盤構築</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ETL/ELTパイプラインの設計・実装（dbt / Airflow / Fivetran など）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>DWH・データレイクの設計・運用（BigQuery / Snowflake / Redshift）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>SQLによるデータ抽出・統合・変換、データモデリング</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Python（Pandas / PySpark）での大規模データ加工・自動化</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>データ品質・監視・パイプラインの安定運用</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>クラウド（AWS / GCP / Azure）でのデータ基盤構築</span></li>
               </ul>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性が働きやすい理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性がデータエンジニアで長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -191,20 +191,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. クラウド完結でフルリモートしやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. クラウド完結でフルリモートしやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">BigQueryやSnowflakeなどクラウド上で作業が完結するため、フルリモート求人が豊富。通勤負担を減らし、育児・介護と両立しながら働きやすい職種です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 成果が数値で残り時短でも評価されやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 成果が数値で残り時短でも評価されやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">パイプラインの処理時間短縮やデータ品質の改善など、成果が客観的な数値で残るため、勤務時間の長さではなく成果で評価されやすく、時短勤務でも実力が認められます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. SQL・設計スキルが長く通用する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. SQL・設計スキルが長く通用する</h3>
               <p className="text-text-light text-sm leading-relaxed">SQLやデータモデリングの「考え方」は流行に左右されにくく、一度身につければ長く武器になります。産休育休でブランクが空いても復帰しやすい土台になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 高需要・人材不足で条件交渉しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 高需要・人材不足で条件交渉しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">供給が需要に追いついておらず、スキルのある人材には好条件が提示されがち。希少性が高いほど、女性が働き方や年収を交渉できる余地も大きくなります。</p>
             </div>
           </div>
@@ -223,37 +223,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>SQL</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>JOIN / GROUP BY / サブクエリ / ウィンドウ関数</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>データエンジニアの最重要・必須スキル。まずここを固める</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>SQL</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>JOIN / GROUP BY / サブクエリ / ウィンドウ関数</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>データエンジニアの最重要・必須スキル。まずここを固める</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>クラウドDWH / データレイク</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>BigQuery / Snowflake / Redshift / Databricks</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務経験は必須級。BigQueryは無料枠で学習可能</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ETL/ELT・パイプライン</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>dbt / Airflow / Fivetran</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Modern Data Stack（dbt+Snowflake+Airflow）が主流</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プログラミング言語</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python（Pandas / PySpark）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQLだけでは難しい高度な加工・自動化に使う</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>クラウドDWH / データレイク</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>BigQuery / Snowflake / Redshift / Databricks</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務経験は必須級。BigQueryは無料枠で学習可能</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>クラウド / インフラ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AWS / GCP / Azure / Git</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>クラウド資格は評価・年収アップに直結。Gitは必須</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ETL/ELT・パイプライン</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>dbt / Airflow / Fivetran</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Modern Data Stack（dbt+Snowflake+Airflow）が主流</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>プログラミング言語</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python（Pandas / PySpark）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQLだけでは難しい高度な加工・自動化に使う</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>クラウド / インフラ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AWS / GCP / Azure / Git</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>クラウド資格は評価・年収アップに直結。Gitは必須</td>
                 </tr>
               </tbody>
             </table>
@@ -265,7 +265,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 年収 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">データエンジニアの年収相場（年代別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -276,22 +276,22 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代後半</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約466万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>20代前半は約376万円から</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代前半</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約594万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>35〜39歳で約614万円</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代前半</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約707万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>40代後半は約773万円</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>全体平均</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約558万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>IT全体平均（約540万円）より高め</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代後半</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約466万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>20代前半は約376万円から</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代前半</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約594万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>35〜39歳で約614万円</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代前半</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約707万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>40代後半は約773万円</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>全体平均</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約558万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>IT全体平均（約540万円）より高め</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>クラウドDWHの実務経験</strong>（Snowflake / BigQuery）を積み、資格（AWS/GCP/Databricks）で裏づける</li>
               <li>② <strong>Modern Data Stack（dbt/Airflow）やデータ基盤の設計（上流）</strong>を担えるようになる</li>
@@ -317,7 +317,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 未経験ロードマップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -332,8 +332,8 @@ export default function ArticlePage() {
               ["STEP5", "ETL/パイプラインを理解する", "dbtやAirflowで、データを抽出→変換→格納する流れを作る。Modern Data Stackの基本構成を押さえます。"],
               ["STEP6", "ポートフォリオを作る", "公開データを取り込み、変換し、DWHに貯めて可視化する小さなデータパイプラインを公開。転職活動で最も効く実績になります。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -352,39 +352,39 @@ export default function ArticlePage() {
             <p>データエンジニアは「データを扱う基盤力」が積み上がる職種で、データ領域の中でも特に潰しが効くのが魅力です。代表的な進路は次の通りです。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>基盤の専門家を極める</h3><p className="text-sm text-text-light">データアーキテクト／データプラットフォームエンジニアへ。大規模データ基盤の設計・最適化の専門家として高年収を狙う道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>分析寄りへ広げる</h3><p className="text-sm text-text-light">アナリティクスエンジニア／データサイエンティストへ。基盤の知見を土台に、分析・活用側へ領域を広げる道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>AI/ML基盤へ</h3><p className="text-sm text-text-light">MLエンジニア／MLOps・データプラットフォームへ。AI活用を支えるデータ基盤の希少人材として価値を高める道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>マネジメント・独立</h3><p className="text-sm text-text-light">データ基盤チームのリード／EMへ、あるいはフリーランスとして高単価・リモート中心の働き方へ。ライフステージに合わせやすい。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>基盤の専門家を極める</h3><p className="text-sm text-text-light">データアーキテクト／データプラットフォームエンジニアへ。大規模データ基盤の設計・最適化の専門家として高年収を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>分析寄りへ広げる</h3><p className="text-sm text-text-light">アナリティクスエンジニア／データサイエンティストへ。基盤の知見を土台に、分析・活用側へ領域を広げる道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>AI/ML基盤へ</h3><p className="text-sm text-text-light">MLエンジニア／MLOps・データプラットフォームへ。AI活用を支えるデータ基盤の希少人材として価値を高める道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>マネジメント・独立</h3><p className="text-sm text-text-light">データ基盤チームのリード／EMへ、あるいはフリーランスとして高単価・リモート中心の働き方へ。ライフステージに合わせやすい。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>データエンジニアの技術を正当に評価してもらうには、IT特化型と女性特化型の併用が効果的です。求人の母数がWeb開発職より少ないため、複数登録で非公開求人にアクセスするのがポイントです。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーがSnowflakeやBigQuery、dbtなどデータ基盤の技術スタックを理解した提案をしてくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。データ領域の職種にも詳しく、スピーディーなマッチングと年収交渉力に定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -394,19 +394,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（30代前半・BIアナリスト→データエンジニア）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・BIアナリスト→データエンジニア）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">事業会社のBIアナリスト（SQL中心）/ 年収480万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaS企業のデータエンジニア（Snowflake/dbt）/ 年収650万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">事業会社のBIアナリスト（SQL中心）/ 年収480万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のデータエンジニア（Snowflake/dbt）/ 年収650万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">業務で培ったSQL力を土台に、dbtとSnowflakeを独学で習得。IT特化型エージェントでデータ基盤構築の意欲とポートフォリオを整理し、年収170万円アップとフルリモートを同時に実現しました。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（20代後半・事務→データエンジニア）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・事務→データエンジニア）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">データ集計を兼ねた事務職（Excel/簡単なSQL）/ 年収330万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">自社開発企業のジュニアデータエンジニア（BigQuery/Python）/ 年収440万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">データ集計を兼ねた事務職（Excel/簡単なSQL）/ 年収330万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のジュニアデータエンジニア（BigQuery/Python）/ 年収440万円</p></div>
               </div>
               <p className="text-sm text-text-light">SQLを本格的に学び直し、BigQueryの無料枠で公開データを使ったパイプラインのポートフォリオを公開。未経験可・ポテンシャル採用の自社開発企業に転職し、産休育休実績のある環境で長く働ける基盤を得ました。</p>
             </div>
@@ -415,17 +415,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -439,10 +439,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/data-scientist/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>データサイエンティスト転職ガイド</h3><p className="text-sm text-text-light">分析・機械学習で活躍する職種との違い</p></a>
-            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">データ加工・自動化で広がる道</p></a>
-            <a href="/articles/aws-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>AWSエンジニア転職ガイド</h3><p className="text-sm text-text-light">データ基盤を支えるクラウドスキル</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/data-scientist/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>データサイエンティスト転職ガイド</h3><p className="text-sm text-text-light">分析・機械学習で活躍する職種との違い</p></a>
+            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">データ加工・自動化で広がる道</p></a>
+            <a href="/articles/aws-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>AWSエンジニア転職ガイド</h3><p className="text-sm text-text-light">データ基盤を支えるクラウドスキル</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
           </div>
         </div>
       </section>
@@ -450,10 +450,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

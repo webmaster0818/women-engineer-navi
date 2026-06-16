@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -81,7 +81,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 1. 個人情報の定義
               </h2>
               <p>
@@ -90,7 +90,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 2. 個人情報の収集方法
               </h2>
               <p>
@@ -104,7 +104,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 3. 個人情報の利用目的
               </h2>
               <p>当社は、収集した個人情報を以下の目的で利用します。</p>
@@ -118,7 +118,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 4. 個人情報の第三者提供
               </h2>
               <p>
@@ -133,7 +133,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 5. Cookieの使用について
               </h2>
               <p>
@@ -145,7 +145,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 6. アクセス解析ツールについて
               </h2>
               <p>
@@ -157,7 +157,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 7. 広告配信サービスについて
               </h2>
               <p>
@@ -166,7 +166,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 8. アフィリエイトプログラムについて
               </h2>
               <p>
@@ -175,7 +175,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 9. 個人情報の安全管理
               </h2>
               <p>
@@ -184,7 +184,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 10. 個人情報の開示・訂正・削除
               </h2>
               <p>
@@ -193,7 +193,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 11. SSL（Secure Socket Layer）について
               </h2>
               <p>
@@ -202,7 +202,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 12. 本ポリシーの変更
               </h2>
               <p>
@@ -211,7 +211,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 13. お問い合わせ
               </h2>
               <p>
@@ -221,7 +221,7 @@ export default function PrivacyPolicyPage() {
 
             <div
               className="rounded-xl border p-6 mt-8"
-              style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+              style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
             >
               <h2 className="text-lg font-bold mb-4">運営者情報</h2>
               <table className="w-full">
@@ -235,7 +235,7 @@ export default function PrivacyPolicyPage() {
                     <tr key={label}>
                       <th
                         className="px-4 py-2 text-left text-sm font-bold w-32"
-                        style={{ color: "#0891b2" }}
+                        style={{ color: "#7c3a55" }}
                       >
                         {label}
                       </th>

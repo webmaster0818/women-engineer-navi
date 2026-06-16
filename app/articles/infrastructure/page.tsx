@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               職種別ガイド
             </span>
@@ -134,8 +134,8 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li>・インフラエンジニアの平均年収は<strong>約475万円</strong>（求人ボックス、2026年時点）。担当フェーズで差が大きく、<strong>運用監視300万円台 → 構築450万円前後 → 設計・上流550万〜800万円</strong>とラダー状に上がる</li>
               <li>・<strong>未経験の入口はIT職種の中でも広い</strong>。運用監視からスタートし、CCNA/LPICを取って2〜3年で構築へ進むのが王道ルート</li>
@@ -149,19 +149,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. インフラエンジニアとは（仕事内容とSRE・社内SEとの違い）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 年収相場（運用保守→構築→設計のラダー別）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 未経験から入りやすい理由と現実（運用監視スタート）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 夜勤・オンコールの実態と回避策</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 女性が長く働くための両立戦略</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 資格ルート（CCNA・LPIC・AWS）</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. クラウド化で変わる仕事と将来性</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. インフラエンジニアのキャリアパス</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. インフラエンジニアとは（仕事内容とSRE・社内SEとの違い）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 年収相場（運用保守→構築→設計のラダー別）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 未経験から入りやすい理由と現実（運用監視スタート）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 夜勤・オンコールの実態と回避策</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 女性が長く働くための両立戦略</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 資格ルート（CCNA・LPIC・AWS）</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. クラウド化で変わる仕事と将来性</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. インフラエンジニアのキャリアパス</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -181,40 +181,40 @@ export default function ArticlePage() {
             <div className="overflow-x-auto mt-6">
               <table className="w-full text-sm border-collapse">
                 <thead>
-                  <tr style={{ backgroundColor: "#ecfeff" }}>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>フェーズ</th>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な仕事</th>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>特徴</th>
+                  <tr style={{ backgroundColor: "#efe3d8" }}>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>フェーズ</th>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な仕事</th>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>特徴</th>
                   </tr>
                 </thead>
                 <tbody className="text-text-light">
                   <tr>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>運用・保守・監視</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>稼働状況のチェック、障害の検知・一次対応、定期メンテナンス</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>未経験の入口。手順書ベースで覚えやすいが、夜勤シフトが発生しやすい</td>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>運用・保守・監視</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>稼働状況のチェック、障害の検知・一次対応、定期メンテナンス</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>未経験の入口。手順書ベースで覚えやすいが、夜勤シフトが発生しやすい</td>
                   </tr>
-                  <tr style={{ backgroundColor: "#f8fafb" }}>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>構築</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>設計書に基づくサーバー・ネットワーク・クラウド環境の構築、設定、テスト</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術力が一気に伸びる工程。日勤中心になり年収も上がる</td>
+                  <tr style={{ backgroundColor: "#f0e7dd" }}>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>構築</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>設計書に基づくサーバー・ネットワーク・クラウド環境の構築、設定、テスト</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術力が一気に伸びる工程。日勤中心になり年収も上がる</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>設計・要件定義（上流）</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>顧客要件のヒアリング、構成・容量・セキュリティの設計、コスト見積もり</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>高年収ゾーン。経験と対話力が評価され、長く働ける</td>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>設計・要件定義（上流）</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>顧客要件のヒアリング、構成・容量・セキュリティの設計、コスト見積もり</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>高年収ゾーン。経験と対話力が評価され、長く働ける</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="mt-4">
-              なお、コードと自動化でサービスの信頼性を高める<strong>SRE・DevOps</strong>はインフラ経験者の発展キャリアです（詳しくは<a href="/articles/sre-devops/" className="underline" style={{ color: "#0891b2" }}>SRE・DevOpsエンジニア転職ガイド</a>）。また、自社のIT基盤を支える<strong>社内SE</strong>もインフラ経験を活かせる人気の進路です（<a href="/articles/internal-se/" className="underline" style={{ color: "#0891b2" }}>社内SE転職ガイド</a>）。本記事では、その手前にある「インフラエンジニア全般（サーバー・ネットワーク・クラウド運用）」を軸に解説します。
+              なお、コードと自動化でサービスの信頼性を高める<strong>SRE・DevOps</strong>はインフラ経験者の発展キャリアです（詳しくは<a href="/articles/sre-devops/" className="underline" style={{ color: "#7c3a55" }}>SRE・DevOpsエンジニア転職ガイド</a>）。また、自社のIT基盤を支える<strong>社内SE</strong>もインフラ経験を活かせる人気の進路です（<a href="/articles/internal-se/" className="underline" style={{ color: "#7c3a55" }}>社内SE転職ガイド</a>）。本記事では、その手前にある「インフラエンジニア全般（サーバー・ネットワーク・クラウド運用）」を軸に解説します。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec2 年収 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">年収相場（運用保守→構築→設計のラダー別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -228,37 +228,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>キャリアラダー</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>キャリアラダー</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>運用監視オペレーター</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>300万〜400万円程度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>未経験の入口。夜勤手当（深夜割増25%以上）で上振れする場合あり</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>運用監視オペレーター</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>300万〜400万円程度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>未経験の入口。夜勤手当（深夜割増25%以上）で上振れする場合あり</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>運用・保守</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>350万〜500万円程度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>運用のみだと500万円前後で頭打ちになりやすいとの指摘が多い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>運用・保守</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>350万〜500万円程度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>運用のみだと500万円前後で頭打ちになりやすいとの指摘が多い</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>構築</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>450万〜600万円程度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>転職市場で「経験者」と評価される分岐点</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>構築</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>450万〜600万円程度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>転職市場で「経験者」と評価される分岐点</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>設計・要件定義（上流）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>550万〜800万円程度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>求人ボックス統計の給与幅上限は962万円</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>設計・要件定義（上流）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>550万〜800万円程度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>求人ボックス統計の給与幅上限は962万円</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>クラウド / SRE</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>600万〜1,000万円超</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>クラウド関連求人は給与水準が全体より高い傾向（求人ボックス）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>クラウド / SRE</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>600万〜1,000万円超</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>クラウド関連求人は給与水準が全体より高い傾向（求人ボックス）</td>
                 </tr>
               </tbody>
             </table>
@@ -267,8 +267,8 @@ export default function ArticlePage() {
             ※ラダー別の金額は各転職サービスの公開データをもとにした目安で、企業規模・商流・地域により変動します。<br />
             出典: 求人ボックス 給料ナビ「インフラエンジニアの年収・時給」（2026年6月参照）／厚生労働省 職業情報提供サイトjob tag「運用・管理（IT）」（2026年6月参照）
           </p>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>運用から構築・設計へ工程を上げる</strong>。同じ社歴でも担当フェーズで100万円単位の差がつく</li>
               <li>② <strong>クラウド（AWS等）スキルを足す</strong>。クラウド関連求人は給与水準が高め（求人ボックス）</li>
@@ -298,8 +298,8 @@ export default function ArticlePage() {
               ["STEP4", "構築工程へ手を挙げる（2〜3年目）", "手順書作成や検証環境の構築など、運用の中の「構築っぽい仕事」を拾いながら異動・転職で構築ポジションへ。ここで夜勤からも卒業しやすくなります。"],
               ["STEP5", "クラウド・設計へ広げる", "AWS認定資格などでクラウドスキルを足し、設計・上流やクラウド運用へ。年収600万円以上のゾーンが見えてきます。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -308,13 +308,13 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light text-sm leading-relaxed mt-4">
-            IT業界そのものが初めての方は、職種選びの全体像を<a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>未経験から女性エンジニアになるガイド</a>で先に確認しておくと、インフラが自分に合うか判断しやすくなります。
+            IT業界そのものが初めての方は、職種選びの全体像を<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験から女性エンジニアになるガイド</a>で先に確認しておくと、インフラが自分に合うか判断しやすくなります。
           </p>
         </div>
       </section>
 
       {/* sec4 夜勤 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">夜勤・オンコールの実態と回避策</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -329,21 +329,21 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>回避策1: 「日勤のみ」の求人を選ぶ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>回避策1: 「日勤のみ」の求人を選ぶ</h3>
               <p className="text-text-light text-sm leading-relaxed">運用でも日勤帯のみのポジションは存在します。求人票だけでは分かりにくいため、エージェント経由で「夜勤・シフトの有無」「オンコール当番の頻度と手当」を確認するのが確実です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>回避策2: 構築・設計へ工程を上げる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>回避策2: 構築・設計へ工程を上げる</h3>
               <p className="text-text-light text-sm leading-relaxed">構築・設計の仕事は基本的に日勤です。「夜勤は最初の2〜3年だけ」と期限を切り、構築経験を積んで卒業するのがインフラ職の王道戦略です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>回避策3: クラウド運用へシフトする</h3>
-              <p className="text-text-light text-sm leading-relaxed">クラウド環境は監視・復旧の自動化が進んでおり、深夜の駆けつけ対応が減ります。リモートで完結する仕事も多く、<a href="/articles/aws-career/" className="underline" style={{ color: "#0891b2" }}>AWSスキルを身につける</a>ことが夜勤回避と年収アップの両方に効きます。</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>回避策3: クラウド運用へシフトする</h3>
+              <p className="text-text-light text-sm leading-relaxed">クラウド環境は監視・復旧の自動化が進んでおり、深夜の駆けつけ対応が減ります。リモートで完結する仕事も多く、<a href="/articles/aws-career/" className="underline" style={{ color: "#7c3a55" }}>AWSスキルを身につける</a>ことが夜勤回避と年収アップの両方に効きます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>回避策4: 社内SE・情シスへ転身する</h3>
-              <p className="text-text-light text-sm leading-relaxed">自社システムを支える社内SEは日勤・土日休みが基本で、インフラ運用経験者の代表的な転身先です。詳しくは<a href="/articles/internal-se/" className="underline" style={{ color: "#0891b2" }}>社内SE転職ガイド</a>をご覧ください。</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>回避策4: 社内SE・情シスへ転身する</h3>
+              <p className="text-text-light text-sm leading-relaxed">自社システムを支える社内SEは日勤・土日休みが基本で、インフラ運用経験者の代表的な転身先です。詳しくは<a href="/articles/internal-se/" className="underline" style={{ color: "#7c3a55" }}>社内SE転職ガイド</a>をご覧ください。</p>
             </div>
           </div>
           <p className="text-text-light text-xs mt-4">
@@ -365,20 +365,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 慢性的な人材不足で復帰しやすい</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 慢性的な人材不足で復帰しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">経済産業省「IT人材需給に関する調査」（2019年）は2030年に最大79万人のIT人材不足を試算。基盤を支えるインフラ人材は特に採用難が続いており、経験者は時短・リモートなど条件交渉がしやすい売り手市場です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. クラウド化でリモート可能な仕事が増加</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. クラウド化でリモート可能な仕事が増加</h3>
               <p className="text-text-light text-sm leading-relaxed">データセンターへの出社が必須だった時代と違い、クラウド上の構築・運用はリモートで完結します。子どもの急な発熱にも在宅で対応しやすい働き方が選べます。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 「止めない」仕事は評価が安定的</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 「止めない」仕事は評価が安定的</h3>
               <p className="text-text-light text-sm leading-relaxed">インフラは安定稼働そのものが成果。流行を追い続ける消耗戦になりにくく、ITILベースの運用設計や障害対応の経験値が積み上がる「年齢とともに強くなる」職種です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 資格が市場価値の「証明書」になる</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 資格が市場価値の「証明書」になる</h3>
               <p className="text-text-light text-sm leading-relaxed">CCNA・LPIC・AWS認定など、スキルを客観的に示せる資格体系が整っており、ブランク後の復職活動でも実力を証明しやすいのが他職種にない利点です。</p>
             </div>
           </div>
@@ -389,7 +389,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 資格 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">資格ルート（CCNA・LPIC・AWS）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -398,22 +398,22 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4 mt-6">
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>入門</span>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>入門</span>
               <div>
                 <h3 className="font-bold mb-1">CCNA（ネットワーク）／ LPIC・LinuC レベル1（Linuxサーバー）</h3>
-                <p className="text-sm text-text-light leading-relaxed">未経験転職の二大定番。ネットワーク志向ならCCNA、サーバー志向ならLPIC/LinuCから。どちらか1つで運用監視・運用保守の採用率が大きく変わります。学習方法と難易度は<a href="/articles/cert-lpic/" className="underline" style={{ color: "#0891b2" }}>LPIC・LinuC資格ガイド</a>で詳しく解説しています。</p>
+                <p className="text-sm text-text-light leading-relaxed">未経験転職の二大定番。ネットワーク志向ならCCNA、サーバー志向ならLPIC/LinuCから。どちらか1つで運用監視・運用保守の採用率が大きく変わります。学習方法と難易度は<a href="/articles/cert-lpic/" className="underline" style={{ color: "#7c3a55" }}>LPIC・LinuC資格ガイド</a>で詳しく解説しています。</p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>実務1〜3年</span>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>実務1〜3年</span>
               <div>
                 <h3 className="font-bold mb-1">AWS認定（SAAなど）／ LPICレベル2</h3>
-                <p className="text-sm text-text-light leading-relaxed">構築工程・クラウド案件への切符。特にAWS認定ソリューションアーキテクト−アソシエイト（SAA）はクラウド求人で最も言及される資格です。キャリアへの効き方は<a href="/articles/aws-career/" className="underline" style={{ color: "#0891b2" }}>AWSエンジニアのキャリアガイド</a>を参照してください。</p>
+                <p className="text-sm text-text-light leading-relaxed">構築工程・クラウド案件への切符。特にAWS認定ソリューションアーキテクト−アソシエイト（SAA）はクラウド求人で最も言及される資格です。キャリアへの効き方は<a href="/articles/aws-career/" className="underline" style={{ color: "#7c3a55" }}>AWSエンジニアのキャリアガイド</a>を参照してください。</p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>中堅以降</span>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>中堅以降</span>
               <div>
                 <h3 className="font-bold mb-1">AWS認定プロフェッショナル／CCNP／情報処理安全確保支援士など</h3>
                 <p className="text-sm text-text-light leading-relaxed">設計・上流やセキュリティ専門職への展開に。ここまで来ると資格より実績が主役になりますが、専門性の対外証明として年収交渉の材料になります。</p>
@@ -445,27 +445,27 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 キャリアパス */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">インフラエンジニアのキャリアパス</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>構築・設計まで経験したインフラエンジニアには、複数の進路が開けます。ライフプランに合わせて選べる幅の広さが、この職種の最大の資産です。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>クラウドエンジニア / SRE</h3>
-              <p className="text-sm text-text-light">AWS・自動化のスキルを深め、信頼性エンジニアリングの専門家へ。年収レンジが最も高い進路です。詳しくは<a href="/articles/sre-devops/" className="underline" style={{ color: "#0891b2" }}>SRE・DevOps転職ガイド</a>へ。</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>クラウドエンジニア / SRE</h3>
+              <p className="text-sm text-text-light">AWS・自動化のスキルを深め、信頼性エンジニアリングの専門家へ。年収レンジが最も高い進路です。詳しくは<a href="/articles/sre-devops/" className="underline" style={{ color: "#7c3a55" }}>SRE・DevOps転職ガイド</a>へ。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>社内SE / 情シス</h3>
-              <p className="text-sm text-text-light">日勤・土日休み中心でワークライフバランス重視の定番進路。インフラ運用経験者は即戦力として歓迎されます（<a href="/articles/internal-se/" className="underline" style={{ color: "#0891b2" }}>社内SE転職ガイド</a>）。</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>社内SE / 情シス</h3>
+              <p className="text-sm text-text-light">日勤・土日休み中心でワークライフバランス重視の定番進路。インフラ運用経験者は即戦力として歓迎されます（<a href="/articles/internal-se/" className="underline" style={{ color: "#7c3a55" }}>社内SE転職ガイド</a>）。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>ITアーキテクト / セキュリティ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>ITアーキテクト / セキュリティ</h3>
               <p className="text-sm text-text-light">設計経験を広げてシステム全体の構成を描くアーキテクトへ、または需要が急増するセキュリティ専門職へ進む道。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>マネジメント / フリーランス</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>マネジメント / フリーランス</h3>
               <p className="text-sm text-text-light">運用チームリーダーやPMとして組織を率いる道、または構築・クラウド案件で独立する道。設計経験があれば単価交渉力も高まります。</p>
             </div>
           </div>
@@ -482,10 +482,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -493,10 +493,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -504,10 +504,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -515,10 +515,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -529,7 +529,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -538,7 +538,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -547,17 +547,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -569,7 +569,7 @@ export default function ArticlePage() {
       {/* 出典 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-3">本記事の主な出典</h2>
             <ul className="space-y-1 text-xs text-text-light leading-relaxed">
               <li>・出典: 求人ボックス 給料ナビ「インフラエンジニアの仕事の年収・時給・給料」（2026年6月参照）</li>
@@ -587,20 +587,20 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/cert-lpic/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>LPIC・LinuC資格ガイド</h3>
+            <a href="/articles/cert-lpic/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>LPIC・LinuC資格ガイド</h3>
               <p className="text-sm text-text-light">未経験インフラ転職の定番資格を解説</p>
             </a>
-            <a href="/articles/aws-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>AWSエンジニアのキャリアガイド</h3>
+            <a href="/articles/aws-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>AWSエンジニアのキャリアガイド</h3>
               <p className="text-sm text-text-light">クラウドスキルで年収と働き方を変える</p>
             </a>
-            <a href="/articles/sre-devops/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SRE・DevOpsエンジニア転職ガイド</h3>
+            <a href="/articles/sre-devops/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SRE・DevOpsエンジニア転職ガイド</h3>
               <p className="text-sm text-text-light">インフラ経験者の高年収キャリア</p>
             </a>
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験から女性エンジニアになるには</h3>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験から女性エンジニアになるには</h3>
               <p className="text-sm text-text-light">職種選びからの完全ロードマップ</p>
             </a>
           </div>
@@ -613,7 +613,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -625,7 +625,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

@@ -104,7 +104,7 @@ export default function Age20sArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function Age20sArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               年代別ガイド
             </span>
@@ -136,23 +136,23 @@ export default function Age20sArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>20代はデータ上、最も転職が動き、最も年収が上がりやすい年代。</strong>女性の転職入職率は20〜24歳14.3%・25〜29歳16.8%と働き盛り世代でトップクラス、20〜24歳の転職者の50.5%が賃金増を実現しています（厚生労働省「令和6年雇用動向調査」）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>年収の目安：</strong>20代全体の平均は365万円（女性341万円）、IT/通信業種の20代は381万円（doda「平均年収ランキング2025」）。エンジニア職は20代女性の平均より高い水準を狙いやすく、経験2〜3年＋モダンスキルで400万〜500万円台が射程です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>戦略は前半と後半で変える。</strong>20代前半は第二新卒・ポテンシャル採用の枠を最大限活用（企業の80.9%が第二新卒の採用予定）。20代後半は実務経験2〜3年を軸に、職種転換・年収アップ・キャリアの専門軸づくりへ動くのが鉄則です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>未経験からの挑戦は20代が最有利。</strong>未経験者を採用している企業は41.6%・検討中を含め約7割（レバテック）。「学習→ポートフォリオ→資格」の順で土台を作れば、ポテンシャル採用の恩恵をフルに受けられます。</span>
               </li>
             </ul>
@@ -165,20 +165,20 @@ export default function Age20sArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 20代女性エンジニアの転職市場【実データ】</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 20代女性エンジニアの年収相場（経験者・未経験別）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 20代前半と20代後半で変わる転職戦略</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 第二新卒・ポテンシャル採用の活かし方</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 未経験から20代でエンジニアになる方法</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 20代のうちに作るキャリアの土台</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 20代の転職活動の進め方</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 20代女性エンジニアの転職市場【実データ】</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 20代女性エンジニアの年収相場（経験者・未経験別）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 20代前半と20代後半で変わる転職戦略</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 第二新卒・ポテンシャル採用の活かし方</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験から20代でエンジニアになる方法</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 20代のうちに作るキャリアの土台</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 20代の転職活動の進め方</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -197,18 +197,18 @@ export default function Age20sArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3 mt-6">
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>16.8%</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>16.8%</p>
               <p className="text-sm font-bold mt-2">25〜29歳女性の転職入職率</p>
               <p className="text-xs text-text-light mt-1">働き盛り世代で最高水準。20〜24歳も14.3%</p>
             </div>
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#7c3aed" }}>50.5%</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>50.5%</p>
               <p className="text-sm font-bold mt-2">20〜24歳転職者の賃金増加割合</p>
               <p className="text-xs text-text-light mt-1">全年代トップ。減少は16.8%にとどまる</p>
             </div>
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>10倍超</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>10倍超</p>
               <p className="text-sm font-bold mt-2">エンジニア（IT・通信）求人倍率</p>
               <p className="text-xs text-text-light mt-1">全職種平均2.38倍に対し圧倒的な売り手市場</p>
             </div>
@@ -231,7 +231,7 @@ export default function Age20sArticlePage() {
       </section>
 
       {/* sec2 年収相場 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">20代女性エンジニアの年収相場（経験者・未経験別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -242,32 +242,32 @@ export default function Age20sArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収・目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収・目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代全体（全職種）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>365万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男性392万円・女性341万円</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代全体（全職種）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>365万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>男性392万円・女性341万円</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>IT/通信業種の20代</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>381万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>20代全体を16万円上回る</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>IT/通信業種の20代</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>381万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>20代全体を16万円上回る</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>エンジニア（IT/通信）職種全体</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>469万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>経験2〜3年の20代後半で400万円台が射程</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>エンジニア（IT/通信）職種全体</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>469万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>経験2〜3年の20代後半で400万円台が射程</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代・未経験からの転職1年目</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>300万〜400万円程度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ポテンシャル採用。経験を積めば数年で挽回しやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代・未経験からの転職1年目</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>300万〜400万円程度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ポテンシャル採用。経験を積めば数年で挽回しやすい</td>
                 </tr>
               </tbody>
             </table>
@@ -280,15 +280,15 @@ export default function Age20sArticlePage() {
               「転職で年収が上がるか」のデータはさらに心強い結果です。厚生労働省「令和6年雇用動向調査」によると、転職で賃金が増加した人の割合は<strong>20〜24歳で50.5%</strong>（うち1割以上の増加は38.5%）と全年代で最も高く、<strong>25〜29歳でも46.3%</strong>（1割以上の増加37.9%）。減少した人（16.8%・29.2%）を大きく上回ります。またdodaの「年代別 転職時の年収変動レポート（2025年度上期）」では、20代の転職時の平均決定年収は2019年度同期比で13%上昇しており、若手の市場価値そのものが底上げされています。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>20代で年収を上げる3つのレバー</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>20代で年収を上げる3つのレバー</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>モダンな技術スタックに寄せる</strong>：クラウド（AWS/GCP）、TypeScript/React、Python・データ活用は20代でも年収500万円台の求人が出やすい領域</li>
               <li>② <strong>「自社開発・元請け」側へ動く</strong>：SES・多重下請けから自社開発/元請けへ移るだけで、同じスキルでも待遇水準が変わるケースが多い</li>
               <li>③ <strong>エージェント経由で年収交渉する</strong>：20代は自分の市場価値を過小評価しがち。相場を知るプロに交渉を任せる</li>
             </ul>
             <p className="text-sm text-text-light mt-4">
-              年代別の詳しい年収データは<a href="/articles/salary-by-age/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>年代別年収ガイド</a>で解説しています。
+              年代別の詳しい年収データは<a href="/articles/salary-by-age/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>年代別年収ガイド</a>で解説しています。
             </p>
           </div>
         </div>
@@ -304,8 +304,8 @@ export default function Age20sArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>20代前半（20〜24歳）：第二新卒・ポテンシャルの黄金期</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>20代前半（20〜24歳）：第二新卒・ポテンシャルの黄金期</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>スキルよりも学習意欲・基礎力・人柄で評価される</strong>。実績ゼロでも勝負できる唯一の時期</li>
                 <li>・第二新卒の採用予定企業は80.9%。「短期離職＝不利」はもはや過去の常識</li>
@@ -313,8 +313,8 @@ export default function Age20sArticlePage() {
                 <li>・未経験からのIT転職もこの時期が最有利。研修制度の厚い企業を選び、基礎を固める</li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>20代後半（25〜29歳）：実務経験を武器にキャリアを構築</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>20代後半（25〜29歳）：実務経験を武器にキャリアを構築</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・女性の転職入職率16.8%と最も転職が活発な時期。<strong>実務2〜3年＋伸びしろの両取り評価</strong></li>
                 <li>・SES→自社開発、保守運用→開発など、キャリアの軸を作る職種転換のベストタイミング</li>
@@ -326,14 +326,14 @@ export default function Age20sArticlePage() {
           <p className="text-text-light text-sm mt-3">出典: 厚生労働省「令和6年雇用動向調査」、マイナビキャリアリサーチLab「2025年以降の第二新卒採用ニーズは8割超」（いずれも2026年6月参照）</p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              20代で作った土台は30代で「換金」されます。30代の評価軸や年収相場は<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>30代女性エンジニアの転職ガイド</a>で解説しているので、5年後の自分を想像しながら読み比べてみてください。
+              20代で作った土台は30代で「換金」されます。30代の評価軸や年収相場は<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>30代女性エンジニアの転職ガイド</a>で解説しているので、5年後の自分を想像しながら読み比べてみてください。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec4 第二新卒・ポテンシャル採用 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">第二新卒・ポテンシャル採用の活かし方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -344,19 +344,19 @@ export default function Age20sArticlePage() {
               ポテンシャル採用で企業が見ているのは、現時点のスキルではなく「ビジネス基礎力＋学習の再現性」です。社会人経験で身についた報連相・納期意識は新卒にない武器であり、そこに学習実績（ポートフォリオ・資格）を重ねれば、未経験職種への転換も現実的になります。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>第二新卒の面接を通す3つのポイント</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>第二新卒の面接を通す3つのポイント</h3>
             <ul className="space-y-3 text-sm text-text-light">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>退職理由は「不満」ではなく「方向転換」で語る</strong>：「残業が多かった」で終わらせず、「◯◯を実現できる環境で△△に取り組みたい」と次の選択理由に変換する</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>「次は辞めない根拠」を用意する</strong>：企業側の最大の懸念は再離職。企業選びの軸と、その会社がなぜ軸に合うかを具体的に示す</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>小さくても学習の実物を見せる</strong>：GitHubの公開リポジトリ、資格、技術ブログ。「勉強中です」より「作りました」が10倍強い</span>
               </li>
             </ul>
@@ -382,8 +382,8 @@ export default function Age20sArticlePage() {
               ["STEP4", "エージェント登録・応募", "未経験向け求人に強いエージェントに2〜3社登録。研修制度の充実度・配属先の実態を必ず確認し、「入社後に育つ環境」を基準に選ぶ。"],
               ["STEP5", "面接対策・入社", "「なぜエンジニアか」「なぜこの会社か」「入社後どう学び続けるか」の3点を自分の言葉で。学習の記録（ブログ・GitHubの草）はそのまま説得力になる。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -394,36 +394,36 @@ export default function Age20sArticlePage() {
           <p className="text-text-light text-sm mt-3">出典: レバテック「IT人材白書2024」（2026年6月参照）</p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              学習ロードマップの全体像は<a href="/articles/beginner/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>未経験からエンジニアになるガイド</a>、スクールの選び方は<a href="/articles/programming-school/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>プログラミングスクールの選び方</a>、資格の勉強法は<a href="/articles/cert-kihonjoho/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>基本情報技術者試験ガイド</a>でそれぞれ詳しく解説しています。
+              学習ロードマップの全体像は<a href="/articles/beginner/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになるガイド</a>、スクールの選び方は<a href="/articles/programming-school/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>プログラミングスクールの選び方</a>、資格の勉強法は<a href="/articles/cert-kihonjoho/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>基本情報技術者試験ガイド</a>でそれぞれ詳しく解説しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 キャリアの土台 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">20代のうちに作るキャリアの土台</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              20代の転職は「次の会社」だけでなく「30代の選択肢」を決める投資です。30代の転職市場では専門性とリーダー経験が評価軸になるため（<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>30代ガイド</a>参照）、20代のうちに次の4つを意識して環境を選ぶと、後のキャリアが大きく変わります。
+              20代の転職は「次の会社」だけでなく「30代の選択肢」を決める投資です。30代の転職市場では専門性とリーダー経験が評価軸になるため（<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>30代ガイド</a>参照）、20代のうちに次の4つを意識して環境を選ぶと、後のキャリアが大きく変わります。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>① 専門性の軸を1つ決める</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 専門性の軸を1つ決める</h3>
               <p className="text-sm text-text-light leading-relaxed">バックエンド・フロントエンド・インフラ・データのどれか1つで「これは任せられる」と言われる深さを作る。軸が1本あると、30代での年収交渉と職種展開が一気に楽になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>② モダンな開発環境に身を置く</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② モダンな開発環境に身を置く</h3>
               <p className="text-sm text-text-light leading-relaxed">クラウド（AWS/GCP）、コンテナ、CI/CD、コードレビュー文化のある環境を選ぶ。レガシー保守だけの20代と、モダン開発を経験した20代では、30代の求人レンジが変わります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>③ 小さなリーダー経験を拾う</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ 小さなリーダー経験を拾う</h3>
               <p className="text-sm text-text-light leading-relaxed">後輩のOJT、レビュー担当、小さな機能のリード。20代後半でこの経験があると、30代でのテックリード・マネジメント路線への扉が開きます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>④ 長く働ける環境かを見ておく</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 長く働ける環境かを見ておく</h3>
               <p className="text-sm text-text-light leading-relaxed">育休の取得実績・復帰率、リモートやフレックスの利用率、女性エンジニアの在籍数。20代女性の離職理由の上位は「労働条件」（25〜29歳で15.2%）。消耗しない環境選びは20代から始まっています。</p>
             </div>
           </div>
@@ -448,8 +448,8 @@ export default function Age20sArticlePage() {
               ["STEP4", "応募・面接", "20代は「伸びしろの根拠」が問われる。学習習慣・キャッチアップの速さ・素直さをエピソードで示す。面接は場数で上達するので、本命の前に2〜3社受けておく。"],
               ["STEP5", "条件確認・意思決定", "年収だけでなく、研修・配属・残業実態・育成文化を確認。迷ったら「3年後の自分が強くなっている方」を選ぶのが20代の鉄則。交渉はエージェント経由で。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -459,9 +459,9 @@ export default function Age20sArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl border-l-4 p-5"
-            style={{ borderColor: "#f97066", backgroundColor: "#fff5f5" }}
+            style={{ borderColor: "#c15f47", backgroundColor: "#fdf6ee" }}
           >
-            <h3 className="font-bold mb-2" style={{ color: "#f97066" }}>注意点</h3>
+            <h3 className="font-bold mb-2" style={{ color: "#c15f47" }}>注意点</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・転職回数が多すぎるとマイナス評価になることも。20代で3回以上の転職は慎重に。</li>
               <li>・「なんとなく」の転職は避け、明確な転職理由を持つことが大切です。</li>
@@ -472,7 +472,7 @@ export default function Age20sArticlePage() {
       </section>
 
       {/* sec8 おすすめエージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">
             20代女性エンジニアにおすすめの転職エージェント
@@ -509,13 +509,13 @@ export default function Age20sArticlePage() {
               <div
                 key={agent.name}
                 className="rounded-xl border p-6"
-                style={{ borderColor: "#d1dce5" }}
+                style={{ borderColor: "#d9c7b8" }}
               >
                 <div className="flex items-center gap-3 mb-3">
                   <h3 className="text-lg font-bold">{agent.name}</h3>
                   <span
                     className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white"
-                    style={{ backgroundColor: "#0891b2" }}
+                    style={{ backgroundColor: "#7c3a55" }}
                   >
                     {agent.type}
                   </span>
@@ -527,7 +527,7 @@ export default function Age20sArticlePage() {
 
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">
               20代女性エンジニアの転職エージェント選び
@@ -538,7 +538,7 @@ export default function Age20sArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -551,29 +551,29 @@ export default function Age20sArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（20代後半・経験者の職種転換）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（20代後半・経験者の職種転換）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
                   <p className="text-xs font-bold text-text-light mb-1">転職前</p>
                   <p className="text-sm font-bold">SES企業の保守運用エンジニア / 年収330万円</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
                   <p className="text-sm font-bold">自社開発企業のWebエンジニア / 年収420万円・リモート併用</p>
                 </div>
               </div>
               <p className="text-sm text-text-light">実務2年半の保守運用経験に加え、業務外でReactを学習しポートフォリオを公開。IT特化型エージェント経由で「実務基礎×学習意欲」のポテンシャル評価を受け、開発職への転換と年収90万円アップを同時に実現したケースです。25〜29歳は転職者の46.3%が賃金増・職種転換も通りやすい時期で、最も典型的な成功パターンです。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（20代前半・第二新卒の未経験挑戦）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代前半・第二新卒の未経験挑戦）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
                   <p className="text-xs font-bold text-text-light mb-1">転職前</p>
                   <p className="text-sm font-bold">新卒2年目の一般事務 / 年収290万円</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
                   <p className="text-sm font-bold">研修制度のあるWeb系企業のバックエンドエンジニア / 年収340万円</p>
                 </div>
               </div>
@@ -585,17 +585,17 @@ export default function Age20sArticlePage() {
       </section>
 
       {/* sec10 FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -623,32 +623,32 @@ export default function Age20sArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>30代女性エンジニアの転職ガイド</h3>
+            <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>30代女性エンジニアの転職ガイド</h3>
               <p className="text-sm text-text-light">年収相場・未経験の現実・両立戦略</p>
             </a>
-            <a href="/articles/salary-by-age/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年代別年収ガイド</h3>
+            <a href="/articles/salary-by-age/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年代別年収ガイド</h3>
               <p className="text-sm text-text-light">20代〜40代の年収相場と上げ方</p>
             </a>
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からエンジニアになるガイド</h3>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からエンジニアになるガイド</h3>
               <p className="text-sm text-text-light">学習ロードマップと職種の選び方</p>
             </a>
-            <a href="/articles/programming-school/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>プログラミングスクールの選び方</h3>
+            <a href="/articles/programming-school/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>プログラミングスクールの選び方</h3>
               <p className="text-sm text-text-light">失敗しないスクール選びの基準</p>
             </a>
-            <a href="/articles/cert-kihonjoho/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>基本情報技術者試験ガイド</h3>
+            <a href="/articles/cert-kihonjoho/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>基本情報技術者試験ガイド</h3>
               <p className="text-sm text-text-light">20代の土台づくりに効く定番資格</p>
             </a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス</h3>
               <p className="text-sm text-text-light">5年後・10年後のキャリア設計を解説</p>
             </a>
           </div>
@@ -661,7 +661,7 @@ export default function Age20sArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -675,7 +675,7 @@ export default function Age20sArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               言語別ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. C#エンジニアとは（仕事内容）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 女性がC#で長く働きやすい理由</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキルと技術</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. C#エンジニアの年収相場（年代別）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 求人動向と将来性</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験から目指すロードマップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. C#エンジニアのキャリアパス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. C#エンジニアとは（仕事内容）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 女性がC#で長く働きやすい理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキルと技術</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. C#エンジニアの年収相場（年代別）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 求人動向と将来性</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から目指すロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. C#エンジニアのキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,15 +166,15 @@ export default function ArticlePage() {
             <p>
               加えて、社内ツールや専用端末向けの<strong>Windowsデスクトップアプリ開発</strong>（WPF / WinForms / .NET MAUI）、ML.NETを使った<strong>AI・機械学習</strong>領域でも活躍の場が広がっています。トレンドの移り変わりが緩やかで、業務系は長期運用される案件が多いため、設計・実装スキルが資産になりやすいのも魅力です。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>C#エンジニアの主な担当領域</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>C#エンジニアの主な担当領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>業務系システム開発（ASP.NET Core / 基幹・販売・在庫管理など）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ゲーム開発（Unity / スマホ・コンシューマー・VR/AR）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Windowsデスクトップアプリ（WPF / WinForms / .NET MAUI）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Webアプリ・API開発（ASP.NET Core Web API / Blazor）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>クラウド連携（Microsoft Azure）・AI（ML.NET）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>設計・要件定義などの上流工程、テスト・保守運用</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>業務系システム開発（ASP.NET Core / 基幹・販売・在庫管理など）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ゲーム開発（Unity / スマホ・コンシューマー・VR/AR）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Windowsデスクトップアプリ（WPF / WinForms / .NET MAUI）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Webアプリ・API開発（ASP.NET Core Web API / Blazor）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>クラウド連携（Microsoft Azure）・AI（ML.NET）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>設計・要件定義などの上流工程、テスト・保守運用</span></li>
               </ul>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性が働きやすい理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性がC#で長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -191,20 +191,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 業務系は腰を据えて働きやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 業務系は腰を据えて働きやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">C#の主戦場である業務系システムは長期運用が前提で、突発的な深夜対応や急な仕様変更が比較的少ない現場が多め。計画的に働けて、育児・介護とも両立しやすい職種です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. スキルが長く通用し復帰しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. スキルが長く通用し復帰しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">.NETの設計やオブジェクト指向の考え方は流行に左右されにくく、一度身につければ長く武器になります。Microsoftがバージョンアップを続ける安定基盤のため、産休育休でブランクが空いても復帰しやすい土台になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 学習環境が整い独学しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 学習環境が整い独学しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">無料のVisual Studioや公式ドキュメント、Unity学習教材が充実。情報量が多く独学の挫折が少ないため、家事・育児の合間に学び直してキャリアチェンジする女性も少なくありません。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 進める道が広く選択肢が多い</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 進める道が広く選択肢が多い</h3>
               <p className="text-text-light text-sm leading-relaxed">業務系・ゲーム・Windowsアプリ・AIと活躍領域が広く、ライフステージに合わせて働き方を選びやすいのが強み。求人が多いほど「働きやすい会社」を選べ、条件交渉の余地も大きくなります。</p>
             </div>
           </div>
@@ -223,37 +223,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>C#・オブジェクト指向</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>C#文法 / クラス / LINQ / 非同期(async/await)</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>すべての土台。Javaに似て体系的で学びやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>C#・オブジェクト指向</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>C#文法 / クラス / LINQ / 非同期(async/await)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>すべての土台。Javaに似て体系的で学びやすい</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>業務系フレームワーク</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ASP.NET Core / Entity Framework / Blazor</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業務系・Web求人で最頻出。最重要スキル</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ゲーム開発</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Unity / ゲームロジック / 物理・UI実装</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ゲーム業界を目指すなら必須。C#がそのまま活きる</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データベース / SQL</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQL Server / MySQL / PostgreSQL</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業務系では必須。SQL Serverと相性が良い</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>業務系フレームワーク</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ASP.NET Core / Entity Framework / Blazor</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業務系・Web求人で最頻出。最重要スキル</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>開発環境 / クラウド</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Visual Studio / Git / Azure</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Gitは必須。Azure経験は年収アップに直結</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ゲーム開発</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Unity / ゲームロジック / 物理・UI実装</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ゲーム業界を目指すなら必須。C#がそのまま活きる</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データベース / SQL</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQL Server / MySQL / PostgreSQL</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業務系では必須。SQL Serverと相性が良い</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>開発環境 / クラウド</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Visual Studio / Git / Azure</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Gitは必須。Azure経験は年収アップに直結</td>
                 </tr>
               </tbody>
             </table>
@@ -265,7 +265,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 年収 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">C#エンジニアの年収相場（年代別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -276,22 +276,22 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約350万〜400万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎を固めながら経験を積む時期</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約450万〜550万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リーダー経験で500万円以上も狙える</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約550万〜600万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上流・マネジメントで年収ピーク</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>想定年収 約903万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>言語別ランキング12位。高需要案件で上振れ</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約350万〜400万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎を固めながら経験を積む時期</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約450万〜550万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リーダー経験で500万円以上も狙える</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約550万〜600万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上流・マネジメントで年収ピーク</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>想定年収 約903万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>言語別ランキング12位。高需要案件で上振れ</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>上流工程・マネジメント</strong>へ。要件定義や設計、チームリードの経験を積む</li>
               <li>② <strong>クラウド（Azure）・新技術</strong>（.NET MAUI / Blazor / ML.NET）を扱えるようにする</li>
@@ -317,7 +317,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 未経験ロードマップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -332,8 +332,8 @@ export default function ArticlePage() {
               ["STEP5", "Git・クラウドに触れる", "Gitでのコード管理は必須。Microsoft Azureに少し触れておくと、業務系求人で評価が上がります。"],
               ["STEP6", "ポートフォリオを作る", "業務系ならログイン・CRUD付きのWebアプリ、ゲームならUnityの小さなゲームを公開。転職活動で最も効く実績になります。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -352,39 +352,39 @@ export default function ArticlePage() {
             <p>C#は応用範囲が広く、進める道が多いのが魅力です。代表的な進路は次の通りです。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>業務系のスペシャリスト</h3><p className="text-sm text-text-light">ASP.NET Core × Azureを極め、テックリードやアーキテクトへ。大規模システムの設計者として高年収を狙う道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>ゲームエンジニア</h3><p className="text-sm text-text-light">Unityを軸にスマホゲーム・コンシューマー・VR/ARへ。ものづくりの面白さと成長領域を両取りする道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>上流・マネジメント</h3><p className="text-sm text-text-light">要件定義・設計を担うSE、プロジェクトマネージャー（PM）やエンジニアリングマネージャーへ。チームをリードする道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">フリーランスとして高単価の.NET案件やリモート中心の働き方へ。ライフステージに合わせやすい。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>業務系のスペシャリスト</h3><p className="text-sm text-text-light">ASP.NET Core × Azureを極め、テックリードやアーキテクトへ。大規模システムの設計者として高年収を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>ゲームエンジニア</h3><p className="text-sm text-text-light">Unityを軸にスマホゲーム・コンシューマー・VR/ARへ。ものづくりの面白さと成長領域を両取りする道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>上流・マネジメント</h3><p className="text-sm text-text-light">要件定義・設計を担うSE、プロジェクトマネージャー（PM）やエンジニアリングマネージャーへ。チームをリードする道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">フリーランスとして高単価の.NET案件やリモート中心の働き方へ。ライフステージに合わせやすい。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>C#の技術を正当に評価してもらうには、IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。.NET業務系の求人が多く、技術に精通したアドバイザーがC#のスキルスタックを理解した提案をしてくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、Unity案件にも詳しいのが特徴。年収アップ実績が豊富で、スピーディーなマッチングと年収交渉力に定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -394,19 +394,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（30代前半・SES→自社開発の.NET業務系）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・SES→自社開発の.NET業務系）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SESのC#エンジニア / 年収400万円・常駐</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">自社開発企業の.NET業務系 / 年収550万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SESのC#エンジニア / 年収400万円・常駐</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業の.NET業務系 / 年収550万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">IT特化型エージェントでASP.NET CoreとAzureの実績を整理。上流寄りの自社開発に軸足を移し、年収150万円アップとフルリモートを同時に実現。産休育休実績のある環境で長く働ける基盤を得ました。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（20代後半・未経験→Unityゲーム）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・未経験→Unityゲーム）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">販売職（IT未経験）/ 年収320万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">ゲーム会社のUnityエンジニア（C#）/ 年収400万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">販売職（IT未経験）/ 年収320万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">ゲーム会社のUnityエンジニア（C#）/ 年収400万円</p></div>
               </div>
               <p className="text-sm text-text-light">独学でC#とUnityを学び、ミニゲームを公開してポートフォリオに。ゲーム業界に強いエージェント経由で未経験可の求人に応募し、好きを仕事にするキャリアチェンジを成功させました。</p>
             </div>
@@ -415,17 +415,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -439,10 +439,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/backend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">サーバーサイドで長く働く道</p></a>
-            <a href="/articles/game-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ゲーム業界の転職ガイド</h3><p className="text-sm text-text-light">Unity・C#で目指すゲーム開発</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">長く活躍するための道筋</p></a>
+            <a href="/articles/backend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>バックエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">サーバーサイドで長く働く道</p></a>
+            <a href="/articles/game-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ゲーム業界の転職ガイド</h3><p className="text-sm text-text-light">Unity・C#で目指すゲーム開発</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">長く活躍するための道筋</p></a>
           </div>
         </div>
       </section>
@@ -450,10 +450,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

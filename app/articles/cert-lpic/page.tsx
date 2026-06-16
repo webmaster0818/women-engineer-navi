@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               資格ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. LPIC・LinuCとは（Linux技術者認定）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. LPICとLinuCの違い</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. レベルと難易度・受験料（一覧表）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 女性エンジニアに役立つ理由</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 出題範囲（レベル1の内容）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 勉強時間と勉強法（STEP）</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめ教材</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 取得後の年収・キャリアへの影響</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. LPIC・LinuCとは（Linux技術者認定）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. LPICとLinuCの違い</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. レベルと難易度・受験料（一覧表）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性エンジニアに役立つ理由</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 出題範囲（レベル1の内容）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 勉強時間と勉強法（STEP）</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ教材</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 取得後の年収・キャリアへの影響</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,15 +166,15 @@ export default function ArticlePage() {
             <p>
               試験はCBT（パソコンを使った試験）方式で、各科目60問・90分。合格基準は800点満点中500点以上が目安です。プログラミング言語の資格と違い、<strong>OSとサーバーの土台</strong>を扱うため、職種が変わっても長く活きる「つぶしの効く」資格として、未経験からインフラ職を目指す人の最初の一歩によく選ばれています。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>LPIC・LinuCで証明できること</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>LPIC・LinuCで証明できること</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Linuxのインストール・パッケージ管理ができる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>コマンドライン操作・シェルスクリプトが書ける</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ユーザー・権限・プロセスを管理できる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ネットワーク設定・システムログを扱える</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>基本的なセキュリティ設定ができる（レベル1）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>仮想化・クラウド・高可用性構成の設計（上位レベル）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Linuxのインストール・パッケージ管理ができる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>コマンドライン操作・シェルスクリプトが書ける</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ユーザー・権限・プロセスを管理できる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ネットワーク設定・システムログを扱える</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>基本的なセキュリティ設定ができる（レベル1）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>仮想化・クラウド・高可用性構成の設計（上位レベル）</span></li>
               </ul>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 LPICとLinuCの違い */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">LPICとLinuCの違い</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -193,37 +193,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>比較項目</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>LPIC</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>LinuC</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>比較項目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>LPIC</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>LinuC</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>運営団体</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>LPI（本部はカナダ）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>LPI-Japan（2018年開始）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>運営団体</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>LPI（本部はカナダ）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>LPI-Japan（2018年開始）</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>通用範囲</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>世界共通（海外・外資で有利）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>日本国内中心</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>通用範囲</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>世界共通（海外・外資で有利）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>日本国内中心</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>対応領域</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Linuxの基礎〜応用が中心</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>仮想化・クラウド・OSS等を強化</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>対応領域</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Linuxの基礎〜応用が中心</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>仮想化・クラウド・OSS等を強化</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>受験料の目安</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1科目 約15,000円（税別）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1科目 16,500円（税込）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>受験料の目安</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1科目 約15,000円（税別）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1科目 16,500円（税込）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>向いている人</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>外資・グローバル志向／海外でも使いたい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>国内SIer・クラウド現場志向</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>向いている人</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>外資・グローバル志向／海外でも使いたい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>国内SIer・クラウド現場志向</td>
                 </tr>
               </tbody>
             </table>
@@ -246,37 +246,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>レベル</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>必要な試験</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>難易度・対象</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>受験料（LPIC目安）</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>レベル</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>必要な試験</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>難易度・対象</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>受験料（LPIC目安）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>レベル1</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>101・102（2科目）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>エントリー。未経験から取得可</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2科目で約30,000円</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>レベル1</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>101・102（2科目）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>エントリー。未経験から取得可</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2科目で約30,000円</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>レベル2</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>201・202（2科目）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務寄り。構築・運用ができる中級者</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2科目で約30,000円</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>レベル2</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>201・202（2科目）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務寄り。構築・運用ができる中級者</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2科目で約30,000円</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>レベル3</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>300/303/304のいずれか1科目</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>最高難度。分野特化の専門家</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1科目 約15,000円</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>レベル3</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>300/303/304のいずれか1科目</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>最高難度。分野特化の専門家</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1科目 約15,000円</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>レベル3の分野（混在・セキュリティ・仮想化）</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>レベル3の分野（混在・セキュリティ・仮想化）</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・<strong>300（Mixed Environment）</strong>：Windowsなどとの混在環境の運用</li>
               <li>・<strong>303（Security）</strong>：暗号化・認証・アクセス制御などセキュリティ</li>
@@ -290,7 +290,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 女性エンジニアに役立つ理由 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニアに役立つ理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -299,20 +299,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 実務未経験を「学習意欲」で補える</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 実務未経験を「学習意欲」で補える</h3>
               <p className="text-text-light text-sm leading-relaxed">採用担当が見るのは資格そのものより「Linuxの基礎をきちんと学んでいる理解度と成長意欲」。経験の浅さを客観的な努力の証明で補え、書類選考の通過率が上がります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 在宅・スキマ時間で取り切れる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 在宅・スキマ時間で取り切れる</h3>
               <p className="text-text-light text-sm leading-relaxed">Ping-tはスマホでも演習でき、勉強場所を選びません。育児や仕事の合間に、1日2時間×2〜3か月でレベル1が狙えるため、ライフイベントと両立しながら準備できます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. インフラ職はリモート・安定が両立しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. インフラ職はリモート・安定が両立しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">サーバー・クラウド運用はリモートと相性がよく、需要も安定。Linuxは大半のサーバーで使われ続けるため、一度身につけた知識が長く通用し、ブランク後も復帰しやすい土台になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. クラウド資格への橋渡しになる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. クラウド資格への橋渡しになる</h3>
               <p className="text-text-light text-sm leading-relaxed">LinuxはAWSやGCPなどクラウドの土台。LPIC・LinuCで基礎を固めると、AWS認定などへステップアップしやすく、年収550万円以上の求人にも手が届きやすくなります。</p>
             </div>
           </div>
@@ -331,19 +331,19 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>科目</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な出題範囲</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>科目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な出題範囲</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>101試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>システムアーキテクチャ／Linuxのインストールとパッケージ管理／GNU・Unixコマンド／デバイス・ファイルシステム</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>101試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>システムアーキテクチャ／Linuxのインストールとパッケージ管理／GNU・Unixコマンド／デバイス・ファイルシステム</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>102試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>シェル・スクリプト／ユーザーインターフェース／管理タスク（ユーザー・グループ管理）／ネットワークの基本／セキュリティ</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>102試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>シェル・スクリプト／ユーザーインターフェース／管理タスク（ユーザー・グループ管理）／ネットワークの基本／セキュリティ</td>
                 </tr>
               </tbody>
             </table>
@@ -355,7 +355,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 勉強時間と勉強法 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">勉強時間と勉強法（STEP）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -372,8 +372,8 @@ export default function ArticlePage() {
               ["STEP5", "白本（問題集）で仕上げ", "スピードマスター等の問題集（白本）で本番形式に慣れ、コマンド系の取りこぼしを最終チェック。Ping-tと併用で精度を高めます。"],
               ["STEP6", "101合格後すぐ102へ", "勢いを止めず102の学習へ。レベル1は2科目を5年以内に取得する必要があるため、間隔を空けず続けて取り切るのが安全です。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -394,20 +394,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>あずき本（Linux教科書）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>あずき本（Linux教科書）</h3>
               <p className="text-sm text-text-light leading-relaxed">「Linux教科書 LPICレベル1」。表紙の色から“あずき本”と呼ばれる定番テキスト。範囲を体系的にカバー。まずは2周読み流して全体像をつかむ使い方が効果的です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>Ping-t（問題演習サイト）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>Ping-t（問題演習サイト）</h3>
               <p className="text-sm text-text-light leading-relaxed">レベル1は無料範囲が充実し、スマホでも演習可能。解説が丁寧で、上手に使えばPing-tだけでも合格ラインに到達できると言われる必須ツールです。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>白本（スピードマスター問題集）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>白本（スピードマスター問題集）</h3>
               <p className="text-sm text-text-light leading-relaxed">本番に近い形式の問題集。Ping-tでカバーしきれないコマンド入力問題の対策に有効で、仕上げの総点検に向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>無料の仮想環境（VirtualBox等）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>無料の仮想環境（VirtualBox等）</h3>
               <p className="text-sm text-text-light leading-relaxed">CentOSやUbuntuを無料で入れて実際にコマンドを叩く環境。費用ゼロで“手を動かす”学習ができ、穴埋め問題への強さに直結します。</p>
             </div>
           </div>
@@ -415,7 +415,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 年収・キャリアへの影響 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">取得後の年収・キャリアへの影響</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -426,21 +426,21 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>想定ポジション</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>想定ポジション</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>レベル1＋未経験</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約320万〜400万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>サーバー運用・監視・保守</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>レベル1〜2＋実務</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約400万〜500万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>サーバー・インフラの構築/運用</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>＋クラウド資格</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約550万円〜</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>クラウド・SRE・インフラ設計</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>レベル1＋未経験</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約320万〜400万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>サーバー運用・監視・保守</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>レベル1〜2＋実務</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約400万〜500万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>サーバー・インフラの構築/運用</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>＋クラウド資格</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約550万円〜</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>クラウド・SRE・インフラ設計</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>資格を年収・キャリアにつなげる3つのコツ</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>資格を年収・キャリアにつなげる3つのコツ</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>資格＋実践記録</strong>をセットで提示（構築手順をブログ/GitHubに残す）</li>
               <li>② <strong>クラウド資格へ接続</strong>（AWS認定などと組み合わせて市場価値を底上げ）</li>
@@ -458,39 +458,39 @@ export default function ArticlePage() {
             <p>資格を正当に評価してもらい、インフラ職への転職を成功させるには、IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。インフラ・サーバー職にも精通したアドバイザーが、LPIC・LinuCを活かせる求人を提案してくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、資格取得後のキャリアアップ転職に向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。資格を活かしつつ、働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -504,10 +504,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/infrastructure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>インフラエンジニア転職ガイド</h3><p className="text-sm text-text-light">LPIC・LinuCが活きる安定職種</p></a>
-            <a href="/articles/sre-devops/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SRE・DevOpsエンジニアガイド</h3><p className="text-sm text-text-light">Linux基礎の先にある高年収キャリア</p></a>
-            <a href="/articles/cloud-gcp-azure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>クラウド（GCP・Azure）ガイド</h3><p className="text-sm text-text-light">Linuxを土台に広がるクラウド職</p></a>
-            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職で評価される資格まとめ</p></a>
+            <a href="/articles/infrastructure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>インフラエンジニア転職ガイド</h3><p className="text-sm text-text-light">LPIC・LinuCが活きる安定職種</p></a>
+            <a href="/articles/sre-devops/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SRE・DevOpsエンジニアガイド</h3><p className="text-sm text-text-light">Linux基礎の先にある高年収キャリア</p></a>
+            <a href="/articles/cloud-gcp-azure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>クラウド（GCP・Azure）ガイド</h3><p className="text-sm text-text-light">Linuxを土台に広がるクラウド職</p></a>
+            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職で評価される資格まとめ</p></a>
           </div>
         </div>
       </section>
@@ -515,10 +515,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

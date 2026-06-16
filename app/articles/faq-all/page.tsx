@@ -143,7 +143,7 @@ type FaqCategory = {
 const faqCategories: FaqCategory[] = [
   {
     name: "年収・待遇",
-    color: "#f97066",
+    color: "#c15f47",
     start: 1,
     faqs: [
       {
@@ -173,7 +173,7 @@ const faqCategories: FaqCategory[] = [
   },
   {
     name: "未経験・学習",
-    color: "#0891b2",
+    color: "#7c3a55",
     start: 5,
     faqs: [
       {
@@ -203,7 +203,7 @@ const faqCategories: FaqCategory[] = [
   },
   {
     name: "両立・ライフイベント",
-    color: "#7c3aed",
+    color: "#7c3a55",
     start: 9,
     faqs: [
       {
@@ -266,7 +266,7 @@ const faqCategories: FaqCategory[] = [
   },
   {
     name: "働き方",
-    color: "#0891b2",
+    color: "#7c3a55",
     start: 17,
     faqs: [
       {
@@ -308,11 +308,11 @@ export default function FaqAllPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "FAQ総まとめ" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>総合FAQ</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>総合FAQ</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性エンジニア転職のFAQ総まとめ
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・未経験・両立の疑問に全回答【2026年】</span>
@@ -325,8 +325,8 @@ export default function FaqAllPage() {
       {/* 概要 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>このページの使い方</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>このページの使い方</h2>
             <p className="text-sm text-text-light leading-relaxed">
               女性エンジニアの転職でよく寄せられる質問を「年収・待遇」「未経験・学習」「両立・ライフイベント」「選考対策」「働き方」の5カテゴリ・19問に整理し、公的統計・公開調査の実データに基づいて即答するFAQハブです。各回答には数値の出典と、より詳しく解説した記事へのリンクを付けています。まず気になるカテゴリの回答で全体像をつかみ、深掘りしたいテーマはリンク先の詳細記事をご覧ください。
             </p>
@@ -335,13 +335,13 @@ export default function FaqAllPage() {
       </section>
 
       {/* 数字で見る現状 */}
-      <section className="py-8" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-8" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-xl font-bold mb-4">数字で見る女性エンジニア転職（2026年6月時点）</h2>
           <div className="grid gap-4 md:grid-cols-3 mt-4">
             {keyStats.map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d1dce5" }}>
-                <p className="text-xl font-bold mb-1" style={{ color: "#0891b2" }}>{item.value}</p>
+              <div key={i} className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d9c7b8" }}>
+                <p className="text-xl font-bold mb-1" style={{ color: "#7c3a55" }}>{item.value}</p>
                 <p className="text-xs font-bold mb-1">{item.label}</p>
                 <p className="text-xs text-text-light">出典: {item.source}</p>
               </div>
@@ -356,12 +356,12 @@ export default function FaqAllPage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">カテゴリ別 目次</h2>
             <ol className="space-y-2 text-sm">
               {faqCategories.map((cat, i) => (
                 <li key={i}>
-                  <a href={`#cat${i + 1}`} className="hover:underline" style={{ color: "#0891b2" }}>
+                  <a href={`#cat${i + 1}`} className="hover:underline" style={{ color: "#7c3a55" }}>
                     {i + 1}. {cat.name}（Q{cat.start}〜Q{cat.start + cat.faqs.length - 1}）
                   </a>
                 </li>
@@ -373,7 +373,7 @@ export default function FaqAllPage() {
 
       {/* FAQ カテゴリ */}
       {faqCategories.map((category, catIdx) => (
-        <section key={catIdx} id={`cat${catIdx + 1}`} className="py-10" style={catIdx % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
+        <section key={catIdx} id={`cat${catIdx + 1}`} className="py-10" style={catIdx % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
           <div className="mx-auto max-w-4xl px-4">
             <div className="flex items-center gap-3 mb-6">
               <span className="inline-block w-1 h-8 rounded-full" style={{ backgroundColor: category.color }} />
@@ -381,22 +381,22 @@ export default function FaqAllPage() {
             </div>
             <div className="space-y-4">
               {category.faqs.map((faq, faqIdx) => (
-                <details key={faqIdx} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+                <details key={faqIdx} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                   <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
                     <span>
-                      <span style={{ color: "#0891b2" }} className="mr-2">Q{category.start + faqIdx}.</span>
+                      <span style={{ color: "#7c3a55" }} className="mr-2">Q{category.start + faqIdx}.</span>
                       {faq.q}
                     </span>
                     <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
                   </summary>
-                  <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                  <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                     <p className="pt-4">
-                      <span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>
+                      <span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>
                       {faq.a}
                     </p>
                     <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
                       {faq.links.map((link, linkIdx) => (
-                        <a key={linkIdx} href={link.href} className="inline-block text-xs font-bold hover:underline" style={{ color: "#0891b2" }}>
+                        <a key={linkIdx} href={link.href} className="inline-block text-xs font-bold hover:underline" style={{ color: "#7c3a55" }}>
                           {link.label} →
                         </a>
                       ))}
@@ -427,10 +427,10 @@ export default function FaqAllPage() {
               { title: "年収交渉に踏み出したい", desc: "交渉した人の90.8%が年収アップ。タイミング・相場の調べ方・伝え方のフレーズ例。", href: "/articles/negotiation/", label: "年収交渉術" },
               { title: "選考を突破したい", desc: "paiza・Track Testなど実在サービスの形式比較とレベル別対策ロードマップ。", href: "/articles/coding-test/", label: "コーディングテスト対策" },
             ].map((item, i) => (
-              <a key={i} href={item.href} className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>{item.title}</h3>
+              <a key={i} href={item.href} className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+                <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>{item.title}</h3>
                 <p className="text-sm text-text-light mb-2">{item.desc}</p>
-                <span className="text-xs font-bold" style={{ color: "#0891b2" }}>{item.label} →</span>
+                <span className="text-xs font-bold" style={{ color: "#7c3a55" }}>{item.label} →</span>
               </a>
             ))}
           </div>
@@ -438,7 +438,7 @@ export default function FaqAllPage() {
       </section>
 
       {/* おすすめエージェント */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -446,18 +446,18 @@ export default function FaqAllPage() {
           </div>
           <div className="space-y-4 mt-6">
             {[
-              { name: "レバテックキャリア", badge: "IT特化型", desc: "技術力を正当に評価した求人提案と年収交渉が強み。年収70万円以上アップの実績多数。", href: "/reviews/levtech/", color: "#0891b2" },
-              { name: "type女性の転職エージェント", badge: "女性特化型", desc: "女性のキャリア支援に特化。産休育休の取得実績や女性管理職比率など、女性に必要な情報を提供。", href: "/reviews/type-woman/", color: "#7c3aed" },
-              { name: "Geekly", badge: "IT・Web特化", desc: "Web系・ゲーム業界に強い。書類選考通過率3.4倍の実績。レジュメ作成のサポートが手厚い。", href: "/reviews/geekly/", color: "#f97066" },
+              { name: "レバテックキャリア", badge: "IT特化型", desc: "技術力を正当に評価した求人提案と年収交渉が強み。年収70万円以上アップの実績多数。", href: "/reviews/levtech/", color: "#7c3a55" },
+              { name: "type女性の転職エージェント", badge: "女性特化型", desc: "女性のキャリア支援に特化。産休育休の取得実績や女性管理職比率など、女性に必要な情報を提供。", href: "/reviews/type-woman/", color: "#7c3a55" },
+              { name: "Geekly", badge: "IT・Web特化", desc: "Web系・ゲーム業界に強い。書類選考通過率3.4倍の実績。レジュメ作成のサポートが手厚い。", href: "/reviews/geekly/", color: "#c15f47" },
               { name: "ワークポート", badge: "未経験OK", desc: "IT未経験者向けの求人が豊富。転職決定人数No.1の実績。スピーディーな求人紹介が特徴。", href: "/reviews/workport/", color: "#10b981" },
             ].map((agent, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <div className="flex items-center gap-3 mb-2">
                   <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: agent.color }}>{agent.badge}</span>
                   <h3 className="text-lg font-bold">{agent.name}</h3>
                 </div>
                 <p className="text-sm text-text-light leading-relaxed mb-3">{agent.desc}</p>
-                <a href={agent.href} className="text-sm font-bold hover:underline" style={{ color: "#0891b2" }}>{agent.name}の詳細レビューを見る {"\u2192"}</a>
+                <a href={agent.href} className="text-sm font-bold hover:underline" style={{ color: "#7c3a55" }}>{agent.name}の詳細レビューを見る {"\u2192"}</a>
               </div>
             ))}
           </div>
@@ -469,20 +469,20 @@ export default function FaqAllPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/category-index/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>記事カテゴリ一覧</h3>
+            <a href="/articles/category-index/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>記事カテゴリ一覧</h3>
               <p className="text-sm text-text-light">すべての記事にアクセスできるハブページ</p>
             </a>
-            <a href="/articles/how-to-choose/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>エージェントの選び方</h3>
+            <a href="/articles/how-to-choose/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>エージェントの選び方</h3>
               <p className="text-sm text-text-light">失敗しない5つのポイント</p>
             </a>
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からエンジニアへ</h3>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からエンジニアへ</h3>
               <p className="text-sm text-text-light">未経験からの転職を徹底解説</p>
             </a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年収ガイド</h3>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収ガイド</h3>
               <p className="text-sm text-text-light">平均年収と年収アップの方法</p>
             </a>
           </div>
@@ -492,10 +492,10 @@ export default function FaqAllPage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">転職の疑問はエージェントに相談しよう</h2>
             <p className="text-white/90 mb-6">転職エージェントなら、あなたの状況に合わせた具体的なアドバイスがもらえます。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

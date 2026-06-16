@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               キャリア知識
             </span>
@@ -136,8 +136,8 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>結論：「SESか自社開発か」より先に「契約の仕組み」を理解する。働く場所・スキル・産育休の決まり方はビジネスモデルで構造的に変わる</h2>
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：「SESか自社開発か」より先に「契約の仕組み」を理解する。働く場所・スキル・産育休の決まり方はビジネスモデルで構造的に変わる</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li>・SESは<strong>準委任契約</strong>で客先に常駐する働き方、受託は<strong>請負契約</strong>で成果物を納める働き方、自社開発は<strong>自社サービス</strong>を作る働き方。どれが上という話ではなく、収益の仕組みが違います。</li>
               <li>・日本ではIT人材の<strong>約7割がベンダー側（IT企業）に所属</strong>しており（IPA調査）、SES・受託が多いのは個人の選択以前の産業構造です。</li>
@@ -153,19 +153,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. SES・受託・自社開発の違い（契約形態から正確に理解する）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. なぜ日本はSESが多いのか（産業構造のデータ）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. SESが向くケースと注意すべき構造</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 自社開発・受託のリアル（理想化しすぎない）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 女性エンジニア固有の論点（産育休・リモートは「どこで」決まるか）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 求人票でのSES見極めチェックリスト</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. キャリア戦略：SESから自社開発への移り方</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. SES・受託・自社開発の違い（契約形態から正確に理解する）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. なぜ日本はSESが多いのか（産業構造のデータ）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. SESが向くケースと注意すべき構造</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 自社開発・受託のリアル（理想化しすぎない）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 女性エンジニア固有の論点（産育休・リモートは「どこで」決まるか）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 求人票でのSES見極めチェックリスト</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. キャリア戦略：SESから自社開発への移り方</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -183,70 +183,70 @@ export default function ArticlePage() {
               <strong>SES（システムエンジニアリングサービス）</strong>は、所属会社が顧客と<strong>準委任契約</strong>（民法上の準委任）を結び、エンジニアの「労働力の提供」に対して時間ベースで報酬を受け取るモデルです。成果物の完成責任は負わず、エンジニアは顧客先（常駐先）で働くのが一般的です。重要なのは、<strong>エンジニアへの指揮命令権は所属するSES企業側にある</strong>こと。常駐先が直接業務指示を出すと、労働者派遣との区分基準（昭和61年労働省告示第37号）に照らして「偽装請負」と判断されるおそれがあります。
             </p>
             <p>
-              <strong>受託開発</strong>は、顧客のシステムを<strong>請負契約</strong>中心で開発するモデルです。請負では「成果物の完成」に責任を負うため、納期と品質のプレッシャーがかかる代わりに、開発は基本的に自社オフィスで行われます。SIer（システムインテグレーター）の多くがこの形態です（業界全体像は<a href="/articles/sier-industry/" className="underline font-bold" style={{ color: "#0891b2" }}>SIer業界ガイド</a>参照）。
+              <strong>受託開発</strong>は、顧客のシステムを<strong>請負契約</strong>中心で開発するモデルです。請負では「成果物の完成」に責任を負うため、納期と品質のプレッシャーがかかる代わりに、開発は基本的に自社オフィスで行われます。SIer（システムインテグレーター）の多くがこの形態です（業界全体像は<a href="/articles/sier-industry/" className="underline font-bold" style={{ color: "#7c3a55" }}>SIer業界ガイド</a>参照）。
             </p>
             <p>
-              <strong>自社開発</strong>は、顧客から開発を請け負うのではなく、<strong>自社のサービスやプロダクトそのものが収益源</strong>のモデルです。Web系・SaaS企業が典型で、エンジニアは自社の一員として1つのプロダクトを継続的に開発・改善します（<a href="/articles/web-industry/" className="underline font-bold" style={{ color: "#0891b2" }}>Web業界ガイド</a>参照）。
+              <strong>自社開発</strong>は、顧客から開発を請け負うのではなく、<strong>自社のサービスやプロダクトそのものが収益源</strong>のモデルです。Web系・SaaS企業が典型で、エンジニアは自社の一員として1つのプロダクトを継続的に開発・改善します（<a href="/articles/web-industry/" className="underline font-bold" style={{ color: "#7c3a55" }}>Web業界ガイド</a>参照）。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>比較項目</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>SES（客先常駐）</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>受託開発</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>自社開発</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>比較項目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>SES（客先常駐）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>受託開発</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>自社開発</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>顧客との契約形態</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>準委任契約（労働の提供に対し時間ベースで報酬。完成責任なし）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>請負契約が中心（成果物の完成に責任を負う）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>顧客との開発契約なし（自社サービスが収益源）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>顧客との契約形態</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>準委任契約（労働の提供に対し時間ベースで報酬。完成責任なし）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>請負契約が中心（成果物の完成に責任を負う）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>顧客との開発契約なし（自社サービスが収益源）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>働く場所</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>常駐先のオフィス等。案件が変わると勤務地も変わる</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基本は自社オフィス（一部、客先常駐の工程もある）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>自社オフィス・自宅（会社の制度どおり）</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>指揮命令権</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>所属会社にある（常駐先の直接指示は偽装請負のおそれ）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>自社にある</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>自社にある</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>年収の決まり方</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>案件単価×還元率。商流（何次請けか）が深いほど中間マージンが累積し原資が減りやすい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>受注額と利益率に連動。元請けか下請けかで差が出やすい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>事業の収益力に連動。伸びている事業なら昇給余地が大きい一方、業績悪化の影響も直接受ける</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>働く場所</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>常駐先のオフィス等。案件が変わると勤務地も変わる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基本は自社オフィス（一部、客先常駐の工程もある）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>自社オフィス・自宅（会社の制度どおり）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>スキルの貯まり方</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>案件次第。多様な業界・技術に触れられる反面、テスト・運用のみ等に偏るリスクも</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>多様な顧客の開発を上流〜下流まで経験しやすい。納期駆動で深掘りの時間は取りにくいことも</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1つのプロダクトを深く。運用・改善・グロースまで一気通貫。技術が自社スタックに偏る面も</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>指揮命令権</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>所属会社にある（常駐先の直接指示は偽装請負のおそれ）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>自社にある</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>自社にある</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>産育休・リモートの決まり方</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>制度は所属会社のものが適用されるが、日々の働き方（リモート可否等）は常駐先の方針に左右される</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>自社制度で決まる。納期前の繁忙期は取得・時短の運用に影響が出ることも</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>自社制度がそのまま日々の働き方に直結する</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>年収の決まり方</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>案件単価×還元率。商流（何次請けか）が深いほど中間マージンが累積し原資が減りやすい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>受注額と利益率に連動。元請けか下請けかで差が出やすい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>事業の収益力に連動。伸びている事業なら昇給余地が大きい一方、業績悪化の影響も直接受ける</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>スキルの貯まり方</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>案件次第。多様な業界・技術に触れられる反面、テスト・運用のみ等に偏るリスクも</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>多様な顧客の開発を上流〜下流まで経験しやすい。納期駆動で深掘りの時間は取りにくいことも</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1つのプロダクトを深く。運用・改善・グロースまで一気通貫。技術が自社スタックに偏る面も</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>産育休・リモートの決まり方</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>制度は所属会社のものが適用されるが、日々の働き方（リモート可否等）は常駐先の方針に左右される</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>自社制度で決まる。納期前の繁忙期は取得・時短の運用に影響が出ることも</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>自社制度がそのまま日々の働き方に直結する</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            ※ 未経験からの転職活動全体の流れと3形態の入門的な整理は<a href="/articles/beginner/" className="underline font-bold" style={{ color: "#0891b2" }}>未経験からエンジニアになるにはガイド</a>で解説しています。本記事はその「企業タイプ」部分の深掘り版です。
+            ※ 未経験からの転職活動全体の流れと3形態の入門的な整理は<a href="/articles/beginner/" className="underline font-bold" style={{ color: "#7c3a55" }}>未経験からエンジニアになるにはガイド</a>で解説しています。本記事はその「企業タイプ」部分の深掘り版です。
           </p>
         </div>
       </section>
 
       {/* sec2 産業構造 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">なぜ日本はSESが多いのか（産業構造のデータ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -262,19 +262,19 @@ export default function ArticlePage() {
             <p>
               年収面では、SES・受託・自社開発を直接区分して比較した公的統計は存在しませんが、参考になる公開データとして、dodaの「平均年収ランキング2025」ではIT/通信の業種分類別平均年収はITコンサルティング505万円、ハードウェア/ソフトウェア/パッケージベンダー493万円、システムインテグレータ481万円。SES企業の給与原資は「案件単価×自社の還元率」で決まり、商流が深いほど中間マージンが累積して単価自体が下がるため、<strong>同じ仕事内容でも所属企業の商流ポジションによって年収が変わりうる</strong>のがこの業界の構造的な特徴です。
             </p>
-            <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>数字で見る構造</h3>
+            <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>数字で見る構造</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span>日本のIT人材の約7割（73.6%・2020年）がITベンダー側に所属。米国は約35%で逆の構造</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span>IT産業では元請と下請の両方を行う企業が半数、下請のみの企業も約4社に1社（経産省資料）</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span>多重下請けの下層では労働環境・待遇が悪化しやすいことが公的資料でも課題として指摘されている</span>
                 </li>
               </ul>
@@ -296,8 +296,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>SESが向くケース（仕組み上の長所）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>SESが向くケース（仕組み上の長所）</h3>
               <ul className="space-y-3 text-sm text-text-light leading-relaxed">
                 <li><strong>・未経験の入口が広い：</strong>時間ベースで対価を得るモデルのため、企業側は完成責任を負わずに人を育てながら現場に出せます。未経験可の求人が3形態の中で最も多いのはこのためです。</li>
                 <li><strong>・多様な現場を経験できる：</strong>金融・製造・官公庁など、1社にいながら複数の業界・技術環境を渡り歩けます。「自分が何に向いているかまだ分からない」段階では、これは明確な利点です。</li>
@@ -305,8 +305,8 @@ export default function ArticlePage() {
                 <li><strong>・残業が常駐先の契約時間で管理されやすい：</strong>精算幅（例: 140〜180時間）が契約で決まっているため、無限残業になりにくい現場も多くあります。</li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>注意すべき構造（仕組み上の短所）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>注意すべき構造（仕組み上の短所）</h3>
               <ul className="space-y-3 text-sm text-text-light leading-relaxed">
                 <li><strong>・働く環境が常駐先依存：</strong>リモート可否、使うPC、職場の雰囲気まで常駐先で決まります。案件が変わるたびに環境がリセットされ、自分でコントロールしにくいのが最大の構造的弱点です。</li>
                 <li><strong>・スキルが案件次第で偏る：</strong>テスト実行や運用監視だけの現場に長く置かれると、年数の割に開発経験が貯まらない「経験年数と市場価値のねじれ」が起きえます。</li>
@@ -315,16 +315,16 @@ export default function ArticlePage() {
               </ul>
             </div>
           </div>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#ecfeff", border: "1px solid #0891b2" }}>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #7c3a55" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#0891b2" }}>ポイント：</strong>同じ「SES」でも、エンド直・元請け直の案件中心で還元率や単価を社員に開示し、案件選択権を持たせる会社と、深い商流の案件に未経験者をまとめて送り込む会社では、働く実態がまったく別物です。「SESだから」で判断せず、<strong>商流・還元の透明性・案件選択の自由度</strong>という会社の質を見てください（見極め方はセクション6）。
+              <strong style={{ color: "#7c3a55" }}>ポイント：</strong>同じ「SES」でも、エンド直・元請け直の案件中心で還元率や単価を社員に開示し、案件選択権を持たせる会社と、深い商流の案件に未経験者をまとめて送り込む会社では、働く実態がまったく別物です。「SESだから」で判断せず、<strong>商流・還元の透明性・案件選択の自由度</strong>という会社の質を見てください（見極め方はセクション6）。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec4 自社開発・受託のリアル */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">自社開発・受託のリアル（理想化しすぎない）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -333,16 +333,16 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>自社開発のリアル</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>自社開発のリアル</h3>
               <ul className="space-y-3 text-sm text-text-light leading-relaxed">
                 <li><strong>・良い面：</strong>プロダクトに長期で関われる、リモートや時短など自社制度がそのまま働き方になる、改善の成果がユーザーの反応として返ってくる。</li>
                 <li><strong>・厳しい面：</strong>中途採用は即戦力前提が基本で、未経験枠は少なく競争率が高い。事業の業績がそのまま雇用・待遇に響く（サービスのクローズ・事業縮小のリスクを直接受ける）。技術スタックが自社のものに固定されがちで、意識しないと技術の幅が狭まる。</li>
                 <li><strong>・誤解しやすい点：</strong>「自社開発＝モダンで快適」とは限りません。長年運用された自社システムのレガシー改修が中心の会社も多くあります。</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>受託開発のリアル</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>受託開発のリアル</h3>
               <ul className="space-y-3 text-sm text-text-light leading-relaxed">
                 <li><strong>・良い面：</strong>多様な業界のシステムを要件定義〜リリースまで経験でき、開発の基礎体力がつく。自社オフィス勤務が基本で、SESより環境が安定。</li>
                 <li><strong>・厳しい面：</strong>請負契約は完成責任を負うため、納期前の繁忙の波が構造的に避けにくい。プロジェクト末期と育児・介護の繁忙が重なると負荷が高い。</li>
@@ -379,13 +379,13 @@ export default function ArticlePage() {
             <p>
               SESは案件が変わると通勤先が変わります。独身期には気にならなくても、保育園の送迎時間から逆算して通勤時間を組む生活では、「次の案件で通勤が片道30分延びる」ことが生活全体に響きます。勤務地の希望をどこまで考慮してもらえるか（通勤時間の上限を約束する制度の有無）は、女性に限らず生活設計を重視する人がSES企業を選ぶ際の重要な確認項目です。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>形態別・ライフイベント耐性の確認ポイント</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>形態別・ライフイベント耐性の確認ポイント</h3>
               <ul className="space-y-2 text-sm text-text-light leading-relaxed">
                 <li><strong>・自社開発：</strong>制度＝日々の運用なので、制度の充実度と取得実績をそのまま見ればよい。確認すべきは「エンジニア職での」時短・リモートの実例。</li>
                 <li><strong>・受託：</strong>制度は自社のものが使えるが、納期前の繁忙と両立支援の運用が衝突しないか。プロジェクトアサインで配慮された実例を聞く。</li>
                 <li><strong>・SES：</strong>制度の有無に加えて「復帰後のアサイン実例」「リモート案件の比率」「通勤時間への配慮」の3点セットで確認する。</li>
-                <li>・いずれの形態でも、女性エンジニアの在籍数・ロールモデルの有無は定着しやすさのシグナルになる（<a href="/articles/women-friendly-companies/" className="underline font-bold" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の見分け方</a>参照）。</li>
+                <li>・いずれの形態でも、女性エンジニアの在籍数・ロールモデルの有無は定着しやすさのシグナルになる（<a href="/articles/women-friendly-companies/" className="underline font-bold" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見分け方</a>参照）。</li>
               </ul>
               <p className="text-xs text-text-light mt-4">
                 出典: 厚生労働省「令和6年度雇用均等基本調査」育児休業取得率 女性86.6%・男性40.5%（2026年6月参照）／総務省「令和6年通信利用動向調査」企業のテレワーク導入率 全体47.3%・情報通信業94.3%（2026年6月参照）
@@ -396,7 +396,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 見極めチェックリスト */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">求人票でのSES見極めチェックリスト</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -404,31 +404,31 @@ export default function ArticlePage() {
               求人票に「SES」と明記されていることは少なく、「ITエンジニア（自社内開発あり）」のような表現の奥に客先常駐が隠れていることがあります。以下のシグナルが複数当てはまる場合、SES（客先常駐）の可能性が高いと判断できます。<strong>SESだから応募をやめるのではなく、「SESだと認識した上で会社の質を確認する」</strong>のがこのリストの目的です。
             </p>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>SESを示すシグナル（求人票・採用サイト）</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>SESを示すシグナル（求人票・採用サイト）</h3>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#9744;</span><span><strong>勤務地が「プロジェクトによる」「東京23区内」「首都圏各所」</strong>など特定の住所でない（常駐先で働く前提の書き方）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#9744;</span><span>事業内容に<strong>「システムエンジニアリングサービス」「技術支援」「開発支援」「ITアウトソーシング」</strong>の文言がある</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#9744;</span><span><strong>「大手企業の最先端プロジェクトに参画できる」</strong>など、仕事の主語が自社でなく「参画先」になっている</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#9744;</span><span>自社のサービス名・プロダクト名がどこにも出てこない（「実績: 金融系システム、官公庁系システム」のような業界名のみ）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#9744;</span><span>社員数に対して<strong>採用予定人数が多い・通年で大量募集</strong>している（人数がそのまま売上になるモデルの特徴）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#9744;</span><span>福利厚生や社内行事に<strong>「帰社日」</strong>がある（普段は自社にいない働き方の裏返し）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#9744;</span><span>取引先一覧が大手SIer中心（エンド企業でなくSIerが顧客＝二次請け以降の商流が中心の可能性）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>勤務地が「プロジェクトによる」「東京23区内」「首都圏各所」</strong>など特定の住所でない（常駐先で働く前提の書き方）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span>事業内容に<strong>「システムエンジニアリングサービス」「技術支援」「開発支援」「ITアウトソーシング」</strong>の文言がある</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>「大手企業の最先端プロジェクトに参画できる」</strong>など、仕事の主語が自社でなく「参画先」になっている</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span>自社のサービス名・プロダクト名がどこにも出てこない（「実績: 金融系システム、官公庁系システム」のような業界名のみ）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span>社員数に対して<strong>採用予定人数が多い・通年で大量募集</strong>している（人数がそのまま売上になるモデルの特徴）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span>福利厚生や社内行事に<strong>「帰社日」</strong>がある（普段は自社にいない働き方の裏返し）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span>取引先一覧が大手SIer中心（エンド企業でなくSIerが顧客＝二次請け以降の商流が中心の可能性）</span></li>
             </ul>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3aed" }}>SESだと分かったら：会社の質を確認する質問</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>SESだと分かったら：会社の質を確認する質問</h3>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#9744;</span><span><strong>商流：</strong>「エンド直・元請け直の案件は何割ですか」（深い商流中心なら待遇・環境が構造的に厳しい）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#9744;</span><span><strong>透明性：</strong>「案件単価や還元率は社員に開示されますか」「評価制度はどう運用されていますか」</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#9744;</span><span><strong>案件選択：</strong>「案件は選べますか。断った場合どうなりますか」「待機期間中の給与は全額支給ですか」</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#9744;</span><span><strong>未経験者の実例：</strong>「未経験入社の方は最初どんな業務から始め、2〜3年後どうなっていますか」（テスト・監視のみが続いていないか）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#9744;</span><span><strong>女性の働き方：</strong>「育休から復帰した方の、復帰後のアサイン実例を教えてください」「リモート可の案件は何割ですか」</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#9744;</span><span><strong>契約形態：</strong>「常駐は準委任ですか、派遣ですか」（派遣なら労働者派遣事業の許可があるか。曖昧な回答は偽装請負リスクのシグナル）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>商流：</strong>「エンド直・元請け直の案件は何割ですか」（深い商流中心なら待遇・環境が構造的に厳しい）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>透明性：</strong>「案件単価や還元率は社員に開示されますか」「評価制度はどう運用されていますか」</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>案件選択：</strong>「案件は選べますか。断った場合どうなりますか」「待機期間中の給与は全額支給ですか」</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>未経験者の実例：</strong>「未経験入社の方は最初どんな業務から始め、2〜3年後どうなっていますか」（テスト・監視のみが続いていないか）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>女性の働き方：</strong>「育休から復帰した方の、復帰後のアサイン実例を教えてください」「リモート可の案件は何割ですか」</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#9744;</span><span><strong>契約形態：</strong>「常駐は準委任ですか、派遣ですか」（派遣なら労働者派遣事業の許可があるか。曖昧な回答は偽装請負リスクのシグナル）</span></li>
             </ul>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            これらは面接で聞きにくい質問も含まれます。転職エージェント経由なら、商流や還元率の実態、女性社員の復帰実例といった<strong>求人票に出ない情報を代わりに確認してもらえます</strong>（エージェントの選び方は<a href="/articles/how-to-choose/" className="underline font-bold" style={{ color: "#0891b2" }}>エージェント選び方ガイド</a>参照）。
+            これらは面接で聞きにくい質問も含まれます。転職エージェント経由なら、商流や還元率の実態、女性社員の復帰実例といった<strong>求人票に出ない情報を代わりに確認してもらえます</strong>（エージェントの選び方は<a href="/articles/how-to-choose/" className="underline font-bold" style={{ color: "#7c3a55" }}>エージェント選び方ガイド</a>参照）。
           </p>
         </div>
       </section>
@@ -450,8 +450,8 @@ export default function ArticlePage() {
               ["STEP4", "実務2〜3年を目安に経験者枠で応募（タイミング）", "一連の開発工程を語れるようになったら経験者採用の土俵です。自社開発は即戦力前提が基本のため、応募先のプロダクト・技術スタックと自分の経験の接点を職務経歴書で明示します。"],
               ["STEP5", "エージェントで「開発体制の実態」を確認（応募時）", "自社開発と書かれていても受託・SES併営の会社はあります。配属の比率、開発チームの体制、女性エンジニアの在籍状況など、求人票に出ない情報はエージェント経由で確認してから応募しましょう。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -460,13 +460,13 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            なお、移る先は自社開発だけが正解ではありません。上流工程やマネジメントを志向するならSIer（<a href="/articles/sier-industry/" className="underline font-bold" style={{ color: "#0891b2" }}>SIer業界ガイド</a>）、プロダクト志向ならWeb系自社開発（<a href="/articles/web-industry/" className="underline font-bold" style={{ color: "#0891b2" }}>Web業界ガイド</a>）と、自分が積みたい経験から逆算して選びましょう。
+            なお、移る先は自社開発だけが正解ではありません。上流工程やマネジメントを志向するならSIer（<a href="/articles/sier-industry/" className="underline font-bold" style={{ color: "#7c3a55" }}>SIer業界ガイド</a>）、プロダクト志向ならWeb系自社開発（<a href="/articles/web-industry/" className="underline font-bold" style={{ color: "#7c3a55" }}>Web業界ガイド</a>）と、自分が積みたい経験から逆算して選びましょう。
           </p>
         </div>
       </section>
 
       {/* おすすめ転職エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -475,10 +475,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -486,10 +486,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -497,10 +497,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -508,10 +508,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -522,7 +522,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -531,7 +531,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -552,11 +552,11 @@ export default function ArticlePage() {
                 <details
                   key={i}
                   className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <summary
                     className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     <span className="pr-4">{faq.name}</span>
                     <span className="transition-transform group-open:rotate-180">
@@ -565,7 +565,7 @@ export default function ArticlePage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">{faq.acceptedAnswer.text}</p>
                   </div>
@@ -577,7 +577,7 @@ export default function ArticlePage() {
       </section>
 
       {/* 出典 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考データ</h2>
           <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -599,9 +599,9 @@ export default function ArticlePage() {
             <a
               href="/articles/beginner/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 未経験からエンジニアになるには
               </h3>
               <p className="text-sm text-text-light">現実のロードマップと職種の選び方</p>
@@ -609,9 +609,9 @@ export default function ArticlePage() {
             <a
               href="/articles/women-friendly-companies/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 女性が働きやすいIT企業の見分け方
               </h3>
               <p className="text-sm text-text-light">制度と運用実態のチェックポイント</p>
@@ -619,9 +619,9 @@ export default function ArticlePage() {
             <a
               href="/articles/sier-industry/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 SIer業界ガイド
               </h3>
               <p className="text-sm text-text-light">業界構造と働き方の特徴</p>
@@ -629,9 +629,9 @@ export default function ArticlePage() {
             <a
               href="/articles/web-industry/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 Web業界ガイド
               </h3>
               <p className="text-sm text-text-light">自社開発・Web系企業の働き方</p>
@@ -646,7 +646,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -658,7 +658,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

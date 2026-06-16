@@ -84,11 +84,11 @@ export default function GreenReviewPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfdf5 0%, #f0fdfa 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfdf5 0%, #f1e8de 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "エージェントレビュー", href: "/reviews/" }, { label: "Green（グリーン）" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               Green（グリーン）の口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアのカジュアル転職に最適？徹底検証</span>
@@ -101,17 +101,17 @@ export default function GreenReviewPage() {
       {/* 総合評価 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6 md:p-8" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border p-6 md:p-8" style={{ borderColor: "#d9c7b8" }}>
             <h2 className="text-2xl font-bold mb-6">総合評価</h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-5xl font-bold" style={{ color: "#0891b2" }}>4.1</span>
+                  <span className="text-5xl font-bold" style={{ color: "#7c3a55" }}>4.1</span>
                   <span className="text-text-light text-lg">/ 5.0</span>
                 </div>
                 <div className="flex gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
-                    <span key={star} className="text-2xl" style={{ color: star <= 4 ? "#f59e0b" : "#d1dce5" }}>★</span>
+                    <span key={star} className="text-2xl" style={{ color: star <= 4 ? "#f59e0b" : "#d9c7b8" }}>★</span>
                   ))}
                 </div>
                 <p className="text-text-light text-sm">
@@ -128,10 +128,10 @@ export default function GreenReviewPage() {
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-3">
                     <span className="w-36 text-sm font-medium">{item.label}</span>
-                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e2e8f0" }}>
-                      <div className="h-2 rounded-full" style={{ width: `${(item.score / 5) * 100}%`, backgroundColor: "#0891b2" }} />
+                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e4d6c8" }}>
+                      <div className="h-2 rounded-full" style={{ width: `${(item.score / 5) * 100}%`, backgroundColor: "#7c3a55" }} />
                     </div>
-                    <span className="text-sm font-bold" style={{ color: "#0891b2" }}>{item.score}.0</span>
+                    <span className="text-sm font-bold" style={{ color: "#7c3a55" }}>{item.score}.0</span>
                   </div>
                 ))}
               </div>
@@ -141,7 +141,7 @@ export default function GreenReviewPage() {
       </section>
 
       {/* 基本情報テーブル */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">基本情報</h2>
           <div className="overflow-x-auto">
@@ -161,9 +161,9 @@ export default function GreenReviewPage() {
                   ["産休育休", "企業ページで福利厚生情報を確認可能"],
                   ["公式サイト", "green-japan.com"],
                 ].map(([label, value], i) => (
-                  <tr key={label} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
-                    <th className="px-4 py-3 text-left text-sm font-bold w-40" style={{ borderBottom: "1px solid #d1dce5", color: "#0891b2" }}>{label}</th>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{value}</td>
+                  <tr key={label} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
+                    <th className="px-4 py-3 text-left text-sm font-bold w-40" style={{ borderBottom: "1px solid #d9c7b8", color: "#7c3a55" }}>{label}</th>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{value}</td>
                   </tr>
                 ))}
               </tbody>
@@ -194,7 +194,7 @@ export default function GreenReviewPage() {
       </section>
 
       {/* 女性エンジニアへの強み */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニアに対する強み</h2>
           <div className="grid gap-6 md:grid-cols-2">
@@ -216,8 +216,8 @@ export default function GreenReviewPage() {
                 desc: "企業から直接スカウトが届くため、自分のスキルや経験がどの程度の市場価値を持つかを客観的に把握できます。年収交渉の材料にもなります。",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>{item.title}</h3>
+              <div key={item.title} className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+                <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>{item.title}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -233,7 +233,7 @@ export default function GreenReviewPage() {
             ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>良い口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
           <div className="space-y-4 mb-8">
             {[
               {
@@ -254,13 +254,13 @@ export default function GreenReviewPage() {
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#ecfdf5", border: "1px solid #a7f3d0" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>{review.reviewer}</p>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>{review.reviewer}</p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
               </div>
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#f97066" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
           <div className="space-y-4 mb-6">
             {[
               {
@@ -273,7 +273,7 @@ export default function GreenReviewPage() {
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#f97066" }}>{review.reviewer}</p>
+                <p className="text-sm font-bold mb-2" style={{ color: "#c15f47" }}>{review.reviewer}</p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
               </div>
             ))}
@@ -290,12 +290,12 @@ export default function GreenReviewPage() {
       </section>
 
       {/* メリット・デメリット */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">メリット・デメリット</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #0891b2" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>メリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #7c3a55" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>メリット</h3>
               <ul className="space-y-3">
                 {[
                   "カジュアル面談機能で、応募前に企業の雰囲気や仕事内容を気軽に確認でき、ミスマッチを防げる",
@@ -303,21 +303,21 @@ export default function GreenReviewPage() {
                   "企業から直接スカウトが届き、自分の市場価値を客観的に把握できる",
                 ].map((merit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#0891b2" }} className="font-bold shrink-0">◎</span>
+                    <span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◎</span>
                     <span className="text-text-light">{merit}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #f97066" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>デメリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #c15f47" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>デメリット</h3>
               <ul className="space-y-3">
                 {[
                   "エージェント型ではないため、書類添削や面接対策などの手厚いサポートは受けられない",
                   "大手企業の求人は他のサービスと比べて少なく、安定志向の方には物足りない",
                 ].map((demerit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#f97066" }} className="font-bold shrink-0">△</span>
+                    <span style={{ color: "#c15f47" }} className="font-bold shrink-0">△</span>
                     <span className="text-text-light">{demerit}</span>
                   </li>
                 ))}
@@ -340,7 +340,7 @@ export default function GreenReviewPage() {
               { step: "5", title: "内定・入社", desc: "内定後は企業と直接条件交渉。入社日の調整も企業と直接行います。" },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold" style={{ backgroundColor: "#0891b2" }}>{item.step}</div>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold" style={{ backgroundColor: "#7c3a55" }}>{item.step}</div>
                 <div>
                   <h3 className="font-bold text-lg">{item.title}</h3>
                   <p className="text-sm text-text-light mt-1 leading-relaxed">{item.desc}</p>
@@ -352,12 +352,12 @@ export default function GreenReviewPage() {
       </section>
 
       {/* おすすめ・向いていない */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">こんな女性におすすめ / 向いていない人</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>おすすめの方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>おすすめの方</h3>
               <ul className="space-y-2">
                 {[
                   "スタートアップやベンチャー企業で働きたい女性エンジニア",
@@ -367,19 +367,19 @@ export default function GreenReviewPage() {
                   "裁量の大きい仕事に挑戦したい方",
                   "最新技術を使ったプロジェクトに参画したい方",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#0891b2" }}>●</span>{item}</li>
+                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#7c3a55" }}>●</span>{item}</li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>向いていない方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>向いていない方</h3>
               <ul className="space-y-2">
                 {[
                   "書類添削や面接対策など手厚いサポートを求める方（レバテックキャリア推奨）",
                   "大手企業・安定企業への転職を希望する方（リクルートエージェント推奨）",
                   "女性特化のきめ細かいサポートを求める方（type女性推奨）",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#f97066" }}>●</span>{item}</li>
+                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#c15f47" }}>●</span>{item}</li>
                 ))}
               </ul>
             </div>
@@ -389,13 +389,13 @@ export default function GreenReviewPage() {
 
       {/* 関連記事 */}
       <div className="mx-auto max-w-4xl px-4">
-        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
-          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+        <div className="bg-[#f0e7dd] border border-[#d9c7b8] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            <Link href="/articles/startup/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} スタートアップ転職ガイド</Link>
-            <Link href="/articles/web-industry/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} Web系企業への転職ガイド｜女性エンジニアが活躍する理由</Link>
-            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} Green vs リワークス徹底比較</Link>
-            <Link href="/articles/side-job/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} エンジニアの副業ガイド</Link>
+            <Link href="/articles/startup/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} スタートアップ転職ガイド</Link>
+            <Link href="/articles/web-industry/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Web系企業への転職ガイド｜女性エンジニアが活躍する理由</Link>
+            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Green vs リワークス徹底比較</Link>
+            <Link href="/articles/side-job/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} エンジニアの副業ガイド</Link>
           </div>
         </div>
       </div>
@@ -406,13 +406,13 @@ export default function GreenReviewPage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">▼</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}

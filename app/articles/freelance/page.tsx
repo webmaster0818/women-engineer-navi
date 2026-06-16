@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               状況別ガイド
             </span>
@@ -136,23 +136,23 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>単価相場はSE案件で月72万円（年商換算864万円）。</strong>フロントエンド73万円・PM88万円・ITコンサル102万円（レバテックフリーランス公開案件）。会社員エンジニア平均469万円（doda 2025）を大きく上回りますが、税・社会保険料・経費を引く前の「即戦力の相場」です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>保障の差は出産・育児期に最も効きます。</strong>国民健康保険には出産手当金・傷病手当金がなく、育児休業給付金も対象外。一方で出産育児一時金（原則50万円）は受け取れ、国民年金・国保の産前産後の保険料免除もあります。違いを正確に知った上での資金計画が必須です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>2024年11月施行のフリーランス新法で取引環境は改善。</strong>取引条件の書面明示・報酬の60日以内支払・買いたたき等の禁止・育児介護との両立配慮などが発注者の義務になりました（公正取引委員会・厚生労働省）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>独立の現実的なルートは「実務3年＋副業で試運転」。</strong>いきなりフリーランスは案件獲得・単価・スキル形成のすべてで不利です。生活費6か月分の貯蓄と、副業での1案件完走を独立のゴーサインにしましょう。</span>
               </li>
             </ul>
@@ -165,20 +165,20 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. フリーランスエンジニアの現在地【実データ】</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 職種別の単価相場テーブル（出典付き）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 会社員との比較表（収入・保障・産休育休）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. フリーランス保護新法（2024年11月施行）の要点</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 始め方4ステップと「いきなりフリーランス」のリスク</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 税金・保険・インボイスの基礎知識</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. ライフイベントとの両立：自由度と保障のトレードオフ</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 独立までのモデルケース</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. フリーランスエンジニアの現在地【実データ】</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 職種別の単価相場テーブル（出典付き）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 会社員との比較表（収入・保障・産休育休）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. フリーランス保護新法（2024年11月施行）の要点</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 始め方4ステップと「いきなりフリーランス」のリスク</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 税金・保険・インボイスの基礎知識</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. ライフイベントとの両立：自由度と保障のトレードオフ</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 独立までのモデルケース</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -190,7 +190,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">フリーランスエンジニアの現在地【実データ】</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              フリーランスエンジニアは、企業と雇用契約ではなく業務委託契約（準委任・請負）を結び、自分のスキルを直接売って働くスタイルです。<a href="/articles/career-path/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>キャリアパス5類型</a>の中では「自由度最大・保障最小」のポジションにあたります。
+              フリーランスエンジニアは、企業と雇用契約ではなく業務委託契約（準委任・請負）を結び、自分のスキルを直接売って働くスタイルです。<a href="/articles/career-path/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>キャリアパス5類型</a>の中では「自由度最大・保障最小」のポジションにあたります。
             </p>
             <p>
               まず良い面のデータから。フリーランス協会「フリーランス白書2025」によると、フリーランスは<strong>「就業環境（働く時間・場所）」「プライベートとの両立」「達成感・充実感」で7〜8割が満足</strong>と回答しており、働き方の自由度への評価は一貫して高い結果です。情報通信業のテレワーク導入率は94.3%（総務省）と、エンジニアはフルリモート案件を選びやすい職種でもあります。
@@ -200,18 +200,18 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3 mt-6">
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>月72万円</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>月72万円</p>
               <p className="text-sm font-bold mt-2">SE案件の平均単価</p>
               <p className="text-xs text-text-light mt-1">年商換算864万円（レバテックフリーランス公開案件）</p>
             </div>
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#7c3aed" }}>7〜8割</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>7〜8割</p>
               <p className="text-sm font-bold mt-2">就業環境・両立への満足度</p>
               <p className="text-xs text-text-light mt-1">時間・場所の自由度の評価は高い（フリーランス白書2025）</p>
             </div>
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>34.0%</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>34.0%</p>
               <p className="text-sm font-bold mt-2">収入への満足度</p>
               <p className="text-xs text-text-light mt-1">不満40.2%が上回る。収入はスキル次第で二極化</p>
             </div>
@@ -223,7 +223,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 単価相場 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">職種別の単価相場テーブル（出典付き）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -234,67 +234,67 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均単価（月額）</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年商換算（12か月稼働）</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>メモ</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均単価（月額）</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年商換算（12か月稼働）</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>メモ</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITコンサルタント</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>102万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約1,224万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>最高単価帯。要件定義より上流の経験が必須</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ITコンサルタント</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>102万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約1,224万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>最高単価帯。要件定義より上流の経験が必須</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プロジェクトマネージャー（PM）</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>88万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約1,056万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>PMO案件も86万円と高水準</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>プロジェクトマネージャー（PM）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>88万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約1,056万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>PMO案件も86万円と高水準</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンティスト</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>78万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約936万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>AI・データ基盤需要で単価上昇傾向</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンティスト</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>78万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約936万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>AI・データ基盤需要で単価上昇傾向</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>セキュリティエンジニア</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>76万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約912万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>人材不足が続く高需要領域</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>セキュリティエンジニア</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>76万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約912万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>人材不足が続く高需要領域</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フロントエンドエンジニア</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>73万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約876万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>React/TypeScript案件が中心。リモート比率高</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フロントエンドエンジニア</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>73万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約876万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>React/TypeScript案件が中心。リモート比率高</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>システムエンジニア（SE）</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>72万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約864万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>案件数が最も多いボリュームゾーン</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>システムエンジニア（SE）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>72万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約864万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>案件数が最も多いボリュームゾーン</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>インフラ／サーバーエンジニア</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>68万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約816万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>クラウド（AWS/GCP）設計まで担えると単価上振れ</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>インフラ／サーバーエンジニア</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>68万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約816万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>クラウド（AWS/GCP）設計まで担えると単価上振れ</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プログラマー（PG）</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>66万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約792万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>実装専任。設計まで担えるかが単価の分岐点</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>プログラマー（PG）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>66万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約792万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>実装専任。設計まで担えるかが単価の分岐点</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>QAエンジニア／テストエンジニア</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>60万〜63万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約720万〜756万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>テスト自動化スキルで上位帯を狙える</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>QAエンジニア／テストエンジニア</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>60万〜63万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約720万〜756万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>テスト自動化スキルで上位帯を狙える</td>
                 </tr>
               </tbody>
             </table>
@@ -302,8 +302,8 @@ export default function ArticlePage() {
           <p className="text-text-light text-sm mt-3">
             出典: レバテックフリーランス「単価相場」（2026年6月参照）。公開案件の平均単価で、スキル・経験年数・商流により変動します。年商換算は単価×12か月の参考値で、税金・社会保険料・経費の控除前です。
           </p>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>「年商864万円」を会社員年収と比べるときの注意</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>「年商864万円」を会社員年収と比べるときの注意</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・年商からは<strong>国民健康保険料・国民年金保険料（全額自己負担）・所得税・住民税・個人事業税・経費</strong>が引かれます。賞与・退職金もありません</li>
               <li>・一般に、<strong>会社員年収の1.2〜1.5倍程度の年商</strong>でようやく手取り・保障込みで同等といわれます。月72万円（年商864万円）は会社員換算でおよそ600万〜700万円台のイメージです</li>
@@ -313,7 +313,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              年収1,000万円を目指すルートとしてのフリーランス活用は<a href="/articles/salary-1000man/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>女性エンジニアが年収1000万円を目指す方法</a>で、会社員のまま収入を増やす選択肢は<a href="/articles/side-job/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>副業ガイド</a>で詳しく解説しています。
+              年収1,000万円を目指すルートとしてのフリーランス活用は<a href="/articles/salary-1000man/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性エンジニアが年収1000万円を目指す方法</a>で、会社員のまま収入を増やす選択肢は<a href="/articles/side-job/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>副業ガイド</a>で詳しく解説しています。
             </p>
           </div>
         </div>
@@ -331,52 +331,52 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>会社員エンジニア</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>フリーランスエンジニア</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>項目</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>会社員エンジニア</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>フリーランスエンジニア</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>収入</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>平均469万円（doda 2025）。毎月安定、賞与・昇給あり</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>SE案件で年商換算864万円。ただし案件が途切れれば収入ゼロ。賞与・退職金なし</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>収入</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>平均469万円（doda 2025）。毎月安定、賞与・昇給あり</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>SE案件で年商換算864万円。ただし案件が途切れれば収入ゼロ。賞与・退職金なし</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>健康保険</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>健康保険（労使折半）。<strong>傷病手当金あり</strong></td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>国民健康保険（全額自己負担）。<strong>傷病手当金は原則なし</strong>。退職後2年間は任意継続も選択可</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>健康保険</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>健康保険（労使折半）。<strong>傷病手当金あり</strong></td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>国民健康保険（全額自己負担）。<strong>傷病手当金は原則なし</strong>。退職後2年間は任意継続も選択可</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>年金</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>厚生年金（労使折半）。将来の受給額が厚い</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>国民年金のみ。iDeCo・国民年金基金・小規模企業共済での自助上乗せが実質必須</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>年金</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>厚生年金（労使折半）。将来の受給額が厚い</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>国民年金のみ。iDeCo・国民年金基金・小規模企業共済での自助上乗せが実質必須</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>出産時の給付</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>出産育児一時金（原則50万円）＋<strong>出産手当金（産前42日・産後56日の収入補填）</strong></td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>出産育児一時金（原則50万円）は受給可。<strong>出産手当金は国保にはない</strong>。国民年金・国保の産前産後保険料免除あり</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>出産時の給付</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>出産育児一時金（原則50万円）＋<strong>出産手当金（産前42日・産後56日の収入補填）</strong></td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>出産育児一時金（原則50万円）は受給可。<strong>出産手当金は国保にはない</strong>。国民年金・国保の産前産後保険料免除あり</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>育児休業</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>育児休業給付金（雇用保険）で休業中の収入を補填。社会保険料も免除</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}><strong>育児休業給付金なし</strong>（雇用保険未加入のため）。休めば収入ゼロ。働く時間・量の調整は自由</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>育児休業</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>育児休業給付金（雇用保険）で休業中の収入を補填。社会保険料も免除</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}><strong>育児休業給付金なし</strong>（雇用保険未加入のため）。休めば収入ゼロ。働く時間・量の調整は自由</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>失業・契約終了時</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>雇用保険の基本手当（失業給付）あり。解雇には法的制約</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>失業給付なし。契約終了が即収入減。新法で中途解除は原則30日前予告が義務化</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>失業・契約終了時</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>雇用保険の基本手当（失業給付）あり。解雇には法的制約</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>失業給付なし。契約終了が即収入減。新法で中途解除は原則30日前予告が義務化</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>労災</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>労災保険（保険料は会社負担）</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>2024年11月からフリーランスも労災保険に特別加入可能に（保険料は自己負担）</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>労災</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>労災保険（保険料は会社負担）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>2024年11月からフリーランスも労災保険に特別加入可能に（保険料は自己負担）</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>働き方の自由</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>就業規則の範囲内。リモート・フレックスは会社次第</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>稼働日数・時間帯・案件・休暇を自分で設計できる。週3〜4日稼働の案件も選べる</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>働き方の自由</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>就業規則の範囲内。リモート・フレックスは会社次第</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>稼働日数・時間帯・案件・休暇を自分で設計できる。週3〜4日稼働の案件も選べる</td>
                 </tr>
               </tbody>
             </table>
@@ -393,7 +393,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 フリーランス新法 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">フリーランス保護新法（2024年11月施行）の要点</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -402,16 +402,16 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>取引の適正化（公正取引委員会・中小企業庁）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>取引の適正化（公正取引委員会・中小企業庁）</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>取引条件の明示（全取引）</strong>：業務内容・報酬額・支払期日などを書面またはメール等で直ちに明示する義務</li>
                 <li>・<strong>報酬の60日以内支払（全取引）</strong>：給付（納品物・役務）を受領した日から60日以内のできる限り早い日に支払期日を設定し、期日内に支払う義務</li>
                 <li>・<strong>7つの禁止行為（1か月以上の業務委託）</strong>：①受領拒否 ②報酬の減額 ③返品 ④買いたたき（著しく低い報酬の一方的決定） ⑤物の購入・役務の利用の強制 ⑥不当な経済上の利益の提供要請 ⑦不当な給付内容の変更・やり直し</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>就業環境の整備（厚生労働省）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>就業環境の整備（厚生労働省）</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>募集情報の的確表示</strong>：広告等で虚偽・誤解を招く表示をしてはならない</li>
                 <li>・<strong>育児・介護等との両立への配慮（6か月以上の継続的業務委託）</strong>：妊娠・出産・育児・介護と業務を両立できるよう、フリーランスの申出に応じて打ち合わせ時間の調整やリモート対応などの必要な配慮をする義務</li>
@@ -423,8 +423,8 @@ export default function ArticlePage() {
           <p className="text-text-light text-sm mt-3">
             出典: 公正取引委員会「フリーランス法特設サイト」、公正取引委員会・厚生労働省「特定受託事業者に係る取引の適正化等に関する法律についての考え方」（いずれも2026年6月参照）
           </p>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>トラブルに遭ったら</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>トラブルに遭ったら</h3>
             <p className="text-sm text-text-light leading-relaxed">
               報酬の不払い・一方的な減額・契約の突然打ち切りなどに遭った場合は、国が設置する<strong>「フリーランス・トラブル110番」</strong>（弁護士による無料相談、厚生労働省委託事業）に相談できます。また法違反については公正取引委員会・中小企業庁・厚生労働省へ申出が可能で、申出を理由とする契約解除等の不利益取扱いは禁止されています。<strong>女性フリーランスにとって特に重要なのは、妊娠・出産・育児への配慮義務とハラスメント対策が法律に明記された点</strong>です。「子どもの送迎があるので定例を夕方から昼に変えてほしい」といった申出は、6か月以上の継続案件なら法律上の配慮義務の対象になります。
             </p>
@@ -443,8 +443,8 @@ export default function ArticlePage() {
               ["STEP3", "資金と環境を整える（生活費6か月分・開業届・会計）", "案件の空白や納品トラブルに備え、目安として生活費6か月分の貯蓄を確保。開業届と青色申告承認申請書を税務署に提出し、会計ソフト・事業用口座・基本契約書のひな形を準備する。クレジットカードや住宅ローンの審査は会社員のうちが通りやすい点も忘れずに。"],
               ["STEP4", "エージェントと人脈の両輪で案件を獲得する", "初案件はフリーランスエージェント経由が現実的（営業・契約・請求を代行、支払いサイトも安定）。並行して、フリーランス白書2025で「最も稼げる獲得経路」1位の人脈・2位の過去の取引先を育てる。前職の信頼貯金が最大の営業資産になる。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -453,8 +453,8 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light text-sm mt-3">出典: フリーランス協会「フリーランス白書2025」（仕事の獲得経路、2026年6月参照）</p>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#fff7ed", border: "2px solid #f97066" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>「いきなりフリーランス」を正直におすすめしない理由</h3>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#fff7ed", border: "2px solid #c15f47" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>「いきなりフリーランス」を正直におすすめしない理由</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・<strong>案件の入口が狭い</strong>：エージェント案件の多くは実務経験3年前後を想定。未経験・経験1年では紹介可能案件が大きく減り、低単価のクラウドソーシング案件で消耗しがち</li>
               <li>・<strong>スキルが育ちにくい</strong>：フリーランスは「できることを売る」働き方。会社員のような教育・レビュー・失敗の許容がなく、未熟なまま独立すると成長が止まりやすい</li>
@@ -464,14 +464,14 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              フルリモートで働ける会社員求人という中間解もあります。<a href="/articles/remote-jobs/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>リモートワーク求人ガイド</a>で「自由度と保障の両取り」ができる選択肢も確認してみてください。
+              フルリモートで働ける会社員求人という中間解もあります。<a href="/articles/remote-jobs/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>リモートワーク求人ガイド</a>で「自由度と保障の両取り」ができる選択肢も確認してみてください。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 税金・保険 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">税金・保険・インボイスの基礎知識</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -480,26 +480,26 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>確定申告と青色申告</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>確定申告と青色申告</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 所得税は毎年自分で確定申告します。開業時に<strong>青色申告承認申請書</strong>を提出し、複式簿記＋電子申告（e-Tax）で申告すれば<strong>最大65万円の青色申告特別控除</strong>が受けられます。会計ソフトを使えば複式簿記の知識がなくても実務上は対応可能です。PC・書籍・通信費・自宅作業スペースの家賃の一部（家事按分）などは経費にできますが、レシート・請求書の保存が前提です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>インボイス制度（消費税）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>インボイス制度（消費税）</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 企業向け案件では、取引先の仕入税額控除の関係で<strong>インボイス（適格請求書）発行事業者への登録が実務上標準</strong>になっています。登録すると消費税の申告義務が生じますが、納税額を売上にかかる消費税の2割に抑える<strong>「2割特例」が個人事業主は2026年分の申告まで利用可能</strong>（国税庁）。特例終了後に備え、簡易課税制度の選択も含めて2026年中に方針を決めておきましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>社会保険の切り替え</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>社会保険の切り替え</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 退職後14日以内に<strong>国民健康保険・国民年金への切り替え</strong>を市区町村で行います（退職後2年間は前職の健康保険の任意継続も選択可。保険料を比較して有利な方を）。国保・国民年金は全額自己負担で、年商600万〜800万円台なら年間の負担は数十万円規模になります。<strong>出産時は国民年金保険料が産前産後4か月間免除（2019年4月〜）、国民健康保険料にも産前産後免除（2024年1月〜）</strong>があるので忘れず申請を。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>退職金・万一への自助</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>退職金・万一への自助</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 退職金がない代わりに、<strong>小規模企業共済</strong>（掛金月1,000〜70,000円が全額所得控除）と<strong>iDeCo</strong>（フリーランスは拠出上限が会社員より大きい）で「自分退職金」を作るのが定番です。病気・ケガで働けないときの傷病手当金がないため、就業不能保険や共済での備え、そして<strong>2024年11月から対象が広がった労災保険の特別加入</strong>も検討対象になります。
               </p>
@@ -521,8 +521,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>両立に効く強み</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>両立に効く強み</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>稼働量を自分で設計できる</strong>：週3〜4日稼働・時短稼働の案件を選べば、保育園の送迎や学校行事に合わせた働き方が組める</li>
                 <li>・<strong>場所の自由</strong>：フルリモート案件を選べば通勤ゼロ。フリーランス白書2025でも「就業環境」「プライベートとの両立」の満足度は7〜8割と高い</li>
@@ -530,8 +530,8 @@ export default function ArticlePage() {
                 <li>・<strong>法的な後ろ盾ができた</strong>：6か月以上の継続案件では、妊娠・出産・育児・介護との両立への配慮が発注者の義務に（フリーランス法）</li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>直視すべき弱み</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>直視すべき弱み</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>休んだ分だけ収入が消える</strong>：出産手当金・育児休業給付金がないため、産前産後の数か月は原則無収入。給付で補填される会社員との差が最も大きい局面</li>
                 <li>・<strong>保活で不利になり得る</strong>：自治体によっては居宅内労働の点数が低い場合がある。就労証明は契約書・開業届等で自分で揃える必要</li>
@@ -542,53 +542,53 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              現実的な解は、<strong>出産前後の1〜2年は「会社員の給付の厚さ」を、子どもの生活リズムが安定した後は「フリーランスの自由度」を使う、というように時期で使い分ける</strong>ことです。フリーランス経験は自走力・顧客折衝力として転職市場でも評価されるため、会社員へ戻る選択肢は常に残ります。キャリア全体での位置付けは<a href="/articles/career-path/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>キャリアパス完全マップ</a>で整理してください。
+              現実的な解は、<strong>出産前後の1〜2年は「会社員の給付の厚さ」を、子どもの生活リズムが安定した後は「フリーランスの自由度」を使う、というように時期で使い分ける</strong>ことです。フリーランス経験は自走力・顧客折衝力として転職市場でも評価されるため、会社員へ戻る選択肢は常に残ります。キャリア全体での位置付けは<a href="/articles/career-path/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>キャリアパス完全マップ</a>で整理してください。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>転職を成功させるには、信頼できるエージェントの活用が欠かせません。IT特化型と女性特化型を併用することで、より多くの選択肢からベストな転職先を見つけられます。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
               </div>
               <p className="text-sm text-text-light">IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
               </div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績。スピーディーなマッチングで最短2週間での内定実績も。年収交渉力にも定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span>
               </div>
               <p className="text-sm text-text-light">女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
               </div>
               <p className="text-sm text-text-light">IT業界の転職支援に強み。未経験からベテランまで幅広い層の求人を保有。レスポンスの速さと手厚いサポートに定評があります。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -598,29 +598,29 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">独立までのモデルケース</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>ケース1（30代前半・Web系エンジニア→副業経由で独立）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>ケース1（30代前半・Web系エンジニア→副業経由で独立）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
                   <p className="text-xs font-bold text-text-light mb-1">独立前</p>
                   <p className="text-sm font-bold">自社開発企業のフロントエンドエンジニア（実務5年）/ 年収520万円</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>独立後</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>独立後</p>
                   <p className="text-sm font-bold">フリーランス（React案件・フルリモート週5）/ 月単価70万円・年商840万円</p>
                 </div>
               </div>
               <p className="text-sm text-text-light">在職中に副業で2案件を完走し、社外でのスキルの値段を確認してから独立。初案件はエージェント経由でフロントエンド案件の相場（平均73万円=レバテックフリーランス）に沿う単価でスタートし、生活費6か月分の貯蓄と青色申告の準備を済ませてから退職届を出した、リスクを抑えた標準ルートです。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>ケース2（30代後半・育児中→週4稼働で再設計）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>ケース2（30代後半・育児中→週4稼働で再設計）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
                   <p className="text-xs font-bold text-text-light mb-1">独立前</p>
                   <p className="text-sm font-bold">SIerのSE（時短勤務・実務10年）/ 年収450万円</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>独立後</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>独立後</p>
                   <p className="text-sm font-bold">フリーランスSE（週4稼働・リモート）/ 月単価58万円・年商約700万円</p>
                 </div>
               </div>
@@ -632,17 +632,17 @@ export default function ArticlePage() {
       </section>
 
       {/* sec10 FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5", backgroundColor: "#fff" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8", backgroundColor: "#fff" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -670,24 +670,24 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス完全マップ</h3>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス完全マップ</h3>
               <p className="text-sm text-text-light">フリーランスを含む5類型を年収データで比較</p>
             </a>
-            <a href="/articles/side-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの副業ガイド</h3>
+            <a href="/articles/side-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの副業ガイド</h3>
               <p className="text-sm text-text-light">独立前の「試運転」に最適な副業の始め方</p>
             </a>
-            <a href="/articles/remote-jobs/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>リモートワーク求人ガイド</h3>
+            <a href="/articles/remote-jobs/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>リモートワーク求人ガイド</h3>
               <p className="text-sm text-text-light">自由度と保障を両取りできる会社員の選択肢</p>
             </a>
-            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年収1000万円を目指す方法</h3>
+            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収1000万円を目指す方法</h3>
               <p className="text-sm text-text-light">フリーランス・PM・外資など高収入ルート比較</p>
             </a>
           </div>
@@ -697,10 +697,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               状況別ガイド
             </span>
@@ -136,23 +136,23 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>育休を終えて復職予定だった女性の<strong>93.2%が実際に復職</strong>。育休を挟んで働き続けることは完全に標準になっています（出典: 厚生労働省「令和5年度雇用均等基本調査」）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>転職するなら基本は<strong>「いったん復帰してから転職」</strong>。育休中の転職（復帰せず退職）は、育児休業給付金の打ち切り・保育園の入園内定取り消しという2つの実害リスクがあります。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>育休中の<strong>情報収集・エージェント相談は自由</strong>で法的にも問題ありません。「準備は育休中・行動は復帰後」が失敗の少ない型です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>IT業界（情報通信業）はテレワーク導入率<strong>94.3%で全産業トップ</strong>（出典: 総務省）。復帰後の転職で「時短×在宅」「フルリモート×フルタイム」など働き方を選び直せるのがエンジニアの強みです。</span>
               </li>
             </ul>
@@ -165,52 +165,52 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
               <li>
-                <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>
                   1. データで見る育休後の復職・転職の実態
                 </a>
               </li>
               <li>
-                <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>
                   2. 「復帰してから転職」vs「育休中に転職」の比較
                 </a>
               </li>
               <li>
-                <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>
                   3. 育児休業給付金と保育園——タイミングで失敗しないために
                 </a>
               </li>
               <li>
-                <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>
                   4. 復帰後に転職するベストタイミング
                 </a>
               </li>
               <li>
-                <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>
                   5. 知っておくべき法制度（2025年改正のポイント）
                 </a>
               </li>
               <li>
-                <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>
                   6. ブランク不安への対処——スキルキャッチアップ法
                 </a>
               </li>
               <li>
-                <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>
                   7. おすすめ転職エージェント
                 </a>
               </li>
               <li>
-                <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>
                   8. よくある質問
                 </a>
               </li>
               <li>
-                <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>
                   9. 出典・参考資料
                 </a>
               </li>
@@ -237,32 +237,32 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>指標</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>数値</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>指標</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>数値</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>育休終了後の女性の復職者割合</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>93.2%（退職6.8%）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省「令和5年度雇用均等基本調査」</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>育休終了後の女性の復職者割合</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>93.2%（退職6.8%）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和5年度雇用均等基本調査」</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>女性の育児休業取得率</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>86.6%（男性は40.5%で過去最高）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省「令和6年度雇用均等基本調査」</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>女性の育児休業取得率</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>86.6%（男性は40.5%で過去最高）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和6年度雇用均等基本調査」</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>第1子出産前後の妻の就業継続率</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>69.5%（2015〜19年出産。継続者の79.2%が育休利用）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>国立社会保障・人口問題研究所「第16回出生動向基本調査」</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>第1子出産前後の妻の就業継続率</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>69.5%（2015〜19年出産。継続者の79.2%が育休利用）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>国立社会保障・人口問題研究所「第16回出生動向基本調査」</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>情報通信業のテレワーク導入率</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>94.3%（全産業平均47.3%・産業別トップ）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>総務省「令和6年通信利用動向調査」</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>情報通信業のテレワーク導入率</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>94.3%（全産業平均47.3%・産業別トップ）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>総務省「令和6年通信利用動向調査」</td>
                 </tr>
               </tbody>
             </table>
@@ -272,14 +272,14 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              つまり「復帰すること」自体のハードルは下がっています。本当に考えるべきは、<strong>復帰先（現職）で両立できるか、それとも環境を変える（転職する）か</strong>という判断と、その<strong>タイミング</strong>です。育休取得率データの詳しい読み方は<a href="/articles/maternity-leave-rate/" className="underline" style={{ color: "#0891b2" }}>産休・育休取得率データの記事</a>、復帰後の働き方の全体像は<a href="/articles/mama-engineer/" className="underline" style={{ color: "#0891b2" }}>ママエンジニアの働き方ガイド</a>を参照してください。
+              つまり「復帰すること」自体のハードルは下がっています。本当に考えるべきは、<strong>復帰先（現職）で両立できるか、それとも環境を変える（転職する）か</strong>という判断と、その<strong>タイミング</strong>です。育休取得率データの詳しい読み方は<a href="/articles/maternity-leave-rate/" className="underline" style={{ color: "#7c3a55" }}>産休・育休取得率データの記事</a>、復帰後の働き方の全体像は<a href="/articles/mama-engineer/" className="underline" style={{ color: "#7c3a55" }}>ママエンジニアの働き方ガイド</a>を参照してください。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec2 比較 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">「復帰してから転職」vs「育休中に転職」の比較</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -290,43 +290,43 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>論点</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>A: 復帰してから転職</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>B: 育休中に転職（復帰せず退職）</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>論点</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>A: 復帰してから転職</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>B: 育休中に転職（復帰せず退職）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>育児休業給付金</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>影響なし。育休期間分を受給したうえで復帰し、その後転職できる</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>退職日以降は支給終了。「当初から退職予定」での取得は支給対象外。転職先での給付継続は実務上ほぼ不可能</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>育児休業給付金</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>影響なし。育休期間分を受給したうえで復帰し、その後転職できる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>退職日以降は支給終了。「当初から退職予定」での取得は支給対象外。転職先での給付継続は実務上ほぼ不可能</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>保育園</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>復職証明書を提出して在園が安定。転職時は就労証明書を差し替えればよい（空白期間に注意）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「育休からの復職」前提の入園内定が取り消し・退園になるリスク（自治体の運用による）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>保育園</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>復職証明書を提出して在園が安定。転職時は就労証明書を差し替えればよい（空白期間に注意）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「育休からの復職」前提の入園内定が取り消し・退園になるリスク（自治体の運用による）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>現職への心証</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>復帰・引き継ぎを経るため円満退職しやすい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>育休は復職を前提とした制度のため心証は悪化しやすい。違法ではないが関係悪化は覚悟が必要</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>現職への心証</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>復帰・引き継ぎを経るため円満退職しやすい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>育休は復職を前提とした制度のため心証は悪化しやすい。違法ではないが関係悪化は覚悟が必要</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>選考の進めやすさ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>働きながらの活動になるため面接時間の確保が課題（オンライン面接の活用で緩和）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>時間は確保しやすいが、預け先が未確定のままでは入社時期を約束しにくく内定が出にくい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>選考の進めやすさ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>働きながらの活動になるため面接時間の確保が課題（オンライン面接の活用で緩和）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>時間は確保しやすいが、預け先が未確定のままでは入社時期を約束しにくく内定が出にくい</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>向いているケース</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}><strong>ほとんどの人の基本線</strong>。復帰して現職の両立可否を見極めてから動ける</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>現職がリモート不可・転居を伴う配置転換など、復帰しても両立が成立しないことが明確な場合の例外的選択</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>向いているケース</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><strong>ほとんどの人の基本線</strong>。復帰して現職の両立可否を見極めてから動ける</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>現職がリモート不可・転居を伴う配置転換など、復帰しても両立が成立しないことが明確な場合の例外的選択</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>結論: 「準備は育休中・行動は復帰後」</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論: 「準備は育休中・行動は復帰後」</h3>
             <p className="text-sm text-text-light leading-relaxed">
               育休中でも、転職サイトでの情報収集・エージェントとの面談・職務経歴書の準備は自由にできます。給付金にも保育園にも影響しません。リスクが生じるのは「復帰せずに退職する」場合だけです。したがって、<strong>育休中に市場を把握して準備を整え、復帰して生活を安定させてから応募・選考に進む</strong>のが、失敗の少ない型です。
             </p>
@@ -367,7 +367,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 タイミング */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">復帰後に転職するベストタイミング</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -376,20 +376,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>復帰直後〜3か月: 生活の安定を最優先</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>復帰直後〜3か月: 生活の安定を最優先</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 慣らし保育、子どもの頻繁な発熱、自身の体力回復が重なる時期です。この段階での転職活動は負荷が大きく、判断も「復帰直後の大変さ」に引きずられがちです。まずは復職証明書を自治体に提出して保育園の在園を安定させ、生活リズムの構築に集中しましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>復帰後3〜6か月: 現職の両立可否を見極める</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>復帰後3〜6か月: 現職の両立可否を見極める</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 生活が回り始めると、現職の課題が具体的に見えてきます。「リモート制度はあるが使えない」「時短だと評価対象から外される」「急な看護休暇に嫌な顔をされる」——こうした<strong>運用実態の問題</strong>が確認できたら、転職理由として面接でも具体的に語れます。このタイミングでエージェントに相談し、市場の選択肢を把握しましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>復帰後6か月以降: 本格的な転職活動へ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>復帰後6か月以降: 本格的な転職活動へ</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 復帰後の実績（時短や在宅での成果の出し方）を職務経歴書に書ける段階です。選考はオンライン面接を活用し、内定→退職→入社の間に就労の空白を作らないようスケジュールを組みます。入社時期は保育園の就労証明書の切り替えと自治体の猶予期間（おおむね2〜3か月）を踏まえて調整しましょう。
               </p>
@@ -397,7 +397,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              なお、現職に明らかなハラスメントや、復帰後の不利益取り扱い（育児・介護休業法10条で禁止されている降格・減給等）がある場合は、この限りではありません。早めにエージェントや労働局の相談窓口に相談してください。復職の具体的なステップは<a href="/articles/return-to-work/" className="underline" style={{ color: "#0891b2" }}>復職・再就職ガイド</a>、復帰後の1日の時間設計は<a href="/articles/work-childcare-day/" className="underline" style={{ color: "#0891b2" }}>仕事と保育園送迎の1日の記事</a>で解説しています。
+              なお、現職に明らかなハラスメントや、復帰後の不利益取り扱い（育児・介護休業法10条で禁止されている降格・減給等）がある場合は、この限りではありません。早めにエージェントや労働局の相談窓口に相談してください。復職の具体的なステップは<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>復職・再就職ガイド</a>、復帰後の1日の時間設計は<a href="/articles/work-childcare-day/" className="underline" style={{ color: "#7c3a55" }}>仕事と保育園送迎の1日の記事</a>で解説しています。
             </p>
           </div>
         </div>
@@ -415,31 +415,31 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>制度</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>内容（法定の最低ライン）</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>制度</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>内容（法定の最低ライン）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>短時間勤務制度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>3歳未満の子を育てる労働者に対し、1日の所定労働時間を<strong>原則6時間</strong>とする措置を設けることが企業の義務</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>短時間勤務制度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>3歳未満の子を育てる労働者に対し、1日の所定労働時間を<strong>原則6時間</strong>とする措置を設けることが企業の義務</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>残業免除（2025年4月〜）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>所定外労働の制限の対象が3歳未満から<strong>小学校就学前まで</strong>に拡大</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>子の看護等休暇（2025年4月〜）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>対象が<strong>小学3年生修了まで</strong>に延長。学級閉鎖や入園式・卒園式等も取得理由に追加</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>育児時短就業給付金（2025年4月〜）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2歳未満の子を育てて時短勤務する雇用保険被保険者に、<strong>時短中の賃金の原則10%を支給</strong>。時短による収入減を一部カバー</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>残業免除（2025年4月〜）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>所定外労働の制限の対象が3歳未満から<strong>小学校就学前まで</strong>に拡大</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>柔軟な働き方の措置（2025年10月〜）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}><strong>3歳〜小学校就学前</strong>の子を育てる労働者向けに、始業時刻変更・テレワーク等（月10日以上）・短時間勤務などから企業が<strong>2つ以上を用意し、労働者が1つを選択</strong></td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>子の看護等休暇（2025年4月〜）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>対象が<strong>小学3年生修了まで</strong>に延長。学級閉鎖や入園式・卒園式等も取得理由に追加</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>育児時短就業給付金（2025年4月〜）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2歳未満の子を育てて時短勤務する雇用保険被保険者に、<strong>時短中の賃金の原則10%を支給</strong>。時短による収入減を一部カバー</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>柔軟な働き方の措置（2025年10月〜）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><strong>3歳〜小学校就学前</strong>の子を育てる労働者向けに、始業時刻変更・テレワーク等（月10日以上）・短時間勤務などから企業が<strong>2つ以上を用意し、労働者が1つを選択</strong></td>
                 </tr>
               </tbody>
             </table>
@@ -449,14 +449,14 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              転職先選びでは、この法定ラインを<strong>どれだけ超えているか</strong>（例: 時短が小学校卒業まで、看護休暇が有給扱い、フルリモート可）が比較ポイントになります。改正法の詳しい整理は<a href="/articles/mama-engineer/" className="underline" style={{ color: "#0891b2" }}>ママエンジニアの働き方ガイド</a>、時短勤務の収入・キャリアへの影響は<a href="/articles/short-time/" className="underline" style={{ color: "#0891b2" }}>時短勤務エンジニアの記事</a>で解説しています。
+              転職先選びでは、この法定ラインを<strong>どれだけ超えているか</strong>（例: 時短が小学校卒業まで、看護休暇が有給扱い、フルリモート可）が比較ポイントになります。改正法の詳しい整理は<a href="/articles/mama-engineer/" className="underline" style={{ color: "#7c3a55" }}>ママエンジニアの働き方ガイド</a>、時短勤務の収入・キャリアへの影響は<a href="/articles/short-time/" className="underline" style={{ color: "#7c3a55" }}>時短勤務エンジニアの記事</a>で解説しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 ブランク対処 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">ブランク不安への対処——スキルキャッチアップ法</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -465,39 +465,39 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 自分の領域の「差分リスト」を作る</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 自分の領域の「差分リスト」を作る</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 離れていた期間に主要フレームワーク・言語で何が変わったかをリリースノートで確認し、変更点を箇条書きに。フロントエンドならフレームワークのメジャーアップデート、バックエンドなら言語バージョンとクラウドの新機能、共通項としてAIコーディング支援ツールの普及が代表的な差分です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 手を動かして「小さなアウトプット」を残す</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 手を動かして「小さなアウトプット」を残す</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 小さな個人開発、OSSへのドキュメント修正、技術記事1本——形は何でも構いません。面接で「ブランク中も技術に触れていた」ことを具体物で示せると、ブランクの懸念は実質的に消えます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 細切れ時間に合わせて学習を設計する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 細切れ時間に合わせて学習を設計する</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 育児中はまとまった時間が取れない前提で、15〜30分単位で完結する教材（動画講座・技術記事）を選びます。子どものそばではインプット、1人になれる時間にコーディングと使い分けると、細切れ時間が無駄になりません。睡眠を削る学習は続かないため、無理は禁物です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 「伝え方」を準備する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 「伝え方」を準備する</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 ブランクは隠すものではなく、説明するものです。「育休◯か月→復帰後は時短×在宅で◯◯を担当→差分キャッチアップとして◯◯を実施」のように時系列で整理すれば、計画性のあるキャリアとして伝わります。伝え方の添削はエージェントの得意分野なので、1人で抱え込まないのが近道です。
               </p>
             </div>
           </div>
           <p className="text-text-light leading-relaxed mt-6">
-            離職を挟んだ場合を含むブランクからの復帰ステップ全体は<a href="/articles/return-to-work/" className="underline" style={{ color: "#0891b2" }}>復職・再就職ガイド</a>で詳しく解説しています。
+            離職を挟んだ場合を含むブランクからの復帰ステップ全体は<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>復職・再就職ガイド</a>で詳しく解説しています。
           </p>
         </div>
       </section>
 
       {/* おすすめエージェント */}
-      <section id="sec7" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec7" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -506,10 +506,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -517,10 +517,10 @@ export default function ArticlePage() {
                 産休育休後の復帰支援に豊富な実績。時短勤務可能・リモートワーク対応の求人を中心に紹介。女性のライフイベントに寄り添った手厚いキャリア相談が特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -528,10 +528,10 @@ export default function ArticlePage() {
                 リモートワーク求人が約60%と業界トップクラス。ブランクがあっても技術力を正当に評価した求人を提案。女性アドバイザーの指名も可能です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">リアルミーキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   ワーママ特化型
                 </span>
               </div>
@@ -539,10 +539,10 @@ export default function ArticlePage() {
                 ワーキングマザーの転職に完全特化。時短勤務前提の求人が豊富で、育児との両立を最優先にした企業マッチングが強みです。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">doda</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   総合型
                 </span>
               </div>
@@ -553,7 +553,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">まずは無料相談から始めましょう</p>
             <p className="text-sm text-text-light mb-4">
@@ -562,7 +562,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -583,11 +583,11 @@ export default function ArticlePage() {
                 <details
                   key={i}
                   className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <summary
                     className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     <span className="pr-4">{faq.name}</span>
                     <span className="transition-transform group-open:rotate-180">
@@ -596,7 +596,7 @@ export default function ArticlePage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">{faq.acceptedAnswer.text}</p>
                   </div>
@@ -608,7 +608,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec9 出典 */}
-      <section id="sec9" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec9" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
@@ -635,9 +635,9 @@ export default function ArticlePage() {
             <a
               href="/articles/mama-engineer/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 ママエンジニアの働き方ガイド
               </h3>
               <p className="text-sm text-text-light">時短・在宅の実態と両立できる職種</p>
@@ -645,9 +645,9 @@ export default function ArticlePage() {
             <a
               href="/articles/return-to-work/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 復職・再就職ガイド
               </h3>
               <p className="text-sm text-text-light">ブランクからの復帰ステップ</p>
@@ -655,9 +655,9 @@ export default function ArticlePage() {
             <a
               href="/articles/maternity-leave-rate/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 産休・育休取得率データ
               </h3>
               <p className="text-sm text-text-light">統計から見る取得率・復帰の実態</p>
@@ -665,9 +665,9 @@ export default function ArticlePage() {
             <a
               href="/articles/short-time/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 時短勤務エンジニアガイド
               </h3>
               <p className="text-sm text-text-light">時短の制度・収入・キャリアへの影響</p>
@@ -675,9 +675,9 @@ export default function ArticlePage() {
             <a
               href="/articles/work-childcare-day/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 仕事と保育園送迎の1日
               </h3>
               <p className="text-sm text-text-light">送迎と仕事を両立する時間設計</p>
@@ -685,9 +685,9 @@ export default function ArticlePage() {
             <a
               href="/articles/remote-jobs/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 リモートワーク求人ガイド
               </h3>
               <p className="text-sm text-text-light">在宅勤務のメリットと探し方</p>
@@ -702,7 +702,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -714,7 +714,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

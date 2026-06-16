@@ -84,11 +84,11 @@ export default function DodaReviewPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #f4e7da 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "エージェントレビュー", href: "/reviews/" }, { label: "doda" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>総合型</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>総合型</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               dodaの口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアの転職にdodaは使える？徹底検証</span>
@@ -101,17 +101,17 @@ export default function DodaReviewPage() {
       {/* 総合評価 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6 md:p-8" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border p-6 md:p-8" style={{ borderColor: "#d9c7b8" }}>
             <h2 className="text-2xl font-bold mb-6">総合評価</h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-5xl font-bold" style={{ color: "#0891b2" }}>4.3</span>
+                  <span className="text-5xl font-bold" style={{ color: "#7c3a55" }}>4.3</span>
                   <span className="text-text-light text-lg">/ 5.0</span>
                 </div>
                 <div className="flex gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
-                    <span key={star} className="text-2xl" style={{ color: star <= 4 ? "#f59e0b" : "#d1dce5" }}>★</span>
+                    <span key={star} className="text-2xl" style={{ color: star <= 4 ? "#f59e0b" : "#d9c7b8" }}>★</span>
                   ))}
                 </div>
                 <p className="text-text-light text-sm">
@@ -128,10 +128,10 @@ export default function DodaReviewPage() {
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-3">
                     <span className="w-32 text-sm font-medium">{item.label}</span>
-                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e2e8f0" }}>
-                      <div className="h-2 rounded-full" style={{ width: `${(item.score / 5) * 100}%`, backgroundColor: "#0891b2" }} />
+                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e4d6c8" }}>
+                      <div className="h-2 rounded-full" style={{ width: `${(item.score / 5) * 100}%`, backgroundColor: "#7c3a55" }} />
                     </div>
-                    <span className="text-sm font-bold" style={{ color: "#0891b2" }}>{item.score}.0</span>
+                    <span className="text-sm font-bold" style={{ color: "#7c3a55" }}>{item.score}.0</span>
                   </div>
                 ))}
               </div>
@@ -141,7 +141,7 @@ export default function DodaReviewPage() {
       </section>
 
       {/* 基本情報テーブル */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">基本情報</h2>
           <div className="overflow-x-auto">
@@ -161,9 +161,9 @@ export default function DodaReviewPage() {
                   ["産休育休", "検索フィルターで産休育休実績あり企業を絞り込み可能"],
                   ["公式サイト", "doda.jp"],
                 ].map(([label, value], i) => (
-                  <tr key={label} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
-                    <th className="px-4 py-3 text-left text-sm font-bold w-40" style={{ borderBottom: "1px solid #d1dce5", color: "#0891b2" }}>{label}</th>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{value}</td>
+                  <tr key={label} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
+                    <th className="px-4 py-3 text-left text-sm font-bold w-40" style={{ borderBottom: "1px solid #d9c7b8", color: "#7c3a55" }}>{label}</th>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{value}</td>
                   </tr>
                 ))}
               </tbody>
@@ -194,7 +194,7 @@ export default function DodaReviewPage() {
       </section>
 
       {/* 女性エンジニアへの強み */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニアに対する強み</h2>
           <div className="grid gap-6 md:grid-cols-2">
@@ -216,8 +216,8 @@ export default function DodaReviewPage() {
                 desc: "大手企業の求人が豊富で、福利厚生が充実した企業への転職に有利。産休育休制度や時短勤務制度が整った企業が多いのが魅力です。",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>{item.title}</h3>
+              <div key={item.title} className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+                <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>{item.title}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -233,7 +233,7 @@ export default function DodaReviewPage() {
             ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>良い口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
           <div className="space-y-4 mb-8">
             {[
               {
@@ -253,14 +253,14 @@ export default function DodaReviewPage() {
                 text: "前職の年収に不満があり転職を決意。dodaのスカウト機能で自分の市場価値を確認した上で、アドバイザーと一緒に年収交渉の戦略を立てられました。結果的に年収50万円アップで転職できました。大手ならではの安心感があります。",
               },
             ].map((review, i) => (
-              <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "1px solid #cffafe" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>{review.reviewer}</p>
+              <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #ecdcce" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>{review.reviewer}</p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
               </div>
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#f97066" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
           <div className="space-y-4 mb-6">
             {[
               {
@@ -273,7 +273,7 @@ export default function DodaReviewPage() {
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#f97066" }}>{review.reviewer}</p>
+                <p className="text-sm font-bold mb-2" style={{ color: "#c15f47" }}>{review.reviewer}</p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
               </div>
             ))}
@@ -290,12 +290,12 @@ export default function DodaReviewPage() {
       </section>
 
       {/* メリット・デメリット */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">メリット・デメリット</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #0891b2" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>メリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #7c3a55" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>メリット</h3>
               <ul className="space-y-3">
                 {[
                   "業界2位の求人数240,000件以上を保有し、IT・エンジニア系の求人も数万件規模で充実している",
@@ -303,21 +303,21 @@ export default function DodaReviewPage() {
                   "エージェント・スカウト・転職サイトの3つの機能を自由に使い分けられ、自分のペースで活動できる",
                 ].map((merit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#0891b2" }} className="font-bold shrink-0">◎</span>
+                    <span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◎</span>
                     <span className="text-text-light">{merit}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #f97066" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>デメリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #c15f47" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>デメリット</h3>
               <ul className="space-y-3">
                 {[
                   "総合型のため、IT特化型と比べてエンジニア領域の専門性ではやや劣る場合がある",
                   "求人数が多すぎて自分に合った求人を見つけにくいと感じることがある",
                 ].map((demerit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#f97066" }} className="font-bold shrink-0">△</span>
+                    <span style={{ color: "#c15f47" }} className="font-bold shrink-0">△</span>
                     <span className="text-text-light">{demerit}</span>
                   </li>
                 ))}
@@ -340,7 +340,7 @@ export default function DodaReviewPage() {
               { step: "5", title: "内定・入社", desc: "内定後は年収交渉や入社日の調整をアドバイザーが代行。円満退社のアドバイスも受けられます。" },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold" style={{ backgroundColor: "#0891b2" }}>{item.step}</div>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold" style={{ backgroundColor: "#7c3a55" }}>{item.step}</div>
                 <div>
                   <h3 className="font-bold text-lg">{item.title}</h3>
                   <p className="text-sm text-text-light mt-1 leading-relaxed">{item.desc}</p>
@@ -352,12 +352,12 @@ export default function DodaReviewPage() {
       </section>
 
       {/* おすすめ・向いていない */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">こんな女性におすすめ / 向いていない人</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>おすすめの方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>おすすめの方</h3>
               <ul className="space-y-2">
                 {[
                   "幅広い選択肢から比較検討したい女性エンジニア",
@@ -367,19 +367,19 @@ export default function DodaReviewPage() {
                   "自分のペースでじっくり転職活動を進めたい方",
                   "転職活動が初めてで全体像を把握したい方",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#0891b2" }}>●</span>{item}</li>
+                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#7c3a55" }}>●</span>{item}</li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>向いていない方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>向いていない方</h3>
               <ul className="space-y-2">
                 {[
                   "IT分野の高度な専門性を求めるエンジニア（レバテックキャリア推奨）",
                   "求人を厳選して少数精鋭で紹介してほしい方",
                   "女性特化のきめ細かいサポートを求める方（type女性推奨）",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#f97066" }}>●</span>{item}</li>
+                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#c15f47" }}>●</span>{item}</li>
                 ))}
               </ul>
             </div>
@@ -389,13 +389,13 @@ export default function DodaReviewPage() {
 
       {/* 関連記事 */}
       <div className="mx-auto max-w-4xl px-4">
-        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
-          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+        <div className="bg-[#f0e7dd] border border-[#d9c7b8] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
-            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} type女性の転職エージェント vs doda徹底比較</Link>
-            <Link href="/articles/career-path/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} キャリアパス設計ガイド｜5年後・10年後のキャリア設計</Link>
-            <Link href="/articles/sier-industry/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} SIer（システムインテグレーター）への転職ガイド</Link>
+            <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
+            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} type女性の転職エージェント vs doda徹底比較</Link>
+            <Link href="/articles/career-path/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} キャリアパス設計ガイド｜5年後・10年後のキャリア設計</Link>
+            <Link href="/articles/sier-industry/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} SIer（システムインテグレーター）への転職ガイド</Link>
           </div>
         </div>
       </div>
@@ -406,13 +406,13 @@ export default function DodaReviewPage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">▼</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}
@@ -421,7 +421,7 @@ export default function DodaReviewPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12" style={{ backgroundColor: "#ecfeff" }}>
+      <section className="py-12" style={{ backgroundColor: "#efe3d8" }}>
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">dodaで理想の転職先を見つけよう</h2>
           <p className="text-text-light mb-6">業界2位の豊富な求人数で、あなたに最適な企業が見つかります。まずは無料登録から。</p>

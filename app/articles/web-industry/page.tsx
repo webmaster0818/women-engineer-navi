@@ -133,7 +133,7 @@ export default function WebIndustryPage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -147,7 +147,7 @@ export default function WebIndustryPage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               業界ガイド
             </span>
@@ -167,9 +167,9 @@ export default function WebIndustryPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl p-6"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
               この記事の結論
             </h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -198,52 +198,52 @@ export default function WebIndustryPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
               <li>
-                <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>
                   1. Web業界の構造｜4タイプの企業を整理
                 </a>
               </li>
               <li>
-                <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>
                   2. 実データで見るWeb業界の市場と需要
                 </a>
               </li>
               <li>
-                <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>
                   3. Web業界の年収相場｜「Web系＝高年収」は半分神話
                 </a>
               </li>
               <li>
-                <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>
                   4. SIerとの文化の違い｜どちらが良いかは人による
                 </a>
               </li>
               <li>
-                <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>
                   5. 女性エンジニアから見たWeb業界
                 </a>
               </li>
               <li>
-                <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>
                   6. Web業界転職の現実的なルート
                 </a>
               </li>
               <li>
-                <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>
                   7. Web系転職に強いエージェント
                 </a>
               </li>
               <li>
-                <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>
                   8. よくある質問
                 </a>
               </li>
               <li>
-                <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>
                   9. 出典一覧
                 </a>
               </li>
@@ -262,39 +262,39 @@ export default function WebIndustryPage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 ① 自社サービス企業（中堅Web系）
               </h3>
               <p className="text-sm text-text-light leading-relaxed">
                 自社でECサイト・SaaS・メディアなどを開発・運営する企業。プロダクトの企画から運用・改善まで一気通貫で関われるのが最大の魅力です。ユーザーの反応が数字で返ってくるため、改善のサイクルを回す面白さがあります。技術選定の裁量が大きい反面、事業の浮き沈みが処遇に直結しやすい側面もあります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 ② メガベンチャー・大手テック
               </h3>
               <p className="text-sm text-text-light leading-relaxed">
                 大規模な自社サービスを複数展開する上場企業群。大規模トラフィックを支える技術的挑戦と、大手ならではの福利厚生・産休育休制度の両方を得やすいタイプです。給与水準はWeb業界の中で最も高い層に入りますが、その分中途採用の選考難易度も高く、即戦力の実務経験が前提になります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>
                 ③ Web受託開発企業
               </h3>
               <p className="text-sm text-text-light leading-relaxed">
                 クライアントのWebサービス・アプリを受託で開発する企業。多様な業界・技術に触れられ、実務経験を積む入口として現実的な選択肢です。一方で納期・予算はクライアント次第で、担当案件によって労働環境が変わりやすい点は把握しておきましょう。SES（客先常駐）との違いは
-                <a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SES・受託・自社開発の違い</a>
+                <a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>SES・受託・自社開発の違い</a>
                 で詳しく解説しています。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#10b981" }}>
                 ④ スタートアップ
               </h3>
               <p className="text-sm text-text-light leading-relaxed">
                 資金調達をしながら急成長を目指す少人数組織。裁量の大きさ・成長速度・ストックオプションの可能性が魅力ですが、制度の未整備や事業リスクと表裏一体です。産休育休の「制度はあるが前例がない」企業も少なくないため、女性のキャリア継続の観点では見極めが特に重要です。詳しくは
-                <a href="/articles/startup/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>スタートアップ転職ガイド</a>
+                <a href="/articles/startup/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>スタートアップ転職ガイド</a>
                 をご覧ください。
               </p>
             </div>
@@ -302,37 +302,37 @@ export default function WebIndustryPage() {
           <div className="overflow-x-auto mt-8">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>タイプ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の傾向</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>働き方の傾向</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>向いている人</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>タイプ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の傾向</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>働き方の傾向</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>向いている人</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>自社サービス</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業界平均並み〜やや上。事業の成長に連動</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リモート・フレックスが浸透。改善サイクル中心</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>プロダクトを育てたい人</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>自社サービス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業界平均並み〜やや上。事業の成長に連動</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リモート・フレックスが浸透。改善サイクル中心</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>プロダクトを育てたい人</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>メガベンチャー</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業界内で最高水準の層。選考難易度も高い</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>制度・福利厚生が充実。産休育休実績も豊富</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>大規模開発と安定を両立したい人</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>メガベンチャー</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業界内で最高水準の層。選考難易度も高い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>制度・福利厚生が充実。産休育休実績も豊富</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>大規模開発と安定を両立したい人</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Web受託</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業界平均〜やや下から始まることが多い</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>案件次第で繁閑差。多様な技術に触れられる</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務経験を積みたい人・幅を広げたい人</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Web受託</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業界平均〜やや下から始まることが多い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>案件次第で繁閑差。多様な技術に触れられる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務経験を積みたい人・幅を広げたい人</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>スタートアップ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>幅が大きい。SOなど株式報酬の可能性あり</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>裁量最大・制度は未整備のことも</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>変化とスピードを楽しめる人</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>スタートアップ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>幅が大きい。SOなど株式報酬の可能性あり</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>裁量最大・制度は未整備のことも</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>変化とスピードを楽しめる人</td>
                 </tr>
               </tbody>
             </table>
@@ -344,7 +344,7 @@ export default function WebIndustryPage() {
       </section>
 
       {/* sec2 市場と需要 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">実データで見るWeb業界の市場と需要</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -357,16 +357,16 @@ export default function WebIndustryPage() {
             </p>
             <p className="text-xs">出典: 厚生労働省 職業情報提供サイトjob tag「システムエンジニア（Webサービス開発）」／経済産業省「IT人材需給に関する調査」（いずれも2026年6月参照）</p>
             <div className="grid gap-4 md:grid-cols-3 mt-4">
-              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d1dce5" }}>
-                <p className="text-2xl font-bold" style={{ color: "#0891b2" }}>26.1兆円</p>
+              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d9c7b8" }}>
+                <p className="text-2xl font-bold" style={{ color: "#7c3a55" }}>26.1兆円</p>
                 <p className="text-xs text-text-light mt-1">2024年BtoC-EC市場規模（前年比+5.1%）</p>
               </div>
-              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d1dce5" }}>
-                <p className="text-2xl font-bold" style={{ color: "#7c3aed" }}>2.57倍</p>
+              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d9c7b8" }}>
+                <p className="text-2xl font-bold" style={{ color: "#7c3a55" }}>2.57倍</p>
                 <p className="text-xs text-text-light mt-1">Webサービス開発SEの有効求人倍率（令和6年度）</p>
               </div>
-              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d1dce5" }}>
-                <p className="text-2xl font-bold" style={{ color: "#f97066" }}>最大79万人</p>
+              <div className="rounded-xl border bg-white p-5 text-center" style={{ borderColor: "#d9c7b8" }}>
+                <p className="text-2xl font-bold" style={{ color: "#c15f47" }}>最大79万人</p>
                 <p className="text-xs text-text-light mt-1">2030年のIT人材不足試算（経産省）</p>
               </div>
             </div>
@@ -389,42 +389,42 @@ export default function WebIndustryPage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>正社員全体</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>429万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }} rowSpan={6}>doda「平均年収ランキング2025」（パーソルキャリア、2025年12月発表）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>正社員全体</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>429万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }} rowSpan={6}>doda「平均年収ランキング2025」（パーソルキャリア、2025年12月発表）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITエンジニア全体</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>469万円</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>インターネット/広告/メディア業界</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>440万円</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>システムインテグレータ（SIer）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>481万円</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ITエンジニア全体</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>469万円</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ソフトウェア/パッケージベンダ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>493万円</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>インターネット/広告/メディア業界</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>440万円</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITコンサルティング</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>505万円</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>システムインテグレータ（SIer）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>481万円</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>システムエンジニア（Webサービス開発）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>578.5万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省 job tag（令和7年賃金構造基本統計調査ベース）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ソフトウェア/パッケージベンダ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>493万円</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ITコンサルティング</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>505万円</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>システムエンジニア（Webサービス開発）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>578.5万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省 job tag（令和7年賃金構造基本統計調査ベース）</td>
                 </tr>
               </tbody>
             </table>
@@ -435,9 +435,9 @@ export default function WebIndustryPage() {
             </p>
             <p>
               メガベンチャーや上場テック企業のシニアエンジニアは高水準ですが、若手中心の中小Web企業や広告・メディア系は平均を押し下げています。「Web系だから高い／低い」ではなく、<strong>どのタイプの企業で・どの職種スキルを持つか</strong>で決まると考えてください。職種別の詳しい年収は
-              <a href="/articles/frontend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>フロントエンド</a>
+              <a href="/articles/frontend/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>フロントエンド</a>
               ・
-              <a href="/articles/backend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>バックエンド</a>
+              <a href="/articles/backend/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>バックエンド</a>
               の各ガイドで解説しています。
             </p>
             <p className="text-xs">
@@ -448,7 +448,7 @@ export default function WebIndustryPage() {
       </section>
 
       {/* sec4 SIerとの文化差 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">SIerとの文化の違い｜どちらが良いかは人による</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -459,47 +459,47 @@ export default function WebIndustryPage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>Web業界の傾向</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>SIerの傾向</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>項目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>Web業界の傾向</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>SIerの傾向</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>技術スタック</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>React/TypeScript・Go・クラウドネイティブなど自社で選定。新技術の採用が速い</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>顧客システムの要件に従う。Java・実績ある枯れた技術が中心で堅実</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>技術スタック</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>React/TypeScript・Go・クラウドネイティブなど自社で選定。新技術の採用が速い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>顧客システムの要件に従う。Java・実績ある枯れた技術が中心で堅実</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>開発スタイル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>アジャイル・小さくリリースして改善。裁量が大きい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ウォーターフォール中心。ドキュメントと品質管理が体系的</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>開発スタイル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>アジャイル・小さくリリースして改善。裁量が大きい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ウォーターフォール中心。ドキュメントと品質管理が体系的</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>評価制度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>成果・技術力ベースが主流。昇給の上下動が大きめ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>等級・年次ベースの要素が残る。緩やかだが着実に上がる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>評価制度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>成果・技術力ベースが主流。昇給の上下動が大きめ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>等級・年次ベースの要素が残る。緩やかだが着実に上がる</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>服装・社風</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>私服・フラットな組織が多い</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ビジネスカジュアル〜スーツ。顧客対応上の規律あり</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>服装・社風</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>私服・フラットな組織が多い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ビジネスカジュアル〜スーツ。顧客対応上の規律あり</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>リモートワーク</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>浸透度が高い（情報通信業のテレワーク導入率94.3%）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>導入は進むが、客先常駐案件では顧客の方針に左右される</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>リモートワーク</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>浸透度が高い（情報通信業のテレワーク導入率94.3%）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>導入は進むが、客先常駐案件では顧客の方針に左右される</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>教育・研修</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>OJT・自走前提。体系的な研修は薄い企業が多い</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>新人研修・資格支援が体系的。未経験育成の実績が厚い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>教育・研修</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>OJT・自走前提。体系的な研修は薄い企業が多い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>新人研修・資格支援が体系的。未経験育成の実績が厚い</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>安定性</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>事業の浮き沈みが処遇に直結しやすい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>長期契約・大手親会社などで雇用が安定しやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>安定性</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>事業の浮き沈みが処遇に直結しやすい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>長期契約・大手親会社などで雇用が安定しやすい</td>
                 </tr>
               </tbody>
             </table>
@@ -508,8 +508,8 @@ export default function WebIndustryPage() {
             出典: テレワーク導入率は総務省「令和6年通信利用動向調査」（企業全体47.3%、情報通信業94.3%）（2026年6月参照）。その他は両業界の一般的傾向の整理であり、企業による差があります。
           </p>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Web業界が合う人</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Web業界が合う人</h3>
               <ul className="text-sm text-text-light space-y-2">
                 <li>・モダンな技術を自分で選び、速いサイクルで作りたい</li>
                 <li>・成果ベースの評価で年功に縛られたくない</li>
@@ -517,8 +517,8 @@ export default function WebIndustryPage() {
                 <li>・自走して学び続けることが苦にならない</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>SIerが合う人</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>SIerが合う人</h3>
               <ul className="text-sm text-text-light space-y-2">
                 <li>・体系的な研修で着実に育ちたい（未経験・第二新卒含む）</li>
                 <li>・雇用と収入の安定性を重視したい</li>
@@ -529,9 +529,9 @@ export default function WebIndustryPage() {
           </div>
           <p className="text-text-light leading-relaxed mt-6">
             SIerの働き方・年収の詳細は
-            <a href="/articles/sier-industry/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SIerへの転職ガイド</a>
+            <a href="/articles/sier-industry/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>SIerへの転職ガイド</a>
             、契約形態ごとの違いは
-            <a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SES・受託・自社開発の違い</a>
+            <a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>SES・受託・自社開発の違い</a>
             をあわせてご覧ください。
           </p>
         </div>
@@ -553,14 +553,14 @@ export default function WebIndustryPage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Web業界のプラス面</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Web業界のプラス面</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 リモート・フレックスの浸透により、育児・介護との両立や時短勤務の選択肢が広い。成果が可視化されやすい開発職は、勤務時間の長さではなくアウトプットで評価されやすく、時短でも実力が認められやすい構造です。メガベンチャーを中心にD&I施策や産休育休の取得実績を公開する企業も増えています。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>注意すべき点</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>注意すべき点</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 企業差が極めて大きいのがWeb業界です。スタートアップや小規模企業では「制度はあるが取得前例がない」ケースが現実にあります。求人票だけでは分からない、産休育休の取得・復帰実績、時短勤務者の評価運用、女性管理職の有無は、エージェント経由や面談で必ず確認しましょう。
               </p>
@@ -570,7 +570,7 @@ export default function WebIndustryPage() {
       </section>
 
       {/* sec6 現実的なルート */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">Web業界転職の現実的なルート</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -601,8 +601,8 @@ export default function WebIndustryPage() {
                 "テスター・QA・カスタマーサポート・Webディレクターなどの職種でWeb企業に入り、社内で開発にスライドする方法。企業文化への適応が済んでいる分、異動のハードルは外部転職より低いことがあります。入社前に異動実績の有無を確認しておきましょう。",
               ],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -612,16 +612,16 @@ export default function WebIndustryPage() {
           </div>
           <p className="text-text-light leading-relaxed mt-6">
             目指す職種を先に決めると学習が迷子になりません。画面・UIを作りたい人は
-            <a href="/articles/frontend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>フロントエンドエンジニア転職ガイド</a>
+            <a href="/articles/frontend/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>フロントエンドエンジニア転職ガイド</a>
             、API・データベースなど仕組み側に興味がある人は
-            <a href="/articles/backend/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</a>
+            <a href="/articles/backend/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>バックエンドエンジニア転職ガイド</a>
             で、必要スキルとロードマップを確認してください。
           </p>
         </div>
       </section>
 
       {/* sec7 おすすめエージェント */}
-      <section id="sec7" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec7" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">Web系転職に強いエージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -634,14 +634,14 @@ export default function WebIndustryPage() {
               {
                 name: "レバテックキャリア",
                 badge: "IT特化型",
-                color: "#0891b2",
+                color: "#7c3a55",
                 desc: "Web系・自社開発企業の求人が豊富。技術に精通したアドバイザーがスキルを正当に評価し、最適な求人を提案。年収70万円以上アップの実績多数。",
                 link: "/reviews/levtech/",
               },
               {
                 name: "Geekly",
                 badge: "IT・Web特化",
-                color: "#7c3aed",
+                color: "#7c3a55",
                 desc: "Web系・ゲーム業界に強みを持つIT特化型エージェント。書類選考通過率3.4倍の実績を持ち、レジュメ作成のサポートが手厚い。",
                 link: "/reviews/geekly/",
               },
@@ -656,7 +656,7 @@ export default function WebIndustryPage() {
               <div
                 key={i}
                 className="rounded-xl border bg-white p-6"
-                style={{ borderColor: "#d1dce5" }}
+                style={{ borderColor: "#d9c7b8" }}
               >
                 <div className="flex items-center gap-3 mb-2">
                   <span
@@ -671,7 +671,7 @@ export default function WebIndustryPage() {
                 <a
                   href={agent.link}
                   className="text-sm font-bold hover:underline"
-                  style={{ color: "#0891b2" }}
+                  style={{ color: "#7c3a55" }}
                 >
                   {agent.name}の詳細レビューを見る →
                 </a>
@@ -699,11 +699,11 @@ export default function WebIndustryPage() {
                 <details
                   key={i}
                   className="group rounded-xl bg-white"
-                  style={{ border: "1px solid #d1dce5" }}
+                  style={{ border: "1px solid #d9c7b8" }}
                 >
                   <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
                     <span>
-                      <span style={{ color: "#0891b2" }} className="mr-2">
+                      <span style={{ color: "#7c3a55" }} className="mr-2">
                         Q.
                       </span>
                       {faq.name}
@@ -714,10 +714,10 @@ export default function WebIndustryPage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">
-                      <span style={{ color: "#f97066" }} className="font-bold mr-2">
+                      <span style={{ color: "#c15f47" }} className="font-bold mr-2">
                         A.
                       </span>
                       {faq.acceptedAnswer.text}
@@ -731,10 +731,10 @@ export default function WebIndustryPage() {
       </section>
 
       {/* sec9 出典一覧 */}
-      <section id="sec9" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec9" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典一覧</h2>
-          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・出典: 経済産業省「令和6年度電子商取引に関する市場調査」2025年8月公表（2026年6月参照）</li>
               <li>・出典: doda「平均年収ランキング2025」パーソルキャリア、2025年12月発表（2026年6月参照）</li>
@@ -759,9 +759,9 @@ export default function WebIndustryPage() {
             <a
               href="/articles/sier-industry/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 SIerへの転職ガイド
               </h3>
               <p className="text-sm text-text-light">SIerの働き方と女性エンジニアの活躍</p>
@@ -769,9 +769,9 @@ export default function WebIndustryPage() {
             <a
               href="/articles/ses-vs-jisha/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 SES・受託・自社開発の違い
               </h3>
               <p className="text-sm text-text-light">契約形態ごとの働き方を徹底比較</p>
@@ -779,9 +779,9 @@ export default function WebIndustryPage() {
             <a
               href="/articles/startup/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 スタートアップ転職ガイド
               </h3>
               <p className="text-sm text-text-light">スタートアップ企業の魅力とリスク</p>
@@ -789,9 +789,9 @@ export default function WebIndustryPage() {
             <a
               href="/articles/frontend/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 フロントエンドエンジニア転職
               </h3>
               <p className="text-sm text-text-light">フロントエンド特化のキャリアガイド</p>
@@ -799,9 +799,9 @@ export default function WebIndustryPage() {
             <a
               href="/articles/backend/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 バックエンドエンジニア転職ガイド
               </h3>
               <p className="text-sm text-text-light">年収・必要スキル・未経験からの道</p>
@@ -809,9 +809,9 @@ export default function WebIndustryPage() {
             <a
               href="/articles/game-industry/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 ゲーム業界への転職ガイド
               </h3>
               <p className="text-sm text-text-light">ゲーム業界の需要と年収を解説</p>
@@ -826,7 +826,7 @@ export default function WebIndustryPage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -838,7 +838,7 @@ export default function WebIndustryPage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

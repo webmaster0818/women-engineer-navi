@@ -118,7 +118,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -132,7 +132,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               キャリア知識
             </span>
@@ -150,23 +150,23 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論 — 3つの原則</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>この記事の結論 — 3つの原則</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>一人で抱えない。</strong>ハラスメントは被害を受けた側の責任ではなく、防止措置を講じることは法律で定められた<strong>会社の義務</strong>です（労働施策総合推進法・男女雇用機会均等法など）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>記録を残す。</strong>日時・場所・言動のメモ、チャット・メールの保存が、社内相談・行政相談・退職手続きすべての土台になります。記録は「その日のうちに」が原則です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>外部窓口がある。</strong>社内で解決しなくても、<strong>総合労働相談コーナー（都道府県労働局）</strong>や<strong>みんなの人権110番（法務局）</strong>など、無料で使える公的窓口が実在します。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span>解決を待たずに<strong>転職で環境を変えることも正当な選択肢</strong>です。我慢し続けることを前提にせず、心身の安全を最優先に判断しましょう。</span>
               </li>
             </ul>
@@ -182,20 +182,20 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. データで見る職場ハラスメントの現状</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. ハラスメントの類型と法的根拠（整理表）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 対処ステップ1: 記録を残す</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 対処ステップ2: 社内窓口に相談する</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 対処ステップ3: 外部の公的相談窓口を使う</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 2026年10月施行: カスハラ・就活セクハラ対策の義務化</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 転職で環境を変える判断基準</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. 出典・参考資料</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. データで見る職場ハラスメントの現状</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. ハラスメントの類型と法的根拠（整理表）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 対処ステップ1: 記録を残す</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 対処ステップ2: 社内窓口に相談する</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 対処ステップ3: 外部の公的相談窓口を使う</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 2026年10月施行: カスハラ・就活セクハラ対策の義務化</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 転職で環境を変える判断基準</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. 出典・参考資料</a></li>
             </ol>
           </div>
         </div>
@@ -219,32 +219,32 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>指標</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>数値</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>指標</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>数値</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>過去3年間にパワハラを受けた労働者</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>19.3%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省委託事業「令和5年度 職場のハラスメントに関する実態調査」</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>過去3年間にパワハラを受けた労働者</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>19.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省委託事業「令和5年度 職場のハラスメントに関する実態調査」</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>過去3年間にカスハラを受けた労働者</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>10.8%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同上</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>過去3年間にカスハラを受けた労働者</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>10.8%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>同上</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>過去3年間にセクハラを受けた労働者</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>6.3%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同上</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>過去3年間にセクハラを受けた労働者</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>6.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>同上</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>「いじめ・嫌がらせ」の相談件数</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>5万4,987件（13年連続最多）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省「令和6年度 個別労働紛争解決制度の施行状況」</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>「いじめ・嫌がらせ」の相談件数</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>5万4,987件（13年連続最多）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和6年度 個別労働紛争解決制度の施行状況」</td>
                 </tr>
               </tbody>
             </table>
@@ -256,7 +256,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 類型と法的根拠 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">ハラスメントの類型と法的根拠（整理表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -267,43 +267,43 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>類型</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>概要</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>根拠法</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>防止措置義務の施行時期</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>類型</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>概要</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>根拠法</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>防止措置義務の施行時期</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>パワーハラスメント</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>①優越的な関係を背景とした言動で、②業務上必要かつ相当な範囲を超え、③就業環境を害するもの（3要素すべてを満たすもの）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>労働施策総合推進法 第30条の2（通称: パワハラ防止法）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>大企業2020年6月1日、中小企業2022年4月1日（<strong>現在は全企業が義務</strong>）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>パワーハラスメント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>①優越的な関係を背景とした言動で、②業務上必要かつ相当な範囲を超え、③就業環境を害するもの（3要素すべてを満たすもの）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>労働施策総合推進法 第30条の2（通称: パワハラ防止法）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>大企業2020年6月1日、中小企業2022年4月1日（<strong>現在は全企業が義務</strong>）</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>セクシュアルハラスメント</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>性的な言動への対応により労働条件で不利益を受ける（対価型）、または性的な言動により就業環境が害される（環境型）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男女雇用機会均等法 第11条</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2007年4月に措置義務化（2020年6月の改正で相談を理由とする不利益取扱い禁止など対策強化）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>セクシュアルハラスメント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>性的な言動への対応により労働条件で不利益を受ける（対価型）、または性的な言動により就業環境が害される（環境型）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>男女雇用機会均等法 第11条</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2007年4月に措置義務化（2020年6月の改正で相談を理由とする不利益取扱い禁止など対策強化）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>マタニティハラスメント（妊娠・出産・育休等）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>妊娠・出産や産休・育休等の制度利用に関する上司・同僚からの就業環境を害する言動</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男女雇用機会均等法 第11条の3、育児・介護休業法 第25条</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2017年1月1日に措置義務化</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>マタニティハラスメント（妊娠・出産・育休等）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>妊娠・出産や産休・育休等の制度利用に関する上司・同僚からの就業環境を害する言動</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>男女雇用機会均等法 第11条の3、育児・介護休業法 第25条</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2017年1月1日に措置義務化</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>カスタマーハラスメント（顧客・取引先等から）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>顧客・取引先など第三者からの著しい迷惑行為により就業環境が害されるもの</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>改正労働施策総合推進法（令和7年法律第63号・2025年6月成立）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}><strong>2026年10月1日施行</strong>（全事業主に措置義務。指針は2026年2月26日策定）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>カスタマーハラスメント（顧客・取引先等から）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>顧客・取引先など第三者からの著しい迷惑行為により就業環境が害されるもの</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>改正労働施策総合推進法（令和7年法律第63号・2025年6月成立）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><strong>2026年10月1日施行</strong>（全事業主に措置義務。指針は2026年2月26日策定）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>求職者等へのセクハラ（就活等セクハラ）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>就職活動中の学生や求職者に対する性的な言動</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同改正法（令和7年法律第63号）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}><strong>2026年10月1日施行</strong>（事業主に措置義務）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>求職者等へのセクハラ（就活等セクハラ）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>就職活動中の学生や求職者に対する性的な言動</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>同改正法（令和7年法律第63号）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><strong>2026年10月1日施行</strong>（事業主に措置義務）</td>
                 </tr>
               </tbody>
             </table>
@@ -311,8 +311,8 @@ export default function ArticlePage() {
           <p className="text-text-light text-sm mt-3">
             出典: 厚生労働省「職場におけるハラスメントの防止のために」、厚生労働省「令和7年労働施策総合推進法等の一部改正について」（いずれも2026年6月参照）
           </p>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>知っておくべき2つの共通ルール</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>知っておくべき2つの共通ルール</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>相談を理由とする不利益取扱いは禁止。</strong>2020年6月施行の改正で、ハラスメントを相談したことや、会社の調査で事実を述べたことを理由とする解雇その他の不利益な取り扱いが、パワハラ・セクハラ・マタハラのいずれについても明文で禁止されました。</li>
               <li>② <strong>派遣・常駐でも保護される。</strong>派遣労働者については、派遣元だけでなく<strong>派遣先の企業にも</strong>セクハラ・マタハラ・パワハラの防止措置義務が適用されます（労働者派遣法第47条の2〜第47条の4による読み替え適用）。客先常駐が多いIT業界でも「常駐先のことだから」と泣き寝入りする必要はありません。</li>
@@ -334,8 +334,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>記録に残す項目（5W1H）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>記録に残す項目（5W1H）</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>日時</strong>（できれば時刻まで）と<strong>場所</strong>（会議室、チャットのチャンネル名、オンライン会議名など）</li>
                 <li>・<strong>相手</strong>（氏名・役職）と<strong>同席者・目撃者</strong>の有無</li>
@@ -344,8 +344,8 @@ export default function ArticlePage() {
                 <li>・<strong>前後の経緯</strong>（どんな業務の場面で起きたか）</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>エンジニアの職場で有効な証拠の残し方</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>エンジニアの職場で有効な証拠の残し方</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>チャット・メールはスクリーンショットで保存。</strong>Slack等のメッセージは後から編集・削除される可能性があるため、日時とチャンネル名が写る形で保存します。会社端末しか使えない場合も、退職や端末返却でアクセスできなくなる前に保全を。ただし<strong>業務上の機密情報（ソースコード・顧客情報等）を社外に持ち出すのは別の問題になる</strong>ため、保存するのはハラスメント言動の記録に限定しましょう。</li>
                 <li>・<strong>口頭での言動は直後にメモ。</strong>自分宛てのメールや日時が自動記録されるメモアプリに送っておくと、作成日時の裏付けになります。</li>
@@ -358,7 +358,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 ステップ2 社内窓口 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">対処ステップ2: 社内窓口に相談する</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -392,37 +392,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>窓口</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>運営主体</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>特徴</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>窓口</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>運営主体</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>特徴</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>総合労働相談コーナー</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省（各都道府県労働局・労働基準監督署内）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ハラスメントを含むあらゆる労働問題のワンストップ窓口。<strong>無料・予約不要</strong>で、専門の相談員が面談または電話で対応。労働局の助言・指導やあっせん制度への橋渡しも</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>総合労働相談コーナー</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省（各都道府県労働局・労働基準監督署内）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ハラスメントを含むあらゆる労働問題のワンストップ窓口。<strong>無料・予約不要</strong>で、専門の相談員が面談または電話で対応。労働局の助言・指導やあっせん制度への橋渡しも</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>都道府県労働局 雇用環境・均等部（室）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省（都道府県労働局）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>セクハラ・マタハラ・パワハラの措置義務を所管。会社が義務を果たしていない場合の<strong>行政指導</strong>や、紛争調整委員会による<strong>調停・あっせん</strong>の申請窓口</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>みんなの人権110番（0570-003-110）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>法務省（法務局・地方法務局）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ハラスメントを含む人権問題全般の電話相談（平日8:30〜17:15）。従来の「女性の人権ホットライン」は<strong>2025年10月1日に本窓口へ統合</strong>され、音声ガイダンスで女性の人権相談を選択可能</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>法テラス（日本司法支援センター）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>国が設立した法的トラブル解決の総合案内所</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>損害賠償請求など法的手続きを検討する場合の入口。問い合わせ内容に応じた制度・相談窓口の案内のほか、収入等の条件を満たせば<strong>無料の法律相談</strong>も利用可能</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>都道府県労働局 雇用環境・均等部（室）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省（都道府県労働局）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>セクハラ・マタハラ・パワハラの措置義務を所管。会社が義務を果たしていない場合の<strong>行政指導</strong>や、紛争調整委員会による<strong>調停・あっせん</strong>の申請窓口</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>こころの耳</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省（働く人のメンタルヘルス・ポータルサイト）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ハラスメントで心身の不調を感じたときの電話・SNS・メール相談窓口を案内。<strong>体調への影響が出ている場合は労働問題の解決と並行して早めに利用を</strong></td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>みんなの人権110番（0570-003-110）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>法務省（法務局・地方法務局）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ハラスメントを含む人権問題全般の電話相談（平日8:30〜17:15）。従来の「女性の人権ホットライン」は<strong>2025年10月1日に本窓口へ統合</strong>され、音声ガイダンスで女性の人権相談を選択可能</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>法テラス（日本司法支援センター）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>国が設立した法的トラブル解決の総合案内所</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>損害賠償請求など法的手続きを検討する場合の入口。問い合わせ内容に応じた制度・相談窓口の案内のほか、収入等の条件を満たせば<strong>無料の法律相談</strong>も利用可能</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>こころの耳</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省（働く人のメンタルヘルス・ポータルサイト）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ハラスメントで心身の不調を感じたときの電話・SNS・メール相談窓口を案内。<strong>体調への影響が出ている場合は労働問題の解決と並行して早めに利用を</strong></td>
                 </tr>
               </tbody>
             </table>
@@ -439,7 +439,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 2026年法改正 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">2026年10月施行: カスハラ・就活セクハラ対策の義務化</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -472,8 +472,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>転職を真剣に検討すべきサイン</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>転職を真剣に検討すべきサイン</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・社内窓口に相談しても調査・対応が行われない、または形だけで状況が変わらない</li>
                 <li>・加害者が経営層・組織の中心人物で、社内での是正が構造的に期待できない</li>
@@ -481,8 +481,8 @@ export default function ArticlePage() {
                 <li>・相談後にかえって扱いが悪くなった（不利益取扱いとして労働局相談の対象でもあります）</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>転職活動で押さえる3つのポイント</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>転職活動で押さえる3つのポイント</h3>
               <ul className="space-y-3 text-sm text-text-light">
                 <li>
                   <strong>① 在職中に動き始める。</strong>収入が途切れない状態で選考を進めるほうが、焦らず企業を選べます。体調的に在職継続が難しい場合は無理せず、退職・休職と並行して進めましょう。なお、ハラスメントが離職理由とハローワークに認められた場合、雇用保険の<strong>特定受給資格者</strong>に該当し給付面で有利になる可能性があります（ここでもステップ1の記録が効きます）。
@@ -491,60 +491,60 @@ export default function ArticlePage() {
                   <strong>② エージェントには「環境要件」として伝える。</strong>面談で被害の詳細を細かく話す必要はありません。「心理的安全性のあるチームで働きたい」「ハラスメント対応体制が整った企業を希望する」「〇〇な環境は避けたい」と<strong>次の職場への要件の形で伝える</strong>と、エージェントは社風・離職率・組織体制といった内部情報で絞り込んでくれます。応募先企業に退職理由を伝えるときも、前職への非難ではなく「働く環境を重視して選んでいる」という前向きな軸に変換するのが定石です。
                 </li>
                 <li>
-                  <strong>③ 次の職場は「制度と実態」で選ぶ。</strong>ハラスメント相談窓口の整備状況、女性管理職の在籍、離職率、口コミでの組織風土の評判などを確認しましょう。見極めの観点は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#0891b2" }}>女性が働きやすい企業の見極め方</a>と<a href="/articles/how-to-choose/" className="underline" style={{ color: "#0891b2" }}>転職エージェントの選び方</a>で詳しく解説しています。
+                  <strong>③ 次の職場は「制度と実態」で選ぶ。</strong>ハラスメント相談窓口の整備状況、女性管理職の在籍、離職率、口コミでの組織風土の評判などを確認しましょう。見極めの観点は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすい企業の見極め方</a>と<a href="/articles/how-to-choose/" className="underline" style={{ color: "#7c3a55" }}>転職エージェントの選び方</a>で詳しく解説しています。
                 </li>
               </ul>
             </div>
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              退職を決めた場合の引き継ぎ・退職交渉の進め方は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#0891b2" }}>円満退職ガイド</a>を参考にしてください（ハラスメント事案では、円満さよりも自分の安全と権利の確保を優先して構いません）。また、転職後に無理なく働き続けるための環境づくりは<a href="/articles/work-life-balance/" className="underline" style={{ color: "#0891b2" }}>ワークライフバランスガイド</a>にまとめています。
+              退職を決めた場合の引き継ぎ・退職交渉の進め方は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#7c3a55" }}>円満退職ガイド</a>を参考にしてください（ハラスメント事案では、円満さよりも自分の安全と権利の確保を優先して構いません）。また、転職後に無理なく働き続けるための環境づくりは<a href="/articles/work-life-balance/" className="underline" style={{ color: "#7c3a55" }}>ワークライフバランスガイド</a>にまとめています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>転職を成功させるには、信頼できるエージェントの活用が欠かせません。IT特化型と女性特化型を併用することで、より多くの選択肢からベストな転職先を見つけられます。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
               </div>
               <p className="text-sm text-text-light">IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
               </div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績。スピーディーなマッチングで最短2週間での内定実績も。年収交渉力にも定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span>
               </div>
               <p className="text-sm text-text-light">女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
               </div>
               <p className="text-sm text-text-light">IT業界の転職支援に強み。未経験からベテランまで幅広い層の求人を保有。レスポンスの速さと手厚いサポートに定評があります。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -555,12 +555,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -570,7 +570,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec10 出典 */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
@@ -592,20 +592,20 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が活躍する企業ガイド</h3>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が活躍する企業ガイド</h3>
               <p className="text-sm text-text-light">働きやすい企業の見つけ方</p>
             </a>
-            <a href="/articles/how-to-choose/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>エージェント選び方ガイド</h3>
+            <a href="/articles/how-to-choose/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>エージェント選び方ガイド</h3>
               <p className="text-sm text-text-light">失敗しない5つのポイント</p>
             </a>
-            <a href="/articles/amicable-resignation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>円満退職ガイド</h3>
+            <a href="/articles/amicable-resignation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>円満退職ガイド</h3>
               <p className="text-sm text-text-light">退職の切り出し方と引き継ぎの進め方</p>
             </a>
-            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ワークライフバランスガイド</h3>
+            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ワークライフバランスガイド</h3>
               <p className="text-sm text-text-light">仕事とプライベートの両立</p>
             </a>
           </div>
@@ -615,10 +615,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

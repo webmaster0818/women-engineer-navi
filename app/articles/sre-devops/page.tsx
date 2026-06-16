@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               職種別ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. SRE・DevOpsエンジニアとは（仕事内容）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 女性がSRE・DevOpsで長く働きやすい理由</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキルとツール</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. SRE・DevOpsの年収相場（年代別）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 求人動向と将来性</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験・インフラから目指すロードマップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. SRE・DevOpsのキャリアパス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. SRE・DevOpsエンジニアとは（仕事内容）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 女性がSRE・DevOpsで長く働きやすい理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキルとツール</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. SRE・DevOpsの年収相場（年代別）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 求人動向と将来性</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験・インフラから目指すロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. SRE・DevOpsのキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,15 +166,15 @@ export default function ArticlePage() {
             <p>
               SREの中核概念が<strong>エラーバジェット</strong>です。たとえば「SLO 99.9%」なら月間43.2分まで障害が許容され、この予算が残るうちは新機能リリースを進め、使い切ったら信頼性改善に集中する、という意思決定の仕組みになります。さらにSREは<strong>トイル（価値を生まない繰り返しの手作業）</strong>を自動化で減らし、業務時間の50%以上をエンジニアリングに充てることを目指します。「壊れにくく、直しやすく、勝手に回る」仕組みを作るのが、この職種の面白さです。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>SRE・DevOpsの主な担当領域</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>SRE・DevOpsの主な担当領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>信頼性設計（SLI / SLO / エラーバジェット / インシデント対応）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>CI/CDパイプライン構築（GitHub Actions / GitLab CI / Jenkins）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>IaC・自動化（Terraform / Ansible）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>コンテナ・オーケストレーション（Docker / Kubernetes）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>監視・可観測性（Prometheus / Grafana / Datadog / ELK）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>クラウド構築・運用（AWS / GCP / Azure）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>信頼性設計（SLI / SLO / エラーバジェット / インシデント対応）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>CI/CDパイプライン構築（GitHub Actions / GitLab CI / Jenkins）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>IaC・自動化（Terraform / Ansible）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>コンテナ・オーケストレーション（Docker / Kubernetes）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>監視・可観測性（Prometheus / Grafana / Datadog / ELK）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>クラウド構築・運用（AWS / GCP / Azure）</span></li>
               </ul>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性が働きやすい理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性がSRE・DevOpsで長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -191,20 +191,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. フルリモートが多く高単価</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. フルリモートが多く高単価</h3>
               <p className="text-text-light text-sm leading-relaxed">クラウド・コンテナ運用はオンラインで完結しやすく、フルリモート求人が豊富。SREの平均年収は約850万〜950万円と高く、通勤負担を減らしながら高い収入を得られます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. トイル削減＝深夜対応を減らす職種</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. トイル削減＝深夜対応を減らす職種</h3>
               <p className="text-text-light text-sm leading-relaxed">SREは手作業の繰り返し（トイル）を自動化で減らすのが本分。オンコールもSLOとエラーバジェットで「止めてよい範囲」を数値合意するため、無制限の深夜対応を前提としない設計が進んでいます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 成果がダッシュボードで可視化される</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 成果がダッシュボードで可視化される</h3>
               <p className="text-text-light text-sm leading-relaxed">削減したトイル時間、改善した稼働率、デプロイ頻度などが数値・ダッシュボードに残るため、勤務時間ではなく成果で評価されやすく、時短勤務でも実力が認められます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 慢性的な人材不足で交渉力が高い</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 慢性的な人材不足で交渉力が高い</h3>
               <p className="text-text-light text-sm leading-relaxed">SRE・プラットフォームエンジニアは2026年のIT職種で上限レンジが特に高い希少職。人材が足りないからこそ、リモート・時短・オンコール体制といった働き方の条件を女性側から交渉しやすくなります。</p>
             </div>
           </div>
@@ -223,42 +223,42 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>代表的なツール</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>代表的なツール</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>OS・ネットワーク基礎</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Linux / TCP-IP / DNS / Bash</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>すべての土台。LPIC/LinuC・CCNAで体系化できる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>OS・ネットワーク基礎</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Linux / TCP-IP / DNS / Bash</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>すべての土台。LPIC/LinuC・CCNAで体系化できる</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>クラウド</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AWS / GCP / Azure</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AWS認定（CLF→SAA）が書類通過率を上げる定番</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>コンテナ・基盤</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Docker / Kubernetes</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>K8sはSRE/DevOpsの中核。CKA資格で証明できる</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>IaC・CI/CD</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Terraform / Ansible / GitHub Actions / Jenkins</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>自動化スキルは単価アップに直結。高需要</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>クラウド</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AWS / GCP / Azure</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AWS認定（CLF→SAA）が書類通過率を上げる定番</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>監視・可観測性</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Prometheus / Grafana / Datadog / ELK</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SLI/SLOを計測しエラーバジェットを可視化する</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>コンテナ・基盤</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Docker / Kubernetes</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>K8sはSRE/DevOpsの中核。CKA資格で証明できる</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プログラミング</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python / Go / シェルスクリプト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>自動化ツール作成に必須。Go・Pythonが主流</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>IaC・CI/CD</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Terraform / Ansible / GitHub Actions / Jenkins</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>自動化スキルは単価アップに直結。高需要</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>監視・可観測性</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Prometheus / Grafana / Datadog / ELK</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SLI/SLOを計測しエラーバジェットを可視化する</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>プログラミング</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python / Go / シェルスクリプト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>自動化ツール作成に必須。Go・Pythonが主流</td>
                 </tr>
               </tbody>
             </table>
@@ -270,7 +270,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 年収 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">SRE・DevOpsの年収相場（年代別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -281,25 +281,25 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約420万〜850万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ジュニア〜ミドル。基礎＋クラウドで上振れ</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約700万〜1,400万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>K8s・Terraform・SLO運用で大きく伸びる層</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,100万〜1,800万円超</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リード・アーキテクト・プラットフォーム責任者</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>月単価 約70万〜120万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Terraform×K8s×自動化で上限が大きく上がる</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約420万〜850万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ジュニア〜ミドル。基礎＋クラウドで上振れ</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約700万〜1,400万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>K8s・Terraform・SLO運用で大きく伸びる層</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,100万〜1,800万円超</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リード・アーキテクト・プラットフォーム責任者</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>月単価 約70万〜120万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Terraform×K8s×自動化で上限が大きく上がる</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
             経験年数別では、ジュニア（3年未満）が400万〜550万円、ミドル（3〜7年）が600万〜800万円、シニア（7年以上）が850万〜1,200万円が目安。東京の都市部では、初年度から年収1,000万円以上を提示するSRE求人も見られます。
           </p>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>Kubernetes×Terraform×クラウド</strong>の3点セットを実務で固める（最も単価が動く）</li>
               <li>② <strong>SLO/エラーバジェット運用・可観測性設計</strong>など、信頼性の「設計」経験を積む</li>
@@ -325,7 +325,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 未経験・インフラからのロードマップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験・インフラから目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -342,8 +342,8 @@ export default function ArticlePage() {
               ["STEP5", "監視・SLO/SLI運用を経験", "Prometheus＋GrafanaやDatadogで監視を構築し、SLO・エラーバジェットの考え方を実務で身につけます。"],
               ["STEP6", "ポートフォリオ・実績を整理", "TerraformでのIaC・CI/CDパイプライン・K8sマニフェストなどをGitHubで公開。改善したトイル・稼働率を数値で語れるようにします。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -362,39 +362,39 @@ export default function ArticlePage() {
             <p>SRE・DevOpsは「信頼性と自動化の設計力」が積み上がる職種で、希少性が高いぶんキャリアの選択肢も広いのが魅力です。代表的な進路は次の通りです。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>技術を深める</h3><p className="text-sm text-text-light">シニアSRE → プラットフォームエンジニア／クラウドアーキテクト。大規模システムの信頼性を設計する専門家として、年収1,000万円超を狙う道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>マネジメント</h3><p className="text-sm text-text-light">SREマネージャー／エンジニアリングマネージャー（EM）。信頼性方針やオンコール体制、チームの開発生産性をリードする道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>領域を広げる</h3><p className="text-sm text-text-light">セキュリティ（DevSecOps）／データ基盤／クラウドコスト最適化（FinOps）へ。希少スキルを掛け合わせて市場価値を高める道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">フリーランスSRE/DevOpsとして月単価70万〜120万円の高単価・リモート案件へ。ライフステージに合わせて働き方を選べる。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>技術を深める</h3><p className="text-sm text-text-light">シニアSRE → プラットフォームエンジニア／クラウドアーキテクト。大規模システムの信頼性を設計する専門家として、年収1,000万円超を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>マネジメント</h3><p className="text-sm text-text-light">SREマネージャー／エンジニアリングマネージャー（EM）。信頼性方針やオンコール体制、チームの開発生産性をリードする道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>領域を広げる</h3><p className="text-sm text-text-light">セキュリティ（DevSecOps）／データ基盤／クラウドコスト最適化（FinOps）へ。希少スキルを掛け合わせて市場価値を高める道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">フリーランスSRE/DevOpsとして月単価70万〜120万円の高単価・リモート案件へ。ライフステージに合わせて働き方を選べる。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>SRE・DevOpsのクラウド／コンテナスキルを正当に評価してもらうには、IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーがKubernetesやTerraformといった技術スタックを理解した提案をしてくれます。高単価のSRE・DevOps求人やリモート案件も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、希少なSRE・DevOps人材の市場価値を引き出してくれます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモート、オンコール体制など、女性のキャリア継続に配慮した求人を中心に紹介。働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -404,19 +404,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（30代前半・インフラ運用→SRE）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・インフラ運用→SRE）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SESのインフラ運用エンジニア / 年収450万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaS企業のSRE（AWS／K8s）/ 年収750万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SESのインフラ運用エンジニア / 年収450万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のSRE（AWS／K8s）/ 年収750万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">運用の傍らAWS SAAとCKAを取得し、Terraformでの自動化実績を整理。IT特化型エージェントで「トイルを削減した稼働改善」を数値で訴求し、年収300万円アップとフルリモートを同時に実現しました。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（20代後半・バックエンド→DevOps）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・バックエンド→DevOps）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のバックエンドエンジニア / 年収430万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">自社開発企業のDevOpsエンジニア / 年収620万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のバックエンドエンジニア / 年収430万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のDevOpsエンジニア / 年収620万円</p></div>
               </div>
               <p className="text-sm text-text-light">開発経験を土台にDocker／GitHub ActionsでのCI/CD構築を独学し、Terraformのポートフォリオを公開。産休育休とオンコール輪番の実績がある自社開発企業に転職し、長く働ける基盤を得ました。</p>
             </div>
@@ -425,17 +425,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -449,10 +449,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/infrastructure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>インフラエンジニア転職ガイド</h3><p className="text-sm text-text-light">SRE・DevOpsへの土台となる職種</p></a>
-            <a href="/articles/aws-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>AWSエンジニアのキャリア</h3><p className="text-sm text-text-light">クラウドスキルで広がる道</p></a>
-            <a href="/articles/backend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">DevOpsと相性の良いサーバーサイド</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/infrastructure/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>インフラエンジニア転職ガイド</h3><p className="text-sm text-text-light">SRE・DevOpsへの土台となる職種</p></a>
+            <a href="/articles/aws-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>AWSエンジニアのキャリア</h3><p className="text-sm text-text-light">クラウドスキルで広がる道</p></a>
+            <a href="/articles/backend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>バックエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">DevOpsと相性の良いサーバーサイド</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
           </div>
         </div>
       </section>
@@ -460,10 +460,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

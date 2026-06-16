@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               年収ガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 言語選びで年収はどれだけ変わるのか</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 主要11言語の年収・単価比較表（大表）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 高単価な言語とその理由（Go・Rust・TypeScript）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 女性が選ぶべき言語の考え方</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 未経験でも年収を狙える言語</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 言語を変えて年収アップした女性の事例</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 言語別に年収を上げるロードマップ</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 言語選びで年収はどれだけ変わるのか</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 主要11言語の年収・単価比較表（大表）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 高単価な言語とその理由（Go・Rust・TypeScript）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が選ぶべき言語の考え方</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験でも年収を狙える言語</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 言語を変えて年収アップした女性の事例</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 言語別に年収を上げるロードマップ</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -165,12 +165,12 @@ export default function ArticlePage() {
             <p>
               女性エンジニアにとって、この構造を理解することは「働き方の自由」にも直結します。高単価でリモート求人が多い言語を選べば、<strong>育児や介護と両立しながら年収を維持・向上</strong>させやすくなるからです。この記事では主要11言語の平均年収とフリーランス単価を比較し、女性が現実的に年収を上げるための言語選びを解説します。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>年収を左右する3つの軸</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>年収を左右する3つの軸</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>領域の単価</strong>：AI・SaaS・マイクロサービスなど新しい領域ほど高い</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>希少性</strong>：Go・Rust・Scalaなど扱える人が少ない言語は高単価</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>求人数（需給ギャップ）</strong>：JavaScript・Javaは求人が多く入りやすい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>領域の単価</strong>：AI・SaaS・マイクロサービスなど新しい領域ほど高い</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>希少性</strong>：Go・Rust・Scalaなど扱える人が少ない言語は高単価</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>求人数（需給ギャップ）</strong>：JavaScript・Javaは求人が多く入りやすい</span></li>
               </ul>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 言語別年収比較表（大表） */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">主要11言語の年収・単価比較表（大表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -189,79 +189,79 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>言語</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収の目安</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>FL月額単価</th>
-                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な領域・特徴</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>言語</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収の目安</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>FL月額単価</th>
+                  <th className="border px-3 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な領域・特徴</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Go</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約723万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約80万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>SaaS・マイクロサービス。3年連続提示年収1位</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Go</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約723万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約80万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>SaaS・マイクロサービス。3年連続提示年収1位</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>TypeScript</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約714万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約75万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>フロント〜バック横断。求人も豊富で伸びしろ大</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>TypeScript</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約714万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約75万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>フロント〜バック横断。求人も豊富で伸びしろ大</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Ruby</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約689万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約80〜94万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>Rails中心の自社開発。学習しやすく高単価</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Ruby</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約689万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約80〜94万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>Rails中心の自社開発。学習しやすく高単価</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Scala</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約668〜680万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約83万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>大規模データ処理。習得者が少なく希少</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Scala</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約668〜680万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約83万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>大規模データ処理。習得者が少なく希少</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Kotlin</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約665万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約75万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>Androidアプリ・サーバー。需給ギャップの穴場</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Kotlin</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約665万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約75万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>Androidアプリ・サーバー。需給ギャップの穴場</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Rust</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約650〜700万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>上昇中（上位）</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>AI推論高速化・基盤。単価が連続上昇中で急騰</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Rust</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約650〜700万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>上昇中（上位）</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>AI推論高速化・基盤。単価が連続上昇中で急騰</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約600〜700万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約87万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>AI・データ・LLM/RAG。求人多く未経験向き</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約600〜700万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約87万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>AI・データ・LLM/RAG。求人多く未経験向き</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>C#</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約550〜600万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約70万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>業務システム・Unityゲーム。安定需要</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>C#</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約550〜600万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約70万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>業務システム・Unityゲーム。安定需要</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Java</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約550万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約69万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>大規模・金融系。求人数が多く安定（企業ニーズ上位）</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Java</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約550万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約69万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>大規模・金融系。求人数が多く安定（企業ニーズ上位）</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>PHP</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約500〜550万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約72万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>Web制作・CMS。求人が多く未経験の入り口</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>PHP</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約500〜550万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約72万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>Web制作・CMS。求人が多く未経験の入り口</td>
                 </tr>
                 <tr>
-                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>JavaScript</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約500〜550万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>約70万円</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d1dce5" }}>あらゆるWeb。求人数1位。TypeScript化で年収UP</td>
+                  <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>JavaScript</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約500〜550万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約70万円</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>あらゆるWeb。求人数1位。TypeScript化で年収UP</td>
                 </tr>
               </tbody>
             </table>
@@ -282,33 +282,33 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Go（提示年収1位・約723万円）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Go（提示年収1位・約723万円）</h3>
               <p className="text-text-light text-sm leading-relaxed">SaaSやスタートアップのマイクロサービス開発の定番。処理速度と並行処理に強く、クラウドネイティブ開発の中心です。3年連続で提示年収1位を維持。求人も増えているのに扱える人が追いつかず、リモート高単価案件が豊富です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Rust（フリーランス単価が連続上昇）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Rust（フリーランス単価が連続上昇）</h3>
               <p className="text-text-light text-sm leading-relaxed">AI推論の高速化・WebAssembly・システム基盤の3領域で需要が急増。「Pythonと組み合わせる第二言語」として注目され、フリーランス月額単価が2025年に5カ月連続で上昇。習得難度は高いものの、できる人が極端に少なく希少価値が大きい言語です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>TypeScript（提示年収2位・約714万円）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>TypeScript（提示年収2位・約714万円）</h3>
               <p className="text-text-light text-sm leading-relaxed">JavaScriptに型を加えた言語で、フロントエンドからNode.jsのバックエンドまで横断的に使えるのが強み。求人数も多く、JavaScript経験者がTypeScript化スキルを身につけるだけで年収が上がりやすい、コスパの良い高単価言語です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Scala・Kotlin（希少性が高い穴場）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Scala・Kotlin（希少性が高い穴場）</h3>
               <p className="text-text-light text-sm leading-relaxed">Scalaは大規模データ処理、KotlinはモダンなサーバーサイドやAndroidで使われます。いずれも提示年収が高く、特にKotlinは「需要が高いのに扱える人が少ない穴場言語」の上位。AI関連スキルを掛け合わせると、業界平均より20〜50%高い年収も狙えます。</p>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#0891b2" }}>ポイント：</strong>高単価言語はいずれも「習得者が全体の1〜3%」と希少です。だからこそ、女性が早めにこうした言語へ軸足を移すと、ライフイベントで一時的にペースを落としても市場価値が下がりにくく、復帰後の年収交渉でも有利になります。
+              <strong style={{ color: "#7c3a55" }}>ポイント：</strong>高単価言語はいずれも「習得者が全体の1〜3%」と希少です。だからこそ、女性が早めにこうした言語へ軸足を移すと、ライフイベントで一時的にペースを落としても市場価値が下がりにくく、復帰後の年収交渉でも有利になります。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec4 女性が選ぶべき言語 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性が選ぶべき言語の考え方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -317,20 +317,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 求人数と年収の両取りを狙う</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 求人数と年収の両取りを狙う</h3>
               <p className="text-text-light text-sm leading-relaxed">高単価でも求人が極端に少ない言語だけだと、転職先が限られ条件交渉もしにくくなります。TypeScriptやPythonのように「年収も高く求人も多い」言語を軸にすると、働きやすい会社を選びやすくなります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. リモート求人が多い言語を選ぶ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. リモート求人が多い言語を選ぶ</h3>
               <p className="text-text-light text-sm leading-relaxed">Go・Python・TypeScriptが使われるSaaS・AI領域はフルリモート求人が豊富。育児や介護と両立しながら高年収を維持しやすく、通勤負担も減らせます。働き方は年収と同じくらい大切な選択軸です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 「軸言語＋第二言語」で伸ばす</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 「軸言語＋第二言語」で伸ばす</h3>
               <p className="text-text-light text-sm leading-relaxed">学びやすいPythonやTypeScriptで土台を作り、実務に慣れたらGoやRustを第二言語として足す。一気に高単価言語へ飛ぶより挫折しにくく、ブランク後も復帰しやすい積み上げ方です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. AIスキルを掛け合わせる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. AIスキルを掛け合わせる</h3>
               <p className="text-text-light text-sm leading-relaxed">どの言語でも、AI・LLM/RAGなどのスキルを掛け合わせると年収プレミアムが付きます。AI関連スキルを持つ人は業界平均より20〜50%高い年収を得やすく、Pythonとの相性が特に良好です。</p>
             </div>
           </div>
@@ -349,70 +349,70 @@ export default function ArticlePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>言語</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>学びやすさ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>未経験におすすめの理由</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>言語</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>学びやすさ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>未経験におすすめの理由</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★★★★</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>文法がシンプルで読みやすい。AI・データ領域で需要が高く、求人も豊富。学んだ先の年収天井が高い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★★★★</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>文法がシンプルで読みやすい。AI・データ領域で需要が高く、求人も豊富。学んだ先の年収天井が高い</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Ruby</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★★★★</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Railsで短期間にWebアプリを作れる。自社開発企業の求人が多く、提示年収・単価ともに高水準</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Ruby</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★★★★</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Railsで短期間にWebアプリを作れる。自社開発企業の求人が多く、提示年収・単価ともに高水準</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>TypeScript</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★★★☆</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>JavaScriptから入りやすく、フロント〜バック横断で使える。提示年収2位で伸びしろが大きい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>TypeScript</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★★★☆</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>JavaScriptから入りやすく、フロント〜バック横断で使える。提示年収2位で伸びしろが大きい</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>PHP</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>★★★★☆</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>求人数が多く未経験可の入り口に最適。年収は中位だが実務経験を積みやすく、次の言語への足場になる</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>PHP</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★★★☆</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>求人数が多く未経験可の入り口に最適。年収は中位だが実務経験を積みやすく、次の言語への足場になる</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#0891b2" }}>未経験の王道ルート：</strong>PythonまたはRubyで基礎＋ポートフォリオ → 求人の多い言語で実務経験を1〜2年 → GoやTypeScript、AIスキルを足して年収アップ。最初の1社に入る入りやすさと、その後の年収の伸びしろの<strong>両方</strong>を意識すると失敗しません。
+              <strong style={{ color: "#7c3a55" }}>未経験の王道ルート：</strong>PythonまたはRubyで基礎＋ポートフォリオ → 求人の多い言語で実務経験を1〜2年 → GoやTypeScript、AIスキルを足して年収アップ。最初の1社に入る入りやすさと、その後の年収の伸びしろの<strong>両方</strong>を意識すると失敗しません。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 言語を変えて年収アップした事例 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">言語を変えて年収アップした女性の事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（30代前半・PHP→Go）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・PHP→Go）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のPHPエンジニア / 年収440万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaS企業のGoエンジニア / 年収620万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のPHPエンジニア / 年収440万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のGoエンジニア / 年収620万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">PHPで培ったDB設計とAPIの経験を土台に、副業でGoのマイクロサービスに触れて実績を作成。IT特化型エージェント経由で「PHP経験＋Go」として売り込み、年収180万円アップとフルリモートを同時に実現しました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（20代後半・JavaScript→TypeScript）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・JavaScript→TypeScript）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">制作会社のフロントエンド（JavaScript）/ 年収380万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">自社開発企業のフロントエンド（TypeScript/React）/ 年収520万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">制作会社のフロントエンド（JavaScript）/ 年収380万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のフロントエンド（TypeScript/React）/ 年収520万円</p></div>
               </div>
               <p className="text-sm text-text-light">既存のJavaScriptスキルにTypeScriptの型設計を上乗せし、Reactの実務に応用。新言語をゼロから学ぶのではなく、得意分野の延長で高単価化したことで、ブランクのリスクを抑えつつ年収140万円アップを達成しました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代後半・Java→Python×AI）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代後半・Java→Python×AI）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerの業務システム開発（Java）/ 年収520万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">事業会社のデータ・AI領域（Python）/ 年収680万円・時短可</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerの業務システム開発（Java）/ 年収520万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">事業会社のデータ・AI領域（Python）/ 年収680万円・時短可</p></div>
               </div>
               <p className="text-sm text-text-light">Javaの設計力を活かしつつ、育休中にPythonとLLM/RAGの学習を進めて社内案件で実績化。AIスキルの年収プレミアムを取り込み、時短勤務でも年収160万円アップ。ライフイベントを言語転換のチャンスに変えた好例です。</p>
             </div>
@@ -436,8 +436,8 @@ export default function ArticlePage() {
               ["STEP5", "AIスキルを掛け合わせる", "PythonでLLM/RAGやデータ活用に触れる。AI関連スキルは業界平均より20〜50%高い年収プレミアムが付きやすい。"],
               ["STEP6", "エージェントで年収交渉", "IT特化型エージェントに市場価値を客観評価してもらい、『経験＋新言語＋AI』として高単価・リモート求人に応募する。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -449,30 +449,30 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>言語を軸にした年収アップ・年収交渉を成功させるには、技術を理解したIT特化型と、働き方を重視する女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。Go・TypeScript・Pythonなど言語ごとの市場価値を理解したアドバイザーが、年収交渉まで踏み込んで提案してくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。高単価言語の案件に詳しく、スピーディーなマッチングと年収交渉力に定評があります。言語を軸にしたキャリアチェンジの相談先に向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。高単価言語の求人を「働き方の条件」で絞り込みたい人に最適です。年収と働きやすさを両立したい女性におすすめ。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">言語を軸にした年収アップは情報戦</p>
             <p className="text-sm text-text-light mb-4">複数登録して、高単価言語の求人と適正年収を見極めましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -483,12 +483,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -498,14 +498,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p></a>
-            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職種別エンジニア年収比較</h3><p className="text-sm text-text-light">職種ごとの年収相場を徹底比較</p></a>
-            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">需要の高いPythonで広がる道</p></a>
-            <a href="/articles/go-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Goエンジニアのキャリア</h3><p className="text-sm text-text-light">提示年収1位の高単価言語</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p></a>
+            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職種別エンジニア年収比較</h3><p className="text-sm text-text-light">職種ごとの年収相場を徹底比較</p></a>
+            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">需要の高いPythonで広がる道</p></a>
+            <a href="/articles/go-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Goエンジニアのキャリア</h3><p className="text-sm text-text-light">提示年収1位の高単価言語</p></a>
           </div>
         </div>
       </section>
@@ -513,10 +513,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">稼げる言語で理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたのスキルに合った高単価言語のキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

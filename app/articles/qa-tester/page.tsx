@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               職種別ガイド
             </span>
@@ -138,9 +138,9 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl p-6"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
               この記事の結論
             </h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -166,19 +166,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. QAエンジニア・テスターとは（仕事内容と違い）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 未経験女性の入口として現実的な理由と注意点</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 年収相場（テスター→QA→自動化のラダー別）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 「テスター止まり」を避けるステップアップ戦略</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. JSTQB資格の実データ（合格率・活かし方）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 求人動向とAI時代のQA職の変化</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 未経験からQAエンジニアになるロードマップ</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. QAエンジニア・テスターとは（仕事内容と違い）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 未経験女性の入口として現実的な理由と注意点</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 年収相場（テスター→QA→自動化のラダー別）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 「テスター止まり」を避けるステップアップ戦略</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. JSTQB資格の実データ（合格率・活かし方）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 求人動向とAI時代のQA職の変化</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 未経験からQAエンジニアになるロードマップ</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -197,26 +197,26 @@ export default function ArticlePage() {
             </p>
             <div
               className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
                 キャリアラダー（下から上へ登る職種）
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>STEP1 テスター</strong>: テストケースに沿ったテスト実行・バグ報告。未経験の入口</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>STEP2 QAエンジニア</strong>: テスト計画・テスト設計・品質分析。JSTQBが評価材料に</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>STEP3 テスト自動化エンジニア / SDET</strong>: コードでテストを自動化。開発者並みの待遇</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>STEP4 QAリード / QAマネージャー</strong>: 品質戦略の策定・チームマネジメント</span>
                 </li>
               </ul>
@@ -229,7 +229,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 入口として現実的な理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験女性の入口として現実的な理由と注意点</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -238,26 +238,26 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. プログラミング不要で始められる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. プログラミング不要で始められる</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 テスト実行はコードを書かない業務から始まります。「仕様書を正確に読む」「手順どおりに確認する」「気づいた違和感を言語化して報告する」という、事務職・接客職で培った正確さやコミュニケーション力がそのまま活きます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 開発現場を内側から学べる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 開発現場を内側から学べる</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 テストを通じて仕様書・バグ管理・リリースフローなど開発の全工程に触れるため、働きながらIT知識が身につきます。ここから開発・自動化・PMへ進む人も多く、「キャリアの起点」になる職種です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 残業が比較的少なく両立しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 残業が比較的少なく両立しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 テストは計画に沿って進む工程のため、突発対応が比較的少なく、時短・リモートと組み合わせやすい働き方ができます。リリース直前は忙しくなるものの、業務の繁閑が読みやすいのは育児との両立でも利点です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 「品質に対する視点」が評価資産になる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 「品質に対する視点」が評価資産になる</h3>
               <p className="text-text-light text-sm leading-relaxed">
                 ユーザー視点での違和感の発見やドキュメントの正確さは、経験を積むほど評価される専門性です。テスト設計の考え方（JSTQBで体系化されている）は流行に左右されにくく、長く通用するスキルになります。
               </p>
@@ -265,9 +265,9 @@ export default function ArticlePage() {
           </div>
           <div
             className="rounded-xl p-6 mt-6"
-            style={{ backgroundColor: "#fff7ed", border: "2px solid #f97066" }}
+            style={{ backgroundColor: "#fff7ed", border: "2px solid #c15f47" }}
           >
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>ただし、ここに注意</h3>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>ただし、ここに注意</h3>
             <p className="text-sm text-text-light leading-relaxed">
               入りやすさの裏返しとして、<strong>手動テストの実行だけを何年続けても年収はほとんど上がりません</strong>。テスター（手動中心）の年収帯は350万〜500万円にとどまり（出典: ウィルオブテック、2026年6月参照）、さらに単純なテスト実行はAI・自動化ツールによる代替が最も進みやすい領域です。「テスターとして入る」こと自体は合理的ですが、<strong>入社後1〜2年でテスト設計・自動化へ業務を広げる前提</strong>でキャリアを設計してください。具体策はこの後のセクションで解説します。
             </p>
@@ -287,32 +287,32 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>キャリア段階</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>キャリア段階</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>テスター（手動テスト中心）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>350万〜500万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>未経験・初年度は370万〜450万円程度</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>テスター（手動テスト中心）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>350万〜500万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>未経験・初年度は370万〜450万円程度</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>QAエンジニア（テスト設計・品質改善）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>400万〜600万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>求人データ平均481万円（レバテックキャリア・2025年1月時点）</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>QAエンジニア（テスト設計・品質改善）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>400万〜600万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>求人データ平均481万円（レバテックキャリア・2025年1月時点）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>テスト自動化エンジニア / SDET</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>600万円〜</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SET職で701万〜1,200万円の求人例あり。開発者並みの待遇</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>テスト自動化エンジニア / SDET</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>600万円〜</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SET職で701万〜1,200万円の求人例あり。開発者並みの待遇</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>QAリード / QAマネージャー</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>700万〜900万円以上</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>QAマネージャーで570万〜1,125万円の求人例あり</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>QAリード / QAマネージャー</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>700万〜900万円以上</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>QAマネージャーで570万〜1,125万円の求人例あり</td>
                 </tr>
               </tbody>
             </table>
@@ -325,14 +325,14 @@ export default function ArticlePage() {
               参考値として、レバテックキャリアの統計では<strong>テストエンジニアの平均年収426万円・中央値450万円</strong>で、エンジニア全体の平均504万円より78万円低い水準です。一方、同社データで<strong>QAエンジニアは平均481万円</strong>と、同じ「テスト系」でも業務範囲の違いで55万円の差がついています（出典: レバテックキャリア、2026年6月参照）。また、マイナビエージェントは厚生労働省「令和5年賃金構造基本統計調査」をもとにテストエンジニアの平均年収を557.6万円と紹介していますが、これは品質管理系職種を広く含む統計のため高めに出ている点に注意が必要です（出典: マイナビエージェント、2026年6月参照）。
             </p>
             <p>
-              重要なのは、<strong>同じ「QA・テスト職」という名前でも、手動テスト実行のままだと400万円台前半、自動化を担えると700万円超</strong>という二極化がすでに求人票に表れていることです。職種別の年収比較は<a href="/articles/salary-by-job/" className="underline" style={{ color: "#0891b2" }}>職種別年収ガイド</a>でも詳しく解説しています。
+              重要なのは、<strong>同じ「QA・テスト職」という名前でも、手動テスト実行のままだと400万円台前半、自動化を担えると700万円超</strong>という二極化がすでに求人票に表れていることです。職種別の年収比較は<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>でも詳しく解説しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec4 ステップアップ戦略 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">「テスター止まり」を避けるステップアップ戦略</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -341,28 +341,28 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>軸1: JSTQBでテスト設計力を証明する（知識の縦軸）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>軸1: JSTQBでテスト設計力を証明する（知識の縦軸）</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 テスト実行者と設計者を分けるのは「なぜこのテストをするのか」を説明できるかどうかです。境界値分析・同値分割・デシジョンテーブルといったテスト設計技法は、JSTQB認定テスト技術者資格（次セクションで詳述）のシラバスで体系的に学べます。実務でテストケースを「こなす」段階から、「自分で作り、過不足を判断する」段階に上がることが、テスター→QAエンジニアへの昇格・転職の必須条件です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>軸2: テスト自動化でコードを書けるQAになる（技術の横軸）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>軸2: テスト自動化でコードを書けるQAになる（技術の横軸）</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 Playwright・Selenium・AppiumなどのツールとPython/TypeScriptあたりの言語でE2Eテストを自動化できると、市場価値が一段跳ね上がります。CI/CD（テストをリリースフローに組み込む仕組み）まで扱えるSDET/SET人材は希少で、レバテックキャリアには年収701万〜1,200万円のSET求人も掲載されています（2026年6月参照）。最初の一歩はノーコード自動化ツールでも構いません。実際「ノーコード・ローコードツールを活用したテスト自動化」を掲げる求人も出ており、コードに自信がない段階からでも自動化キャリアに入れます。
               </p>
             </div>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>現実的な3年プラン（例）</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な3年プラン（例）</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>1年目</strong>: テスト実行で現場経験＋JSTQB Foundation Level取得（合格率6〜7割、未経験でも到達可能）</li>
               <li>② <strong>2年目</strong>: テストケース作成・テスト設計に参画＋ノーコード自動化ツールに触れる</li>
               <li>③ <strong>3年目</strong>: Playwright等での自動化実績を作り、QAエンジニア／自動化エンジニアとして転職・昇格交渉</li>
             </ul>
             <p className="text-sm text-text-light mt-3 leading-relaxed">
-              プログラミングの基礎固めには<a href="/articles/cert-kihonjoho/" className="underline" style={{ color: "#0891b2" }}>基本情報技術者試験</a>の学習も有効です。また、自動化エンジニアとして開発寄りの選考を受ける場合は<a href="/articles/coding-test/" className="underline" style={{ color: "#0891b2" }}>コーディングテスト対策</a>も視野に入れておきましょう。
+              プログラミングの基礎固めには<a href="/articles/cert-kihonjoho/" className="underline" style={{ color: "#7c3a55" }}>基本情報技術者試験</a>の学習も有効です。また、自動化エンジニアとして開発寄りの選考を受ける場合は<a href="/articles/coding-test/" className="underline" style={{ color: "#7c3a55" }}>コーディングテスト対策</a>も視野に入れておきましょう。
             </p>
           </div>
         </div>
@@ -380,31 +380,31 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>試験</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>2025年度 受験者数</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>2025年度 合格率</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>累計合格率</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>試験</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>2025年度 受験者数</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>2025年度 合格率</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>累計合格率</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Foundation Level（入門）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>4,013名</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>63.72%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>70.30%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Foundation Level（入門）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>4,013名</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>63.72%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>70.30%</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Advanced Level テストマネジメント</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>340名</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>41.76%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>35.34%</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Advanced Level テストマネジメント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>340名</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>41.76%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>35.34%</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Advanced Level テストアナリスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>518名</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>38.61%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>39.27%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Advanced Level テストアナリスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>518名</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>38.61%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>39.27%</td>
                 </tr>
               </tbody>
             </table>
@@ -424,7 +424,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 求人動向とAI時代 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">求人動向とAI時代のQA職の変化</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -463,8 +463,8 @@ export default function ArticlePage() {
               ["STEP5", "自動化ツールに触れる", "ノーコード自動化ツールから始め、PlaywrightなどコードベースのE2E自動化へ。社内の自動化プロジェクトには積極的に参加を。"],
               ["STEP6", "QAエンジニアとして転職・昇格交渉", "テスト設計＋自動化の実績が揃ったら、エージェント経由で市場価値を確認。400万円台から600万円台へのジャンプはこのタイミングで起きます。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -473,13 +473,13 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-sm text-text-light leading-relaxed mt-6">
-            未経験からのIT転職全般の進め方は<a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>未経験からエンジニアになる完全ガイド</a>を、QAと並ぶもう一つの入口職種については<a href="/articles/support-engineer/" className="underline" style={{ color: "#0891b2" }}>サポートエンジニア転職ガイド</a>をあわせてご覧ください。
+            未経験からのIT転職全般の進め方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになる完全ガイド</a>を、QAと並ぶもう一つの入口職種については<a href="/articles/support-engineer/" className="underline" style={{ color: "#7c3a55" }}>サポートエンジニア転職ガイド</a>をあわせてご覧ください。
           </p>
         </div>
       </section>
 
       {/* おすすめ転職エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -488,10 +488,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -499,10 +499,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -510,10 +510,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -521,10 +521,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -535,7 +535,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -544,7 +544,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -565,11 +565,11 @@ export default function ArticlePage() {
                 <details
                   key={i}
                   className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <summary
                     className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     <span className="pr-4">{faq.name}</span>
                     <span className="transition-transform group-open:rotate-180">
@@ -578,7 +578,7 @@ export default function ArticlePage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">{faq.acceptedAnswer.text}</p>
                   </div>
@@ -590,7 +590,7 @@ export default function ArticlePage() {
       </section>
 
       {/* 出典 */}
-      <section className="py-6" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-6" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-lg font-bold mb-3">主な出典・参考データ</h2>
           <ul className="space-y-1 text-xs text-text-light leading-relaxed">
@@ -613,9 +613,9 @@ export default function ArticlePage() {
             <a
               href="/articles/beginner/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 未経験からエンジニアになる完全ガイド
               </h3>
               <p className="text-sm text-text-light">学習方法から求人選びまでの全体像</p>
@@ -623,9 +623,9 @@ export default function ArticlePage() {
             <a
               href="/articles/support-engineer/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 サポートエンジニア転職ガイド
               </h3>
               <p className="text-sm text-text-light">QAと並ぶ未経験の入口職種</p>
@@ -633,9 +633,9 @@ export default function ArticlePage() {
             <a
               href="/articles/salary-by-job/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 職種別年収ガイド
               </h3>
               <p className="text-sm text-text-light">エンジニア職種ごとの年収を比較</p>
@@ -643,9 +643,9 @@ export default function ArticlePage() {
             <a
               href="/articles/cert-kihonjoho/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 基本情報技術者試験ガイド
               </h3>
               <p className="text-sm text-text-light">IT基礎力の証明に定番の国家試験</p>
@@ -653,9 +653,9 @@ export default function ArticlePage() {
             <a
               href="/articles/coding-test/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 コーディングテスト対策ガイド
               </h3>
               <p className="text-sm text-text-light">自動化エンジニア選考の準備に</p>
@@ -670,7 +670,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -682,7 +682,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

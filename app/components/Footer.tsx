@@ -33,31 +33,49 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-footer text-white">
-      <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-footer text-[#e7d8cf]">
+      <div className="max-w-6xl mx-auto px-4 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
-          <div>
-            <Link href="/" className="text-lg font-bold">
-              女性エンジニア転職ナビ
+          <div className="md:pr-6">
+            <Link href="/" className="inline-flex items-center gap-2">
+              <span aria-hidden className="text-secondary text-base leading-none">
+                &#9670;
+              </span>
+              <span
+                className="text-lg font-bold tracking-wide text-[#f3e7dd]"
+                style={{ fontFamily: "var(--font-shippori), serif" }}
+              >
+                女性エンジニア転職ナビ
+              </span>
             </Link>
-            <p className="mt-3 text-sm text-gray-400 leading-relaxed">
-              女性エンジニアの転職を応援する情報サイトです。
-              産休育休・リモートワーク・女性アドバイザーなど、
-              女性ならではの視点で転職エージェントを比較しています。
+            <p
+              className="mt-3 text-[0.62rem] tracking-[0.28em] uppercase text-[#b89a8c]"
+              style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}
+            >
+              Women in Tech Careers
+            </p>
+            <p className="mt-5 text-sm text-[#c4ab9e] leading-relaxed">
+              産休育休・リモートワーク・女性アドバイザーなど、女性ならではの視点で
+              転職エージェントを比較する情報サイトです。
             </p>
           </div>
 
           {/* Links */}
           {footerLinks.map((group) => (
             <div key={group.title}>
-              <h3 className="font-bold text-sm mb-4">{group.title}</h3>
-              <ul className="space-y-2">
+              <h3
+                className="text-xs tracking-[0.16em] text-secondary mb-5 uppercase"
+                style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}
+              >
+                {group.title}
+              </h3>
+              <ul className="space-y-3">
                 {group.links.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      className="text-sm text-[#d6c1b5] hover:text-[#fdf6ee] transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -68,9 +86,9 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-10 pt-6 border-t border-gray-700 text-center">
-          <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} 女性エンジニア転職ナビ All Rights Reserved.
+        <div className="mt-14 pt-6 border-t border-[#473640] text-center">
+          <p className="text-[0.7rem] tracking-[0.18em] text-[#9c8278]">
+            &copy; {new Date().getFullYear()} 女性エンジニア転職ナビ ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>

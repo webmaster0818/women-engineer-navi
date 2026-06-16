@@ -95,11 +95,11 @@ export default function ArticlePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "ポートフォリオ作成ガイド" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>キャリア知識</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>キャリア知識</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               エンジニア転職のポートフォリオ作成ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">職種別の作るべきもの・評価ポイント【2026年】</span>
@@ -112,23 +112,23 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>先に結論：ポートフォリオは「誰に・どれだけ」必要？</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：ポートフォリオは「誰に・どれだけ」必要？</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>未経験・学習からの転職:</strong> <strong>必須級</strong>。実務実績がない分、「完成させてデプロイした制作物」が技術力と継続力のほぼ唯一の客観証拠になります。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>実務経験者:</strong> 独立したポートフォリオサイトは必須ではなく、<strong>職務経歴書＋GitHubアカウントの記載で代替するのが主流</strong>。職種チェンジを伴う転職では制作物があると説得力が増します。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>職種で重みが違う:</strong> 成果物が目に見える<strong>フロントエンドで最も効果が高く</strong>、バックエンドは設計力の証明として有効。QAなど制作物文化の薄い職種では資格・テスト設計サンプルが代わりになります（後述の職種別表へ）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>2026年の最重要ポイント:</strong> AIでコードが書ける時代になり、評価の軸は「書けたか」から<strong>「なぜそう作ったかを説明できるか」</strong>へ移行。AI利用はREADMEで明示し、全コードを自分の言葉で語れる状態にしておくことが合否を分けます。</span>
               </li>
             </ul>
@@ -139,17 +139,17 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. ポートフォリオの位置づけ：経験別・実情ベースで整理</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 職種別・作るべきもの早見表（フロント/バックエンド/データ/QA）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 採用側はここを見る：評価されるポイント</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 落とし穴：評価を下げる典型NG集</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. AI時代のポートフォリオ（2026年）：明示の仕方と説明責任</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. ブランク・育休中でも作れる制作プラン</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 完成から選考活用までの4ステップ</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. ポートフォリオの位置づけ：経験別・実情ベースで整理</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 職種別・作るべきもの早見表（フロント/バックエンド/データ/QA）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 採用側はここを見る：評価されるポイント</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 落とし穴：評価を下げる典型NG集</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. AI時代のポートフォリオ（2026年）：明示の仕方と説明責任</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. ブランク・育休中でも作れる制作プラン</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 完成から選考活用までの4ステップ</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -167,47 +167,47 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>状況</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>必要度</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>実情</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>状況</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>必要度</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>実情</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>未経験からの転職</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#f97066" }}>必須級</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務実績がない分、「企画から完成・公開までやり切った証拠」がほぼ唯一の客観材料。書類通過率に直結する</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>未経験からの転職</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#c15f47" }}>必須級</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務実績がない分、「企画から完成・公開までやり切った証拠」がほぼ唯一の客観材料。書類通過率に直結する</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>経験者（同職種への転職）</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>任意</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実績は職務経歴書で示すのが基本。GitHubアカウントを経歴書に記載して補強する形が主流で、専用サイトを作る必要はない</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>経験者（同職種への転職）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>任意</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実績は職務経歴書で示すのが基本。GitHubアカウントを経歴書に記載して補強する形が主流で、専用サイトを作る必要はない</td>
                 </tr>
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>経験者（職種チェンジ）</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#7c3aed" }}>推奨</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>例: インフラ→バックエンド、SIer→Web系。経歴書に書ける実績が薄い領域の制作物があると「学習が口だけでない」証明になる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>経験者（職種チェンジ）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>推奨</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>例: インフラ→バックエンド、SIer→Web系。経歴書に書ける実績が薄い領域の制作物があると「学習が口だけでない」証明になる</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ブランクからの復職</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#7c3aed" }}>推奨</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「いまも手が動く」ことを示せる数少ない材料。小さな制作物＋コミット履歴がブランク不安を打ち消す（<a href="/articles/return-to-work/" className="underline" style={{ color: "#0891b2" }}>復職ロードマップ</a>参照）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ブランクからの復職</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>推奨</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「いまも手が動く」ことを示せる数少ない材料。小さな制作物＋コミット履歴がブランク不安を打ち消す（<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>復職ロードマップ</a>参照）</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>選考全体の中での役割</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>選考全体の中での役割</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              ポートフォリオは単体で合否を決めるものではなく、<strong>書類選考の補強材料 → 面接の話題の起点</strong>という2つの役割を持ちます。技術面接ではポートフォリオの技術選定や設計判断が深掘りされ、<a href="/articles/coding-test/" className="underline" style={{ color: "#0891b2" }}>コーディングテスト</a>では「その場で書く力」が別途測られます。つまりポートフォリオで盛っても他の選考ステップで露見するため、背伸びせず「自分が説明し切れるもの」を出すのが結局いちばん強い戦略です。
+              ポートフォリオは単体で合否を決めるものではなく、<strong>書類選考の補強材料 → 面接の話題の起点</strong>という2つの役割を持ちます。技術面接ではポートフォリオの技術選定や設計判断が深掘りされ、<a href="/articles/coding-test/" className="underline" style={{ color: "#7c3a55" }}>コーディングテスト</a>では「その場で書く力」が別途測られます。つまりポートフォリオで盛っても他の選考ステップで露見するため、背伸びせず「自分が説明し切れるもの」を出すのが結局いちばん強い戦略です。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec2 職種別 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">職種別・作るべきもの早見表（フロント/バックエンド/データ/QA）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -218,40 +218,40 @@ export default function ArticlePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>効果</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>作るべきもの・見せるべきもの</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>効果</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>作るべきもの・見せるべきもの</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フロントエンド</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#f97066" }}>大</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>動くWebアプリ＋<strong>デモURL必須</strong>（Vercel/Netlify等で公開）。レスポンシブ対応、表示速度やアクセシビリティへの配慮、React/Vue等のコンポーネント設計。UIが成果物としてそのまま見えるため、職種の中で最もポートフォリオが効く</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フロントエンド</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#c15f47" }}>大</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>動くWebアプリ＋<strong>デモURL必須</strong>（Vercel/Netlify等で公開）。レスポンシブ対応、表示速度やアクセシビリティへの配慮、React/Vue等のコンポーネント設計。UIが成果物としてそのまま見えるため、職種の中で最もポートフォリオが効く</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>バックエンド</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#7c3aed" }}>中〜大</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>見た目より<strong>設計の言語化</strong>。API設計（エンドポイント一覧・OpenAPI定義）、DB設計（ER図）、テストコード、Docker・CI/CDの構成。READMEに「なぜこの構成にしたか」を書けるかが勝負どころ</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>バックエンド</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>中〜大</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>見た目より<strong>設計の言語化</strong>。API設計（エンドポイント一覧・OpenAPI定義）、DB設計（ER図）、テストコード、Docker・CI/CDの構成。READMEに「なぜこの構成にしたか」を書けるかが勝負どころ</td>
                 </tr>
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データ系<br /><span className="font-normal text-xs">（分析・ML）</span></td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#7c3aed" }}>中〜大</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>アプリよりも<strong>分析の過程と考察</strong>。公開データを使った分析ノートブック（課題設定→前処理→可視化→結論のストーリー）、KaggleやSIGNATEなどコンペの参加実績。精度の数字より「なぜその手法か」の説明力が見られる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データ系<br /><span className="font-normal text-xs">（分析・ML）</span></td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>中〜大</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>アプリよりも<strong>分析の過程と考察</strong>。公開データを使った分析ノートブック（課題設定→前処理→可視化→結論のストーリー）、KaggleやSIGNATEなどコンペの参加実績。精度の数字より「なぜその手法か」の説明力が見られる</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>QA・テスト</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>小〜中</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>制作物文化が薄い職種。代わりに<strong>テスト設計サンプル</strong>（テスト観点表・境界値分析の例）、PlaywrightやSeleniumによる自動テストコード、JSTQB等の資格が証明材料になる。自作アプリに自動テストを書いて公開すると差別化しやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>QA・テスト</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>小〜中</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>制作物文化が薄い職種。代わりに<strong>テスト設計サンプル</strong>（テスト観点表・境界値分析の例）、PlaywrightやSeleniumによる自動テストコード、JSTQB等の資格が証明材料になる。自作アプリに自動テストを書いて公開すると差別化しやすい</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>テーマ選びのコツ：自分の課題から始める</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>テーマ選びのコツ：自分の課題から始める</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              どの職種でも共通するのは、<strong>自分が本当に困っていることを解決するテーマ</strong>が強いという点です。家計管理・育児記録・推し活の情報整理など、日常の課題から出発した作品は「なぜ作ったか」を自分の言葉で語れるため、面接で話が深まります。逆に「転職用に流行りの技術を使ってみた」だけの作品は動機の質問で止まりがちです。テーマに迷う場合は<a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>未経験からのエンジニア転職ガイド</a>で学習の全体像から整理するのがおすすめです。
+              どの職種でも共通するのは、<strong>自分が本当に困っていることを解決するテーマ</strong>が強いという点です。家計管理・育児記録・推し活の情報整理など、日常の課題から出発した作品は「なぜ作ったか」を自分の言葉で語れるため、面接で話が深まります。逆に「転職用に流行りの技術を使ってみた」だけの作品は動機の質問で止まりがちです。テーマに迷う場合は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からのエンジニア転職ガイド</a>で学習の全体像から整理するのがおすすめです。
             </p>
           </div>
         </div>
@@ -268,13 +268,13 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4">
             {[
-              { name: "1. README：最初に読まれる「作品の顔」", desc: "概要（何を解決するものか）、デモURL、スクリーンショット、使用技術、工夫した点・苦労した点、ローカルでの起動手順。この6点が揃ったREADMEは、それ自体がドキュメンテーション能力の証明になります。コードを読む前にREADMEで判断されると考えて、本文と同じ熱量で書きましょう。", color: "#0891b2" },
-              { name: "2. コミット履歴：開発の過程と継続性", desc: "完成品を一括コミットした履歴と、機能単位で意味のあるメッセージを積み重ねた履歴では、後者が圧倒的に信頼されます。「ログイン機能を追加」「N+1クエリを修正」のような粒度のコミットは、実務のチーム開発に近い習慣の証拠です。毎日コミットする必要はなく、週単位でも継続していることが伝われば十分です。", color: "#7c3aed" },
-              { name: "3. 動くこと：デプロイ済みデモURL", desc: "「クローンしてビルドしてください」では多忙な選考担当者は見てくれません。Vercel・Netlify・GitHub Pagesなどの無料枠でデプロイし、URLひとつで触れる状態にしておくこと。完成・公開まで持っていく完遂力そのものが評価対象です。", color: "#0891b2" },
-              { name: "4. 実務に近いプラクティス", desc: "テストコード（ユニットテスト1ファイルでも印象が違う）、GitHub ActionsによるCI、環境変数での機密情報管理、Issue・Pull Requestを使った自己レビューの形跡。どれも「チーム開発に入ってすぐ馴染める人」のシグナルになります。全部は不要なので、1〜2個取り入れるだけで差がつきます。", color: "#7c3aed" },
-              { name: "5. 説明できること（2026年最大の評価軸）", desc: "技術選定の理由（なぜReactか、なぜこのDB構成か）、詰まった箇所と解決プロセス、今後の改善案。コードはAIでも書ける時代だからこそ、面接ではここが最重要の確認ポイントになっています。READMEの「工夫した点」に書いた内容は必ず口頭でも語れるよう準備しておきましょう。", color: "#f97066" },
+              { name: "1. README：最初に読まれる「作品の顔」", desc: "概要（何を解決するものか）、デモURL、スクリーンショット、使用技術、工夫した点・苦労した点、ローカルでの起動手順。この6点が揃ったREADMEは、それ自体がドキュメンテーション能力の証明になります。コードを読む前にREADMEで判断されると考えて、本文と同じ熱量で書きましょう。", color: "#7c3a55" },
+              { name: "2. コミット履歴：開発の過程と継続性", desc: "完成品を一括コミットした履歴と、機能単位で意味のあるメッセージを積み重ねた履歴では、後者が圧倒的に信頼されます。「ログイン機能を追加」「N+1クエリを修正」のような粒度のコミットは、実務のチーム開発に近い習慣の証拠です。毎日コミットする必要はなく、週単位でも継続していることが伝われば十分です。", color: "#7c3a55" },
+              { name: "3. 動くこと：デプロイ済みデモURL", desc: "「クローンしてビルドしてください」では多忙な選考担当者は見てくれません。Vercel・Netlify・GitHub Pagesなどの無料枠でデプロイし、URLひとつで触れる状態にしておくこと。完成・公開まで持っていく完遂力そのものが評価対象です。", color: "#7c3a55" },
+              { name: "4. 実務に近いプラクティス", desc: "テストコード（ユニットテスト1ファイルでも印象が違う）、GitHub ActionsによるCI、環境変数での機密情報管理、Issue・Pull Requestを使った自己レビューの形跡。どれも「チーム開発に入ってすぐ馴染める人」のシグナルになります。全部は不要なので、1〜2個取り入れるだけで差がつきます。", color: "#7c3a55" },
+              { name: "5. 説明できること（2026年最大の評価軸）", desc: "技術選定の理由（なぜReactか、なぜこのDB構成か）、詰まった箇所と解決プロセス、今後の改善案。コードはAIでも書ける時代だからこそ、面接ではここが最重要の確認ポイントになっています。READMEの「工夫した点」に書いた内容は必ず口頭でも語れるよう準備しておきましょう。", color: "#c15f47" },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <h3 className="text-lg font-bold mb-2" style={{ color: item.color }}>{item.name}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
@@ -284,7 +284,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 落とし穴 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">落とし穴：評価を下げる典型NG集</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -299,8 +299,8 @@ export default function ArticlePage() {
               { title: "数を増やして全部が中途半端", desc: "未完成の作品を並べるより、完成・公開済みの1〜2作に絞るほうが強いのが実情です。面接で深掘りされたとき、自分が隅々まで把握している作品しか武器になりません。「説明し切れる規模」を超えて広げないこと。" },
               { title: "見た目だけ整えて中身が説明できない", desc: "テンプレートやAIで見栄えの良いUIは簡単に作れる時代です。だからこそ「この状態管理はなぜこの方式？」のような一段深い質問が飛びます。1問も答えられないと、見た目の良さがそのまま不信感に変わります。" },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>{i + 1}. {item.title}</h3>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#c15f47" }}>{i + 1}. {item.title}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -314,27 +314,27 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">AI時代のポートフォリオ（2026年）：明示の仕方と説明責任</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              2026年の開発現場では、コーディング支援AI（GitHub Copilot、Claude Code、ChatGPTなど）を使った開発が一般化しています。採用側もそれを前提にしており、<strong>「AIを使ったかどうか」自体はもはや減点要素ではありません</strong>。選考ツール側でも、AI利用を前提に「AIと協働して解く力」ごと評価するサービスが登場している一方、無断利用を検知する仕組みを備えるサービスもあり、扱いは二極化しています（詳しくは<a href="/articles/coding-test/" className="underline" style={{ color: "#0891b2" }}>コーディングテスト対策ガイド</a>を参照）。
+              2026年の開発現場では、コーディング支援AI（GitHub Copilot、Claude Code、ChatGPTなど）を使った開発が一般化しています。採用側もそれを前提にしており、<strong>「AIを使ったかどうか」自体はもはや減点要素ではありません</strong>。選考ツール側でも、AI利用を前提に「AIと協働して解く力」ごと評価するサービスが登場している一方、無断利用を検知する仕組みを備えるサービスもあり、扱いは二極化しています（詳しくは<a href="/articles/coding-test/" className="underline" style={{ color: "#7c3a55" }}>コーディングテスト対策ガイド</a>を参照）。
             </p>
             <p>
               ポートフォリオにおける現実的な指針は次の3つです。
             </p>
           </div>
           <div className="space-y-4 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>指針1：READMEでAI利用を正直に明示する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>指針1：READMEでAI利用を正直に明示する</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 「実装補助にGitHub Copilotを使用。要件定義・DB設計・技術選定は自分で行い、生成コードは全行レビューのうえ採用」のように、<strong>使用ツールと役割分担</strong>を書きます。隠して後の面接で露見するより、検証プロセスまで含めて開示するほうが「AIを道具として使いこなせる人」という今いちばん欲しがられる評価につながります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>指針2：全コードを自分の言葉で説明できる状態にする</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>指針2：全コードを自分の言葉で説明できる状態にする</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                面接で深掘りされたとき答えられないのが最悪のパターンです。AIが書いた部分も「なぜこの書き方を採用したか・他にどんな選択肢があったか」を語れるまで理解してから取り込むこと。説明できない箇所が残るなら、その機能は削るほうが安全です。<a href="/articles/technical-interview/" className="underline" style={{ color: "#0891b2" }}>技術面接対策</a>と合わせて、想定質問への回答を準備しておきましょう。
+                面接で深掘りされたとき答えられないのが最悪のパターンです。AIが書いた部分も「なぜこの書き方を採用したか・他にどんな選択肢があったか」を語れるまで理解してから取り込むこと。説明できない箇所が残るなら、その機能は削るほうが安全です。<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接対策</a>と合わせて、想定質問への回答を準備しておきましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>指針3：「AIにできない部分」で差をつける</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#c15f47" }}>指針3：「AIにできない部分」で差をつける</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 コードの生成はAIで均質化した分、差がつくのは<strong>課題設定（誰の何を解決するか）・設計判断・検証とドキュメント</strong>です。READMEの「工夫した点」にこの3つを書き込めるポートフォリオは、AI時代でも色あせません。AIとの開発過程そのもの（プロンプトの工夫、AIの誤りを修正した記録）を学びとしてまとめるのも、2026年ならではの差別化になります。
               </p>
@@ -344,7 +344,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 ブランク・育休中 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">ブランク・育休中でも作れる制作プラン</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -355,16 +355,16 @@ export default function ArticlePage() {
               現実的なコツは、まとまった時間が取れない前提で設計することです。
             </p>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>テーマは生活の中から:</strong> 育児記録・予防接種スケジュール管理・献立のローテーション化など、いま自分が困っていることをツール化する。動機が本物なので面接でも語りやすい</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>1日30分・1機能単位で進める:</strong> 細切れ時間でも完結する粒度にタスクを割り、そのままコミット単位にする。細かく積まれた履歴が継続の証明になる</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>完成ラインを低く引く:</strong> 最初の公開は最小機能（MVP）で十分。「公開→少しずつ改善」の流れ自体が実務的な開発スタイルのアピールになる</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>キャッチアップを兼ねる:</strong> ブランク中に変わった技術（フレームワークのバージョンアップ、AI支援ツールの普及など）を制作の中で1つ試すと、技術の現在地確認と作品づくりが同時に進む</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>テーマは生活の中から:</strong> 育児記録・予防接種スケジュール管理・献立のローテーション化など、いま自分が困っていることをツール化する。動機が本物なので面接でも語りやすい</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>1日30分・1機能単位で進める:</strong> 細切れ時間でも完結する粒度にタスクを割り、そのままコミット単位にする。細かく積まれた履歴が継続の証明になる</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>完成ラインを低く引く:</strong> 最初の公開は最小機能（MVP）で十分。「公開→少しずつ改善」の流れ自体が実務的な開発スタイルのアピールになる</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>キャッチアップを兼ねる:</strong> ブランク中に変わった技術（フレームワークのバージョンアップ、AI支援ツールの普及など）を制作の中で1つ試すと、技術の現在地確認と作品づくりが同時に進む</span></li>
             </ul>
           </div>
           <p className="text-text-light text-sm leading-relaxed mt-6">
-            ブランクからの復職は、ポートフォリオだけでなく学び直しの支援制度や求人の選び方まで含めた全体設計が大切です。<a href="/articles/return-to-work/" className="underline" style={{ color: "#0891b2" }}>ブランクからの復職ロードマップ</a>で、ブランク年数別の戦略と公的支援制度を確認しておきましょう。
+            ブランクからの復職は、ポートフォリオだけでなく学び直しの支援制度や求人の選び方まで含めた全体設計が大切です。<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>ブランクからの復職ロードマップ</a>で、ブランク年数別の戦略と公的支援制度を確認しておきましょう。
           </p>
         </div>
       </section>
@@ -374,40 +374,40 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">完成から選考活用までの4ステップ</h2>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>STEP 1</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>STEP 1</span>
                 <h3 className="text-lg font-bold">企画：課題とゴールを1行で書く</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 「誰の・どんな困りごとを・どう解決するか」を1行で言えるテーマを選びます。この1行がそのままREADMEの冒頭、面接の第一声になります。技術は志望職種・志望企業のスタックに寄せると即戦力アピールを兼ねられます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>STEP 2</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>STEP 2</span>
                 <h3 className="text-lg font-bold">実装：意味のあるコミットを積む</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 最初からGitHubで管理し、機能単位のコミットメッセージを習慣化します。AIを使う場合は出力を必ず理解してから取り込み、READMEに利用方針をメモしておきます。機密情報は環境変数で管理し、最初に.gitignoreを設定してから書き始めましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>STEP 3</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>STEP 3</span>
                 <h3 className="text-lg font-bold">公開：デプロイとREADME仕上げ</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 無料ホスティング（Vercel・Netlify・GitHub Pages等）でデモURLを用意し、READMEに概要・スクリーンショット・使用技術・工夫した点・起動手順を揃えます。スマホからもデモを開いて表示崩れを確認しておくと安心です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>STEP 4</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>STEP 4</span>
                 <h3 className="text-lg font-bold">選考連携：経歴書に載せ、面接で語る準備</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
-                GitHub URLとデモURLを<a href="/articles/resume-guide/" className="underline" style={{ color: "#0891b2" }}>職務経歴書</a>に記載し、概要を2〜3行添えます。面接前には「なぜ作ったか・技術選定の理由・一番苦労した点・今後の改善案」の4点を口頭で言える状態に。この準備は<a href="/articles/technical-interview/" className="underline" style={{ color: "#0891b2" }}>技術面接</a>の最頻出質問対策をそのまま兼ねます。
+                GitHub URLとデモURLを<a href="/articles/resume-guide/" className="underline" style={{ color: "#7c3a55" }}>職務経歴書</a>に記載し、概要を2〜3行添えます。面接前には「なぜ作ったか・技術選定の理由・一番苦労した点・今後の改善案」の4点を口頭で言える状態に。この準備は<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接</a>の最頻出質問対策をそのまま兼ねます。
               </p>
             </div>
           </div>
@@ -415,18 +415,18 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}
@@ -446,31 +446,31 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/coding-test/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>コーディングテスト対策</h3>
+            <a href="/articles/coding-test/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>コーディングテスト対策</h3>
               <p className="text-sm text-text-light">出題形式・難易度・AI利用ルールの最新事情</p>
             </a>
-            <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>技術面接対策</h3>
+            <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>技術面接対策</h3>
               <p className="text-sm text-text-light">ポートフォリオの深掘り質問への備え方</p>
             </a>
-            <a href="/articles/resume-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職務経歴書の書き方</h3>
+            <a href="/articles/resume-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職務経歴書の書き方</h3>
               <p className="text-sm text-text-light">GitHub・ポートフォリオの記載方法も解説</p>
             </a>
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からのエンジニア転職</h3>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からのエンジニア転職</h3>
               <p className="text-sm text-text-light">学習からポートフォリオ作成までの全体像</p>
             </a>
           </div>
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
       </section>
     </>
   );

@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               働き方ガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 派遣エンジニアとは（一般派遣・常用型・SESの違い）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 時給・年収相場（言語別・他職種比較）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 派遣エンジニアのメリット・デメリット</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 女性が派遣という働き方を選ぶ理由</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 派遣から正社員を目指すには</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 向いている人・始める前の注意点</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 体験事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 派遣エンジニアとは（一般派遣・常用型・SESの違い）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 時給・年収相場（言語別・他職種比較）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 派遣エンジニアのメリット・デメリット</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が派遣という働き方を選ぶ理由</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 派遣から正社員を目指すには</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 向いている人・始める前の注意点</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 体験事例</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -168,43 +168,43 @@ export default function ArticlePage() {
             <div className="overflow-x-auto mt-6">
               <table className="w-full text-sm border-collapse">
                 <thead>
-                  <tr style={{ backgroundColor: "#ecfeff" }}>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>一般派遣（登録型）</th>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>常用型派遣（無期雇用）</th>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>SES（準委任）</th>
+                  <tr style={{ backgroundColor: "#efe3d8" }}>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>項目</th>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>一般派遣（登録型）</th>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>常用型派遣（無期雇用）</th>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>SES（準委任）</th>
                   </tr>
                 </thead>
                 <tbody className="text-text-light">
                   <tr>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>雇用主</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>派遣会社（案件ごと）</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>派遣会社（無期）</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SES企業（多くは正社員）</td>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>雇用主</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>派遣会社（案件ごと）</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>派遣会社（無期）</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SES企業（多くは正社員）</td>
                   </tr>
-                  <tr style={{ backgroundColor: "#f8fafb" }}>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>指揮命令</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>派遣先企業</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>派遣先企業</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>所属するSES企業</td>
-                  </tr>
-                  <tr>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>3年ルール</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>適用（同部署は原則3年）</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>対象外（長く就業可）</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>対象外</td>
-                  </tr>
-                  <tr style={{ backgroundColor: "#f8fafb" }}>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>雇用の安定</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>案件終了で契約が切れる</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>案件がなくても給与あり</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>比較的安定（自社雇用）</td>
+                  <tr style={{ backgroundColor: "#f0e7dd" }}>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>指揮命令</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>派遣先企業</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>派遣先企業</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>所属するSES企業</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>向いている人</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>条件を柔軟に選びたい人</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>安定して長く働きたい人</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>幅広い現場を経験したい人</td>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>3年ルール</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>適用（同部署は原則3年）</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>対象外（長く就業可）</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>対象外</td>
+                  </tr>
+                  <tr style={{ backgroundColor: "#f0e7dd" }}>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>雇用の安定</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>案件終了で契約が切れる</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>案件がなくても給与あり</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>比較的安定（自社雇用）</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>向いている人</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>条件を柔軟に選びたい人</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>安定して長く働きたい人</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>幅広い現場を経験したい人</td>
                   </tr>
                 </tbody>
               </table>
@@ -214,7 +214,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 時給・年収 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">時給・年収相場（言語別・他職種比較）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -225,23 +225,23 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>時給の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>時給の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>IT派遣の平均</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約2,188円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>年収換算で約400〜450万円</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>下限 約2,568円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AI・ビッグデータ需要で高単価</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Java</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>下限 約2,468円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業務系・上流工程で上振れ</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>一般事務派遣</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,500円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>比較用。IT派遣との差は大きい</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>IT系アルバイト</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,000円前後</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>比較用。スキルで差がつく</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>IT派遣の平均</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約2,188円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>年収換算で約400〜450万円</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>下限 約2,568円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AI・ビッグデータ需要で高単価</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Java</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>下限 約2,468円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業務系・上流工程で上振れ</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>一般事務派遣</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,500円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>比較用。IT派遣との差は大きい</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>IT系アルバイト</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,000円前後</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>比較用。スキルで差がつく</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>時給を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>時給を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>高需要言語</strong>（Python×AI・データ、Java×業務系）の実務経験を積む</li>
               <li>② <strong>上流工程</strong>（要件定義・設計・テスト設計）を担えるようにする</li>
@@ -262,24 +262,24 @@ export default function ArticlePage() {
             <p>派遣という働き方には、ライフスタイルに合わせやすい一方で、計画的に動かないと埋もれやすい側面もあります。両面を理解したうえで選びましょう。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#0891b2", backgroundColor: "#ecfeff" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>メリット</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3a55", backgroundColor: "#efe3d8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>メリット</h3>
               <ul className="space-y-3 text-sm">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>残業少なめを選べる</strong>。定時で帰れる案件を条件指定でき、プライベートと両立しやすい</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>勤務地・日数・期間を選べる</strong>。自宅近く、週4、時短など希望に合わせやすい</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>ブランク・未経験から入りやすい</strong>。正社員採用よりハードルが低く、コーディネーターの支援がある</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>時給が高め</strong>。一般事務派遣の1.5倍前後で、スキル次第でさらに上がる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>複数の現場を経験できる</strong>。自分に合う技術・職場を見極められる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>残業少なめを選べる</strong>。定時で帰れる案件を条件指定でき、プライベートと両立しやすい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>勤務地・日数・期間を選べる</strong>。自宅近く、週4、時短など希望に合わせやすい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>ブランク・未経験から入りやすい</strong>。正社員採用よりハードルが低く、コーディネーターの支援がある</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>時給が高め</strong>。一般事務派遣の1.5倍前後で、スキル次第でさらに上がる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>複数の現場を経験できる</strong>。自分に合う技術・職場を見極められる</span></li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#f97066", backgroundColor: "#fff5f5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>デメリット</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#c15f47", backgroundColor: "#fdf6ee" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>デメリット</h3>
               <ul className="space-y-3 text-sm">
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">&times;</span><span><strong>雇用が不安定になりがち</strong>。登録型は案件終了で契約が切れ、次が決まるまで収入が途切れることも</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">&times;</span><span><strong>スキルが偏りやすい</strong>。特定の作業・運用に固定され、上流や新技術に触れにくい現場もある</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">&times;</span><span><strong>3年ルール</strong>で同じ部署に居続けられず、慣れた頃に環境が変わることがある</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">&times;</span><span><strong>賞与・昇給が限定的</strong>。正社員と比べ生涯年収やキャリアの積み上げで差がつきやすい</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">&times;</span><span><strong>裁量が小さい場合がある</strong>。指示された範囲の業務が中心になりやすい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">&times;</span><span><strong>雇用が不安定になりがち</strong>。登録型は案件終了で契約が切れ、次が決まるまで収入が途切れることも</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">&times;</span><span><strong>スキルが偏りやすい</strong>。特定の作業・運用に固定され、上流や新技術に触れにくい現場もある</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">&times;</span><span><strong>3年ルール</strong>で同じ部署に居続けられず、慣れた頃に環境が変わることがある</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">&times;</span><span><strong>賞与・昇給が限定的</strong>。正社員と比べ生涯年収やキャリアの積み上げで差がつきやすい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">&times;</span><span><strong>裁量が小さい場合がある</strong>。指示された範囲の業務が中心になりやすい</span></li>
               </ul>
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 女性が選ぶ理由 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性が派遣という働き方を選ぶ理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -299,20 +299,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 育児・家庭と両立しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 育児・家庭と両立しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">残業少なめ・時短・週4・自宅近くなど、条件を細かく指定して案件を選べます。子どもの送り迎えや家庭の予定に合わせた働き方を実現しやすいのが最大の理由です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. ブランク後の社会復帰の入口になる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. ブランク後の社会復帰の入口になる</h3>
               <p className="text-text-light text-sm leading-relaxed">出産・育児で離れた後でも、コーディネーターのキャリア相談や復帰前研修を受けながら段階的に戻れます。いきなり正社員より心理的ハードルが低いのが利点です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 未経験から実務経験を積める</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 未経験から実務経験を積める</h3>
               <p className="text-text-light text-sm leading-relaxed">未経験可の案件やポテンシャル枠があり、現場で実務経験を積みながらスキルを伸ばせます。職務経歴に「実務」を書けるようになると、その後の選択肢が広がります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 自分に合う環境を見極められる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 自分に合う環境を見極められる</h3>
               <p className="text-text-light text-sm leading-relaxed">複数の現場を経験することで、女性が働きやすい職場・両立しやすいチームの雰囲気を体感できます。紹介予定派遣なら「お試し」を経て正社員を判断できます。</p>
             </div>
           </div>
@@ -335,8 +335,8 @@ export default function ArticlePage() {
               ["STEP3", "派遣先からの正社員登用を狙う", "現場で評価されると、3年の抵触日前後に派遣先から直接雇用を打診されることがあります。担当業務で成果を出し、上流工程にも手を挙げておくと声がかかりやすくなります。"],
               ["STEP4", "実務経験を武器に転職する", "派遣で得た実務経験とポートフォリオを携え、IT特化型エージェント経由で正社員転職へ。『派遣での実務◯年』は未経験よりはるかに強い武器になります。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -348,28 +348,28 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 向いている人・注意点 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">向いている人・始める前の注意点</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>派遣エンジニアが向いている人</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>派遣エンジニアが向いている人</h3>
               <ul className="space-y-3 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>育児・介護と両立し、勤務時間や日数を自分で決めたい人</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ブランクや未経験から、まず実務経験を積みたい人</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>いろいろな現場を見て、自分に合う環境を探したい人</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>残業を抑えてワークライフバランスを重視したい人</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>将来は紹介予定派遣などで正社員も視野に入れたい人</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>育児・介護と両立し、勤務時間や日数を自分で決めたい人</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ブランクや未経験から、まず実務経験を積みたい人</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>いろいろな現場を見て、自分に合う環境を探したい人</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>残業を抑えてワークライフバランスを重視したい人</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>将来は紹介予定派遣などで正社員も視野に入れたい人</span></li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>始める前の注意点</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>始める前の注意点</h3>
               <ul className="space-y-3 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>「登録型か常用型か」を契約前に必ず確認する（安定性が大きく異なる）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>SES案件は派遣と仕組みが違う。指揮命令や契約形態を確認する</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>担当業務がスキルアップにつながるか（運用一辺倒に固定されないか）を見る</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>残業実態・産休育休の取得実績など、求人票に出ない情報を担当者に確認する</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>受け身にならず、上流工程や正社員化を意識して経験を資産化する</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>「登録型か常用型か」を契約前に必ず確認する（安定性が大きく異なる）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>SES案件は派遣と仕組みが違う。指揮命令や契約形態を確認する</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>担当業務がスキルアップにつながるか（運用一辺倒に固定されないか）を見る</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>残業実態・産休育休の取得実績など、求人票に出ない情報を担当者に確認する</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>受け身にならず、上流工程や正社員化を意識して経験を資産化する</span></li>
               </ul>
             </div>
           </div>
@@ -384,45 +384,45 @@ export default function ArticlePage() {
             <p>派遣登録だけでなく、将来の正社員化や条件交渉まで見据えるなら、IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。派遣で積んだ実務経験を正社員転職につなげたいときに、技術を理解したアドバイザーが提案してくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、派遣から正社員へのステップアップ相談にも向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。残業少なめ・時短など働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">登録先選びで働き方の質が変わる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合った担当者と案件を見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
 
       {/* sec8 体験事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">体験事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代後半・育児中・派遣→紹介予定派遣で正社員）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代後半・育児中・派遣→紹介予定派遣で正社員）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">出産で離職・ブランク2年 / 時給1,500円の事務派遣</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">社内SEとして正社員登用 / 残業ほぼなし・時短可</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">出産で離職・ブランク2年 / 時給1,500円の事務派遣</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">社内SEとして正社員登用 / 残業ほぼなし・時短可</p></div>
               </div>
               <p className="text-sm text-text-light">復帰前研修でExcel・SQLを学び直し、まずIT派遣の運用サポートから再開。紹介予定派遣の案件で半年勤務した後、双方合意で社内SEとして直接雇用に。残業少なめ・時短勤務OKの環境を確保しました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Dさん（20代後半・未経験→常用型派遣でPython）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・未経験→常用型派遣でPython）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">販売職（IT未経験）/ 年収300万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">常用型派遣のPython開発 / 時給2,400円・無期雇用</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">販売職（IT未経験）/ 年収300万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">常用型派遣のPython開発 / 時給2,400円・無期雇用</p></div>
               </div>
               <p className="text-sm text-text-light">未経験可の常用型派遣に登録し、研修後にデータ処理の案件へ。無期雇用で案件の合間も給与が出る安定性に納得しつつ、Python×データの実務を積んで時給を引き上げ。次は正社員のデータエンジニアを目指しています。</p>
             </div>
@@ -436,12 +436,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -451,14 +451,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/ses-vs-jisha/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SES・派遣・自社開発の違い</h3><p className="text-sm text-text-light">働き方ごとの仕組みを比較</p></a>
-            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ワークライフバランスの実現</h3><p className="text-sm text-text-light">残業を抑えて長く働くコツ</p></a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">派遣から正社員・上流への道</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/ses-vs-jisha/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SES・派遣・自社開発の違い</h3><p className="text-sm text-text-light">働き方ごとの仕組みを比較</p></a>
+            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ワークライフバランスの実現</h3><p className="text-sm text-text-light">残業を抑えて長く働くコツ</p></a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">派遣から正社員・上流への道</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
           </div>
         </div>
       </section>
@@ -466,10 +466,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">自分に合った働き方を見つけましょう</h2>
             <p className="text-white/90 mb-6">派遣からのスタートも、正社員化も。まずはエージェントに無料相談して、あなたに合うキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

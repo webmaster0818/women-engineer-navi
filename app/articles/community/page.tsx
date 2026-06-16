@@ -164,7 +164,7 @@ export default function ArticlePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
             items={[
@@ -174,7 +174,7 @@ export default function ArticlePage() {
             ]}
           />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
               キャリア知識
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
@@ -191,13 +191,13 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>本記事で紹介するのは、<strong>2026年6月時点で公式サイト・公式イベントページで活動を確認できたコミュニティのみ</strong>。PyLadies Tokyo・TECH PLAY女子部・JAWS-UGクラウド女子会・Rails Girlsなどは現在も活動中です。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>かつて世界最大級だった<strong>Women Who Code（国際組織）は2024年4月に解散済み</strong>。古い記事の情報には注意が必要です。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>コミュニティは「学習仲間」「ロールモデル探し」「企業のリアルな情報収集」に有効。まずは<strong>オンラインの聴講参加</strong>から始めれば心理的ハードルは低くできます。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>選ぶときは<strong>「直近1年以内の活動実績」を必ず確認</strong>。connpass・Doorkeeper・公式SNSの最終イベント日時が判断材料になります。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>本記事で紹介するのは、<strong>2026年6月時点で公式サイト・公式イベントページで活動を確認できたコミュニティのみ</strong>。PyLadies Tokyo・TECH PLAY女子部・JAWS-UGクラウド女子会・Rails Girlsなどは現在も活動中です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>かつて世界最大級だった<strong>Women Who Code（国際組織）は2024年4月に解散済み</strong>。古い記事の情報には注意が必要です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>コミュニティは「学習仲間」「ロールモデル探し」「企業のリアルな情報収集」に有効。まずは<strong>オンラインの聴講参加</strong>から始めれば心理的ハードルは低くできます。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>選ぶときは<strong>「直近1年以内の活動実績」を必ず確認</strong>。connpass・Doorkeeper・公式SNSの最終イベント日時が判断材料になります。</span></li>
             </ul>
           </div>
         </div>
@@ -206,18 +206,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. コミュニティがキャリアを変える理由</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 実在確認済み・女性エンジニアコミュニティ一覧表</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 各コミュニティの詳細（技術系・初心者向け・学生向け）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 解散・活動状況に注意が必要なコミュニティ</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 女性向けカンファレンス・大型イベント</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 失敗しないコミュニティの選び方</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. コミュニティ活用法（学習・転職・ロールモデル）</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 参加の心理的ハードルを下げる方法</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. コミュニティがキャリアを変える理由</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 実在確認済み・女性エンジニアコミュニティ一覧表</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 各コミュニティの詳細（技術系・初心者向け・学生向け）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 解散・活動状況に注意が必要なコミュニティ</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 女性向けカンファレンス・大型イベント</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 失敗しないコミュニティの選び方</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. コミュニティ活用法（学習・転職・ロールモデル）</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 参加の心理的ハードルを下げる方法</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -236,57 +236,57 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. ロールモデルに出会える</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. ロールモデルに出会える</h3>
               <p className="text-text-light text-sm leading-relaxed">育児と両立している人、マネジメントに進んだ人、フリーランスになった人——多様なキャリアの実例に直接触れられます。1人のロールモデルを真似るのではなく、複数の人から「使える部分」を集めるのが現実的です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 学習が続く環境ができる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 学習が続く環境ができる</h3>
               <p className="text-text-light text-sm leading-relaxed">もくもく会やハンズオンは「1人だと挫折しやすい学習」を続ける仕組みとして有効です。質問できる相手がいるだけで、独学のつまずきが解消しやすくなります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 企業のリアルな情報が入る</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 企業のリアルな情報が入る</h3>
               <p className="text-text-light text-sm leading-relaxed">「産休育休から復帰した人が実際にどう働いているか」「リモートの運用実態」など、求人票に書かれない情報を現役社員から聞けるのはコミュニティならではです。転職の意思決定の質が上がります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 登壇・運営が実績になる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 登壇・運営が実績になる</h3>
               <p className="text-text-light text-sm leading-relaxed">LT登壇の資料や勉強会の運営経験は、職務経歴書に書ける具体的な実績です。「社外でも学び続けている」ことの客観的な証拠として、面接でも伝えやすくなります。</p>
             </div>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            孤立しがちな環境でモチベーションを保つ方法は、<a href="/articles/long-career-tips/" className="underline" style={{ color: "#0891b2" }}>女性エンジニアが長く働き続けるためのコツ</a>でも詳しく解説しています。
+            孤立しがちな環境でモチベーションを保つ方法は、<a href="/articles/long-career-tips/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアが長く働き続けるためのコツ</a>でも詳しく解説しています。
           </p>
         </div>
       </section>
 
       {/* sec2 一覧表 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">実在確認済み・女性エンジニアコミュニティ一覧表</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              下表は、<strong>2026年6月12日時点で当サイトが各公式サイト・公式イベントページ（connpass / Doorkeeper / TECH PLAY等）にて活動状況を確認したコミュニティ</strong>です。確認できなかったもの・解散したものは表に含めず、<a href="#sec4" className="underline" style={{ color: "#0891b2" }}>第4章</a>で別途扱っています。
+              下表は、<strong>2026年6月12日時点で当サイトが各公式サイト・公式イベントページ（connpass / Doorkeeper / TECH PLAY等）にて活動状況を確認したコミュニティ</strong>です。確認できなかったもの・解散したものは表に含めず、<a href="#sec4" className="underline" style={{ color: "#7c3a55" }}>第4章</a>で別途扱っています。
             </p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>コミュニティ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>対象</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な活動</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>参加方法</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>活動状況</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>コミュニティ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>対象</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な活動</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>参加方法</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>活動状況</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 {communities.map((c, i) => (
                   <tr key={c.name} style={i % 2 === 1 ? { backgroundColor: "#fff" } : undefined}>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>{c.name}<span className="block text-xs font-normal mt-1">{c.url}</span></td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>{c.target}</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>{c.activity}</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>{c.join}</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>{c.status}</td>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>{c.name}<span className="block text-xs font-normal mt-1">{c.url}</span></td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>{c.target}</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>{c.activity}</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>{c.join}</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>{c.status}</td>
                   </tr>
                 ))}
               </tbody>
@@ -303,24 +303,24 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">各コミュニティの詳細（技術系・初心者向け・学生向け）</h2>
 
-          <h3 className="text-xl font-bold mb-4 mt-2" style={{ color: "#0891b2" }}>技術特化型（特定の言語・分野を深めたい人向け）</h3>
+          <h3 className="text-xl font-bold mb-4 mt-2" style={{ color: "#7c3a55" }}>技術特化型（特定の言語・分野を深めたい人向け）</h3>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">PyLadies Tokyo</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>Python</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">PyLadies Tokyo</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>Python</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 Pythonを使う・学びたい女性のための国際コミュニティ「PyLadies」の東京グループ。月例のMeetupやハンズオンに加え、泊まりがけでもくもく開発する合宿（2026年6月開催）など活動が活発です。2026年7月にはJAWS-UGクラウド女子会とのコラボイベント（Meetup #110）も予定されており、地方向けの出張イベント「PyLadies Caravan」の実績もあります。初心者向けハンズオンの開催歴があり、Python学習を始めたばかりでも参加しやすいのが特徴です。
               </p>
               <p className="text-xs text-text-light mt-3">出典: PyLadies Tokyo（pyladies-tokyo.connpass.com）（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">Java女子部（Javajo）</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>Java</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">Java女子部（Javajo）</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>Java</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 2014年1月に発足した女性限定のJavaユーザーコミュニティで、Doorkeeperのメンバーは約840名。Java周辺技術の勉強会や交流会を東京中心に開催してきました。当サイトで確認できた直近の開催イベントは2025年8月の「言語大乱闘! スマッシュシスターズ!」で、2025年10月に予定されていた技術書典関連イベントは中止となっています。参加を検討する場合は、Doorkeeperページで最新の開催予定を確認してください。
               </p>
               <p className="text-xs text-text-light mt-3">出典: Java女子部 Doorkeeper（javajo.doorkeeper.jp）（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">JAWS-UG クラウド女子会</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>AWS・クラウド</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">JAWS-UG クラウド女子会</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>AWS・クラウド</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 AWSユーザーグループ（JAWS-UG）の女性向け支部。運営メンバーは全員女性で、エンジニアに限らずデザイナーやマーケターなど「女性と自認する人」なら職種を問わず参加できます。LT大会、AWS re:Inventの振り返り会、カードゲーム「AWS BuilderCards」で学ぶ会など企画が多彩で、2026年3月に第30回が開催されるなど継続的に活動しています。クラウドスキルは求人需要が高い領域なので、キャリアアップ目的との相性も良いコミュニティです。
               </p>
@@ -328,17 +328,17 @@ export default function ArticlePage() {
             </div>
           </div>
 
-          <h3 className="text-xl font-bold mb-4 mt-10" style={{ color: "#7c3aed" }}>初心者・キャリア交流型（これから学ぶ人・働く女性全般向け）</h3>
+          <h3 className="text-xl font-bold mb-4 mt-10" style={{ color: "#7c3a55" }}>初心者・キャリア交流型（これから学ぶ人・働く女性全般向け）</h3>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">Rails Girls（Tokyo / Nagoya ほか）</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>未経験OK・無料</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">Rails Girls（Tokyo / Nagoya ほか）</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>未経験OK・無料</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 フィンランド発の国際的ムーブメントで、プログラミング未経験の女性がRuby on RailsでWebアプリを作る無料ワークショップを世界各地で開催しています。日本では2026年も東京（2月・Rails Girls Tokyo 18th）、名古屋（3月・Nagoya 7th）で開催されました。現役エンジニアがコーチとしてマンツーマンに近い形でサポートし、託児スポンサーが付いた回もあるなど、子育て中でも参加しやすい配慮があります。「エンジニアという仕事を体験してみたい」段階の人に最適です。
               </p>
               <p className="text-xs text-text-light mt-3">出典: Rails Girls Japan（railsgirls.jp）（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">TECH PLAY女子部</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>交流・キャリア</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">TECH PLAY女子部</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>交流・キャリア</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 IT勉強会プラットフォーム「TECH PLAY」上のコミュニティで、2015年8月発足。技術の話からキャリア相談、人脈づくりまでテーマが幅広く、もくもく会・キャリアMeetup・他コミュニティとのコラボイベント（Snowflake女子会など）が2026年に入ってからも開催されています。特定技術に縛られないため、「まず同じ立場の女性エンジニアとつながりたい」という人の入り口に向いています。
               </p>
@@ -346,10 +346,10 @@ export default function ArticlePage() {
             </div>
           </div>
 
-          <h3 className="text-xl font-bold mb-4 mt-10" style={{ color: "#0891b2" }}>学生・次世代向け</h3>
+          <h3 className="text-xl font-bold mb-4 mt-10" style={{ color: "#7c3a55" }}>学生・次世代向け</h3>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">NPO法人Waffle</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>中高生・大学生</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h4 className="text-lg font-bold">NPO法人Waffle</h4><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>中高生・大学生</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 「IT分野のジェンダーギャップを解消する」をミッションに掲げるNPO法人。女子中高生向けの無料コーディング講座「Waffle Camp」、大学生・大学院生向けの「Waffle College」、国際アプリコンテスト「Technovation Girls」の国内参加支援などを行っています。2026年には女子・ノンバイナリーの学生向けグローバル起業家育成プログラム「Waffle Empower Next Program」の募集も開始しており、活動は拡大傾向です。社会人向けではありませんが、妹や娘・後輩に紹介できる団体として知っておく価値があります。
               </p>
@@ -357,7 +357,7 @@ export default function ArticlePage() {
             </div>
           </div>
 
-          <div className="rounded-xl border p-6 mt-10" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6 mt-10" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h3 className="text-lg font-bold mb-3">補足: コミュニティではなく「スクール」の選択肢</h3>
             <p className="text-sm text-text-light leading-relaxed">
               女性向けをうたうサービスの中には、無料のコミュニティではなく<strong>有料の教育サービス</strong>もあります。たとえばMs.Engineer（ミズエンジニア）は女性向けのオンラインコーディングブートキャンプを運営する企業で、経済産業省「リスキリングを通じたキャリアアップ支援事業」への採択実績があります（出典: Ms.Engineer公式サイト・プレスリリース、2026年6月参照）。本格的に費用をかけて学ぶ選択肢の一つですが、コミュニティとは性質が異なるため、料金・カリキュラム・給付金の適用条件を公式サイトで確認した上で検討してください。
@@ -367,7 +367,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 解散・注意 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">解散・活動状況に注意が必要なコミュニティ</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -376,27 +376,27 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#f97066", borderWidth: "2px" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">Women Who Code（国際組織）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>2024年4月 解散</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#c15f47", borderWidth: "2px" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">Women Who Code（国際組織）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>2024年4月 解散</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 2011年にサンフランシスコで生まれ、最盛期には145カ国・約36万人が参加した世界最大級の女性テックコミュニティでしたが、運営資金の問題により<strong>2024年4月に理事会が解散を決議し、活動を終了</strong>しました。日本語の古い記事では「日本支部のあるグローバルコミュニティ」として今も紹介されていることがありますが、国際組織自体が既に存在しないため、新規に参加することはできません。
               </p>
               <p className="text-xs text-text-light mt-3">出典: Women Who Code公式ブログ「The End of an Era: Women Who Code Closing」（womenwhocode.com）（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">Code Polaris</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>公開イベントは2023年12月が直近</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">Code Polaris</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>公開イベントは2023年12月が直近</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 現役の女性エンジニア3名が2020年に立ち上げた女性限定の技術コミュニティで、connpassグループには約730名が登録しています。Slackでの交流とアプリ開発の実践を軸に活動してきましたが、<strong>connpass上で確認できる公開イベントは2023年12月開催が直近</strong>です（2026年6月時点）。Slack内の活動状況までは外部から確認できないため、参加を検討する場合は公式X（@codepolarisjp）等で現在の運営状況を確認することをおすすめします。
               </p>
               <p className="text-xs text-text-light mt-3">出典: Code Polaris（code-polaris.connpass.com）（2026年6月参照）</p>
             </div>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>参加前の「生存確認」チェックリスト</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>参加前の「生存確認」チェックリスト</h3>
             <ul className="space-y-2 text-sm text-text-light">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>connpass / Doorkeeper / TECH PLAYで<strong>直近1年以内のイベント開催</strong>があるか</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>公式X・公式サイトの<strong>最終更新日</strong>が極端に古くないか</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>「次回イベント」の募集ページが実際に存在するか（紹介記事の記述だけで判断しない）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>connpass / Doorkeeper / TECH PLAYで<strong>直近1年以内のイベント開催</strong>があるか</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>公式X・公式サイトの<strong>最終更新日</strong>が極端に古くないか</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>「次回イベント」の募集ページが実際に存在するか（紹介記事の記述だけで判断しない）</span></li>
             </ul>
           </div>
         </div>
@@ -412,15 +412,15 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">Grace Hopper Celebration（GHC）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>国際・米国開催</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">Grace Hopper Celebration（GHC）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>国際・米国開催</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 米国の非営利団体AnitaB.orgが主催する、世界最大級の「テクノロジー分野の女性」のためのカンファレンス。技術セッション・キャリア支援・採用ブースが一体になっており、世界中から技術者・研究者・学生が集まります。2026年は<strong>10月27日〜30日に米国アナハイム</strong>での開催が公式サイトで告知されています。参加費・渡航費はかかりますが、企業によっては研修・スポンサー枠で社員を派遣する例もあるため、所属企業の制度を確認する価値があります。
               </p>
               <p className="text-xs text-text-light mt-3">出典: AnitaB.org GHC公式サイト（ghc.anitab.org）（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">IT Women Summit（旧 Women Developers Summit）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>国内・オンライン無料</span></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3 flex-wrap"><h3 className="text-lg font-bold">IT Women Summit（旧 Women Developers Summit）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>国内・オンライン無料</span></div>
               <p className="text-sm text-text-light leading-relaxed">
                 翔泳社（CodeZine）が主催してきた女性ITエンジニア向けカンファレンス「Women Developers Summit」（2021年初開催）と「Enterprise IT Womenフォーラム」が統合され、2026年5月26日に「IT Women Summit」としてオンラインで初開催されました。参加無料・オンライン形式のため、地方在住や育児中でも視聴しやすいのが特徴です。過去のWomen Developers Summitの講演資料はCodeZine上で公開されており、登壇者のキャリアの歩み方を知る資料としても活用できます。
               </p>
@@ -431,7 +431,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 選び方 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">失敗しないコミュニティの選び方</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -443,8 +443,8 @@ export default function ArticlePage() {
               ["軸2", "参加形式で選ぶ", "オンライン中心なら地方在住・育児中でも続けやすく、オフライン中心なら人間関係が深まりやすい傾向があります。託児スポンサー付きイベント（Rails Girlsの開催回など）のように、子連れ参加に配慮した企画もあるので、募集ページの記載を確認しましょう。"],
               ["軸3", "活動の「鮮度」で選ぶ", "直近1年以内にイベント開催実績があるかを必ず確認します。本記事の一覧表には確認日（2026年6月）を明記していますが、状況は変わるため、申し込み前に公式ページの最新情報を見るのが確実です。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -453,7 +453,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            これから学習を始める段階の人は、コミュニティ選びと並行して<a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>未経験からのIT転職ガイド</a>で学習ロードマップ全体を確認しておくと、参加するイベントの優先順位を付けやすくなります。
+            これから学習を始める段階の人は、コミュニティ選びと並行して<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からのIT転職ガイド</a>で学習ロードマップ全体を確認しておくと、参加するイベントの優先順位を付けやすくなります。
           </p>
         </div>
       </section>
@@ -468,22 +468,22 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>学習に使う: 「締め切り」と「質問相手」を手に入れる</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>学習に使う: 「締め切り」と「質問相手」を手に入れる</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 もくもく会は「この日までにここまでやる」という外部の締め切りとして機能します。ハンズオンイベントでは、独学で何時間も詰まるようなエラーを、その場で経験者に聞いて解決できるのが最大の価値です。LT登壇は「人に説明できるレベルまで理解する」最良の学習法でもあるので、ネタは小さくても挑戦する価値があります。
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>転職に使う: 求人票に出ない情報を集める</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>転職に使う: 求人票に出ない情報を集める</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                懇親会などで聞ける「あの会社は時短勤務の人が実際に何人いる」「リモートと言いつつ週3出社になった」といった一次情報は、転職の意思決定で最も価値があります。ただし、求人紹介・年収交渉・選考対策はコミュニティの役割ではありません。情報収集はコミュニティ、選考の実務はエージェントと役割を分けるのが効率的です。実際の転職成功パターンは<a href="/articles/success-stories/" className="underline" style={{ color: "#0891b2" }}>転職成功パターン分析</a>で解説しています。
+                懇親会などで聞ける「あの会社は時短勤務の人が実際に何人いる」「リモートと言いつつ週3出社になった」といった一次情報は、転職の意思決定で最も価値があります。ただし、求人紹介・年収交渉・選考対策はコミュニティの役割ではありません。情報収集はコミュニティ、選考の実務はエージェントと役割を分けるのが効率的です。実際の転職成功パターンは<a href="/articles/success-stories/" className="underline" style={{ color: "#7c3a55" }}>転職成功パターン分析</a>で解説しています。
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>ロールモデル探しに使う: 「完コピ」せず部分的に集める</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>ロールモデル探しに使う: 「完コピ」せず部分的に集める</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                登壇者やコミュニティの先輩の中から、「育児との両立はAさん、技術の深め方はBさん」のように<strong>複数の人から部分的に学ぶ</strong>のが現実的です。1人のロールモデルと自分の状況が完全に一致することはまずありません。管理職というキャリアに興味が出てきたら、<a href="/articles/women-manager/" className="underline" style={{ color: "#0891b2" }}>女性エンジニアの管理職キャリアガイド</a>も参考にしてください。
+                登壇者やコミュニティの先輩の中から、「育児との両立はAさん、技術の深め方はBさん」のように<strong>複数の人から部分的に学ぶ</strong>のが現実的です。1人のロールモデルと自分の状況が完全に一致することはまずありません。管理職というキャリアに興味が出てきたら、<a href="/articles/women-manager/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの管理職キャリアガイド</a>も参考にしてください。
               </p>
             </div>
           </div>
@@ -491,7 +491,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 心理的ハードル */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">参加の心理的ハードルを下げる方法</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -507,8 +507,8 @@ export default function ArticlePage() {
               ["STEP4", "懇親会で1人と話す・Slackに書き込む", "全員と仲良くなる必要はありません。1回のイベントで1人と話せれば成功と考えましょう。オンラインコミュニティなら自己紹介チャンネルへの書き込みが最初の接点になります。"],
               ["STEP5", "5分LTに挑戦する", "「学習でつまずいた話」のような身近なテーマで十分です。登壇すると顔を覚えてもらえて以後の参加が楽になるうえ、資料は職務経歴書に書ける実績になります。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -517,7 +517,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            無理のないペース（月1回程度）で長く続けることが、結果的に最も大きな資産になります。働き方やキャリアを長期で考えるヒントは<a href="/articles/long-career-tips/" className="underline" style={{ color: "#0891b2" }}>長く働き続けるためのコツ</a>もあわせてどうぞ。
+            無理のないペース（月1回程度）で長く続けることが、結果的に最も大きな資産になります。働き方やキャリアを長期で考えるヒントは<a href="/articles/long-career-tips/" className="underline" style={{ color: "#7c3a55" }}>長く働き続けるためのコツ</a>もあわせてどうぞ。
           </p>
         </div>
       </section>
@@ -528,12 +528,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -543,9 +543,9 @@ export default function ArticlePage() {
       </section>
 
       {/* 出典 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
             <h2 className="text-lg font-bold mb-4">本記事の出典・確認方法</h2>
             <p className="text-sm text-text-light leading-relaxed mb-3">
               本記事で紹介したコミュニティ・イベントは、すべて以下の公式ソースで活動状況を確認しています（確認日: 2026年6月12日）。活動状況は変わる可能性があるため、参加前に必ず各公式ページをご確認ください。
@@ -572,15 +572,15 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/long-career-tips/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>長く働き続けるためのコツ</h3><p className="text-sm text-text-light">キャリアを途切れさせない働き方</p></a>
-            <a href="/articles/women-manager/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの管理職キャリア</h3><p className="text-sm text-text-light">マネジメントへ進む選択肢</p></a>
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からのIT転職ガイド</h3><p className="text-sm text-text-light">ゼロからエンジニアになる方法</p></a>
-            <a href="/articles/success-stories/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>転職成功パターン分析</h3><p className="text-sm text-text-light">統計データから見る成功の共通点</p></a>
+            <a href="/articles/long-career-tips/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>長く働き続けるためのコツ</h3><p className="text-sm text-text-light">キャリアを途切れさせない働き方</p></a>
+            <a href="/articles/women-manager/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの管理職キャリア</h3><p className="text-sm text-text-light">マネジメントへ進む選択肢</p></a>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からのIT転職ガイド</h3><p className="text-sm text-text-light">ゼロからエンジニアになる方法</p></a>
+            <a href="/articles/success-stories/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>転職成功パターン分析</h3><p className="text-sm text-text-light">統計データから見る成功の共通点</p></a>
           </div>
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
       </section>
     </>
   );

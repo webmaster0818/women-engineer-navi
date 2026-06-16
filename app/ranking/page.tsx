@@ -507,8 +507,8 @@ function RankBadge({ rank }: { rank: number }) {
 function RecommendationBadge({ score }: { score: number }) {
   const labels: Record<number, { text: string; color: string }> = {
     5: { text: "非常におすすめ", color: "bg-primary text-white" },
-    4: { text: "おすすめ", color: "bg-teal-100 text-teal-800" },
-    3: { text: "条件付きおすすめ", color: "bg-blue-100 text-blue-800" },
+    4: { text: "おすすめ", color: "bg-[#efe3d8] text-[#5f2c42]" },
+    3: { text: "条件付きおすすめ", color: "bg-[#efe3d8] text-[#5f2c42]" },
   };
   const badge = labels[score] || labels[3];
 
@@ -795,7 +795,7 @@ export default function RankingPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   <div>
                     <h4 className="font-bold text-sm mb-3 flex items-center gap-2">
-                      <span className="w-6 h-6 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center text-xs font-bold">
+                      <span className="w-6 h-6 rounded-full bg-[#efe3d8] text-[#7c3a55] flex items-center justify-center text-xs font-bold">
                         &#9675;
                       </span>
                       メリット
@@ -806,7 +806,7 @@ export default function RankingPage() {
                           key={i}
                           className="text-sm text-text-light flex items-start gap-2"
                         >
-                          <span className="text-teal-500 mt-1 shrink-0">
+                          <span className="text-[#7c3a55] mt-1 shrink-0">
                             &#10003;
                           </span>
                           {s}
@@ -895,7 +895,7 @@ export default function RankingPage() {
                             val === "◎"
                               ? "text-primary font-bold"
                               : val === "○"
-                                ? "text-teal-600"
+                                ? "text-[#7c3a55]"
                                 : val === "△"
                                   ? "text-yellow-600"
                                   : val === "−"

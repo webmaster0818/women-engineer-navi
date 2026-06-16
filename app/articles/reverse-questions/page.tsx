@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               選考対策ガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 逆質問とは？なぜ合否を左右するのか</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 好印象な逆質問例（カテゴリ別）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. フェーズ別の逆質問（一次・最終・役員）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. やってはいけないNG逆質問</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 女性がキャリア継続を角を立てず確認する聞き方</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 逆質問の準備法（5STEP）</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 終わり方・締めのひと言</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 逆質問とは？なぜ合否を左右するのか</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 好印象な逆質問例（カテゴリ別）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. フェーズ別の逆質問（一次・最終・役員）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. やってはいけないNG逆質問</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 女性がキャリア継続を角を立てず確認する聞き方</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 逆質問の準備法（5STEP）</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 終わり方・締めのひと言</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -163,25 +163,25 @@ export default function ArticlePage() {
               面接官が逆質問を通して見ているのは、主に「志望度の高さ」「業務・技術への理解と意欲」「自社とのカルチャーフィット」「一緒に働くイメージが持てるか」の4点です。良い逆質問は、それ自体が「この人はうちの開発をちゃんとイメージできている」という自己PRになります。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>面接官が逆質問で評価している4つのこと</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>面接官が逆質問で評価している4つのこと</h3>
             <ul className="space-y-3">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>志望度</strong>：本気で入社を考えているか。調べ込んだうえでの質問か</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>業務・技術理解</strong>：開発の実態を具体的にイメージできているか</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>カルチャーフィット</strong>：チームの価値観や働き方に合いそうか</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>就業の継続性</strong>：長く働く意思があるか、入社後に活躍する姿が描けるか</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>志望度</strong>：本気で入社を考えているか。調べ込んだうえでの質問か</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>業務・技術理解</strong>：開発の実態を具体的にイメージできているか</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>カルチャーフィット</strong>：チームの価値観や働き方に合いそうか</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>就業の継続性</strong>：長く働く意思があるか、入社後に活躍する姿が描けるか</span></li>
             </ul>
           </div>
-          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#ecfeff" }}>
+          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#efe3d8" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#0891b2" }}>POINT</strong>　逆質問は「企業を審査する」だけの場ではありません。質問内容を通じて「あなたがどんなエンジニアか」を伝える、最後の自己PRの時間だと考えると質が上がります。
+              <strong style={{ color: "#7c3a55" }}>POINT</strong>　逆質問は「企業を審査する」だけの場ではありません。質問内容を通じて「あなたがどんなエンジニアか」を伝える、最後の自己PRの時間だと考えると質が上がります。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec2 好印象な逆質問例（カテゴリ別） */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">好印象な逆質問例（カテゴリ別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -191,44 +191,44 @@ export default function ArticlePage() {
           </div>
 
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#0891b2" }}>① 技術・開発体制について</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>意欲が伝わる</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#7c3a55" }}>① 技術・開発体制について</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>意欲が伝わる</span></div>
               <ul className="space-y-3 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「現在のメインの技術スタックと、今後の技術選定の方針について教えていただけますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「コードレビューやテストはどのような運用になっていますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「CI/CDや開発環境の自動化はどの程度進んでいますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「技術的負債に対して、チームではどのように向き合っていますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「新しい技術の導入は、どのような流れで意思決定されていますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「現在のメインの技術スタックと、今後の技術選定の方針について教えていただけますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「コードレビューやテストはどのような運用になっていますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「CI/CDや開発環境の自動化はどの程度進んでいますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「技術的負債に対して、チームではどのように向き合っていますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「新しい技術の導入は、どのような流れで意思決定されていますか？」</span></li>
               </ul>
               <p className="text-xs text-text-light mt-4 leading-relaxed">技術的負債や品質への質問は「長期目線で良いものを作りたい人」という印象につながり、評価されやすいテーマです。</p>
             </div>
 
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#7c3aed" }}>② チーム・働き方の実態について</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>カルチャー確認</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#7c3a55" }}>② チーム・働き方の実態について</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>カルチャー確認</span></div>
               <ul className="space-y-3 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5">▶</span><span>「配属予定チームの構成（人数・役割）や、1日の業務の流れを教えていただけますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5">▶</span><span>「チーム内でのコミュニケーションは、どのようなツールや頻度で行われていますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5">▶</span><span>「入社後のオンボーディングや、キャッチアップの体制について伺えますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5">▶</span><span>「開発はチームでの協業が中心ですか、それとも個人で完結する形が多いですか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「配属予定チームの構成（人数・役割）や、1日の業務の流れを教えていただけますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「チーム内でのコミュニケーションは、どのようなツールや頻度で行われていますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「入社後のオンボーディングや、キャッチアップの体制について伺えますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「開発はチームでの協業が中心ですか、それとも個人で完結する形が多いですか？」</span></li>
               </ul>
             </div>
 
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#0891b2" }}>③ 評価制度・成長について</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>成長意欲</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#7c3a55" }}>③ 評価制度・成長について</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>成長意欲</span></div>
               <ul className="space-y-3 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「エンジニアの評価は、どのような基準・サイクルで行われていますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「技術を深める道と、マネジメントに進む道、両方のキャリアパスは用意されていますか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「活躍されているエンジニアの方に共通する特徴があれば教えてください。」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5">▶</span><span>「勉強会や書籍・カンファレンス参加など、学習を支援する制度はありますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「エンジニアの評価は、どのような基準・サイクルで行われていますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「技術を深める道と、マネジメントに進む道、両方のキャリアパスは用意されていますか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「活躍されているエンジニアの方に共通する特徴があれば教えてください。」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「勉強会や書籍・カンファレンス参加など、学習を支援する制度はありますか？」</span></li>
               </ul>
             </div>
 
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#7c3aed" }}>④ 入社後を見据えた質問（汎用ストック）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>どこでも使える</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-4"><h3 className="text-lg font-bold" style={{ color: "#7c3a55" }}>④ 入社後を見据えた質問（汎用ストック）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>どこでも使える</span></div>
               <ul className="space-y-3 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5">▶</span><span>「入社までに勉強しておくと役立つ技術や領域があれば教えてください。」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5">▶</span><span>「入社後、最初の3か月で期待される役割やゴールはどのようなものですか？」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5">▶</span><span>「先ほど伺った◯◯について、もう少し具体的にお聞きしてもよろしいですか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「入社までに勉強しておくと役立つ技術や領域があれば教えてください。」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「入社後、最初の3か月で期待される役割やゴールはどのようなものですか？」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「先ほど伺った◯◯について、もう少し具体的にお聞きしてもよろしいですか？」</span></li>
               </ul>
               <p className="text-xs text-text-light mt-4 leading-relaxed">これらは意欲が伝わり、どの企業・どのフェーズでも使える便利な質問です。「思いつかない時の最後の一手」として常に1つ持っておきましょう。</p>
             </div>
@@ -248,51 +248,51 @@ export default function ArticlePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>フェーズ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な相手</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>聞くべきテーマ</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>フェーズ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な相手</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>聞くべきテーマ</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>一次（人事・現場）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>人事・現場エンジニア</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術スタック・開発体制・チーム構成・1日の業務の流れなど具体的な実務</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>一次（人事・現場）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>人事・現場エンジニア</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術スタック・開発体制・チーム構成・1日の業務の流れなど具体的な実務</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>二次（マネージャー）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>開発リーダー・部門長</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>評価制度・キャリアパス・チームの目標・育成方針</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>二次（マネージャー）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>開発リーダー・部門長</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>評価制度・キャリアパス・チームの目標・育成方針</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>最終・役員</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>役員・社長・CTO</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>事業の方向性・組織が目指す姿・今後注力する領域・長期就業のビジョン</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>最終・役員</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>役員・社長・CTO</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>事業の方向性・組織が目指す姿・今後注力する領域・長期就業のビジョン</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <div className="grid gap-6 md:grid-cols-1 mt-8">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>一次面接（人事・現場）で使える例</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>一次面接（人事・現場）で使える例</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・「配属予定のチームでは、どんな技術スタックで開発されていますか？」</li>
                 <li>・「入社後のオンボーディングはどのような流れになっていますか？」</li>
                 <li>・「現場で今いちばん課題に感じている開発テーマは何でしょうか？」</li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>二次面接（マネージャー）で使える例</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>二次面接（マネージャー）で使える例</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・「エンジニアの評価はどのような観点で行われ、どう昇給・昇格に反映されますか？」</li>
                 <li>・「チームとして、これから半年〜1年で達成したい目標は何ですか？」</li>
                 <li>・「メンバーの成長のために、マネージャーとして意識されていることはありますか？」</li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>最終・役員面接で使える例</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>最終・役員面接で使える例</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・「今後3〜5年で、エンジニア組織をどのような姿にしていきたいとお考えですか？」</li>
                 <li>・「事業として、これから最も注力していきたい領域はどこでしょうか？」</li>
@@ -304,7 +304,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 NG逆質問 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">やってはいけないNG逆質問</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -313,30 +313,30 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#f97066" }}>✕ 調べればわかる質問</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>✕ 調べればわかる質問</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">求人票や採用サイトに載っている内容を聞くと「事前に調べていない＝志望度が低い」と見られます。</p>
               <p className="text-xs text-text-light">NG例：「事業内容を教えてください」「設立は何年ですか？」</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#f97066" }}>✕ 待遇・休みばかりの質問</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>✕ 待遇・休みばかりの質問</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">残業・有給・給与だけを並べると「業務以外にしか関心がない」印象に。聞くなら業務系の質問の後に、文脈を添えて。</p>
               <p className="text-xs text-text-light">NG例：「残業は多いですか？」「有給は取りやすいですか？」を真っ先に聞く</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#f97066" }}>✕ すでに話に出た内容の質問</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>✕ すでに話に出た内容の質問</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">面接中に説明済みのことを聞くと「話を聞いていなかった」と受け取られます。会話のメモを取り、深掘りに切り替えましょう。</p>
               <p className="text-xs text-text-light">対策：「先ほどの◯◯について、さらに伺うと…」と接続する</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#f97066" }}>✕ 相手が答えにくい・失礼な質問</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>✕ 相手が答えにくい・失礼な質問</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">他社批判や、相手の役職で答えられないことを聞くのは逆効果。役員に現場の細かい運用を聞くなどはミスマッチです。</p>
               <p className="text-xs text-text-light">NG例：「競合のA社と比べて劣っている点は？」</p>
             </div>
           </div>
-          <div className="rounded-xl p-5 mt-6 bg-white border" style={{ borderColor: "#f97066" }}>
+          <div className="rounded-xl p-5 mt-6 bg-white border" style={{ borderColor: "#c15f47" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#f97066" }}>最大のNGは「特にありません」</strong>　質問ゼロは志望度が低いと見なされる最も避けたいパターンです。どうしても出ない時は、入社後を見据えた汎用質問（②章④）を1つ用意しておきましょう。
+              <strong style={{ color: "#c15f47" }}>最大のNGは「特にありません」</strong>　質問ゼロは志望度が低いと見なされる最も避けたいパターンです。どうしても出ない時は、入社後を見据えた汎用質問（②章④）を1つ用意しておきましょう。
             </p>
           </div>
         </div>
@@ -352,44 +352,44 @@ export default function ArticlePage() {
             </p>
           </div>
 
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>角を立てない3つのコツ</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>角を立てない3つのコツ</h3>
             <ul className="space-y-3 text-sm text-text-light">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">1.</span><span><strong>貢献意欲とセットにする</strong>：「長く技術者として貢献したいので」を前置きに添える</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">2.</span><span><strong>クッション言葉を使う</strong>：「差し支えなければ」「可能であれば」で配慮を伝える</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">3.</span><span><strong>制度より実績を聞く</strong>：「制度はありますか」ではなく「取得・活躍の事例」を尋ねると実態がわかる</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">1.</span><span><strong>貢献意欲とセットにする</strong>：「長く技術者として貢献したいので」を前置きに添える</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">2.</span><span><strong>クッション言葉を使う</strong>：「差し支えなければ」「可能であれば」で配慮を伝える</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">3.</span><span><strong>制度より実績を聞く</strong>：「制度はありますか」ではなく「取得・活躍の事例」を尋ねると実態がわかる</span></li>
             </ul>
           </div>
 
           <div className="space-y-5 mt-8">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3aed" }}>産休・育休からの復帰について</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>産休・育休からの復帰について</h3>
               <p className="text-sm text-text-light leading-relaxed">「長期的に技術者として貢献したいと考えています。<strong>差し支えなければ</strong>、産休・育休から復帰されて活躍されている方の事例や、復帰率について伺えますか？」</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3aed" }}>時短勤務・両立について</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>時短勤務・両立について</h3>
               <p className="text-sm text-text-light leading-relaxed">「将来的にライフイベントを迎えても長く開発を続けたいと考えています。時短勤務をされながら活躍されているエンジニアの方は、どのような働き方をされていますか？」</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3aed" }}>リモート・フレックスの実態について</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>リモート・フレックスの実態について</h3>
               <p className="text-sm text-text-light leading-relaxed">「腰を据えて成果で貢献していきたいと考えています。<strong>可能であれば</strong>、リモートやフレックスが実際にどの程度活用されているか、運用の実態を教えていただけますか？」</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3aed" }}>女性エンジニアの活躍・ロールモデルについて</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>女性エンジニアの活躍・ロールモデルについて</h3>
               <p className="text-sm text-text-light leading-relaxed">「長くキャリアを築きたいと考えています。御社で長く活躍されている女性エンジニアの方や、ロールモデルとなる方はいらっしゃいますか？」</p>
             </div>
           </div>
 
-          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#ecfeff" }}>
+          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#efe3d8" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#0891b2" }}>面接で聞きにくいときは</strong>　復帰率の数字や女性管理職比率、リモートの本当の運用実態など、本人には聞きづらい情報は、女性のキャリアに詳しい転職エージェント経由で確認するのが確実です。求人票に出ない実態を代わりに引き出してもらえます。
+              <strong style={{ color: "#7c3a55" }}>面接で聞きにくいときは</strong>　復帰率の数字や女性管理職比率、リモートの本当の運用実態など、本人には聞きづらい情報は、女性のキャリアに詳しい転職エージェント経由で確認するのが確実です。求人票に出ない実態を代わりに引き出してもらえます。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 準備法 STEP */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">逆質問の準備法（5STEP）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -403,8 +403,8 @@ export default function ArticlePage() {
               ["STEP4", "『なぜ聞くのか』を添える形にする", "質問に意図（貢献意欲・長期就業など）を添えると、ただの確認が自己PRに変わります。待遇系はクッション言葉も準備。"],
               ["STEP5", "面接中はメモを取り、深掘りに備える", "会話で出た話題は最良の質問の素。『先ほどの◯◯について』と深掘りできるよう、聞きながらキーワードをメモします。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -425,12 +425,12 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-2" style={{ color: "#0891b2" }}>質問がもう無いとき</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>質問がもう無いとき</h3>
               <p className="text-sm text-text-light leading-relaxed">「丁寧にお答えいただきありがとうございました。疑問に思っていた点がクリアになり、より一層入社したいという気持ちが強まりました。」</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3aed" }}>意欲を添えて締めるとき</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>意欲を添えて締めるとき</h3>
               <p className="text-sm text-text-light leading-relaxed">「お話を伺い、◯◯の領域で自分の経験を活かして貢献できそうだと感じました。本日はありがとうございました。」</p>
             </div>
           </div>
@@ -438,30 +438,30 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>逆質問の精度を上げるには、その企業の開発体制や女性の働き方の実態を事前に知っておくことが近道です。IT特化型と女性特化型のエージェントを併用すると、面接で聞きにくい情報も補えます。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し、企業の技術スタックや開発体制に精通したアドバイザーが在籍。逆質問のネタになる「現場のリアル」を事前に共有してくれるため、面接対策に強みがあります。女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、面接ごとの傾向や過去の質問例の情報が豊富。フェーズ別にどんな逆質問が刺さるかまで踏み込んだアドバイスがもらえ、年収交渉力にも定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休の取得・復帰実績やリモートの運用実態など、面接で聞きにくい情報を代わりに確認してくれます。女性のキャリア継続に配慮した求人を中心に、安心して長く働ける企業を絞り込めます。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">面接対策はエージェント活用が近道</p>
             <p className="text-sm text-text-light mb-4">複数登録して、逆質問のネタになる企業情報を集めましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -472,12 +472,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -487,14 +487,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>エンジニア転職の面接対策ガイド</h3><p className="text-sm text-text-light">よく聞かれる質問と答え方の基本</p></a>
-            <a href="/articles/casual-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>カジュアル面談の進め方</h3><p className="text-sm text-text-light">選考前の情報収集で差をつける</p></a>
-            <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>技術面接の対策ガイド</h3><p className="text-sm text-text-light">技術質問への備え方を解説</p></a>
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の選び方</h3><p className="text-sm text-text-light">長く働ける会社を見極める</p></a>
+            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>エンジニア転職の面接対策ガイド</h3><p className="text-sm text-text-light">よく聞かれる質問と答え方の基本</p></a>
+            <a href="/articles/casual-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>カジュアル面談の進め方</h3><p className="text-sm text-text-light">選考前の情報収集で差をつける</p></a>
+            <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>技術面接の対策ガイド</h3><p className="text-sm text-text-light">技術質問への備え方を解説</p></a>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の選び方</h3><p className="text-sm text-text-light">長く働ける会社を見極める</p></a>
           </div>
         </div>
       </section>
@@ -502,10 +502,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。面接対策から逆質問の準備まで、あなたに合ったサポートを受けられます。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

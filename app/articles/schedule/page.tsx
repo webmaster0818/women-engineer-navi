@@ -95,11 +95,11 @@ export default function ArticlePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "転職スケジュール完全ガイド" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>転職ガイド</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>転職ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               エンジニア転職のスケジュール完全ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">平均期間・逆算プラン・在職中の進め方【2026年】</span>
@@ -112,23 +112,23 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>先に結論：転職スケジュールはこの4点で決まる</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：転職スケジュールはこの4点で決まる</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>全体は3〜6ヶ月が標準。</strong>準備2〜4週間→応募・選考1〜2ヶ月→内定・退職交渉2週間〜1ヶ月→引き継ぎ・入社2週間〜1ヶ月。1社あたりの応募から内定応諾までは平均約1ヶ月です（出典: マイナビ「中途採用状況調査2025年版」Web面接31.3日）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>国の統計でも選考は短期決戦。</strong>転職活動開始から離職までの期間は「1ヶ月以上3ヶ月未満」が28.8%で最多。離職から次の就職までも「離職期間なし」26.1%＋「1ヶ月未満」27.6%で半数超がほぼブランクなしで移っています（出典: 厚生労働省「令和2年転職者実態調査」）。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>起点は「入社希望日」からの逆算。</strong>退職は法律上2週間前の申し出で可能ですが（民法627条1項）、就業規則の1〜2ヶ月規定と引き継ぎ・有給消化を踏まえ、内定から入社まで1.5〜2ヶ月を見込むのが現実的です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>ライフイベントは動かせない固定点。</strong>賞与支給日（支給日在籍要件）、保育園の4月入園（申込は前年秋）、育休復帰、転職直後の育休制約（入社1年未満は労使協定で除外可）を先にカレンダーへ置いてから計画を組みます。</span>
               </li>
             </ul>
@@ -139,15 +139,15 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. データで見る転職活動の期間【出典付き】</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. フェーズ別タイムラインと逆算プラン</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 在職中に進める場合のスケジュール調整</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 開始時期の決め方：ボーナス・期初・ライフイベント</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 退職〜入社の法的ルール（民法627条・就業規則・有給消化）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. データで見る転職活動の期間【出典付き】</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. フェーズ別タイムラインと逆算プラン</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 在職中に進める場合のスケジュール調整</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 開始時期の決め方：ボーナス・期初・ライフイベント</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 退職〜入社の法的ルール（民法627条・就業規則・有給消化）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -171,37 +171,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse bg-white">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>指標</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>データ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>指標</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>データ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>活動開始〜離職までの期間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「1ヶ月以上3ヶ月未満」28.8%（最多）、「1ヶ月未満」18.3%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚労省「令和2年転職者実態調査」</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>活動開始〜離職までの期間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「1ヶ月以上3ヶ月未満」28.8%（最多）、「1ヶ月未満」18.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚労省「令和2年転職者実態調査」</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>離職〜次の就職までの期間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「離職期間なし」26.1%＋「1ヶ月未満」27.6%＝53.7%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚労省「令和2年転職者実態調査」</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1社の応募〜内定応諾</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均約1ヶ月（Web面接31.3日・対面29.2日）、応募〜一次面接11.8日</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>マイナビ「中途採用状況調査2025年版」</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>面接回数</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均2.7回（対面）〜3.0回（Web）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>マイナビ「中途採用状況調査2025年版」</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>離職〜次の就職までの期間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「離職期間なし」26.1%＋「1ヶ月未満」27.6%＝53.7%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚労省「令和2年転職者実態調査」</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均応募社数</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>31.9社（2025年4月〜2026年3月の転職成功者）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>doda「転職成功者の平均応募社数」</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1社の応募〜内定応諾</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均約1ヶ月（Web面接31.3日・対面29.2日）、応募〜一次面接11.8日</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>マイナビ「中途採用状況調査2025年版」</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>面接回数</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均2.7回（対面）〜3.0回（Web）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>マイナビ「中途採用状況調査2025年版」</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均応募社数</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>31.9社（2025年4月〜2026年3月の転職成功者）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>doda「転職成功者の平均応募社数」</td>
                 </tr>
               </tbody>
             </table>
@@ -209,16 +209,16 @@ export default function ArticlePage() {
           <p className="text-xs text-text-light mt-3 leading-relaxed">
             出典: 厚生労働省「令和2年転職者実態調査の概況」、マイナビキャリアリサーチLab「中途採用状況調査2025年版（2024年実績）」、doda（パーソルキャリア）「転職成功者の平均応募社数」、マイナビキャリアリサーチLab「転職活動実態調査（2025年）」（いずれも2026年6月参照）
           </p>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f0e7dd", border: "1px solid #d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong>エンジニア特有の補正:</strong> Web系を中心にコーディングテストや技術面接・カジュアル面談が選考に挟まるため、書類と面接だけで進む職種より<strong>1〜2週間長め</strong>に見積もるのが安全です。選考フローの全体像と各段階の対策は<a href="/articles/interview-guide/" className="underline" style={{ color: "#0891b2" }}>面接対策ガイド</a>で解説しています。
+              <strong>エンジニア特有の補正:</strong> Web系を中心にコーディングテストや技術面接・カジュアル面談が選考に挟まるため、書類と面接だけで進む職種より<strong>1〜2週間長め</strong>に見積もるのが安全です。選考フローの全体像と各段階の対策は<a href="/articles/interview-guide/" className="underline" style={{ color: "#7c3a55" }}>面接対策ガイド</a>で解説しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec2 フェーズ別タイムライン */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">フェーズ別タイムラインと逆算プラン</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -229,80 +229,80 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse bg-white">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>フェーズ</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>目安期間</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主なタスク</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>フェーズ</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>目安期間</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主なタスク</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>① 準備</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2〜4週間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実績の棚卸し・職務経歴書/スキルシート作成・エージェント登録・希望条件の整理</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>① 準備</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2〜4週間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実績の棚卸し・職務経歴書/スキルシート作成・エージェント登録・希望条件の整理</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>② 応募・選考</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1〜2ヶ月</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>複数社へ並行応募・コーディングテスト・面接2〜3回（1社あたり応募〜内定応諾は平均約1ヶ月）</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>② 応募・選考</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1〜2ヶ月</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>複数社へ並行応募・コーディングテスト・面接2〜3回（1社あたり応募〜内定応諾は平均約1ヶ月）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>③ 内定・退職交渉</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2週間〜1ヶ月</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>オファー面談で条件確認→内定承諾→入社日合意→直属の上司へ退職を申し出</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>③ 内定・退職交渉</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2週間〜1ヶ月</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>オファー面談で条件確認→内定承諾→入社日合意→直属の上司へ退職を申し出</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>④ 引き継ぎ・入社</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2週間〜1ヶ月</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>引き継ぎ資料の整備・有給消化・退職手続き・入社書類の準備</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>④ 引き継ぎ・入社</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2週間〜1ヶ月</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>引き継ぎ資料の整備・有給消化・退職手続き・入社書類の準備</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-2">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>PHASE 1</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>PHASE 1</span>
                 <h3 className="text-lg font-bold">準備（2〜4週間）— ここで全体の質が決まる</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 実績の棚卸しと書類作成が中心です。職務経歴書に書いた内容はそのまま面接の質問リストになるため、<strong>「数字つきの実績」をこの段階で言語化しておくと、後のフェーズ全てが速くなります</strong>。dodaの集計では転職成功者の平均応募社数は31.9社。書類は一度作って終わりではなく、応募しながら磨く前提で「8割の完成度でまず出せる状態」を目指しましょう。
-                → 書き方の詳細は<a href="/articles/resume-guide/" className="underline" style={{ color: "#0891b2" }}>職務経歴書・スキルシートの書き方</a>
+                → 書き方の詳細は<a href="/articles/resume-guide/" className="underline" style={{ color: "#7c3a55" }}>職務経歴書・スキルシートの書き方</a>
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-2">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>PHASE 2</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>PHASE 2</span>
                 <h3 className="text-lg font-bold">応募・選考（1〜2ヶ月）— 並行で進めて足並みを揃える</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 応募から一次面接まで平均11.8日、内定応諾まで約1ヶ月（出典: マイナビ「中途採用状況調査2025年版」）。1社ずつ順番に受けると応募社数×1ヶ月かかってしまうため、<strong>5〜10社程度を同時並行で進め、選考の進度を揃える</strong>のが鉄則です。本命の選考が遅れている間に他社の内定回答期限が来る「時間切れ」が最も多い失敗パターン。エージェント経由なら選考スピードの調整を依頼できます。面接は平均2.7〜3.0回、IT業種の一次面接は8割超がWeb面接です。
-                → 面接の準備は<a href="/articles/interview-guide/" className="underline" style={{ color: "#0891b2" }}>面接対策ガイド</a>
+                → 面接の準備は<a href="/articles/interview-guide/" className="underline" style={{ color: "#7c3a55" }}>面接対策ガイド</a>
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-2">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>PHASE 3</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>PHASE 3</span>
                 <h3 className="text-lg font-bold">内定・退職交渉（2週間〜1ヶ月）— 順番を間違えない</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 安全な順番は<strong>「(1)労働条件通知書を書面で確認→(2)入社日を合意→(3)内定承諾→(4)現職に退職を申し出る」</strong>です。退職の意思表示は必ず内定承諾の後。内定の回答期限は一般に数日〜1週間程度なので、オファー面談で年収・働き方・産育休の運用などを確認し、迷う材料を潰しておきます。退職の切り出しは退職希望日の1〜1.5ヶ月前が実務的な目安です。
-                → 条件確認の項目は<a href="/articles/offer-meeting/" className="underline" style={{ color: "#0891b2" }}>オファー面談で確認すべきこと</a>
+                → 条件確認の項目は<a href="/articles/offer-meeting/" className="underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきこと</a>
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-2">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>PHASE 4</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>PHASE 4</span>
                 <h3 className="text-lg font-bold">引き継ぎ・入社（2週間〜1ヶ月）— エンジニアは引き継ぎが重い</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 エンジニアはコード・運用手順・アカウント権限・暗黙知のドキュメント化など、引き継ぎ資料の整備に時間がかかります。残有給の消化期間も含めて、<strong>退職日と入社日の間に余裕を持たせる</strong>のがトラブル回避のコツ。社会保険の空白を作らないため、退職日の翌日を入社日にする（月末退職→翌月1日入社）設計が一般的です。
-                → 円満退職の手順は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#0891b2" }}>円満退職・退職交渉の進め方</a>
+                → 円満退職の手順は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#7c3a55" }}>円満退職・退職交渉の進め方</a>
               </p>
             </div>
           </div>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#ecfeff", border: "1px solid #0891b2" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>逆算プランの例：10月1日入社にしたい場合</h3>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #7c3a55" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>逆算プランの例：10月1日入社にしたい場合</h3>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li><strong>6月上旬:</strong> 準備開始（棚卸し・書類・エージェント登録）</li>
               <li><strong>6月下旬〜8月上旬:</strong> 応募・選考（5〜10社並行、技術面接・コーディングテスト含む）</li>
@@ -327,35 +327,35 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>1. 全体期間は長め（3〜6ヶ月）に見積もる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>1. 全体期間は長め（3〜6ヶ月）に見積もる</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 平日夜と週末しか使えない分、書類準備や企業研究のペースは離職後活動より遅くなります。「準備2週間」を「準備1ヶ月」に、選考も面接日程の調整分だけ後ろ倒しになる前提で組みましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>2. 面接はWeb面接・夜間枠に寄せて消耗を減らす</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>2. 面接はWeb面接・夜間枠に寄せて消耗を減らす</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 IT・通信業種では一次面接の8割超がWeb面接です（出典: マイナビ「中途採用状況調査2025年版」）。一次〜二次はオンライン・平日夜に集約し、有給や半休は最終面接など対面が必要な場面に温存するのが効率的。エージェントに「平日夜・オンライン希望」と最初に伝えておくと日程調整がまとまります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>3. 現職の繁忙期と退職時期の衝突を先に避ける</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#c15f47" }}>3. 現職の繁忙期と退職時期の衝突を先に避ける</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 リリース直前やプロジェクトの山場に退職交渉が重なると、引き止めが強くなり円満退職が難しくなります。逆算の段階で「この月に退職を切り出すことになるが、現職のカレンダー的に現実的か」を確認しておきましょう。
               </p>
             </div>
           </div>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f0e7dd", border: "1px solid #d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              会社に知られない進め方、平日面接の具体的な日程調整術、育児と両立する時間の作り方など、<strong>在職中ならではの実務テクニック</strong>は<a href="/articles/job-hunting-while-employed/" className="underline" style={{ color: "#0891b2" }}>在職中の転職活動の進め方ガイド</a>で詳しく解説しています。本記事は全体スケジュールの設計図として併せてお使いください。
+              会社に知られない進め方、平日面接の具体的な日程調整術、育児と両立する時間の作り方など、<strong>在職中ならではの実務テクニック</strong>は<a href="/articles/job-hunting-while-employed/" className="underline" style={{ color: "#7c3a55" }}>在職中の転職活動の進め方ガイド</a>で詳しく解説しています。本記事は全体スケジュールの設計図として併せてお使いください。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec4 タイミング論 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">開始時期の決め方：ボーナス・期初・ライフイベント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -364,8 +364,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>固定点1: 賞与支給日 —「支給日在籍要件」を確認する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>固定点1: 賞与支給日 —「支給日在籍要件」を確認する</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">
                 多くの企業は就業規則等で「賞与は支給日に在籍する者に支給する」と定めており、この<strong>支給日在籍要件は判例上有効</strong>とされています（最高裁昭和57年10月7日・大和銀行事件）。支給日前に退職すると、算定期間を満勤していても賞与は受け取れないのが原則です。国家公務員の賞与（期末・勤勉手当）が6月30日・12月10日支給と定められているように、民間でも夏は6月下旬〜7月上旬・冬は12月上旬の支給が多数派です。
               </p>
@@ -373,20 +373,20 @@ export default function ArticlePage() {
                 賞与を受け取ってから動く場合の典型形は「<strong>6月末〜7月に賞与受給→7月に退職交渉→9〜10月入社</strong>」「<strong>12月に賞与受給→年明けに退職交渉→2〜4月入社</strong>」。受給後すぐの退職申し出は法的に問題ありませんが、自社の就業規則で支給日と在籍要件を必ず確認してから逆算しましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>固定点2: 期初入社（4月・10月）— こだわりすぎない</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>固定点2: 期初入社（4月・10月）— こだわりすぎない</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 4月・10月の期初は組織変更や予算の関係で受け入れ態勢が整いやすく、中途入社者が複数同時に入るためオンボーディングが手厚い傾向があります。一方、エンジニアの求人は欠員補充・増員とも通年で出ており、<strong>期初を待つために2〜3ヶ月活動を止める合理性は薄い</strong>のが実情です。「結果的に期初になればラッキー」程度に考え、選考の進度を優先しましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>固定点3: ライフイベント — 保育園・育休・出産の時間軸</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>固定点3: ライフイベント — 保育園・育休・出産の時間軸</h3>
               <ul className="text-sm text-text-light space-y-3 mb-3">
                 <li>
                   <strong>保育園の4月入園:</strong> 認可保育園の4月一斉入園は、多くの自治体で<strong>前年の10〜12月に申込、1〜2月に結果通知</strong>というスケジュールです。申込時点の就労状況が利用調整（点数）に影響するため、入園申込の直前に離職期間を作るのはリスクがあります。転職するなら「申込前に入社を済ませる」か「内定通知書を就労予定の証明に使えるか自治体に確認する」のどちらかを先に決めましょう。
                 </li>
                 <li>
-                  <strong>育休からの復帰直後:</strong> 復帰→保育園の慣らし保育→生活リズムの安定までは想定外の欠勤も多く、転職活動と並行するのは負荷が高い時期です。復帰後数ヶ月は現職で勤務実績を作り、生活が回り始めてから動く方がスケジュールは崩れにくくなります。働き方の選択肢は<a href="/articles/mama-engineer/" className="underline" style={{ color: "#0891b2" }}>ママエンジニアの働き方ガイド</a>を参考にしてください。
+                  <strong>育休からの復帰直後:</strong> 復帰→保育園の慣らし保育→生活リズムの安定までは想定外の欠勤も多く、転職活動と並行するのは負荷が高い時期です。復帰後数ヶ月は現職で勤務実績を作り、生活が回り始めてから動く方がスケジュールは崩れにくくなります。働き方の選択肢は<a href="/articles/mama-engineer/" className="underline" style={{ color: "#7c3a55" }}>ママエンジニアの働き方ガイド</a>を参考にしてください。
                 </li>
                 <li>
                   <strong>転職直後の妊娠・育休:</strong> 育児・介護休業法では、労使協定により<strong>入社1年未満の労働者を育児休業の対象から除外できます</strong>。また育児休業給付金には「休業開始前2年間に賃金支払基礎日数11日以上の月が12ヶ月以上」という要件があります（出典: 厚生労働省「育児・介護休業法のあらまし」、ハローワーク「育児休業給付」）。近い将来の出産を考えている場合は、労使協定の有無と育休取得実績をオファー面談で確認しておくと、入社後のギャップを避けられます。
@@ -413,46 +413,46 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>法律上の最短は「申し出から2週間」（民法627条1項）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>法律上の最短は「申し出から2週間」（民法627条1項）</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 期間の定めのない雇用（正社員）の場合、民法627条1項は「解約の申入れの日から二週間を経過することによって終了する」と定めており、<strong>会社の承諾がなくても退職は成立します</strong>。「退職は認めない」「後任が決まるまで辞めさせない」という引き止めに法的な拘束力はありません（出典: e-Gov法令検索「民法」第627条、2026年6月参照）。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>就業規則の「1ヶ月前」とどちらが優先か</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>就業規則の「1ヶ月前」とどちらが優先か</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 就業規則に「退職は1ヶ月前（2ヶ月前）までに申し出ること」とある企業は多くあります。民法627条の2週間との関係では、<strong>民法の規定が優先するというのが一般的な解釈</strong>です。ただし円満退職と引き継ぎの観点では就業規則の予告期間を尊重するのが現実的で、スケジュール設計上は「法律上の最短2週間」を前提にせず、<strong>退職の申し出から退職日まで1〜2ヶ月</strong>を確保しておくのが安全です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>有給消化は労働者の権利 — ただし期間を計算に入れる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>有給消化は労働者の権利 — ただし期間を計算に入れる</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 年次有給休暇は労働基準法39条に基づく権利で、退職前にまとめて取得することも可能です。会社には時季変更権がありますが、退職日を越えて時季を変更することはできないため、<strong>退職日までの残日数消化を会社が拒むことは原則できません</strong>。一方スケジュール面では、残有給が20日あれば実質約1ヶ月分の勤務日が消えるため、「最終出社日」と「退職日」が大きくずれます。引き継ぎ完了→有給消化→退職日→入社日の順で、退職交渉の最初に時系列を共有しておくと揉めません（出典: 労働基準法第39条、厚生労働省「年次有給休暇の取得促進」、2026年6月参照）。
               </p>
             </div>
           </div>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f0e7dd", border: "1px solid #d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              退職の切り出し方、引き止め（カウンターオファー）への対応、ソースコードや権限まわりのエンジニア特有の注意点は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#0891b2" }}>円満退職・退職交渉の進め方ガイド</a>で具体的に解説しています。
+              退職の切り出し方、引き止め（カウンターオファー）への対応、ソースコードや権限まわりのエンジニア特有の注意点は<a href="/articles/amicable-resignation/" className="underline" style={{ color: "#7c3a55" }}>円満退職・退職交渉の進め方ガイド</a>で具体的に解説しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}
@@ -479,7 +479,7 @@ export default function ArticlePage() {
       </section>
 
       {/* おすすめ転職エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -488,10 +488,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -499,10 +499,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -510,10 +510,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -521,10 +521,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -535,7 +535,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -544,7 +544,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -557,28 +557,28 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/job-hunting-while-employed/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>在職中の転職活動の進め方</h3>
+            <a href="/articles/job-hunting-while-employed/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>在職中の転職活動の進め方</h3>
               <p className="text-sm text-text-light">面接の日程調整術・会社に知られない注意点</p>
             </a>
-            <a href="/articles/amicable-resignation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>円満退職・退職交渉の進め方</h3>
+            <a href="/articles/amicable-resignation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>円満退職・退職交渉の進め方</h3>
               <p className="text-sm text-text-light">切り出し方・引き止め対応・引き継ぎの手順</p>
             </a>
-            <a href="/articles/resume-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職務経歴書の書き方</h3>
+            <a href="/articles/resume-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職務経歴書の書き方</h3>
               <p className="text-sm text-text-light">準備フェーズの土台になる実績の棚卸し</p>
             </a>
-            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>面接対策ガイド</h3>
+            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>面接対策ガイド</h3>
               <p className="text-sm text-text-light">選考フロー全体図と頻出質問の答え方</p>
             </a>
-            <a href="/articles/offer-meeting/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>オファー面談で確認すべきこと</h3>
+            <a href="/articles/offer-meeting/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>オファー面談で確認すべきこと</h3>
               <p className="text-sm text-text-light">内定後の条件交渉・制度確認のチェックリスト</p>
             </a>
-            <a href="/articles/mama-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ママエンジニアの働き方ガイド</h3>
+            <a href="/articles/mama-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ママエンジニアの働き方ガイド</h3>
               <p className="text-sm text-text-light">育児と両立する働き方と法制度</p>
             </a>
           </div>
@@ -591,7 +591,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -603,7 +603,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

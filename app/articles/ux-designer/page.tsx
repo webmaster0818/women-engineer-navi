@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               職種別ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. UXデザイナーとは（仕事内容・UI/Webデザイナーとの違い）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 女性がUXデザイナーとして活躍しやすい理由</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキルとツール</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. UXデザイナーの年収相場（年代別）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 求人動向と将来性</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験から目指すロードマップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. UXデザイナーのキャリアパス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. UXデザイナーとは（仕事内容・UI/Webデザイナーとの違い）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 女性がUXデザイナーとして活躍しやすい理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキルとツール</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. UXデザイナーの年収相場（年代別）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 求人動向と将来性</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から目指すロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. UXデザイナーのキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,15 +166,15 @@ export default function ArticlePage() {
             <p>
               混同されやすい近接職種との違いを押さえておきましょう。<strong>UIデザイナー</strong>は配色・タイポグラフィ・アイコンなど画面の「見た目」を、<strong>Webデザイナー</strong>はコーポレートサイトやLPのビジュアル制作を主に担当します。UIはUXの一要素であり、UXデザイナーはその前段の「体験そのものの設計」まで踏み込むため、扱う範囲が最も広いのが特徴です。コーディング中心のフロントエンドエンジニアとも軸が異なり、UXは<strong>体験設計・課題解決</strong>が主戦場になります。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>UXデザイナーの主な仕事内容</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>UXデザイナーの主な仕事内容</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ユーザーリサーチ（インタビュー / アンケート / 行動観察）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ペルソナ・カスタマージャーニーマップ作成</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>情報設計（IA）・サイトマップ・画面遷移の設計</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ワイヤーフレーム・プロトタイプ作成（Figma）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ユーザビリティテストの設計・実施・分析</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>データにもとづく継続的な改善提案</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ユーザーリサーチ（インタビュー / アンケート / 行動観察）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ペルソナ・カスタマージャーニーマップ作成</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>情報設計（IA）・サイトマップ・画面遷移の設計</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ワイヤーフレーム・プロトタイプ作成（Figma）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ユーザビリティテストの設計・実施・分析</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>データにもとづく継続的な改善提案</span></li>
               </ul>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性が活躍しやすい理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性がUXデザイナーとして活躍しやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -191,20 +191,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. ユーザー視点・共感力が直接活きる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. ユーザー視点・共感力が直接活きる</h3>
               <p className="text-text-light text-sm leading-relaxed">事務・販売・接客・マーケなどでユーザーや顧客と向き合ってきた経験は、リサーチやペルソナ設計の土台になります。生活者目線の気づきがそのまま価値になる職種です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. コーディング不要で文系・未経験から入りやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. コーディング不要で文系・未経験から入りやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">UXの軸は体験設計とリサーチで、プログラミングは必須ではありません。Figmaでの設計とリサーチ手法を学べば、非エンジニアからの転身も現実的です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. リモート・フレックスと相性が良い</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. リモート・フレックスと相性が良い</h3>
               <p className="text-text-light text-sm leading-relaxed">リサーチ・設計・ドキュメント作成はオンラインで完結しやすく、フルリモート求人も豊富。育児・介護と両立しながら働きやすい職種です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 成果が可視化され時短でも評価されやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 成果が可視化され時短でも評価されやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">リサーチ結果や改善後の数値（離脱率・CVRなど）が客観的に残るため、勤務時間の長さではなく成果で評価されやすく、時短勤務でも実力が認められます。</p>
             </div>
           </div>
@@ -223,37 +223,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>UXの基礎理論</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ユーザー中心設計 / ダブルダイヤモンド / ヤコブ・ニールセンの10原則</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>設計判断の拠り所。最初に体系で押さえると応用が利く</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>UXの基礎理論</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ユーザー中心設計 / ダブルダイヤモンド / ヤコブ・ニールセンの10原則</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>設計判断の拠り所。最初に体系で押さえると応用が利く</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>リサーチ・分析</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ユーザーインタビュー / アンケート / ユーザビリティテスト / GA4</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>UXの中核。定性・定量の両方を扱えると強い</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>設計・ツール</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Figma / FigJam / Maze / Miro</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Figmaは事実上の標準。Mazeで開発前のユーザーテストも可</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>情報設計（IA）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>サイトマップ / 画面遷移 / カードソーティング</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「迷わない構造」を作る設計力。UXの土台になる</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>リサーチ・分析</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ユーザーインタビュー / アンケート / ユーザビリティテスト / GA4</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>UXの中核。定性・定量の両方を扱えると強い</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ソフトスキル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ヒアリング / ファシリテーション / 言語化・資料化</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>関係者を巻き込み、根拠を伝える力。評価に直結</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>設計・ツール</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Figma / FigJam / Maze / Miro</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Figmaは事実上の標準。Mazeで開発前のユーザーテストも可</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>情報設計（IA）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>サイトマップ / 画面遷移 / カードソーティング</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「迷わない構造」を作る設計力。UXの土台になる</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ソフトスキル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ヒアリング / ファシリテーション / 言語化・資料化</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>関係者を巻き込み、根拠を伝える力。評価に直結</td>
                 </tr>
               </tbody>
             </table>
@@ -265,7 +265,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 年収 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">UXデザイナーの年収相場（年代別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -276,22 +276,22 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約345万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ジュニア〜実務2〜3年目</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約442万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リード・シニアになると450万〜700万円も</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約507万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>マネジメント層で600万〜900万円も</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>上流・専門職</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約538万〜631万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>UXリサーチャー・サービスデザイナー。事業会社リードは1,000万円超も</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約345万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ジュニア〜実務2〜3年目</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約442万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リード・シニアになると450万〜700万円も</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約507万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>マネジメント層で600万〜900万円も</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>上流・専門職</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約538万〜631万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>UXリサーチャー・サービスデザイナー。事業会社リードは1,000万円超も</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>リサーチ専門性</strong>を高める（UXリサーチャー／定性・定量の両輪）</li>
               <li>② <strong>事業貢献を数値で語る</strong>（改善後のCVR・継続率・離脱率を実績化）</li>
@@ -317,7 +317,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 未経験ロードマップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -332,8 +332,8 @@ export default function ArticlePage() {
               ["STEP5", "GA4・データ分析の基礎", "離脱率・CVRなどの定量データを読み、課題を発見する力を身につける。定性×定量を扱えると評価が上がります。"],
               ["STEP6", "ケーススタディ型ポートフォリオを作る", "「課題→リサーチ→設計→検証→結果」の思考プロセスが伝わる作品を1〜2本。完成画面だけでなく『なぜそう設計したか』が最も効く実績になります。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -352,39 +352,39 @@ export default function ArticlePage() {
             <p>UXデザイナーは「ユーザー理解」と「課題解決の設計力」が積み上がる職種で、上流・事業側へキャリアを広げやすいのが魅力です。代表的な進路は次の通りです。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>リサーチを深める</h3><p className="text-sm text-text-light">UXリサーチャーとして、ユーザー調査の設計・分析の専門家に。定性・定量を武器に高年収を狙う道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>事業・戦略へ広げる</h3><p className="text-sm text-text-light">サービスデザイナー／プロダクトマネージャー（PdM）へ。事業戦略まで踏み込み、サービスの方向性を主導する道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>UIまで担う</h3><p className="text-sm text-text-light">UI/UXデザイナーとして設計から見た目まで一気通貫で担当。フロントエンドとの連携力も付けると市場価値が上がる道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>マネジメント・独立</h3><p className="text-sm text-text-light">デザインマネージャーとして組織をリード、またはフリーランスでリサーチ・設計案件へ。ライフステージに合わせやすい道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>リサーチを深める</h3><p className="text-sm text-text-light">UXリサーチャーとして、ユーザー調査の設計・分析の専門家に。定性・定量を武器に高年収を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>事業・戦略へ広げる</h3><p className="text-sm text-text-light">サービスデザイナー／プロダクトマネージャー（PdM）へ。事業戦略まで踏み込み、サービスの方向性を主導する道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>UIまで担う</h3><p className="text-sm text-text-light">UI/UXデザイナーとして設計から見た目まで一気通貫で担当。フロントエンドとの連携力も付けると市場価値が上がる道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>マネジメント・独立</h3><p className="text-sm text-text-light">デザインマネージャーとして組織をリード、またはフリーランスでリサーチ・設計案件へ。ライフステージに合わせやすい道。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>UXの設計力・リサーチ実績を正当に評価してもらうには、IT・クリエイティブ特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテッククリエイター</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT/クリエイティブ特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテッククリエイター</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT/クリエイティブ特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界のデザイナー職に特化。UI/UXの求人が豊富で、ポートフォリオの見せ方までアドバイスが得られます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。SaaS・事業会社のUX求人も多く、スピーディーなマッチングと年収交渉力に定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -394,19 +394,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（20代後半・Webデザイナー→UXデザイナー）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（20代後半・Webデザイナー→UXデザイナー）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">制作会社のWebデザイナー / 年収360万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaS企業のUI/UXデザイナー / 年収500万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">制作会社のWebデザイナー / 年収360万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のUI/UXデザイナー / 年収500万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">見た目だけでなく「なぜ使いやすいか」を設計したいと考え、Figmaでのプロトタイプとユーザビリティテストを独学。担当LPの改善で離脱率を下げた実績をケーススタディにまとめ、年収140万円アップとフルリモートを実現しました。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（30代前半・マーケ事務→UXリサーチャー）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（30代前半・マーケ事務→UXリサーチャー）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">EC企業のマーケ事務（デザイン未経験）/ 年収340万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">事業会社のUXリサーチャー / 年収480万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">EC企業のマーケ事務（デザイン未経験）/ 年収340万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">事業会社のUXリサーチャー / 年収480万円</p></div>
               </div>
               <p className="text-sm text-text-light">顧客対応で培ったヒアリング力を強みに、UXの基礎理論とユーザーインタビュー手法をスクールで学習。社内で小さなリサーチを実施した経験をポートフォリオ化し、産休育休実績のある事業会社に転職。コードを書かずに体験設計で長く働ける基盤を得ました。</p>
             </div>
@@ -415,17 +415,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -439,10 +439,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/web-designer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Webデザイナー転職ガイド</h3><p className="text-sm text-text-light">UXデザイナーとの違いも解説</p></a>
-            <a href="/articles/frontend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>フロントエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">体験設計とコーディングの違い</p></a>
-            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ポートフォリオの作り方</h3><p className="text-sm text-text-light">ケーススタディで思考を見せる</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/web-designer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Webデザイナー転職ガイド</h3><p className="text-sm text-text-light">UXデザイナーとの違いも解説</p></a>
+            <a href="/articles/frontend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>フロントエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">体験設計とコーディングの違い</p></a>
+            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ポートフォリオの作り方</h3><p className="text-sm text-text-light">ケーススタディで思考を見せる</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
           </div>
         </div>
       </section>
@@ -450,10 +450,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#0891b2" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               比較ガイド
             </span>
@@ -138,9 +138,9 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl p-6"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
               この記事の結論
             </h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -166,57 +166,57 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
               <li>
-                <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>
                   1. IT特化型と総合型はなにが違うのか
                 </a>
               </li>
               <li>
-                <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>
                   2. カテゴリ比較表（専門性・サポート・向くフェーズ）
                 </a>
               </li>
               <li>
-                <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>
                   3. 転職エージェントの仕組み（無料で使える理由）
                 </a>
               </li>
               <li>
-                <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>
                   4. 仕組みからわかる利用時の注意点
                 </a>
               </li>
               <li>
-                <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>
                   5. フェーズ別・使い分けの判断フロー
                 </a>
               </li>
               <li>
-                <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>
                   6. 併用の実態とうまく併用するコツ
                 </a>
               </li>
               <li>
-                <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>
                   7. 女性エンジニアが確認したい「第3の軸」
                 </a>
               </li>
               <li>
-                <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>
                   8. おすすめ転職エージェント
                 </a>
               </li>
               <li>
-                <a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>
                   9. よくある質問
                 </a>
               </li>
               <li>
-                <a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>
                   10. 出典・参考資料
                 </a>
               </li>
@@ -241,14 +241,14 @@ export default function ArticlePage() {
             </p>
             <div
               className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
                 2つのカテゴリのざっくりした整理
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">
                     &#10003;
                   </span>
                   <span>
@@ -256,7 +256,7 @@ export default function ArticlePage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">
                     &#10003;
                   </span>
                   <span>
@@ -264,7 +264,7 @@ export default function ArticlePage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">
                     &#10003;
                   </span>
                   <span>
@@ -272,7 +272,7 @@ export default function ArticlePage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">
                     &#10003;
                   </span>
                   <span>
@@ -283,7 +283,7 @@ export default function ArticlePage() {
             </div>
             <p className="text-sm">
               エージェントを使うか転職サイトで自分で応募するか迷っている段階の人は、先に
-              <a href="/articles/agent-vs-site/" className="underline" style={{ color: "#0891b2" }}>
+              <a href="/articles/agent-vs-site/" className="underline" style={{ color: "#7c3a55" }}>
                 転職エージェントと転職サイトの違い
               </a>
               を読むと全体像がつかみやすくなります。
@@ -293,7 +293,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 比較表 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">カテゴリ比較表（専門性・サポート・向くフェーズ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -304,44 +304,44 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>比較項目</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>IT特化型</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>総合型</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>比較項目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>IT特化型</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>総合型</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>求人の専門性</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>IT・Web業界に集中。技術スタックや開発体制まで求人情報が詳しい傾向</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>全業界をカバー。社内SE・ITコンサル・異業種DX部門など幅が広い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>求人の専門性</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>IT・Web業界に集中。技術スタックや開発体制まで求人情報が詳しい傾向</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>全業界をカバー。社内SE・ITコンサル・異業種DX部門など幅が広い</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>担当者の知識</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術・開発現場への理解が深い担当者が多く、スキルの言語化を支援しやすい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業界横断の転職市場全体に明るい。技術の深掘りは担当者により差が出やすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>担当者の知識</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術・開発現場への理解が深い担当者が多く、スキルの言語化を支援しやすい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業界横断の転職市場全体に明るい。技術の深掘りは担当者により差が出やすい</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>サポートの傾向</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>職務経歴書の技術表現・技術面接・年収交渉などエンジニア向けに最適化</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>書類・面接対策の標準的な型が整備され、大手は拠点・ツールも充実</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>サポートの傾向</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>職務経歴書の技術表現・技術面接・年収交渉などエンジニア向けに最適化</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>書類・面接対策の標準的な型が整備され、大手は拠点・ツールも充実</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>選択肢の広さ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>IT業界内では深いが、業界の外には広がりにくい</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>母数が大きく、キャリアチェンジや地方・異業種も含めて探せる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>選択肢の広さ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>IT業界内では深いが、業界の外には広がりにくい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>母数が大きく、キャリアチェンジや地方・異業種も含めて探せる</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>向いているフェーズ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務経験があり、技術を正当に評価してほしい人。年収・技術環境を上げたい人</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>未経験・経験が浅い人、職種転換や業界をまたいだ選択肢を見たい人</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>向いているフェーズ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務経験があり、技術を正当に評価してほしい人。年収・技術環境を上げたい人</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>未経験・経験が浅い人、職種転換や業界をまたいだ選択肢を見たい人</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
             重要なのは、この表のどちらか一方を選ぶ話ではないということです。実務経験者でも「IT業界の外の社内SE」という選択肢を総合型で確認する価値はありますし、未経験者でも実績ができた段階でIT特化型に切り替える戦略が有効です。具体的な組み合わせ方は
-            <a href="#sec5" className="underline" style={{ color: "#0891b2" }}>判断フロー</a>
+            <a href="#sec5" className="underline" style={{ color: "#7c3a55" }}>判断フロー</a>
             で解説します。
           </p>
         </div>
@@ -362,21 +362,21 @@ export default function ArticlePage() {
               エージェントの収益は、紹介した人材の入社が決まったときに求人企業から受け取る<strong>成功報酬（紹介手数料）</strong>です。厚生労働省の集計によると、令和6年度の有料職業紹介事業による常用就職件数は888,993件、手数料収入は約9,835億円で、<strong>常用就職1件あたりの手数料は約103万円</strong>（全業種平均）でした（出典: 厚生労働省「令和6年度職業紹介事業報告書の集計結果（速報）」令和8年3月31日公表、2026年6月参照）。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
               お金の流れ（成功報酬モデル）
             </h3>
             <ul className="space-y-3 text-sm text-text-light">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">1.</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">1.</span>
                 <span>求職者がエージェントに登録 → キャリア面談・求人紹介・書類添削・面接調整・年収交渉などのサポートを受ける（<strong>すべて無料</strong>）</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">2.</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">2.</span>
                 <span>入社が決まると、<strong>求人企業がエージェントに紹介手数料を支払う</strong>（厚労省集計では常用就職1件あたり約103万円・全業種平均）</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">3.</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">3.</span>
                 <span>手数料は「届出制手数料」など職業安定法で定められた枠組みの中で設定される（出典: 厚生労働省「職業紹介事業の業務運営要領」2026年6月参照）</span>
               </li>
             </ul>
@@ -388,7 +388,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 注意点 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">仕組みからわかる利用時の注意点</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -397,32 +397,32 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 1. 急かされても自分のペースを守る
               </h3>
               <p className="text-text-light text-sm leading-relaxed">
                 応募や内定承諾を急かされたと感じたら、回答期限の延長依頼、判断材料（残業実態・産休育休の取得実績・リモートの運用など）の追加確認、他社求人との比較は、求職者の正当な権利です。納得できないまま承諾する必要はありません。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 2. 担当者は変更できる
               </h3>
               <p className="text-text-light text-sm leading-relaxed">
                 提案の質や相性は担当者個人による差が大きいのが実情です。合わないと感じたら担当変更を申し出るのは一般的な対応で、多くのエージェントが窓口を用意しています。遠慮して我慢するより、率直に伝えた方が双方にとって建設的です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 3. 許可事業者かどうかは公的に確認できる
               </h3>
               <p className="text-text-light text-sm leading-relaxed">
                 有料職業紹介は厚生労働大臣の許可制です。利用を検討しているサービスが許可を受けた事業者かどうかは、厚生労働省の「人材サービス総合サイト」で許可番号・事業所名から誰でも検索できます（出典: 厚生労働省 人材サービス総合サイト、2026年6月参照）。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 4. 紹介求人が偏る可能性を併用で補う
               </h3>
               <p className="text-text-light text-sm leading-relaxed">
@@ -443,8 +443,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4">
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                 経験者
               </span>
               <div>
@@ -454,30 +454,30 @@ export default function ArticlePage() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                 未経験
               </span>
               <div>
                 <h3 className="font-bold mb-1">未経験・経験が浅い → 総合型＋未経験向け支援を軸に、実績ができたら特化型へ</h3>
                 <p className="text-sm text-text-light leading-relaxed">
                   エージェントは企業からの成功報酬で運営されるため、紹介できる求人がない段階では支援が薄くなりがちです。まず学習とポートフォリオ作りを進めながら、裾野の広い総合型や未経験支援に強いサービスで選択肢を確保し、実績ができた段階でIT特化型を加えるのが現実的です。学習の進め方は
-                  <a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>
+                  <a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>
                     未経験からエンジニアになる完全ガイド
                   </a>
                   を参照してください。
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>
                 ブランク
               </span>
               <div>
                 <h3 className="font-bold mb-1">産育休・離職からの復職 → 働き方の条件に強いサービスを軸に、特化型で技術評価を補う</h3>
                 <p className="text-sm text-text-light leading-relaxed">
                   ブランクからの復職では、時短・リモート・残業など「働き方の条件」と「技術の評価」を両立させる必要があります。女性のキャリア継続に焦点を当てたサービスで制度面の実態を確認しつつ、IT特化型でブランク前のスキルを正当に評価してもらう組み合わせが有効です。詳しくは
-                  <a href="/articles/return-to-work/" className="underline" style={{ color: "#0891b2" }}>
+                  <a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>
                     ブランクから復職するためのガイド
                   </a>
                   で解説しています。
@@ -487,7 +487,7 @@ export default function ArticlePage() {
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
             どのフェーズでも共通するのは、「1社に絞らず、軸＋サブの2〜3社で始めて、合う担当者に比重を移していく」という進め方です。エージェント個社の選び方のチェックポイントは
-            <a href="/articles/how-to-choose/" className="underline" style={{ color: "#0891b2" }}>
+            <a href="/articles/how-to-choose/" className="underline" style={{ color: "#7c3a55" }}>
               転職エージェントの選び方ガイド
             </a>
             にまとめています。
@@ -496,7 +496,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 併用 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">併用の実態とうまく併用するコツ</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -507,25 +507,25 @@ export default function ArticlePage() {
               実態としても、リクナビNEXTが紹介する転職経験者199名へのアンケート（ジャストシステム調査・2019年）では、転職サイト・エージェントの登録数は<strong>平均2.3社</strong>。最多は「2社」（約30%）で、1社のみの利用は約26%にとどまり、<strong>7割以上が複数登録</strong>という結果でした（出典: リクナビNEXT「転職サイト・エージェントはいくつ使った？」2026年6月参照）。
             </p>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
               併用を機能させる3つのルール
             </h3>
             <ul className="space-y-3 text-sm text-text-light">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>重複応募をしない</strong>: 同じ求人に複数のエージェント経由で応募すると、企業・エージェント双方の信頼を損ないます。応募した企業はスプレッドシート等で自分が一元管理する
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>併用していることを隠さない</strong>: 他社も利用していると伝えるのは普通のことです。むしろ選考スケジュールの調整がしやすくなります
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>広げすぎない</strong>: 多すぎると面談・連絡の管理が破綻します。軸＋サブの2〜3社で始め、提案の質と担当者との相性を見て比重を移すのが現実的です
                 </span>
@@ -554,7 +554,7 @@ export default function ArticlePage() {
       </section>
 
       {/* おすすめ転職エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -563,10 +563,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -574,10 +574,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -585,10 +585,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -596,10 +596,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -610,7 +610,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -619,7 +619,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -640,11 +640,11 @@ export default function ArticlePage() {
                 <details
                   key={i}
                   className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <summary
                     className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     <span className="pr-4">{faq.name}</span>
                     <span className="transition-transform group-open:rotate-180">
@@ -653,7 +653,7 @@ export default function ArticlePage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">{faq.acceptedAnswer.text}</p>
                   </div>
@@ -665,7 +665,7 @@ export default function ArticlePage() {
       </section>
 
       {/* 出典 */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-3 text-sm text-text-light leading-relaxed">
@@ -699,9 +699,9 @@ export default function ArticlePage() {
             <a
               href="/articles/agent-vs-site/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 転職エージェントと転職サイトの違い
               </h3>
               <p className="text-sm text-text-light">そもそもどちらを使うべきかを整理</p>
@@ -709,9 +709,9 @@ export default function ArticlePage() {
             <a
               href="/articles/how-to-choose/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 エージェント選び方ガイド
               </h3>
               <p className="text-sm text-text-light">失敗しない選び方のチェックポイント</p>
@@ -719,9 +719,9 @@ export default function ArticlePage() {
             <a
               href="/articles/beginner/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 未経験からエンジニアになる完全ガイド
               </h3>
               <p className="text-sm text-text-light">学習ロードマップと転職の進め方</p>
@@ -729,9 +729,9 @@ export default function ArticlePage() {
             <a
               href="/articles/return-to-work/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 ブランクからの復職ガイド
               </h3>
               <p className="text-sm text-text-light">産育休・離職後の復帰戦略</p>
@@ -746,7 +746,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -758,7 +758,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

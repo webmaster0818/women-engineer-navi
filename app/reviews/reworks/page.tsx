@@ -85,11 +85,11 @@ export default function ReworksReviewPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #f6e9de 0%, #efdccf 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "エージェントレビュー", href: "/reviews/" }, { label: "ReWorks（リワークス）" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>フルリモート特化型</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>フルリモート特化型</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               ReWorks（リワークス）の口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">フルリモート×女性エンジニアの転職を徹底検証</span>
@@ -102,17 +102,17 @@ export default function ReworksReviewPage() {
       {/* 総合評価 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6 md:p-8" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border p-6 md:p-8" style={{ borderColor: "#d9c7b8" }}>
             <h2 className="text-2xl font-bold mb-6">総合評価</h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-5xl font-bold" style={{ color: "#7c3aed" }}>4.0</span>
+                  <span className="text-5xl font-bold" style={{ color: "#7c3a55" }}>4.0</span>
                   <span className="text-text-light text-lg">/ 5.0</span>
                 </div>
                 <div className="flex gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
-                    <span key={star} className="text-2xl" style={{ color: star <= 4 ? "#f59e0b" : "#d1dce5" }}>★</span>
+                    <span key={star} className="text-2xl" style={{ color: star <= 4 ? "#f59e0b" : "#d9c7b8" }}>★</span>
                   ))}
                 </div>
                 <p className="text-text-light text-sm">
@@ -129,10 +129,10 @@ export default function ReworksReviewPage() {
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-3">
                     <span className="w-36 text-sm font-medium">{item.label}</span>
-                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e2e8f0" }}>
-                      <div className="h-2 rounded-full" style={{ width: `${(item.score / 5) * 100}%`, backgroundColor: "#7c3aed" }} />
+                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e4d6c8" }}>
+                      <div className="h-2 rounded-full" style={{ width: `${(item.score / 5) * 100}%`, backgroundColor: "#7c3a55" }} />
                     </div>
-                    <span className="text-sm font-bold" style={{ color: "#7c3aed" }}>{item.score}.0</span>
+                    <span className="text-sm font-bold" style={{ color: "#7c3a55" }}>{item.score}.0</span>
                   </div>
                 ))}
               </div>
@@ -142,7 +142,7 @@ export default function ReworksReviewPage() {
       </section>
 
       {/* 基本情報テーブル */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">基本情報</h2>
           <div className="overflow-x-auto">
@@ -162,9 +162,9 @@ export default function ReworksReviewPage() {
                   ["研修制度", "未経験者向け無料研修あり"],
                   ["公式サイト", "reworks.jp"],
                 ].map(([label, value], i) => (
-                  <tr key={label} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
-                    <th className="px-4 py-3 text-left text-sm font-bold w-40" style={{ borderBottom: "1px solid #d1dce5", color: "#7c3aed" }}>{label}</th>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{value}</td>
+                  <tr key={label} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
+                    <th className="px-4 py-3 text-left text-sm font-bold w-40" style={{ borderBottom: "1px solid #d9c7b8", color: "#7c3a55" }}>{label}</th>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{value}</td>
                   </tr>
                 ))}
               </tbody>
@@ -195,7 +195,7 @@ export default function ReworksReviewPage() {
       </section>
 
       {/* 女性エンジニアへの強み */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニアに対する強み</h2>
           <div className="grid gap-6 md:grid-cols-2">
@@ -217,8 +217,8 @@ export default function ReworksReviewPage() {
                 desc: "フルリモートを導入している企業は、フレックスタイム制や成果主義を採用していることが多く、時間の融通が利きやすい環境です。女性のライフスタイルに合った働き方が実現できます。",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>{item.title}</h3>
+              <div key={item.title} className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+                <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>{item.title}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -234,7 +234,7 @@ export default function ReworksReviewPage() {
             ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3aed" }}>良い口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
           <div className="space-y-4 mb-8">
             {[
               {
@@ -254,14 +254,14 @@ export default function ReworksReviewPage() {
                 text: "パートナーの海外赴任に帯同するため、日本企業のフルリモート求人を探していました。ReWorksには海外からでも応募できる求人があり、時差を考慮した勤務が可能な企業を見つけられました。日本の社会保険にも加入できる企業で安心です。",
               },
             ].map((review, i) => (
-              <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#faf5ff", border: "1px solid #e9d5ff" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#7c3aed" }}>{review.reviewer}</p>
+              <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>{review.reviewer}</p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
               </div>
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#f97066" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
           <div className="space-y-4 mb-6">
             {[
               {
@@ -274,7 +274,7 @@ export default function ReworksReviewPage() {
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#f97066" }}>{review.reviewer}</p>
+                <p className="text-sm font-bold mb-2" style={{ color: "#c15f47" }}>{review.reviewer}</p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
               </div>
             ))}
@@ -291,12 +291,12 @@ export default function ReworksReviewPage() {
       </section>
 
       {/* メリット・デメリット */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">メリット・デメリット</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #7c3aed" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3aed" }}>メリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #7c3a55" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>メリット</h3>
               <ul className="space-y-3">
                 {[
                   "すべての求人がフルリモートで、場所を問わず働ける環境が確実に手に入る",
@@ -304,21 +304,21 @@ export default function ReworksReviewPage() {
                   "未経験者向けの無料研修制度があり、スキル習得から転職まで一貫したサポートが受けられる",
                 ].map((merit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#7c3aed" }} className="font-bold shrink-0">◎</span>
+                    <span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◎</span>
                     <span className="text-text-light">{merit}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #f97066" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>デメリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #c15f47" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>デメリット</h3>
               <ul className="space-y-3">
                 {[
                   "求人数は大手エージェントと比べて少なく、職種によっては選択肢が限られる",
                   "フルリモート以外（ハイブリッドワークなど）の求人は取り扱いがない",
                 ].map((demerit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#f97066" }} className="font-bold shrink-0">△</span>
+                    <span style={{ color: "#c15f47" }} className="font-bold shrink-0">△</span>
                     <span className="text-text-light">{demerit}</span>
                   </li>
                 ))}
@@ -341,7 +341,7 @@ export default function ReworksReviewPage() {
               { step: "5", title: "内定・入社", desc: "内定後は入社手続きのサポートも。フルリモートでの業務開始に向けた環境整備のアドバイスも受けられます。" },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold" style={{ backgroundColor: "#7c3aed" }}>{item.step}</div>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold" style={{ backgroundColor: "#7c3a55" }}>{item.step}</div>
                 <div>
                   <h3 className="font-bold text-lg">{item.title}</h3>
                   <p className="text-sm text-text-light mt-1 leading-relaxed">{item.desc}</p>
@@ -353,12 +353,12 @@ export default function ReworksReviewPage() {
       </section>
 
       {/* おすすめ・向いていない */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">こんな女性におすすめ / 向いていない人</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3aed" }}>おすすめの方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>おすすめの方</h3>
               <ul className="space-y-2">
                 {[
                   "フルリモートで働きたい女性エンジニア",
@@ -368,19 +368,19 @@ export default function ReworksReviewPage() {
                   "未経験からリモートワークを始めたい方",
                   "フレキシブルな働き方を最優先にする方",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#7c3aed" }}>●</span>{item}</li>
+                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#7c3a55" }}>●</span>{item}</li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>向いていない方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>向いていない方</h3>
               <ul className="space-y-2">
                 {[
                   "豊富な求人数から選びたい方（doda・リクルートエージェント推奨）",
                   "ハイブリッドワークや出社も視野に入れたい方",
                   "IT特化の専門的なキャリアサポートを求める方（レバテックキャリア推奨）",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#f97066" }}>●</span>{item}</li>
+                  <li key={i} className="flex gap-2 text-sm text-text-light"><span style={{ color: "#c15f47" }}>●</span>{item}</li>
                 ))}
               </ul>
             </div>
@@ -390,13 +390,13 @@ export default function ReworksReviewPage() {
 
       {/* 関連記事 */}
       <div className="mx-auto max-w-4xl px-4">
-        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
-          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+        <div className="bg-[#f0e7dd] border border-[#d9c7b8] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            <Link href="/articles/remote-jobs/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} リモートワーク求人ガイド</Link>
-            <Link href="/articles/mama-engineer/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} ママエンジニアの働き方ガイド</Link>
-            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} Green vs リワークス徹底比較</Link>
-            <Link href="/articles/freelance/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} フリーランスエンジニアガイド</Link>
+            <Link href="/articles/remote-jobs/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} リモートワーク求人ガイド</Link>
+            <Link href="/articles/mama-engineer/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ママエンジニアの働き方ガイド</Link>
+            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Green vs リワークス徹底比較</Link>
+            <Link href="/articles/freelance/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} フリーランスエンジニアガイド</Link>
           </div>
         </div>
       </div>
@@ -407,13 +407,13 @@ export default function ReworksReviewPage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#7c3aed" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">▼</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}
@@ -422,7 +422,7 @@ export default function ReworksReviewPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12" style={{ backgroundColor: "#faf5ff" }}>
+      <section className="py-12" style={{ backgroundColor: "#f4e7da" }}>
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">ReWorksでフルリモートの理想の働き方を</h2>
           <p className="text-text-light mb-6">すべての求人がフルリモート。場所を選ばない新しい働き方を始めてみませんか？</p>

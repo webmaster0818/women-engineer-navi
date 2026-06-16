@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               言語別ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. TypeScript・Reactエンジニアとは（JS/TSの違い）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 女性がモダンフロントで長く働きやすい理由</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキルと技術スタック</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 年収相場（年代別・案件別）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 求人動向と将来性</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験・JSから目指すロードマップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. TypeScript・Reactのキャリアパス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. TypeScript・Reactエンジニアとは（JS/TSの違い）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 女性がモダンフロントで長く働きやすい理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキルと技術スタック</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 年収相場（年代別・案件別）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 求人動向と将来性</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験・JSから目指すロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. TypeScript・Reactのキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,46 +166,46 @@ export default function ArticlePage() {
             <p>
               この「型安全」が効いてくるのが、画面数が多くチームで保守する大規模なReact開発です。propsの渡し間違いやAPIのデータ構造の取り違えといった、JavaScriptでは実行して初めて気づくバグを、書いている最中に潰せます。だからこそ現在のモダンフロント現場では<strong>React＋TypeScriptがほぼ標準</strong>で、求人票でも「TypeScript必須」が当たり前になりつつあります。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>TypeScript・Reactエンジニアの主な担当領域</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>TypeScript・Reactエンジニアの主な担当領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Reactによるコンポーネント設計・UI実装（JSX / Hooks）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>TypeScriptで型を付けた保守性の高いコード（interface / 型推論 / ジェネリクス）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Next.jsでのSSR / SSG / ISR・ルーティング・画像最適化</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>状態管理（Redux / Zustand / Context API）とAPI通信の実装</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>SPAの設計・パフォーマンス改善・UI/UXの最適化</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>Next.jsのAPI Routes等を使ったフルスタック寄りの開発</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Reactによるコンポーネント設計・UI実装（JSX / Hooks）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>TypeScriptで型を付けた保守性の高いコード（interface / 型推論 / ジェネリクス）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Next.jsでのSSR / SSG / ISR・ルーティング・画像最適化</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>状態管理（Redux / Zustand / Context API）とAPI通信の実装</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>SPAの設計・パフォーマンス改善・UI/UXの最適化</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>Next.jsのAPI Routes等を使ったフルスタック寄りの開発</span></li>
               </ul>
             </div>
             <div className="overflow-x-auto mt-6">
               <table className="w-full text-sm border-collapse">
                 <thead>
-                  <tr style={{ backgroundColor: "#ecfeff" }}>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>観点</th>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>JavaScript（素のJS）</th>
-                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>TypeScript</th>
+                  <tr style={{ backgroundColor: "#efe3d8" }}>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>観点</th>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>JavaScript（素のJS）</th>
+                    <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>TypeScript</th>
                   </tr>
                 </thead>
                 <tbody className="text-text-light">
                   <tr>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>型付け</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>動的型付け（実行時に判明）</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>静的型付け（実行前に検知）</td>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>型付け</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>動的型付け（実行時に判明）</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>静的型付け（実行前に検知）</td>
                   </tr>
-                  <tr style={{ backgroundColor: "#f8fafb" }}>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>バグの発見</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実行して初めて気づくことが多い</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>コンパイル時・記述中に検知できる</td>
+                  <tr style={{ backgroundColor: "#f0e7dd" }}>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>バグの発見</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実行して初めて気づくことが多い</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>コンパイル時・記述中に検知できる</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>大規模・チーム開発</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>規模が大きいほど保守が難しい</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>可読性・保守性が高く生産性が上がる</td>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>大規模・チーム開発</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>規模が大きいほど保守が難しい</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>可読性・保守性が高く生産性が上がる</td>
                   </tr>
-                  <tr style={{ backgroundColor: "#f8fafb" }}>
-                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>求人での扱い</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎としては必須だが単体では差が付きにくい</td>
-                    <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「TypeScript必須」が増加。単価・市場価値が高い</td>
+                  <tr style={{ backgroundColor: "#f0e7dd" }}>
+                    <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>求人での扱い</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎としては必須だが単体では差が付きにくい</td>
+                    <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「TypeScript必須」が増加。単価・市場価値が高い</td>
                   </tr>
                 </tbody>
               </table>
@@ -215,7 +215,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性が働きやすい理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性がモダンフロントで長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -224,20 +224,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. リモート案件が9割超で柔軟に働ける</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. リモート案件が9割超で柔軟に働ける</h3>
               <p className="text-text-light text-sm leading-relaxed">TypeScript案件の調査ではフルリモートが42.8％、一部リモートが51.7％。リモート可が9割を超え、通勤負担を減らして育児・介護と両立しながら働きやすい領域です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 成果が可視化され時短でも評価される</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 成果が可視化され時短でも評価される</h3>
               <p className="text-text-light text-sm leading-relaxed">GitHubのPRやコンポーネント単位で担当範囲が客観的に残るため、勤務時間の長さではなく成果で評価されやすく、時短勤務でも実力が認められます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 型安全でブランク後も復帰しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 型安全でブランク後も復帰しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">TypeScriptの型がドキュメント代わりになり、久しぶりに触ってもコードの意図を追いやすいのが特徴。産休育休でブランクが空いても、Reactの設計力は長く武器になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 需要が高く働きやすい会社を選べる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 需要が高く働きやすい会社を選べる</h3>
               <p className="text-text-light text-sm leading-relaxed">Reactは案件数13,327件とフロント系で断トツ。求人が多いほど「働きやすい会社」を選びやすく、女性が働き方や年収を交渉できる余地も大きくなります。</p>
             </div>
           </div>
@@ -256,42 +256,42 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>JavaScript基礎</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ES6+構文 / 非同期処理 / DOM操作</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>すべての土台。ここを飛ばすとReactで詰まりやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>JavaScript基礎</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ES6+構文 / 非同期処理 / DOM操作</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>すべての土台。ここを飛ばすとReactで詰まりやすい</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>React</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>JSX / コンポーネント / props・state / Hooks</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>useState・useEffectなど中核。SPAの設計力が問われる</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>TypeScript</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>型注釈 / interface / 型推論 / ジェネリクス</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>素のJSとの差別化＝市場価値。求人で必須化が進む</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Next.js</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SSR / SSG / ISR / ルーティング / API Routes</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>フルスタック寄りで即戦力。月単価76.1万円と高単価</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>React</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>JSX / コンポーネント / props・state / Hooks</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>useState・useEffectなど中核。SPAの設計力が問われる</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>状態管理 / API</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Redux / Zustand / Context API / REST</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>中規模以上の開発で必須。データ取得の実装経験が評価される</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>TypeScript</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>型注釈 / interface / 型推論 / ジェネリクス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>素のJSとの差別化＝市場価値。求人で必須化が進む</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>周辺ツール</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Git / GitHub / Vite / ESLint / Vercel</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Gitは必須。デプロイ・CI/CDの理解で評価が上がる</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Next.js</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SSR / SSG / ISR / ルーティング / API Routes</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>フルスタック寄りで即戦力。月単価76.1万円と高単価</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>状態管理 / API</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Redux / Zustand / Context API / REST</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>中規模以上の開発で必須。データ取得の実装経験が評価される</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>周辺ツール</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Git / GitHub / Vite / ESLint / Vercel</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Gitは必須。デプロイ・CI/CDの理解で評価が上がる</td>
                 </tr>
               </tbody>
             </table>
@@ -303,7 +303,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 年収 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">年収相場（年代別・案件別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -314,23 +314,23 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収・単価の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収・単価の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代後半（正社員）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約445万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>20代前半は約339万円</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代（正社員）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約533万〜573万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>30代前半533万・後半573万が目安</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代（正社員）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約621万〜651万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>40代前半621万・後半651万が目安</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス（TypeScript）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>月単価 約76.9万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>年収換算で約923万円。高需要言語の上位</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>案件別（参考）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>React 約77.2万円 / Next.js 約76.1万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>いずれもフリーランス月単価の目安</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代後半（正社員）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約445万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>20代前半は約339万円</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代（正社員）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約533万〜573万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>30代前半533万・後半573万が目安</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代（正社員）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約621万〜651万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>40代前半621万・後半651万が目安</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス（TypeScript）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>月単価 約76.9万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>年収換算で約923万円。高需要言語の上位</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>案件別（参考）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>React 約77.2万円 / Next.js 約76.1万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>いずれもフリーランス月単価の目安</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>型安全＋Next.js</strong>まで扱えるようにし「TypeScript必須」求人を狙う</li>
               <li>② <strong>状態管理・パフォーマンス改善・UI/UX設計</strong>など上流の経験を積む</li>
@@ -356,7 +356,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 ロードマップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験・JSから目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -371,8 +371,8 @@ export default function ArticlePage() {
               ["STEP5", "Next.jsを習得する", "SSR/SSG/ISR・ルーティング・画像最適化・API Routes。実務で最も使われるフレームワークを押さえる。"],
               ["STEP6", "ポートフォリオを公開する", "TypeScript＋React/Next.jsで作ったアプリをVercel等にデプロイしGitHubで公開。転職で最も効く実績になります。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -391,39 +391,39 @@ export default function ArticlePage() {
             <p>TypeScript・Reactは「設計力」と「UI/UXの感覚」が積み上がる職種で、キャリアの選択肢が広いのが魅力です。代表的な進路は次の通りです。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>技術を深める</h3><p className="text-sm text-text-light">フロントエンドのテックリード → アーキテクト。設計・パフォーマンス・大規模なReact基盤の専門家として高年収を狙う道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>領域を広げる（フルスタック）</h3><p className="text-sm text-text-light">Next.jsのAPI Routesやサーバーサイドへ広げ、フロント〜簡易バックエンドまで一通り担えるフルスタックエンジニアへ。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>UI/UX・プロダクト</h3><p className="text-sm text-text-light">UIデザインやプロダクト視点を強め、UXエンジニアやプロダクト寄りの役割へ。女性ならではの生活者目線が活きる道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">高単価のReact/TS案件でフリーランスへ。リモート中心の案件が多く、ライフステージに合わせて働きやすい。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>技術を深める</h3><p className="text-sm text-text-light">フロントエンドのテックリード → アーキテクト。設計・パフォーマンス・大規模なReact基盤の専門家として高年収を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>領域を広げる（フルスタック）</h3><p className="text-sm text-text-light">Next.jsのAPI Routesやサーバーサイドへ広げ、フロント〜簡易バックエンドまで一通り担えるフルスタックエンジニアへ。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>UI/UX・プロダクト</h3><p className="text-sm text-text-light">UIデザインやプロダクト視点を強め、UXエンジニアやプロダクト寄りの役割へ。女性ならではの生活者目線が活きる道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">高単価のReact/TS案件でフリーランスへ。リモート中心の案件が多く、ライフステージに合わせて働きやすい。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>React/Next.js・TypeScriptの技術を正当に評価してもらうには、IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーがReact/Next.js・TypeScriptの技術スタックを理解した提案をしてくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly（ギークリー）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly（ギークリー）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。モダンフロントの高単価なSaaS・自社開発求人の紹介と、スピーディーなマッチング・年収交渉力に定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -433,19 +433,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代前半・素のJS→TypeScript＋React）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・素のJS→TypeScript＋React）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託のフロントエンド（JavaScript中心）/ 年収430万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaS企業のフロント（React＋TypeScript＋Next.js）/ 年収600万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託のフロントエンド（JavaScript中心）/ 年収430万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のフロント（React＋TypeScript＋Next.js）/ 年収600万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">既存のReactアプリをTypeScriptに型付けし直した経験をポートフォリオに整理。IT特化型エージェントで「TypeScript必須」の自社開発求人に絞り、年収170万円アップとフルリモートを同時に実現しました。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Dさん（20代後半・Web制作→モダンフロント）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・Web制作→モダンフロント）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">Web制作会社のコーダー（HTML/CSS）/ 年収330万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">自社開発企業のフロント（TypeScript＋React）/ 年収450万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">Web制作会社のコーダー（HTML/CSS）/ 年収330万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のフロント（TypeScript＋React）/ 年収450万円</p></div>
               </div>
               <p className="text-sm text-text-light">独学でReact→TypeScript→Next.jsの順に学び、型安全なSPAをVercelに公開。未経験可の自社開発企業に転職し、産休育休実績のある環境で長く働ける基盤を得ました。</p>
             </div>
@@ -454,17 +454,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -478,10 +478,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/frontend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>フロントエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">女性に人気の理由と求人動向</p></a>
-            <a href="/articles/javascript-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>JavaScript×女性エンジニア</h3><p className="text-sm text-text-light">フロントエンド転職の始め方</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
-            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ポートフォリオの作り方</h3><p className="text-sm text-text-light">転職で最も効く実績の作り方</p></a>
+            <a href="/articles/frontend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>フロントエンドエンジニア転職ガイド</h3><p className="text-sm text-text-light">女性に人気の理由と求人動向</p></a>
+            <a href="/articles/javascript-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>JavaScript×女性エンジニア</h3><p className="text-sm text-text-light">フロントエンド転職の始め方</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ポートフォリオの作り方</h3><p className="text-sm text-text-light">転職で最も効く実績の作り方</p></a>
           </div>
         </div>
       </section>
@@ -489,10 +489,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

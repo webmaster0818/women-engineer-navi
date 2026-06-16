@@ -95,11 +95,11 @@ export default function ResumeGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "職務経歴書ガイド" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>転職ノウハウ</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>転職ノウハウ</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性エンジニアの職務経歴書ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">スキルシートの書き方・ブランクの伝え方【2026年】</span>
@@ -112,23 +112,23 @@ export default function ResumeGuidePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>先に結論：通る職務経歴書の4原則</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：通る職務経歴書の4原則</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>プロジェクト単位で書く。</strong> エンジニアの書類は「期間・概要・規模・役割・担当フェーズ・技術スタック・成果」のセットで案件ごとに記述するのが標準（スキルシート文化）。会社単位の業務羅列では評価できません。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>落ちて普通、と知っておく。</strong> dodaの集計（2025年4月〜2026年3月）では転職成功者の平均応募社数は<strong>31.9社</strong>。書類で大半が絞られる前提で、数と質の両方で戦います。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>ブランク・制約は隠さず文脈化。</strong> 空白期間は時系列のまま書き、「期間中の事実＋復帰準備の具体物」を添える。時短・残業制約は本人希望欄に1行＋詳細はエージェント経由か面接で。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>履歴書の性別欄は任意。</strong> 厚労省の履歴書様式例（2021年4月公表）では性別欄は任意記載で未記載も可。「通勤時間」「扶養家族数」「配偶者」欄はそもそも設けられていません（出典: 厚生労働省）。</span>
               </li>
             </ul>
@@ -139,18 +139,18 @@ export default function ResumeGuidePage() {
       {/* 目次 */}
       <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 書類選考の実態：どのくらい通るのか【出典付き】</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 応募書類3点セット：履歴書・職務経歴書・スキルシート</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 職務経歴書の構成テンプレ：プロジェクト単位で書く</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 成果を「定量化」する書き方</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 経験が浅い・未経験・ブランクあり別の書き方</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 時短・残業制約はいつ・どう伝えるか</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. AI添削・作成ツールの活用と注意点</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 書類選考の実態：どのくらい通るのか【出典付き】</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 応募書類3点セット：履歴書・職務経歴書・スキルシート</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 職務経歴書の構成テンプレ：プロジェクト単位で書く</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 成果を「定量化」する書き方</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 経験が浅い・未経験・ブランクあり別の書き方</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 時短・残業制約はいつ・どう伝えるか</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. AI添削・作成ツールの活用と注意点</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function ResumeGuidePage() {
       </section>
 
       {/* sec2 応募書類3点セット */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">応募書類3点セット：履歴書・職務経歴書・スキルシート</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -186,27 +186,27 @@ export default function ResumeGuidePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>書類</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>役割</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>力の入れどころ</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>書類</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>役割</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>力の入れどころ</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>履歴書</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基本情報・学歴・職歴の「事実確認」書類。様式はほぼ定型</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>誤字脱字ゼロ・日付や社名の正確さ。差がつく書類ではない</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>履歴書</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基本情報・学歴・職歴の「事実確認」書類。様式はほぼ定型</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>誤字脱字ゼロ・日付や社名の正確さ。差がつく書類ではない</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>職務経歴書</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>経験・スキル・成果を自由形式でアピールする「勝負書類」。A4で2〜3枚が目安</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}><strong>最重要。</strong>書類選考の合否はほぼここで決まる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>職務経歴書</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>経験・スキル・成果を自由形式でアピールする「勝負書類」。A4で2〜3枚が目安</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><strong>最重要。</strong>書類選考の合否はほぼここで決まる</td>
                 </tr>
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>スキルシート<br /><span className="font-normal text-xs">（技術経歴書）</span></td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>プロジェクトごとの期間・規模・役割・担当フェーズ・開発環境を一覧表で示すIT業界特有の書類。SES・派遣・フリーランス案件では必須級</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術キーワードの網羅と正確さ。職務経歴書の職務経歴欄をこの形式で書けば兼用できる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>スキルシート<br /><span className="font-normal text-xs">（技術経歴書）</span></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>プロジェクトごとの期間・規模・役割・担当フェーズ・開発環境を一覧表で示すIT業界特有の書類。SES・派遣・フリーランス案件では必須級</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術キーワードの網羅と正確さ。職務経歴書の職務経歴欄をこの形式で書けば兼用できる</td>
                 </tr>
               </tbody>
             </table>
@@ -214,8 +214,8 @@ export default function ResumeGuidePage() {
           <p className="text-xs text-text-light mt-3 leading-relaxed">
             参考: リクナビNEXT「ITエンジニア向けスキルシートの書き方」、doda「スキルシートの書き方は？技術経歴書や職務経歴書との違いは？」（いずれも2026年6月参照）
           </p>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>履歴書の公的事実：性別欄は任意、家族欄はそもそも無い</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>履歴書の公的事実：性別欄は任意、家族欄はそもそも無い</h3>
             <div className="space-y-3 text-sm text-text-light leading-relaxed">
               <p>
                 2020年7月に日本規格協会がJIS規格の解説から履歴書の様式例を削除したことを受け、厚生労働省は2021年4月に新たな<strong>「履歴書の様式例」</strong>を公表しました。公正な採用選考の観点から作られたこの様式例には、知っておくと安心できる事実が含まれています。
@@ -243,24 +243,24 @@ export default function ResumeGuidePage() {
           </div>
           <div className="space-y-4">
             {[
-              { name: "① 職務要約（3〜5行）", desc: "経験年数・主な領域・代表的な技術・直近の役割を要約。「Web系開発◯年。バックエンド（言語名）を中心に、要件定義〜運用まで一貫して担当。直近は◯名チームのリーダーとして〜」のように、ここだけ読めば人物像が分かる密度にします。書類選考の担当者が最初に読む最重要ブロックです。", color: "#0891b2" },
-              { name: "② 活かせるスキル・技術スタック", desc: "言語・フレームワーク・インフラ/クラウド・DB・ツールをカテゴリ別に列挙し、それぞれ「実務年数」または「できることのレベル感」を添えます。「Python（実務3年・APIの設計から実装まで一人称で可）」のように書くと、単なる単語の羅列より格段に伝わります。応募先の求人票にあるキーワードと照合されるブロックなので、求人票で使われている表記（略称・正式名称）に合わせるのも実務的なコツです。", color: "#7c3aed" },
-              { name: "③ 職務経歴（プロジェクト単位・新しい順）", desc: "本文の中核。会社ごとの業務説明ではなく、プロジェクト（案件）ごとに「期間／概要／規模／役割・担当フェーズ／技術スタック／成果・工夫」のセットで書きます。書き方の型は下のボックス参照。古い案件・応募先と関連の薄い案件は1〜2行に圧縮し、直近・関連案件を厚くするメリハリが重要です。", color: "#0891b2" },
-              { name: "④ 自己PR（3〜10行）", desc: "プロジェクト経歴では伝わらない強みを1〜2点に絞って書きます。技術選定の考え方、品質やチームへの貢献姿勢、キャッチアップの速さなど。「なんでもやります」より「この強みでこう貢献できる」の方が通ります。応募先ごとに差し替える前提のブロックです。", color: "#7c3aed" },
-              { name: "⑤ 補足情報（任意）", desc: "保有資格、GitHub・技術ブログ・ポートフォリオのURL、登壇・執筆など。成果物URLは書類の説得力を大きく底上げします。", color: "#0891b2" },
+              { name: "① 職務要約（3〜5行）", desc: "経験年数・主な領域・代表的な技術・直近の役割を要約。「Web系開発◯年。バックエンド（言語名）を中心に、要件定義〜運用まで一貫して担当。直近は◯名チームのリーダーとして〜」のように、ここだけ読めば人物像が分かる密度にします。書類選考の担当者が最初に読む最重要ブロックです。", color: "#7c3a55" },
+              { name: "② 活かせるスキル・技術スタック", desc: "言語・フレームワーク・インフラ/クラウド・DB・ツールをカテゴリ別に列挙し、それぞれ「実務年数」または「できることのレベル感」を添えます。「Python（実務3年・APIの設計から実装まで一人称で可）」のように書くと、単なる単語の羅列より格段に伝わります。応募先の求人票にあるキーワードと照合されるブロックなので、求人票で使われている表記（略称・正式名称）に合わせるのも実務的なコツです。", color: "#7c3a55" },
+              { name: "③ 職務経歴（プロジェクト単位・新しい順）", desc: "本文の中核。会社ごとの業務説明ではなく、プロジェクト（案件）ごとに「期間／概要／規模／役割・担当フェーズ／技術スタック／成果・工夫」のセットで書きます。書き方の型は下のボックス参照。古い案件・応募先と関連の薄い案件は1〜2行に圧縮し、直近・関連案件を厚くするメリハリが重要です。", color: "#7c3a55" },
+              { name: "④ 自己PR（3〜10行）", desc: "プロジェクト経歴では伝わらない強みを1〜2点に絞って書きます。技術選定の考え方、品質やチームへの貢献姿勢、キャッチアップの速さなど。「なんでもやります」より「この強みでこう貢献できる」の方が通ります。応募先ごとに差し替える前提のブロックです。", color: "#7c3a55" },
+              { name: "⑤ 補足情報（任意）", desc: "保有資格、GitHub・技術ブログ・ポートフォリオのURL、登壇・執筆など。成果物URLは書類の説得力を大きく底上げします。", color: "#7c3a55" },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <h3 className="text-lg font-bold mb-2" style={{ color: item.color }}>{item.name}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>プロジェクト1件の「書き方の型」</h3>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f0e7dd", border: "1px solid #d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>プロジェクト1件の「書き方の型」</h3>
             <p className="text-sm text-text-light leading-relaxed mb-3">
               下記の項目を埋める形で1案件ずつ書きます（◯◯はご自身の実績に置き換えてください）。スキルシート提出を求められた場合も、同じ項目を表形式にすれば対応できます。
             </p>
-            <div className="rounded-lg bg-white p-4 text-sm text-text-light leading-relaxed" style={{ border: "1px solid #d1dce5" }}>
+            <div className="rounded-lg bg-white p-4 text-sm text-text-light leading-relaxed" style={{ border: "1px solid #d9c7b8" }}>
               <p><strong>【プロジェクト名・期間】</strong> ◯◯システムの開発（20XX年X月〜20XX年X月）</p>
               <p><strong>【概要】</strong> 何のための、誰が使うシステムか（1〜2行）</p>
               <p><strong>【規模】</strong> チーム◯名（うち開発◯名）／自分のポジション（メンバー・サブリーダー等）</p>
@@ -276,7 +276,7 @@ export default function ResumeGuidePage() {
       </section>
 
       {/* sec4 定量化 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">成果を「定量化」する書き方</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -287,33 +287,33 @@ export default function ResumeGuidePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left w-1/2" style={{ borderColor: "#d1dce5" }}>伝わらない書き方</th>
-                  <th className="border px-4 py-3 text-left w-1/2" style={{ borderColor: "#d1dce5" }}>伝わる書き方（数値は自分の実績に置き換え）</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left w-1/2" style={{ borderColor: "#d9c7b8" }}>伝わらない書き方</th>
+                  <th className="border px-4 py-3 text-left w-1/2" style={{ borderColor: "#d9c7b8" }}>伝わる書き方（数値は自分の実績に置き換え）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr className="bg-white">
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>パフォーマンス改善を行った</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>スロークエリの特定とインデックス再設計により、一覧画面の表示時間を◯秒→◯秒に短縮</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>パフォーマンス改善を行った</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>スロークエリの特定とインデックス再設計により、一覧画面の表示時間を◯秒→◯秒に短縮</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>テストの効率化に貢献した</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リグレッションテストを自動化（ツール名）し、リリース前の手動テスト工数を週◯時間削減</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>テストの効率化に貢献した</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リグレッションテストを自動化（ツール名）し、リリース前の手動テスト工数を週◯時間削減</td>
                 </tr>
                 <tr className="bg-white">
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>チームをまとめた</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>開発◯名のサブリーダーとしてタスク分担とコードレビューを担当。新メンバー◯名の立ち上げを◯ヶ月で完了</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>チームをまとめた</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>開発◯名のサブリーダーとしてタスク分担とコードレビューを担当。新メンバー◯名の立ち上げを◯ヶ月で完了</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>障害対応を行った</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>障害の暫定対応と恒久対策（再発防止の仕組み名）を主導し、同種障害の発生件数を月◯件→0件に</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>障害対応を行った</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>障害の暫定対応と恒久対策（再発防止の仕組み名）を主導し、同種障害の発生件数を月◯件→0件に</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>数値が手元にない・出せない場合</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>数値が手元にない・出せない場合</h3>
             <p className="text-sm text-text-light leading-relaxed">
               売上やKPIに直結しない仕事も多いのがエンジニアの実態です。その場合は<strong>規模・頻度・期間・比較</strong>で代用します。「月◯回のリリースを担当」「◯画面・APIエンドポイント◯本を実装」「従来◯日かかっていた作業を◯時間に」など、絶対値が小さくても構いません。なお守秘義務のある具体的な数値（顧客名・売上額など）は「大手◯◯業向け」「数百万件規模のデータ」のように粒度を落として書くのが安全です。<strong>実績の誇張・水増しは厳禁</strong>です。面接で深掘りされて答えに詰まれば書類全体の信頼が崩れますし、内定後に発覚すれば経歴詐称として扱われるリスクがあります。
             </p>
@@ -331,20 +331,20 @@ export default function ResumeGuidePage() {
             </p>
           </div>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>実務1〜3年で「書ける実績がない」場合</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>実務1〜3年で「書ける実績がない」場合</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 若手に大きな実績がないことは採用側も織り込み済みです。見られているのは<strong>担当範囲の正確な記述と、課題への向き合い方</strong>。任されたタスクの中での工夫（テストの観点を増やした、ドキュメントを整備した、レビュー指摘を仕組みで減らした等）を「課題→打ち手→結果」の型で書けば、それ自体が実績になります。技術スタック欄は「研修で触れた」と「実務で使った」を正直に区別して書きましょう。ここを混ぜると面接で必ず露見します。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>未経験・異職種からの転職の場合</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>未経験・異職種からの転職の場合</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                実務経歴の代わりに<strong>学習の経緯と成果物</strong>を職務経歴書に組み込みます。「学習内容（期間・教材・学習時間）」と「作った物（GitHubリポジトリ・公開URL）」をプロジェクト経歴と同じ型（概要・技術スタック・工夫）で書くのがコツです。前職の経験も捨てずに、業務知識（会計・医療・物流など）やコミュニケーション・調整の実績として接続しましょう。成果物の作り方は<a href="/articles/portfolio/" className="underline" style={{ color: "#0891b2" }}>ポートフォリオ作成ガイド</a>で詳しく解説しています。
+                実務経歴の代わりに<strong>学習の経緯と成果物</strong>を職務経歴書に組み込みます。「学習内容（期間・教材・学習時間）」と「作った物（GitHubリポジトリ・公開URL）」をプロジェクト経歴と同じ型（概要・技術スタック・工夫）で書くのがコツです。前職の経験も捨てずに、業務知識（会計・医療・物流など）やコミュニケーション・調整の実績として接続しましょう。成果物の作り方は<a href="/articles/portfolio/" className="underline" style={{ color: "#7c3a55" }}>ポートフォリオ作成ガイド</a>で詳しく解説しています。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>育児・介護などでブランクがある場合</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#c15f47" }}>育児・介護などでブランクがある場合</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">
                 鉄則は<strong>時系列を加工しないこと</strong>。空白を埋めようと期間をぼかすと、社会保険の記録等と突き合わせた際に整合せず、かえって致命的です。書き方は次の3点セットです。
               </p>
@@ -354,7 +354,7 @@ export default function ResumeGuidePage() {
                 <li>③ 現在の就業体制（保育の確保状況・可能な勤務形態）を本人希望欄に簡潔に書く</li>
               </ul>
               <p className="text-sm text-text-light leading-relaxed">
-                第1子出産を機に約3割の女性が離職しており（出典: 国立社会保障・人口問題研究所「第16回出生動向基本調査」）、ブランクからの応募は決して特殊なケースではありません。採用側が知りたいのは過去の理由より「今すぐ戦力になるか」です。ブランク年数別の準備戦略と支援制度は<a href="/articles/return-to-work/" className="underline" style={{ color: "#0891b2" }}>ブランクからの復職・再就職ガイド</a>を併せてどうぞ。
+                第1子出産を機に約3割の女性が離職しており（出典: 国立社会保障・人口問題研究所「第16回出生動向基本調査」）、ブランクからの応募は決して特殊なケースではありません。採用側が知りたいのは過去の理由より「今すぐ戦力になるか」です。ブランク年数別の準備戦略と支援制度は<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>ブランクからの復職・再就職ガイド</a>を併せてどうぞ。
               </p>
             </div>
           </div>
@@ -362,7 +362,7 @@ export default function ResumeGuidePage() {
       </section>
 
       {/* sec6 時短・残業制約 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">時短・残業制約はいつ・どう伝えるか</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -373,35 +373,35 @@ export default function ResumeGuidePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>段階</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>伝えること</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>書き方・伝え方</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>段階</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>伝えること</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>書き方・伝え方</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>書類段階</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>事実と可能ラインのみ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>本人希望欄・備考欄に「就学前の子どもがおり、残業は月◯時間程度まで可。フルタイム勤務可（または時短勤務を希望）」と<strong>1行で簡潔に</strong>。職務経歴書の本文には書かない</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>書類段階</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>事実と可能ラインのみ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>本人希望欄・備考欄に「就学前の子どもがおり、残業は月◯時間程度まで可。フルタイム勤務可（または時短勤務を希望）」と<strong>1行で簡潔に</strong>。職務経歴書の本文には書かない</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>エージェント経由</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>詳細条件の事前すり合わせ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「時短は何歳まで使えるか」「リモートと組み合わせ可か」「過去に時短勤務での中途入社実績はあるか」など、<strong>自分から聞きにくい確認を応募前に代行</strong>してもらう。条件が合わない企業に書類を出す無駄も省ける</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>エージェント経由</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>詳細条件の事前すり合わせ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「時短は何歳まで使えるか」「リモートと組み合わせ可か」「過去に時短勤務での中途入社実績はあるか」など、<strong>自分から聞きにくい確認を応募前に代行</strong>してもらう。条件が合わない企業に書類を出す無駄も省ける</td>
                 </tr>
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>面接段階</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>働き方の設計と貢献の両方</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>制約だけでなく「その時間内でどう成果を出すか」（業務の優先順位づけ・非同期コミュニケーションの工夫など）をセットで話す。条件交渉は内定前後のオファー面談が本番</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>面接段階</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>働き方の設計と貢献の両方</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>制約だけでなく「その時間内でどう成果を出すか」（業務の優先順位づけ・非同期コミュニケーションの工夫など）をセットで話す。条件交渉は内定前後のオファー面談が本番</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>制度の後ろ盾：2025年の育児・介護休業法改正</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>制度の後ろ盾：2025年の育児・介護休業法改正</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              法制度の面でも、子育てと両立する働き方は「特別なお願い」ではなくなりつつあります。2025年4月施行の育児・介護休業法改正で、<strong>残業免除（所定外労働の制限）を請求できる対象が「3歳未満」から「小学校就学前」の子を養育する労働者まで拡大</strong>されました。さらに2025年10月からは、3歳以上小学校就学前の子を持つ労働者向けに、始業時刻等の変更・テレワーク等・短時間勤務制度などから<strong>2つ以上の措置を講じることが事業主に義務化</strong>されています（出典: 厚生労働省「育児・介護休業法 改正のポイント」、2026年6月参照）。制約を伝えること自体に引け目を感じる必要はありません。在職中に転職活動を進める段取りは<a href="/articles/job-hunting-while-employed/" className="underline" style={{ color: "#0891b2" }}>働きながらの転職活動ガイド</a>で解説しています。
+              法制度の面でも、子育てと両立する働き方は「特別なお願い」ではなくなりつつあります。2025年4月施行の育児・介護休業法改正で、<strong>残業免除（所定外労働の制限）を請求できる対象が「3歳未満」から「小学校就学前」の子を養育する労働者まで拡大</strong>されました。さらに2025年10月からは、3歳以上小学校就学前の子を持つ労働者向けに、始業時刻等の変更・テレワーク等・短時間勤務制度などから<strong>2つ以上の措置を講じることが事業主に義務化</strong>されています（出典: 厚生労働省「育児・介護休業法 改正のポイント」、2026年6月参照）。制約を伝えること自体に引け目を感じる必要はありません。在職中に転職活動を進める段取りは<a href="/articles/job-hunting-while-employed/" className="underline" style={{ color: "#7c3a55" }}>働きながらの転職活動ガイド</a>で解説しています。
             </p>
           </div>
         </div>
@@ -417,8 +417,8 @@ export default function ResumeGuidePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>有効な使い方</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>有効な使い方</h3>
               <ul className="space-y-2 text-sm text-text-light leading-relaxed">
                 <li>・<strong>骨組みづくり:</strong> dodaの「レジュメビルダー」（会員登録で無料・Word/PDF出力可）のような作成ツールで構成の抜け漏れを防ぐ（出典: doda「レジュメビルダー」公式ページ、2026年6月参照）</li>
                 <li>・<strong>壁打ち:</strong> 生成AIに「このプロジェクト経験の成果を定量化する切り口を10個挙げて」と聞き、書き忘れていた実績を掘り起こす</li>
@@ -426,8 +426,8 @@ export default function ResumeGuidePage() {
                 <li>・<strong>求人票との照合:</strong> 求人票の必須要件と自分の経歴の対応関係を整理させ、職務要約・自己PRを応募先別に調整する</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>注意点</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>注意点</h3>
               <ul className="space-y-2 text-sm text-text-light leading-relaxed">
                 <li>・<strong>「盛り」の混入:</strong> AIは経歴をそれらしく補完します。出力された数値・役割・技術は必ず事実と照合を。誇張は面接での深掘りで崩れ、経歴詐称リスクにもなります</li>
                 <li>・<strong>機密情報の入力:</strong> 前職の顧客名・非公開の数値・社内システムの詳細をプロンプトに入れない運用が安全です</li>
@@ -437,13 +437,13 @@ export default function ResumeGuidePage() {
             </div>
           </div>
           <p className="text-text-light text-sm leading-relaxed mt-6">
-            書類が通った後の準備は<a href="/articles/interview-guide/" className="underline" style={{ color: "#0891b2" }}>エンジニア面接ガイド</a>へ。職務経歴書に書いた内容は面接での質問の台本になるため、書いたことはすべて口頭で説明できる状態にしておきましょう。
+            書類が通った後の準備は<a href="/articles/interview-guide/" className="underline" style={{ color: "#7c3a55" }}>エンジニア面接ガイド</a>へ。職務経歴書に書いた内容は面接での質問の台本になるため、書いたことはすべて口頭で説明できる状態にしておきましょう。
           </p>
         </div>
       </section>
 
       {/* おすすめ転職エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -452,10 +452,10 @@ export default function ResumeGuidePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -463,10 +463,10 @@ export default function ResumeGuidePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -474,10 +474,10 @@ export default function ResumeGuidePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -485,10 +485,10 @@ export default function ResumeGuidePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -499,7 +499,7 @@ export default function ResumeGuidePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -508,7 +508,7 @@ export default function ResumeGuidePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -522,13 +522,13 @@ export default function ResumeGuidePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}
@@ -537,7 +537,7 @@ export default function ResumeGuidePage() {
       </section>
 
       {/* 出典 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考</h2>
           <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -556,20 +556,20 @@ export default function ResumeGuidePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ポートフォリオ作成ガイド</h3>
+            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ポートフォリオ作成ガイド</h3>
               <p className="text-sm text-text-light">職務経歴書の説得力を底上げする成果物の作り方</p>
             </a>
-            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>エンジニア面接ガイド</h3>
+            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>エンジニア面接ガイド</h3>
               <p className="text-sm text-text-light">書類通過後の選考フローと面接準備</p>
             </a>
-            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ブランクからの復職・再就職ガイド</h3>
+            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ブランクからの復職・再就職ガイド</h3>
               <p className="text-sm text-text-light">ブランク年数別の戦略と支援制度</p>
             </a>
-            <a href="/articles/job-hunting-while-employed/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>働きながらの転職活動ガイド</h3>
+            <a href="/articles/job-hunting-while-employed/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>働きながらの転職活動ガイド</h3>
               <p className="text-sm text-text-light">在職中に書類準備と応募を進める段取り</p>
             </a>
           </div>
@@ -582,7 +582,7 @@ export default function ResumeGuidePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -594,7 +594,7 @@ export default function ResumeGuidePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

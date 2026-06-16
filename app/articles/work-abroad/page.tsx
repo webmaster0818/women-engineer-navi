@@ -106,7 +106,7 @@ export default function ArticlePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
             items={[
@@ -116,7 +116,7 @@ export default function ArticlePage() {
             ]}
           />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
               働き方
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
@@ -133,8 +133,8 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border-2 p-6" style={{ borderColor: "#0891b2", backgroundColor: "#ecfeff" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl border-2 p-6" style={{ borderColor: "#7c3a55", backgroundColor: "#efe3d8" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li>
                 ① 米国のソフトウェア開発者の<strong>年収中央値は133,080ドル（約2,130万円）</strong>と日本の2倍以上（米国労働統計局・2024年5月時点、1ドル=160円換算）。ただし税・物価・家賃を引いた手取り差は額面ほど大きくない。
@@ -156,17 +156,17 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 海外で働く4つのルート（比較表）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 国別エンジニア年収比較（出典付き）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. ルート別の進め方と向いている人</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 就労ビザの基礎知識（主要5カ国）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 必要な英語力の現実的なライン</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 海外を見据えた準備ステップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめの転職サービス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 海外で働く4つのルート（比較表）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 国別エンジニア年収比較（出典付き）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. ルート別の進め方と向いている人</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 就労ビザの基礎知識（主要5カ国）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 必要な英語力の現実的なライン</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 海外を見据えた準備ステップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめの転職サービス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -184,49 +184,49 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ルート</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>難易度</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>英語要件の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な準備</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ルート</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>難易度</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>英語要件の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な準備</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>① 日本企業の海外駐在</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>低〜中（社内選抜次第）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>業務によりB1〜B2</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>海外拠点を持つ企業への転職・社内公募への応募</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>① 日本企業の海外駐在</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>低〜中（社内選抜次第）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業務によりB1〜B2</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>海外拠点を持つ企業への転職・社内公募への応募</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>② 外資系日本法人 → 海外異動</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>中</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>B2（社内公用語が英語の場合あり）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>外資系日本法人への転職→実績→社内トランスファー（米国はL-1等）</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>② 外資系日本法人 → 海外異動</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>中</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>B2（社内公用語が英語の場合あり）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>外資系日本法人への転職→実績→社内トランスファー（米国はL-1等）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>③ 現地採用（直接応募）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>高</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>B2〜C1＋英語の技術面接</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>英文レジュメ・LinkedIn・コーディング面接対策・ビザスポンサー企業探し</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>③ 現地採用（直接応募）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>高</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>B2〜C1＋英語の技術面接</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>英文レジュメ・LinkedIn・コーディング面接対策・ビザスポンサー企業探し</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>④ 海外フルリモート（日本在住）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>中〜高（ビザ不要）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>B2（非同期の読み書きが中心）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リモート求人プラットフォーム・業務委託契約と税務の知識</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>④ 海外フルリモート（日本在住）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>中〜高（ビザ不要）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>B2（非同期の読み書きが中心）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リモート求人プラットフォーム・業務委託契約と税務の知識</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            ※ 難易度・英語要件は一般的な傾向の目安です。CEFR（ヨーロッパ言語共通参照枠）のB2は「自分の専門分野の議論に参加できる」レベル、C1は「複雑な話題でも流暢にやり取りできる」レベルに相当します。ライフイベントとの両立を重視するなら、移住を伴わない④から始めて③へ進む段階的な戦略も有効です。キャリア全体の設計は<a href="/articles/career-path/" className="underline" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</a>も参考にしてください。
+            ※ 難易度・英語要件は一般的な傾向の目安です。CEFR（ヨーロッパ言語共通参照枠）のB2は「自分の専門分野の議論に参加できる」レベル、C1は「複雑な話題でも流暢にやり取りできる」レベルに相当します。ライフイベントとの両立を重視するなら、移住を伴わない④から始めて③へ進む段階的な戦略も有効です。キャリア全体の設計は<a href="/articles/career-path/" className="underline" style={{ color: "#7c3a55" }}>キャリアパス設計ガイド</a>も参考にしてください。
           </p>
         </div>
       </section>
 
       {/* sec2 年収比較 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">国別エンジニア年収比較（出典付き）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -237,55 +237,55 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>国</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>公表値</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>円換算の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典・注記</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>国</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>公表値</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>円換算の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典・注記</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>米国（全体）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>年収中央値 133,080ドル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約2,130万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>BLS「Software Developers」2024年5月時点。上位10%は211,450ドル超</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>米国（全体）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>年収中央値 133,080ドル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約2,130万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>BLS「Software Developers」2024年5月時点。上位10%は211,450ドル超</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>米国（テック大手中心）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>総報酬 約192,000ドル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約3,070万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Levels.fyi。株式報酬・賞与込み。投稿ベースで大手テック寄りに高めに出る点に注意</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>米国（テック大手中心）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>総報酬 約192,000ドル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約3,070万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Levels.fyi。株式報酬・賞与込み。投稿ベースで大手テック寄りに高めに出る点に注意</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>カナダ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約10.1万〜18.4万カナダドル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,160万〜2,110万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Levels.fyiのレンジ。トロント・バンクーバーに求人が集中</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>カナダ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約10.1万〜18.4万カナダドル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,160万〜2,110万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Levels.fyiのレンジ。トロント・バンクーバーに求人が集中</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ドイツ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>総報酬 約82,400ユーロ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,520万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Levels.fyi。ベルリン・ミュンヘンが中心。労働時間規制・休暇が手厚い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ドイツ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>総報酬 約82,400ユーロ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,520万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Levels.fyi。ベルリン・ミュンヘンが中心。労働時間規制・休暇が手厚い</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>シンガポール</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>総報酬 約114,000シンガポールドル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,430万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Levels.fyi。所得税率が比較的低く手取りが残りやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>シンガポール</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>総報酬 約114,000シンガポールドル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,430万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Levels.fyi。所得税率が比較的低く手取りが残りやすい</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>日本（参考）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>総報酬 約849万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Levels.fyi日本。外資・大手テック投稿が中心で国内平均より高め</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>日本（参考）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>総報酬 約849万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Levels.fyi日本。外資・大手テック投稿が中心で国内平均より高め</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>この表を読むときの3つの注意</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>この表を読むときの3つの注意</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>為替前提</strong>: 1ドル=160円、1ユーロ=184円、1カナダドル=115円、1シンガポールドル=125円の概算（2026年6月時点）。為替が10%動けば円換算額も10%変わります。</li>
               <li>② <strong>手取りは税・社会保険・物価で大きく変わる</strong>: 米国テック都市の家賃・保険・教育費は非常に高く、額面の差ほど可処分所得の差は開かないことが多いです。</li>
@@ -293,7 +293,7 @@ export default function ArticlePage() {
             </ul>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            なお、日本国内でも外資系企業や大手テックなら年収1,000万円台は十分に狙えます。海外移住と国内高年収の比較は<a href="/articles/salary-1000man/" className="underline" style={{ color: "#0891b2" }}>年収1000万円を目指す方法</a>で詳しく解説しています。
+            なお、日本国内でも外資系企業や大手テックなら年収1,000万円台は十分に狙えます。海外移住と国内高年収の比較は<a href="/articles/salary-1000man/" className="underline" style={{ color: "#7c3a55" }}>年収1000万円を目指す方法</a>で詳しく解説しています。
           </p>
         </div>
       </section>
@@ -303,28 +303,28 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">ルート別の進め方と向いている人</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>① 日本企業の海外駐在 ── リスク最小で海外経験を積む</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 日本企業の海外駐在 ── リスク最小で海外経験を積む</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 日本本社の雇用を維持したまま海外拠点へ赴任するルートです。ビザ手続きは会社が企業内転勤系の枠組みで進め、住居・赴任手当などのサポートも受けられるため、<strong>生活リスクが最も小さい</strong>のが特徴です。一方で赴任先・時期を自分で選びにくく、給与体系は日本基準＋手当が基本です。海外拠点を持つメーカー・SIer・大手Web企業に転職し、社内公募に手を挙げるのが入口になります。
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>② 外資系日本法人 → 海外異動 ── 米国を目指すなら本命</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 外資系日本法人 → 海外異動 ── 米国を目指すなら本命</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 まず外資系企業の日本法人に転職し、1〜2年以上の実績を作ってから社内トランスファーで海外オフィスへ移るルートです。米国の場合、抽選制のH-1Bと異なり<strong>企業内転勤ビザ（L-1）は抽選がなく</strong>、勤続1年以上などの要件を満たせば会社主導で申請できます。日本にいる間に英語環境・評価制度・社内ネットワークに慣れられるため、後述するH-1Bの不確実性が高まっている2026年時点では、米国を目指す最有力ルートといえます。
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>③ 現地採用 ── 年収・キャリアの天井が最も高い</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ 現地採用 ── 年収・キャリアの天井が最も高い</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 海外企業の求人にLinkedInや企業採用ページから直接応募するルートです。現地水準の報酬を得られる反面、<strong>英文レジュメ（日本の履歴書と形式が異なる）・英語のコーディング面接・システムデザイン面接・行動面接</strong>の対策が必要で、ビザスポンサーをしてくれる企業を見つけるハードルもあります。移民受け入れに積極的なカナダ、IT人材の枠組みが整ったドイツ、英語が公用語で日本から近いシンガポールなどは、米国より入口が広い選択肢です。
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>④ 海外フルリモート ── 移住もビザも不要</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 海外フルリモート ── 移住もビザも不要</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                日本に住んだまま海外企業の開発に参加するルートです。就労ビザが不要で、生活基盤を変えずに外貨建ての報酬を得られるため、<strong>育児・介護と両立したい人や、移住前の助走として試したい人</strong>に向いています。契約はコントラクター（業務委託）型が多く、確定申告・社会保険の自己管理が必要です。時差は欧州企業（7〜9時間）のほうが米国企業（13〜17時間）より調整しやすい傾向です。国内のフルリモート企業と比較検討したい場合は<a href="/articles/fullremote-companies/" className="underline" style={{ color: "#0891b2" }}>フルリモート企業ガイド</a>も参考になります。
+                日本に住んだまま海外企業の開発に参加するルートです。就労ビザが不要で、生活基盤を変えずに外貨建ての報酬を得られるため、<strong>育児・介護と両立したい人や、移住前の助走として試したい人</strong>に向いています。契約はコントラクター（業務委託）型が多く、確定申告・社会保険の自己管理が必要です。時差は欧州企業（7〜9時間）のほうが米国企業（13〜17時間）より調整しやすい傾向です。国内のフルリモート企業と比較検討したい場合は<a href="/articles/fullremote-companies/" className="underline" style={{ color: "#7c3a55" }}>フルリモート企業ガイド</a>も参考になります。
               </p>
             </div>
           </div>
@@ -332,7 +332,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 ビザ */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">就労ビザの基礎知識（主要5カ国）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -343,43 +343,43 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>国</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な制度</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>2026年時点の骨子</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>国</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な制度</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>2026年時点の骨子</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>米国</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>H-1B（専門職）／L-1（企業内転勤）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>H-1Bは年間85,000件上限（うち2万件は米国修士以上枠）の抽選制。2025年9月の大統領布告で国外からの新規申請に10万ドルの手数料（訴訟係属中）。2026年2月発効の規則でFY2027から賃金水準を加重した選抜へ。L-1は抽選なしで企業主導</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>米国</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>H-1B（専門職）／L-1（企業内転勤）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>H-1Bは年間85,000件上限（うち2万件は米国修士以上枠）の抽選制。2025年9月の大統領布告で国外からの新規申請に10万ドルの手数料（訴訟係属中）。2026年2月発効の規則でFY2027から賃金水準を加重した選抜へ。L-1は抽選なしで企業主導</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>カナダ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Express Entry（永住権）／就労許可</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>学歴・職歴・年齢・言語力をポイント化（CRS）し、高得点者に永住権申請の招待。STEM職種を対象としたカテゴリー別選抜の枠組みがあり、2026年からSTEMカテゴリーの必要職歴が6カ月→1年に変更。IELTS等の言語スコアが得点に直結</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>カナダ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Express Entry（永住権）／就労許可</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>学歴・職歴・年齢・言語力をポイント化（CRS）し、高得点者に永住権申請の招待。STEM職種を対象としたカテゴリー別選抜の枠組みがあり、2026年からSTEMカテゴリーの必要職歴が6カ月→1年に変更。IELTS等の言語スコアが得点に直結</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ドイツ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>EUブルーカード</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>高度人材向け滞在許可。2026年の年収下限は標準50,700ユーロ、IT等の不足職種は45,934.20ユーロに引き下げ。大学学位のないIT人材も直近7年で3年以上の実務経験があれば対象になり得る</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ドイツ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>EUブルーカード</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>高度人材向け滞在許可。2026年の年収下限は標準50,700ユーロ、IT等の不足職種は45,934.20ユーロに引き下げ。大学学位のないIT人材も直近7年で3年以上の実務経験があれば対象になり得る</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>オーストラリア</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Skills in Demand ビザ（サブクラス482）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>旧TSSビザを再編した雇用主スポンサー型。Specialist Skills／Core Skills等のストリーム制で有効期間4年、永住権（ENS）への移行パスあり。必要職歴は直近5年内の1年以上に緩和</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>オーストラリア</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Skills in Demand ビザ（サブクラス482）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>旧TSSビザを再編した雇用主スポンサー型。Specialist Skills／Core Skills等のストリーム制で有効期間4年、永住権（ENS）への移行パスあり。必要職歴は直近5年内の1年以上に緩和</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>シンガポール</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Employment Pass（EP）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>専門職向け就労パス。最低月給5,600シンガポールドル（金融は6,200）に加え、給与・学歴・国籍多様性などを点数化するCOMPASS制度で40点以上が必要。2027年1月から最低月給は6,000シンガポールドルへ引き上げ予定</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>シンガポール</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Employment Pass（EP）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>専門職向け就労パス。最低月給5,600シンガポールドル（金融は6,200）に加え、給与・学歴・国籍多様性などを点数化するCOMPASS制度で40点以上が必要。2027年1月から最低月給は6,000シンガポールドルへ引き上げ予定</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>実務上のポイント</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>実務上のポイント</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・就労ビザの申請は<strong>原則として雇用主（スポンサー企業）が主体</strong>です。内定前に個人でできるのは、要件の把握と語学スコアなどの準備です。</li>
               <li>・カナダのExpress Entryは例外的に<strong>雇用オファーなしでも永住権を申請できる</strong>制度で、エンジニアには使いやすい選択肢です。</li>
@@ -402,32 +402,32 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種・働き方</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>現実的なライン（CEFR目安）</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>理由</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種・働き方</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>現実的なライン（CEFR目安）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>理由</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>バックエンド／インフラ／SRE</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>B2</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>成果物がコード・設計で評価される。読解とテキストコミュニケーションの比重が高い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>バックエンド／インフラ／SRE</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>B2</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>成果物がコード・設計で評価される。読解とテキストコミュニケーションの比重が高い</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>海外フルリモート（非同期中心）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>B2（書く力重視）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ドキュメント・PR・Slackなど書き言葉が主戦場。会話量は移住より少ない</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>海外フルリモート（非同期中心）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>B2（書く力重視）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ドキュメント・PR・Slackなど書き言葉が主戦場。会話量は移住より少ない</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フロントエンド／デザイン連携が多い職種</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>B2〜C1</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>仕様のすり合わせ・ユーザー視点の議論など口頭での調整がやや多い</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フロントエンド／デザイン連携が多い職種</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>B2〜C1</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>仕様のすり合わせ・ユーザー視点の議論など口頭での調整がやや多い</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>PM／EM／コンサル系</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>C1</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>交渉・利害調整・登壇など、言語そのものが武器になる職種</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>PM／EM／コンサル系</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>C1</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>交渉・利害調整・登壇など、言語そのものが武器になる職種</td>
                 </tr>
               </tbody>
             </table>
@@ -444,7 +444,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 準備ステップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">海外を見据えた準備ステップ</h2>
           <div className="space-y-4">
@@ -455,8 +455,8 @@ export default function ArticlePage() {
               ["STEP4", "ビザ要件の確認と語学スコア取得", "目標国の公式サイトで最新要件を確認。カナダ志向ならIELTSなどポイントに直結するスコアを先に確保しておくと有利です。"],
               ["STEP5", "国内の外資・グローバル企業で助走", "いきなり海外現地採用が難しければ、まず国内で英語を使う環境に移るのが確実な一歩。市場価値の確認はエージェントの無料面談が手軽です。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -465,7 +465,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            海外経験は帰国後のキャリアにも効きます。長期的なキャリア戦略は<a href="/articles/long-career-tips/" className="underline" style={{ color: "#0891b2" }}>長く活躍し続けるためのヒント</a>もあわせてどうぞ。
+            海外経験は帰国後のキャリアにも効きます。長期的なキャリア戦略は<a href="/articles/long-career-tips/" className="underline" style={{ color: "#7c3a55" }}>長く活躍し続けるためのヒント</a>もあわせてどうぞ。
           </p>
         </div>
       </section>
@@ -480,17 +480,17 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 FAQ */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -504,16 +504,16 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</h3><p className="text-sm text-text-light">5年後・10年後のキャリア設計</p></a>
-            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年収1000万円を目指す方法</h3><p className="text-sm text-text-light">国内で高年収を実現するルート</p></a>
-            <a href="/articles/fullremote-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>フルリモート企業ガイド</h3><p className="text-sm text-text-light">場所にとらわれない働き方の選択肢</p></a>
-            <a href="/articles/long-career-tips/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>長く活躍し続けるためのヒント</h3><p className="text-sm text-text-light">ライフイベントと両立するキャリア戦略</p></a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>キャリアパス設計ガイド</h3><p className="text-sm text-text-light">5年後・10年後のキャリア設計</p></a>
+            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収1000万円を目指す方法</h3><p className="text-sm text-text-light">国内で高年収を実現するルート</p></a>
+            <a href="/articles/fullremote-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>フルリモート企業ガイド</h3><p className="text-sm text-text-light">場所にとらわれない働き方の選択肢</p></a>
+            <a href="/articles/long-career-tips/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>長く活躍し続けるためのヒント</h3><p className="text-sm text-text-light">ライフイベントと両立するキャリア戦略</p></a>
           </div>
         </div>
       </section>
 
       {/* 出典 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-xl font-bold mb-4">出典・参考データ</h2>
           <ul className="space-y-2 text-sm text-text-light">
@@ -531,7 +531,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
       </section>
     </>
   );

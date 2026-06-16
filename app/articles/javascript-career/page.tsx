@@ -95,11 +95,11 @@ export default function ArticlePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "JavaScriptキャリアガイド" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>言語別ガイド</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>言語別ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               JavaScriptで女性エンジニア転職
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・需要・TypeScript時代の学び方【2026年】</span>
@@ -112,21 +112,21 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
               結論：JavaScriptは求人ニーズ国内1位。ただし伸ばすなら「JS＋TypeScript」
             </h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>paizaの調査では、企業の求人ニーズが最も高い言語は<strong>JavaScript（14.4%）</strong>。2位Java（13.9%）・3位PHP（11.0%）を上回り、未経験の入口としても求人の裾野が最大級</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>正社員の平均年収は<strong>450万〜500万円</strong>が目安。フリーランスのJavaScript案件は<strong>平均月額単価72.7万円（年収換算873万円）</strong></span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>市場はTypeScript併用へ移行中。TypeScriptの平均提示年収は<strong>714万円（言語別2位）</strong>で、「JSだけ」との差は年収で数十万円規模。JSを学んだらTSまで足すのが2026年の最適解</span>
               </li>
             </ul>
@@ -140,19 +140,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. JavaScriptエンジニアとは（仕事内容とキャリアの広がり）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 女性がJavaScriptで長く働きやすい理由</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 年収相場と求人数【実データ】</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 「JSだけ」と「JS＋TypeScript」の市場価値差</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. フレームワーク需要（React・Next.js・Vue）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験から目指す学習ロードマップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. ポートフォリオと転職活動の進め方</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. JavaScriptエンジニアのキャリアパス</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. JavaScriptエンジニアとは（仕事内容とキャリアの広がり）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 女性がJavaScriptで長く働きやすい理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 年収相場と求人数【実データ】</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 「JSだけ」と「JS＋TypeScript」の市場価値差</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. フレームワーク需要（React・Next.js・Vue）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から目指す学習ロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. ポートフォリオと転職活動の進め方</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. JavaScriptエンジニアのキャリアパス</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -170,15 +170,15 @@ export default function ArticlePage() {
               かつては「画面の装飾用」の言語でしたが、現在のJavaScriptの守備範囲ははるかに広く、(1)ReactやVue.jsを使ったフロントエンド開発、(2)Node.jsによるサーバーサイド（バックエンド）開発、(3)React Nativeなどでのモバイルアプリ開発、(4)Electronを使ったデスクトップアプリまで、<strong>1つの言語でWebのほぼ全領域</strong>をカバーします。最初にJavaScriptを選んでおくと、フロントエンドにもバックエンドにも進路を変えられる——これがキャリア戦略上の最大の強みです。
             </p>
             <p>
-              本記事は「JavaScriptという言語でキャリアを作る」ことを軸に、年収・求人データから学習の道筋までを扱います。TypeScript×Reactのモダンフロントエンド特化の詳細（技術スタック・案件単価など）は<a href="/articles/typescript-react/" className="underline" style={{ color: "#0891b2" }}>TypeScript・Reactエンジニア転職ガイド</a>を、フロントエンド職種そのものの解説は<a href="/articles/frontend/" className="underline" style={{ color: "#0891b2" }}>フロントエンドエンジニア転職ガイド</a>をあわせてご覧ください。
+              本記事は「JavaScriptという言語でキャリアを作る」ことを軸に、年収・求人データから学習の道筋までを扱います。TypeScript×Reactのモダンフロントエンド特化の詳細（技術スタック・案件単価など）は<a href="/articles/typescript-react/" className="underline" style={{ color: "#7c3a55" }}>TypeScript・Reactエンジニア転職ガイド</a>を、フロントエンド職種そのものの解説は<a href="/articles/frontend/" className="underline" style={{ color: "#7c3a55" }}>フロントエンドエンジニア転職ガイド</a>をあわせてご覧ください。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>JavaScript 1つで広がる4つの領域</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>JavaScript 1つで広がる4つの領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>フロントエンド</strong>：React / Vue.js / Next.js でのWeb画面・UI開発（求人の中心）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>バックエンド</strong>：Node.js でのAPI・サーバー開発。フルスタックへの足がかり</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>モバイルアプリ</strong>：React Native などクロスプラットフォーム開発</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>型付き開発（TypeScript）</strong>：JSの知識をそのまま活かして市場価値を一段上げる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>フロントエンド</strong>：React / Vue.js / Next.js でのWeb画面・UI開発（求人の中心）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>バックエンド</strong>：Node.js でのAPI・サーバー開発。フルスタックへの足がかり</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>モバイルアプリ</strong>：React Native などクロスプラットフォーム開発</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>型付き開発（TypeScript）</strong>：JSの知識をそのまま活かして市場価値を一段上げる</span></li>
               </ul>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性が働きやすい理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性がJavaScriptで長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -195,20 +195,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. リモート比率84.5%の高さ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. リモート比率84.5%の高さ</h3>
               <p className="text-text-light text-sm leading-relaxed">フリーランスボードの調査（2026年3月）では、JavaScript案件のリモート比率は84.5%（フルリモート27.4%・一部リモート57.1%）。Web開発は場所を選ばず、産休育休後の復帰や育児との両立がしやすい領域です。出典: フリーランスボード「JavaScriptエンジニア案件調査」（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 求人ニーズ1位＝選択肢の多さ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 求人ニーズ1位＝選択肢の多さ</h3>
               <p className="text-text-light text-sm leading-relaxed">paiza調査で企業の求人ニーズ1位（14.4%）。求人の母数が多いほど「リモート可」「時短可」「産育休実績あり」といった働き方の条件で絞り込んでも選択肢が残り、条件交渉の余地が大きくなります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 成果物が目に見えて評価されやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 成果物が目に見えて評価されやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">画面・UIという「目に見える成果物」を作る仕事のため、ポートフォリオでスキルを客観的に示しやすく、学歴・職歴・性別より実力で評価されやすいのが特徴。ブランクからの再挑戦でも作品が語ってくれます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 学習開始のハードルが最も低い言語</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 学習開始のハードルが最も低い言語</h3>
               <p className="text-text-light text-sm leading-relaxed">ブラウザさえあれば環境構築なしで動かせて、無料教材・日本語情報・コミュニティが豊富。仕事や家事育児と並行した「すきま時間学習」と相性がよく、未経験スタートの挫折率を下げられます。</p>
             </div>
           </div>
@@ -230,18 +230,18 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>経験・区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>求められるスキル</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>経験・区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>求められるスキル</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>未経験・初年度</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>300万〜350万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>JS基礎・HTML/CSS・TypeScript入門</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>1〜2年（初級）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>350万〜450万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>React または Vue.js の基礎</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>3〜5年（中級）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>450万〜600万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>TypeScript＋フレームワーク実務</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>6年以上（上級）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>600万〜800万円超</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>フルスタック・リーダー経験</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均月額単価72.7万円（年収換算873万円）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務3年以上＋React等の専門性</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>未経験・初年度</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>300万〜350万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>JS基礎・HTML/CSS・TypeScript入門</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>1〜2年（初級）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>350万〜450万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>React または Vue.js の基礎</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>3〜5年（中級）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>450万〜600万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>TypeScript＋フレームワーク実務</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>6年以上（上級）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>600万〜800万円超</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>フルスタック・リーダー経験</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均月額単価72.7万円（年収換算873万円）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務3年以上＋React等の専門性</td></tr>
               </tbody>
             </table>
           </div>
@@ -250,14 +250,14 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-4">
             <p>
-              他の言語との比較や「年収の上がりやすい言語」の全体像は、<a href="/articles/salary-by-language/" className="underline" style={{ color: "#0891b2" }}>言語別年収ランキング</a>で詳しく整理しています。
+              他の言語との比較や「年収の上がりやすい言語」の全体像は、<a href="/articles/salary-by-language/" className="underline" style={{ color: "#7c3a55" }}>言語別年収ランキング</a>で詳しく整理しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec4 JSだけ vs JS+TS */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">「JSだけ」と「JS＋TypeScript」の市場価値差</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -271,24 +271,24 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>指標</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>JavaScript</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>TypeScript</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>指標</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>JavaScript</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>TypeScript</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>求人ニーズ（paiza）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1位（14.4%）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上位（年収とのバランス良）</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>平均提示年収（paiza）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上位圏外（競争多）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>714万円（言語別2位）</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス平均単価</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>月72.7万円（年873万円）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>月79.3万円（年952万円）</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>求人ニーズ（paiza）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1位（14.4%）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上位（年収とのバランス良）</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>平均提示年収（paiza）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上位圏外（競争多）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>714万円（言語別2位）</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス平均単価</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>月72.7万円（年873万円）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>月79.3万円（年952万円）</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-text-light mt-3">出典: paiza「プログラミング言語に関する調査（2025年）」（@IT掲載）／フリーランスボード「JavaScript／TypeScriptエンジニア案件調査 2026年3月」（いずれも2026年6月参照）</p>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>結論：JSを学んだら、TSまで足して止める</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：JSを学んだら、TSまで足して止める</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              JavaScriptの基礎を固めたら、TypeScriptの型注釈・interface・ジェネリクスまでを1ヶ月程度で上乗せするのが、学習コストに対するリターンが最も大きい投資です。「JSだけ」で応募するのと「JS＋TS」で応募するのとでは、応募できる求人の幅と提示額が変わります。TypeScript×Reactの技術スタックや案件相場の詳細は<a href="/articles/typescript-react/" className="underline" style={{ color: "#0891b2" }}>TypeScript・Reactエンジニア転職ガイド</a>で解説しています。
+              JavaScriptの基礎を固めたら、TypeScriptの型注釈・interface・ジェネリクスまでを1ヶ月程度で上乗せするのが、学習コストに対するリターンが最も大きい投資です。「JSだけ」で応募するのと「JS＋TS」で応募するのとでは、応募できる求人の幅と提示額が変わります。TypeScript×Reactの技術スタックや案件相場の詳細は<a href="/articles/typescript-react/" className="underline" style={{ color: "#7c3a55" }}>TypeScript・Reactエンジニア転職ガイド</a>で解説しています。
             </p>
           </div>
         </div>
@@ -306,19 +306,19 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>フレームワーク</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>案件数</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均月額単価</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>特徴</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>フレームワーク</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>案件数</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均月額単価</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>特徴</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>React</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>25,102件（1位）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>79.2万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>需要最大。SaaS・スタートアップの標準</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Vue.js</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>10,185件（2位）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>日本の中小・BtoBで根強い需要</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Node.js</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>6,734件（3位）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>79.1万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>JSでのバックエンド。フルスタックへの道</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Next.js</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>6,200件（4位）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>80.6万円（単価1位）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Reactベース。単価が最も高い</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Angular</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2,473件（5位）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>大企業の業務システムで一定の需要</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>React</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>25,102件（1位）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>79.2万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>需要最大。SaaS・スタートアップの標準</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Vue.js</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>10,185件（2位）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>日本の中小・BtoBで根強い需要</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Node.js</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>6,734件（3位）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>79.1万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>JSでのバックエンド。フルスタックへの道</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Next.js</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>6,200件（4位）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>80.6万円（単価1位）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Reactベース。単価が最も高い</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Angular</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2,473件（5位）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>大企業の業務システムで一定の需要</td></tr>
               </tbody>
             </table>
           </div>
@@ -328,19 +328,19 @@ export default function ArticlePage() {
               ReactはVue.jsの約2.5倍の案件数があり、開発者調査「State of JavaScript 2025」でも<strong>使用率83.6%で最多、Next.jsも59%</strong>と、React系エコシステムの優位は当面揺るがない見込みです。迷ったら「React → Next.js」の順で学ぶのが、求人数・単価の両面で最も合理的です。出典: State of JavaScript 2025（InfoQ、2026年6月参照）
             </p>
             <p>
-              フロントエンド職種全体の仕事内容や働き方は<a href="/articles/frontend/" className="underline" style={{ color: "#0891b2" }}>フロントエンドエンジニア転職ガイド</a>で詳しく解説しています。
+              フロントエンド職種全体の仕事内容や働き方は<a href="/articles/frontend/" className="underline" style={{ color: "#7c3a55" }}>フロントエンドエンジニア転職ガイド</a>で詳しく解説しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 学習ロードマップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指す学習ロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              1日2〜3時間の学習で<strong>6ヶ月〜1年</strong>が目安です。JavaScriptはブラウザだけで動かせるため、PythonやJavaに比べて「書いたものがすぐ画面に出る」楽しさがあり、挫折しにくいのが利点。次の順序で進めましょう（IT業界の全体像から知りたい方は<a href="/articles/beginner/" className="underline" style={{ color: "#0891b2" }}>未経験からの転職ガイド</a>もどうぞ）。
+              1日2〜3時間の学習で<strong>6ヶ月〜1年</strong>が目安です。JavaScriptはブラウザだけで動かせるため、PythonやJavaに比べて「書いたものがすぐ画面に出る」楽しさがあり、挫折しにくいのが利点。次の順序で進めましょう（IT業界の全体像から知りたい方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からの転職ガイド</a>もどうぞ）。
             </p>
           </div>
           <div className="space-y-4">
@@ -352,8 +352,8 @@ export default function ArticlePage() {
               ["STEP5", "Git・チーム開発の基本", "GitHubでのコード管理・ブランチ運用・プルリクエスト。現場では必須スキルで、ポートフォリオの公開にもそのまま使います。"],
               ["STEP6", "ポートフォリオ作成と転職活動（1〜3ヶ月）", "React＋TypeScriptのWebアプリを公開し、エージェントに登録。働き方の条件（リモート・産育休実績）も並行して確認していきます。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -383,17 +383,17 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 キャリアパス */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">JavaScriptエンジニアのキャリアパス</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>JavaScriptは1つの言語でフロントエンドにもバックエンドにも進めるため、キャリアの分岐が豊富です。代表的な4つの進路を紹介します。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>フロントエンド特化（React/Next.js）</h3><p className="text-sm text-text-light">React/Next.jsを極めてシニアフロントエンド・テックリードへ。Next.jsは案件単価1位（月80.6万円）で、専門性がそのまま収入に直結します。</p></div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>フルスタック（JS＋Node.js）</h3><p className="text-sm text-text-light">Node.jsでバックエンドまで担当。1言語で前後両方を書けるのはJSだけの強みで、スタートアップで特に重宝されます。サーバーサイドの全体像は<a href="/articles/backend/" className="underline" style={{ color: "#0891b2" }}>バックエンドエンジニア転職ガイド</a>へ。</p></div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>デザイン×エンジニアリング</h3><p className="text-sm text-text-light">UI実装力にデザイン感覚を掛け合わせるUXエンジニア・デザインエンジニアへ。Webデザイナーからの転身ルートとしても人気です。</p></div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>フリーランス・柔軟な働き方</h3><p className="text-sm text-text-light">JS案件は平均月単価72.7万円・リモート比率84.5%。実務3年程度の経験を積めば、育児やライフステージに合わせた独立も現実的な選択肢になります。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>フロントエンド特化（React/Next.js）</h3><p className="text-sm text-text-light">React/Next.jsを極めてシニアフロントエンド・テックリードへ。Next.jsは案件単価1位（月80.6万円）で、専門性がそのまま収入に直結します。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>フルスタック（JS＋Node.js）</h3><p className="text-sm text-text-light">Node.jsでバックエンドまで担当。1言語で前後両方を書けるのはJSだけの強みで、スタートアップで特に重宝されます。サーバーサイドの全体像は<a href="/articles/backend/" className="underline" style={{ color: "#7c3a55" }}>バックエンドエンジニア転職ガイド</a>へ。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>デザイン×エンジニアリング</h3><p className="text-sm text-text-light">UI実装力にデザイン感覚を掛け合わせるUXエンジニア・デザインエンジニアへ。Webデザイナーからの転身ルートとしても人気です。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>フリーランス・柔軟な働き方</h3><p className="text-sm text-text-light">JS案件は平均月単価72.7万円・リモート比率84.5%。実務3年程度の経験を積めば、育児やライフステージに合わせた独立も現実的な選択肢になります。</p></div>
           </div>
         </div>
       </section>
@@ -412,17 +412,17 @@ export default function ArticlePage() {
       </section>
 
       {/* sec10 FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -434,7 +434,7 @@ export default function ArticlePage() {
       {/* 出典一覧 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">本記事の主な出典・データソース</h2>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・paiza「プログラミング言語に関する調査（2025年）」（@IT 2026年1月掲載記事、2026年6月参照）— 求人ニーズ・平均提示年収</li>
@@ -449,24 +449,24 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/typescript-react/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>TypeScript・Reactエンジニア転職ガイド</h3>
+            <a href="/articles/typescript-react/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>TypeScript・Reactエンジニア転職ガイド</h3>
               <p className="text-sm text-text-light">モダンフロント特化の技術スタックと年収</p>
             </a>
-            <a href="/articles/frontend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>フロントエンドエンジニア転職ガイド</h3>
+            <a href="/articles/frontend/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>フロントエンドエンジニア転職ガイド</h3>
               <p className="text-sm text-text-light">職種としてのフロントエンドの全体像</p>
             </a>
-            <a href="/articles/salary-by-language/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>言語別年収ランキング</h3>
+            <a href="/articles/salary-by-language/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>言語別年収ランキング</h3>
               <p className="text-sm text-text-light">JavaScript/TypeScript/Go等の年収比較</p>
             </a>
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からのエンジニア転職ガイド</h3>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からのエンジニア転職ガイド</h3>
               <p className="text-sm text-text-light">IT業界の全体像と最初の一歩</p>
             </a>
           </div>
@@ -476,10 +476,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

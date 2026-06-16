@@ -106,11 +106,11 @@ export default function ArticlePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "AI・機械学習エンジニア転職ガイド" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>職種別ガイド</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>職種別ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性AI・機械学習エンジニア転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・必要スキル・未経験からの現実的な道筋【2026年】</span>
@@ -123,13 +123,13 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border-2 p-6" style={{ borderColor: "#0891b2", backgroundColor: "#ecfeff" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl border-2 p-6" style={{ borderColor: "#7c3a55", backgroundColor: "#efe3d8" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>年収</strong>：AIエンジニア求人の平均は<strong>569万円</strong>（求人ボックス・2026年5月集計）、機械学習エンジニアは<strong>630万円前後</strong>。LLM・生成AI経験者は800万円超も現実的だが、求人のボリュームゾーンは352万〜451万円で、経験による差が極端に大きい。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>求人</strong>：生成AI関連求人は<strong>約1年で約4倍</strong>（doda）、フリーランスの生成AI関連案件は<strong>前年同月比410%</strong>（レバテック・2024年6月）と急増中。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>現実</strong>：未経験からいきなり機械学習エンジニアは<strong>難路</strong>。中途求人の多くは実務経験が条件。データアナリスト／<a href="/articles/data-engineer/" className="underline" style={{ color: "#0891b2" }}>データエンジニア</a>などで経験を積んでからML領域へ進む<strong>段階ルート</strong>が現実的。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>チャンス</strong>：高度な数学が必須でない<strong>LLMアプリ開発（RAG・プロンプト設計・API組み込み）</strong>の求人が拡大しており、Web開発からの転身ルートが開けている。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>年収</strong>：AIエンジニア求人の平均は<strong>569万円</strong>（求人ボックス・2026年5月集計）、機械学習エンジニアは<strong>630万円前後</strong>。LLM・生成AI経験者は800万円超も現実的だが、求人のボリュームゾーンは352万〜451万円で、経験による差が極端に大きい。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>求人</strong>：生成AI関連求人は<strong>約1年で約4倍</strong>（doda）、フリーランスの生成AI関連案件は<strong>前年同月比410%</strong>（レバテック・2024年6月）と急増中。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>現実</strong>：未経験からいきなり機械学習エンジニアは<strong>難路</strong>。中途求人の多くは実務経験が条件。データアナリスト／<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア</a>などで経験を積んでからML領域へ進む<strong>段階ルート</strong>が現実的。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>チャンス</strong>：高度な数学が必須でない<strong>LLMアプリ開発（RAG・プロンプト設計・API組み込み）</strong>の求人が拡大しており、Web開発からの転身ルートが開けている。</span></li>
             </ul>
           </div>
         </div>
@@ -138,19 +138,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. AI・機械学習エンジニアとは（仕事内容）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. AIエンジニアとMLエンジニアの違い｜LLM時代の職種変化</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 年収相場（求人統計・出典付き）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 求人動向と将来性（データで見る需要）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 必要なスキル｜数学・統計はどこまで必要か</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験からの現実と段階ルート</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 学習ロードマップ</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 女性が長く働きやすい理由とキャリアパス</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. AI・機械学習エンジニアとは（仕事内容）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. AIエンジニアとMLエンジニアの違い｜LLM時代の職種変化</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 年収相場（求人統計・出典付き）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 求人動向と将来性（データで見る需要）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 必要なスキル｜数学・統計はどこまで必要か</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験からの現実と段階ルート</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 学習ロードマップ</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 女性が長く働きやすい理由とキャリアパス</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -165,19 +165,19 @@ export default function ArticlePage() {
               AI・機械学習エンジニアは、データから学習するモデル（機械学習モデル）や、LLM（大規模言語モデル）などのAI技術を使って、予測・分類・自動化・対話などの機能を作る職種です。需要予測、レコメンド、不正検知、画像認識、チャットボット、社内ナレッジ検索など、活躍の場はあらゆる業界に広がっています。
             </p>
             <p>
-              具体的な業務は、(1)データの収集・前処理、(2)モデルの選定・学習・評価、(3)学習パイプラインの構築、(4)モデルの本番環境へのデプロイと監視（MLOps）、(5)LLM APIやRAG（検索拡張生成）を使ったAIアプリケーション開発など。データサイエンティストが「分析して示唆を出す」役割だとすれば、AI・機械学習エンジニアは「動くAIシステムとして実装し、運用し続ける」役割です（データサイエンティストとの違いは<a href="/articles/data-scientist/" className="underline" style={{ color: "#0891b2" }}>データサイエンティストガイド</a>で詳しく解説しています）。
+              具体的な業務は、(1)データの収集・前処理、(2)モデルの選定・学習・評価、(3)学習パイプラインの構築、(4)モデルの本番環境へのデプロイと監視（MLOps）、(5)LLM APIやRAG（検索拡張生成）を使ったAIアプリケーション開発など。データサイエンティストが「分析して示唆を出す」役割だとすれば、AI・機械学習エンジニアは「動くAIシステムとして実装し、運用し続ける」役割です（データサイエンティストとの違いは<a href="/articles/data-scientist/" className="underline" style={{ color: "#7c3a55" }}>データサイエンティストガイド</a>で詳しく解説しています）。
             </p>
             <p>
-              使用言語はPythonが事実上の標準で、PyTorchなどの深層学習フレームワーク、scikit-learn、SQL、クラウド（AWS/GCP）のML基盤を組み合わせて開発します。<a href="/articles/python-career/" className="underline" style={{ color: "#0891b2" }}>Pythonエンジニアのキャリア</a>の中でも、最も専門性と年収レンジが高い領域のひとつです。
+              使用言語はPythonが事実上の標準で、PyTorchなどの深層学習フレームワーク、scikit-learn、SQL、クラウド（AWS/GCP）のML基盤を組み合わせて開発します。<a href="/articles/python-career/" className="underline" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリア</a>の中でも、最も専門性と年収レンジが高い領域のひとつです。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>主な担当領域</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>主な担当領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>機械学習モデルの開発・学習・評価（Python / PyTorch / scikit-learn）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>データの前処理・特徴量設計（pandas / SQL）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>MLOps：学習パイプライン・デプロイ・モデル監視の自動化</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>LLMアプリ開発：RAG構築・プロンプト設計・LLM API組み込み</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>クラウドML基盤（AWS SageMaker / GCP Vertex AI）の構築・運用</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>機械学習モデルの開発・学習・評価（Python / PyTorch / scikit-learn）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>データの前処理・特徴量設計（pandas / SQL）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>MLOps：学習パイプライン・デプロイ・モデル監視の自動化</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>LLMアプリ開発：RAG構築・プロンプト設計・LLM API組み込み</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>クラウドML基盤（AWS SageMaker / GCP Vertex AI）の構築・運用</span></li>
               </ul>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 AIエンジニアとMLエンジニアの違い */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">AIエンジニアとMLエンジニアの違い｜LLM時代の職種変化</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -196,32 +196,32 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>&nbsp;</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>機械学習（ML）エンジニア</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>AIエンジニア（LLMアプリ開発）</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>&nbsp;</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>機械学習（ML）エンジニア</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>AIエンジニア（LLMアプリ開発）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>主な仕事</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>モデルの学習・評価・MLOps（学習パイプライン・本番運用）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>LLM API・学習済みモデルを使ったAI機能・AIアプリの開発</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>主な仕事</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>モデルの学習・評価・MLOps（学習パイプライン・本番運用）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>LLM API・学習済みモデルを使ったAI機能・AIアプリの開発</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>中核スキル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python / PyTorch / 統計・数学 / MLOps / クラウドML基盤</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python / API設計 / RAG・ベクトルDB / プロンプト設計 / Web開発</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>中核スキル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python / PyTorch / 統計・数学 / MLOps / クラウドML基盤</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python / API設計 / RAG・ベクトルDB / プロンプト設計 / Web開発</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>数学の必要度</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>高い（線形代数・微分・確率統計を実務で使う）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>比較的低い（統計の基礎＋評価設計の理解で入れる）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>数学の必要度</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>高い（線形代数・微分・確率統計を実務で使う）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>比較的低い（統計の基礎＋評価設計の理解で入れる）</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>転身しやすい前職</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>データエンジニア / データサイエンティスト / 理系研究職</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Web・バックエンドエンジニア / アプリ開発者</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>転身しやすい前職</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>データエンジニア / データサイエンティスト / 理系研究職</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Web・バックエンドエンジニア / アプリ開発者</td>
                 </tr>
               </tbody>
             </table>
@@ -249,56 +249,56 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>AIエンジニア（求人平均）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均569万円（ボリュームゾーン352万〜451万円）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>求人ボックス 給料ナビ（2026年5月集計）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>AIエンジニア（求人平均）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均569万円（ボリュームゾーン352万〜451万円）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>求人ボックス 給料ナビ（2026年5月集計）</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>機械学習エンジニア</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均630万円前後</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>レバテックフリーランス「機械学習エンジニアの平均年収」</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンティスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均617万円（IT職種別ランキング3位）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>パーソルキャリア「ITエンジニア職×スキル別平均年収」（2024年8月発表）</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>未経験〜初級（参考）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均437.8万円（ITスキル標準レベル1）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>経済産業省「IT関連産業の給与等に関する実態調査」</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>機械学習エンジニア</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均630万円前後</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>レバテックフリーランス「機械学習エンジニアの平均年収」</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス（ML案件）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>月単価平均81万円（年換算約970万円）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>レバテックフリーランス掲載案件より算出</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンティスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均617万円（IT職種別ランキング3位）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>パーソルキャリア「ITエンジニア職×スキル別平均年収」（2024年8月発表）</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>未経験〜初級（参考）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均437.8万円（ITスキル標準レベル1）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>経済産業省「IT関連産業の給与等に関する実態調査」</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス（ML案件）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>月単価平均81万円（年換算約970万円）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>レバテックフリーランス掲載案件より算出</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-text-light mt-3">出典: 求人ボックス 給料ナビ「AIエンジニアの年収・時給」、レバテックフリーランス、パーソルキャリア プレスリリース、経済産業省「IT関連産業の給与等に関する実態調査」（いずれも2026年6月参照）。金額は求人・調査時点の統計値であり、企業・地域・スキルにより変動します。</p>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>LLM・生成AIの実務経験</strong>を作る（RAG構築・LLMアプリの本番運用は2026年時点で最も希少性が高い）</li>
               <li>② <strong>MLOps・クラウドML基盤</strong>（SageMaker / Vertex AI）まで担えるようになる</li>
               <li>③ <strong>エージェント経由で年収交渉</strong>する。AI領域は相場の変化が速く、市場価値の客観評価が特に効く</li>
             </ul>
-            <p className="text-sm text-text-light mt-3">年収1,000万円を狙う具体的な戦略は<a href="/articles/salary-1000man/" className="underline" style={{ color: "#0891b2" }}>女性エンジニアが年収1000万円を目指す方法</a>で詳しく解説しています。</p>
+            <p className="text-sm text-text-light mt-3">年収1,000万円を狙う具体的な戦略は<a href="/articles/salary-1000man/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアが年収1000万円を目指す方法</a>で詳しく解説しています。</p>
           </div>
         </div>
       </section>
 
       {/* sec4 求人動向 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">求人動向と将来性（データで見る需要）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -307,26 +307,26 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>約4倍</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>約4倍</p>
               <p className="font-bold mt-1">生成AI関連求人の増加（約1年間）</p>
               <p className="text-sm text-text-light mt-2">dodaの転職市場予測では、生成AI関連求人が約1年で約4倍に拡大。AI・DX人材ニーズの増加が転職市場全体を押し上げています。</p>
               <p className="text-xs text-text-light mt-2">出典: パーソルキャリア「doda転職市場予測2025下半期」（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#7c3aed" }}>410%</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>410%</p>
               <p className="font-bold mt-1">生成AI関連の新規案件数（前年同月比）</p>
               <p className="text-sm text-text-light mt-2">レバテックの調査（2024年6月末時点）では、フリーランス向け生成AI関連案件が前年同月比410%。ITエンジニア正社員の求人倍率も10.2倍と高水準です。</p>
               <p className="text-xs text-text-light mt-2">出典: レバテック「ITエンジニア転職・採用市場動向」（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>57.7%</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>57.7%</p>
               <p className="font-bold mt-1">生成AIを導入済みの企業の割合</p>
               <p className="text-sm text-text-light mt-2">野村総合研究所の調査では、生成AI導入済み企業が2023年度33.8%→2025年度57.7%へ拡大。導入後の「活用・内製化」フェーズでAI人材の採用が続きます。</p>
               <p className="text-xs text-text-light mt-2">出典: 野村総合研究所「IT活用実態調査（2025年）」（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#7c3aed" }}>約12.4万人</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>約12.4万人</p>
               <p className="font-bold mt-1">2030年のAI人材の需給ギャップ（試算）</p>
               <p className="text-sm text-text-light mt-2">経済産業省の試算では、需要の伸びが平均シナリオの場合、AI人材は2030年に約12.4万人不足。IT人材全体では最大約79万人の不足が見込まれています。</p>
               <p className="text-xs text-text-light mt-2">出典: 経済産業省「IT人材需給に関する調査」（2026年6月参照）</p>
@@ -352,62 +352,62 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>必要なライン</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>必要なライン</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>pandas / NumPy / scikit-learn</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>全ポジション必須。データ処理を自力で書けるレベル</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>pandas / NumPy / scikit-learn</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>全ポジション必須。データ処理を自力で書けるレベル</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>SQL・データ基盤</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>BigQuery / PostgreSQL</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>必須。実務データの大半はSQLで取り出すところから始まる</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>統計の基礎</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>平均・分散・仮説検定・回帰</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>全ポジション必須。統計検定2級程度が一つの目安</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>数学（線形代数・微分）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>行列演算 / 勾配降下法の理解</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>モデル開発職は大学教養レベルが必要。LLMアプリ開発は概念理解でも可</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>SQL・データ基盤</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>BigQuery / PostgreSQL</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>必須。実務データの大半はSQLで取り出すところから始まる</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>深層学習</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>PyTorch / Transformer の仕組み</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>MLエンジニアは必須。AIエンジニアは仕組みの理解＋活用力</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>統計の基礎</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>平均・分散・仮説検定・回帰</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>全ポジション必須。統計検定2級程度が一つの目安</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>LLM活用</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>LLM API / RAG / ベクトルDB / プロンプト設計</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>2026年の求人で最も伸びている領域。小さくても動くものを作った経験が効く</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>数学（線形代数・微分）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>行列演算 / 勾配降下法の理解</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>モデル開発職は大学教養レベルが必要。LLMアプリ開発は概念理解でも可</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>エンジニアリング基礎</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Git / Docker / クラウド（AWS・GCP）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>本番運用（MLOps）を担うなら必須。年収アップに直結</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>深層学習</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>PyTorch / Transformer の仕組み</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>MLエンジニアは必須。AIエンジニアは仕組みの理解＋活用力</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>LLM活用</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>LLM API / RAG / ベクトルDB / プロンプト設計</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2026年の求人で最も伸びている領域。小さくても動くものを作った経験が効く</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>エンジニアリング基礎</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Git / Docker / クラウド（AWS・GCP）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>本番運用（MLOps）を担うなら必須。年収アップに直結</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>数学が不安な人への現実的なアドバイス</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>数学が不安な人への現実的なアドバイス</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              文系出身・数学にブランクがある場合でも、<strong>統計の基礎（統計検定2級レベル）＋Python＋SQL</strong>まで固めれば、データ分析職やLLMアプリ開発のポジションには十分挑戦できます。線形代数や微分は「モデルの中身を改良する仕事」に進む段階で学び直せば間に合います。学習の証明としては<a href="/articles/cert-python/" className="underline" style={{ color: "#0891b2" }}>Python3エンジニア認定試験（データ分析試験）</a>が未経験転職の補強材料として使いやすい資格です。
+              文系出身・数学にブランクがある場合でも、<strong>統計の基礎（統計検定2級レベル）＋Python＋SQL</strong>まで固めれば、データ分析職やLLMアプリ開発のポジションには十分挑戦できます。線形代数や微分は「モデルの中身を改良する仕事」に進む段階で学び直せば間に合います。学習の証明としては<a href="/articles/cert-python/" className="underline" style={{ color: "#7c3a55" }}>Python3エンジニア認定試験（データ分析試験）</a>が未経験転職の補強材料として使いやすい資格です。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 未経験からの現実 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験からの現実と段階ルート</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -422,30 +422,30 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4 mt-6">
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>段階1</span>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>段階1</span>
               <div>
                 <h3 className="font-bold mb-1">データに触れる職種へ転職する（0〜1年目）</h3>
                 <p className="text-sm text-text-light leading-relaxed">SQL＋Python＋統計基礎を学び、データアナリスト・データ活用ポジション・Pythonを使う開発職へ。前職が事務・営業・マーケティングでも、「業務でデータを扱った経験」は分析職への転職で評価されます。</p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>段階2</span>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>段階2</span>
               <div>
                 <h3 className="font-bold mb-1">データ基盤・分析の実務経験を積む（1〜3年目）</h3>
-                <p className="text-sm text-text-light leading-relaxed">データパイプライン構築や分析業務で実績を作ります。<a href="/articles/data-engineer/" className="underline" style={{ color: "#0891b2" }}>データエンジニア</a>はML基盤と地続きで、MLエンジニアへの最短経路のひとつ。分析からの深掘りなら<a href="/articles/data-scientist/" className="underline" style={{ color: "#0891b2" }}>データサイエンティスト</a>ルートもあります。</p>
+                <p className="text-sm text-text-light leading-relaxed">データパイプライン構築や分析業務で実績を作ります。<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア</a>はML基盤と地続きで、MLエンジニアへの最短経路のひとつ。分析からの深掘りなら<a href="/articles/data-scientist/" className="underline" style={{ color: "#7c3a55" }}>データサイエンティスト</a>ルートもあります。</p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>段階3</span>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>段階3</span>
               <div>
                 <h3 className="font-bold mb-1">ML案件・AI機能開発へ移る（社内異動 or 2回目の転職）</h3>
                 <p className="text-sm text-text-light leading-relaxed">実務経験を土台に、機械学習チームへの社内異動や、ML・LLMアプリ開発ポジションへの転職を狙います。この段階では「実務×ML学習実績（Kaggle・個人開発）」の組み合わせが評価され、年収レンジも一気に上がります。</p>
               </div>
             </div>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>Webエンジニア経験者なら近道がある</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Webエンジニア経験者なら近道がある</h3>
             <p className="text-sm text-text-light leading-relaxed">
               すでに開発経験がある人は、LLM API＋RAGを使ったAI機能開発（LLMアプリ開発）から入るのが2026年時点の最短ルートです。求人の急増領域（生成AI関連求人は約1年で約4倍・doda調べ）でありながら、高度な数学より「動くものを作って運用できる」エンジニアリング力が評価されるため、バックエンド経験との相性が抜群です。
             </p>
@@ -468,8 +468,8 @@ export default function ArticlePage() {
               ["STEP4", "深層学習またはLLM活用（2〜3ヶ月）", "モデル開発志向ならPyTorchで基礎を実装。LLMアプリ志向ならLLM APIとRAG（ベクトル検索＋生成）を使った小さなアプリを作ります。両方を浅くやるより、どちらかに絞る方が転職では効きます。"],
               ["STEP5", "ポートフォリオを作る", "「データ取得→前処理→モデル/LLM→評価→公開」まで一気通貫の小さなプロジェクトを1本。Kaggleの実績やGitHub公開は、学歴・職歴より雄弁な実務能力の証明になります。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -481,7 +481,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 女性が働きやすい理由とキャリアパス */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性が長く働きやすい理由とキャリアパス</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -490,10 +490,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>技術を深める</h3><p className="text-sm text-text-light">シニアMLエンジニア → MLアーキテクト／MLOpsスペシャリスト。モデル開発と基盤設計の専門家として高年収を狙う道。</p></div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>マネジメント</h3><p className="text-sm text-text-light">MLチームのリード／AIプロダクトマネージャー。技術とビジネスの橋渡し役は希少で、市場価値が高い進路です。</p></div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>領域を広げる</h3><p className="text-sm text-text-light">データサイエンティスト／データエンジニア／LLMアプリ開発へ。データ系職種は相互に行き来しやすく、ライフステージに合わせた選択ができます。</p></div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">フリーランスML案件は月単価平均81万円（レバテックフリーランス掲載案件より算出）。実務経験3年以上で現実的な選択肢になります。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>技術を深める</h3><p className="text-sm text-text-light">シニアMLエンジニア → MLアーキテクト／MLOpsスペシャリスト。モデル開発と基盤設計の専門家として高年収を狙う道。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>マネジメント</h3><p className="text-sm text-text-light">MLチームのリード／AIプロダクトマネージャー。技術とビジネスの橋渡し役は希少で、市場価値が高い進路です。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>領域を広げる</h3><p className="text-sm text-text-light">データサイエンティスト／データエンジニア／LLMアプリ開発へ。データ系職種は相互に行き来しやすく、ライフステージに合わせた選択ができます。</p></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>独立・柔軟な働き方</h3><p className="text-sm text-text-light">フリーランスML案件は月単価平均81万円（レバテックフリーランス掲載案件より算出）。実務経験3年以上で現実的な選択肢になります。</p></div>
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
@@ -513,17 +513,17 @@ export default function ArticlePage() {
       </section>
 
       {/* sec10 FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -535,7 +535,7 @@ export default function ArticlePage() {
       {/* 出典一覧 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">本記事の主な出典</h2>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・求人ボックス 給料ナビ「AIエンジニアの仕事の年収・時給」（2026年5月集計、2026年6月参照）</li>
@@ -553,21 +553,21 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">AI時代の中核言語Pythonで広がる道</p></a>
-            <a href="/articles/data-scientist/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>データサイエンティスト転職ガイド</h3><p className="text-sm text-text-light">分析からAIへ進むキャリアの起点</p></a>
-            <a href="/articles/data-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>データエンジニア転職ガイド</h3><p className="text-sm text-text-light">MLエンジニアへの最短経路のひとつ</p></a>
-            <a href="/articles/cert-python/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Python資格ガイド</h3><p className="text-sm text-text-light">データ分析試験など学習の証明に使える資格</p></a>
-            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年収1000万円を目指す方法</h3><p className="text-sm text-text-light">AI・ML経験を年収に変える戦略</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">AI時代の中核言語Pythonで広がる道</p></a>
+            <a href="/articles/data-scientist/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>データサイエンティスト転職ガイド</h3><p className="text-sm text-text-light">分析からAIへ進むキャリアの起点</p></a>
+            <a href="/articles/data-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>データエンジニア転職ガイド</h3><p className="text-sm text-text-light">MLエンジニアへの最短経路のひとつ</p></a>
+            <a href="/articles/cert-python/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Python資格ガイド</h3><p className="text-sm text-text-light">データ分析試験など学習の証明に使える資格</p></a>
+            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収1000万円を目指す方法</h3><p className="text-sm text-text-light">AI・ML経験を年収に変える戦略</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
           </div>
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a></div></div>
       </section>
     </>
   );

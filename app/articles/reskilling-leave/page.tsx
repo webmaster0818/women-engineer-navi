@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               働き方ガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 育休中に学ぶ意義と注意点（無理しないが大前提）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 育休中エンジニアにおすすめの学習分野</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. スキマ時間でできる学習方法（STEP）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 復職・転職に役立つ資格</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. リスキリング支援制度・給付金</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 学んだことを復職・転職に活かす</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 育休リスキリングの体験事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 育休中に学ぶ意義と注意点（無理しないが大前提）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 育休中エンジニアにおすすめの学習分野</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. スキマ時間でできる学習方法（STEP）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 復職・転職に役立つ資格</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. リスキリング支援制度・給付金</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 学んだことを復職・転職に活かす</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 育休リスキリングの体験事例</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -164,22 +164,22 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>学ぶメリット</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>学ぶメリット</h3>
               <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>技術の浦島太郎状態を防ぎ、復職初日の不安を減らせる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>資格・ポートフォリオがブランクを埋める客観的な実績になる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>復職後により働きやすい職種・条件への転職の選択肢が広がる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>「コードに触れる時間」が自分のリフレッシュ・自己肯定感にもなる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>技術の浦島太郎状態を防ぎ、復職初日の不安を減らせる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>資格・ポートフォリオがブランクを埋める客観的な実績になる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>復職後により働きやすい職種・条件への転職の選択肢が広がる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>「コードに触れる時間」が自分のリフレッシュ・自己肯定感にもなる</span></li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#f3c6c2", backgroundColor: "#fff5f4" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>注意点（育児優先・無理しない）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#e4b9a8", backgroundColor: "#fdf6ee" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>注意点（育児優先・無理しない）</h3>
               <ul className="space-y-2 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>育児・睡眠・体調回復が最優先。学習は「余力があれば」</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>「毎日2時間」など重い目標は禁物。15分でも継続を重視</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>できない日があっても自分を責めない。比較・焦りは逆効果</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#f97066" }} className="mt-1 font-bold">!</span><span>パートナーと家事育児を分担し、学習時間を「もらう」前提で</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>育児・睡眠・体調回復が最優先。学習は「余力があれば」</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>「毎日2時間」など重い目標は禁物。15分でも継続を重視</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>できない日があっても自分を責めない。比較・焦りは逆効果</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">!</span><span>パートナーと家事育児を分担し、学習時間を「もらう」前提で</span></li>
               </ul>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 おすすめ学習分野 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">育休中エンジニアにおすすめの学習分野</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -198,37 +198,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>学習分野</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>こんな人におすすめ</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>学習分野</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>こんな人におすすめ</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>クラウド</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AWS / Google Cloud / Azure、認定クラウドプラクティショナー</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>需要が高く求人要件にも頻出。資格で学習が可視化しやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>クラウド</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AWS / Google Cloud / Azure、認定クラウドプラクティショナー</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>需要が高く求人要件にも頻出。資格で学習が可視化しやすい</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>AI・生成AI</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python × LLM / RAG、データ分析、G検定（JDLA）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>エンジニアの幅を広げたい人。今いちばん伸びる領域</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>AI・生成AI</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python × LLM / RAG、データ分析、G検定（JDLA）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>エンジニアの幅を広げたい人。今いちばん伸びる領域</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>言語のアップデート</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>担当言語の新バージョン（Python / Java / React / TypeScript）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>復職前提でブランクを最小化したい人。最優先で着手しやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>言語のアップデート</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>担当言語の新バージョン（Python / Java / React / TypeScript）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>復職前提でブランクを最小化したい人。最優先で着手しやすい</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>基礎・上流の体系化</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基本情報 / 応用情報技術者、設計・データモデリング</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>我流で来た知識を体系化したい人。長く効く土台になる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>基礎・上流の体系化</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基本情報 / 応用情報技術者、設計・データモデリング</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>我流で来た知識を体系化したい人。長く効く土台になる</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>周辺スキル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Webマーケティング、英語、SQL / データベース</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>論理的思考を活かして職種の幅を広げたい人</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>周辺スキル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Webマーケティング、英語、SQL / データベース</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>論理的思考を活かして職種の幅を広げたい人</td>
                 </tr>
               </tbody>
             </table>
@@ -257,8 +257,8 @@ export default function ArticlePage() {
               ["STEP5", "もくもく会・コミュニティで孤独を防ぐ", "ママエンジニアのオンラインもくもく会やSNSコミュニティに参加。同じ境遇の仲間がいると継続率が上がり、復職・転職の情報も得られる。"],
               ["STEP6", "小さなアウトプットを残す", "学んだことでミニアプリを作る・GitHubに草を生やす・学習ログを書く。完璧でなくてOK。この“形に残る実績”が後の転職活動で効く。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -270,7 +270,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 資格 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">復職・転職に役立つ資格</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -281,43 +281,43 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>資格</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>学習時間の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>特徴</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>資格</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>学習時間の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>特徴</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>AWS認定クラウドプラクティショナー</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約30〜50時間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>クラウドの入門資格。需要が高く、まず1つ取るのに最適</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>AWS認定クラウドプラクティショナー</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約30〜50時間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>クラウドの入門資格。需要が高く、まず1つ取るのに最適</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>G検定（JDLA）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約30〜40時間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AI・ディープラーニングの基礎を体系化。生成AI時代の入口</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>G検定（JDLA）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約30〜40時間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AI・ディープラーニングの基礎を体系化。生成AI時代の入口</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>基本情報技術者</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約100〜150時間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>国家資格。我流知識の体系化に。通年受験(CBT)で予定を組みやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>基本情報技術者</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約100〜150時間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>国家資格。我流知識の体系化に。通年受験(CBT)で予定を組みやすい</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>応用情報技術者</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約200時間〜</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上流・設計の知識を強化。年2回の試験日が学習のペース作りに</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>応用情報技術者</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約200時間〜</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上流・設計の知識を強化。年2回の試験日が学習のペース作りに</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Python 3 エンジニア認定基礎試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約30〜40時間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>需要の高いPythonの基礎を再確認。AI・データ分野への足がかり</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Python 3 エンジニア認定基礎試験</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約30〜40時間</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>需要の高いPythonの基礎を再確認。AI・データ分野への足がかり</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>育休中の資格選び・3つのコツ</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>育休中の資格選び・3つのコツ</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>1冊＋オンライン講座1本で完結</strong>する資格から。教材を絞ると挫折しにくい</li>
               <li>② <strong>CBT方式・通年受験</strong>の資格を優先。子の体調で受験日を動かせる安心感がある</li>
@@ -337,28 +337,28 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">教育訓練給付金（厚生労働省）</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>国の制度</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>国の制度</span>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 厚生労働大臣の指定講座を修了すると受講費の一部が戻る制度。<strong>一般教育訓練給付は受講費用の20%（上限10万円）</strong>、より専門的な<strong>専門実践教育訓練給付は経費の50%（年間上限40万円）、資格取得＋就業で70%（上限56万円）、賃金が5%以上上昇すれば最大80%（年間上限64万円）</strong>が支給されます。受講開始日時点で支給要件を満たすかが条件のため、申し込み前にハローワークで受給資格を確認しましょう。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">リスキリングを通じたキャリアアップ支援事業（経済産業省）</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>国の制度</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>国の制度</span>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 在職者の学び直し〜転職までを伴走支援する事業。キャリア相談・リスキリング講座・転職支援をパッケージで受けられ、<strong>講座受講費用の最大70%（上限56万円）</strong>が補助されます（転職達成時の追加給付を含む）。クラウドやAIなどデジタル講座も対象で、復職後のキャリアチェンジを見据える人に向いています。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">自治体・企業の制度</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>地域・社内</span>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>地域・社内</span>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
                 東京都は<strong>「育業中スキルアップ助成金」</strong>で育休中の社員の学び直しを後押しする企業を支援するなど、自治体独自の制度もあります。また、日本リスキリングコンソーシアムでは多数のデジタル講座が無料・割引で提供されています。<strong>勤務先の資格手当・受講費補助・育休中eラーニング</strong>など社内制度も要チェック。まずは人事に確認してみましょう。
@@ -372,7 +372,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 復職・転職に活かす */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">学んだことを復職・転職に活かす</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -381,24 +381,24 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>復職に活かす</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>復職に活かす</h3>
               <ul className="space-y-2 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>復職前に上司・チームへ「学んだこと・できること」を共有し、配属やタスクの相談材料にする</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>取得資格を社内の手当・評価制度に反映できないか人事に確認</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>時短勤務でも成果を出しやすいクラウド・自動化の知識は即戦力になる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>復職前に上司・チームへ「学んだこと・できること」を共有し、配属やタスクの相談材料にする</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>取得資格を社内の手当・評価制度に反映できないか人事に確認</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>時短勤務でも成果を出しやすいクラウド・自動化の知識は即戦力になる</span></li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>転職に活かす</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>転職に活かす</h3>
               <ul className="space-y-2 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span><span>ブランク期間を「リスキリング期間」として職務経歴書・面接で前向きに語る</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span><span>資格・GitHub・ミニアプリを自走力と学習意欲の証拠として提示</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span><span>リモート・時短など働き方の希望を軸に、女性に理解のある企業を選ぶ</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ブランク期間を「リスキリング期間」として職務経歴書・面接で前向きに語る</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>資格・GitHub・ミニアプリを自走力と学習意欲の証拠として提示</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>リモート・時短など働き方の希望を軸に、女性に理解のある企業を選ぶ</span></li>
               </ul>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
               <strong>学習分野を決める前にエージェントに相談するのも有効です。</strong>転職の軸（働き方・年収・職種）が固まらないうちに闇雲に学ぶより、市場が求めるスキルを聞いてから学習テーマを決めた方が、限られた育休中の時間とエネルギーを無駄にせずに済みます。
             </p>
@@ -414,45 +414,45 @@ export default function ArticlePage() {
             <p>復職後のキャリアや転職を見据えるなら、技術を正当に評価してくれるIT特化型と、女性の働き方に寄り添う女性特化型の併用が効果的です。育休中の情報収集だけでも登録しておくと安心です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーが、学んだスキルやブランクを踏まえた提案をしてくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、復職後のキャリアアップ転職にも向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモート・時短など、女性のキャリア継続に配慮した求人を中心に紹介。育児と両立できる働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">育休中のうちに情報収集だけでも始めよう</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。相談は無料です。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
 
       {/* sec8 体験事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">育休リスキリングの体験事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代前半・フロントエンド→AI領域へ幅を広げ復職）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・フロントエンド→AI領域へ幅を広げ復職）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">育休前</p><p className="text-sm font-bold">フロントエンドエンジニア / AIは未経験</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>育休中〜復職後</p><p className="text-sm font-bold">G検定・データ系資格を取得 / 課題解決を牽引する役割へ</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">育休前</p><p className="text-sm font-bold">フロントエンドエンジニア / AIは未経験</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>育休中〜復職後</p><p className="text-sm font-bold">G検定・データ系資格を取得 / 課題解決を牽引する役割へ</p></div>
               </div>
               <p className="text-sm text-text-light">生後半年頃から子のお昼寝中にオンライン講座でAI・ディープラーニングの基礎を学習。G検定とデータ系の検定に合格し、復職後は『エンジニアとしての幅を広げ、課題解決を牽引する人材』としてキャリアの軸を太くしました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Dさん（20代後半・事務職→育休中にプログラミング学習で転職）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・事務職→育休中にプログラミング学習で転職）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">育休前</p><p className="text-sm font-bold">事務職（IT未経験）</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>育休中〜転職後</p><p className="text-sm font-bold">独学でプログラミング学習 / Webエンジニアへ転職</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">育休前</p><p className="text-sm font-bold">事務職（IT未経験）</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>育休中〜転職後</p><p className="text-sm font-bold">独学でプログラミング学習 / Webエンジニアへ転職</p></div>
               </div>
               <p className="text-sm text-text-light">育休中のリスキリングとしてスキマ時間にプログラミングを独学。小さなWebアプリを作りながら学び、復職を機にWebエンジニアへキャリアチェンジしました。『無理のない範囲で毎日少しずつ』を続けたことが、未経験からの転職を実現させた最大の要因だったと振り返っています。</p>
             </div>
@@ -469,12 +469,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -484,14 +484,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/after-maternity/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>産休・育休後の働き方ガイド</h3><p className="text-sm text-text-light">復帰後のキャリアと両立のコツ</p></a>
-            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>復職・職場復帰ガイド</h3><p className="text-sm text-text-light">ブランクからスムーズに戻る準備</p></a>
-            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職に役立つ資格を厳選紹介</p></a>
-            <a href="/articles/mama-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ママエンジニアの働き方</h3><p className="text-sm text-text-light">育児と両立しながら働くリアル</p></a>
+            <a href="/articles/after-maternity/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>産休・育休後の働き方ガイド</h3><p className="text-sm text-text-light">復帰後のキャリアと両立のコツ</p></a>
+            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>復職・職場復帰ガイド</h3><p className="text-sm text-text-light">ブランクからスムーズに戻る準備</p></a>
+            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職に役立つ資格を厳選紹介</p></a>
+            <a href="/articles/mama-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ママエンジニアの働き方</h3><p className="text-sm text-text-light">育児と両立しながら働くリアル</p></a>
           </div>
         </div>
       </section>
@@ -499,10 +499,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">育休明けのキャリアを、今から準備しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたのペースに合った働き方とキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

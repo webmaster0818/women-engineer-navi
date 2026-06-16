@@ -53,7 +53,7 @@ export default function TermsPage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -81,7 +81,7 @@ export default function TermsPage() {
             </p>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第1条（適用）
               </h2>
               <p>
@@ -90,7 +90,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第2条（当サイトの目的）
               </h2>
               <p>
@@ -99,7 +99,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第3条（禁止事項）
               </h2>
               <p>利用者は、当サイトの利用にあたり、以下の行為をしてはなりません。</p>
@@ -118,7 +118,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第4条（当サイトの提供の停止等）
               </h2>
               <p>
@@ -136,7 +136,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第5条（著作権）
               </h2>
               <p>
@@ -145,7 +145,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第6条（広告・アフィリエイトについて）
               </h2>
               <p>
@@ -154,7 +154,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第7条（免責事項）
               </h2>
               <p>
@@ -169,7 +169,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第8条（情報の正確性）
               </h2>
               <p>
@@ -178,7 +178,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第9条（本規約の変更）
               </h2>
               <p>
@@ -187,7 +187,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第10条（個人情報の取扱い）
               </h2>
               <p>
@@ -196,7 +196,7 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
                 第11条（準拠法・管轄裁判所）
               </h2>
               <p>
@@ -206,7 +206,7 @@ export default function TermsPage() {
 
             <div
               className="rounded-xl border p-6 mt-8"
-              style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+              style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
             >
               <h2 className="text-lg font-bold mb-4">運営者情報</h2>
               <table className="w-full">
@@ -221,7 +221,7 @@ export default function TermsPage() {
                     <tr key={label}>
                       <th
                         className="px-4 py-2 text-left text-sm font-bold w-32"
-                        style={{ color: "#0891b2" }}
+                        style={{ color: "#7c3a55" }}
                       >
                         {label}
                       </th>

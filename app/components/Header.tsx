@@ -14,21 +14,39 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+    <header className="sticky top-0 z-50 bg-[#f7f1ea]/90 backdrop-blur-sm border-b border-border">
+      <div className="max-w-6xl mx-auto px-4 h-[68px] flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-          <span className="text-primary text-2xl">&#9826;</span>
-          <span className="text-gradient">女性エンジニア転職ナビ</span>
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <span
+            aria-hidden
+            className="text-secondary text-lg leading-none transition-transform duration-300 group-hover:rotate-45"
+          >
+            &#9670;
+          </span>
+          <span className="flex flex-col leading-none">
+            <span
+              className="font-serif font-bold text-[1.15rem] tracking-wide text-text"
+              style={{ fontFamily: "var(--font-shippori), serif" }}
+            >
+              女性エンジニア転職ナビ
+            </span>
+            <span
+              className="mt-1 text-[0.6rem] tracking-[0.25em] text-text-light uppercase"
+              style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}
+            >
+              Women in Tech Careers
+            </span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-text-light hover:text-primary transition-colors"
+              className="text-[0.8rem] tracking-[0.06em] font-medium text-text-light hover:text-primary link-underline transition-colors"
             >
               {item.label}
             </Link>
@@ -38,31 +56,16 @@ export default function Header() {
         {/* Mobile Hamburger */}
         <button
           type="button"
-          className="md:hidden p-2 text-text-light hover:text-primary transition-colors"
+          className="md:hidden p-2 text-text hover:text-primary transition-colors"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="メニューを開く"
           aria-expanded={isOpen}
         >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {isOpen ? (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
             ) : (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7h16M4 12h16M4 17h16" />
             )}
           </svg>
         </button>
@@ -70,13 +73,13 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <nav className="md:hidden border-t border-border bg-white">
-          <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-3">
+        <nav className="md:hidden border-t border-border bg-[#f7f1ea]">
+          <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-text-light hover:text-primary transition-colors py-2"
+                className="text-sm tracking-wide font-medium text-text py-3 border-b border-border/60 last:border-0 hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}

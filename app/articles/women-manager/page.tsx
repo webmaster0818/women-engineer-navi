@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               キャリアガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. IT業界の女性管理職比率の現状</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 管理職への代表的なルート（EM・PMなど）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. IT管理職の年収相場（役職別）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 管理職に必要なスキル</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 女性が管理職になる課題と対策</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 管理職を目指すステップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 女性管理職を推進する企業の見極め方</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 昇進・転職の成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. IT業界の女性管理職比率の現状</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 管理職への代表的なルート（EM・PMなど）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. IT管理職の年収相場（役職別）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 管理職に必要なスキル</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 女性が管理職になる課題と対策</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 管理職を目指すステップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 女性管理職を推進する企業の見極め方</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 昇進・転職の成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,14 +166,14 @@ export default function ArticlePage() {
             <p>
               一方でこれは、<strong>女性エンジニアが管理職を目指すことの希少価値が高い</strong>ことの裏返しでもあります。ダイバーシティ経営やえるぼし認定の広がりで企業の登用意欲は高まっており、意志を持って準備すれば、女性こそチャンスをつかみやすい局面とも言えます。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>数字で見る現状</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>数字で見る現状</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>情報サービス産業の女性管理職比率：<strong>約8.2%</strong>（JISA 2024年版）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>全産業の課長級13.9%／部長級8.2%（男女共同参画白書）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ITエンジニアの女性比率：<strong>18.8%</strong>（OECD中17位）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>女性の管理職意向33.6%／男性50.5%</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>政府目標：2030年までに女性管理職比率<strong>30%</strong></span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>情報サービス産業の女性管理職比率：<strong>約8.2%</strong>（JISA 2024年版）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>全産業の課長級13.9%／部長級8.2%（男女共同参画白書）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ITエンジニアの女性比率：<strong>18.8%</strong>（OECD中17位）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>女性の管理職意向33.6%／男性50.5%</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>政府目標：2030年までに女性管理職比率<strong>30%</strong></span></li>
               </ul>
             </div>
           </div>
@@ -181,7 +181,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 管理職への代表的なルート */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">管理職への代表的なルート（EM・PMなど）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -190,24 +190,24 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. エンジニアリングマネージャー（EM）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. エンジニアリングマネージャー（EM）</h3>
               <p className="text-text-light text-sm leading-relaxed">開発チームの「人・組織・開発プロセス」を率いる役割。1on1や評価、採用、技術的な意思決定支援を担います。テックリードを経て30〜35歳で転向する人が多く、VPoE・CTOへの登竜門でもあります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. プロジェクトマネージャー（PM／PdM）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. プロジェクトマネージャー（PM／PdM）</h3>
               <p className="text-text-light text-sm leading-relaxed">プロジェクト全体のQCD（品質・コスト・納期）やプロダクトの方向性を管理。技術理解を武器に、顧客折衝や要件定義をリードします。エンジニア出身者は実装可否の判断が速く重宝されます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. テックリード／リーダー</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. テックリード／リーダー</h3>
               <p className="text-text-light text-sm leading-relaxed">少人数チームの技術的な舵取りを担う最初のマネジメント経験の場。設計レビューやメンバー育成を通じ、人を動かす感覚を養えます。EM・PMへの前段としても最適です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 課長・部長・VPoE／CTO（上級管理職）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 課長・部長・VPoE／CTO（上級管理職）</h3>
               <p className="text-text-light text-sm leading-relaxed">複数チームや組織全体を統括する道。EM・PMで実績を積んだ先に、開発部門の責任者や経営に近いポジションが見えてきます。女性役員30%という社会的潮流の追い風も受けます。</p>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
               <strong>典型的な流れ：</strong> メンバー（実装）→ テックリード／リーダー → EM・PM → 課長・部長 → VPoE・CTO。多くの企業では「技術を極めるスペシャリスト職」と「マネジメント職」が分かれており、両者を行き来できる<strong>複線型キャリア（デュアルラダー）</strong>を整える企業も増えています。
             </p>
@@ -227,43 +227,43 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>役職</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>役職</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>テックリード</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約650〜850万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>最初のマネジメント経験。実装も継続</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>テックリード</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約650〜850万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>最初のマネジメント経験。実装も継続</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>エンジニアリングマネージャー（EM）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約900〜1,200万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>転職者平均約1,100万円。30代前半は600〜700万円が中央値</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>プロジェクトマネージャー（PM）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約700〜1,000万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>規模が大きいほど上振れ。上流・顧客折衝で高評価</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>部長・開発責任者</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,000〜1,500万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>複数チーム統括。組織規模で大きく変動</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>エンジニアリングマネージャー（EM）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約900〜1,200万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>転職者平均約1,100万円。30代前半は600〜700万円が中央値</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>VPoE／CTO</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約1,200〜2,000万円超</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>経営に近い役割。ストックオプションが付くことも</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>プロジェクトマネージャー（PM）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約700〜1,000万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>規模が大きいほど上振れ。上流・顧客折衝で高評価</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>部長・開発責任者</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,000〜1,500万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>複数チーム統括。組織規模で大きく変動</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>VPoE／CTO</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約1,200〜2,000万円超</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>経営に近い役割。ストックオプションが付くことも</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>女性が適正年収を得るための3つのポイント</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>女性が適正年収を得るための3つのポイント</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>マネジメント実績を数値化</strong>。「チーム人数」「離職率改善」「リリース件数」などで成果を可視化する</li>
               <li>② <strong>年収交渉はエージェント経由</strong>。女性は自己評価を控えめに伝えがちなので、第三者に市場価値を提示してもらう</li>
@@ -274,7 +274,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 必要なスキル */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">管理職に必要なスキル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -285,32 +285,32 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ピープルマネジメント</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>1on1 / 目標設定 / 動機づけ / 心理的安全性</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>傾聴と対話。女性が得意とされる共感力が強みになる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ピープルマネジメント</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>1on1 / 目標設定 / 動機づけ / 心理的安全性</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>傾聴と対話。女性が得意とされる共感力が強みになる</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>評価・育成</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>人事評価 / フィードバック / キャリア支援</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>公平で透明な評価基準の運用。バイアスを排除する意識</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>評価・育成</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>人事評価 / フィードバック / キャリア支援</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>公平で透明な評価基準の運用。バイアスを排除する意識</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>採用・組織づくり</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>面接 / チーム編成 / オンボーディング</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>必要な人材を見極め、定着させる力。採用広報も担う</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>採用・組織づくり</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>面接 / チーム編成 / オンボーディング</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>必要な人材を見極め、定着させる力。採用広報も担う</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>技術・プロジェクト判断</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術選定支援 / 進捗管理 / 優先順位づけ</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>エンジニア出身の強み。実現可否を素早く判断できる</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>技術・プロジェクト判断</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術選定支援 / 進捗管理 / 優先順位づけ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>エンジニア出身の強み。実現可否を素早く判断できる</td>
                 </tr>
               </tbody>
             </table>
@@ -331,23 +331,23 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-5 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>課題1：ロールモデルの不在（志望者の72.0%が課題と認識）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>課題1：ロールモデルの不在（志望者の72.0%が課題と認識）</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">身近に女性管理職がいないと「自分の将来像」が描けず、踏み出しにくくなります。</p>
               <p className="text-sm text-text-light leading-relaxed"><strong>対策：</strong>社外にモデルを求める。Women Who Code TokyoやJapan Women in Technology（JWiT）、技術カンファレンスの女性登壇者、SNSで発信する女性EM・CTOなどを参考に。複数の人の「良い部分」を組み合わせ、自分なりのモデルを作るのも有効です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>課題2：アンコンシャスバイアス（無意識の偏見）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>課題2：アンコンシャスバイアス（無意識の偏見）</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">「女性は管理職を望まないだろう」「育児中だから無理だろう」という周囲の思い込みが、昇進機会を遠ざけます。</p>
               <p className="text-sm text-text-light leading-relaxed"><strong>対策：</strong>昇進意欲を上司に明確に言語化して伝える。評価基準が透明で、バイアス研修を行っている企業を選ぶことも重要です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>課題3：ライフイベントとの両立不安</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>課題3：ライフイベントとの両立不安</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">「管理職になると長時間労働になり、育児と両立できない」という不安が、女性の管理職意向（33.6%）を下げています。</p>
               <p className="text-sm text-text-light leading-relaxed"><strong>対策：</strong>リモート・フレックスが整い、時短管理職や育休からの管理職復帰実績がある企業を選ぶ。IT職はもともと成果が可視化されやすく、両立しやすい職種です。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>課題4：自己評価の低さ・「自分には無理」という思い込み</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>課題4：自己評価の低さ・「自分には無理」という思い込み</h3>
               <p className="text-sm text-text-light leading-relaxed mb-2">要件を100%満たさないと応募をためらう傾向が、女性に強く見られます（インポスター症候群）。</p>
               <p className="text-sm text-text-light leading-relaxed"><strong>対策：</strong>「7割できれば手を挙げる」を基準にする。メンターやエージェントに客観評価をもらい、自分の市場価値を正しく把握することが第一歩です。</p>
             </div>
@@ -356,7 +356,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 管理職を目指すステップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">管理職を目指すステップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -371,8 +371,8 @@ export default function ArticlePage() {
               ["STEP5", "ロールモデル・メンターを持つ", "社内外に相談できる先輩を見つける。コミュニティやカンファレンスで女性管理職とつながり、リアルな働き方を知る。"],
               ["STEP6", "登用される環境を選ぶ（必要なら転職）", "今の会社で機会が乏しければ、女性管理職比率を開示しえるぼし認定を持つ企業へ。エージェント経由で実態を確認して動く。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -393,24 +393,24 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#0891b2" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>えるぼし認定</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>えるぼし認定</h3>
               <p className="text-sm text-text-light leading-relaxed">女性活躍推進法に基づく認定。「採用」「継続就業」「働き方」「管理職比率」「多様なキャリアコース」の5基準のうち、満たす数で3段階に分かれます。最上位は<strong>プラチナえるぼし</strong>。2026年4月の改正で「えるぼしプラス」も新設されました。管理職比率の基準を満たす企業は、女性の登用に実績があるサインです。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>くるみん認定</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>くるみん認定</h3>
               <p className="text-sm text-text-light leading-relaxed">次世代育成支援対策推進法に基づく、子育てサポート企業の認定。上位の<strong>プラチナくるみん</strong>もあります。産休育休を取りながら管理職を続けやすい環境かを判断する材料になります。えるぼしと両方持つ企業は両立支援に厚いと言えます。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>女性管理職比率の開示数値</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>女性管理職比率の開示数値</h3>
               <p className="text-sm text-text-light leading-relaxed">有価証券報告書や統合報告書、女性活躍推進企業データベースで公開される実数値を確認。業界平均（IT約8.2%）を上回るか、目標値と達成計画があるかを見ると本気度がわかります。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>制度の「運用実態」</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>制度の「運用実態」</h3>
               <p className="text-sm text-text-light leading-relaxed">女性向けリーダー研修・メンター制度の有無、育休からの管理職復帰実績、評価基準の透明性。制度があっても使われていなければ意味がないため、面接や口コミ、エージェント経由で実態を確認します。</p>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <p className="text-sm text-text-light leading-relaxed">
               求人票には出にくい「女性管理職が実際にいるか」「昇進ルートが機能しているか」といった生の情報は、<strong>女性のキャリアに詳しいエージェント経由で確認するのが最も確実</strong>です。
             </p>
@@ -419,30 +419,30 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>管理職を目指す転職では、技術を正当に評価しつつ、女性のキャリア継続にも配慮できるエージェントを併用するのが効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人が豊富。EM・PMなどマネジメント求人にも強く、技術に精通したアドバイザーが管理職ポジションの実態（管掌範囲・年収）を踏まえた提案をしてくれます。女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。マネジメント層の求人やスタートアップのEM・VPoEポジションにも対応し、年収交渉力に定評があります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">えるぼし・くるみん認定企業や女性管理職比率の高い企業など、女性のキャリア継続・登用に配慮した求人を中心に紹介。両立しながら管理職を目指したい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -452,19 +452,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">昇進・転職の成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代後半・テックリード→EM）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代後半・テックリード→EM）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SES企業のテックリード / 年収620万円・管理職機会なし</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">自社開発SaaSのEM / 年収950万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SES企業のテックリード / 年収620万円・管理職機会なし</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発SaaSのEM / 年収950万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">新人メンターやレビュー担当の実績を「離職率改善」「立ち上げ期間短縮」として数値で整理。IT特化型エージェント経由でえるぼし認定企業のEMポジションに転職し、育児と両立しながら初の管理職に。年収も330万円アップしました。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Dさん（40代前半・育休復帰→PM・課長）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（40代前半・育休復帰→PM・課長）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">昇進前</p><p className="text-sm font-bold">育休復帰後の時短PMメンバー / 「管理職は無理」と諦め</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>昇進後</p><p className="text-sm font-bold">開発課の課長（時短勤務のまま）/ 年収790万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">昇進前</p><p className="text-sm font-bold">育休復帰後の時短PMメンバー / 「管理職は無理」と諦め</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>昇進後</p><p className="text-sm font-bold">開発課の課長（時短勤務のまま）/ 年収790万円</p></div>
               </div>
               <p className="text-sm text-text-light">社外の女性管理職コミュニティでロールモデルと出会い「時短でも管理職はできる」と知ったことが転機。上司に昇進意欲を明確に伝え、女性向けリーダー研修を受講。時短勤務のまま課長に登用され、後進女性のロールモデルにもなっています。</p>
             </div>
@@ -473,17 +473,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -497,10 +497,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/pm-director/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>PM・ディレクター転職ガイド</h3><p className="text-sm text-text-light">エンジニアの次のキャリア</p></a>
-            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年収1000万円を目指すには</h3><p className="text-sm text-text-light">管理職・高年収への道筋</p></a>
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">えるぼし認定や制度の見極め</p></a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">技術・管理・専門の進路を整理</p></a>
+            <a href="/articles/pm-director/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>PM・ディレクター転職ガイド</h3><p className="text-sm text-text-light">エンジニアの次のキャリア</p></a>
+            <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収1000万円を目指すには</h3><p className="text-sm text-text-light">管理職・高年収への道筋</p></a>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">えるぼし認定や制度の見極め</p></a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">技術・管理・専門の進路を整理</p></a>
           </div>
         </div>
       </section>
@@ -508,10 +508,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">管理職への一歩を踏み出しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。女性が活躍できる企業とマネジメントキャリアを一緒に描きましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

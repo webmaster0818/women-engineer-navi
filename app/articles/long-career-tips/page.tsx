@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               キャリアガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 女性エンジニアが辞めてしまう4つの理由</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 長く働き続けるための7つのコツ</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. スキルの陳腐化を防ぐ学び方</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. キャリアの棚卸しと節目の見直し</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. メンター・コミュニティの活用</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 燃え尽き・体調管理との付き合い方</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 働き方を変えるという選択肢</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 女性エンジニアが辞めてしまう4つの理由</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 長く働き続けるための7つのコツ</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. スキルの陳腐化を防ぐ学び方</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. キャリアの棚卸しと節目の見直し</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. メンター・コミュニティの活用</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 燃え尽き・体調管理との付き合い方</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 働き方を変えるという選択肢</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,32 +166,32 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>辞める理由</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>何が起きているか</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>対策の方向性</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>辞める理由</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>何が起きているか</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>対策の方向性</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ライフイベントとの両立</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>結婚・出産・育児・介護で、これまでの働き方が続けられなくなる</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リモート・時短・フレックスが「制度＋実態」で使える環境を選ぶ</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ライフイベントとの両立</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>結婚・出産・育児・介護で、これまでの働き方が続けられなくなる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リモート・時短・フレックスが「制度＋実態」で使える環境を選ぶ</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ロールモデル不足</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>女性の上司・先輩がいないため、5年後10年後の自分像を描けず不安になる</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>社外コミュニティ・メンターで会社の外にロールモデルを持つ</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ロールモデル不足</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>女性の上司・先輩がいないため、5年後10年後の自分像を描けず不安になる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>社外コミュニティ・メンターで会社の外にロールモデルを持つ</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>評価・キャリアの停滞</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>時短・育児期に成果が見えにくく評価が下がり、市場価値が伸び悩む</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>成果を言語化し、社内評価と市場価値を切り分けて管理する</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>評価・キャリアの停滞</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>時短・育児期に成果が見えにくく評価が下がり、市場価値が伸び悩む</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>成果を言語化し、社内評価と市場価値を切り分けて管理する</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>体力・燃え尽き</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>長時間労働・障害対応・常時オンの環境で消耗し、心身が続かなくなる</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>休む・範囲を絞る・働き方を変えるなど「環境調整」で予防する</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>体力・燃え尽き</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>長時間労働・障害対応・常時オンの環境で消耗し、心身が続かなくなる</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>休む・範囲を絞る・働き方を変えるなど「環境調整」で予防する</td>
                 </tr>
               </tbody>
             </table>
@@ -203,7 +203,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 7つのコツ */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">長く働き続けるための7つのコツ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -212,32 +212,32 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 少しずつでも学び続ける</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 少しずつでも学び続ける</h3>
               <p className="text-text-light text-sm leading-relaxed">技術の陳腐化に不安を持つエンジニアは約46.5%。完璧を目指さず、日報に学びを1行書くなど『小さな習慣』で知識を更新し続けることが、ブランクや評価停滞への最大の保険になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 定期的にキャリアを棚卸しする</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 定期的にキャリアを棚卸しする</h3>
               <p className="text-text-light text-sm leading-relaxed">半年〜1年ごとに「できること・成果・次にやりたいこと」を書き出す。市場価値を言語化しておくと、評価交渉でも転職でも産休前後でも、自分の立ち位置を見失いません。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 社外にロールモデルとメンターを持つ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 社外にロールモデルとメンターを持つ</h3>
               <p className="text-text-light text-sm leading-relaxed">社内に女性の先輩がいなくても、コミュニティやSNSで一歩先を行く女性エンジニアに出会える。外の視点を持つことで「自分だけが悩んでいる」感覚から抜け出せます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 成果を可視化して評価につなげる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 成果を可視化して評価につなげる</h3>
               <p className="text-text-light text-sm leading-relaxed">改善した処理速度・担当機能・解決した課題を記録する。時短勤務でも『何を生んだか』が残れば、勤務時間の長さに左右されず正当な評価を得やすくなります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>5. 無理をためない（燃え尽き予防）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>5. 無理をためない（燃え尽き予防）</h3>
               <p className="text-text-light text-sm leading-relaxed">燃え尽きは心のSOS。気力を測る余裕がなくなる前に休む・抱え込まないことが、結局いちばん長く働ける道。頑張りすぎる人ほど意識的にブレーキを。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>6. ライフステージに合わせ働き方を変える</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>6. ライフステージに合わせ働き方を変える</h3>
               <p className="text-text-light text-sm leading-relaxed">フルタイム・時短・フルリモート・フリーランスを、その時の状況に合わせて行き来する。『辞めるか続けるか』の二択にせず、働き方を変えて続ける発想を持ちましょう。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6 md:col-span-2" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>7. 続けられる環境を選び直す</h3>
+            <div className="rounded-xl border bg-white p-6 md:col-span-2" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>7. 続けられる環境を選び直す</h3>
               <p className="text-text-light text-sm leading-relaxed">どんなにセルフケアをしても、長時間労働が常態化した職場や評価が公平でない職場では続きません。産休育休の取得・復帰実績、女性管理職比率、リモートの運用実態などを基準に環境を選び、合わなければ転職で『続けられる場所』へ移ることも長く働くための立派な戦略です。</p>
             </div>
           </div>
@@ -257,27 +257,27 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>厚くすべき「変わりにくい土台」</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>厚くすべき「変わりにくい土台」</h3>
               <ul className="space-y-2 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>設計・データモデリングの考え方</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>DB・SQL・ネットワークの基礎</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>セキュリティ・テストの基本原則</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span><span>課題を分解して解決する力（言語化できる形で）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>設計・データモデリングの考え方</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>DB・SQL・ネットワークの基礎</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>セキュリティ・テストの基本原則</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>課題を分解して解決する力（言語化できる形で）</span></li>
               </ul>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>浅く広く触れる「流行の層」</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>浅く広く触れる「流行の層」</h3>
               <ul className="space-y-2 text-sm text-text-light">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5 font-bold">&#10003;</span><span>生成AI・LLM/RAGの活用（2026年の必須教養）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5 font-bold">&#10003;</span><span>新しいフレームワーク・クラウドの動向</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5 font-bold">&#10003;</span><span>業務で使う技術の公式ドキュメント更新</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3aed" }} className="mt-0.5 font-bold">&#10003;</span><span>気になる技術は「触ってみた」程度でOK</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>生成AI・LLM/RAGの活用（2026年の必須教養）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>新しいフレームワーク・クラウドの動向</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>業務で使う技術の公式ドキュメント更新</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span><span>気になる技術は「触ってみた」程度でOK</span></li>
               </ul>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#ecfeff" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>忙しくても続く「ハビットスタッキング」</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#efe3d8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>忙しくても続く「ハビットスタッキング」</h3>
             <p className="text-sm text-text-light leading-relaxed mb-3">
               既にやっている行動に新しい習慣をくっつけると、育児や仕事で時間が取れなくても継続できます。学習効果を実感したエンジニアは9割超。量より「途切れさせないこと」が市場価値を守ります。
             </p>
@@ -292,7 +292,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 棚卸しSTEP */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">キャリアの棚卸しと節目の見直し</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -308,8 +308,8 @@ export default function ArticlePage() {
               ["STEP4", "ライフプランと重ねる", "今後数年の結婚・出産・介護などの見通しと、必要な働き方（時短・リモート等）を重ねて、優先順位を整理します。"],
               ["STEP5", "次の一手を1つ決める", "『学ぶ技術を1つ』『評価面談で交渉する』『働き方を変える』など、次の半年で動くアクションを1つだけ決めて実行に移します。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -336,33 +336,33 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>女性エンジニアのコミュニティ</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>女性エンジニアのコミュニティ</h3>
               <p className="text-sm text-text-light leading-relaxed">勉強会・LT会・Slack/Discordコミュニティに参加。ライフイベントとの両立や復職のリアルな知見が得られ、横のつながりが孤立感を和らげます。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>1on1・メンター制度を使う</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>1on1・メンター制度を使う</h3>
               <p className="text-sm text-text-light leading-relaxed">上司やメンターとの1on1で、成果と成長ポイントを言語化してもらう。褒められた点・伸びた点が明確になると、評価面談や自己効力感の支えになります。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>SNS・登壇イベントで学ぶ</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>SNS・登壇イベントで学ぶ</h3>
               <p className="text-sm text-text-light leading-relaxed">育児と両立する女性エンジニアやマネージャーの発信を追う。直接の知り合いでなくても、生き方の選択肢を増やす『遠いロールモデル』になります。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>キャリアアドバイザーに相談</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>キャリアアドバイザーに相談</h3>
               <p className="text-sm text-text-light leading-relaxed">女性のキャリア継続に詳しいエージェントは、第三者として中長期の相談相手になる。転職前提でなくても、市場視点での助言が得られます。</p>
             </div>
           </div>
-          <div className="mt-6 rounded-xl border p-5" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="mt-6 rounded-xl border p-5" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              関連記事として、<a href="/articles/community/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>女性エンジニアのコミュニティ・勉強会ガイド</a>もあわせてどうぞ。具体的な参加先や活用法をまとめています。
+              関連記事として、<a href="/articles/community/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性エンジニアのコミュニティ・勉強会ガイド</a>もあわせてどうぞ。具体的な参加先や活用法をまとめています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec6 燃え尽き・体調 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">燃え尽き・体調管理との付き合い方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -374,8 +374,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#f97066" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#f97066" }}>こんなサインに気づいたら</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#c15f47" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>こんなサインに気づいたら</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・休んでも疲れが抜けない／朝起きるのがつらい</li>
                 <li>・好きだったはずの開発に興味が持てない</li>
@@ -384,8 +384,8 @@ export default function ArticlePage() {
                 <li>・「自分が頑張らないと回らない」と抱え込む</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#0891b2" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>辞める前にできる対処</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>辞める前にできる対処</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・まず休む。有給・短期の休職も選択肢に入れる</li>
                 <li>・1on1でタスク量・期待値・評価をすり合わせる</li>
@@ -413,37 +413,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>働き方</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>向いている時期・状況</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>働き方</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>向いている時期・状況</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フルリモート</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>育児・介護・通勤負担を減らしたい時</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>サーバーサイド等は完結しやすく求人も豊富。地方在住でも続けやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フルリモート</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>育児・介護・通勤負担を減らしたい時</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>サーバーサイド等は完結しやすく求人も豊富。地方在住でも続けやすい</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>時短勤務</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>復職直後・子どもが小さい時期</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>成果が可視化される職種なので、評価が下がりにくい環境を選ぶのが鍵</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フレックス</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>送り迎え・通院と両立したい時</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>コアタイムの運用実態を事前に確認。形骸化していないかが重要</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>フリーランス</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>裁量を最大化したい・実務経験が十分な時</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>稼働日数を自分で調整可能。週3〜4日案件で生活と両立する選択も</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>時短勤務</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>復職直後・子どもが小さい時期</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>成果が可視化される職種なので、評価が下がりにくい環境を選ぶのが鍵</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>復職・学び直し制度の活用</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>ブランク明け・キャリアチェンジ時</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リスキリング休暇や復職支援を持つ企業を選ぶと、戻る不安が減る</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フレックス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>送り迎え・通院と両立したい時</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>コアタイムの運用実態を事前に確認。形骸化していないかが重要</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>フリーランス</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>裁量を最大化したい・実務経験が十分な時</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>稼働日数を自分で調整可能。週3〜4日案件で生活と両立する選択も</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>復職・学び直し制度の活用</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>ブランク明け・キャリアチェンジ時</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リスキリング休暇や復職支援を持つ企業を選ぶと、戻る不安が減る</td>
                 </tr>
               </tbody>
             </table>
@@ -455,30 +455,30 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>長く働ける環境を選び直すなら、技術を正しく評価するIT特化型と、働き方・キャリア継続に強い女性特化型の併用が効果的です。求人票に出ない『続けやすさ』の実態まで聞き出しましょう。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーが、これまでの経験を正当に評価したうえで提案してくれます。リモートや時短など働き方の条件でも絞り込みやすく、市場価値の確認にも向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、評価が停滞していると感じる人の『仕切り直し』に向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。女性管理職比率や復帰実績など、長く働けるかどうかの実態を踏まえて相談できます。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">『続けられる環境』はエージェント選びで決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、女性のキャリア継続に詳しいアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -489,12 +489,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -504,14 +504,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">長期視点でのキャリア設計を解説</p></a>
-            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ワークライフバランスの保ち方</h3><p className="text-sm text-text-light">仕事と生活を両立させる働き方</p></a>
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">続けやすい環境を見極める基準</p></a>
-            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ブランクからの復職ガイド</h3><p className="text-sm text-text-light">産休育休後にスムーズに戻る方法</p></a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">長期視点でのキャリア設計を解説</p></a>
+            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ワークライフバランスの保ち方</h3><p className="text-sm text-text-light">仕事と生活を両立させる働き方</p></a>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">続けやすい環境を見極める基準</p></a>
+            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ブランクからの復職ガイド</h3><p className="text-sm text-text-light">産休育休後にスムーズに戻る方法</p></a>
           </div>
         </div>
       </section>
@@ -519,10 +519,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">長く続けられる環境を、一緒に見つけましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。今のままで続けるか、働き方を変えるか――あなたに合った選択肢を整理できます。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

@@ -104,7 +104,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -117,7 +117,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               地域別ガイド
             </span>
@@ -135,18 +135,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 名古屋・東海のIT転職市場の全体像</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 求人動向と特徴（製造業DXが牽引）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 名古屋・東海の年収相場（表）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 女性が働きやすい東海の企業</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 未経験から名古屋で転職するには（STEP）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. リモートで選択肢を広げる</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 名古屋での転職成功事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 名古屋・東海のIT転職市場の全体像</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 求人動向と特徴（製造業DXが牽引）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 名古屋・東海の年収相場（表）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が働きやすい東海の企業</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験から名古屋で転職するには（STEP）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. リモートで選択肢を広げる</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 名古屋での転職成功事例</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -166,12 +166,12 @@ export default function ArticlePage() {
             <p>
               女性エンジニアにとっては、<strong>転勤の少ない地域密着の大手・グループ企業</strong>が多く、腰を据えて長く働きやすいのもポイント。製造業の大手は福利厚生・育休制度が手厚く、ライフイベントと両立しながらキャリアを積める土台が整っています。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>名古屋・東海ならではの3つの特徴</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>名古屋・東海ならではの3つの特徴</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>製造業DXの需要が全国トップクラス</strong>。工場IoT・生産管理・基幹刷新の上流案件が豊富</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>賃金が首都圏に近い水準</strong>。製造業の高給与がIT職にも波及し、生活コストは低い</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>転勤の少ない地域密着企業</strong>が多く、女性が腰を据えて長く働きやすい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>製造業DXの需要が全国トップクラス</strong>。工場IoT・生産管理・基幹刷新の上流案件が豊富</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>賃金が首都圏に近い水準</strong>。製造業の高給与がIT職にも波及し、生活コストは低い</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>転勤の少ない地域密着企業</strong>が多く、女性が腰を据えて長く働きやすい</span></li>
               </ul>
             </div>
           </div>
@@ -179,7 +179,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 求人動向と特徴 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">求人動向と特徴（製造業DXが牽引）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -188,24 +188,24 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 製造業の社内SE・情報システム</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 製造業の社内SE・情報システム</h3>
               <p className="text-text-light text-sm leading-relaxed">自動車・部品・機械メーカーの基幹システム（ERP・生産管理）の運用や刷新、ベンダーコントロールを担当。残業が少なく転勤なしの求人が多く、女性が長く働きやすい代表格です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 組み込み・車載エンジニア</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 組み込み・車載エンジニア</h3>
               <p className="text-text-light text-sm leading-relaxed">クルマやFA機器・家電の制御ソフト（C/C++）を開発。トヨタ・デンソー・アイシン・ブラザーの開発を支える案件が豊富で、東海ならではの専門性が積み上がります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. グループSIer・受託開発</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. グループSIer・受託開発</h3>
               <p className="text-text-light text-sm leading-relaxed">トヨタシステムズ、中電シーティーアイ（CTI）、NTTデータ東海など、大手グループのSIerが地域の開発を牽引。安定した基盤の上で上流工程に関われます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 製造業DX・データ活用</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 製造業DX・データ活用</h3>
               <p className="text-text-light text-sm leading-relaxed">工場IoT・MES・生産データ分析・基幹刷新など、ものづくりのデジタル化を進める成長領域。IT投資が遅れていた製造業ほど、中長期のDXを描ける人材を強く求めています。</p>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
               <strong>ポイント：</strong>東海は「情報システム部門を立ち上げたい」「中長期のDX計画を提案できる中核人材が欲しい」という製造業からの引き合いが特に強い地域です。コードを書く力だけでなく、<strong>業務を理解して改善を提案する力</strong>が高く評価されるため、事務・品質管理・生産管理などの現場経験がそのまま武器になります。
             </p>
@@ -225,43 +225,43 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>地場の中小IT・SES</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約350万〜450万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>未経験・若手の入口。大手転職で1.5倍以上になる例も</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>地場の中小IT・SES</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約350万〜450万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>未経験・若手の入口。大手転職で1.5倍以上になる例も</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>製造業の社内SE</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約450万〜650万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>転勤なし・残業少なめ。上流ほど高い</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>組み込み・車載</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約450万〜700万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>東海ならではの専門性。経験で大きく上がる</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>大手グループSIer</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約500万〜800万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>トヨタシステムズ・中電CTI等。福利厚生が手厚い</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>製造業の社内SE</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約450万〜650万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>転勤なし・残業少なめ。上流ほど高い</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>製造業DX・上流／PM</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約600万〜900万円超</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>DX企画・要件定義を担える中核人材は希少で高待遇</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>組み込み・車載</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約450万〜700万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>東海ならではの専門性。経験で大きく上がる</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>大手グループSIer</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約500万〜800万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>トヨタシステムズ・中電CTI等。福利厚生が手厚い</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>製造業DX・上流／PM</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約600万〜900万円超</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>DX企画・要件定義を担える中核人材は希少で高待遇</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>東海で年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>東海で年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>中小から大手・グループ会社へ</strong>。同じスキルでも年収が1.5倍以上になるケースがある</li>
               <li>② <strong>製造業DXの上流（DX企画・要件定義）</strong>に踏み込む。中核人材は希少で高待遇</li>
@@ -272,7 +272,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 働きやすい企業 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性が働きやすい東海の企業</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -281,20 +281,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">NTTデータ東海</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>女性活躍企業</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">NTTデータ東海</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性活躍企業</span></div>
               <p className="text-sm text-text-light leading-relaxed">テレワーク・フレックス・時短勤務・育児休暇など、個々に合わせた働き方ができるNTTデータグループの東海拠点。名古屋・伏見の好立地で、自治体・金融・民間まで幅広いシステムを手がけます。愛知県の女性活躍企業としても掲載されています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">トヨタシステムズ／中電シーティーアイ（CTI）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>大手グループSIer</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">トヨタシステムズ／中電シーティーアイ（CTI）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>大手グループSIer</span></div>
               <p className="text-sm text-text-light leading-relaxed">トヨタグループ各社のITを担うトヨタシステムズ、中部電力グループでエネルギーDXを支える中電CTI。いずれも経営基盤が安定し、福利厚生・育休制度が手厚く、上流工程に長く携われます。腰を据えてキャリアを積みたい女性に向きます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">トヨタテクニカルディベロップメント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>ホワイト企業</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">トヨタテクニカルディベロップメント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>ホワイト企業</span></div>
               <p className="text-sm text-text-light leading-relaxed">有給消化率・ホワイト度ランキングで上位に挙がるトヨタ系の技術会社。働き方の整備が進んでおり、ワークライフバランスを重視する人に評価されています。</p>
             </div>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
               <strong>確認ポイント：</strong>求人票だけでは育休取得実績・復帰率・リモートの運用実態・女性管理職比率まではわかりません。<strong>名古屋・東海の事情に詳しいエージェント経由</strong>で、企業ごとの実態を確認するのが確実です。
             </p>
@@ -319,8 +319,8 @@ export default function ArticlePage() {
               ["STEP4", "地元志向か全国志向かを決める", "地元密着なら製造業の社内SE・グループSIer。年収・キャリア優先ならフルリモートで首都圏のWeb系も視野に。方針で受ける求人が変わります。"],
               ["STEP5", "地域に強いエージェントに登録する", "マイナビ転職東海版・dodaなど地元求人に強い媒体と、技術評価に強いIT特化型を併用。名古屋の実情に詳しい担当に相談するのが近道です。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -332,7 +332,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 リモート */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">リモートで選択肢を広げる</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -344,12 +344,12 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>地元・東海で働く</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>地元・東海で働く</h3>
               <p className="text-text-light text-sm leading-relaxed">製造業の社内SE・組み込み・グループSIer。転勤が少なく、福利厚生と安定性が高い。地域に根ざして長く働きたい人向き。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>フルリモートで首都圏へ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>フルリモートで首都圏へ</h3>
               <p className="text-text-light text-sm leading-relaxed">Web系・SaaSの自社開発に名古屋から参加。東京水準の年収を低コストの名古屋で。職種・技術スタックの幅も広がる。</p>
             </div>
           </div>
@@ -367,45 +367,45 @@ export default function ArticlePage() {
             <p>名古屋・東海では、技術を正当に評価してもらうIT特化型と、女性のキャリア継続を重視する女性特化型の併用が効果的です。地元求人に強い総合型も合わせると、地域案件とリモート案件の両方を比較できます。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーが提案してくれます。フルリモート求人も多く、名古屋在住で首都圏の案件を狙う場合に有効。女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、中小から大手・グループ会社への年収アップ転職と相性が良いです。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。働き方の条件で絞り込みたい人に最適です。東海の働きやすい企業の実態確認にも役立ちます。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、名古屋・東海の事情に詳しいアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
 
       {/* sec8 成功事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">名古屋での転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Cさん（30代前半・品質管理→製造業の社内SE）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・品質管理→製造業の社内SE）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">自動車部品メーカーの品質管理 / 年収400万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">大手製造業の社内SE（生産管理DX）/ 年収560万円・転勤なし</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">自動車部品メーカーの品質管理 / 年収400万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">大手製造業の社内SE（生産管理DX）/ 年収560万円・転勤なし</p></div>
               </div>
               <p className="text-sm text-text-light">現場の業務知識とExcel/SQLでの改善実績を評価され、製造業DXの社内SEへ。基本情報技術者を取得して基礎を補強し、年収160万円アップと転勤なしの安定環境を同時に実現しました。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Dさん（20代後半・地場SES→フルリモートWeb系）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・地場SES→フルリモートWeb系）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">名古屋の地場SES（常駐）/ 年収380万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">首都圏SaaS企業の開発（フルリモート）/ 年収540万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">名古屋の地場SES（常駐）/ 年収380万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">首都圏SaaS企業の開発（フルリモート）/ 年収540万円</p></div>
               </div>
               <p className="text-sm text-text-light">IT特化型エージェントで「フルリモート可」に絞って活動。名古屋に住んだまま首都圏のSaaS企業へ転職し、通勤ゼロのまま年収160万円アップ。生活コストの低さも相まって、可処分所得が大きく改善しました。</p>
             </div>
@@ -419,12 +419,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -434,14 +434,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/internal-se/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>社内SE転職ガイド</h3><p className="text-sm text-text-light">製造業で人気の働きやすい職種</p></a>
-            <a href="/articles/embedded/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>組み込みエンジニア転職ガイド</h3><p className="text-sm text-text-light">車載・FA機器で東海に強い職種</p></a>
-            <a href="/articles/remote-jobs/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>リモートワーク求人ガイド</h3><p className="text-sm text-text-light">名古屋から首都圏案件を狙う</p></a>
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">育休・復帰率の見極め方</p></a>
+            <a href="/articles/internal-se/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>社内SE転職ガイド</h3><p className="text-sm text-text-light">製造業で人気の働きやすい職種</p></a>
+            <a href="/articles/embedded/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>組み込みエンジニア転職ガイド</h3><p className="text-sm text-text-light">車載・FA機器で東海に強い職種</p></a>
+            <a href="/articles/remote-jobs/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>リモートワーク求人ガイド</h3><p className="text-sm text-text-light">名古屋から首都圏案件を狙う</p></a>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">育休・復帰率の見極め方</p></a>
           </div>
         </div>
       </section>
@@ -449,10 +449,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">名古屋・東海で理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。地元の製造業DXからフルリモートまで、あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

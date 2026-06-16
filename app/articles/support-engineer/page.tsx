@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               職種別ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. テクニカルサポート・カスタマーサクセスとは（仕事内容）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. この職種が女性に人気の理由</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 必要なスキル</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 年収相場（年代別）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 求人動向と将来性（SaaS拡大）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 未経験からなるためのロードマップ</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. キャリアパス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. テクニカルサポート・カスタマーサクセスとは（仕事内容）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. この職種が女性に人気の理由</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキル</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 年収相場（年代別）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 求人動向と将来性（SaaS拡大）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験からなるためのロードマップ</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. キャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -169,15 +169,15 @@ export default function ArticlePage() {
             <p>
               両者はSaaS企業の顧客対応の「両輪」で、テクニカルサポートで製品知識を深めてからカスタマーサクセスへ広げる人も多くいます。営業・サポート・マーケティングの中間に位置し、顧客とプロダクトの両方を理解できるポジションです。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>主な担当領域</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>主な担当領域</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>問い合わせ対応・トラブルシューティング（テクニカルサポート）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>オンボーディング（導入・初期設定・活用定着の支援）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>利用状況のモニタリングと定例ミーティング・ヘルスチェック</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>解約（チャーン）防止と継続率・更新率の向上</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>アップセル・クロスセルでLTV（顧客生涯価値）を最大化</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>顧客の声を開発・プロダクトチームへフィードバック</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>問い合わせ対応・トラブルシューティング（テクニカルサポート）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>オンボーディング（導入・初期設定・活用定着の支援）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>利用状況のモニタリングと定例ミーティング・ヘルスチェック</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>解約（チャーン）防止と継続率・更新率の向上</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>アップセル・クロスセルでLTV（顧客生涯価値）を最大化</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>顧客の声を開発・プロダクトチームへフィードバック</span></li>
               </ul>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 女性に人気の理由 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">この職種が女性に人気の理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -194,20 +194,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 未経験から挑戦しやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 未経験から挑戦しやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">SaaS企業は未経験歓迎・ポテンシャル採用の求人が多く、ITの入り口として最適。販売・接客・営業事務・コールセンターの経験が評価され、文系・非エンジニアからの転職も豊富です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. リモート・フレックスと相性が良い</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. リモート・フレックスと相性が良い</h3>
               <p className="text-text-light text-sm leading-relaxed">対応はオンライン会議・チャット・メールが中心でフルリモート求人が多く、通勤負担を減らせます。育児・介護と両立しながら働きやすい職種です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 強みの「傾聴力・折衝力」が活きる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 強みの「傾聴力・折衝力」が活きる</h3>
               <p className="text-text-light text-sm leading-relaxed">顧客の課題を聞き出し、信頼関係を築いて伴走する力が中核スキル。これまでの接客・営業で培ったコミュニケーション力がそのまま武器になり、活躍しやすい職種です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 成果が数字で残り評価されやすい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 成果が数字で残り評価されやすい</h3>
               <p className="text-text-light text-sm leading-relaxed">解約率・継続率・アップセル額など成果が数値で可視化されるため、勤務時間の長さではなく成果で評価され、時短勤務でも実力が認められやすいのが特徴です。</p>
             </div>
           </div>
@@ -226,37 +226,37 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体例</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>ポイント</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体例</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>ポイント</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>コミュニケーション</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>傾聴 / 課題ヒアリング / 折衝・関係構築</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>接客・営業経験が直結。最重要の中核スキル</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>コミュニケーション</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>傾聴 / 課題ヒアリング / 折衝・関係構築</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>接客・営業経験が直結。最重要の中核スキル</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>IT・SaaSの基礎理解</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Web/クラウドの仕組み / 製品知識 / API・連携の概念</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>未経験は入社後でもOK。基礎理解が信頼につながる</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データ・数値分析</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQL / Excel / 利用状況・チャーン分析 / KPI管理</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQLが使えると技術寄りCS・高年収に近づく</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ツール活用</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Salesforce / Zendesk / Intercom / Notion</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>CRM・サポートツールは現場で習得できる</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>IT・SaaSの基礎理解</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Web/クラウドの仕組み / 製品知識 / API・連携の概念</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>未経験は入社後でもOK。基礎理解が信頼につながる</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>課題解決・改善提案</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>トラブルシューティング / 活用提案 / 業務改善</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「成功に導く」提案力がCSの差別化ポイント</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データ・数値分析</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQL / Excel / 利用状況・チャーン分析 / KPI管理</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQLが使えると技術寄りCS・高年収に近づく</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ツール活用</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Salesforce / Zendesk / Intercom / Notion</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>CRM・サポートツールは現場で習得できる</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>課題解決・改善提案</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>トラブルシューティング / 活用提案 / 業務改善</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「成功に導く」提案力がCSの差別化ポイント</td>
                 </tr>
               </tbody>
             </table>
@@ -268,7 +268,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 年収 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">年収相場（年代別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -279,22 +279,22 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>備考</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>備考</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>未経験スタート</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約350万〜450万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SaaS企業は未経験でも比較的高めの設定</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約495万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>300万〜500万円のレンジが中心</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約740万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リーダー・マネージャー職で上昇</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約900万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>役職者・マネジメント層が中心</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>未経験スタート</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約350万〜450万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SaaS企業は未経験でも比較的高めの設定</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約495万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>300万〜500万円のレンジが中心</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約740万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リーダー・マネージャー職で上昇</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約900万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>役職者・マネジメント層が中心</td></tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>成果（数字）を出す</strong>。解約率の低下・継続率・アップセル額など実績を定量で示す</li>
               <li>② <strong>技術スキルを足す</strong>。SQL・API理解で「技術が分かるCS」になり希少価値を上げる</li>
@@ -323,7 +323,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 未経験ロードマップ */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験からなるためのロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -338,8 +338,8 @@ export default function ArticlePage() {
               ["STEP5", "未経験歓迎求人に応募", "SaaS企業の未経験歓迎・ポテンシャル採用を中心に。IT特化型エージェントに相談すると、求人票に出ない働き方の実態まで確認できます。"],
               ["STEP6", "面接で『成功支援』の姿勢を示す", "『問い合わせをさばく』ではなく『顧客を成功に導く』視点で志望動機を語ると刺さります。リモート・時短など希望条件も率直に共有を。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -358,39 +358,39 @@ export default function ArticlePage() {
             <p>顧客の課題と製品の両方を深く理解できるため、キャリアの選択肢が広いのが魅力です。ITの入り口として始めて、技術・事業・マネジメントのいずれにも広げられます。代表的な進路は次の通りです。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>CSを極める・束ねる</h3><p className="text-sm text-text-light">シニアCSM → CSマネージャー → VP of CS。チームと継続率・LTVをリードし、高年収を狙う道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3aed" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>プロダクトへ（PdM）</h3><p className="text-sm text-text-light">顧客の声を最もよく知る立場を活かし、プロダクトマネージャーへ。製品の方向性を決める上流へ進む道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>技術提案へ（セールスエンジニア）</h3><p className="text-sm text-text-light">技術理解を深め、セールスエンジニア（プリセールス）／ソリューションアーキテクトへ。技術と商談をつなぐ希少職へ。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3aed" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>事業サイドへ横展開</h3><p className="text-sm text-text-light">インサイドセールス／マーケティング／事業企画へ。顧客理解を武器に、SaaSの成長エンジンを担う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>CSを極める・束ねる</h3><p className="text-sm text-text-light">シニアCSM → CSマネージャー → VP of CS。チームと継続率・LTVをリードし、高年収を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3a55" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>プロダクトへ（PdM）</h3><p className="text-sm text-text-light">顧客の声を最もよく知る立場を活かし、プロダクトマネージャーへ。製品の方向性を決める上流へ進む道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>技術提案へ（セールスエンジニア）</h3><p className="text-sm text-text-light">技術理解を深め、セールスエンジニア（プリセールス）／ソリューションアーキテクトへ。技術と商談をつなぐ希少職へ。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#7c3a55" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>事業サイドへ横展開</h3><p className="text-sm text-text-light">インサイドセールス／マーケティング／事業企画へ。顧客理解を武器に、SaaSの成長エンジンを担う道。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>SaaS・IT業界の求人を扱う特化型と、働き方を重視する女性特化型の併用が効果的です。未経験歓迎求人やリモートの実態を引き出してもらいましょう。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。SaaS企業のテクニカルサポート・カスタマーサクセス求人にも詳しく、製品や技術背景を理解したアドバイザーが提案してくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。SaaS・スタートアップのCS求人も扱い、スピーディーなマッチングと年収交渉力に定評があります。未経験からのキャリアチェンジ相談にも対応します。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。接客・営業からのキャリアチェンジ支援にも強く、働き方の条件で絞り込みたい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -400,19 +400,19 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Aさん（20代後半・販売職→カスタマーサクセス）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（20代後半・販売職→カスタマーサクセス）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">アパレル販売（IT未経験）/ 年収330万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaS企業のカスタマーサクセス / 年収450万円・フルリモート</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">アパレル販売（IT未経験）/ 年収330万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のカスタマーサクセス / 年収450万円・フルリモート</p></div>
               </div>
               <p className="text-sm text-text-light">接客で培った傾聴力と、リピーターを増やした実績を「継続率向上」の文脈で言語化。IT特化型エージェントの紹介で未経験歓迎のSaaS企業に転職し、年収120万円アップとフルリモートを同時に実現しました。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>Bさん（30代前半・テクニカルサポート→技術が分かるCS）</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（30代前半・テクニカルサポート→技術が分かるCS）</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerのテクニカルサポート / 年収430万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}><p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後</p><p className="text-sm font-bold">SaaSのカスタマーサクセス（SQL活用）/ 年収600万円・時短可</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerのテクニカルサポート / 年収430万円</p></div>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaSのカスタマーサクセス（SQL活用）/ 年収600万円・時短可</p></div>
               </div>
               <p className="text-sm text-text-light">サポートで身につけた製品知識に加えてSQLで利用データを分析できる強みを整理。解約防止の実績を数字で示し、産休育休実績のあるSaaS企業へ。年収170万円アップと時短勤務の両立を実現しました。</p>
             </div>
@@ -421,17 +421,17 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -445,10 +445,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からのIT転職ガイド</h3><p className="text-sm text-text-light">ゼロから始める女性のIT入門</p></a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">職種から広がる将来の選択肢</p></a>
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">産休育休・リモートの見極め方</p></a>
-            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>IT職のワークライフバランス</h3><p className="text-sm text-text-light">リモート・時短で両立する働き方</p></a>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からのIT転職ガイド</h3><p className="text-sm text-text-light">ゼロから始める女性のIT入門</p></a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">職種から広がる将来の選択肢</p></a>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">産休育休・リモートの見極め方</p></a>
+            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>IT職のワークライフバランス</h3><p className="text-sm text-text-light">リモート・時短で両立する働き方</p></a>
           </div>
         </div>
       </section>
@@ -456,10 +456,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

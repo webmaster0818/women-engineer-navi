@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               年収ガイド
             </span>
@@ -134,18 +134,18 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 年代別年収の全体像（20代〜50代の推移）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 年代別年収の実額（大きな比較表）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 20代の年収と上げ方</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 30代の年収とライフイベント</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 40代・50代の年収とピークの作り方</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 男女の年収差とその対策</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 年代別の転職・年収アップ戦略</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 年代別年収の全体像（20代〜50代の推移）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 年代別年収の実額（大きな比較表）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 20代の年収と上げ方</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 30代の年収とライフイベント</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 40代・50代の年収とピークの作り方</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 男女の年収差とその対策</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 年代別の転職・年収アップ戦略</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -165,13 +165,13 @@ export default function ArticlePage() {
             <p>
               ポイントは、<strong>20代までは男女でほとんど年収差がない</strong>こと。差が生まれるのは30代以降で、出産・育児というライフイベントがちょうど昇給カーブが急になる時期と重なることが大きな要因です。つまり、年収の伸びは「年齢」だけでなく「ライフイベントとどう向き合い、どんなスキル・働き方を選ぶか」で決まります。この記事では各年代の実額を示しながら、年代ごとの年収アップ戦略を具体的に解説します。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>年代別 年収カーブの特徴（女性エンジニア）</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>年代別 年収カーブの特徴（女性エンジニア）</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>20代</strong>：スタートは350〜400万円台。男女差はほぼなく、スキル習得で一気に伸びる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>30代</strong>：500万円台に到達。一方でライフイベントの影響が出始め、個人差が最も大きくなる</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>40代</strong>：600万円台へ。上流・マネジメント経験で大きく差がつく</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>50代</strong>：実績次第で維持・上昇。フリーランスや管理職で年収を伸ばす人も</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>20代</strong>：スタートは350〜400万円台。男女差はほぼなく、スキル習得で一気に伸びる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>30代</strong>：500万円台に到達。一方でライフイベントの影響が出始め、個人差が最も大きくなる</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>40代</strong>：600万円台へ。上流・マネジメント経験で大きく差がつく</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>50代</strong>：実績次第で維持・上昇。フリーランスや管理職で年収を伸ばす人も</span></li>
               </ul>
             </div>
           </div>
@@ -179,7 +179,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 年代別年収の実額（大表） */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">年代別年収の実額（大きな比較表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -190,61 +190,61 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年代</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>女性の年収目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>男女総計の目安</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>この年代の特徴</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年代</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>女性の年収目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>男女総計の目安</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>この年代の特徴</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代前半<br />（20〜24歳）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約350〜377万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約377万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>新卒・第二新卒。男女差ほぼなし。手取り月20〜25万円が目安</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代前半<br />（20〜24歳）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約350〜377万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約377万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>新卒・第二新卒。男女差ほぼなし。手取り月20〜25万円が目安</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代後半<br />（25〜29歳）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約420〜460万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約470万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>実務2〜5年。スキル習得と1回目の転職で最も伸びやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代後半<br />（25〜29歳）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約420〜460万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約470万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>実務2〜5年。スキル習得と1回目の転職で最も伸びやすい</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代前半<br />（30〜34歳）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約480〜500万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約500万円台</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>リーダー・設計を任され始める。ライフイベントの分岐点</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代前半<br />（30〜34歳）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約480〜500万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約500万円台</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>リーダー・設計を任され始める。ライフイベントの分岐点</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代後半<br />（35〜39歳）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約413〜520万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約560万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>男女差が顕著に（女性413万円／男性564万円）。働き方で大きく分岐</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代後半<br />（35〜39歳）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約413〜520万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約560万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>男女差が顕著に（女性413万円／男性564万円）。働き方で大きく分岐</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代前半<br />（40〜44歳）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約540〜613万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約739万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上流・PM経験で大きく差。女性の年収ピーク帯になりやすい</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代前半<br />（40〜44歳）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約540〜613万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約739万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上流・PM経験で大きく差。女性の年収ピーク帯になりやすい</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代後半<br />（45〜49歳）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約560〜650万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約760万円（ピーク）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>管理職・スペシャリストで700万円超も。実績の言語化が鍵</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代後半<br />（45〜49歳）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約560〜650万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約760万円（ピーク）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>管理職・スペシャリストで700万円超も。実績の言語化が鍵</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>50代<br />（50〜59歳）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約540〜650万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約740〜760万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>横ばい〜微減が一般的。フリーランス・管理職で維持・上昇も</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>50代<br />（50〜59歳）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約540〜650万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約740〜760万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>横ばい〜微減が一般的。フリーランス・管理職で維持・上昇も</td>
                 </tr>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>大企業（1000人〜）<br />勤務の女性</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>約688万円</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>同じ年代でも企業規模で大きく差が出る</td>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>大企業（1000人〜）<br />勤務の女性</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>約688万円</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>同じ年代でも企業規模で大きく差が出る</td>
                 </tr>
               </tbody>
             </table>
@@ -268,20 +268,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 需要の高いスキルに早く投資する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 需要の高いスキルに早く投資する</h3>
               <p className="text-text-light text-sm leading-relaxed">Python（AI・データ）、Go、クラウド（AWS）など、30代以降に高単価へつながるスキルへ20代のうちに触れておくと、年収カーブの傾きが変わります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 「深さ」を作ってから転職する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 「深さ」を作ってから転職する</h3>
               <p className="text-text-light text-sm leading-relaxed">1つの言語・領域で設計や運用まで経験すると、20代後半の転職で年収+50〜100万円が現実的に。経験社数より実績の深さが評価されます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. ライフプランを見据えて土台を選ぶ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. ライフプランを見据えて土台を選ぶ</h3>
               <p className="text-text-light text-sm leading-relaxed">設計力が資産になる職種（バックエンド・インフラ等）は、30代でブランクが生じても復帰しやすい。20代の選択がライフイベント耐性を決めます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 最初の年収交渉に慣れておく</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 最初の年収交渉に慣れておく</h3>
               <p className="text-text-light text-sm leading-relaxed">女性は転職時の昇給幅が男性より小さい傾向（後述）。20代のうちにエージェントと組んで交渉を経験しておくと、以降の交渉が有利になります。</p>
             </div>
           </div>
@@ -289,7 +289,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 30代 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">30代の年収とライフイベント</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -303,8 +303,8 @@ export default function ArticlePage() {
               ただし、これは「女性だから下がる」のではなく「働き方の選択肢が年収に直結する」ということ。30代は、<strong>年収・スキル・働き方のどれを優先するかを意識的に設計する分岐点</strong>です。下記のように立ち回ることで、ブランクがあっても年収を維持・回復できます。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>30代でライフイベントと年収を両立する立ち回り</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>30代でライフイベントと年収を両立する立ち回り</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① 産休・育休前に<strong>設計・上流の経験</strong>を積んでおく（復帰後のキャッチアップが早い）</li>
               <li>② <strong>フルリモート・時短可の自社開発企業</strong>へ早めに移り、ブランク中も価値が落ちない環境を確保</li>
@@ -331,16 +331,16 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>上流・設計を武器にする</h3><p className="text-sm text-text-light">要件定義・アーキテクチャ設計の実績は40代以降に最も評価される。年収700万円台への王道ルート。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>マネジメントで価値を上げる</h3><p className="text-sm text-text-light">PM/PL・EMとしてチームを率いた経験は、実装スキルが陳腐化しても年収を支える資産になる。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>フリーランスで単価を取る</h3><p className="text-sm text-text-light">経験者は月単価70万円以上も。リモート中心でライフステージに合わせた働き方と高収入を両立。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>実績を言語化して棚卸しする</h3><p className="text-sm text-text-light">「何を、どう改善し、どんな成果を出したか」を数字で示せると、年齢に関係なく評価される。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>上流・設計を武器にする</h3><p className="text-sm text-text-light">要件定義・アーキテクチャ設計の実績は40代以降に最も評価される。年収700万円台への王道ルート。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>マネジメントで価値を上げる</h3><p className="text-sm text-text-light">PM/PL・EMとしてチームを率いた経験は、実装スキルが陳腐化しても年収を支える資産になる。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>フリーランスで単価を取る</h3><p className="text-sm text-text-light">経験者は月単価70万円以上も。リモート中心でライフステージに合わせた働き方と高収入を両立。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>実績を言語化して棚卸しする</h3><p className="text-sm text-text-light">「何を、どう改善し、どんな成果を出したか」を数字で示せると、年齢に関係なく評価される。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec6 男女差と対策 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">男女の年収差とその対策</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -352,20 +352,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>対策1：市場価値を客観的に把握する</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>対策1：市場価値を客観的に把握する</h3>
               <p className="text-text-light text-sm leading-relaxed">自分の年収が市場相場より低いことに気づいていないケースは多い。IT特化型エージェントに査定してもらい、適正額の根拠を持つことが交渉の第一歩です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>対策2：昇給幅の差を交渉で埋める</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>対策2：昇給幅の差を交渉で埋める</h3>
               <p className="text-text-light text-sm leading-relaxed">女性は転職時の昇給を控えめに見積もりがち。エージェント経由で年収交渉を代行してもらうと、提示額が50〜150万円変わることもあります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>対策3：成果が可視化される職場を選ぶ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>対策3：成果が可視化される職場を選ぶ</h3>
               <p className="text-text-light text-sm leading-relaxed">勤務時間ではなくアウトプットで評価される環境なら、時短でも実力が反映され、ライフイベントによる年収ダウンを最小化できます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>対策4：中堅期に評価機会を逃さない</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>対策4：中堅期に評価機会を逃さない</h3>
               <p className="text-text-light text-sm leading-relaxed">格差が広がる5〜10年目こそ、設計・リード経験を積み実績を残すことが重要。ここでの一手が40代以降の年収を左右します。</p>
             </div>
           </div>
@@ -387,8 +387,8 @@ export default function ArticlePage() {
               ["40代", "上流・マネジメント経験を言語化して700万円台へ", "要件定義・PM/PL・技術選定の実績を数字で棚卸し。年収600〜800万円台のポジションへ。ピーク帯で最大化する。"],
               ["50代", "管理職かフリーランスで下げ止まらせる", "アーキテクト・管理職として中核を担うか、月単価70万円以上のフリーランスへ。年齢より再現性のある実績で勝負する。"],
             ].map(([age, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{age}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{age}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -400,30 +400,30 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 エージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>年代別の年収アップで効果が最も高いのは「転職時の年収交渉」です。女性は昇給幅が小さくなりがちなため、市場価値を客観評価し交渉を代行してくれるエージェントの活用が重要。IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術を理解したアドバイザーが市場価値を客観評価し、年代に合った年収レンジの求人を提案。年収交渉にも強く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。男女差が出やすい昇給幅をしっかり交渉してくれるため、適正年収での転職を目指す中堅層に向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモート・時短など、ライフイベントと年収を両立させたい女性向けの求人が中心。30代の働き方の分岐点で、条件を絞り込んで探したい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで年収が変わる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、あなたの年代・キャリアに合ったアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
@@ -434,12 +434,12 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -449,14 +449,14 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの全体像</p></a>
-            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>職種別の女性エンジニア年収</h3><p className="text-sm text-text-light">職種で変わる年収の違いを比較</p></a>
-            <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>30代女性エンジニアの転職</h3><p className="text-sm text-text-light">ライフイベントとキャリアの両立</p></a>
-            <a href="/articles/negotiation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>年収交渉の進め方</h3><p className="text-sm text-text-light">男女差を埋める交渉のコツ</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの全体像</p></a>
+            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職種別の女性エンジニア年収</h3><p className="text-sm text-text-light">職種で変わる年収の違いを比較</p></a>
+            <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>30代女性エンジニアの転職</h3><p className="text-sm text-text-light">ライフイベントとキャリアの両立</p></a>
+            <a href="/articles/negotiation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収交渉の進め方</h3><p className="text-sm text-text-light">男女差を埋める交渉のコツ</p></a>
           </div>
         </div>
       </section>
@@ -464,10 +464,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">あなたの年代に合った年収アップを</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。市場価値を客観評価してもらい、適正な年収での転職を実現しましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

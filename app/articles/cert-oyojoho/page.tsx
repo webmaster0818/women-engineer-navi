@@ -103,7 +103,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section
         className="relative py-12 md:py-16"
-        style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}
+        style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}
       >
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb
@@ -116,7 +116,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               資格ガイド
             </span>
@@ -134,19 +134,19 @@ export default function ArticlePage() {
       {/* 目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 応用情報技術者試験とは（試験概要）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 難易度・合格率（データで見る）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 基本情報との違いと取得メリット</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 出題範囲（午前・午後）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 勉強時間と勉強法（STEP）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. おすすめ教材</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 取得後の年収・キャリア</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 女性エンジニアに役立つ理由</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 応用情報技術者試験とは（試験概要）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 難易度・合格率（データで見る）</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 基本情報との違いと取得メリット</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 出題範囲（午前・午後）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 勉強時間と勉強法（STEP）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. おすすめ教材</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 取得後の年収・キャリア</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 女性エンジニアに役立つ理由</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -163,15 +163,15 @@ export default function ArticlePage() {
             <p>
               試験は<strong>午前（多肢選択式・80問）</strong>と<strong>午後（記述式・11問中5問選択）</strong>の2部構成。それぞれ試験時間は150分で、午前・午後ともに100点満点中<strong>60点以上</strong>が合格基準です。技術だけでなく、マネジメントや経営戦略（ストラテジ）まで幅広く問われるのが特徴で、IT全体を俯瞰する力が身につきます。
             </p>
-            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>試験の基本データ（早見表）</h3>
+            <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>試験の基本データ（早見表）</h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>実施機関：IPA（情報処理推進機構）／国家試験</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>難易度：ITSSレベル3（基本情報の一段上）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>午前：多肢選択式80問／150分／60点以上で合格</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>午後：記述式（11問中5問選択）／150分／60点以上で合格</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>受験資格：なし（誰でも受験可能）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>2026年度（令和8年度）よりCBT方式へ移行（前期2026年11月頃／後期2027年2月頃）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>実施機関：IPA（情報処理推進機構）／国家試験</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>難易度：ITSSレベル3（基本情報の一段上）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>午前：多肢選択式80問／150分／60点以上で合格</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>午後：記述式（11問中5問選択）／150分／60点以上で合格</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>受験資格：なし（誰でも受験可能）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>2026年度（令和8年度）よりCBT方式へ移行（前期2026年11月頃／後期2027年2月頃）</span></li>
               </ul>
             </div>
             <p className="text-sm">
@@ -182,7 +182,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 難易度・合格率 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">難易度・合格率（データで見る）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -193,25 +193,25 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>実施回</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>受験者数</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>合格者数</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>合格率</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>実施回</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>受験者数</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>合格者数</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>合格率</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>令和6年度 秋期</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>28.5%</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>令和7年度 春期</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>22.1%</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>令和7年度 秋期</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>44,005人</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>10,792人</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>24.5%</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>令和6年度 秋期</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>28.5%</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>令和7年度 春期</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>22.1%</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>令和7年度 秋期</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>44,005人</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>10,792人</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>24.5%</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
             ※合格率はおおむね20〜25%で推移。年度・回により変動します。最新の統計はIPA公式の「統計情報」で確認してください。
           </p>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>難しいと言われる3つの理由</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>難しいと言われる3つの理由</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>午後が記述式</strong>。用語暗記だけでは通用せず、問題文を読み解いて自分の言葉で説明する力が必要</li>
               <li>② <strong>出題範囲が広い</strong>。技術だけでなくマネジメント・経営戦略まで網羅され、午後は分野選択の戦略も問われる</li>
@@ -233,56 +233,56 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>基本情報技術者（FE）</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>応用情報技術者（AP）</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>項目</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>基本情報技術者（FE）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>応用情報技術者（AP）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ITSSレベル</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>レベル2</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>レベル3</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ITSSレベル</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>レベル2</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>レベル3</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>合格率の目安</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約40%台</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約20〜25%</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>午後の形式</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>多肢選択式</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>記述式</td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>問われる視点</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>IT全般の基礎・実装</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>技術＋マネジメント＋戦略</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>合格率の目安</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約40%台</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約20〜25%</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>上位試験の優遇</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>なし</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>高度試験・支援士の午前Ⅰが2年間免除</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>午後の形式</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>多肢選択式</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>記述式</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>問われる視点</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>IT全般の基礎・実装</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術＋マネジメント＋戦略</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>上位試験の優遇</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>なし</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>高度試験・支援士の午前Ⅰが2年間免除</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-8">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>高度試験への足がかりになる</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>高度試験への足がかりになる</h3>
               <p className="text-sm text-text-light">合格後2年間は、情報処理安全確保支援士（登録セキスペ）や高度試験（PM・ネットワークスペシャリストなど）の<strong>午前Ⅰが免除</strong>。共通知識を問う関門を飛ばして、専門分野の対策に集中できます。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>スキルを客観的に証明できる</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>スキルを客観的に証明できる</h3>
               <p className="text-sm text-text-light">国家資格として体系的なIT知識を裏付けるため、実務経験を語りにくい時期でも「一定水準のスキルがある」と示せます。官公庁・SIerの案件参画要件になることもあります。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>資格手当・報奨金につながる</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>資格手当・報奨金につながる</h3>
               <p className="text-sm text-text-light">資格手当は月5,000〜20,000円、合格報奨金は5万〜20万円が相場（基本情報の約2倍）。企業の評価制度で昇給・昇格の材料になることもあります。</p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>知識が「横断的」に整理される</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>知識が「横断的」に整理される</h3>
               <p className="text-sm text-text-light">技術・マネジメント・戦略を一通り学ぶため、自分の専門以外の全体像が見えるように。設計や要件定義など上流の議論にも入りやすくなります。</p>
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 出題範囲 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出題範囲（午前・午後）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -301,33 +301,33 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>分野</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>午前の出題</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主な内容</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>分野</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>午前の出題</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主な内容</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>テクノロジ系</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>問1〜50（50問）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>アルゴリズム・DB・ネットワーク・セキュリティ・システム開発</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>テクノロジ系</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>問1〜50（50問）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>アルゴリズム・DB・ネットワーク・セキュリティ・システム開発</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>マネジメント系</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>問51〜60（10問）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>プロジェクトマネジメント・サービスマネジメント・システム監査</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>マネジメント系</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>問51〜60（10問）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>プロジェクトマネジメント・サービスマネジメント・システム監査</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ストラテジ系</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>問61〜80（20問）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>経営戦略・システム戦略・企業活動・法務</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ストラテジ系</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>問61〜80（20問）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>経営戦略・システム戦略・企業活動・法務</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>午後（記述式・11問中5問選択）</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>午後（記述式・11問中5問選択）</h3>
             <p className="text-sm text-text-light leading-relaxed mb-3">
               午後は「情報セキュリティ」が必須（必答）で、残り10問の中から4問を選択します。プログラミング・DB・ネットワーク・組込みシステム開発・システムアーキテクチャ・経営戦略・プロジェクトマネジメント・システム監査などから、得意分野を選んで解答します。
             </p>
@@ -355,8 +355,8 @@ export default function ArticlePage() {
               ["STEP4", "午後の記述に慣れる", "『午後問題の重点対策』などで、問題文の読み方と「採点者に伝わる書き方」を訓練。模範解答と自分の答えを照らし合わせ、過不足を埋めていきます。"],
               ["STEP5", "本番形式で時間配分を練習", "午前・午後とも150分の長丁場。本番と同じ時間で過去問を解き、見直しを含めた時間配分とCBT画面での読解に慣れておきます。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -368,7 +368,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 おすすめ教材 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ教材</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -377,20 +377,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">キタミ式イラストIT塾 応用情報技術者</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>入門・インプット</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">キタミ式イラストIT塾 応用情報技術者</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>入門・インプット</span></div>
               <p className="text-sm text-text-light">すべての解説をイラストで行う定番テキスト。文章だけでは理解しにくいITの概念や仕組みを視覚的に学べ、演習問題・模擬試験も付属。初学者やブランクのある方の1冊目に最適です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">ニュースペックテキスト 応用情報技術者（TAC出版）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>テキスト＋演習</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">ニュースペックテキスト 応用情報技術者（TAC出版）</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>テキスト＋演習</span></div>
               <p className="text-sm text-text-light">オールカラー図解で、午前・午後をこれ1冊でカバーするテキスト＋問題演習一体型。体系的に整理されており、ある程度の基礎がある人がメインに据えるのに向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">午後問題の重点対策</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>午後・記述対策</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">午後問題の重点対策</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>午後・記述対策</span></div>
               <p className="text-sm text-text-light">記述式の午後に特化した定番問題集。問題文の読み方と、採点者に評価される記述の書き方が丁寧に解説されており、午後の得点力を底上げします。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">応用情報技術者試験ドットコム「過去問道場」</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>午前・無料Web</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">応用情報技術者試験ドットコム「過去問道場」</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>午前・無料Web</span></div>
               <p className="text-sm text-text-light">過去問をWeb・スマホで無料演習できる定番サービス。午前は過去問演習が最重要なので、隙間時間に繰り返し回して正答率を安定させましょう。</p>
             </div>
           </div>
@@ -409,8 +409,8 @@ export default function ArticlePage() {
               さらに大きいのが<strong>上位資格への展開</strong>。合格後2年間は高度試験・情報処理安全確保支援士の午前Ⅰが免除されるため、次のキャリアを描きやすくなります。たとえばセキュリティに強みを持ちたいなら情報処理安全確保支援士（登録セキスペ。年収目安600万〜1,300万円とされる名称独占資格）、上流に進みたいならプロジェクトマネージャやITストラテジストへ——と、応用情報は「次の一手」の起点になります。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>応用情報を起点とした3つの進路</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>応用情報を起点とした3つの進路</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>セキュリティの専門家へ</strong>：情報処理安全確保支援士（午前Ⅰ免除を活用）。需要が高く高年収を狙える</li>
               <li>② <strong>上流・マネジメントへ</strong>：プロジェクトマネージャ／ITストラテジストなど高度試験で設計・戦略の専門性を証明</li>
@@ -421,7 +421,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 女性エンジニアに役立つ理由 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニアに役立つ理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -430,20 +430,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. スキルを「点数」で客観証明できる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. スキルを「点数」で客観証明できる</h3>
               <p className="text-text-light text-sm leading-relaxed">主観が入りにくい国家資格なので、実績や経験を割り引いて見られがちな場面でも、一定水準のスキルがあることを揺るぎなく示せます。書類選考の通過率アップにも直結します。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. ブランク期間も自宅学習で前進できる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. ブランク期間も自宅学習で前進できる</h3>
               <p className="text-text-light text-sm leading-relaxed">産休・育休などで実務から離れる時期も、テキストと過去問道場で学習を進められます。復職時に「ブランク中も学び続けた証」として資格をアピールでき、復帰のハードルが下がります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 上流・設計の議論に入りやすくなる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 上流・設計の議論に入りやすくなる</h3>
               <p className="text-text-light text-sm leading-relaxed">技術だけでなくマネジメント・戦略まで体系的に学ぶため、要件定義や設計など上流の会話についていきやすくなります。時短勤務でも「設計で評価される」キャリアを築く土台になります。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3aed" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. 年収交渉・キャリアの幅が広がる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 年収交渉・キャリアの幅が広がる</h3>
               <p className="text-text-light text-sm leading-relaxed">資格手当や報奨金、午前Ⅰ免除による上位資格への展開など、年収とキャリアの選択肢が増えます。ライフイベントを経ても長く市場価値を保ちやすくなります。</p>
             </div>
           </div>
@@ -458,39 +458,39 @@ export default function ArticlePage() {
             <p>応用情報の取得を年収・キャリアにつなげるには、資格を正当に評価してくれるエージェント選びが重要です。IT特化型と女性特化型の併用が効果的です。</p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">レバテックキャリア</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web業界に特化し求人数が豊富。技術に精通したアドバイザーが、応用情報などの資格やスキルを正しく評価したうえで求人を提案してくれます。リモート求人も多く、女性アドバイザーの指名も可能です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>IT特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">Geekly</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span></div>
               <p className="text-sm text-text-light">IT・Web・ゲーム業界に強く、年収アップ実績が豊富。スピーディーなマッチングと年収交渉力に定評があり、資格をテコにした年収アップを狙う人に向いています。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>女性特化型</span></div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">type女性の転職エージェント</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>女性特化型</span></div>
               <p className="text-sm text-text-light">産休育休やリモートなど、女性のキャリア継続に配慮した求人を中心に紹介。資格で高めたスキルを、働き方の条件と両立しながら活かせる職場を探したい人に最適です。</p>
             </div>
           </div>
-          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">資格を年収・キャリアに変えるなら</p>
             <p className="text-sm text-text-light mb-4">複数登録して、応用情報を正当に評価してくれるアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -504,10 +504,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職・年収に効く資格を総まとめ</p></a>
-            <a href="/articles/security/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>セキュリティエンジニア転職ガイド</h3><p className="text-sm text-text-light">支援士の先にある高需要職種</p></a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">上流・専門職への進み方</p></a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}><h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
+            <a href="/articles/certification/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの資格ガイド</h3><p className="text-sm text-text-light">転職・年収に効く資格を総まとめ</p></a>
+            <a href="/articles/security/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>セキュリティエンジニア転職ガイド</h3><p className="text-sm text-text-light">支援士の先にある高需要職種</p></a>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアのキャリアパス</h3><p className="text-sm text-text-light">上流・専門職への進み方</p></a>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法</p></a>
           </div>
         </div>
       </section>
@@ -515,10 +515,10 @@ export default function ArticlePage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">資格を活かした転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。応用情報を強みに、あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

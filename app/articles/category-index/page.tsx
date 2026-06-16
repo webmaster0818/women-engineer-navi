@@ -54,7 +54,7 @@ const categories: Category[] = [
   {
     id: "start",
     name: "はじめての方へ",
-    color: "#0891b2",
+    color: "#7c3a55",
     desc: "転職活動の全体像をつかむための入門記事です。未経験からのロードマップ、エージェントの選び方、活動期間の目安など、最初に読むと後の記事が理解しやすくなります。",
     articles: [
       { href: "/articles/beginner/", title: "未経験から女性エンジニアになるには？現実のロードマップ" },
@@ -68,7 +68,7 @@ const categories: Category[] = [
   {
     id: "shokushu",
     name: "職種を知る",
-    color: "#7c3aed",
+    color: "#7c3a55",
     desc: "エンジニアと一口に言っても職種ごとに仕事内容・年収・未経験ハードルは大きく異なります。開発系からデータ・セキュリティ・マネジメント・デザイン系まで17職種を解説しています。",
     articles: [
       { href: "/articles/frontend/", title: "フロントエンドエンジニア転職ガイド" },
@@ -93,7 +93,7 @@ const categories: Category[] = [
   {
     id: "skill",
     name: "言語・スキルから選ぶ",
-    color: "#f97066",
+    color: "#c15f47",
     desc: "学ぶ言語・スキルで目指せる職種と年収レンジが変わります。主要8言語に加えて、クラウド（AWS・GCP・Azure）やデータベースのスキル軸でも転職戦略を解説しています。",
     articles: [
       { href: "/articles/javascript-career/", title: "JavaScriptで転職する" },
@@ -127,7 +127,7 @@ const categories: Category[] = [
   {
     id: "salary",
     name: "年収",
-    color: "#0891b2",
+    color: "#7c3a55",
     desc: "公的統計・公開調査に基づく年収の実データを、年代別・職種別・言語別の3つの切り口で整理しています。年収1000万への道筋と、転職時に重要な年収交渉の実践方法もこちらです。",
     articles: [
       { href: "/articles/salary/", title: "女性エンジニアの年収はいくら？実データと年収アップ術" },
@@ -141,7 +141,7 @@ const categories: Category[] = [
   {
     id: "hatarakikata",
     name: "働き方",
-    color: "#7c3aed",
+    color: "#7c3a55",
     desc: "リモートワーク・時短・週3〜4日勤務・副業・フリーランス・派遣など、雇用形態と働き方の選択肢を比較できます。フルリモート企業の見極め方や契約社員からの正社員化もこちらです。",
     articles: [
       { href: "/articles/remote-jobs/", title: "在宅・リモート転職ガイド" },
@@ -158,7 +158,7 @@ const categories: Category[] = [
   {
     id: "ryoritsu",
     name: "両立・ライフイベント",
-    color: "#f97066",
+    color: "#c15f47",
     desc: "出産・育児とエンジニアキャリアの両立をテーマにした記事群です。育休取得率の実データ、復職ロードマップ、育休中のリスキリング、両立家庭のリアルな1日まで網羅しています。",
     articles: [
       { href: "/articles/mama-engineer/", title: "ママエンジニアの働き方ガイド" },
@@ -183,7 +183,7 @@ const categories: Category[] = [
   {
     id: "chiiki",
     name: "地域から探す",
-    color: "#0891b2",
+    color: "#7c3a55",
     desc: "東京・大阪・名古屋・福岡の求人動向と年収相場に加え、地方在住×フルリモートという選択肢も解説。東京都の女性ITエンジニア育成事業（公的支援）の記事もこちらです。",
     articles: [
       { href: "/articles/tokyo/", title: "東京の転職ガイド" },
@@ -197,7 +197,7 @@ const categories: Category[] = [
   {
     id: "senko",
     name: "選考対策",
-    color: "#7c3aed",
+    color: "#7c3a55",
     desc: "書類作成から面接・コーディングテスト・オファー面談・退職交渉まで、選考プロセスを時系列でカバーしています。在職中の活動の進め方と円満退職の記事も含みます。",
     articles: [
       { href: "/articles/resume-guide/", title: "職務経歴書・スキルシートの書き方" },
@@ -215,7 +215,7 @@ const categories: Category[] = [
   {
     id: "gyokai",
     name: "業界研究",
-    color: "#f97066",
+    color: "#c15f47",
     desc: "同じエンジニアでも、Web系・SIer・ゲーム業界・スタートアップでは文化も年収もキャリアパスも異なります。SESと自社開発の違いはキャリアへの影響が大きいので要チェックです。",
     articles: [
       { href: "/articles/web-industry/", title: "Web業界で働くリアル" },
@@ -242,7 +242,7 @@ const categories: Category[] = [
   {
     id: "career",
     name: "キャリア・職場環境",
-    color: "#0891b2",
+    color: "#7c3a55",
     desc: "5年後・10年後を見据えたキャリア設計と、長く働き続けるための職場環境の見極め方。管理職への道、働きやすい企業の選び方、ハラスメント対処、海外転職までカバーしています。",
     articles: [
       { href: "/articles/career-path/", title: "キャリアパス完全マップ｜5つの方向性" },
@@ -262,7 +262,7 @@ const totalArticles = categories.reduce((sum, c) => sum + c.articles.length, 0);
 const startGuides = [
   {
     label: "未経験からエンジニアを目指す方",
-    color: "#0891b2",
+    color: "#7c3a55",
     desc: "まず現実的なロードマップで全体像をつかみ、学習手段と作品づくり、エージェント選びへ進みましょう。",
     steps: [
       { href: "/articles/beginner/", title: "未経験からのロードマップ" },
@@ -273,7 +273,7 @@ const startGuides = [
   },
   {
     label: "経験者でキャリア・年収を上げたい方",
-    color: "#7c3aed",
+    color: "#7c3a55",
     desc: "キャリアの方向性と年収の実データで現在地を確認し、職務経歴書と年収交渉で市場価値を最大化しましょう。",
     steps: [
       { href: "/articles/career-path/", title: "キャリアパス完全マップ" },
@@ -284,7 +284,7 @@ const startGuides = [
   },
   {
     label: "育休・ブランクから復職したい方",
-    color: "#f97066",
+    color: "#c15f47",
     desc: "復職ロードマップと支援制度を押さえ、復帰か転職かの判断基準、両立しやすい働き方の順で読み進めましょう。",
     steps: [
       { href: "/articles/return-to-work/", title: "復職ロードマップと支援制度" },
@@ -313,11 +313,11 @@ export default function CategoryIndexPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "記事カテゴリ一覧" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#0891b2" }}>全記事ガイド</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>全記事ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               記事カテゴリ一覧
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニア転職ナビの歩き方【全{totalArticles}記事】</span>
@@ -330,8 +330,8 @@ export default function CategoryIndexPage() {
       {/* このページの使い方 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>このページの使い方</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>このページの使い方</h2>
             <p className="text-sm text-text-light leading-relaxed">
               女性エンジニア転職ナビの全{totalArticles}記事を、13のカテゴリに整理した記事ハブです。何から読むか迷ったら、まず下の「目的別スタートガイド」から自分に近いパターンを選んでください。読みたいテーマが決まっている方は、カテゴリ別目次から該当カテゴリへジャンプできます。各記事は公的統計・公開調査の実データと出典に基づいて作成しています。
             </p>
@@ -340,20 +340,20 @@ export default function CategoryIndexPage() {
       </section>
 
       {/* 迷ったらここから：目的別スタートガイド */}
-      <section className="py-8" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-8" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">迷ったらここから｜目的別スタートガイド</h2>
           <p className="text-sm text-text-light mb-6">自分の状況に近いパターンを選ぶと、読むべき記事の順番がわかります。</p>
           <div className="grid gap-6 md:grid-cols-3">
             {startGuides.map((guide, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6 flex flex-col" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6 flex flex-col" style={{ borderColor: "#d9c7b8" }}>
                 <h3 className="text-base font-bold mb-2" style={{ color: guide.color }}>{guide.label}</h3>
                 <p className="text-xs text-text-light leading-relaxed mb-4">{guide.desc}</p>
                 <ol className="space-y-2 mt-auto">
                   {guide.steps.map((step, j) => (
                     <li key={j} className="flex items-start gap-2">
                       <span className="inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold text-white flex-shrink-0 mt-0.5" style={{ backgroundColor: guide.color }}>{j + 1}</span>
-                      <a href={step.href} className="text-sm hover:underline" style={{ color: "#0891b2" }}>{step.title}</a>
+                      <a href={step.href} className="text-sm hover:underline" style={{ color: "#7c3a55" }}>{step.title}</a>
                     </li>
                   ))}
                 </ol>
@@ -366,12 +366,12 @@ export default function CategoryIndexPage() {
       {/* カテゴリ別目次 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">カテゴリ別 目次</h2>
             <ol className="grid gap-2 text-sm md:grid-cols-2">
               {categories.map((cat, i) => (
                 <li key={cat.id}>
-                  <a href={`#${cat.id}`} className="hover:underline" style={{ color: "#0891b2" }}>
+                  <a href={`#${cat.id}`} className="hover:underline" style={{ color: "#7c3a55" }}>
                     {i + 1}. {cat.name}（{cat.articles.length}記事）
                   </a>
                 </li>
@@ -383,7 +383,7 @@ export default function CategoryIndexPage() {
 
       {/* カテゴリ一覧 */}
       {categories.map((category, i) => (
-        <section key={category.id} id={category.id} className="py-10" style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
+        <section key={category.id} id={category.id} className="py-10" style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
           <div className="mx-auto max-w-4xl px-4">
             <div className="flex items-center gap-3 mb-3">
               <span className="inline-block w-1 h-8 rounded-full" style={{ backgroundColor: category.color }} />
@@ -397,11 +397,11 @@ export default function CategoryIndexPage() {
                   key={j}
                   href={article.href}
                   className="block rounded-xl border bg-white p-4 transition-all hover:shadow-md"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <div className="flex items-start gap-2">
                     <span style={{ color: category.color }} className="mt-0.5 font-bold text-sm">&#9654;</span>
-                    <span className="text-sm font-medium hover:underline" style={{ color: "#0891b2" }}>{article.title}</span>
+                    <span className="text-sm font-medium hover:underline" style={{ color: "#7c3a55" }}>{article.title}</span>
                   </div>
                 </a>
               ))}
@@ -411,10 +411,10 @@ export default function CategoryIndexPage() {
       ))}
 
       {/* エージェントレビュー */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <div className="flex items-center gap-3 mb-3">
-            <span className="inline-block w-1 h-8 rounded-full" style={{ backgroundColor: "#f97066" }} />
+            <span className="inline-block w-1 h-8 rounded-full" style={{ backgroundColor: "#c15f47" }} />
             <h2 className="text-2xl font-bold">エージェント・サービス個別レビュー</h2>
             <span className="text-sm text-text-light">（{reviews.length}件）</span>
           </div>
@@ -423,10 +423,10 @@ export default function CategoryIndexPage() {
           </p>
           <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
             {reviews.map((review, i) => (
-              <a key={i} href={review.href} className="block rounded-xl border bg-white p-4 transition-all hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
+              <a key={i} href={review.href} className="block rounded-xl border bg-white p-4 transition-all hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
                 <div className="flex items-start gap-2">
-                  <span style={{ color: "#f97066" }} className="mt-0.5 font-bold text-sm">&#9654;</span>
-                  <span className="text-sm font-medium hover:underline" style={{ color: "#0891b2" }}>{review.title}</span>
+                  <span style={{ color: "#c15f47" }} className="mt-0.5 font-bold text-sm">&#9654;</span>
+                  <span className="text-sm font-medium hover:underline" style={{ color: "#7c3a55" }}>{review.title}</span>
                 </div>
               </a>
             ))}
@@ -437,10 +437,10 @@ export default function CategoryIndexPage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

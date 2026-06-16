@@ -8,40 +8,42 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-const features = [
+const reasons = [
   {
-    icon: (
-      <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
-      </svg>
-    ),
-    title: "女性特化の比較基準",
-    description: "産休育休取得率・女性アドバイザー在籍・女性向けサポートなど、女性エンジニアが本当に知りたい情報で比較できます。",
+    no: "01",
+    title: "女性視点の比較基準",
+    description:
+      "産休育休の取得実績、女性アドバイザーの在籍、復職後のキャリア支援。一般的な比較サイトが見落とす、女性エンジニアが本当に知りたい観点で各社を読み解きます。",
   },
   {
-    icon: (
-      <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
-      </svg>
-    ),
-    title: "産休育休データ掲載",
-    description: "紹介先企業の産休育休取得実績や復帰率など、ライフイベントを見据えたキャリア設計に役立つデータを掲載。",
+    no: "02",
+    title: "数字は、すべて出典つき",
+    description:
+      "年収も求人倍率も、厚生労働省・経済産業省などの公的統計を一次資料から確認して掲載。印象論ではなく、確かなデータをもとに判断できます。",
   },
   {
-    icon: (
-      <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-      </svg>
-    ),
-    title: "リモートワーク率",
-    description: "各エージェントが扱うリモートワーク可能な求人の割合を独自調査。柔軟な働き方を実現する転職をサポートします。",
+    no: "03",
+    title: "ライフイベントと歩む設計",
+    description:
+      "出産・育児・リモートへの移行まで見据えた長期のキャリア設計を前提に。一度の転職ではなく、これからの働き方そのものをともに考えます。",
   },
 ];
 
 const stats = [
-  { value: "8社+", label: "掲載エージェント" },
-  { value: "6つ", label: "比較項目" },
-  { value: "多数", label: "口コミ掲載" },
+  { value: "100", unit: "本超", label: "実データで書いた記事" },
+  { value: "8", unit: "社", label: "女性視点で比較" },
+  { value: "全", unit: "出典明記", label: "公的統計に準拠" },
+];
+
+const themes = [
+  { label: "職種別キャリア", desc: "バックエンド・データ・AI ほか", href: "/articles/career-path/" },
+  { label: "年収・単価データ", desc: "年代別・職種別・言語別の実額", href: "/articles/salary/" },
+  { label: "資格・学習", desc: "基本情報・AWS・Python ほか", href: "/articles/certification/" },
+  { label: "未経験から転職", desc: "ロードマップと現実", href: "/articles/beginner/" },
+  { label: "年代別の転職", desc: "20代・30代・40代の戦略", href: "/articles/age-30s/" },
+  { label: "リモート・働き方", desc: "在宅・時短・フリーランス", href: "/articles/remote-jobs/" },
+  { label: "産休育休・両立", desc: "ライフイベントとキャリア", href: "/articles/mama-engineer/" },
+  { label: "選考・面接対策", desc: "職務経歴書・技術面接ほか", href: "/articles/interview-guide/" },
 ];
 
 const faqs = [
@@ -58,7 +60,7 @@ const faqs = [
   {
     question: "未経験からでも女性エンジニアとして転職できますか？",
     answer:
-      "可能です。ワークポートやReWorksなど、未経験者向けの研修制度やサポートが充実したエージェントを活用することで、未経験からのエンジニア転職も実現できます。",
+      "可能です。未経験者向けの研修制度やサポートが充実したエージェントを活用することで、未経験からのエンジニア転職も実現できます。職種ごとの難易度や学習ロードマップも記事で解説しています。",
   },
   {
     question: "転職エージェントの利用に費用はかかりますか？",
@@ -73,10 +75,7 @@ const faqSchema = {
   mainEntity: faqs.map((faq) => ({
     "@type": "Question",
     name: faq.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: faq.answer,
-    },
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
   })),
 };
 
@@ -89,69 +88,109 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="section-primary-light py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-            <span className="text-gradient">あなたらしいキャリアを、</span>
-            <br />
-            <span className="text-gradient">IT業界で。</span>
-          </h1>
-          <p className="mt-6 text-base md:text-lg text-text-light max-w-2xl mx-auto leading-relaxed">
-            女性エンジニアのための転職エージェント比較サイト。
-            <br className="hidden md:block" />
-            産休育休・リモートワーク・女性アドバイザーなど、
-            <br className="hidden md:block" />
-            女性ならではの視点で最適なエージェントが見つかります。
-          </p>
-          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/ranking/" className="btn-cta text-base">
-              おすすめエージェントを見る
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-            <Link href="/articles/category-index/" className="btn-outline text-base">
-              お役立ち記事を見る
-            </Link>
+      <section className="section-primary-light relative overflow-hidden">
+        <span
+          aria-hidden
+          className="pointer-events-none absolute -right-6 -top-10 select-none text-[12rem] md:text-[20rem] leading-none text-[#e3cdbb]/50"
+          style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}
+        >
+          &amp;
+        </span>
+        <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-28 grid md:grid-cols-12 gap-12 items-center">
+          <div className="md:col-span-7">
+            <p className="eyebrow">For Women in Tech</p>
+            <h1 className="mt-7 text-[2.1rem] md:text-[3.4rem] leading-[1.34] text-text">
+              あなたらしい働き方を、
+              <br />
+              <span className="text-gradient">IT業界で</span>かなえる。
+            </h1>
+            <p className="mt-7 text-base md:text-lg text-text-light max-w-xl leading-[2]">
+              産休育休、リモートワーク、女性アドバイザー。
+              働く楽しさを手放さないための転職を、確かなデータと女性の視点でそっと後押しします。
+            </p>
+            <div className="mt-10 flex flex-col sm:flex-row gap-4">
+              <Link href="/ranking/" className="btn-cta text-base">
+                おすすめエージェントを見る
+              </Link>
+              <Link href="/articles/category-index/" className="btn-outline text-base">
+                お役立ち記事を読む
+              </Link>
+            </div>
+          </div>
+
+          {/* Editorial manifesto panel */}
+          <div className="md:col-span-5">
+            <figure className="relative bg-[#fffaf4] border border-border rounded-sm p-8 md:p-9">
+              <span aria-hidden className="absolute -top-3 left-7 text-secondary text-2xl leading-none">
+                &#8220;
+              </span>
+              <blockquote
+                className="text-lg md:text-xl text-text leading-[1.9]"
+                style={{ fontFamily: "var(--font-shippori), serif" }}
+              >
+                キャリアも、暮らしも。
+                <br />
+                どちらかをあきらめないという選択を。
+              </blockquote>
+              <figcaption className="mt-7 pt-6 border-t border-border space-y-3">
+                {[
+                  "実データと公的統計にもとづく比較",
+                  "すべての数値に出典と参照日を明記",
+                  "女性エンジニアの視点で読み解く",
+                ].map((t) => (
+                  <p key={t} className="flex items-start gap-3 text-sm text-text-light">
+                    <span aria-hidden className="text-secondary mt-0.5 leading-none">
+                      &#9670;
+                    </span>
+                    {t}
+                  </p>
+                ))}
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-16 md:py-20">
+      {/* Reasons */}
+      <section className="py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
-            <span className="text-gradient">女性エンジニア転職ナビ</span>の特徴
-          </h2>
-          <p className="mt-4 text-center text-text-light">
-            他の比較サイトにはない、女性エンジニアに特化した情報をお届けします
-          </p>
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-            {features.map((feature) => (
-              <div key={feature.title} className="card text-center">
-                <div className="w-16 h-16 mx-auto bg-primary-light rounded-full flex items-center justify-center">
-                  {feature.icon}
-                </div>
-                <h3 className="mt-5 text-lg font-bold">{feature.title}</h3>
-                <p className="mt-3 text-sm text-text-light leading-relaxed">
-                  {feature.description}
-                </p>
+          <div className="max-w-2xl">
+            <p className="eyebrow">Why We Are Different</p>
+            <h2 className="mt-5 text-2xl md:text-[2.1rem] text-text leading-snug">
+              比較サイトにはない、
+              <span className="text-gradient">女性のための視点</span>
+            </h2>
+          </div>
+          <div className="mt-14 grid md:grid-cols-3 gap-x-10 gap-y-12">
+            {reasons.map((r) => (
+              <div key={r.no} className="border-t border-border pt-6">
+                <span className="numeral text-2xl">{r.no}</span>
+                <h3 className="mt-3 text-xl text-text">{r.title}</h3>
+                <p className="mt-4 text-sm text-text-light leading-[2]">{r.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Stats */}
+      {/* Stats band */}
       <section className="section-light py-16">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-3 gap-8 text-center">
-            {stats.map((stat) => (
-              <div key={stat.label}>
-                <div className="text-3xl md:text-4xl font-bold text-primary">
-                  {stat.value}
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="grid grid-cols-3 divide-x divide-border">
+            {stats.map((s) => (
+              <div key={s.label} className="px-3 text-center">
+                <div className="flex items-baseline justify-center gap-1">
+                  <span
+                    className="text-4xl md:text-5xl text-primary"
+                    style={{ fontFamily: "var(--font-shippori), serif", fontWeight: 700 }}
+                  >
+                    {s.value}
+                  </span>
+                  <span className="text-sm text-secondary font-medium">{s.unit}</span>
                 </div>
-                <div className="mt-2 text-sm text-text-light">{stat.label}</div>
+                <div className="mt-3 text-xs md:text-sm text-text-light tracking-wide">
+                  {s.label}
+                </div>
               </div>
             ))}
           </div>
@@ -159,36 +198,32 @@ export default function HomePage() {
       </section>
 
       {/* Browse by theme */}
-      <section className="py-16 md:py-20">
+      <section className="py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
-            <span className="text-gradient">目的</span>から記事を探す
-          </h2>
-          <p className="mt-4 text-center text-text-light">
-            職種・年収・資格・働き方など、テーマ別に女性エンジニアの転職・キャリア記事を用意しています
-          </p>
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              { label: "職種別キャリア", desc: "バックエンド・データ・AI ほか", href: "/articles/career-path/" },
-              { label: "年収・単価データ", desc: "年代別・職種別・言語別の実額", href: "/articles/salary/" },
-              { label: "資格・学習", desc: "基本情報・AWS・Python ほか", href: "/articles/certification/" },
-              { label: "未経験から転職", desc: "ロードマップと現実", href: "/articles/beginner/" },
-              { label: "年代別の転職", desc: "20代・30代・40代の戦略", href: "/articles/age-30s/" },
-              { label: "リモート・働き方", desc: "在宅・時短・フリーランス", href: "/articles/remote-jobs/" },
-              { label: "産休育休・両立", desc: "ライフイベントとキャリア", href: "/articles/mama-engineer/" },
-              { label: "選考・面接対策", desc: "職務経歴書・技術面接ほか", href: "/articles/interview-guide/" },
-            ].map((cat) => (
-              <Link key={cat.href} href={cat.href} className="card group block">
-                <h3 className="font-bold text-sm md:text-base group-hover:text-primary transition-colors">
-                  {cat.label}
+          <div className="max-w-2xl">
+            <p className="eyebrow">Find Your Path</p>
+            <h2 className="mt-5 text-2xl md:text-[2.1rem] text-text leading-snug">
+              目的から、記事を探す
+            </h2>
+            <p className="mt-4 text-text-light leading-[2]">
+              職種・年収・資格・働き方まで。女性エンジニアの転職とキャリアを、テーマ別にまとめています。
+            </p>
+          </div>
+          <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-5">
+            {themes.map((t) => (
+              <Link key={t.href} href={t.href} className="card group block">
+                <h3 className="text-sm md:text-base text-text group-hover:text-primary transition-colors">
+                  {t.label}
                 </h3>
-                <p className="mt-1.5 text-xs text-text-light leading-relaxed">
-                  {cat.desc}
-                </p>
+                <p className="mt-2 text-xs text-text-light leading-relaxed">{t.desc}</p>
+                <span className="mt-4 inline-block text-xs tracking-[0.2em] text-secondary uppercase"
+                  style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}>
+                  Read
+                </span>
               </Link>
             ))}
           </div>
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/articles/category-index/" className="btn-cta text-base">
               すべての記事を見る
             </Link>
@@ -200,21 +235,20 @@ export default function HomePage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 md:py-20">
+      <section className="section-light py-20 md:py-24">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
-            よくある質問
-          </h2>
-          <div className="mt-10 space-y-6">
+          <div className="text-center">
+            <p className="eyebrow justify-center">Questions</p>
+            <h2 className="mt-5 text-2xl md:text-[2.1rem] text-text">よくある質問</h2>
+          </div>
+          <div className="mt-12 space-y-4">
             {faqs.map((faq) => (
               <div key={faq.question} className="card">
-                <h3 className="font-bold text-base flex items-start gap-3">
-                  <span className="text-primary font-bold text-lg leading-none mt-0.5">Q</span>
+                <h3 className="text-base text-text flex items-start gap-3">
+                  <span className="numeral text-lg leading-none mt-0.5">Q</span>
                   {faq.question}
                 </h3>
-                <p className="mt-3 text-sm text-text-light leading-relaxed pl-7">
-                  {faq.answer}
-                </p>
+                <p className="mt-3 text-sm text-text-light leading-[2] pl-7">{faq.answer}</p>
               </div>
             ))}
           </div>
@@ -222,20 +256,23 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="section-primary-light py-16">
-        <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold">
-            あなたに最適なエージェントを見つけよう
+      <section className="relative overflow-hidden bg-footer py-20 text-center">
+        <div className="rule-motif mb-8 opacity-80">
+          <span aria-hidden>&#9670; &#9670; &#9670;</span>
+        </div>
+        <div className="relative max-w-2xl mx-auto px-4">
+          <h2
+            className="text-2xl md:text-[2rem] text-[#f3e7dd] leading-relaxed"
+            style={{ fontFamily: "var(--font-shippori), serif" }}
+          >
+            あなたに合うエージェントを、見つけよう
           </h2>
-          <p className="mt-4 text-text-light">
-            女性エンジニアの転職に強い8社を徹底比較。今すぐチェック！
+          <p className="mt-5 text-[#c4ab9e] leading-[2]">
+            女性エンジニアの転職に強い8社を、女性視点の6項目で徹底比較しています。
           </p>
-          <div className="mt-8">
+          <div className="mt-9">
             <Link href="/ranking/" className="btn-cta text-base">
               おすすめランキングを見る
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
             </Link>
           </div>
         </div>

@@ -95,11 +95,11 @@ export default function CodingTestPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
 
       {/* Hero */}
-      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)" }}>
+      <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
           <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "コーディングテスト対策" }]} />
           <div className="mt-4">
-            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#f97066" }}>面接・選考</span>
+            <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#c15f47" }}>面接・選考</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               転職のコーディングテスト対策ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">出題形式・難易度・対策ロードマップを実データで解説【2026年】</span>
@@ -112,23 +112,23 @@ export default function CodingTestPage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>先に結論：何が出る？どのくらい対策すればいい？</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：何が出る？どのくらい対策すればいい？</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>何が出る？</strong> 中心はアルゴリズム・実装問題（60〜120分・2〜4問程度）。paizaスキルチェック、Track Test、HireRoo、HackerRank・Codilityなどのオンラインプラットフォームで実施されるのが主流です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>通過ラインの目安は？</strong> paizaスキルチェックの<strong>Bランク（上位30%・実務スキル相当）</strong>が一つの基準。人気企業・メガベンチャー志望ならAランク相当まで。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>対策期間は？</strong> 実務経験者なら<strong>2〜4週間</strong>（毎日1〜2問）、基礎文法から始めるなら<strong>2〜3ヶ月</strong>が目安です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-0.5 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
                 <span><strong>2026年の注意点は？</strong> AI利用の扱いが二極化。AI協働を前提に評価する企業（HireRoo型）と、アクションログ等で不正利用を検知する企業（Track Test型）があるため、<strong>受験案内のルール確認が必須</strong>です。</span>
               </li>
             </ul>
@@ -139,17 +139,17 @@ export default function CodingTestPage() {
       {/* 目次 */}
       <section className="py-4">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. 転職選考におけるコーディングテストの位置づけ</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 実際に使われている主要サービス比較【出典付き】</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 出題形式の傾向（2026年）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 難易度の目安：どこまでやれば足りるか</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. レベル別・対策ロードマップ</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 落ちやすいポイントと当日の注意</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. ブランクからの再挑戦という選択肢</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 転職選考におけるコーディングテストの位置づけ</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 実際に使われている主要サービス比較【出典付き】</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 出題形式の傾向（2026年）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 難易度の目安：どこまでやれば足りるか</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. レベル別・対策ロードマップ</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 落ちやすいポイントと当日の注意</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. ブランクからの再挑戦という選択肢</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -167,21 +167,21 @@ export default function CodingTestPage() {
               重要なのは、コーディングテストが<strong>「対策した分だけ確実にスコアが伸びる」選考ステップ</strong>だという点です。面接のように相性や運に左右される部分が小さく、出題パターンは有限で、練習量がそのまま結果に反映されます。学歴や職歴ではなく「いま書けるコード」で評価されるため、経歴に自信がない人やキャリアにブランクがある人にとっては、むしろ実力を示すチャンスになります。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>一般的な実施形式</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>一般的な実施形式</h3>
             <ul className="space-y-3">
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>受験方法:</strong> 企業から送られるURLにアクセスし、自宅でオンライン受験（期限内の好きなタイミング）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>時間・問題数:</strong> 60〜120分で2〜4問程度の構成が一般的</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>使用言語:</strong> 多くの場合、対応言語から自由に選択可（paizaは15言語、Track TestはPython3・Java・JavaScript・Go・SQLなど20以上に対応）</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>採点:</strong> テストケースによる自動採点が基本。正答数に加え、計算量やコードの読みやすさが見られることも</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span><strong>プラットフォーム:</strong> どのサービスで受けるかは企業側が指定。受験者が選ぶことはできない</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>受験方法:</strong> 企業から送られるURLにアクセスし、自宅でオンライン受験（期限内の好きなタイミング）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>時間・問題数:</strong> 60〜120分で2〜4問程度の構成が一般的</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>使用言語:</strong> 多くの場合、対応言語から自由に選択可（paizaは15言語、Track TestはPython3・Java・JavaScript・Go・SQLなど20以上に対応）</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>採点:</strong> テストケースによる自動採点が基本。正答数に加え、計算量やコードの読みやすさが見られることも</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>プラットフォーム:</strong> どのサービスで受けるかは企業側が指定。受験者が選ぶことはできない</span></li>
             </ul>
           </div>
         </div>
       </section>
 
       {/* sec2 サービス比較 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">実際に使われている主要サービス比較【出典付き】</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -192,32 +192,32 @@ export default function CodingTestPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>サービス</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>形式・特徴</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>規模・実績（公式発表）</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>サービス</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>形式・特徴</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>規模・実績（公式発表）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>paizaスキルチェック<br /><span className="font-normal text-xs">（paiza転職）</span></td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>S〜Eの6段階ランク認定。S=上位1%、A=上位10%、B=上位30%、C=上位60%。ランクに応じて応募できる求人が広がる転職サイト一体型。15言語対応</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>採用企業3,000社以上・総受験回数1,700万回以上</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>paizaスキルチェック<br /><span className="font-normal text-xs">（paiza転職）</span></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>S〜Eの6段階ランク認定。S=上位1%、A=上位10%、B=上位30%、C=上位60%。ランクに応じて応募できる求人が広がる転職サイト一体型。15言語対応</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>採用企業3,000社以上・総受験回数1,700万回以上</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>Track Test<br /><span className="font-normal text-xs">（ギブリー）</span></td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>企業が候補者に課す採用試験プラットフォーム。クイズ・実装・アルゴリズム・関数など複数形式を組み合わせた出題。公式問題1,000問以上。アクションログによるAI利用検出やWebカメラモニタリング機能あり</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>導入400社以上・累計受験者100万人以上</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>Track Test<br /><span className="font-normal text-xs">（ギブリー）</span></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>企業が候補者に課す採用試験プラットフォーム。クイズ・実装・アルゴリズム・関数など複数形式を組み合わせた出題。公式問題1,000問以上。アクションログによるAI利用検出やWebカメラモニタリング機能あり</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>導入400社以上・累計受験者100万人以上</td>
                 </tr>
                 <tr className="bg-white">
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>HireRoo</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>「AI時代のスキル面接」を掲げ、AIツールを使いながら実務に近い課題を解く形式。解答プロセスを全記録・タイムライン再生し、実装力とAI協働力の両方を評価</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>導入200社以上（DMM・freee・GREEなど）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>HireRoo</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「AI時代のスキル面接」を掲げ、AIツールを使いながら実務に近い課題を解く形式。解答プロセスを全記録・タイムライン再生し、実装力とAI協働力の両方を評価</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>導入200社以上（DMM・freee・GREEなど）</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>アルゴリズム実技検定 PAST<br /><span className="font-normal text-xs">（AtCoder）</span></td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>5時間15問・100点満点のオンライン検定。エントリー（25点〜）〜エキスパート（90点〜）の5段階認定、有効期間2年。受験料8,800円（税込）。履歴書に書ける客観的な実力証明として活用可能</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>AtCoderが運営。AtCoderJobsでレーティングを活かした転職も可能</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>アルゴリズム実技検定 PAST<br /><span className="font-normal text-xs">（AtCoder）</span></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>5時間15問・100点満点のオンライン検定。エントリー（25点〜）〜エキスパート（90点〜）の5段階認定、有効期間2年。受験料8,800円（税込）。履歴書に書ける客観的な実力証明として活用可能</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>AtCoderが運営。AtCoderJobsでレーティングを活かした転職も可能</td>
                 </tr>
               </tbody>
             </table>
@@ -225,8 +225,8 @@ export default function CodingTestPage() {
           <p className="text-xs text-text-light mt-3 leading-relaxed">
             出典: paiza「paizaスキルチェック」公式ページ、ギブリー「Track Test」公式サイト・ニュースリリース、HireRoo公式サイト、AtCoder「アルゴリズム実技検定（PAST）」公式サイト（いずれも2026年6月参照）。数値は各社の公式発表に基づきます。
           </p>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>練習用プラットフォームとの使い分け</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>練習用プラットフォームとの使い分け</h3>
             <p className="text-sm text-text-light leading-relaxed">
               上の表は「企業が選考で使う」サービスです。対策の練習には、<strong>AtCoder</strong>（日本語の問題が豊富。毎週のABCコンテストのA〜C問題が転職対策に好適）や<strong>LeetCode</strong>（英語中心。面接型の問題が2,000問以上）、そして<strong>paizaスキルチェックの練習問題</strong>（無料・日本語・ランクで到達度が分かる）を組み合わせるのが定番です。外資系やグローバル企業を受けるならHackerRank・Codility系のUIにも触れておくと安心です。
             </p>
@@ -243,12 +243,12 @@ export default function CodingTestPage() {
           </div>
           <div className="space-y-4">
             {[
-              { name: "1. アルゴリズム問題（最頻出）", desc: "配列・文字列の操作、探索（二分探索・幅優先探索）、動的計画法などを使って、制約条件を満たす解を制限時間内に実装するタイプ。paizaのランク問題やAtCoderの形式が代表例で、計算量（O記法）を意識した解法選択が問われます。", color: "#0891b2" },
-              { name: "2. 実装問題", desc: "仕様書どおりに動くプログラムを正確に書くタイプ。高度なアルゴリズムより「条件分岐の漏れなく、バグなく書き切る力」が問われます。Track Testでは実装・関数形式として出題されるカテゴリです。", color: "#7c3aed" },
-              { name: "3. 知識問題（クイズ・SQL）", desc: "言語仕様・計算量・データベース（SQL）などの知識を問う選択式・記述式の設問。Track Testはクイズ3,000問以上を備え、コーディングと組み合わせて出題されます。バックエンド職ではSQLが課されるケースもあります。", color: "#0891b2" },
-              { name: "4. 実務シナリオ・AI協働型（2026年の新潮流）", desc: "「通知システムの不具合を安定化させる」のような実務に近い課題を、AIツールを使いながら解くタイプ。HireRooが代表で、AIの出力を検証する力・指示の的確さといった「AIと協働する力」も評価対象になります。生成AIが普及した2026年ならではの形式です。", color: "#f97066" },
+              { name: "1. アルゴリズム問題（最頻出）", desc: "配列・文字列の操作、探索（二分探索・幅優先探索）、動的計画法などを使って、制約条件を満たす解を制限時間内に実装するタイプ。paizaのランク問題やAtCoderの形式が代表例で、計算量（O記法）を意識した解法選択が問われます。", color: "#7c3a55" },
+              { name: "2. 実装問題", desc: "仕様書どおりに動くプログラムを正確に書くタイプ。高度なアルゴリズムより「条件分岐の漏れなく、バグなく書き切る力」が問われます。Track Testでは実装・関数形式として出題されるカテゴリです。", color: "#7c3a55" },
+              { name: "3. 知識問題（クイズ・SQL）", desc: "言語仕様・計算量・データベース（SQL）などの知識を問う選択式・記述式の設問。Track Testはクイズ3,000問以上を備え、コーディングと組み合わせて出題されます。バックエンド職ではSQLが課されるケースもあります。", color: "#7c3a55" },
+              { name: "4. 実務シナリオ・AI協働型（2026年の新潮流）", desc: "「通知システムの不具合を安定化させる」のような実務に近い課題を、AIツールを使いながら解くタイプ。HireRooが代表で、AIの出力を検証する力・指示の的確さといった「AIと協働する力」も評価対象になります。生成AIが普及した2026年ならではの形式です。", color: "#c15f47" },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <h3 className="text-lg font-bold mb-2" style={{ color: item.color }}>{item.name}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
@@ -259,7 +259,7 @@ export default function CodingTestPage() {
       </section>
 
       {/* sec4 難易度の目安 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">難易度の目安：どこまでやれば足りるか</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -270,24 +270,24 @@ export default function CodingTestPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>paizaランク</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>相対位置</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>レベル感と転職での目安</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>paizaランク</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>相対位置</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>レベル感と転職での目安</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr className="bg-white"><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>S</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上位1%</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>最適なアルゴリズム設計・実装力。競技プログラミング経験者レベル</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>A</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上位10%</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>複雑なロジックを時間内に設計・実装できる。人気企業・メガベンチャーを狙うならここを目標に</td></tr>
-                <tr className="bg-white"><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>B</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上位30%</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}><strong>実務スキル相当。経験者転職の標準的な目標ライン</strong></td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>C</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>上位60%</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基礎的な実装力。未経験・ポテンシャル採用の入口、対策開始地点の確認に</td></tr>
-                <tr className="bg-white"><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>D・E</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>基本文法の理解段階。まず基礎固めから（後述のロードマップ参照）</td></tr>
+                <tr className="bg-white"><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>S</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上位1%</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>最適なアルゴリズム設計・実装力。競技プログラミング経験者レベル</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>A</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上位10%</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>複雑なロジックを時間内に設計・実装できる。人気企業・メガベンチャーを狙うならここを目標に</td></tr>
+                <tr className="bg-white"><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>B</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上位30%</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><strong>実務スキル相当。経験者転職の標準的な目標ライン</strong></td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>C</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>上位60%</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基礎的な実装力。未経験・ポテンシャル採用の入口、対策開始地点の確認に</td></tr>
+                <tr className="bg-white"><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>D・E</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>基本文法の理解段階。まず基礎固めから（後述のロードマップ参照）</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-text-light mt-3">出典: paiza「プログラミングスキルチェック」公式ページ（2026年6月参照）</p>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>客観的な「実力証明」が欲しい場合はPAST</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>客観的な「実力証明」が欲しい場合はPAST</h3>
             <p className="text-sm text-text-light leading-relaxed">
               AtCoderのアルゴリズム実技検定（PAST）は、5時間15問・100点満点で、得点に応じてエントリー（25〜39点）／初級（40〜59点）／中級（60〜79点）／上級（80〜89点）／エキスパート（90〜100点）の5段階で認定されます。認定は受験日から2年間有効で、履歴書・職務経歴書に書ける客観的な実力証明になります（出典: AtCoder「アルゴリズム実技検定」公式サイト、2026年6月参照）。
             </p>
@@ -305,18 +305,18 @@ export default function CodingTestPage() {
             </p>
           </div>
           <div className="space-y-4">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>Phase 1</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>Phase 1</span>
                 <h3 className="text-lg font-bold">基礎文法と標準入出力（目安: 2〜4週間）</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
-                言語を1つに絞り（記述量が少なく解答が速い<strong>Python</strong>が定番。<a href="/articles/cert-python/" className="underline" style={{ color: "#0891b2" }}>Python資格の活用法はこちら</a>）、標準入力の読み取り・配列・文字列・連想配列（辞書）・ループと条件分岐を確実にします。paizaスキルチェックのD〜C問題が無料の練習台としてちょうど良いレベルです。実務経験者はこのPhaseはスキップ可。
+                言語を1つに絞り（記述量が少なく解答が速い<strong>Python</strong>が定番。<a href="/articles/cert-python/" className="underline" style={{ color: "#7c3a55" }}>Python資格の活用法はこちら</a>）、標準入力の読み取り・配列・文字列・連想配列（辞書）・ループと条件分岐を確実にします。paizaスキルチェックのD〜C問題が無料の練習台としてちょうど良いレベルです。実務経験者はこのPhaseはスキップ可。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>Phase 2</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>Phase 2</span>
                 <h3 className="text-lg font-bold">アルゴリズムの定番パターン（目安: 4〜8週間）</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed mb-3">
@@ -333,17 +333,17 @@ export default function CodingTestPage() {
                 AtCoder Beginner Contest（ABC）のA〜C問題やLeetCodeのEasy〜Mediumを毎日1〜2問。paizaならB問題が安定して解けることが目標です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>Phase 3</span>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>Phase 3</span>
                 <h3 className="text-lg font-bold">本番形式の実戦練習（目安: 2週間〜）</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
-                制限時間を計って解く練習に切り替えます。AtCoderの過去コンテスト（バーチャル参加）や、paizaのランクアップ問題（<strong>同じ問題には一度しか提出できない</strong>ので、練習問題で十分仕上げてから）で時間配分の感覚を作ります。志望企業がTrack TestやHireRooを使うと分かったら、各公式サイトのサンプル・体験問題でUIに慣れておくと当日の動揺が減ります。並行して<a href="/articles/technical-interview/" className="underline" style={{ color: "#0891b2" }}>技術面接対策</a>と<a href="/articles/portfolio/" className="underline" style={{ color: "#0891b2" }}>ポートフォリオ</a>も整えると、選考全体の通過率が上がります。
+                制限時間を計って解く練習に切り替えます。AtCoderの過去コンテスト（バーチャル参加）や、paizaのランクアップ問題（<strong>同じ問題には一度しか提出できない</strong>ので、練習問題で十分仕上げてから）で時間配分の感覚を作ります。志望企業がTrack TestやHireRooを使うと分かったら、各公式サイトのサンプル・体験問題でUIに慣れておくと当日の動揺が減ります。並行して<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接対策</a>と<a href="/articles/portfolio/" className="underline" style={{ color: "#7c3a55" }}>ポートフォリオ</a>も整えると、選考全体の通過率が上がります。
               </p>
             </div>
           </div>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f8fafb", border: "1px solid #d1dce5" }}>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#f0e7dd", border: "1px solid #d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
               <strong>所要期間のまとめ:</strong> 実務経験者はPhase 2〜3を圧縮して<strong>2〜4週間</strong>、基礎からなら<strong>2〜3ヶ月</strong>が現実的な見積もりです。1日の学習時間が30分でも、毎日続ければ到達できます。
             </p>
@@ -352,7 +352,7 @@ export default function CodingTestPage() {
       </section>
 
       {/* sec6 落ちやすいポイントと当日の注意 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">落ちやすいポイントと当日の注意</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -367,14 +367,14 @@ export default function CodingTestPage() {
               { title: "AI・検索利用ルールの違反（2026年の最重要注意）", desc: "受験案内に書かれたルールが絶対です。Track Testには受験中の操作からAI利用等を検出するアクションログ機能やWebカメラモニタリング機能があり、無断利用は不正行為として扱われるリスクがあります。逆にHireRooのようにAI利用が前提の形式なら、普段からAIに的確な指示を出し出力を検証する練習をしておきましょう（出典: ギブリー・HireRoo各公式サイト、2026年6月参照）。" },
               { title: "受験環境の不備", desc: "期限ギリギリの深夜受験、不安定なWi-Fi、通知が鳴るスマホ。オンラインでも「試験」です。静かな時間帯を確保し、ブラウザの自動更新や通知を切り、余裕のある日程で受けましょう。" },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>{i + 1}. {item.title}</h3>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#c15f47" }}>{i + 1}. {item.title}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
           <p className="text-text-light text-sm leading-relaxed mt-6">
-            コーディングテストの先には技術面接・カジュアル面談が待っています。選考フロー全体の流れは<a href="/articles/interview-guide/" className="underline" style={{ color: "#0891b2" }}>エンジニア面接ガイド</a>で確認しておきましょう。
+            コーディングテストの先には技術面接・カジュアル面談が待っています。選考フロー全体の流れは<a href="/articles/interview-guide/" className="underline" style={{ color: "#7c3a55" }}>エンジニア面接ガイド</a>で確認しておきましょう。
           </p>
         </div>
       </section>
@@ -398,18 +398,18 @@ export default function CodingTestPage() {
       </section>
 
       {/* FAQ */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+              <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                 <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                  <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                  <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                   <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                  <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                  <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
             ))}
@@ -431,24 +431,24 @@ export default function CodingTestPage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>技術面接対策</h3>
+            <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>技術面接対策</h3>
               <p className="text-sm text-text-light">コーディングテストの次に待つ技術面接の準備法</p>
             </a>
-            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ポートフォリオ作成ガイド</h3>
+            <a href="/articles/portfolio/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ポートフォリオ作成ガイド</h3>
               <p className="text-sm text-text-light">エンジニア転職に効くポートフォリオ</p>
             </a>
-            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>面接ガイド</h3>
+            <a href="/articles/interview-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>面接ガイド</h3>
               <p className="text-sm text-text-light">エンジニア選考フローの全体像</p>
             </a>
-            <a href="/articles/cert-python/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Python資格ガイド</h3>
+            <a href="/articles/cert-python/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Python資格ガイド</h3>
               <p className="text-sm text-text-light">テスト対策と相性の良いPython学習・資格</p>
             </a>
           </div>
@@ -458,10 +458,10 @@ export default function CodingTestPage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">エージェントの面接対策を活用しよう</h2>
             <p className="text-white/90 mb-6">IT特化型エージェントなら、企業ごとのコーディングテストの傾向をアドバイスしてもらえます。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

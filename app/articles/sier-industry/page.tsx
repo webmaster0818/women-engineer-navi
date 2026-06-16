@@ -133,7 +133,7 @@ export default function SierIndustryPage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -147,7 +147,7 @@ export default function SierIndustryPage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               業界ガイド
             </span>
@@ -165,23 +165,23 @@ export default function SierIndustryPage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>この記事の結論</h2>
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>SIerは「どの会社か」より先に「どの層か」で働き方が決まる業界。</strong>元請け→一次→二次と続く多重下請け構造は公正取引委員会の実態調査（令和4年6月）でも買いたたき・中抜き等の問題が指摘されており、同じSIerでも層によって年収・裁量・常駐の有無が大きく変わります。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>大手・元請け層の待遇は有価証券報告書で確認できる。</strong>2025年3月期の平均年間給与（全社員平均）は野村総合研究所1,322万円、NTTデータグループ923万円、TIS 807万円、SCSK 788万円など。一方で下請け層はこの水準を大きく下回ることが多いのが実態です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>女性にとっての強みは「制度が実績数値で確認できる」こと。</strong>NTTデータはプラチナくるみん＋えるぼし3段階目、SCSKは育休復帰率95.0%・プラチナくるみんプラス（2025年11月）と、公式に検証できる実績を持つ大手が多い業界です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>注意点は配属ガチャ・レガシー技術・客先常駐の3つ。</strong>入社前に「常駐比率」「担当できる工程」「使用技術」を確認すれば回避可能性が大きく上がります。確認方法は本文で解説します。</span>
               </li>
             </ul>
@@ -194,20 +194,20 @@ export default function SierIndustryPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. SIerとは｜元請け〜下請けピラミッドの実態</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. SIerの4分類と「層」の見分け方</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 大手SIerの平均年収（有価証券報告書ベース）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. SIerが女性エンジニアに向く面（実データ）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 注意点｜配属ガチャ・レガシー技術・客先常駐</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. SIerとWeb系の違い</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. SIer経験者のキャリアパス</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. SIer転職に強いエージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. よくある質問</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. 出典・参考資料</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. SIerとは｜元請け〜下請けピラミッドの実態</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. SIerの4分類と「層」の見分け方</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 大手SIerの平均年収（有価証券報告書ベース）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. SIerが女性エンジニアに向く面（実データ）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 注意点｜配属ガチャ・レガシー技術・客先常駐</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. SIerとWeb系の違い</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. SIer経験者のキャリアパス</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. SIer転職に強いエージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. 出典・参考資料</a></li>
             </ol>
           </div>
         </div>
@@ -229,39 +229,39 @@ export default function SierIndustryPage() {
             </p>
             <div
               className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
                 層によってこう変わる（ピラミッドの実態）
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>元請け（プライム）</strong>: 顧客と直接契約。要件定義・全体設計・プロジェクト管理が中心で、年収水準・制度・裁量が最も大きい層</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>一次下請け</strong>: 元請けから特定サブシステムや工程を受託。設計〜開発を担い、企業によっては元請け案件も持つ</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>二次下請け以降</strong>: 製造（コーディング）・テストなど細分化された工程が中心。客先常駐の比率が上がり、単価のしわ寄せを受けやすい層</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                  <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                   <span><strong>確認方法</strong>: 面接で「プライム案件の比率」「商流（何次請けか）」「常駐と自社内開発の比率」を質問する。明確に答えない企業は要注意</span>
                 </li>
               </ul>
             </div>
             <p className="mt-4">
-              なお、客先に常駐して労働力を提供する契約形態（SES）とSIerの請負の違いは、<a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>SESと自社開発の比較記事</a>で詳しく解説しています。
+              なお、客先に常駐して労働力を提供する契約形態（SES）とSIerの請負の違いは、<a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>SESと自社開発の比較記事</a>で詳しく解説しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec2 4分類 */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">SIerの4分類と「層」の見分け方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -273,19 +273,19 @@ export default function SierIndustryPage() {
             {[
               {
                 type: "メーカー系SIer",
-                color: "#0891b2",
+                color: "#7c3a55",
                 examples: "富士通・NEC・日立製作所（のIT部門/グループ）",
                 features: ["ハードウェアメーカー本体またはそのIT子会社", "官公庁・金融など超大規模案件の元請けが多い", "親会社水準の制度・福利厚生", "グループ内子会社は一次請け的な位置づけのことも"],
               },
               {
                 type: "ユーザー系SIer",
-                color: "#7c3aed",
+                color: "#7c3a55",
                 examples: "NTTデータ・SCSK・BIPROGY など",
                 features: ["商社・通信などの情報システム部門が独立した系譜", "親会社・グループ案件という安定基盤", "業界（金融・流通など）特化の知見が蓄積", "元請け比率が高い企業が多い"],
               },
               {
                 type: "独立系SIer",
-                color: "#f97066",
+                color: "#c15f47",
                 examples: "TIS・大塚商会・オービック など",
                 features: ["特定の親会社を持たない独立資本", "大手独立系は元請け、中小は下請け中心と二極化", "技術選定の自由度が比較的高い", "企業規模による待遇差が最も大きいタイプ"],
               },
@@ -296,7 +296,7 @@ export default function SierIndustryPage() {
                 features: ["戦略・業務コンサルとIT実装を一体提供", "企画・構想策定などの最上流から参画", "年収水準は高いが稼働も高くなりがち", "成果主義の色が濃く、制度より個人裁量の文化"],
               },
             ].map((sier, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <h3 className="text-lg font-bold mb-2" style={{ color: sier.color }}>{sier.type}</h3>
                 <p className="text-xs text-text-light mb-3">代表例: {sier.examples}</p>
                 <ul className="text-sm text-text-light space-y-1">
@@ -325,7 +325,7 @@ export default function SierIndustryPage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full border-collapse rounded-lg overflow-hidden">
               <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
+                <tr style={{ backgroundColor: "#7c3a55" }}>
                   <th className="px-4 py-3 text-left text-sm font-bold text-white">企業名</th>
                   <th className="px-4 py-3 text-left text-sm font-bold text-white">平均年間給与</th>
                   <th className="px-4 py-3 text-left text-sm font-bold text-white">平均年齢</th>
@@ -341,11 +341,11 @@ export default function SierIndustryPage() {
                   ["TIS", "807万円", "40.6歳", "独立系大手"],
                   ["SCSK", "788万円", "44.9歳", "住友商事グループ"],
                 ].map(([name, salary, age, note], i) => (
-                  <tr key={i} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
-                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d1dce5" }}>{name}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{salary}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{age}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{note}</td>
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
+                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d9c7b8" }}>{name}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{salary}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{age}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{note}</td>
                   </tr>
                 ))}
               </tbody>
@@ -364,7 +364,7 @@ export default function SierIndustryPage() {
       </section>
 
       {/* sec4 女性に向く面 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">SIerが女性エンジニアに向く面（実データ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -373,48 +373,48 @@ export default function SierIndustryPage() {
             </p>
           </div>
           <div className="space-y-6 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>NTTデータ｜プラチナくるみん＋えるぼし3段階目</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>NTTデータ｜プラチナくるみん＋えるぼし3段階目</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 2017年に女性活躍推進法に基づく<strong>「えるぼし」最上位の3段階目</strong>に認定され、2019年には子育てサポート企業の上位認定<strong>「プラチナくるみん」</strong>を取得（いずれも公式ニュースリリースで確認可能）。さらに現在の行動計画（2026年4月〜2031年3月）では<strong>「2030年度末までに女性管理職比率20%」「男性育休等取得率100%の継続」</strong>という期限付きの数値目標を公表しています。
               </p>
               <p className="text-xs text-text-light mt-2">出典: NTTデータ ニュースリリース（2017年9月・2019年11月）、NTTデータグループ「ダイバーシティ、エクイティ＆インクルージョン」（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>SCSK｜育休復帰率95.0%・残業削減の先進企業</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>SCSK｜育休復帰率95.0%・残業削減の先進企業</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 採用サイトのデータ集で2025年3月期実績として<strong>育児休業復帰率95.0%、有給休暇取得率89.4%、平均勤続年数17.2年</strong>を公開。2013年から続く「スマートワーク・チャレンジ」により残業削減を進め、2015〜2020年度には月平均残業20時間以下を達成したことを公式サイトで紹介しています。2025年11月には不妊治療との両立支援も評価する<strong>「プラチナくるみんプラス」</strong>を取得しました。
               </p>
               <p className="text-xs text-text-light mt-2">出典: SCSK「採用情報 データ集」「働き方改革」・ニュースリリース（2025年11月12日）（2026年6月参照）</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>富士通｜女性幹部比率を毎年開示</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>富士通｜女性幹部比率を毎年開示</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 女性幹部社員比率を毎年度公開しており、<strong>2024年度実績はグループ16.8%（単体11.5%）</strong>。厚生労働省「令和6年度雇用均等基本調査」による課長相当職の女性割合の全産業平均12.3%と比較する基準として使えます。中期経営計画の非財務指標として目標値も掲げており、「実績＋目標＋期限」をセットで開示する典型例です。
               </p>
               <p className="text-xs text-text-light mt-2">出典: 富士通 統合レポート・人材戦略説明資料、厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</p>
             </div>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>構造的にSIer大手が女性に向きやすい3つの理由</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>構造的にSIer大手が女性に向きやすい3つの理由</h3>
             <ul className="space-y-3 text-sm text-text-light">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>教育制度が体系化されている</strong>: 新卒一括採用の歴史が長く、階層別研修・資格取得支援（受験料補助・報奨金）が制度として整備されている企業が多い。文系出身・未経験からエンジニアを育てるノウハウの蓄積はWeb系より厚い傾向</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>プロジェクトが長期で計画的</strong>: 数年単位の大規模案件が多く、工程と要員計画が事前に引かれるため、産育休・時短のスケジュールを組み込みやすい。厚生労働省の調査では女性の育休取得率は全産業で86.6%まで上昇しており、制度の整った大手SIerでは取得がほぼ前提になっている</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#7c3aed" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>評価される能力が長持ちする</strong>: 要件定義・設計・品質管理・顧客折衝といった上流スキルは技術トレンドに左右されにくく、ブランクの影響を受けにくい。復職後も「設計力・調整力」で勝負できる</span>
               </li>
             </ul>
             <p className="text-xs text-text-light mt-3">出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</p>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            制度の充実した企業の具体的な見極め方（くるみん・えるぼしの調べ方、行動計画の読み方）は、<a href="/articles/women-friendly-companies/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の見極め方</a>で詳しく解説しています。
+            制度の充実した企業の具体的な見極め方（くるみん・えるぼしの調べ方、行動計画の読み方）は、<a href="/articles/women-friendly-companies/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見極め方</a>で詳しく解説しています。
           </p>
         </div>
       </section>
@@ -447,8 +447,8 @@ export default function SierIndustryPage() {
                 desc: "公正取引委員会の実態調査（令和4年6月）が指摘するとおり、多重下請け構造の下流では単価の買いたたきや無償のやり直しが起きやすく、それは従業員の年収・残業に直結します。対策: 応募先の「プライム（元請け）案件比率」を確認し、二次請け以下が中心の企業は慎重に検討すること。エージェント経由なら商流の実態を事前に確認してもらえます。",
               },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#f97066" }}>{item.title}</h3>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#c15f47" }}>{item.title}</h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -458,7 +458,7 @@ export default function SierIndustryPage() {
       </section>
 
       {/* sec6 Web系との違い */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">SIerとWeb系の違い</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -469,7 +469,7 @@ export default function SierIndustryPage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full border-collapse rounded-lg overflow-hidden">
               <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
+                <tr style={{ backgroundColor: "#7c3a55" }}>
                   <th className="px-4 py-3 text-left text-sm font-bold text-white">比較軸</th>
                   <th className="px-4 py-3 text-left text-sm font-bold text-white">SIer（大手・元請け）</th>
                   <th className="px-4 py-3 text-left text-sm font-bold text-white">Web系（自社サービス）</th>
@@ -485,10 +485,10 @@ export default function SierIndustryPage() {
                   ["働く場所", "自社・客先（常駐の可能性あり）", "リモートワーク比率が高い傾向"],
                   ["評価のされ方", "工程責任・マネジメントで昇給", "技術力・プロダクト貢献で昇給"],
                 ].map(([axis, sier, web], i) => (
-                  <tr key={i} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}>
-                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d1dce5" }}>{axis}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{sier}</td>
-                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d1dce5" }}>{web}</td>
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
+                    <td className="px-4 py-3 text-sm font-bold" style={{ borderBottom: "1px solid #d9c7b8" }}>{axis}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{sier}</td>
+                    <td className="px-4 py-3 text-sm" style={{ borderBottom: "1px solid #d9c7b8" }}>{web}</td>
                   </tr>
                 ))}
               </tbody>
@@ -496,7 +496,7 @@ export default function SierIndustryPage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              SIerの中核技術であるJavaは求人数が安定して多く、金融・公共系で長く使える武器になります。詳しくは<a href="/articles/java-career/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>Javaエンジニアのキャリアガイド</a>を参照してください。Web系業界の働き方・年収・企業の選び方は<a href="/articles/web-industry/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>Web系企業への転職ガイド</a>で詳しく解説しています。
+              SIerの中核技術であるJavaは求人数が安定して多く、金融・公共系で長く使える武器になります。詳しくは<a href="/articles/java-career/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>Javaエンジニアのキャリアガイド</a>を参照してください。Web系業界の働き方・年収・企業の選び方は<a href="/articles/web-industry/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>Web系企業への転職ガイド</a>で詳しく解説しています。
             </p>
           </div>
         </div>
@@ -512,20 +512,20 @@ export default function SierIndustryPage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>上の層へ移る（SIer内ステップアップ）</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>上の層へ移る（SIer内ステップアップ）</h3>
               <p className="text-sm text-text-light leading-relaxed">下請けSIer→大手元請けSIerへの転職は年収・裁量の改善幅が大きい王道ルート。設計経験＋応用情報・PM系資格が武器になります。大手の中途採用はジョブ型が増えており、部署を選んで応募できます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>社内SE（事業会社の情シス）へ</h3>
-              <p className="text-sm text-text-light leading-relaxed">SIerでのベンダー管理・要件定義経験がそのまま活きる人気進路。発注側に回るため納期プレッシャーが緩和され、ワークライフバランスを重視する女性に選ばれやすい選択肢です。詳しくは<a href="/articles/internal-se/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>社内SE転職ガイド</a>へ。</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>社内SE（事業会社の情シス）へ</h3>
+              <p className="text-sm text-text-light leading-relaxed">SIerでのベンダー管理・要件定義経験がそのまま活きる人気進路。発注側に回るため納期プレッシャーが緩和され、ワークライフバランスを重視する女性に選ばれやすい選択肢です。詳しくは<a href="/articles/internal-se/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>社内SE転職ガイド</a>へ。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>Web系・自社開発へ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>Web系・自社開発へ</h3>
               <p className="text-sm text-text-light leading-relaxed">設計力・品質管理の素養は評価されますが、モダンスタック（クラウド・CI/CD・モダンフレームワーク）の自習とポートフォリオで「実装も追いついている」ことを示すのが鍵。20代〜30代前半なら未経験スタックでもポテンシャル評価が期待できます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>ITコンサル・PMOへ</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>ITコンサル・PMOへ</h3>
               <p className="text-sm text-text-light leading-relaxed">大規模プロジェクトの推進経験を最も高く買うのがコンサル業界。年収レンジは上がる一方、稼働や成果プレッシャーも上がるため、ライフプランと相談して選びたい進路です。</p>
             </div>
           </div>
@@ -534,7 +534,7 @@ export default function SierIndustryPage() {
       </section>
 
       {/* おすすめエージェント */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">SIer転職に強いエージェント</h2>
           <div className="space-y-4 mt-6">
@@ -542,32 +542,32 @@ export default function SierIndustryPage() {
               {
                 name: "レバテックキャリア",
                 badge: "IT特化型",
-                color: "#0891b2",
+                color: "#7c3a55",
                 desc: "IT業界特化の転職エージェント。SIerの求人も豊富に取り扱い、大手SIerからの非公開求人も保有。技術力を正当に評価した年収交渉が強み。",
                 link: "/reviews/levtech/",
               },
               {
                 name: "doda",
                 badge: "総合型",
-                color: "#7c3aed",
+                color: "#7c3a55",
                 desc: "業界最大級の求人数を誇る総合転職エージェント。SIer求人は数千件規模で保有しており、大手から中堅まで幅広い選択肢を提供。女性向けの転職支援にも力を入れている。",
                 link: "/reviews/doda/",
               },
               {
                 name: "リクルートエージェント",
                 badge: "最大手",
-                color: "#f97066",
+                color: "#c15f47",
                 desc: "転職支援実績No.1のエージェント。大手SIerとの太いパイプがあり、非公開求人も多数。幅広い業界知識を持つアドバイザーが、SIer各社の特徴を詳しく教えてくれる。",
                 link: "/reviews/recruit-agent/",
               },
             ].map((agent, i) => (
-              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <div className="flex items-center gap-3 mb-2">
                   <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: agent.color }}>{agent.badge}</span>
                   <h3 className="text-lg font-bold">{agent.name}</h3>
                 </div>
                 <p className="text-sm text-text-light leading-relaxed mb-3">{agent.desc}</p>
-                <a href={agent.link} className="text-sm font-bold hover:underline" style={{ color: "#0891b2" }}>{agent.name}の詳細レビューを見る →</a>
+                <a href={agent.link} className="text-sm font-bold hover:underline" style={{ color: "#7c3a55" }}>{agent.name}の詳細レビューを見る →</a>
               </div>
             ))}
           </div>
@@ -581,13 +581,13 @@ export default function SierIndustryPage() {
           <div className="space-y-4">
             {faqData.mainEntity.map(
               (faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-                <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d1dce5" }}>
+                <details key={i} className="group rounded-xl bg-white" style={{ border: "1px solid #d9c7b8" }}>
                   <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
-                    <span><span style={{ color: "#0891b2" }} className="mr-2">Q.</span>{faq.name}</span>
+                    <span><span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>{faq.name}</span>
                     <span className="text-text-light group-open:rotate-180 transition-transform">&#9662;</span>
                   </summary>
-                  <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
-                    <p className="pt-4"><span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
+                  <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
+                    <p className="pt-4"><span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>{faq.acceptedAnswer.text}</p>
                   </div>
                 </details>
               )
@@ -597,7 +597,7 @@ export default function SierIndustryPage() {
       </section>
 
       {/* 出典 */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light leading-relaxed list-disc pl-5">
@@ -620,24 +620,24 @@ export default function SierIndustryPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/web-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Web系企業への転職ガイド</h3>
+            <a href="/articles/web-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Web系企業への転職ガイド</h3>
               <p className="text-sm text-text-light">SIerと比較されるWeb系の働き方と特徴</p>
             </a>
-            <a href="/articles/ses-vs-jisha/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>SES vs 自社開発の比較</h3>
+            <a href="/articles/ses-vs-jisha/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SES vs 自社開発の比較</h3>
               <p className="text-sm text-text-light">客先常駐との契約形態の違いを整理</p>
             </a>
-            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性が働きやすいIT企業の見極め方</h3>
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見極め方</h3>
               <p className="text-sm text-text-light">くるみん・えるぼし・公開データの読み方</p>
             </a>
-            <a href="/articles/internal-se/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>社内SE転職ガイド</h3>
+            <a href="/articles/internal-se/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>社内SE転職ガイド</h3>
               <p className="text-sm text-text-light">SIer経験が活きる人気のキャリアパス</p>
             </a>
-            <a href="/articles/java-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>Javaエンジニアのキャリアガイド</h3>
+            <a href="/articles/java-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Javaエンジニアのキャリアガイド</h3>
               <p className="text-sm text-text-light">SIerの中核技術Javaで築くキャリア</p>
             </a>
           </div>
@@ -647,10 +647,10 @@ export default function SierIndustryPage() {
       {/* CTA */}
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)" }}>
+          <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">SIerへの転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったSIer企業を見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#f97066", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
           </div>
         </div>
       </section>

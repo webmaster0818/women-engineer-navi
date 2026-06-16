@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               職種別ガイド
             </span>
@@ -138,9 +138,9 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl p-6"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
               この記事の結論
             </h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -169,21 +169,21 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. データサイエンティストとは（仕事内容）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. データアナリストとの違い・近接職種との整理</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. 女性データサイエンティストの現状と働きやすさ</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 必要なスキル3領域（統計・エンジニアリング・ビジネス）</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. データサイエンティストの年収相場（出典付き）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 求人動向と将来性</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. 役立つ資格（統計検定・DS検定）</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. 未経験からの段階的キャリアルート（アナリスト→DS）</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#0891b2" }}>9. データサイエンティストのキャリアパス</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#0891b2" }}>10. おすすめ転職エージェント</a></li>
-              <li><a href="#sec11" className="hover:underline" style={{ color: "#0891b2" }}>11. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. データサイエンティストとは（仕事内容）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. データアナリストとの違い・近接職種との整理</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 女性データサイエンティストの現状と働きやすさ</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 必要なスキル3領域（統計・エンジニアリング・ビジネス）</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. データサイエンティストの年収相場（出典付き）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 求人動向と将来性</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 役立つ資格（統計検定・DS検定）</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 未経験からの段階的キャリアルート（アナリスト→DS）</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. データサイエンティストのキャリアパス</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. おすすめ転職エージェント</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -201,22 +201,22 @@ export default function ArticlePage() {
               データサイエンティスト協会は、この職種に必要な力を<strong>ビジネス力・データサイエンス力・データエンジニアリング力</strong>の3つと定義しています。つまり「分析が得意な人」ではなく、「分析結果をビジネスの意思決定につなげられる人」がデータサイエンティストです。数字に強いだけでなく、現場の人と対話しながら課題を翻訳する力が求められるため、コミュニケーション力を強みにしたい人にも向いています。
             </p>
             <p>
-              なお、分析基盤（データパイプライン）の構築を専門とする職種は<a href="/articles/data-engineer/" className="underline" style={{ color: "#0891b2" }}>データエンジニア</a>、機械学習モデルの実装・運用に特化する職種は<a href="/articles/ai-ml-career/" className="underline" style={{ color: "#0891b2" }}>AI・機械学習エンジニア</a>として別記事で解説しています。本記事は「ビジネス課題を分析で解く」データサイエンティスト職に絞って解説します。
+              なお、分析基盤（データパイプライン）の構築を専門とする職種は<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア</a>、機械学習モデルの実装・運用に特化する職種は<a href="/articles/ai-ml-career/" className="underline" style={{ color: "#7c3a55" }}>AI・機械学習エンジニア</a>として別記事で解説しています。本記事は「ビジネス課題を分析で解く」データサイエンティスト職に絞って解説します。
             </p>
             <div
               className="rounded-xl border p-6 mt-6"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
                 データサイエンティストの主な業務
               </h3>
               <ul className="space-y-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>ビジネス課題のヒアリングと「分析できる問い」への変換（課題定義）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>SQL・Pythonによるデータ抽出・前処理・探索的分析</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>統計解析・仮説検定・A/Bテストの設計と評価</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>機械学習モデル（需要予測・離反予測・レコメンド等）の構築</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>分析結果の可視化・レポーティングと経営層・事業部門への提言</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span><span>施策実行後の効果検証と改善サイクルの運用</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>ビジネス課題のヒアリングと「分析できる問い」への変換（課題定義）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>SQL・Pythonによるデータ抽出・前処理・探索的分析</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>統計解析・仮説検定・A/Bテストの設計と評価</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>機械学習モデル（需要予測・離反予測・レコメンド等）の構築</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>分析結果の可視化・レポーティングと経営層・事業部門への提言</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>施策実行後の効果検証と改善サイクルの運用</span></li>
               </ul>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 アナリストとの違い */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">データアナリストとの違い・近接職種との整理</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -235,42 +235,42 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>職種</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>役割の重心</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主なツール・スキル</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>職種</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>役割の重心</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主なツール・スキル</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データアナリスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>既存データの集計・可視化で「現状を把握」する。レポーティングが中心</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQL / Excel / BIツール（Tableau・Looker等）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データアナリスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>既存データの集計・可視化で「現状を把握」する。レポーティングが中心</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQL / Excel / BIツール（Tableau・Looker等）</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンティスト</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>統計・機械学習で「予測・最適化」し、課題解決の施策まで設計する</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python / R / SQL / 統計学 / 機械学習ライブラリ</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンティスト</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>統計・機械学習で「予測・最適化」し、課題解決の施策まで設計する</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python / R / SQL / 統計学 / 機械学習ライブラリ</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データエンジニア</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>分析の土台となるデータ基盤・パイプラインを構築・運用する</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQL / クラウド（BigQuery等）/ ETL / Python</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データエンジニア</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>分析の土台となるデータ基盤・パイプラインを構築・運用する</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQL / クラウド（BigQuery等）/ ETL / Python</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>AI・機械学習エンジニア</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>機械学習モデルをプロダクトに実装し、システムとして運用する</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>Python / 深層学習 / MLOps / ソフトウェア開発</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>AI・機械学習エンジニア</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>機械学習モデルをプロダクトに実装し、システムとして運用する</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>Python / 深層学習 / MLOps / ソフトウェア開発</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              この違いはキャリア戦略上とても重要です。アナリストは統計・機械学習の要求水準が相対的に低く、未経験者の入口になりやすい一方、データサイエンティストは年収水準が高い代わりに統計学とモデリングの実力が問われます。だからこそ、<strong>アナリストで実務経験を積みながら統計を学び、データサイエンティストへステップアップする</strong>のが王道ルートです（詳しくは<a href="#sec8" className="underline" style={{ color: "#0891b2" }}>8章</a>）。
+              この違いはキャリア戦略上とても重要です。アナリストは統計・機械学習の要求水準が相対的に低く、未経験者の入口になりやすい一方、データサイエンティストは年収水準が高い代わりに統計学とモデリングの実力が問われます。だからこそ、<strong>アナリストで実務経験を積みながら統計を学び、データサイエンティストへステップアップする</strong>のが王道ルートです（詳しくは<a href="#sec8" className="underline" style={{ color: "#7c3a55" }}>8章</a>）。
             </p>
             <p>
-              データエンジニアの仕事内容は<a href="/articles/data-engineer/" className="underline" style={{ color: "#0891b2" }}>データエンジニア転職ガイド</a>、機械学習エンジニアは<a href="/articles/ai-ml-career/" className="underline" style={{ color: "#0891b2" }}>AI・機械学習キャリアガイド</a>で詳しく解説しています。
+              データエンジニアの仕事内容は<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア転職ガイド</a>、機械学習エンジニアは<a href="/articles/ai-ml-career/" className="underline" style={{ color: "#7c3a55" }}>AI・機械学習キャリアガイド</a>で詳しく解説しています。
             </p>
           </div>
         </div>
@@ -292,20 +292,20 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>1. 分析業務はリモートと相性が良い</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 分析業務はリモートと相性が良い</h3>
               <p className="text-text-light text-sm leading-relaxed">データ分析はPCとクラウド環境があれば場所を選ばず、リモート可の求人が多い領域です。通勤負担を減らし、育児・介護と両立しやすい働き方を選べます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>2. 成果がアウトプットで可視化される</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 成果がアウトプットで可視化される</h3>
               <p className="text-text-light text-sm leading-relaxed">分析レポート・モデルの精度・施策の効果など成果が客観的に残るため、労働時間の長さではなく成果で評価されやすく、時短勤務でも実力が認められます。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>3. 統計・分析の知識は陳腐化しにくい</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 統計・分析の知識は陳腐化しにくい</h3>
               <p className="text-text-light text-sm leading-relaxed">流行のツールは変わっても、統計学・実験計画・因果推論といった土台の知識は長く通用します。産休・育休のブランクがあっても復帰しやすいスキル資産です。</p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>4. ビジネス職の経験を活かせる</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. ビジネス職の経験を活かせる</h3>
               <p className="text-text-light text-sm leading-relaxed">営業・マーケ・企画などの経験は「ビジネス力」としてそのまま武器になります。文系出身・異職種出身の女性が現場理解を強みに活躍している職種です。</p>
             </div>
           </div>
@@ -313,7 +313,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4 スキル3領域 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">必要なスキル3領域（統計・エンジニアリング・ビジネス）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -324,27 +324,27 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>スキル領域</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>具体的な内容</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>学習の目安</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>スキル領域</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>具体的な内容</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>学習の目安</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンス力<br /><span className="font-normal text-xs">（統計・数学）</span></td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>記述統計・推測統計・仮説検定・回帰分析・機械学習の基礎理論・実験計画（A/Bテスト）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>統計検定2級レベルが一つの基準。検定・回帰を「説明できる」レベルまで</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンス力<br /><span className="font-normal text-xs">（統計・数学）</span></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>記述統計・推測統計・仮説検定・回帰分析・機械学習の基礎理論・実験計画（A/Bテスト）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>統計検定2級レベルが一つの基準。検定・回帰を「説明できる」レベルまで</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データエンジニアリング力<br /><span className="font-normal text-xs">（実装）</span></td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQLでのデータ抽出・Python（pandas / scikit-learn）での前処理・分析・可視化、Git、クラウドDWHの基礎</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>SQLは必須中の必須。Pythonは公開データで分析を一通り再現できるレベルまで</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データエンジニアリング力<br /><span className="font-normal text-xs">（実装）</span></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQLでのデータ抽出・Python（pandas / scikit-learn）での前処理・分析・可視化、Git、クラウドDWHの基礎</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>SQLは必須中の必須。Pythonは公開データで分析を一通り再現できるレベルまで</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>ビジネス力<br /><span className="font-normal text-xs">（課題解決）</span></td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>課題定義・仮説思考・KPI設計・分析結果を意思決定につなげる提案力・ドキュメンテーション</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>現職の業務知識がそのまま武器に。「分析で何の意思決定を変えたいか」を語れるように</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ビジネス力<br /><span className="font-normal text-xs">（課題解決）</span></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>課題定義・仮説思考・KPI設計・分析結果を意思決定につなげる提案力・ドキュメンテーション</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>現職の業務知識がそのまま武器に。「分析で何の意思決定を変えたいか」を語れるように</td>
                 </tr>
               </tbody>
             </table>
@@ -352,10 +352,10 @@ export default function ArticlePage() {
           <p className="text-sm text-text-light mt-3">
             出典: 一般社団法人データサイエンティスト協会 スキルチェックリスト（2026年6月参照）をもとに当サイト作成
           </p>
-          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>学習リソースの選び方</h3>
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>学習リソースの選び方</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              エンジニアリング領域のうち、Pythonの学習ロードマップは<a href="/articles/python-career/" className="underline" style={{ color: "#0891b2" }}>Pythonエンジニアのキャリアガイド</a>、SQL・データベースの基礎は<a href="/articles/sql-database/" className="underline" style={{ color: "#0891b2" }}>SQL・データベーススキルガイド</a>で詳しく解説しています。データサイエンティスト志望なら「SQL→統計→Python」の順で固めるのが遠回りに見えて最短です。
+              エンジニアリング領域のうち、Pythonの学習ロードマップは<a href="/articles/python-career/" className="underline" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリアガイド</a>、SQL・データベースの基礎は<a href="/articles/sql-database/" className="underline" style={{ color: "#7c3a55" }}>SQL・データベーススキルガイド</a>で詳しく解説しています。データサイエンティスト志望なら「SQL→統計→Python」の順で固めるのが遠回りに見えて最短です。
             </p>
           </div>
         </div>
@@ -373,27 +373,27 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>区分</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>平均年収</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>出典</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>区分</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>平均年収</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>出典</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>全体平均</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>556万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>doda 職種別平均年収ランキング</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>全体平均（公的統計）</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>611.9万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>厚生労働省 job tag（令和7年）</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約480万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>doda（年代別）</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約644万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>doda（年代別）</td></tr>
-                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>約709万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>doda（年代別）</td></tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>参考: 正社員全体</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>429万円</td><td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>doda 平均年収ランキング2025</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>全体平均</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>556万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>doda 職種別平均年収ランキング</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>全体平均（公的統計）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>611.9万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省 job tag（令和7年）</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約480万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>doda（年代別）</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約644万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>doda（年代別）</td></tr>
+                <tr><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40代</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>約709万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>doda（年代別）</td></tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}><td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>参考: 正社員全体</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>429万円</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>doda 平均年収ランキング2025</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-text-light mt-3">
             出典: doda「平均年収ランキング（職種別）」・パーソルキャリア「平均年収ランキング2025」・厚生労働省 職業情報提供サイトjob tag「データサイエンティスト」（いずれも2026年6月参照）
           </p>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>年収を上げる3つの方向性</h3>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>年収を上げる3つの方向性</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>モデリングまで担う</strong>: 集計・可視化中心から、予測モデル構築・効果検証設計まで踏み込むと評価が一段上がる</li>
               <li>② <strong>ドメイン×データの掛け算</strong>: 金融・医療・小売など業界知識との掛け合わせで希少人材になる</li>
@@ -401,13 +401,13 @@ export default function ArticlePage() {
             </ul>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            他のIT職種との年収比較は<a href="/articles/salary-by-job/" className="underline" style={{ color: "#0891b2" }}>職種別年収ガイド</a>で一覧にしています。
+            他のIT職種との年収比較は<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>で一覧にしています。
           </p>
         </div>
       </section>
 
       {/* sec6 求人動向 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">求人動向と将来性</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -439,22 +439,22 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>資格</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>主催・概要</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>受験料・形式</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>資格</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>主催・概要</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>受験料・形式</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>統計検定2級</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>日本統計学会公式認定。大学基礎課程レベルの統計学（推定・検定・回帰など）。データサイエンス力の土台の証明として評価が定着</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>CBT方式・一般7,000円（学割5,000円）。全国の会場で随時受験可</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>統計検定2級</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>日本統計学会公式認定。大学基礎課程レベルの統計学（推定・検定・回帰など）。データサイエンス力の土台の証明として評価が定着</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>CBT方式・一般7,000円（学割5,000円）。全国の会場で随時受験可</td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>データサイエンティスト検定<br />リテラシーレベル（DS検定）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>一般社団法人データサイエンティスト協会主催。スキルチェックリストver.6に基づき、データサイエンス・データエンジニアリング・ビジネスの3領域＋基盤を網羅的に出題</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>CBT方式・100問100分。一般10,000円／学生5,000円（税抜）。2026年は6月・11月に実施</td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データサイエンティスト検定<br />リテラシーレベル（DS検定）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>一般社団法人データサイエンティスト協会主催。スキルチェックリストver.6に基づき、データサイエンス・データエンジニアリング・ビジネスの3領域＋基盤を網羅的に出題</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>CBT方式・100問100分。一般10,000円／学生5,000円（税抜）。2026年は6月・11月に実施</td>
                 </tr>
               </tbody>
             </table>
@@ -471,7 +471,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 段階的キャリアルート */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験からの段階的キャリアルート（アナリスト→DS）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -488,8 +488,8 @@ export default function ArticlePage() {
               ["STEP5", "分析実績をポートフォリオ化する", "業務での分析事例（課題→手法→結果→意思決定への影響）を整理し、公開できるものはNotebookとしてまとめます。「ビジネス成果につながった分析」が最強の実績です。"],
               ["STEP6", "データサイエンティスト職へ転職する", "アナリスト実務＋統計＋Pythonがそろえば、ジュニアDSポジションに十分挑戦できます。IT特化型エージェントで「モデリングまで任せてもらえる求人か」を見極めて応募しましょう。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -498,7 +498,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            STEP1〜STEP4の技術学習は、<a href="/articles/sql-database/" className="underline" style={{ color: "#0891b2" }}>SQL・データベーススキルガイド</a>と<a href="/articles/python-career/" className="underline" style={{ color: "#0891b2" }}>Pythonエンジニアのキャリアガイド</a>も参考にしてください。
+            STEP1〜STEP4の技術学習は、<a href="/articles/sql-database/" className="underline" style={{ color: "#7c3a55" }}>SQL・データベーススキルガイド</a>と<a href="/articles/python-career/" className="underline" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリアガイド</a>も参考にしてください。
           </p>
         </div>
       </section>
@@ -511,16 +511,16 @@ export default function ArticlePage() {
             <p>データサイエンティストは「統計×実装×ビジネス」の交差点にいるため、その後のキャリアの広がりが大きい職種です。代表的な進路は次の4つです。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>分析の専門性を深める</h3><p className="text-sm text-text-light">シニアDS／リードDSとして、因果推論・実験設計・高度なモデリングの専門家へ。コンサルや研究開発寄りのポジションで高年収を狙う道。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>機械学習エンジニアへ</h3><p className="text-sm text-text-light">モデルのプロダクト実装・MLOpsへ軸足を移す道。エンジニアリングが好きな人向け。詳しくは<a href="/articles/ai-ml-career/" className="underline" style={{ color: "#0891b2" }}>AI・機械学習キャリアガイド</a>へ。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>データ組織のマネジメント</h3><p className="text-sm text-text-light">アナリティクスマネージャー／データ部門責任者として、分析チームとデータ戦略をリードする道。ビジネス力が強い人に向いています。</p></div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>事業側・独立へ</h3><p className="text-sm text-text-light">プロダクトマネージャーや事業企画、フリーランスの分析顧問へ。データで意思決定できる人材はどの事業部門でも重宝されます。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>分析の専門性を深める</h3><p className="text-sm text-text-light">シニアDS／リードDSとして、因果推論・実験設計・高度なモデリングの専門家へ。コンサルや研究開発寄りのポジションで高年収を狙う道。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>機械学習エンジニアへ</h3><p className="text-sm text-text-light">モデルのプロダクト実装・MLOpsへ軸足を移す道。エンジニアリングが好きな人向け。詳しくは<a href="/articles/ai-ml-career/" className="underline" style={{ color: "#7c3a55" }}>AI・機械学習キャリアガイド</a>へ。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>データ組織のマネジメント</h3><p className="text-sm text-text-light">アナリティクスマネージャー／データ部門責任者として、分析チームとデータ戦略をリードする道。ビジネス力が強い人に向いています。</p></div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>事業側・独立へ</h3><p className="text-sm text-text-light">プロダクトマネージャーや事業企画、フリーランスの分析顧問へ。データで意思決定できる人材はどの事業部門でも重宝されます。</p></div>
           </div>
         </div>
       </section>
 
       {/* sec10 おすすめ転職エージェント */}
-      <section id="sec10" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -529,10 +529,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -540,10 +540,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -551,10 +551,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -562,10 +562,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -576,7 +576,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -585,7 +585,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -606,11 +606,11 @@ export default function ArticlePage() {
                 <details
                   key={i}
                   className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <summary
                     className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     <span className="pr-4">{faq.name}</span>
                     <span className="transition-transform group-open:rotate-180">
@@ -619,7 +619,7 @@ export default function ArticlePage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">{faq.acceptedAnswer.text}</p>
                   </div>
@@ -633,7 +633,7 @@ export default function ArticlePage() {
       {/* 出典一覧 */}
       <section className="py-6">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}>
+          <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-3">本記事の出典</h2>
             <ul className="space-y-1 text-xs text-text-light">
               <li>・doda「平均年収ランキング（職種別）」・パーソルキャリア「平均年収ランキング2025」（2026年6月参照）</li>
@@ -654,9 +654,9 @@ export default function ArticlePage() {
             <a
               href="/articles/data-engineer/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 データエンジニア転職ガイド
               </h3>
               <p className="text-sm text-text-light">分析を支えるデータ基盤の専門職</p>
@@ -664,9 +664,9 @@ export default function ArticlePage() {
             <a
               href="/articles/ai-ml-career/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 AI・機械学習キャリアガイド
               </h3>
               <p className="text-sm text-text-light">MLエンジニアへの道筋を解説</p>
@@ -674,9 +674,9 @@ export default function ArticlePage() {
             <a
               href="/articles/python-career/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 Pythonエンジニアのキャリア
               </h3>
               <p className="text-sm text-text-light">データ分析にも必須のPython</p>
@@ -684,9 +684,9 @@ export default function ArticlePage() {
             <a
               href="/articles/salary-by-job/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 職種別年収ガイド
               </h3>
               <p className="text-sm text-text-light">IT職種の年収を横断比較</p>
@@ -701,7 +701,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -713,7 +713,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

@@ -133,7 +133,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -147,7 +147,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               エージェント比較
             </span>
@@ -167,9 +167,9 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl p-6"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
               この記事の結論
             </h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
@@ -195,47 +195,47 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
               <li>
-                <a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>
                   1. 公式公開情報の比較表
                 </a>
               </li>
               <li>
-                <a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>
                   2. サービス形態の違い（エージェント特化型と一体型）
                 </a>
               </li>
               <li>
-                <a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>
                   3. 規模感の違いと「求人数」を読むときの注意
                 </a>
               </li>
               <li>
-                <a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>
                   4. 女性向けサポートの公式記載を比較
                 </a>
               </li>
               <li>
-                <a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>
                   5. 状況別・どちらを起点にするかの整理
                 </a>
               </li>
               <li>
-                <a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>
                   6. 利用の流れと併用時の注意点
                 </a>
               </li>
               <li>
-                <a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>
                   7. よくある質問
                 </a>
               </li>
               <li>
-                <a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>
+                <a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>
                   8. 出典・参考資料
                 </a>
               </li>
@@ -256,47 +256,47 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full border-collapse text-sm">
               <thead>
-                <tr style={{ backgroundColor: "#0891b2" }}>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>項目</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>type女性の転職エージェント</th>
-                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d1dce5" }}>doda</th>
+                <tr style={{ backgroundColor: "#7c3a55" }}>
+                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d9c7b8" }}>項目</th>
+                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d9c7b8" }}>type女性の転職エージェント</th>
+                  <th className="border p-3 text-white text-left" style={{ borderColor: "#d9c7b8" }}>doda</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>運営会社</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>株式会社キャリアデザインセンター（東証プライム上場・証券コード2410）<br /><span className="text-xs">出典: キャリアデザインセンター会社概要（2026年6月参照）</span></td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>パーソルキャリア株式会社<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
+                  <td className="border p-3 font-bold" style={{ borderColor: "#d9c7b8" }}>運営会社</td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>株式会社キャリアデザインセンター（東証プライム上場・証券コード2410）<br /><span className="text-xs">出典: キャリアデザインセンター会社概要（2026年6月参照）</span></td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>パーソルキャリア株式会社<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>サービス形態</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>女性に特化した転職エージェント<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>転職サイト＋エージェントサービス＋スカウトサービスの一体型<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
-                </tr>
-                <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>公式表示の規模感</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>求人38,391件を保有（2026年6月12日時点）・非公開求人が約7割<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>求人305,430件（非公開求人を含む・2026年6月11日更新時点）<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
-                </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>女性向けの公式記載</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>年間15,000名以上（2024年実績）のキャリアカウンセリング<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>女性向け特設サイト「Woman Career」（時短勤務・フルリモート・女性活躍などの特集検索）<br /><span className="text-xs">出典: doda公式サイト Woman Career（2026年6月参照）</span></td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border p-3 font-bold" style={{ borderColor: "#d9c7b8" }}>サービス形態</td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>女性に特化した転職エージェント<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>転職サイト＋エージェントサービス＋スカウトサービスの一体型<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
                 </tr>
                 <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>面談・拠点</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>カウンセリングは電話またはオンラインの記載。運営会社オフィスは東京（港区赤坂）<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト／キャリアデザインセンター会社概要（2026年6月参照）</span></td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>転職サイトとして勤務地条件で全国の求人を検索可能<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
+                  <td className="border p-3 font-bold" style={{ borderColor: "#d9c7b8" }}>公式表示の規模感</td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>求人38,391件を保有（2026年6月12日時点）・非公開求人が約7割<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>求人305,430件（非公開求人を含む・2026年6月11日更新時点）<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
                 </tr>
-                <tr style={{ backgroundColor: "#f8fafb" }}>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>利用料金</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>求人紹介・書類添削・応募代行などすべて無料の記載<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>会員登録無料の表示<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border p-3 font-bold" style={{ borderColor: "#d9c7b8" }}>女性向けの公式記載</td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>年間15,000名以上（2024年実績）のキャリアカウンセリング<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>女性向け特設サイト「Woman Career」（時短勤務・フルリモート・女性活躍などの特集検索）<br /><span className="text-xs">出典: doda公式サイト Woman Career（2026年6月参照）</span></td>
                 </tr>
                 <tr>
-                  <td className="border p-3 font-bold" style={{ borderColor: "#d1dce5" }}>制度上の位置づけ</td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>運営会社が人材紹介事業の厚生労働大臣許可（13-ユ-040429）を取得<br /><span className="text-xs">出典: キャリアデザインセンター会社概要（2026年6月参照）</span></td>
-                  <td className="border p-3" style={{ borderColor: "#d1dce5" }}>dodaエージェントサービスが「職業紹介優良事業者」認定を取得した旨の公式告知あり<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
+                  <td className="border p-3 font-bold" style={{ borderColor: "#d9c7b8" }}>面談・拠点</td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>カウンセリングは電話またはオンラインの記載。運営会社オフィスは東京（港区赤坂）<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト／キャリアデザインセンター会社概要（2026年6月参照）</span></td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>転職サイトとして勤務地条件で全国の求人を検索可能<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border p-3 font-bold" style={{ borderColor: "#d9c7b8" }}>利用料金</td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>求人紹介・書類添削・応募代行などすべて無料の記載<br /><span className="text-xs">出典: type女性の転職エージェント公式サイト（2026年6月参照）</span></td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>会員登録無料の表示<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
+                </tr>
+                <tr>
+                  <td className="border p-3 font-bold" style={{ borderColor: "#d9c7b8" }}>制度上の位置づけ</td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>運営会社が人材紹介事業の厚生労働大臣許可（13-ユ-040429）を取得<br /><span className="text-xs">出典: キャリアデザインセンター会社概要（2026年6月参照）</span></td>
+                  <td className="border p-3" style={{ borderColor: "#d9c7b8" }}>dodaエージェントサービスが「職業紹介優良事業者」認定を取得した旨の公式告知あり<br /><span className="text-xs">出典: doda公式サイト（2026年6月参照）</span></td>
                 </tr>
               </tbody>
             </table>
@@ -308,7 +308,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2: 形態の違い */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">サービス形態の違い（エージェント特化型と一体型）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -320,11 +320,11 @@ export default function ArticlePage() {
             </p>
             <p>
               つまり両者の関係は「同じ土俵のエージェント同士の優劣」ではなく、<strong>「女性特化のエージェント支援」と「総合型のプラットフォーム」という役割の違い</strong>です。エージェントと転職サイトの一般的な違いは
-              <a href="/articles/agent-vs-site/" className="underline" style={{ color: "#0891b2" }}>
+              <a href="/articles/agent-vs-site/" className="underline" style={{ color: "#7c3a55" }}>
                 転職エージェントと転職サイトの違い
               </a>
               で、特化型・総合型というカテゴリの考え方は
-              <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#0891b2" }}>
+              <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#7c3a55" }}>
                 IT特化型と総合型転職エージェントの違い
               </a>
               で詳しく整理しています。
@@ -345,25 +345,25 @@ export default function ArticlePage() {
               数字だけ見るとdodaの方が大きいのは公式表示のとおりですが、この比較には注意が必要です。
             </p>
           </div>
-          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
               求人数の表示を読むときの3つの注意
             </h3>
             <ul className="space-y-3 text-sm text-text-light">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>集計の定義が異なる</strong>: 「保有求人」「非公開求人を含む」「公開求人」など各社の集計範囲は同じではなく、横並びの単純比較はできない
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>時点で変動する</strong>: 上記はいずれも参照時点の表示で、求人数は日々更新される。検討時は必ず公式サイトの最新表示を確認する
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>総数＝自分に合う求人数ではない</strong>: 全職種・全業界の合計値であり、女性エンジニアの希望条件（職種・勤務地・働き方）に合う求人がどれだけあるかは、登録・検索して確かめるしかない
                 </span>
@@ -377,7 +377,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec4: 女性向けサポート */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性向けサポートの公式記載を比較</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -386,16 +386,16 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 type女性の転職エージェント: 「人」によるサポートが軸
               </h3>
               <p className="text-text-light text-sm leading-relaxed">
                 サービス自体が女性に特化しており、公式サイトには<strong>年間15,000名以上（2024年実績）のキャリアカウンセリング</strong>を行っていること、キャリアアドバイザー自身の転職・子育て経験を生かしたサポートを行う旨が記載されています。カウンセリングは電話またはオンラインで実施との記載です（出典: type女性の転職エージェント公式サイト、2026年6月参照）。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                 doda: 「探し方」の仕組みが軸
               </h3>
               <p className="text-text-light text-sm leading-relaxed">
@@ -419,8 +419,8 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-4">
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                 相談起点
               </span>
               <div>
@@ -430,8 +430,8 @@ export default function ArticlePage() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                 検索起点
               </span>
               <div>
@@ -441,15 +441,15 @@ export default function ArticlePage() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#f97066" }}>
+            <div className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>
                 併用
               </span>
               <div>
                 <h3 className="font-bold mb-1">迷うなら併用して役割分担する</h3>
                 <p className="text-sm text-text-light leading-relaxed">
                   両者は形態が異なるため役割が重複しにくく、「女性特化の相談はtype女性の転職エージェント、求人母数の確認と検索はdoda」のような役割分担が成立しやすい組み合わせです。エンジニアとしての技術評価を深めたい場合は、IT特化型エージェントを加える選択肢もあります（
-                  <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#0891b2" }}>
+                  <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#7c3a55" }}>
                     IT特化型と総合型の違い
                   </a>
                   参照）。
@@ -459,11 +459,11 @@ export default function ArticlePage() {
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
             なお、勤務地を東京・首都圏で考えている人は
-            <a href="/articles/tokyo/" className="underline" style={{ color: "#0891b2" }}>
+            <a href="/articles/tokyo/" className="underline" style={{ color: "#7c3a55" }}>
               東京の女性エンジニア転職ガイド
             </a>
             も参考にしてください。エージェント個社を見極めるチェックポイントは
-            <a href="/articles/how-to-choose/" className="underline" style={{ color: "#0891b2" }}>
+            <a href="/articles/how-to-choose/" className="underline" style={{ color: "#7c3a55" }}>
               転職エージェントの選び方ガイド
             </a>
             にまとめています。
@@ -472,7 +472,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6: 流れと併用注意 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">利用の流れと併用時の注意点</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -483,25 +483,25 @@ export default function ArticlePage() {
               併用する場合は、次の3点だけ押さえておけば問題が起きにくくなります。
             </p>
           </div>
-          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+          <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
               併用時の3つのルール（一般論）
             </h3>
             <ul className="space-y-3 text-sm text-text-light">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>重複応募をしない</strong>: 同じ求人に複数の経路（エージェント紹介と自己応募など）から応募すると企業・エージェント双方の信頼を損なう。応募先は自分で一元管理する
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>併用を隠さない</strong>: 他サービスも利用していると伝えるのは一般的なことで、選考スケジュールの調整もしやすくなる
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span>
                   <strong>広げすぎない</strong>: 登録数が多すぎると面談・連絡の管理が破綻する。2〜3サービス程度で始めて、提案の質と相性を見ながら比重を移す
                 </span>
@@ -510,7 +510,7 @@ export default function ArticlePage() {
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
             また、転職エージェント（有料職業紹介事業）は企業からの成功報酬で運営され、職業安定法により求職者からの手数料徴収が原則禁止されているため、どちらのサービスも求職者は無料で利用できます。この仕組みと利用時の注意点は
-            <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#0891b2" }}>
+            <a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#7c3a55" }}>
               IT特化型と総合型転職エージェントの違い
             </a>
             で出典付きで解説しています。
@@ -531,11 +531,11 @@ export default function ArticlePage() {
                 <details
                   key={i}
                   className="group rounded-xl border overflow-hidden"
-                  style={{ borderColor: "#d1dce5" }}
+                  style={{ borderColor: "#d9c7b8" }}
                 >
                   <summary
                     className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     <span className="pr-4">{faq.name}</span>
                     <span className="transition-transform group-open:rotate-180">
@@ -544,7 +544,7 @@ export default function ArticlePage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">{faq.acceptedAnswer.text}</p>
                   </div>
@@ -556,7 +556,7 @@ export default function ArticlePage() {
       </section>
 
       {/* 出典 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-3 text-sm text-text-light leading-relaxed">
@@ -590,9 +590,9 @@ export default function ArticlePage() {
             <a
               href="/articles/specialized-vs-general/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 IT特化型と総合型エージェントの違い
               </h3>
               <p className="text-sm text-text-light">カテゴリ別の使い分けと無料の仕組み</p>
@@ -600,9 +600,9 @@ export default function ArticlePage() {
             <a
               href="/articles/agent-vs-site/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 転職エージェントと転職サイトの違い
               </h3>
               <p className="text-sm text-text-light">そもそもどちらを使うべきかを整理</p>
@@ -610,9 +610,9 @@ export default function ArticlePage() {
             <a
               href="/articles/how-to-choose/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 エージェント選び方ガイド
               </h3>
               <p className="text-sm text-text-light">失敗しない選び方のチェックポイント</p>
@@ -620,9 +620,9 @@ export default function ArticlePage() {
             <a
               href="/articles/tokyo/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
-              style={{ borderColor: "#d1dce5" }}
+              style={{ borderColor: "#d9c7b8" }}
             >
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 東京の女性エンジニア転職ガイド
               </h3>
               <p className="text-sm text-text-light">首都圏で転職する際のポイント</p>
@@ -637,7 +637,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -649,7 +649,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>

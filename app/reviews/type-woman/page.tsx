@@ -110,7 +110,7 @@ export default function TypeWomanReviewPage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%)",
+          background: "linear-gradient(135deg, #f6e9de 0%, #efdccf 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -124,7 +124,7 @@ export default function TypeWomanReviewPage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#7c3aed" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               女性特化型
             </span>
@@ -144,13 +144,13 @@ export default function TypeWomanReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6 md:p-8"
-            style={{ borderColor: "#d1dce5" }}
+            style={{ borderColor: "#d9c7b8" }}
           >
             <h2 className="text-2xl font-bold mb-6">総合評価</h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-5xl font-bold" style={{ color: "#7c3aed" }}>
+                  <span className="text-5xl font-bold" style={{ color: "#7c3a55" }}>
                     4.7
                   </span>
                   <span className="text-text-light text-lg">/ 5.0</span>
@@ -160,7 +160,7 @@ export default function TypeWomanReviewPage() {
                     <span
                       key={star}
                       className="text-2xl"
-                      style={{ color: star <= 4 ? "#f59e0b" : "#d1dce5" }}
+                      style={{ color: star <= 4 ? "#f59e0b" : "#d9c7b8" }}
                     >
                       ★
                     </span>
@@ -180,16 +180,16 @@ export default function TypeWomanReviewPage() {
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-3">
                     <span className="w-32 text-sm font-medium">{item.label}</span>
-                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e2e8f0" }}>
+                    <div className="h-2 flex-1 rounded-full" style={{ backgroundColor: "#e4d6c8" }}>
                       <div
                         className="h-2 rounded-full"
                         style={{
                           width: `${(item.score / 5) * 100}%`,
-                          backgroundColor: "#7c3aed",
+                          backgroundColor: "#7c3a55",
                         }}
                       />
                     </div>
-                    <span className="text-sm font-bold" style={{ color: "#7c3aed" }}>
+                    <span className="text-sm font-bold" style={{ color: "#7c3a55" }}>
                       {item.score}.0
                     </span>
                   </div>
@@ -201,7 +201,7 @@ export default function TypeWomanReviewPage() {
       </section>
 
       {/* 基本情報テーブル */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">基本情報</h2>
           <div className="overflow-x-auto">
@@ -224,17 +224,17 @@ export default function TypeWomanReviewPage() {
                   <tr
                     key={label}
                     className={i % 2 === 0 ? "bg-white" : ""}
-                    style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}
+                    style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}
                   >
                     <th
                       className="px-4 py-3 text-left text-sm font-bold w-40"
-                      style={{ borderBottom: "1px solid #d1dce5", color: "#7c3aed" }}
+                      style={{ borderBottom: "1px solid #d9c7b8", color: "#7c3a55" }}
                     >
                       {label}
                     </th>
                     <td
                       className="px-4 py-3 text-sm"
-                      style={{ borderBottom: "1px solid #d1dce5" }}
+                      style={{ borderBottom: "1px solid #d9c7b8" }}
                     >
                       {value}
                     </td>
@@ -268,7 +268,7 @@ export default function TypeWomanReviewPage() {
       </section>
 
       {/* 女性エンジニアへの強み */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニアに対する強み</h2>
           <div className="grid gap-6 md:grid-cols-2">
@@ -293,9 +293,9 @@ export default function TypeWomanReviewPage() {
               <div
                 key={item.title}
                 className="rounded-xl bg-white p-6"
-                style={{ border: "1px solid #d1dce5" }}
+                style={{ border: "1px solid #d9c7b8" }}
               >
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>
+                <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
                   {item.title}
                 </h3>
                 <p className="text-sm text-text-light leading-relaxed">{item.desc}</p>
@@ -315,7 +315,7 @@ export default function TypeWomanReviewPage() {
             ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3aed" }}>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
             良い口コミ
           </h3>
           <div className="space-y-4 mb-8">
@@ -340,9 +340,9 @@ export default function TypeWomanReviewPage() {
               <div
                 key={i}
                 className="rounded-xl p-6"
-                style={{ backgroundColor: "#faf5ff", border: "1px solid #e9d5ff" }}
+                style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}
               >
-                <p className="text-sm font-bold mb-2" style={{ color: "#7c3aed" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>
                   {review.reviewer}
                 </p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
@@ -350,7 +350,7 @@ export default function TypeWomanReviewPage() {
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#f97066" }}>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>
             気になる口コミ
           </h3>
           <div className="space-y-4 mb-6">
@@ -369,7 +369,7 @@ export default function TypeWomanReviewPage() {
                 className="rounded-xl p-6"
                 style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}
               >
-                <p className="text-sm font-bold mb-2" style={{ color: "#f97066" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#c15f47" }}>
                   {review.reviewer}
                 </p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
@@ -406,12 +406,12 @@ export default function TypeWomanReviewPage() {
       </section>
 
       {/* メリット・デメリット */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">メリット・デメリット</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #7c3aed" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3aed" }}>メリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #7c3a55" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>メリット</h3>
               <ul className="space-y-3">
                 {[
                   "アドバイザーが全員女性で、ライフイベントを考慮した転職相談がしやすい環境が整っている",
@@ -419,21 +419,21 @@ export default function TypeWomanReviewPage() {
                   "面接対策では女性特有の質問への対策も万全で、安心して面接に臨める",
                 ].map((merit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#7c3aed" }} className="font-bold shrink-0">◎</span>
+                    <span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◎</span>
                     <span className="text-text-light">{merit}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #f97066" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>デメリット</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "2px solid #c15f47" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>デメリット</h3>
               <ul className="space-y-3">
                 {[
                   "IT特化型ではないため、高度な技術職の求人数はIT専門エージェントに劣る場合がある",
                   "首都圏中心の求人が多く、地方在住の方は選択肢が限られる",
                 ].map((demerit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#f97066" }} className="font-bold shrink-0">△</span>
+                    <span style={{ color: "#c15f47" }} className="font-bold shrink-0">△</span>
                     <span className="text-text-light">{demerit}</span>
                   </li>
                 ))}
@@ -478,7 +478,7 @@ export default function TypeWomanReviewPage() {
               <div key={item.step} className="flex gap-4">
                 <div
                   className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold"
-                  style={{ backgroundColor: "#7c3aed" }}
+                  style={{ backgroundColor: "#7c3a55" }}
                 >
                   {item.step}
                 </div>
@@ -493,12 +493,12 @@ export default function TypeWomanReviewPage() {
       </section>
 
       {/* おすすめ・向いていない */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">こんな女性におすすめ / 向いていない人</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3aed" }}>おすすめの方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>おすすめの方</h3>
               <ul className="space-y-2">
                 {[
                   "女性アドバイザーにキャリア相談したい方",
@@ -509,13 +509,13 @@ export default function TypeWomanReviewPage() {
                   "キャリアチェンジを考えている女性",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-2 text-sm text-text-light">
-                    <span style={{ color: "#7c3aed" }}>●</span>{item}
+                    <span style={{ color: "#7c3a55" }}>●</span>{item}
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d1dce5" }}>
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>向いていない方</h3>
+            <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>向いていない方</h3>
               <ul className="space-y-2">
                 {[
                   "高度な技術職に特化した求人を求めるエンジニア（レバテックキャリア推奨）",
@@ -523,7 +523,7 @@ export default function TypeWomanReviewPage() {
                   "大量の求人から自分で選びたい方（doda推奨）",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-2 text-sm text-text-light">
-                    <span style={{ color: "#f97066" }}>●</span>{item}
+                    <span style={{ color: "#c15f47" }}>●</span>{item}
                   </li>
                 ))}
               </ul>
@@ -534,13 +534,13 @@ export default function TypeWomanReviewPage() {
 
       {/* 関連記事 */}
       <div className="mx-auto max-w-4xl px-4">
-        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
-          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+        <div className="bg-[#f0e7dd] border border-[#d9c7b8] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            <Link href="/articles/mama-engineer/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} ママエンジニアの働き方ガイド</Link>
-            <Link href="/articles/after-maternity/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 産休育休後の転職ガイド</Link>
-            <Link href="/articles/age-20s/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 20代女性エンジニアの転職ガイド</Link>
-            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} type女性の転職エージェント vs doda徹底比較</Link>
+            <Link href="/articles/mama-engineer/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ママエンジニアの働き方ガイド</Link>
+            <Link href="/articles/after-maternity/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 産休育休後の転職ガイド</Link>
+            <Link href="/articles/age-20s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 20代女性エンジニアの転職ガイド</Link>
+            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} type女性の転職エージェント vs doda徹底比較</Link>
           </div>
         </div>
       </div>
@@ -555,18 +555,18 @@ export default function TypeWomanReviewPage() {
                 <details
                   key={i}
                   className="group rounded-xl bg-white"
-                  style={{ border: "1px solid #d1dce5" }}
+                  style={{ border: "1px solid #d9c7b8" }}
                 >
                   <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
                     <span>
-                      <span style={{ color: "#7c3aed" }} className="mr-2">Q.</span>
+                      <span style={{ color: "#7c3a55" }} className="mr-2">Q.</span>
                       {faq.name}
                     </span>
                     <span className="text-text-light group-open:rotate-180 transition-transform">▼</span>
                   </summary>
-                  <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                  <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                     <p className="pt-4">
-                      <span style={{ color: "#f97066" }} className="font-bold mr-2">A.</span>
+                      <span style={{ color: "#c15f47" }} className="font-bold mr-2">A.</span>
                       {faq.acceptedAnswer.text}
                     </p>
                   </div>
@@ -578,7 +578,7 @@ export default function TypeWomanReviewPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12" style={{ backgroundColor: "#faf5ff" }}>
+      <section className="py-12" style={{ backgroundColor: "#f4e7da" }}>
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">
             type女性の転職エージェントで安心の転職を

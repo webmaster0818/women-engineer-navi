@@ -109,7 +109,7 @@ export default function LevtechReviewPage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -123,7 +123,7 @@ export default function LevtechReviewPage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#0891b2" }}
+              style={{ backgroundColor: "#7c3a55" }}
             >
               IT特化型
             </span>
@@ -145,7 +145,7 @@ export default function LevtechReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6 md:p-8"
-            style={{ borderColor: "#d1dce5" }}
+            style={{ borderColor: "#d9c7b8" }}
           >
             <h2 className="text-2xl font-bold mb-6">総合評価</h2>
             <div className="grid gap-6 md:grid-cols-2">
@@ -153,7 +153,7 @@ export default function LevtechReviewPage() {
                 <div className="flex items-center gap-3 mb-4">
                   <span
                     className="text-5xl font-bold"
-                    style={{ color: "#0891b2" }}
+                    style={{ color: "#7c3a55" }}
                   >
                     4.8
                   </span>
@@ -164,7 +164,7 @@ export default function LevtechReviewPage() {
                     <span
                       key={star}
                       className="text-2xl"
-                      style={{ color: star <= 4 ? "#f59e0b" : "#d1dce5" }}
+                      style={{ color: star <= 4 ? "#f59e0b" : "#d9c7b8" }}
                     >
                       ★
                     </span>
@@ -188,17 +188,17 @@ export default function LevtechReviewPage() {
                     </span>
                     <div
                       className="h-2 flex-1 rounded-full"
-                      style={{ backgroundColor: "#e2e8f0" }}
+                      style={{ backgroundColor: "#e4d6c8" }}
                     >
                       <div
                         className="h-2 rounded-full"
                         style={{
                           width: `${(item.score / 5) * 100}%`,
-                          backgroundColor: "#0891b2",
+                          backgroundColor: "#7c3a55",
                         }}
                       />
                     </div>
-                    <span className="text-sm font-bold" style={{ color: "#0891b2" }}>
+                    <span className="text-sm font-bold" style={{ color: "#7c3a55" }}>
                       {item.score}.0
                     </span>
                   </div>
@@ -210,7 +210,7 @@ export default function LevtechReviewPage() {
       </section>
 
       {/* 基本情報テーブル */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">基本情報</h2>
           <div className="overflow-x-auto">
@@ -233,20 +233,20 @@ export default function LevtechReviewPage() {
                   <tr
                     key={label}
                     className={i % 2 === 0 ? "bg-white" : ""}
-                    style={i % 2 !== 0 ? { backgroundColor: "#f8fafb" } : {}}
+                    style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}
                   >
                     <th
                       className="px-4 py-3 text-left text-sm font-bold w-40"
                       style={{
-                        borderBottom: "1px solid #d1dce5",
-                        color: "#0891b2",
+                        borderBottom: "1px solid #d9c7b8",
+                        color: "#7c3a55",
                       }}
                     >
                       {label}
                     </th>
                     <td
                       className="px-4 py-3 text-sm"
-                      style={{ borderBottom: "1px solid #d1dce5" }}
+                      style={{ borderBottom: "1px solid #d9c7b8" }}
                     >
                       {value}
                     </td>
@@ -280,7 +280,7 @@ export default function LevtechReviewPage() {
       </section>
 
       {/* 女性エンジニアへの強み */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">
             女性エンジニアに対する強み
@@ -307,11 +307,11 @@ export default function LevtechReviewPage() {
               <div
                 key={item.title}
                 className="rounded-xl bg-white p-6"
-                style={{ border: "1px solid #d1dce5" }}
+                style={{ border: "1px solid #d9c7b8" }}
               >
                 <h3
                   className="text-lg font-bold mb-3"
-                  style={{ color: "#0891b2" }}
+                  style={{ color: "#7c3a55" }}
                 >
                   {item.title}
                 </h3>
@@ -335,7 +335,7 @@ export default function LevtechReviewPage() {
           </p>
 
           {/* 良い口コミ */}
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#0891b2" }}>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
             良い口コミ
           </h3>
           <div className="space-y-4 mb-8">
@@ -361,11 +361,11 @@ export default function LevtechReviewPage() {
                 key={i}
                 className="rounded-xl p-6"
                 style={{
-                  backgroundColor: "#ecfeff",
-                  border: "1px solid #cffafe",
+                  backgroundColor: "#efe3d8",
+                  border: "1px solid #ecdcce",
                 }}
               >
-                <p className="text-sm font-bold mb-2" style={{ color: "#0891b2" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>
                   {review.reviewer}
                 </p>
                 <p className="text-sm text-text-light leading-relaxed">
@@ -376,7 +376,7 @@ export default function LevtechReviewPage() {
           </div>
 
           {/* 悪い口コミ */}
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#f97066" }}>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>
             気になる口コミ
           </h3>
           <div className="space-y-4 mb-6">
@@ -398,7 +398,7 @@ export default function LevtechReviewPage() {
                   border: "1px solid #fecaca",
                 }}
               >
-                <p className="text-sm font-bold mb-2" style={{ color: "#f97066" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#c15f47" }}>
                   {review.reviewer}
                 </p>
                 <p className="text-sm text-text-light leading-relaxed">
@@ -438,16 +438,16 @@ export default function LevtechReviewPage() {
       </section>
 
       {/* メリット・デメリット */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">メリット・デメリット</h2>
           <div className="grid gap-6 md:grid-cols-2">
             {/* メリット */}
             <div
               className="rounded-xl bg-white p-6"
-              style={{ border: "2px solid #0891b2" }}
+              style={{ border: "2px solid #7c3a55" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
                 メリット
               </h3>
               <ul className="space-y-3">
@@ -457,7 +457,7 @@ export default function LevtechReviewPage() {
                   "年収70万円以上アップの実績が豊富で、適正な市場価値での転職が期待できる",
                 ].map((merit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#0891b2" }} className="font-bold shrink-0">
+                    <span style={{ color: "#7c3a55" }} className="font-bold shrink-0">
                       ◎
                     </span>
                     <span className="text-text-light">{merit}</span>
@@ -468,9 +468,9 @@ export default function LevtechReviewPage() {
             {/* デメリット */}
             <div
               className="rounded-xl bg-white p-6"
-              style={{ border: "2px solid #f97066" }}
+              style={{ border: "2px solid #c15f47" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>
                 デメリット
               </h3>
               <ul className="space-y-3">
@@ -479,7 +479,7 @@ export default function LevtechReviewPage() {
                   "地方の求人は都市部と比べて少なく、完全フルリモートの求人も限定的な場合がある",
                 ].map((demerit, i) => (
                   <li key={i} className="flex gap-3 text-sm">
-                    <span style={{ color: "#f97066" }} className="font-bold shrink-0">
+                    <span style={{ color: "#c15f47" }} className="font-bold shrink-0">
                       △
                     </span>
                     <span className="text-text-light">{demerit}</span>
@@ -526,7 +526,7 @@ export default function LevtechReviewPage() {
               <div key={item.step} className="flex gap-4">
                 <div
                   className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white font-bold"
-                  style={{ backgroundColor: "#0891b2" }}
+                  style={{ backgroundColor: "#7c3a55" }}
                 >
                   {item.step}
                 </div>
@@ -543,7 +543,7 @@ export default function LevtechReviewPage() {
       </section>
 
       {/* おすすめ・向いていない */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">
             こんな女性におすすめ / 向いていない人
@@ -551,9 +551,9 @@ export default function LevtechReviewPage() {
           <div className="grid gap-6 md:grid-cols-2">
             <div
               className="rounded-xl bg-white p-6"
-              style={{ border: "1px solid #d1dce5" }}
+              style={{ border: "1px solid #d9c7b8" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
                 おすすめの方
               </h3>
               <ul className="space-y-2">
@@ -566,7 +566,7 @@ export default function LevtechReviewPage() {
                   "産休育休取得率の高い企業を探している方",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-2 text-sm text-text-light">
-                    <span style={{ color: "#0891b2" }}>●</span>
+                    <span style={{ color: "#7c3a55" }}>●</span>
                     {item}
                   </li>
                 ))}
@@ -574,9 +574,9 @@ export default function LevtechReviewPage() {
             </div>
             <div
               className="rounded-xl bg-white p-6"
-              style={{ border: "1px solid #d1dce5" }}
+              style={{ border: "1px solid #d9c7b8" }}
             >
-              <h3 className="text-lg font-bold mb-4" style={{ color: "#f97066" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#c15f47" }}>
                 向いていない方
               </h3>
               <ul className="space-y-2">
@@ -586,7 +586,7 @@ export default function LevtechReviewPage() {
                   "地方在住で完全フルリモートにこだわる方（ReWorks推奨）",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-2 text-sm text-text-light">
-                    <span style={{ color: "#f97066" }}>●</span>
+                    <span style={{ color: "#c15f47" }}>●</span>
                     {item}
                   </li>
                 ))}
@@ -598,13 +598,13 @@ export default function LevtechReviewPage() {
 
       {/* 関連記事 */}
       <div className="mx-auto max-w-4xl px-4">
-        <div className="bg-[#f8fafb] border border-[#d1dce5] rounded-lg p-5 my-8">
-          <h3 className="text-base font-bold text-[#0891b2] mb-3">関連記事</h3>
+        <div className="bg-[#f0e7dd] border border-[#d9c7b8] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            <Link href="/articles/salary/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 女性エンジニアの年収ガイド｜平均年収と年収アップの方法</Link>
-            <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
-            <Link href="/articles/technical-interview/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} 女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法</Link>
-            <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#0891b2] transition-colors">{"\u2192"} レバテックキャリア vs Geekly徹底比較</Link>
+            <Link href="/articles/salary/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアの年収ガイド｜平均年収と年収アップの方法</Link>
+            <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
+            <Link href="/articles/technical-interview/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法</Link>
+            <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} レバテックキャリア vs Geekly徹底比較</Link>
           </div>
         </div>
       </div>
@@ -622,11 +622,11 @@ export default function LevtechReviewPage() {
                 <details
                   key={i}
                   className="group rounded-xl bg-white"
-                  style={{ border: "1px solid #d1dce5" }}
+                  style={{ border: "1px solid #d9c7b8" }}
                 >
                   <summary className="cursor-pointer list-none px-6 py-4 font-bold text-sm flex items-center justify-between">
                     <span>
-                      <span style={{ color: "#0891b2" }} className="mr-2">
+                      <span style={{ color: "#7c3a55" }} className="mr-2">
                         Q.
                       </span>
                       {faq.name}
@@ -637,10 +637,10 @@ export default function LevtechReviewPage() {
                   </summary>
                   <div
                     className="px-6 pb-4 text-sm text-text-light leading-relaxed"
-                    style={{ borderTop: "1px solid #d1dce5" }}
+                    style={{ borderTop: "1px solid #d9c7b8" }}
                   >
                     <p className="pt-4">
-                      <span style={{ color: "#f97066" }} className="font-bold mr-2">
+                      <span style={{ color: "#c15f47" }} className="font-bold mr-2">
                         A.
                       </span>
                       {faq.acceptedAnswer.text}
@@ -654,7 +654,7 @@ export default function LevtechReviewPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12" style={{ backgroundColor: "#ecfeff" }}>
+      <section className="py-12" style={{ backgroundColor: "#efe3d8" }}>
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">
             レバテックキャリアで理想の転職を実現しよう

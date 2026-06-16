@@ -104,7 +104,7 @@ export default function ArticlePage() {
       <section
         className="relative py-12 md:py-16"
         style={{
-          background: "linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%)",
+          background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)",
         }}
       >
         <div className="mx-auto max-w-4xl px-4">
@@ -118,7 +118,7 @@ export default function ArticlePage() {
           <div className="mt-4">
             <span
               className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               成功パターン分析
             </span>
@@ -136,23 +136,23 @@ export default function ArticlePage() {
       {/* 結論ボックス */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
-          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#0891b2" }}>この記事の結論｜データから見える成功の3要素</h2>
+          <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>この記事の結論｜データから見える成功の3要素</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>要素①：追い風の市場を味方につける。</strong>転職者の40.5%が前職より賃金増（減少29.4%）で、「増加−減少」の差+11.1ポイントは2015年以降で最大（厚生労働省「令和6年雇用動向調査」）。エンジニア（IT・通信）の求人倍率は10倍超、女性比率は18.8%で企業は採用を強化中です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>要素②：行動量を確保する。</strong>転職成功者の平均応募社数は31.9社、66.4%が11社以上に応募（doda）。「数社落ちたら諦める」は統計的に早すぎます。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>要素③：自分のパターンに合った定石を踏む。</strong>未経験から・経験者のキャリアアップ・復職からの3ルートで戦略は別物。20〜40代はいずれの年代も転職者の45〜50%が賃金増を実現しており、定石に沿えば再現性は高い領域です。</span>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: "#0891b2" }} className="mt-1 font-bold">&#10003;</span>
+                <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>本記事は架空の体験談を掲載しません。</strong>公的統計・公開調査に基づくパターン分析と、統計に整合させた「モデルケース」（特定個人の体験談ではない旨を明示）で構成しています。</span>
               </li>
             </ul>
@@ -165,18 +165,18 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div
             className="rounded-xl border p-6"
-            style={{ borderColor: "#d1dce5", backgroundColor: "#f8fafb" }}
+            style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}
           >
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#0891b2" }}>1. データで見る「転職成功」の現在地</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#0891b2" }}>2. 年代別データ：賃金が増えた転職者の割合【統計テーブル】</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#0891b2" }}>3. パターン別の成功戦略（未経験・経験者・復職）</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#0891b2" }}>4. 成功者に共通する4つの行動</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#0891b2" }}>5. 統計に基づくモデルケース3例</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#0891b2" }}>6. 実在の公開事例・ロールモデルの探し方</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#0891b2" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#0891b2" }}>8. よくある質問</a></li>
+              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. データで見る「転職成功」の現在地</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 年代別データ：賃金が増えた転職者の割合【統計テーブル】</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. パターン別の成功戦略（未経験・経験者・復職）</a></li>
+              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 成功者に共通する4つの行動</a></li>
+              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 統計に基づくモデルケース3例</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 実在の公開事例・ロールモデルの探し方</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -195,18 +195,18 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3 mt-6">
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>40.5%</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>40.5%</p>
               <p className="text-sm font-bold mt-2">転職で賃金が増加した人の割合</p>
               <p className="text-xs text-text-light mt-1">2015年以降で最高。減少（29.4%）を11.1pt上回る</p>
             </div>
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#7c3aed" }}>10倍超</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>10倍超</p>
               <p className="text-sm font-bold mt-2">エンジニア（IT・通信）求人倍率</p>
               <p className="text-xs text-text-light mt-1">全職種平均2.38倍に対し圧倒的な売り手市場</p>
             </div>
-            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d1dce5" }}>
-              <p className="text-3xl font-bold" style={{ color: "#0891b2" }}>18.8%</p>
+            <div className="rounded-xl border p-6 text-center" style={{ borderColor: "#d9c7b8" }}>
+              <p className="text-3xl font-bold" style={{ color: "#7c3a55" }}>18.8%</p>
               <p className="text-sm font-bold mt-2">日本のITエンジニア女性比率</p>
               <p className="text-xs text-text-light mt-1">OECD平均20.6%を下回り、企業は女性採用を強化中</p>
             </div>
@@ -223,7 +223,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 年代別テーブル */}
-      <section id="sec2" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">年代別データ：賃金が増えた転職者の割合【統計テーブル】</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -234,63 +234,63 @@ export default function ArticlePage() {
           <div className="overflow-x-auto mt-6">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr style={{ backgroundColor: "#ecfeff" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>年代</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>女性の転職入職率</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>賃金が増加した割合</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>うち1割以上の増加</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d1dce5" }}>賃金が減少した割合</th>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>年代</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>女性の転職入職率</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>賃金が増加した割合</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>うち1割以上の増加</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>賃金が減少した割合</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>20〜24歳</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>14.3%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>50.5%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>38.5%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>16.8%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>20〜24歳</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>14.3%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>50.5%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>38.5%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>16.8%</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>25〜29歳</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>16.8%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>46.3%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>37.9%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>29.2%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>25〜29歳</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>16.8%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>46.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>37.9%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>29.2%</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>30〜34歳</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>13.2%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>46.1%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>36.0%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>24.2%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>30〜34歳</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>13.2%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>46.1%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>36.0%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>24.2%</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>35〜39歳</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>10.5%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>45.5%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>35.3%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>24.3%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>35〜39歳</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>10.5%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>45.5%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>35.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>24.3%</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>40〜44歳</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>10.2%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>45.9%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>33.2%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>29.0%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40〜44歳</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>10.2%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>45.9%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>33.2%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>29.0%</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>45〜49歳</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>10.7%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>46.4%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>29.1%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>23.8%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>45〜49歳</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>10.7%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>46.4%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>29.1%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>23.8%</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5" }}>全年代計</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>―</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d1dce5", color: "#0891b2" }}>40.5%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>29.4%</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d1dce5" }}>29.4%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>全年代計</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>―</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>40.5%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>29.4%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>29.4%</td>
                 </tr>
               </tbody>
             </table>
@@ -300,7 +300,7 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              注目すべきは2点です。第一に、<strong>賃金増の割合は年代でほとんど下がりません</strong>。「30代後半からは不利」というイメージに反して、45〜49歳でも46.4%が賃金増です。第二に、女性の転職入職率は20代後半の16.8%をピークに緩やかに下がるものの、40代でも10%超。<strong>遅すぎる年代は統計上存在しない</strong>と言えます。年代ごとの具体的な戦い方は<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>30代女性エンジニアの転職ガイド</a>などの年代別ガイドで詳しく解説しています。
+              注目すべきは2点です。第一に、<strong>賃金増の割合は年代でほとんど下がりません</strong>。「30代後半からは不利」というイメージに反して、45〜49歳でも46.4%が賃金増です。第二に、女性の転職入職率は20代後半の16.8%をピークに緩やかに下がるものの、40代でも10%超。<strong>遅すぎる年代は統計上存在しない</strong>と言えます。年代ごとの具体的な戦い方は<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>30代女性エンジニアの転職ガイド</a>などの年代別ガイドで詳しく解説しています。
             </p>
           </div>
         </div>
@@ -316,31 +316,31 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6 mt-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>パターン①：未経験からエンジニアへ</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>パターン①：未経験からエンジニアへ</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">
                 エンジニア未経験者を「採用している」企業は41.6%、「検討中」を含めると約7割（レバテック「IT人材白書2024」）。門戸は開いていますが、<strong>1年目の年収は300万〜400万円程度に一度下がるのが一般的</strong>です。このパターンの「成功」は初年度の年収ではなく、「実務経験を最短で積める入口に入れたか」で測るのが正解。前職スキル×IT（営業→セールスエンジニア、事務→社内SE、品質管理→テスト設計など）で入口を選び、半年〜1年の学習とポートフォリオで本気度を示すのが定石です。
               </p>
               <p className="text-sm text-text-light">
-                → 学習ロードマップと職種の選び方は<a href="/articles/beginner/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>未経験からエンジニアになるガイド</a>へ
+                → 学習ロードマップと職種の選び方は<a href="/articles/beginner/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになるガイド</a>へ
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3aed" }}>パターン②：経験者のキャリアアップ</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>パターン②：経験者のキャリアアップ</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">
                 統計上もっとも再現性が高いパターンです。30〜34歳の転職者の46.1%が賃金増（うち1割以上の増加36.0%）で、エンジニア求人倍率10倍超の需要がそれを支えています。定石は「年収・専門性・働き方のどれを上げるか」を1つに決めること。年収ならクラウド・AI・セキュリティなど高需要領域への軸足ずらし、働き方なら情報通信業のテレワーク導入率94.3%（総務省）を活かした「年収維持×リモート」転職が現実的です。
               </p>
               <p className="text-sm text-text-light">
-                → 年収相場と交渉の進め方は<a href="/articles/salary/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</a>、年代別戦略は<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>30代の転職ガイド</a>へ
+                → 年収相場と交渉の進め方は<a href="/articles/salary/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</a>、年代別戦略は<a href="/articles/age-30s/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>30代の転職ガイド</a>へ
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#0891b2" }}>パターン③：出産・育児などのブランクからの復職</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>パターン③：出産・育児などのブランクからの復職</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">
                 第1子出産前後の妻の就業継続率は69.5%（国立社会保障・人口問題研究所）まで上昇し、女性の育児休業取得率は86.6%。一度離れた人にも、教育訓練給付（給付率最大80%・年間上限64万円）などスキル更新の公的支援が整っています。このパターンの「成功」は復帰直後の条件ではなく、<strong>「キャリアを再接続できたか」と「両立できる環境を選べたか」</strong>。時短・リモートの運用実態を確認し、段階的にフルタイムへ戻す設計が定石です。
               </p>
               <p className="text-sm text-text-light">
-                → ブランク期間の説明方法や支援制度は<a href="/articles/return-to-work/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>ブランクからの復職ガイド</a>へ
+                → ブランク期間の説明方法や支援制度は<a href="/articles/return-to-work/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>ブランクからの復職ガイド</a>へ
               </p>
             </div>
           </div>
@@ -349,14 +349,14 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              どのパターンでも、5年後・10年後にどの専門性で勝負するかという長期設計があると意思決定がぶれません。<a href="/articles/career-path/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</a>では、マネジメント・スペシャリストなど5つの方向性を整理しています。
+              どのパターンでも、5年後・10年後にどの専門性で勝負するかという長期設計があると意思決定がぶれません。<a href="/articles/career-path/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>キャリアパス設計ガイド</a>では、マネジメント・スペシャリストなど5つの方向性を整理しています。
             </p>
           </div>
         </div>
       </section>
 
       {/* sec4 共通する行動 */}
-      <section id="sec4" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">成功者に共通する4つの行動</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
@@ -371,8 +371,8 @@ export default function ArticlePage() {
               ["行動3", "実績を定量化して「再現性」で語る", "「障害対応時間を◯%削減」「後輩2名のOJTを担当」など、数字と役割で職務経歴書を書く。採用側が見ているのは過去の成果そのものではなく、同じ成果を自社で再現できる根拠です。"],
               ["行動4", "エージェントを併用し、交渉を任せる", "転職者の40.5%が賃金増という相場を基準に提示額を評価し、自分では言い出しにくい年収交渉はエージェント経由で行う。IT特化型と女性特化型の併用で、技術評価と両立環境の両面から求人を比較できます。"],
             ].map(([step, title, desc], i) => (
-              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d1dce5" }}>
-                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>{step}</span>
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
                 <div>
                   <h3 className="font-bold mb-1">{title}</h3>
                   <p className="text-sm text-text-light leading-relaxed">{desc}</p>
@@ -390,19 +390,19 @@ export default function ArticlePage() {
       <section id="sec5" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">統計に基づくモデルケース3例</h2>
-          <div className="rounded-xl border p-4 mb-6 text-sm text-text-light" style={{ borderColor: "#f97066", backgroundColor: "#fff7f5" }}>
+          <div className="rounded-xl border p-4 mb-6 text-sm text-text-light" style={{ borderColor: "#c15f47", backgroundColor: "#fdf6ee" }}>
             <strong>【重要】</strong>以下は公的統計・公開調査の数値に前提条件を整合させて作成した<strong>一般化したモデルケース（架空の設定）であり、特定個人の体験談ではありません</strong>。実際の結果はスキル・地域・企業により異なります。
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>モデルケース①：20代後半・未経験からの職種転換</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>モデルケース①：20代後半・未経験からの職種転換</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
                   <p className="text-xs font-bold text-text-light mb-1">転職前（想定）</p>
                   <p className="text-sm font-bold">販売職 / 年収330万円</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後（想定）</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後（想定）</p>
                   <p className="text-sm font-bold">テスト・QA職 / 1年目年収320万円</p>
                 </div>
               </div>
@@ -410,15 +410,15 @@ export default function ArticlePage() {
                 半年間の学習＋ポートフォリオ作成を経て、接客で培った報告・調整力を活かせるQA職へ。未経験1年目の年収相場（300万〜400万円程度）どおり初年度はほぼ横ばいですが、実務経験2〜3年を積んだ後の2回目の転職で年収増を狙う設計です。25〜29歳は転職者の46.3%が賃金増の年代で、経験を積んだ後の伸びしろが大きいルートです。
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>モデルケース②：30代前半・経験者のキャリアアップ</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>モデルケース②：30代前半・経験者のキャリアアップ</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
                   <p className="text-xs font-bold text-text-light mb-1">転職前（想定）</p>
                   <p className="text-sm font-bold">SIerのシステムエンジニア / 年収450万円</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後（想定）</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後（想定）</p>
                   <p className="text-sm font-bold">自社開発企業のバックエンドエンジニア / 年収510万円・リモート併用</p>
                 </div>
               </div>
@@ -426,15 +426,15 @@ export default function ArticlePage() {
                 クラウド移行案件の経験を棚卸しし、IT特化型エージェント経由で十数社に応募して年収約13%増を実現する想定です。30〜34歳は転職者の46.1%が賃金増・36.0%が1割以上の増加を実現している年代で、この上げ幅は統計の中央的なレンジに収まります。doda「平均年収ランキング2025」のエンジニア（IT/通信）平均469万円を上回る水準です。
               </p>
             </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>モデルケース③：30代後半・育児ブランクからの復職</h3>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>モデルケース③：30代後半・育児ブランクからの復職</h3>
               <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f8fafb" }}>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
                   <p className="text-xs font-bold text-text-light mb-1">転職前（想定）</p>
                   <p className="text-sm font-bold">Web系エンジニア4年→出産・育児で1年半のブランク</p>
                 </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#ecfeff" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#0891b2" }}>転職後（想定）</p>
+                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
+                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後（想定）</p>
                   <p className="text-sm font-bold">時短正社員のエンジニア / 年収400万円台→段階的にフルタイム復帰</p>
                 </div>
               </div>
@@ -450,7 +450,7 @@ export default function ArticlePage() {
       </section>
 
       {/* sec6 実在の公開事例 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">実在の公開事例・ロールモデルの探し方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
@@ -459,23 +459,23 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>公的機関の公開情報</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>公的機関の公開情報</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>内閣府男女共同参画局「理工チャレンジ（リコチャレ）」</strong>：理工系分野で働く女性のロールモデル情報や応援団体の取り組みを公式サイトで公開</li>
-                <li>・<strong>東京都「女性ITエンジニア育成事業」</strong>：都が実施する無料の育成・転職支援事業。事業内容は<a href="/articles/tokyo-women-training/" className="font-bold hover:underline" style={{ color: "#0891b2" }}>解説記事</a>で紹介しています</li>
+                <li>・<strong>東京都「女性ITエンジニア育成事業」</strong>：都が実施する無料の育成・転職支援事業。事業内容は<a href="/articles/tokyo-women-training/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>解説記事</a>で紹介しています</li>
               </ul>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3aed" }}>企業公式の公開情報</h3>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>企業公式の公開情報</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li>・<strong>企業の採用ブログ・技術ブログの社員インタビュー</strong>：実名・所属つきで公開され、働き方や制度の利用実態まで読み取れる</li>
                 <li>・<strong>エージェント各社が公開する転職成功者調査</strong>：個人の物語ではなく集計データとして傾向を確認できる</li>
               </ul>
             </div>
           </div>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d1dce5" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#0891b2" }}>体験談を読むときの3つの注意</h3>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>体験談を読むときの3つの注意</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>① <strong>N=1である</strong>：1人の成功例はあなたに再現できるとは限らない。傾向は統計で確認する</li>
               <li>② <strong>生存者バイアスがかかる</strong>：公開されるのは基本的に「うまくいった話」。失敗側の分母は見えない</li>
@@ -498,10 +498,10 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -509,10 +509,10 @@ export default function ArticlePage() {
                 IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">Geekly</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -520,10 +520,10 @@ export default function ArticlePage() {
                 IT・Web・ゲーム業界に強みを持つ転職エージェント。平均年収アップ率81%の実績が光ります。スピーディーなマッチングで、最短2週間での内定実績も。年収交渉力にも定評があります。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">type女性の転職エージェント</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3aed" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   女性特化型
                 </span>
               </div>
@@ -531,10 +531,10 @@ export default function ArticlePage() {
                 女性のキャリアに特化したサポート体制。産休育休取得実績のある企業を中心に紹介してくれるため、長期的なキャリア形成に最適。女性ならではの悩みに寄り添った丁寧なカウンセリングが特徴です。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d1dce5" }}>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">ワークポート</h3>
-                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#0891b2" }}>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>
                   IT特化型
                 </span>
               </div>
@@ -545,7 +545,7 @@ export default function ArticlePage() {
           </div>
           <div
             className="mt-8 rounded-xl p-6 text-center"
-            style={{ backgroundColor: "#ecfeff", border: "2px solid #0891b2" }}
+            style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
@@ -554,7 +554,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066" }}
+              style={{ backgroundColor: "#c15f47" }}
             >
               おすすめエージェントランキングを見る
             </a>
@@ -563,17 +563,17 @@ export default function ArticlePage() {
       </section>
 
       {/* sec8 FAQ */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>
           <div className="space-y-4">
             {faqData.mainEntity.map((faq: { name: string; acceptedAnswer: { text: string } }, i: number) => (
-              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d1dce5" }}>
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#0891b2" }}>
+              <details key={i} className="group rounded-xl border overflow-hidden" style={{ borderColor: "#d9c7b8" }}>
+                <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-bold hover:bg-gray-50" style={{ color: "#7c3a55" }}>
                   <span className="pr-4">{faq.name}</span>
                   <span className="transition-transform group-open:rotate-180">&#9662;</span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d1dce5" }}>
+                <div className="px-6 pb-4 text-sm text-text-light leading-relaxed" style={{ borderTop: "1px solid #d9c7b8" }}>
                   <p className="pt-4">{faq.acceptedAnswer.text}</p>
                 </div>
               </details>
@@ -607,32 +607,32 @@ export default function ArticlePage() {
       </section>
 
       {/* 関連記事 */}
-      <section className="py-10" style={{ backgroundColor: "#f8fafb" }}>
+      <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>未経験からエンジニアになるガイド</h3>
+            <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からエンジニアになるガイド</h3>
               <p className="text-sm text-text-light">学習ロードマップと職種の選び方</p>
             </a>
-            <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>30代女性エンジニアの転職ガイド</h3>
+            <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>30代女性エンジニアの転職ガイド</h3>
               <p className="text-sm text-text-light">年収相場・未経験の現実・両立戦略</p>
             </a>
-            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>ブランクからの復職ガイド</h3>
+            <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ブランクからの復職ガイド</h3>
               <p className="text-sm text-text-light">ブランクの説明方法と公的支援制度</p>
             </a>
-            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>女性エンジニアの年収ガイド</h3>
+            <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3>
               <p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p>
             </a>
-            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>キャリアパス設計ガイド</h3>
+            <a href="/articles/career-path/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>キャリアパス設計ガイド</h3>
               <p className="text-sm text-text-light">5年後・10年後のキャリア設計</p>
             </a>
-            <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d1dce5" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#0891b2" }}>東京都「女性ITエンジニア育成事業」解説</h3>
+            <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都「女性ITエンジニア育成事業」解説</h3>
               <p className="text-sm text-text-light">公的な無料育成事業の内容と申込方法</p>
             </a>
           </div>
@@ -645,7 +645,7 @@ export default function ArticlePage() {
           <div
             className="rounded-2xl p-8 md:p-12"
             style={{
-              background: "linear-gradient(135deg, #0891b2 0%, #7c3aed 100%)",
+              background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)",
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
@@ -657,7 +657,7 @@ export default function ArticlePage() {
             <a
               href="/ranking/"
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
-              style={{ backgroundColor: "#f97066", color: "#ffffff" }}
+              style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
               おすすめエージェントランキングを見る
             </a>
