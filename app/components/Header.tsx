@@ -20,9 +20,10 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2.5 group">
           <span
             aria-hidden
-            className="text-secondary text-lg leading-none transition-transform duration-300 group-hover:rotate-45"
+            className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-[#5f2c42] text-[#e7cdbb] shrink-0 transition-transform duration-300 group-hover:-translate-y-0.5"
+            style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic", fontWeight: 500, fontSize: "1.4rem", lineHeight: 1 }}
           >
-            &#9670;
+            &amp;
           </span>
           <span className="flex flex-col leading-none">
             <span
