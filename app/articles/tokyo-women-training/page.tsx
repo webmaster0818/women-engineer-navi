@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "東京都の女性ITエンジニア育成事業とは？内容・費用・申込方法と評判【2026年】",
+  title: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   description:
     "東京都「女性ITエンジニア育成事業」を公式情報をもとに解説。対象者（原則39歳以下の女性）、プログラミング/インフラクラウドの2コース、6か月の訓練内容、受講料無料の範囲、申込方法、就職支援、応募前のチェックポイントまで。事業終了後の転職活動の進め方も紹介します。",
   alternates: { canonical: "/articles/tokyo-women-training/" },
   openGraph: {
-    title: "東京都の女性ITエンジニア育成事業とは？内容・費用・申込方法と評判【2026年】",
+    title: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
     description:
       "東京都「女性ITエンジニア育成事業」の対象者・コース内容・費用（受講料無料）・申込方法・就職支援を公式情報をもとに解説。応募前のチェックポイントと修了後の転職活動の進め方も紹介。",
     url: "https://women-engineer.com/articles/tokyo-women-training/",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "東京都の女性ITエンジニア育成事業とは？内容・費用・申込方法と評判【2026年】",
+  headline: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   datePublished: "2026-06-12",
   dateModified: "2026-06-12",
   author: {
