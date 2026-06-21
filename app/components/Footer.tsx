@@ -7,6 +7,7 @@ const footerLinks = [
       { href: "/ranking/", label: "おすすめエージェント" },
       { href: "/articles/category-index/", label: "記事一覧" },
       { href: "/articles/faq-all/", label: "よくある質問" },
+      { href: "/articles/data/", label: "データ集（年収・育休・求人倍率）" },
       { href: "/articles/beginner/", label: "未経験からエンジニアへ" },
       { href: "/articles/salary/", label: "年収ガイド" },
     ],
