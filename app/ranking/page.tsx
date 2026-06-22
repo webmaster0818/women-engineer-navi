@@ -586,6 +586,38 @@ export default function RankingPage() {
         </div>
       </section>
 
+      {/* 目的・状況別の入口ナビ（CVR導線） */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="rounded-sm border border-border bg-[#fffaf4] p-5 md:p-7">
+            <p className="eyebrow">Find Your Agent</p>
+            <h2 className="mt-3 text-lg md:text-xl text-text">
+              あなたの状況から選ぶ｜タイプ別おすすめ
+            </h2>
+            <p className="mt-2 text-sm text-text-light">
+              重視するポイントから、相性の良い転職エージェントをチェックできます。
+            </p>
+            <div className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-3">
+              {[
+                { q: "未経験からエンジニアを目指す", a: "ワークポート", href: "/reviews/workport/", d: "無料スクール・育成事業の実績" },
+                { q: "フルリモートで働きたい", a: "ReWorks", href: "/reviews/reworks/", d: "フルリモート求人100%特化" },
+                { q: "女性特化の手厚いサポート重視", a: "type女性の転職エージェント", href: "/reviews/type-woman/", d: "女性の悩みに寄り添う支援" },
+                { q: "ITの専門性・年収アップ重視", a: "レバテックキャリア", href: "/reviews/levtech/", d: "IT・Web特化で専門性が高い" },
+              ].map((c) => (
+                <Link key={c.href} href={c.href} className="block rounded-lg border border-border bg-white p-4 hover:border-primary transition-colors group">
+                  <p className="text-xs font-bold text-secondary">{c.q}</p>
+                  <p className="mt-1 text-sm font-bold text-text group-hover:text-primary">{c.a}</p>
+                  <p className="mt-1 text-xs text-text-light">{c.d}</p>
+                </Link>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-text-light">
+              ※ 各社の詳しい比較は下のランキングをご覧ください。2〜3社の併用が効果的です。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* 選び方ポイント */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
