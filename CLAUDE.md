@@ -56,3 +56,9 @@
 - Header/Footer/トップ再設計: 明朝ワードマーク+Fraunces英字ラベル、非対称ヒーロー+マニフェストパネル+装飾アンパサンド、番号付き理由(01/02/03)、明朝の数字スタッツ、ダークプラムCTA。絵文字不使用(◆等の活字記号のみ)
 - Chrome headlessでPC/モバイル/記事の描画を目視検証→本番(women-engineer.com)反映確認・font読込OK・旧シアン0。deploy=women-engineer-navi-deploy、sitemap lastmod更新
 - 料金/エージェント紹介文/ranking/reviewsの文言は不変更(視覚のみ刷新)。★☆=レビュー星(絵文字でなく活字記号)は機能上保持
+
+## 2026-06-22 ④収益核 ranking目的別入口ナビ✅（MediaXAI「君の推奨で進めて」承認）
+- rankingヒーロー直下に「あなたの状況から選ぶ｜タイプ別おすすめ」入口ナビ新設。未経験→workport(育成事業/みんスク)/フルリモート→reworks(100%特化)/女性特化サポート→type-woman/IT専門・年収→levtech、と各社の事実ベースで状況→相性の良いエージェントへ誘導
+- review pageへ送客=CV導線＋ranking→reviewsの内部リンク欠落も補完(従来ranking→reviewsリンク0だった)。料金・エージェント紹介文言は不変更・追加要素のみ
+- 本番200/入口ナビ・reviews4リンクをcurl検証(CF cache遅延に注意・cache-bust再確認)。sitemap lastmod更新
+- 残④: ranking入口の他状況(年収/産育/年代/職種別)拡張・reviewsへの導線太化。残: GSC観測後の刈り取り(育成事業タイトル最適化の効果確認)・③DB職種別完全表

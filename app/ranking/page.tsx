@@ -601,8 +601,12 @@ export default function RankingPage() {
               {[
                 { q: "未経験からエンジニアを目指す", a: "ワークポート", href: "/reviews/workport/", d: "無料スクール・育成事業の実績" },
                 { q: "フルリモートで働きたい", a: "ReWorks", href: "/reviews/reworks/", d: "フルリモート求人100%特化" },
-                { q: "女性特化の手厚いサポート重視", a: "type女性の転職エージェント", href: "/reviews/type-woman/", d: "女性の悩みに寄り添う支援" },
+                { q: "女性特化の手厚いサポート重視", a: "type女性の転職エージェント", href: "/reviews/type-woman/", d: "女性の転職支援に25年以上の実績" },
                 { q: "ITの専門性・年収アップ重視", a: "レバテックキャリア", href: "/reviews/levtech/", d: "IT・Web特化で専門性が高い" },
+                { q: "求人数の多さ・大手で探したい", a: "リクルートエージェント", href: "/reviews/recruit-agent/", d: "業界最大手・圧倒的な求人数" },
+                { q: "幅広い求人から総合的に比較", a: "doda", href: "/reviews/doda/", d: "業界2位の求人数を誇る総合型" },
+                { q: "ゲーム業界も視野に入れたい", a: "Geekly", href: "/reviews/geekly/", d: "IT・Web・ゲーム業界に特化" },
+                { q: "自分のペースでカジュアルに探す", a: "Green", href: "/reviews/green/", d: "IT業界のカジュアル転職" },
               ].map((c) => (
                 <Link key={c.href} href={c.href} className="block rounded-lg border border-border bg-white p-4 hover:border-primary transition-colors group">
                   <p className="text-xs font-bold text-secondary">{c.q}</p>
