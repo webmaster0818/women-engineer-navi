@@ -6,6 +6,7 @@ import { useState } from "react";
 const navItems = [
   { href: "/", label: "トップ" },
   { href: "/ranking/", label: "おすすめエージェント" },
+  { href: "/diagnosis/", label: "エージェント診断" },
   { href: "/articles/category-index/", label: "記事一覧" },
   { href: "/articles/faq-all/", label: "よくある質問" },
 ];

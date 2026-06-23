@@ -618,6 +618,11 @@ export default function RankingPage() {
             <p className="mt-4 text-xs text-text-light">
               ※ 各社の詳しい比較は下のランキングをご覧ください。2〜3社の併用が効果的です。
             </p>
+            <div className="mt-5 text-center">
+              <Link href="/diagnosis/" className="btn-cta text-sm">
+                6つの質問であなたに合う1社を無料診断する
+              </Link>
+            </div>
           </div>
         </div>
       </section>

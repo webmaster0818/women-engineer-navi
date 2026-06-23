@@ -112,8 +112,8 @@ export default function HomePage() {
               <Link href="/ranking/" className="btn-cta text-base">
                 おすすめエージェントを見る
               </Link>
-              <Link href="/articles/category-index/" className="btn-outline text-base">
-                お役立ち記事を読む
+              <Link href="/diagnosis/" className="btn-outline text-base">
+                あなたに合う1社を無料診断
               </Link>
             </div>
           </div>
