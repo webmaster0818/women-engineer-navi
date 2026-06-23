@@ -62,3 +62,11 @@
 - review pageへ送客=CV導線＋ranking→reviewsの内部リンク欠落も補完(従来ranking→reviewsリンク0だった)。料金・エージェント紹介文言は不変更・追加要素のみ
 - 本番200/入口ナビ・reviews4リンクをcurl検証(CF cache遅延に注意・cache-bust再確認)。sitemap lastmod更新
 - 残④: ranking入口の他状況(年収/産育/年代/職種別)拡張・reviewsへの導線太化。残: GSC観測後の刈り取り(育成事業タイトル最適化の効果確認)・③DB職種別完全表
+
+## 2026-06-23 診断ツール新設✅（MediaXAI「診断ツール行こう」）
+- /diagnosis/ 新設: app/diagnosis/Diagnosis.tsx(use client・6問スコアリング→転職エージェント8社から相性提案)+page.tsx(metadata/FAQ schema/8社特徴グリッド/CTA)。質問=経験段階/重視サポート/働き方/領域/進め方/状況→各社の事実ベース特徴(workport=未経験育成/reworks=フルリモート/type-woman=女性特化/levtech=IT専門/recruit=求人数/doda=総合/geekly=ゲーム/green=カジュアル)で加点
+- 診断結果→各社レビュー(/reviews/<slug>/)+ランキングへ送客=CV導線。クライアント側完結=コストゼロ。「相性の目安/個人差/2〜3社併用」明記で景表法配慮
+- 導線: Headerナビに「エージェント診断」追加(全120ページ)、トップヒーロー2ボタン目を診断に、ranking状況ナビ末に診断CTA
+- デザインはエディトリアル(クリーム×ローズプラム×ゴールド)に統一・絵文字不使用。sole-lab診断と同手法
+- 本番200/PC・スマホ実機スクショ/送客先8社200/sitemap116(/diagnosis/追加)をcurl検証。deploy=women-engineer-navi-deploy両push済
+- 残: 質問拡充・GSC観測後の結果ページ最適化・④ranking他状況拡張
