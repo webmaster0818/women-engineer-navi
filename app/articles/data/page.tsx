@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "女性ITエンジニアの転職データ集｜年収・割合・育休・求人倍率【出典つき2026年】",
+    "女性ITエンジニアの転職データ集｜年収（年代・言語・職種別）・割合・育休・求人倍率【出典つき2026年】",
   description:
-    "女性ITエンジニアの平均年収（年代別・言語別）、業界の女性比率、IT人材の求人倍率、情報通信業の育休取得率・テレワーク導入率を、公的統計や調査の出典つきでまとめたデータ集。転職判断やキャリア設計の根拠としてご活用ください。",
+    "女性ITエンジニアの平均年収（年代別・言語別・主要12職種別）、業界の女性比率、IT人材の求人倍率、情報通信業の育休取得率・テレワーク導入率を、公的統計や調査の出典つきでまとめたデータ集。転職判断やキャリア設計の根拠としてご活用ください。",
   alternates: { canonical: "/articles/data/" },
   openGraph: {
     title: "女性ITエンジニアの転職データ集｜年収・割合・育休・求人倍率【出典つき】",
@@ -26,7 +26,7 @@ const structuredData = {
   description:
     "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を公的統計・調査の出典つきで集約したデータ集。",
   datePublished: "2026-06-21",
-  dateModified: "2026-06-21",
+  dateModified: "2026-06-27",
   author: { "@type": "Organization", name: "CareeHUB for woman 編集部" },
   publisher: {
     "@type": "Organization",
@@ -91,8 +91,37 @@ export default function DataPage() {
             </table>
           </div>
           <p className="mt-2 text-xs text-text-light">出典：各言語の求人・フリーランス単価調査（2025年版）をもとに作成（参照：2026年6月）。</p>
+
+          <h3 className="mt-6 text-base font-bold text-text">職種別の年収目安（主要IT職種12種）</h3>
+          <p className="mt-2 text-sm text-text-light leading-[1.9]">
+            主要なIT職種の平均年収の目安を、高い順に一覧化しました。同じ職種でも、自社開発・SaaS・外資ほど高く、SES・多重下請けでは低めになる傾向があります。
+          </p>
+          <div className="mt-2 overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead><tr className="bg-primary"><th className={th}>職種</th><th className={th}>平均年収の目安</th><th className={th}>水準</th></tr></thead>
+              <tbody>
+                {([
+                  ["SRE / クラウド","約660万円","高め"],
+                  ["データサイエンティスト","約650万円〜","高め"],
+                  ["セキュリティエンジニア","約629万円","高め"],
+                  ["ITコンサルタント","約595万円","高め"],
+                  ["プロジェクトマネージャー","約550万〜750万円","高め"],
+                  ["QAエンジニア","約550万〜700万円","高め"],
+                  ["データエンジニア（DB）","約544万円","中位〜高め"],
+                  ["フロントエンド","約523万円","中位"],
+                  ["システムエンジニア / 社内SE","約516万円","中位"],
+                  ["ソフトウェアエンジニア","約511万円","中位"],
+                  ["バックエンド","約500万〜520万円","中位"],
+                  ["インフラエンジニア","約497万円","入門〜中位"],
+                ] as [string,string,string][]).map(([job,sal,lv],i)=>(
+                  <tr key={job} className={`border-b border-border ${i%2?"bg-[#f0e7dd]":"bg-white"}`}><td className={`${td} font-bold`}>{job}</td><td className={td}>{sal}</td><td className={td}>{lv}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-2 text-xs text-text-light">出典：求人ボックス・Morgan McKinley・各種転職メディアの2026年データをもとに作成（参照：2026年6月）。企業規模・地域・経験・スキルにより変動します。</p>
           <p className="mt-3 text-sm text-text-light">
-            職種別の年収は
+            各職種の詳しい解説・女性視点のメモ・年収を上げる方法は
             <Link href="/articles/salary-by-job/" className="link-underline text-primary font-medium">職種別の年収ガイド</Link>
             、年代別の詳細は
             <Link href="/articles/salary-by-age/" className="link-underline text-primary font-medium">年代別の年収ガイド</Link>

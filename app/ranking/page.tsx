@@ -607,6 +607,7 @@ export default function RankingPage() {
                 { q: "幅広い求人から総合的に比較", a: "doda", href: "/reviews/doda/", d: "業界2位の求人数を誇る総合型" },
                 { q: "ゲーム業界も視野に入れたい", a: "Geekly", href: "/reviews/geekly/", d: "IT・Web・ゲーム業界に特化" },
                 { q: "自分のペースでカジュアルに探す", a: "Green", href: "/reviews/green/", d: "IT業界のカジュアル転職" },
+                { q: "産休・育休と両立して長く働きたい", a: "type女性の転職エージェント", href: "/reviews/type-woman/", d: "女性のライフイベント・両立支援に知見" },
               ].map((c) => (
                 <Link key={c.href} href={c.href} className="block rounded-lg border border-border bg-white p-4 hover:border-primary transition-colors group">
                   <p className="text-xs font-bold text-secondary">{c.q}</p>
@@ -618,6 +619,17 @@ export default function RankingPage() {
             <p className="mt-4 text-xs text-text-light">
               ※ 各社の詳しい比較は下のランキングをご覧ください。2〜3社の併用が効果的です。
             </p>
+
+            <div className="mt-6 rounded-lg border border-border bg-[#f0e7dd] p-4">
+              <p className="text-xs font-bold text-secondary">年代・職種から相場を知ってから選ぶ</p>
+              <p className="mt-1 text-xs text-text-light">あなたの年代・目指す職種の年収相場を、出典つきデータで確認してから相談先を選べます。</p>
+              <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <Link href="/articles/salary-by-age/" className="block rounded border border-border bg-white px-3 py-2 text-xs font-bold text-text hover:text-primary hover:border-primary transition-colors">年代別の年収相場（20〜40代）</Link>
+                <Link href="/articles/salary-by-job/" className="block rounded border border-border bg-white px-3 py-2 text-xs font-bold text-text hover:text-primary hover:border-primary transition-colors">職種別の年収相場（主要12職種）</Link>
+                <Link href="/articles/data/" className="block rounded border border-border bg-white px-3 py-2 text-xs font-bold text-text hover:text-primary hover:border-primary transition-colors">女性ITエンジニア データ集</Link>
+              </div>
+            </div>
+
             <div className="mt-5 text-center">
               <Link href="/diagnosis/" className="btn-cta text-sm">
                 6つの質問であなたに合う1社を無料診断する
