@@ -70,3 +70,9 @@
 - デザインはエディトリアル(クリーム×ローズプラム×ゴールド)に統一・絵文字不使用。sole-lab診断と同手法
 - 本番200/PC・スマホ実機スクショ/送客先8社200/sitemap116(/diagnosis/追加)をcurl検証。deploy=women-engineer-navi-deploy両push済
 - 残: 質問拡充・GSC観測後の結果ページ最適化・④ranking他状況拡張
+
+## 2026-06-27 次工程A+B（MediaXAI「AB進めよう」＝戦略次工程のA収益核強化+B一次データmoat）✅
+- B(推奨/moat): /articles/data/ に「職種別の年収目安（主要IT職種12種）」完全表を新設。SRE/クラウド660・データサイエンティスト650〜・セキュリティ629・ITコンサル595・PM550-750・QA550-700・データエンジニア544・フロントエンド523・社内SE516・ソフトウェア511・バックエンド500-520・インフラ497万。★数値は既存 salary-by-job のcanonical表と同一の出典(求人ボックス・Morgan McKinley・2026)で統一＝架空ゼロ・矛盾なし。metadata/構造化dateModified更新。これで年代別/言語別/職種別/女性比率/求人倍率/育休を束ねる一次データの核に
+- A(収益核): ranking状況別ナビに「産休・育休と両立→type女性」を追加(8→9状況・reviews導線+1)。ナビ直下に「年代・職種から相場を知ってから選ぶ」入口(salary-by-age/salary-by-job/data へ)を新設＝収益核rankingとB一次データDBを接続。★年代別/職種別は1社に紐付けると不正確なため相場ガイド入口として実装(産育両立のみtype女性へ正確マッピング)
+- 架空データなし・料金/エージェント紹介文言/ranking・reviews本体不変更(追加のみ)。build/sitemap lastmod2件(data,ranking)・deploy=women-engineer-navi-deploy両push・本番200をcache回避curl検証・GSC再送信
+- 残: A状況ナビさらに拡張(年収アップ/時短)/Bに職種別需要・求人状況を出典つき追加(公開統計の範囲)/GSC観測後の刈り取り

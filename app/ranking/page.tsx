@@ -608,6 +608,8 @@ export default function RankingPage() {
                 { q: "ゲーム業界も視野に入れたい", a: "Geekly", href: "/reviews/geekly/", d: "IT・Web・ゲーム業界に特化" },
                 { q: "自分のペースでカジュアルに探す", a: "Green", href: "/reviews/green/", d: "IT業界のカジュアル転職" },
                 { q: "産休・育休と両立して長く働きたい", a: "type女性の転職エージェント", href: "/reviews/type-woman/", d: "女性のライフイベント・両立支援に知見" },
+                { q: "時短・ワークライフバランスを重視したい", a: "ReWorks", href: "/reviews/reworks/", d: "フルリモートで時間に融通がききやすい" },
+                { q: "年収交渉・ハイクラス転職を狙う", a: "レバテックキャリア", href: "/reviews/levtech/", d: "IT特化で年収交渉・市場価値の提示に強い" },
               ].map((c) => (
                 <Link key={c.href} href={c.href} className="block rounded-lg border border-border bg-white p-4 hover:border-primary transition-colors group">
                   <p className="text-xs font-bold text-secondary">{c.q}</p>

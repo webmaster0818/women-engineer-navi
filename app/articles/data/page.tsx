@@ -26,7 +26,7 @@ const structuredData = {
   description:
     "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を公的統計・調査の出典つきで集約したデータ集。",
   datePublished: "2026-06-21",
-  dateModified: "2026-06-27",
+  dateModified: "2026-06-28",
   author: { "@type": "Organization", name: "CareeHUB for woman 編集部" },
   publisher: {
     "@type": "Organization",
@@ -145,6 +145,30 @@ export default function DataPage() {
             女性エンジニアはまだ少数派ですが、IT人材は慢性的に不足しており、求人倍率は高水準です。需要の詳細は
             <Link href="/articles/demand/" className="link-underline text-primary font-medium">女性エンジニアの需要データ</Link>
             をご覧ください。
+          </p>
+
+          <h3 className="mt-6 text-base font-bold text-text">職種・分野別の需要シグナル</h3>
+          <p className="mt-2 text-sm text-text-light leading-[1.9]">
+            職種ごとの公的な求人倍率は細分データが乏しいため、「不足度」「年収プレミアム」という需給シグナルで需要の高い分野を示します（いずれも出典つきの公開データ）。
+          </p>
+          <div className="mt-2 overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead><tr className="bg-primary"><th className={th}>分野・対象</th><th className={th}>需給シグナル</th><th className={th}>出典</th></tr></thead>
+              <tbody>
+                <tr className="border-b border-border bg-white"><td className={td}>DX推進人材（クラウド・データ活用・AI関連）</td><td className={td}>量が「大幅に不足」とする企業 58.5%</td><td className={td}>IPA「DX動向2025」</td></tr>
+                <tr className="border-b border-border bg-[#f0e7dd]"><td className={td}>IT人材全体</td><td className={td}>2030年に最大約79万人不足（低位試算でも約45万人）</td><td className={td}>経済産業省「IT人材需給に関する調査」</td></tr>
+                <tr className="border-b border-border bg-white"><td className={td}>IT・通信エンジニア（経験者含む）</td><td className={td}>転職求人倍率 10.68倍（全職種平均を大きく上回る）</td><td className={td}>パーソルキャリア「doda転職求人倍率レポート」2026年3月</td></tr>
+                <tr className="border-b border-border bg-[#f0e7dd]"><td className={td}>高需要職種（クラウド/SRE・データ/AI・セキュリティ）</td><td className={td}>平均年収より約200万円高い水準＝需要の強さの表れ</td><td className={td}>doda「平均年収ランキング2025」ほか</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-2 text-xs text-text-light">参照：2026年6月。求人倍率10.68倍は経験者を含むIT・通信全体の値で、未経験はこの限りではありません。「79万人不足」は高位シナリオの値です。</p>
+          <p className="mt-3 text-sm text-text-light leading-[1.9]">
+            とくに<strong>クラウド/SRE・データ/AI・セキュリティ</strong>は「不足度が高い × 年収が高い」分野で、未経験から狙う場合もインフラ運用などの入口職種から段階的に移行しやすいのが特徴です。職種ごとの相場は
+            <Link href="/articles/salary-by-job/" className="link-underline text-primary font-medium">職種別の年収ガイド</Link>
+            、需要の背景は
+            <Link href="/articles/demand/" className="link-underline text-primary font-medium">需要データ</Link>
+            で解説しています。
           </p>
         </section>
 
