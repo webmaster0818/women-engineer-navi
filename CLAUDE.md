@@ -76,3 +76,9 @@
 - A(収益核): ranking状況別ナビに「産休・育休と両立→type女性」を追加(8→9状況・reviews導線+1)。ナビ直下に「年代・職種から相場を知ってから選ぶ」入口(salary-by-age/salary-by-job/data へ)を新設＝収益核rankingとB一次データDBを接続。★年代別/職種別は1社に紐付けると不正確なため相場ガイド入口として実装(産育両立のみtype女性へ正確マッピング)
 - 架空データなし・料金/エージェント紹介文言/ranking・reviews本体不変更(追加のみ)。build/sitemap lastmod2件(data,ranking)・deploy=women-engineer-navi-deploy両push・本番200をcache回避curl検証・GSC再送信
 - 残: A状況ナビさらに拡張(年収アップ/時短)/Bに職種別需要・求人状況を出典つき追加(公開統計の範囲)/GSC観測後の刈り取り
+
+## 2026-06-28 次工程A+B第2弾（MediaXAI「AとBともに進めたい」）✅
+- B: /articles/data/ 需給セクションに「職種・分野別の需要シグナル」表を新設。DX推進人材(クラウド/データ/AI)が量的「大幅に不足」企業58.5%(IPA DX動向2025)・IT人材2030年最大79万人不足/低位45万人(経産省)・転職求人倍率10.68倍(doda 2026年3月)・高需要職種は平均年収より約200万円高い(doda)。★職種別の公的求人倍率は細分データ無→数値捏造せず「不足度/年収プレミアム」の出典ある需給シグナルで表現。demand記事と同一出典で整合。dateModified 2026-06-28
+- A: ranking状況ナビに「時短・WLB→ReWorks」「年収交渉・ハイクラス→levtech」追加(9→11状況)。全8社に状況入口・reworks/type-woman/levtechは2入口=reviews導線増。各マッピングは事実ベース・誇張なし
+- 架空データなし・料金/エージェント文言/ranking・reviews本体不変更(追加のみ)。build/sitemap lastmod2件(data,ranking)→2026-06-28・deploy両push・本番200 cache回避curl検証・GSC再送信
+- 残: A=地方/Uターン・第二新卒等の状況追加や診断設問拡充/B=ロールモデル・資格×年収/GSC観測後の刈り取り

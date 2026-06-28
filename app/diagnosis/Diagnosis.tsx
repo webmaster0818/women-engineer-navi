@@ -135,6 +135,22 @@ const QUESTIONS: {
       { label: "育児・家庭と両立したい", scores: { typewoman: 2, reworks: 1 } },
     ],
   },
+  {
+    q: "希望する勤務地・住まいの状況は？",
+    options: [
+      { label: "地方在住・Uターンで地元を離れず働きたい", scores: { reworks: 2, doda: 1 } },
+      { label: "都市部で求人の選択肢を最大化したい", scores: { recruit: 2, doda: 1 } },
+      { label: "場所にはこだわらず良い求人を探したい", scores: { green: 1, levtech: 1 } },
+    ],
+  },
+  {
+    q: "現在の就業状況に近いのは？",
+    options: [
+      { label: "在職中で、自分のペースで情報収集したい", scores: { green: 2, doda: 1 } },
+      { label: "早く次を決めたい（離職中・期限がある）", scores: { recruit: 2, workport: 1 } },
+      { label: "社会人経験が浅い（第二新卒・20代前半）", scores: { workport: 2, doda: 1 } },
+    ],
+  },
 ];
 
 const ZERO: Record<Key, number> = {

@@ -634,7 +634,7 @@ export default function RankingPage() {
 
             <div className="mt-5 text-center">
               <Link href="/diagnosis/" className="btn-cta text-sm">
-                6つの質問であなたに合う1社を無料診断する
+                8つの質問であなたに合う1社を無料診断する
               </Link>
             </div>
           </div>
