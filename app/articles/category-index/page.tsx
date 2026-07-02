@@ -237,6 +237,7 @@ const categories: Category[] = [
       { href: "/articles/type-vs-doda/", title: "type女性の転職エージェントとdodaの違い" },
       { href: "/articles/workport-vs-recruit/", title: "ワークポートとリクルートエージェントの違い" },
       { href: "/articles/green-vs-reworks/", title: "GreenとReWorksの違い" },
+      { href: "/articles/techgo-career-mendan/", title: "テックゴーの無料キャリア面談とは" },
     ],
   },
   {

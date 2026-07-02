@@ -82,3 +82,10 @@
 - A: ranking状況ナビに「時短・WLB→ReWorks」「年収交渉・ハイクラス→levtech」追加(9→11状況)。全8社に状況入口・reworks/type-woman/levtechは2入口=reviews導線増。各マッピングは事実ベース・誇張なし
 - 架空データなし・料金/エージェント文言/ranking・reviews本体不変更(追加のみ)。build/sitemap lastmod2件(data,ranking)→2026-06-28・deploy両push・本番200 cache回避curl検証・GSC再送信
 - 残: A=地方/Uターン・第二新卒等の状況追加や診断設問拡充/B=ロールモデル・資格×年収/GSC観測後の刈り取り
+
+## 2026-06-28 A 診断ツール設問拡充6→8問（MediaXAI「Aで！」）✅
+- ★判断: 地方/Uターン・第二新卒は ranking状況ナビ(11状況で飽和)に追加せず診断設問に入れた(多因子で効く条件は診断向き・不正確な1対1マッピング量産を回避)
+- Diagnosis.tsx に2問追加: Q7「希望する勤務地・住まいの状況」(地方/Uターン→reworks/doda・都市部→recruit/doda・場所問わず→green/levtech)、Q8「現在の就業状況」(在職中→green/doda・早く決めたい→recruit/workport・第二新卒→workport/doda)。入口の弱かったdoda/recruit/green/workportへ自然分散しスコア精度UP
+- 「6つの質問」→「8つの質問」を全箇所統一(diagnosis page meta/FAQ/h・ranking CTA)。Diagnosis.tsxはQUESTIONS.length動的なので進捗バー/件数は自動。クライアント完結=コストゼロ
+- 架空データなし・料金/エージェント文言不変更。build/sitemap lastmod(diagnosis,ranking)→2026-06-28・deploy両push・本番200+診断JSチャンク(0udr...)に新設問反映をcurl検証・GSC再送信
+- 残: 診断結果ページ最適化(結果別2社目提案等)/A状況ナビは飽和で据置推奨/GSC観測後の刈り取り(育成事業・データ集・診断の順位変化)

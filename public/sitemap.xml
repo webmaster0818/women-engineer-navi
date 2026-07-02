@@ -43,6 +43,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://women-engineer.com/reviews/techgo/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/techgo-career-mendan/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://women-engineer.com/reviews/doda/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -488,7 +500,7 @@
   </url>
   <url>
     <loc>https://women-engineer.com/articles/category-index/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
