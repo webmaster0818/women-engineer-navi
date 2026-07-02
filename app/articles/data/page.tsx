@@ -203,6 +203,19 @@ export default function DataPage() {
           </p>
         </section>
 
+        {/* 引用・転載について */}
+        <section className="mt-6 bg-white border border-border rounded-sm p-5">
+          <h2 className="text-base font-bold text-text">引用・転載について</h2>
+          <p className="mt-2 text-xs text-text-light leading-[1.9]">
+            本ページの表・整理データは、出典（当ページURL）を明記いただければ、記事・資料への引用を歓迎します。数値そのものの一次出典（厚生労働省・経済産業省等）も併記いただくと正確です。
+          </p>
+          <p className="mt-3 text-xs font-bold text-text">クレジット表記の例</p>
+          <pre className="mt-1 overflow-x-auto rounded bg-[#f0e7dd] p-3 text-[11px] leading-relaxed text-text-light">{`出典: CareeHUB for woman「女性ITエンジニア データ集」
+https://women-engineer.com/articles/data/`}</pre>
+          <p className="mt-3 text-xs font-bold text-text">リンク付きHTMLスニペット（コピーしてお使いください）</p>
+          <pre className="mt-1 overflow-x-auto rounded bg-[#f0e7dd] p-3 text-[11px] leading-relaxed text-text-light">{`<a href="https://women-engineer.com/articles/data/">出典: CareeHUB for woman「女性ITエンジニア データ集」</a>`}</pre>
+        </section>
+
         {/* CTA */}
         <section className="mt-10 text-center">
           <p className="text-text-light text-sm">データをふまえて、次のキャリアを相談してみませんか？</p>

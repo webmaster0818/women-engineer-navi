@@ -4,7 +4,7 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "【2026年最新】女性エンジニアにおすすめの転職エージェント8選を徹底比較",
+    "【2026年最新】女性エンジニアにおすすめの転職エージェント・転職サイト8選を徹底比較",
   description:
     "女性エンジニアにおすすめの転職エージェント8社を徹底比較。産休育休取得率・リモートワーク率・女性アドバイザー有無など独自基準でランキング。IT特化型から女性特化型まで、あなたに最適なエージェントが見つかります。",
   keywords:
@@ -544,12 +544,12 @@ export default function RankingPage() {
       <section className="section-primary-light py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm text-primary font-bold mb-3">
-            2026年4月最新
+            2026年7月更新
           </p>
           <h1 className="text-2xl md:text-4xl font-bold leading-tight">
             女性エンジニアにおすすめの
             <br />
-            <span className="text-gradient">転職エージェント8選</span>
+            <span className="text-gradient">転職エージェント・転職サイト8選</span>
             を徹底比較
           </h1>
           <p className="mt-4 text-text-light leading-relaxed">
@@ -630,6 +630,14 @@ export default function RankingPage() {
                 <Link href="/articles/salary-by-job/" className="block rounded border border-border bg-white px-3 py-2 text-xs font-bold text-text hover:text-primary hover:border-primary transition-colors">職種別の年収相場（主要12職種）</Link>
                 <Link href="/articles/data/" className="block rounded border border-border bg-white px-3 py-2 text-xs font-bold text-text hover:text-primary hover:border-primary transition-colors">女性ITエンジニア データ集</Link>
               </div>
+            </div>
+
+            <div className="mt-4 rounded-lg border border-border bg-[#f0e7dd] p-4">
+              <p className="text-xs font-bold text-secondary">未経験の方は公的支援もチェック</p>
+              <p className="mt-1 text-xs text-text-light">
+                東京都の「女性ITエンジニア育成事業」は受講料無料でITスキル研修と就職支援を受けられる公的事業です。
+                <Link href="/articles/tokyo-women-training/" className="ml-1 underline font-bold text-primary">対象者・内容・申込方法の解説はこちら</Link>
+              </p>
             </div>
 
             <div className="mt-5 text-center">

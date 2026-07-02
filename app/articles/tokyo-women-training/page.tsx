@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   datePublished: "2026-06-12",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-02",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -151,7 +151,18 @@ export default function ArticlePage() {
               </li>
             </ul>
             <p className="text-xs text-text-light mt-4">
-              出典: <a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>令和8年度女性ITエンジニア育成事業 公式サイト</a>（2026年6月参照）
+              出典: <a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>令和8年度女性ITエンジニア育成事業 公式サイト</a>（2026年7月参照）
+            </p>
+          </div>
+
+          <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月2日 公式サイト確認）</h2>
+            <ul className="space-y-2 text-sm leading-relaxed">
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>前期（2期生・2026年7月初旬 受講開始）:</strong> プログラミングコースは「残りわずか」、インフラクラウドコースは募集終了。前期の募集は2期生をもって終了です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（1期生・2026年8月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集中です。</span></li>
+            </ul>
+            <p className="text-xs text-text-light mt-3">
+              ※募集状況は変動します。最新の空き状況は必ず<a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
             </p>
           </div>
         </div>
@@ -248,7 +259,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-xs text-text-light mt-4">
-            出典: <a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>令和8年度女性ITエンジニア育成事業 公式サイト</a>／<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/jyosei_en/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>（いずれも2026年6月参照）。募集状況・定員は期ごとに変わるため、必ず公式サイトで最新情報を確認してください。
+            出典: <a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>令和8年度女性ITエンジニア育成事業 公式サイト</a>／<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/jyosei_en/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>（いずれも2026年7月参照）。募集状況・定員は期ごとに変わるため、必ず公式サイトで最新情報を確認してください。
           </p>
         </div>
       </section>

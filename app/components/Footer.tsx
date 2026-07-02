@@ -20,6 +20,7 @@ const footerLinks = [
       { href: "/articles/age-30s/", label: "年代別の転職" },
       { href: "/articles/remote-jobs/", label: "リモート・働き方" },
       { href: "/articles/mama-engineer/", label: "産休育休・両立" },
+      { href: "/articles/tokyo-women-training/", label: "東京都の育成事業（公的支援）" },
     ],
   },
   {
