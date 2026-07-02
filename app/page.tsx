@@ -197,6 +197,49 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Pickup agent */}
+      <section className="py-20 md:py-28">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="max-w-2xl">
+            <p className="eyebrow">Pickup</p>
+            <h2 className="mt-5 text-2xl md:text-[2.1rem] text-text leading-snug">
+              注目の<span className="text-gradient">IT特化エージェント</span>
+            </h2>
+          </div>
+          <div className="mt-12 grid md:grid-cols-12 gap-8 items-center border border-border rounded-sm bg-[#fffaf4] p-8 md:p-10">
+            <div className="md:col-span-7">
+              <p
+                className="text-xs tracking-[0.2em] text-secondary uppercase"
+                style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}
+              >
+                New Review
+              </p>
+              <h3
+                className="mt-4 text-xl md:text-2xl text-text"
+                style={{ fontFamily: "var(--font-shippori), serif" }}
+              >
+                テックゴー（TechGo）
+              </h3>
+              <p className="mt-5 text-sm md:text-base text-text-light leading-[2]">
+                ITエンジニア転職に特化した転職エージェント。開発現場出身のアドバイザーによる企業別の選考対策と年収交渉力が強みで、公式サイトでは年収アップ金額
+                平均138万円※を掲げています。経験を活かして年収を上げたい方は、まず無料キャリア面談で市場価値の把握から。
+              </p>
+              <p className="mt-3 text-xs text-text-light">
+                ※2025年6〜7月において内定承諾をし、年収アップを実現された方の平均実績（テックゴー公式サイトの表記に基づく）
+              </p>
+            </div>
+            <div className="md:col-span-5 flex flex-col gap-4">
+              <Link href="/reviews/techgo/" className="btn-cta text-base text-center">
+                テックゴーの口コミ・評判を読む
+              </Link>
+              <Link href="/articles/techgo-career-mendan/" className="btn-outline text-base text-center">
+                無料キャリア面談の内容を知る
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Browse by theme */}
       <section className="py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-4">
