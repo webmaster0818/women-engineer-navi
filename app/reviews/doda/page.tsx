@@ -168,6 +168,7 @@ export default function DodaReviewPage() {
                 ))}
               </tbody>
             </table>
+          <p className="text-xs text-text-light mt-3">※基本情報は当サイト調査時点のものです。求人数・サービス内容は変動するため、最新情報はdoda公式サイトをご確認ください。</p>
           </div>
         </div>
       </section>
