@@ -8,6 +8,7 @@ const footerLinks = [
       { href: "/articles/category-index/", label: "記事一覧" },
       { href: "/articles/faq-all/", label: "よくある質問" },
       { href: "/articles/data/", label: "データ集（年収・育休・求人倍率）" },
+      { href: "/diagnosis/", label: "エージェント無料診断" },
       { href: "/articles/beginner/", label: "未経験からエンジニアへ" },
       { href: "/articles/salary/", label: "年収ガイド" },
     ],
@@ -29,6 +30,7 @@ const footerLinks = [
       { href: "/terms/", label: "利用規約" },
       { href: "/privacy-policy/", label: "プライバシーポリシー" },
       { href: "/content-policy/", label: "記事制作ポリシー" },
+      { href: "/sitemap/", label: "サイトマップ" },
     ],
   },
 ];
