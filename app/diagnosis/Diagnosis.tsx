@@ -83,6 +83,41 @@ const AGENTS: Record<
   },
 };
 
+const RELATED: Record<Key, { href: string; label: string }[]> = {
+  workport: [
+    { href: "/articles/beginner/", label: "未経験からエンジニアになる現実のロードマップ" },
+    { href: "/articles/tokyo-women-training/", label: "東京都の女性ITエンジニア育成事業（受講料無料）" },
+  ],
+  reworks: [
+    { href: "/articles/remote-jobs/", label: "在宅・リモート転職ガイド" },
+    { href: "/articles/regional-remote/", label: "地方在住×フルリモートで転職する" },
+  ],
+  typewoman: [
+    { href: "/articles/mama-engineer/", label: "ママエンジニアの働き方ガイド" },
+    { href: "/articles/after-maternity/", label: "産休・育休後の転職｜復帰と転職の判断基準" },
+  ],
+  levtech: [
+    { href: "/articles/salary/", label: "女性エンジニアの年収実データと年収アップ術" },
+    { href: "/articles/negotiation/", label: "年収交渉術｜タイミングと伝え方" },
+  ],
+  recruit: [
+    { href: "/articles/how-to-choose/", label: "転職エージェントの選び方7つのチェックポイント" },
+    { href: "/articles/schedule/", label: "転職活動のスケジュールと期間の目安" },
+  ],
+  doda: [
+    { href: "/articles/agent-vs-site/", label: "転職エージェントと転職サイトの違い" },
+    { href: "/articles/how-to-choose/", label: "転職エージェントの選び方7つのチェックポイント" },
+  ],
+  geekly: [
+    { href: "/articles/game-industry/", label: "ゲーム業界へ転職するガイド" },
+    { href: "/articles/salary-by-job/", label: "職種別の年収相場（主要12職種）" },
+  ],
+  green: [
+    { href: "/articles/casual-interview/", label: "カジュアル面談の活用ガイド" },
+    { href: "/articles/job-hunting-while-employed/", label: "在職中の転職活動の進め方" },
+  ],
+};
+
 const QUESTIONS: {
   q: string;
   options: { label: string; scores: Partial<Record<Key, number>> }[];
@@ -183,8 +218,11 @@ export default function Diagnosis() {
   };
 
   const done = step >= QUESTIONS.length;
-  const best = (Object.keys(scores) as Key[]).sort((a, b) => scores[b] - scores[a])[0];
+  const ranked = (Object.keys(scores) as Key[]).sort((a, b) => scores[b] - scores[a]);
+  const best = ranked[0];
   const result = AGENTS[best];
+  const second = AGENTS[ranked[1]];
+  const related = RELATED[best];
 
   if (done) {
     return (
@@ -203,6 +241,29 @@ export default function Diagnosis() {
           <Link href="/ranking/" className="btn-outline text-sm">
             ランキングで全社を比較する
           </Link>
+        </div>
+        <div className="mt-6 rounded-lg border border-border bg-[#fffaf4] p-4 text-left">
+          <p className="text-xs font-bold text-secondary">2社目の候補（併用がおすすめ）</p>
+          <p className="mt-1.5 text-sm text-text">
+            <span className="font-bold" style={{ color: second.accent }}>{second.name}</span>
+            <span className="ml-2 text-xs text-text-light">{second.tagline}</span>
+          </p>
+          <p className="mt-1.5 text-xs text-text-light leading-relaxed">
+            エージェントは2〜3社を併用すると求人の幅と比較の精度が上がります。
+            <Link href={second.href} className="ml-1 underline font-semibold text-primary">
+              {second.name}の詳細・口コミを見る
+            </Link>
+          </p>
+        </div>
+        <div className="mt-4 rounded-lg border border-border bg-white p-4 text-left">
+          <p className="text-xs font-bold text-secondary">あなたの結果に合わせて読みたい記事</p>
+          <div className="mt-2 space-y-1.5">
+            {related.map((r) => (
+              <Link key={r.href} href={r.href} className="block text-sm text-text hover:text-primary underline-offset-2 hover:underline">
+                → {r.label}
+              </Link>
+            ))}
+          </div>
         </div>
         <button
           type="button"
