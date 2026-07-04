@@ -150,7 +150,7 @@ export default function ReworksReviewPage() {
               <tbody>
                 {[
                   ["サービス名", "ReWorks（リワークス）"],
-                  ["運営会社", "株式会社デイトラ"],
+                  ["運営会社", "株式会社アイドマ・ホールディングス"],
                   ["タイプ", "フルリモート特化型転職サイト"],
                   ["求人数", "非公開"],
                   ["対応エリア", "全国（フルリモートのため場所不問）"],
@@ -160,7 +160,7 @@ export default function ReworksReviewPage() {
                   ["リモート求人", "100%（フルリモート特化）"],
                   ["産休育休", "フルリモート企業のため柔軟な制度が多い"],
                   ["研修制度", "未経験者向け無料研修あり"],
-                  ["公式サイト", "reworks.jp"],
+                  ["公式サイト", "rework-s.com"],
                 ].map(([label, value], i) => (
                   <tr key={label} className={i % 2 === 0 ? "bg-white" : ""} style={i % 2 !== 0 ? { backgroundColor: "#f0e7dd" } : {}}>
                     <th className="px-4 py-3 text-left text-sm font-bold w-40" style={{ borderBottom: "1px solid #d9c7b8", color: "#7c3a55" }}>{label}</th>
@@ -284,7 +284,7 @@ export default function ReworksReviewPage() {
           <div className="text-xs text-text-light mt-4 space-y-1">
             <p>出典・参考:</p>
             <ul className="list-disc pl-5 space-y-1">
-              <li><a href="https://reworks.jp/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">ReWorks公式サイト</a></li>
+              <li><a href="https://rework-s.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">ReWorks公式サイト</a></li>
               <li><a href="https://minhyo.jp/reworks" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">みん評 - ReWorksの口コミ・評判</a></li>
             </ul>
           </div>
@@ -427,7 +427,7 @@ export default function ReworksReviewPage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">ReWorksでフルリモートの理想の働き方を</h2>
           <p className="text-text-light mb-6">すべての求人がフルリモート。場所を選ばない新しい働き方を始めてみませんか？</p>
-          <a href="https://reworks.jp/" target="_blank" rel="noopener noreferrer" className="btn-cta">ReWorksに無料登録する</a>
+          <a href="https://rework-s.com/" target="_blank" rel="noopener noreferrer" className="btn-cta">ReWorksに無料登録する</a>
         </div>
       </section>
     </>
