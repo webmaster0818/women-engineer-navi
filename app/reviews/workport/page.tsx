@@ -175,6 +175,7 @@ export default function WorkportReviewPage() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-text-light mt-3">※基本情報は2026年7月に各社公式サイトで確認しています。求人数・サービス内容は変動するため、最新情報は公式サイトをご確認ください。</p>
         </div>
       </section>
 
