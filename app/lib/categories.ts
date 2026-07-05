@@ -75,6 +75,7 @@ export const categories: Category[] = [
     desc: "資格は転職の必須条件ではありませんが、未経験者の学習証明やキャリアアップの武器になります。まず資格マップで全体像を確認し、目的に合う個別資格の記事へ進んでください。",
     articles: [
       { href: "/articles/certification/", title: "資格ガイド｜目的別おすすめ資格マップ" },
+      { href: "/articles/cert-itpassport/", title: "ITパスポート試験ガイド" },
       { href: "/articles/cert-kihonjoho/", title: "基本情報技術者試験ガイド" },
       { href: "/articles/cert-oyojoho/", title: "応用情報技術者試験ガイド" },
       { href: "/articles/cert-aws/", title: "AWS認定資格ガイド" },

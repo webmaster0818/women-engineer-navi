@@ -158,7 +158,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">基本情報技術者試験とは（試験概要）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              基本情報技術者試験（FE：Fundamental Information Technology Engineer Examination）は、独立行政法人IPA（情報処理推進機構）が実施する<strong>国家試験</strong>です。経済産業省認定の情報処理技術者試験のひとつで、ITエンジニアの登竜門として広く認知されています。ITスキル標準（ITSS）では<strong>レベル2</strong>に位置づけられ、ITパスポート（レベル1）の一段上、応用情報技術者（レベル3）の一段下にあたります。
+              基本情報技術者試験（FE：Fundamental Information Technology Engineer Examination）は、独立行政法人IPA（情報処理推進機構）が実施する<strong>国家試験</strong>です。経済産業省認定の情報処理技術者試験のひとつで、ITエンジニアの登竜門として広く認知されています。ITスキル標準（ITSS）では<strong>レベル2</strong>に位置づけられ、<a href="/articles/cert-itpassport/" className="underline" style={{ color: "#7c3a55" }}>ITパスポート（レベル1）</a>の一段上、応用情報技術者（レベル3）の一段下にあたります。
             </p>
             <p>
               試験は<strong>「科目A試験」と「科目B試験」</strong>の2部構成。2023年度の制度改定で旧「午前・午後試験」から刷新され、出題数・試験時間がコンパクトになりました。最大の特徴は、<strong>通年のCBT（Computer Based Testing）方式</strong>であること。全国のテストセンターで、自分の都合のよい日時を選んで受験できます。年2回の一斉試験を待つ必要がないため、仕事や育児と両立しながら挑戦しやすいのが魅力です。

@@ -500,7 +500,7 @@
   </url>
   <url>
     <loc>https://women-engineer.com/articles/category-index/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -590,7 +590,13 @@
   </url>
   <url>
     <loc>https://women-engineer.com/articles/cert-kihonjoho/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://women-engineer.com/articles/cert-itpassport/</loc>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
