@@ -196,6 +196,9 @@ export const categories: Category[] = [
       { href: "/articles/training-benefit-it/", title: "教育訓練給付制度でITスキルを学ぶ（最大80%給付）" },
       { href: "/articles/hello-training-it/", title: "求職者支援訓練（ハロートレーニング）でITを学ぶ" },
       { href: "/articles/manabi-dx/", title: "マナビDX（経産省）の無料講座活用ガイド" },
+      { href: "/articles/saitama-women-training/", title: "埼玉県 女性のデジタル人材育成推進事業の解説（無料・在職中も可）" },
+      { href: "/articles/hitorioya-it-training/", title: "ひとり親のIT資格取得に使える給付金（高等職業訓練促進給付金）" },
+      { href: "/articles/women-digital-plan/", title: "新・女性デジタル人材育成プランとは（個人が使える支援への入口）" },
     ],
   },
   {

@@ -357,6 +357,7 @@ export default function ArticlePage() {
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>形式:</strong> オンライン（eラーニング・24時間視聴可）。基礎・応用講座は毎月開講、実践講座はライブ＋アーカイブ配信。月ごとの定員制</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>公式:</strong> <a href="https://woman-jobtraining-pref-saitama.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>woman-jobtraining-pref-saitama.com</a>（令和8年度、2026年7月参照）</span></li>
               </ul>
+              <p className="mt-3 text-sm"><a href="/articles/saitama-women-training/" className="font-bold underline" style={{ color: "#7c3a55" }}>→ 埼玉県事業の詳細解説（コース内容・申込の流れ）はこちら</a></p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">福岡県「でじたる女性プロジェクト」</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>事業終了表示（2026年7月確認）</span></div>
@@ -441,6 +442,8 @@ export default function ArticlePage() {
             <a href="/articles/hello-training-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ハロートレーニングでITを学ぶガイド</h3><p className="text-sm text-text-light">求職者支援訓練・月10万円給付金・コースの探し方</p></a>
             <a href="/articles/manabi-dx/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>マナビDX活用ガイド</h3><p className="text-sm text-text-light">無料講座の選び方・学習の始め方・活用手順</p></a>
             <a href="/articles/programming-school/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性向けプログラミングスクールの選び方</h3><p className="text-sm text-text-light">公的訓練と民間スクールの使い分けに</p></a>
+            <a href="/articles/hitorioya-it-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ひとり親のIT資格取得に使える給付金</h3><p className="text-sm text-text-light">高等職業訓練促進給付金（月10万円・デジタル分野）を解説</p></a>
+            <a href="/articles/women-digital-plan/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>新・女性デジタル人材育成プランとは</h3><p className="text-sm text-text-light">国のプランから個人が使える支援への入口を整理</p></a>
           </div>
         </div>
       </section>

@@ -145,3 +145,11 @@
 - クラスタ接続: sec6公的支援(manabi-dx/training-benefit-it/hello-training-it)+sec9→cert-kihonjoho/certification+関連4枚。逆リンク=cert-kihonjoho本文のITパスポート言及をリンク化+lib/categories.ts資格カテゴリ追加(category-index・/sitemap/に自動反映)
 - sitemap 124→125(cert-kihonjoho/category-index/sitemapのlastmodも更新)・tsc0・build成功・deploy両push・本番検証(200/48.6%/7,500円/導線3箇所/sitemap125)・GSC再送信
 - 残: v4 P1(テックゴーranking/診断組み込み=要判断)/P3(公的支援第2弾=GSC観測後)/P4(登録リクエスト後の再計測)
+
+## 2026-07-05 戦略v4 P1: テックゴー収益動線組み込み（MediaXAI「p1進めて」）✅
+- ranking 8社→9社化: agents配列にrank9テックゴー追加(公式確認値7/2のみ: MyVision/許可番号/1万件/年収UP138万・2025年6-7月実績/交渉成功率100%・2025年9月時点/20代+120万・30代+160万)。産休育休/リモート/女性アドバイザーは公式記載なし→「要確認」と正直記載。title/h1/比較表/状況ナビ(+年収交渉行)/typeRecommendations(+年収交渉ブロック)/トップ紹介文を9社/9選へ
+- 診断ツール9社化: Diagnosis.tsxにtechgo Key/AGENTS/RELATED(面談記事+negotiation)/ZERO追加、スコアはQ1経験者+1/Q3年収最優先+2/Q5専門特化+1/Q6 30代+1の控えめ設計(既存バランス維持)。diagnosis/page.tsxのmeta/グリッド/CTAも9社化
+- ★同時に7/4承認済み差異修正のranking未反映分を整合: levtech 48,000→約58,000(本文含む)/type-woman 29,000→38,000/geekly 30,000→46,000/green 30,000→約28,000/recruit 740,000→非公開含む約100万件(2026年6月時点・本文含む)。裏付け不能のリモート%を表・remoteRate・FAQ・levtech本文から撤去→「公式サイトに記載なし（要確認）」(reworks 100%特化のみ維持)。doda 240,000は公式到達不可のため据え置き
+- 🐛教訓: python挿入で`rfind('];')`が型定義`values: string[];`の`];`に誤マッチし配列外挿入→ビルド失敗。**配列末尾への挿入はユニークな前後アンカー文字列(直前要素+閉じ)で行う**
+- sitemap lastmod3件(/,ranking,diagnosis)・tsc0・build成功・deploy両push・本番検証(9社/9選・旧値0・診断JSチャンク直接curl・sitemap)・GSC再送信
+- 残: v4 P3(公的支援第2弾=GSC観測後)/P4(登録リクエスト後再計測)/テックゴーのアフィリンク支給あればCTA差し替え
