@@ -220,7 +220,7 @@ export default function ArticlePage() {
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>データ分析実践試験</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>11,000円<br />(学割6,600円)</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>13,200円<br />(学割6,600円)</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>正答率70%以上で合格</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>★★★ 分析実務寄り。データ分析試験の上位</td>
                 </tr>

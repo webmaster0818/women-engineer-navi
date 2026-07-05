@@ -95,6 +95,12 @@
 - ⚠️差異一覧をDiscordで承認依頼(id 1522812096319062077): 【実害】ReWorks運営会社誤り(デイトラ→アイドマHD)+公式URL誤り(reworks.jp=現在は無関係企業・CTA2箇所が誤誘導→正rework-s.com)【法令】type-woman「全員女性アドバイザー」公式根拠なし(男性掲載)・Green「30,000件以上」→28,668件で過大【乖離】recruit運営会社旧表記・「非公開80%」→実26%【過小】workport/geekly/levtech求人数【裏取り不能】各社「リモート求人◯%」全社→削除推奨
 - sitemap lastmod7件・deploy両push・本番注記検証・GSC再送信。承認後に公式現在値(出典付き)で一括修正予定
 
+## 2026-07-05 施策2: 発見性工事（MediaXAI「2すすめて」）✅
+- /sitemap/ 新設: 主要7+レビュー9+全記事14カテゴリ索引(記事リンク100本超)。categories配列をcategory-index/page.tsxからapp/lib/categories.tsへ抽出し単一ソース化(factoringのarticleCategoriesパターン)
+- Footer全ページに「エージェント無料診断」「サイトマップ」導線追加。sitemap.xml 123→124・deploy両push・本番(200/footerリンク/記事リンク104本)検証・GSC再送信
+- ※検証メモ: minified HTMLはgrep -cが行数カウントで偽陰性→`grep -o ... | sort -u | wc -l`で個数を数える
+- 残: 1.登録リクエスト20URL(MediaXAI)→実施後3-4日で再計測
+
 ## 2026-07-05 残タスク消化+実測→次アクション提案（MediaXAI「残タスク残ってる？」）
 - doda再突合: 依然全手段で到達不可→虚偽の確認日なしの標準変動注記のみ付与しデプロイ(残タスクゼロ化)
 - 優先20URL再検査: **インデックス4/20のみ・14件が「検出-未登録」=登録リクエスト未実施と判明**。factoringは同作業で33%→72%に倍増した実証あり
