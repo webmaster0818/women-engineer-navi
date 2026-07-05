@@ -11,7 +11,8 @@ type Key =
   | "recruit"
   | "doda"
   | "geekly"
-  | "green";
+  | "green"
+  | "techgo";
 
 const AGENTS: Record<
   Key,
@@ -73,6 +74,14 @@ const AGENTS: Record<
       "ゲーム・エンタメ業界も視野に入れたいあなたには、IT・Web・ゲーム業界に特化したGeeklyが向いています。専門領域に強いアドバイザーから的確な紹介を受けられます。",
     accent: "#bd8a3c",
   },
+  techgo: {
+    name: "テックゴー（TechGo）",
+    tagline: "年収交渉に強いIT特化型",
+    href: "/reviews/techgo/",
+    reason:
+      "実務経験を活かして年収を上げたいあなたには、年収交渉に強みを持つIT特化型のテックゴーが向いています。平均年収アップ138万円（2025年6〜7月実績）・交渉成功率100%（2025年9月時点）を公式サイトで公表しており、交渉を任せたい方の選択肢になります。",
+    accent: "#bd8a3c",
+  },
   green: {
     name: "Green（グリーン）",
     tagline: "IT業界のカジュアル転職",
@@ -116,6 +125,10 @@ const RELATED: Record<Key, { href: string; label: string }[]> = {
     { href: "/articles/casual-interview/", label: "カジュアル面談の活用ガイド" },
     { href: "/articles/job-hunting-while-employed/", label: "在職中の転職活動の進め方" },
   ],
+  techgo: [
+    { href: "/articles/techgo-career-mendan/", label: "テックゴーの無料キャリア面談を徹底解説" },
+    { href: "/articles/negotiation/", label: "年収交渉術｜タイミングと伝え方" },
+  ],
 };
 
 const QUESTIONS: {
@@ -126,7 +139,7 @@ const QUESTIONS: {
     q: "今のあなたの経験段階に近いのは？",
     options: [
       { label: "未経験からエンジニアを目指している", scores: { workport: 2, green: 1 } },
-      { label: "実務経験があり、キャリアアップしたい", scores: { levtech: 2, recruit: 1 } },
+      { label: "実務経験があり、キャリアアップしたい", scores: { levtech: 2, recruit: 1, techgo: 1 } },
       { label: "ブランクがあり、復職・再挑戦したい", scores: { typewoman: 2, workport: 1 } },
     ],
   },
@@ -143,7 +156,7 @@ const QUESTIONS: {
     options: [
       { label: "フルリモート中心で働きたい", scores: { reworks: 2 } },
       { label: "ワークライフバランス重視（時短・柔軟）", scores: { typewoman: 1, reworks: 1 } },
-      { label: "年収アップを最優先したい", scores: { levtech: 2, recruit: 1 } },
+      { label: "年収アップを最優先したい", scores: { levtech: 2, techgo: 2, recruit: 1 } },
     ],
   },
   {
@@ -159,14 +172,14 @@ const QUESTIONS: {
     options: [
       { label: "手厚く伴走してほしい", scores: { recruit: 1, typewoman: 1, workport: 1 } },
       { label: "自分のペースでカジュアルに", scores: { green: 2 } },
-      { label: "専門特化のエージェントに任せたい", scores: { levtech: 1, geekly: 1 } },
+      { label: "専門特化のエージェントに任せたい", scores: { levtech: 1, geekly: 1, techgo: 1 } },
     ],
   },
   {
     q: "あなたの状況に最も近いのは？",
     options: [
       { label: "20代でキャリアの土台を作りたい", scores: { workport: 1, green: 1 } },
-      { label: "30代で専門性・年収を高めたい", scores: { levtech: 2 } },
+      { label: "30代で専門性・年収を高めたい", scores: { levtech: 2, techgo: 1 } },
       { label: "育児・家庭と両立したい", scores: { typewoman: 2, reworks: 1 } },
     ],
   },
@@ -197,6 +210,7 @@ const ZERO: Record<Key, number> = {
   doda: 0,
   geekly: 0,
   green: 0,
+  techgo: 0,
 };
 
 export default function Diagnosis() {

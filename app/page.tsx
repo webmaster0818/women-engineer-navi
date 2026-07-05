@@ -311,7 +311,7 @@ export default function HomePage() {
             あなたに合うエージェントを、見つけよう
           </h2>
           <p className="mt-5 text-[#c4ab9e] leading-[2]">
-            女性エンジニアの転職に強い8社を、女性視点の6項目で徹底比較しています。
+            女性エンジニアの転職に強い9社を、女性視点の6項目で徹底比較しています。
           </p>
           <div className="mt-9">
             <Link href="/ranking/" className="btn-cta text-base">

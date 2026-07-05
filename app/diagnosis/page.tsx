@@ -6,12 +6,12 @@ import Diagnosis from "./Diagnosis";
 export const metadata: Metadata = {
   title: "女性エンジニア向け転職エージェント診断｜8つの質問で無料診断【2026年】",
   description:
-    "8つの質問に答えるだけで、女性エンジニアにおすすめの転職エージェント8社からあなたに合う1社を無料診断。経験段階・重視するサポート・働き方・志望領域から相性の良いエージェントが分かります。登録不要・完全無料。",
+    "8つの質問に答えるだけで、女性エンジニアにおすすめの転職エージェント9社からあなたに合う1社を無料診断。経験段階・重視するサポート・働き方・志望領域から相性の良いエージェントが分かります。登録不要・完全無料。",
   alternates: { canonical: "https://women-engineer.com/diagnosis/" },
   openGraph: {
     title: "女性エンジニア向け転職エージェント診断｜8つの質問で無料診断",
     description:
-      "8つの質問で、女性エンジニア向け転職エージェント8社からあなたに合う1社を無料診断。",
+      "8つの質問で、女性エンジニア向け転職エージェント9社からあなたに合う1社を無料診断。",
     url: "https://women-engineer.com/diagnosis/",
     type: "website",
   },
@@ -54,6 +54,7 @@ const agents = [
   { name: "doda", tag: "求人数トップクラスの総合型", href: "/reviews/doda/" },
   { name: "Geekly", tag: "IT・Web・ゲーム業界に特化", href: "/reviews/geekly/" },
   { name: "Green", tag: "IT業界のカジュアル転職", href: "/reviews/green/" },
+  { name: "テックゴー（TechGo）", tag: "年収交渉に強いIT特化型", href: "/reviews/techgo/" },
 ];
 
 export default function DiagnosisPage() {
@@ -80,7 +81,7 @@ export default function DiagnosisPage() {
             を無料診断
           </h1>
           <p className="mt-4 text-text-light leading-relaxed">
-            8つの質問に答えるだけ。女性エンジニアに人気の8社から、あなたの状況・希望に合った1社を無料で診断します。登録不要・所要1分。
+            8つの質問に答えるだけ。女性エンジニアに人気の9社から、あなたの状況・希望に合った1社を無料で診断します。登録不要・所要1分。
           </p>
         </div>
       </section>
@@ -92,11 +93,11 @@ export default function DiagnosisPage() {
         </div>
       </section>
 
-      {/* 8社の特徴 */}
+      {/* 9社の特徴 */}
       <section className="section-light py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-center">
-            診断で比較する8つの転職エージェント
+            診断で比較する9つの転職エージェント
           </h2>
           <p className="mt-2 text-sm text-text-light text-center">
             それぞれ強みやサポートの特徴が異なります
@@ -117,7 +118,7 @@ export default function DiagnosisPage() {
           </div>
           <div className="mt-8 text-center">
             <Link href="/ranking/" className="btn-outline text-sm">
-              8社の詳しい比較ランキングを見る
+              9社の詳しい比較ランキングを見る
             </Link>
           </div>
         </div>

@@ -137,3 +137,11 @@
 - 内部リンク: 記事⇔レビュー相互 + category-index「エージェント・サービス比較」に記事追加。ranking/診断への組み込みは収益核保護のため未実施（要相談）
 - sitemap116→118(category-index lastmod更新)。両repo push・本番200/内容/sitemap118をcache-bust curl検証・GSC再送信済
 - 残: テックゴーをranking(9社目)・診断(9社目スコアリング)に組み込むか要MediaXAI判断。アフィリエイトリンク支給あればCTA差替(現在は公式サイト直リンク)
+
+## 2026-07-05 戦略v4 P2: ITパスポート試験ガイド新設（MediaXAI「p2進めよう」）✅
+- /articles/cert-itpassport/ 新設。全事実はIPA公式を一次確認(2026年7月): 国家試験(情報処理促進法)・CBT随時47都道府県・7,500円税込・100問120分四肢択一(評価92問)・ストラテジ35/マネジメント20/テクノロジ45・合格基準=総合600+分野別各300(IRT)・シラバスVer.6.5(2026年1月掲載)・生成AI項目対応
+- ★合格率は推移表Excel(202605_ip_01_suiihyo.xlsx)から令和7年度通年を自算: 応募307,266/受験271,352(受験率88.3%)/合格132,012=**48.6%**(月次44〜53%変動も記載)。勉強時間の相場は無出典のため書かず(STEP型勉強法+IPA公式過去問/CBT疑似体験ソフト誘導で代替)。女性比率統計は公式に無いため不使用
+- 差別化=正直路線: 「単体でエンジニア転職の決め手にならない・本命は基本情報」を明記し場面別の効き方表。エントリーシート活用の広がりはIPA公式記載を出典に
+- クラスタ接続: sec6公的支援(manabi-dx/training-benefit-it/hello-training-it)+sec9→cert-kihonjoho/certification+関連4枚。逆リンク=cert-kihonjoho本文のITパスポート言及をリンク化+lib/categories.ts資格カテゴリ追加(category-index・/sitemap/に自動反映)
+- sitemap 124→125(cert-kihonjoho/category-index/sitemapのlastmodも更新)・tsc0・build成功・deploy両push・本番検証(200/48.6%/7,500円/導線3箇所/sitemap125)・GSC再送信
+- 残: v4 P1(テックゴーranking/診断組み込み=要判断)/P3(公的支援第2弾=GSC観測後)/P4(登録リクエスト後の再計測)
