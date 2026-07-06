@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "テックゴーの無料キャリア面談とは？内容・流れ・準備を徹底解説【2026年】",
   datePublished: "2026-07-02",
-  dateModified: "2026-07-02",
+  dateModified: "2026-07-06",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -336,7 +336,9 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">まずは無料キャリア面談から</h2>
           <p className="text-text-light mb-6">登録は最短60秒。転職を決めていなくても、市場価値の把握とキャリアの整理に活用できます。</p>
-          <a href="https://tech-go.jp/" target="_blank" rel="noopener noreferrer" className="btn-cta">テックゴーの無料キャリア面談を予約する</a>
+          <a href="//af.moshimo.com/af/c/click?a_id=5663318&p_id=6722&pc_id=19209&pl_id=85793" target="_blank" rel="nofollow noopener" referrerPolicy="no-referrer-when-downgrade" {...({ attributionsrc: "" } as any)} className="btn-cta">テックゴーの無料キャリア面談を予約する</a>
+          <img src="//i.moshimo.com/af/i/impression?a_id=5663318&p_id=6722&pc_id=19209&pl_id=85793" width={1} height={1} style={{ border: "none" }} loading="lazy" alt="" />
+          <p className="mt-3 text-xs text-text-light">PR（アフィリエイト広告）・テックゴー公式サイトへ移動します</p>
         </div>
       </section>
     </>

@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "テックゴー（TechGo）の口コミ・評判｜平均138万円年収アップの実力を検証",
   datePublished: "2026-07-02",
-  dateModified: "2026-07-02",
+  dateModified: "2026-07-06",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "ITエンジニア特化の転職エージェント「テックゴー」を女性エンジニア目線で徹底レビュー。年収アップ実績・無料キャリア面談・選考対策の実力を検証。",
@@ -441,7 +441,9 @@ export default function TechgoReviewPage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">まずは無料キャリア面談で市場価値を知ろう</h2>
           <p className="text-text-light mb-6">経験を活かした年収アップに強いIT特化エージェント。登録は最短60秒、キャリア相談から入社まで完全無料です。</p>
-          <a href="https://tech-go.jp/" target="_blank" rel="noopener noreferrer" className="btn-cta">テックゴーに無料相談する</a>
+          <a href="//af.moshimo.com/af/c/click?a_id=5663318&p_id=6722&pc_id=19209&pl_id=85793" target="_blank" rel="nofollow noopener" referrerPolicy="no-referrer-when-downgrade" {...({ attributionsrc: "" } as any)} className="btn-cta">テックゴーに無料相談する</a>
+          <img src="//i.moshimo.com/af/i/impression?a_id=5663318&p_id=6722&pc_id=19209&pl_id=85793" width={1} height={1} style={{ border: "none" }} loading="lazy" alt="" />
+          <p className="mt-3 text-xs text-text-light">PR（アフィリエイト広告）・テックゴー公式サイトへ移動します</p>
         </div>
       </section>
     </>
