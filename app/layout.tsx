@@ -57,6 +57,25 @@ const schemaOrg = {
   publisher: {
     "@type": "Organization",
     name: "CareeHUB for woman",
+    url: "https://women-engineer.com",
+    parentOrganization: {
+      "@type": "Organization",
+      name: "株式会社MediaX",
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "東京都",
+        addressLocality: "渋谷区",
+        addressCountry: "JP",
+      },
+    },
+    publishingPrinciples: "https://women-engineer.com/content-policy/",
+    knowsAbout: [
+      "女性エンジニアの転職",
+      "IT転職エージェント",
+      "エンジニアの年収",
+      "エンジニア向け資格",
+      "未経験からのエンジニア転職",
+    ],
   },
 };
 

@@ -172,3 +172,11 @@
 - ★内部リンク配線: 3本すべてに/diagnosis/(従来0本)+/ranking/+兄弟know記事(casual↔reverse↔interview-guide↔offer-meeting、coding↔technical-interview)を追加=知識クラスタのハブ&スポーク強化。全slug実在確認
 - 架空統計/体験談なし・料金/エージェント文言不変更。sitemap lastmod3件・deploy両push・本番3/3(追記セクション+診断導線)cache回避curl検証・GSC再送信
 - 残: v5 P2(テックゴー年収動線)/P4(育成事業刈り取り)/P3(ビッグKW権威底上げ)。※クラスタ全体のハブ&スポーク配線はfactoringトピッククラスタ戦略と同じ思想で横展開余地
+
+## 2026-07-07 戦略v5 P2: テックゴー年収動線（MediaXAI「p2進めて」）✅
+- 年収系記事は充実(negotiation/salary/salary-by-age/salary-by-job)なのに**テックゴー導線が0本**と判明→「年収交渉に強いテックゴー」への送客を配線。指名検索が小さい新サービスを広い"年収を上げたい"意図から流し込む設計
+- negotiation「おすすめエージェント」節にテックゴーを先頭カード追加(年収交渉成功率100%/平均UP138万円・公式2026年7月確認・/reviews/techgo/へ内部リンク=アフィリCTAはレビュー側に集約し内部送客)
+- salary/salary-by-age/salary-by-jobの年収交渉文脈に「年収交渉をプロに任せたいなら」calloutを追加(/reviews/techgo/+/ranking/へ)
+- 🐛ついで是正: negotiation内のレバテック旧値「48,000件」「リモート約60%」(7/5ランキング是正の漏れ)を「約58,000件」「リモート%削除」へ。7/4承認の差異修正クラスと同種
+- dateModified 4件・表示最終更新日も07-07へ・sitemap lastmod4件・deploy両push・本番検証(テックゴー導線4/4・旧値消滅)・GSC再送信
+- 残: v5 P4(育成事業刈り取り)/P3(ビッグKW権威底上げ)。※テックゴーのアフィリは/reviews/techgo/と/articles/techgo-career-mendan/のCTAに設定済み(7/6)

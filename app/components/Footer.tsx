@@ -92,6 +92,11 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 pt-6 border-t border-[#473640] text-center">
+          <p className="mx-auto mb-3 max-w-3xl text-[0.72rem] leading-relaxed text-[#9c8278]">
+            「CareeHUB for woman」（運営: 株式会社MediaX・東京都渋谷区）は、女性エンジニアの転職を支援する情報メディアです。掲載する各社情報・データは公式サイトや公的機関の公開情報をもとに確認日を明記して掲載し、ランキングはアフィリエイト報酬に左右されない基準で編集部が作成しています。詳しくは
+            <Link href="/content-policy/" className="underline hover:text-[#fdf6ee]">記事制作ポリシー</Link>
+            をご覧ください。
+          </p>
           <p className="text-[0.7rem] tracking-[0.18em] text-[#9c8278]">
             &copy; {new Date().getFullYear()} CareeHUB for woman ALL RIGHTS RESERVED.
           </p>
