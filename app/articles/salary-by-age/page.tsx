@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの年代別年収【20代〜50代】実額と推移を徹底解説",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-07",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -359,6 +359,11 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>対策2：昇給幅の差を交渉で埋める</h3>
               <p className="text-text-light text-sm leading-relaxed">女性は転職時の昇給を控えめに見積もりがち。エージェント経由で年収交渉を代行してもらうと、提示額が50〜150万円変わることもあります。</p>
+              <div className="mt-3 rounded-lg p-4" style={{ backgroundColor: "#efe3d8", border: "1px solid #d9c7b8" }}>
+                <p className="text-sm text-text-light leading-relaxed">
+                  <strong>年収交渉をプロに任せたいなら</strong>、交渉実績を数値で公表しているエージェントが有力です。テックゴー（TechGo）は年収交渉成功率100%（2025年9月時点実績）・平均年収アップ138万円（2025年6〜7月実績）を公式で掲げています。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>、他社との比較は<a href="/ranking/" className="font-bold underline" style={{ color: "#7c3a55" }}>おすすめランキング</a>をご覧ください。
+                </p>
+              </div>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>対策3：成果が可視化される職場を選ぶ</h3>

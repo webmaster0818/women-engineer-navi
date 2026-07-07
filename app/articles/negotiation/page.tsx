@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの年収交渉術｜タイミング・相場の調べ方・伝え方の実例【2026年】",
   datePublished: "2026-04-28",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-07",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -140,7 +140,7 @@ export default function ArticlePage() {
                 タイミング・相場の調べ方・伝え方の実例【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月7日</p>
           </div>
         </div>
       </section>
@@ -504,6 +504,17 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="space-y-6">
+            <div className="rounded-xl border-2 bg-white p-6" style={{ borderColor: "#7c3a55" }}>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-lg font-bold">テックゴー（TechGo）</h3>
+                <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>
+                  年収交渉に強い
+                </span>
+              </div>
+              <p className="text-sm text-text-light">
+                年収交渉の実績を数値で公表しているIT特化型エージェント。<strong>年収交渉成功率100%（2025年9月時点実績）・平均年収アップ138万円（2025年6〜7月に内定承諾し年収アップを実現した方の平均実績）</strong>を公式サイトで掲げており、20代平均+120万円・30代平均+160万円の実績も公表しています。交渉を任せて年収を上げたい方の有力な選択肢です。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>をご覧ください（数値は公式サイト・2026年7月確認）。
+              </p>
+            </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3">
                 <h3 className="text-lg font-bold">レバテックキャリア</h3>
@@ -512,7 +523,7 @@ export default function ArticlePage() {
                 </span>
               </div>
               <p className="text-sm text-text-light">
-                IT・Web業界に特化し、48,000件以上の求人を保有。年収70万円以上UPの実績多数。リモートワーク求人が約60%を占め、女性アドバイザーの指名も可能です。技術に精通したアドバイザーが的確な提案をしてくれます。
+                IT・Web業界に特化し、約58,000件の求人を保有。年収70万円以上UPの実績多数。女性アドバイザーの指名も可能で、技術に精通したアドバイザーが的確な提案をしてくれます（求人数は公式サイト・2026年7月確認）。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>

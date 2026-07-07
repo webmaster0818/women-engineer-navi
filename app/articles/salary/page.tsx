@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの年収はいくら？年代・職種別の実データと年収アップ術【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-07",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -366,6 +366,11 @@ export default function ArticlePage() {
               <p className="text-sm text-text-light leading-relaxed">
                 転職時の昇給額に男女で約54万円の差（男性139万円／女性85万円・Forkwell調査）があるのは、希望年収の提示額と交渉の有無が影響していると考えられます。自分で言い出しにくい交渉は、転職エージェントに代行してもらうのが確実です。市場価値を客観的な相場データで示してもらい、現年収ではなく「市場価値ベース」で希望額を設定しましょう。
               </p>
+              <div className="mt-3 rounded-lg p-4" style={{ backgroundColor: "#efe3d8", border: "1px solid #d9c7b8" }}>
+                <p className="text-sm text-text-light leading-relaxed">
+                  <strong>年収交渉をプロに任せたいなら</strong>、交渉実績を数値で公表しているエージェントが有力です。テックゴー（TechGo）は年収交渉成功率100%（2025年9月時点実績）・平均年収アップ138万円（2025年6〜7月実績）を公式で掲げています。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>、他社との比較は<a href="/ranking/" className="font-bold underline" style={{ color: "#7c3a55" }}>おすすめランキング</a>をご覧ください。
+                </p>
+              </div>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 高年収職種・上流工程へ職種をずらす</h3>

@@ -165,3 +165,10 @@
 - 差し替え対象の判断: CTAボタン2箇所のみアフィリ化(reviews/techgo:「テックゴーに無料相談する」/techgo-career-mendan:「無料キャリア面談を予約する」)。**出典リンク(tech-go.jp/service等)は検証可能性のため直リンク維持**(アフィリURLは個別ページに飛べない)。TOP Pickup/ranking/診断は内部リンクのみで対象外
 - 実装: moshimoクリックURL+インプレッションピクセル(width/height 1・loading lazy)+rel="nofollow noopener"+referrerPolicy+attributionsrc(JSXでは`{...({attributionsrc:""} as any)}`のspreadで付与=TS型エラー回避)。**ステマ規制対応でCTA直下に「PR（アフィリエイト広告）・公式サイトへ移動します」を明記**(サイト初のアフィリのためページ内PR表記が無かった)
 - 検証: 本番2ページでクリックURL/ピクセル/attributionsrc/PR表記を確認+アフィリリンクの遷移先がform.tech-go.jp(moshimo計測パラメータ付き)に到達することをcurlで確認。dateModified/sitemap lastmod更新・GSC再送信
+
+## 2026-07-07 戦略v5 P1: knowクラスタ深掘り（MediaXAI「p1進めよう」）✅
+- GSC実測でknow系は既存ページが20〜50位で頭打ち(コーディングテスト対策39位/カジュアル面談逆質問26位/逆質問)と判明→新規量産でなく「近い順位の既存3本を追記深掘り＋クラスタ内部リンク」に方針決定(sole-lab P3/factoringトピッククラスタと同じ"あと一歩を刈る"判断)
+- agent1体で既存文を書き換えず追記のみ: coding-test(頻出パターン別対策6型+当日の時間配分・目次6→10・FAQ+2)/reverse-questions(カジュアル面談での逆質問+働き方見極め4観点・女性視点・目次9→11)/casual-interview(面談後の見極め4軸・目次10→11)。dateModified 2026-07-07
+- ★内部リンク配線: 3本すべてに/diagnosis/(従来0本)+/ranking/+兄弟know記事(casual↔reverse↔interview-guide↔offer-meeting、coding↔technical-interview)を追加=知識クラスタのハブ&スポーク強化。全slug実在確認
+- 架空統計/体験談なし・料金/エージェント文言不変更。sitemap lastmod3件・deploy両push・本番3/3(追記セクション+診断導線)cache回避curl検証・GSC再送信
+- 残: v5 P2(テックゴー年収動線)/P4(育成事業刈り取り)/P3(ビッグKW権威底上げ)。※クラスタ全体のハブ&スポーク配線はfactoringトピッククラスタ戦略と同じ思想で横展開余地

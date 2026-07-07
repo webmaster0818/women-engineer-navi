@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの職種別年収比較｜フロントからデータサイエンスまで一覧",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-07",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -340,6 +340,11 @@ export default function ArticlePage() {
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
             年収交渉の具体的な進め方は<a href="/articles/negotiation/" className="underline" style={{ color: "#7c3a55" }}>年収交渉の記事</a>で詳しく解説しています。
+              <div className="mt-3 rounded-lg p-4" style={{ backgroundColor: "#efe3d8", border: "1px solid #d9c7b8" }}>
+                <p className="text-sm text-text-light leading-relaxed">
+                  <strong>年収交渉をプロに任せたいなら</strong>、交渉実績を数値で公表しているエージェントが有力です。テックゴー（TechGo）は年収交渉成功率100%（2025年9月時点実績）・平均年収アップ138万円（2025年6〜7月実績）を公式で掲げています。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>、他社との比較は<a href="/ranking/" className="font-bold underline" style={{ color: "#7c3a55" }}>おすすめランキング</a>をご覧ください。
+                </p>
+              </div>
           </p>
         </div>
       </section>
