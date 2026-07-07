@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "転職のコーディングテスト対策ガイド｜出題形式・難易度・対策ロードマップ【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-07",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -74,6 +74,22 @@ const faqData = {
         text: "企業によりますが、一定期間を空ければ再応募・再受験を受け付けるケースは多くあります。まず落ちた原因（時間切れ・特定分野の弱さ・エッジケース漏れなど）を振り返り、弱点に絞って練習し直しましょう。なおpaizaスキルチェックのランクアップ問題は同じ問題に一度しか提出できないため、腕試しは練習問題で十分に積んでから挑むのが安全です。再受験の可否や時期は、転職エージェント経由で企業に確認してもらうこともできます。",
       },
     },
+    {
+      "@type": "Question",
+      name: "コーディングテストで特に対策すべき頻出パターンは何ですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "使用言語を問わず出やすいのは、(1)配列・累積和（区間の合計や条件を満たす要素の集計）、(2)文字列操作・パース（分割・変換・出現回数の集計）、(3)ハッシュマップによる集計・重複検出（連想配列で数える）、(4)ソート＋二分探索（並べ替えてから境界を探す）、(5)スタック/キュー・BFS/DFS（グリッドやグラフの探索）、(6)動的計画法（DP）の基本形の6パターンです。まずは各パターンの『典型問題』を1問ずつ、解法を暗記ではなく手を動かして再現できる状態にし、次に制限時間を計って初見問題を解く順で仕上げると効率的です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "コーディングテスト当日の時間配分はどうすればいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "最初の数分で全問に目を通し、解けそうな順に並べ替えるのが鉄則です。90分3問なら『全問確認5分→易しい問題から着手し1問あたり25〜30分を上限→残り10分でテストと見直し』が目安。1問に固執して時間を溶かすのが最悪パターンなので、上限時間を超えたら一旦次へ進み、確実に取れる得点を先に固めます。最適解が浮かばなくても、まず愚直な全探索で『動くコード』を出せば部分点が入る形式が多いので、動くものを先に、最適化は後にが基本方針です。",
+      },
+    },
   ],
 };
 
@@ -104,7 +120,7 @@ export default function CodingTestPage() {
               転職のコーディングテスト対策ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">出題形式・難易度・対策ロードマップを実データで解説【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月7日</p>
           </div>
         </div>
       </section>
@@ -148,8 +164,10 @@ export default function CodingTestPage() {
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 難易度の目安：どこまでやれば足りるか</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. レベル別・対策ロードマップ</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 落ちやすいポイントと当日の注意</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. ブランクからの再挑戦という選択肢</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
+              <li><a href="#sec-patterns" className="hover:underline" style={{ color: "#7c3a55" }}>7. 頻出パターン別の対策（言語非依存）</a></li>
+              <li><a href="#sec-flow" className="hover:underline" style={{ color: "#7c3a55" }}>8. 当日の進め方：受験開始から提出まで</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>9. ブランクからの再挑戦という選択肢</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -375,6 +393,71 @@ export default function CodingTestPage() {
           </div>
           <p className="text-text-light text-sm leading-relaxed mt-6">
             コーディングテストの先には技術面接・カジュアル面談が待っています。選考フロー全体の流れは<a href="/articles/interview-guide/" className="underline" style={{ color: "#7c3a55" }}>エンジニア面接ガイド</a>で確認しておきましょう。
+          </p>
+        </div>
+      </section>
+
+      {/* sec-patterns 頻出パターン別の対策 */}
+      <section id="sec-patterns" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">頻出パターン別の対策（言語非依存）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              出題は無限に見えて、実は<strong>解法の型（パターン）はほぼ決まっています</strong>。使用言語に関係なく、以下のパターンを「典型問題を見たら手が動く」状態にしておくと、初見問題でも解法の当たりをつけられます。各パターンは<strong>①典型問題を1問、解法を再現できるまで手を動かす → ②似た問題を数問こなす → ③制限時間を計って初見に挑む</strong>の順で仕上げると効率的です。
+            </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              { name: "1. 配列・累積和", cue: "区間の合計・平均、条件を満たす要素の抽出", how: "まず素直な二重ループで解けるかを確認し、Nが大きい（10万以上）なら累積和で区間合計をO(1)にする、という『愚直→高速化』の型を体に入れます。範囲の和・最大部分和が典型。" },
+              { name: "2. 文字列操作・パース", cue: "分割・変換・文字の出現回数、フォーマット整形", how: "入力を区切り文字で分割し、1文字ずつ走査して集計する処理を素早く書けるように。回文判定・文字種のカウント・単語の並べ替えが頻出。言語の標準的な文字列/正規表現APIに慣れておくと差が出ます。" },
+              { name: "3. ハッシュマップ（連想配列）での集計・重複検出", cue: "「何回出たか」「ペアが存在するか」を高速に判定", how: "配列を1回走査しながら辞書に登録し、既出かどうかを見る型。『合計が目標値になる2数の探索』『重複要素の検出』が代表。二重ループO(N²)をO(N)に落とせる最頻出テクニックです。" },
+              { name: "4. ソート＋二分探索", cue: "並べ替えた後に境界・しきい値を探す", how: "まずソートしてから、条件を満たす最小/最大を二分探索で絞り込む型。『ある値以上の要素数』『答えを二分探索する』問題で威力を発揮します。計算量O(N log N)の見積もりもセットで覚えます。" },
+              { name: "5. スタック/キュー・BFS/DFS", cue: "グリッド・グラフの探索、対応関係のチェック", how: "括弧の対応判定はスタック、最短経路や連結成分はBFS/DFS、という対応を覚えます。グリッドを上下左右に探索する定型コードを1つ手元に持っておくと、迷路・島の数え上げ系に即応できます。" },
+              { name: "6. 動的計画法（DP）の基本形", cue: "「場合の数」「最小コスト」「達成可能か」", how: "『前の状態から次の状態を埋める』表の作り方が肝。フィボナッチ・階段の登り方・ナップサックの基本形を写経レベルで再現できるように。ここまで来ればBランク〜Aランク帯の問題に手が届きます。" },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>{item.name}</h3>
+                <p className="text-sm text-text-light leading-relaxed"><strong>よく出る形：</strong>{item.cue}</p>
+                <p className="text-sm text-text-light leading-relaxed mt-1"><strong>練習手順：</strong>{item.how}</p>
+              </div>
+            ))}
+          </div>
+          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #d9c7b8" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong style={{ color: "#7c3a55" }}>パターン学習のコツ</strong>　新しいパターンは「解法を読む」だけでは身につきません。一度自力で詰まり、解説を見て、<strong>翌日に何も見ずに再現</strong>する——このサイクルで長期記憶に定着します。1〜6を各3〜5問ずつこなせば、多くの企業のテストで戦える土台ができます。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* sec-flow 当日の進め方 */}
+      <section id="sec-flow" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">当日の進め方：受験開始から提出まで</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              実力が同じでも、<strong>解く順番と時間の使い方</strong>でスコアは大きく変わります。ここでは「90分・3問」を例に、受験開始から提出までの進め方を時系列で示します。時間や問題数が違っても考え方は同じです。
+            </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              ["最初の5分", "全問を読んで難易度を仕分け", "いきなり1問目から書き始めず、まず全問にざっと目を通します。各問の『解けそう／要検討／たぶん無理』をメモし、解けそうな問題から着手する順番を決めます。得点しやすい問題を後回しにするのが最大の機会損失です。"],
+              ["問題を解く前の数分", "制約とサンプルを2回読む", "入力サイズの制約（Nの上限）は解法選択のヒントです。Nが10万ならO(N²)は間に合いません。サンプル入出力を手でなぞり、仕様を取り違えていないか確認してから書き始めます。"],
+              ["1問あたり25〜30分を上限", "『動く解』を先に出す", "最適解にこだわらず、まず愚直でも動くコードで部分点を確保。上限時間を超えたら潔く次の問題へ移り、確実な得点を積み上げます。時間が余ったら戻って最適化します。"],
+              ["提出前の各回", "エッジケースで自己テスト", "空入力・要素1個・最大値・負の数・重複値で手元実行してから提出。非公開テストケースはこの境界値を突いてきます。提出＝終わりではなく、通らなければログを見て修正します。"],
+              ["残り10分", "見直しと未提出の回収", "手をつけていない問題に部分点狙いで一言でも書けないか、提出済みコードにケアレスミスがないかを確認。1点でも多く拾いにいきます。"],
+            ].map(([time, title, desc], i) => (
+              <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+                <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>{time}</span>
+                <div>
+                  <h3 className="font-bold mb-1">{title}</h3>
+                  <p className="text-sm text-text-light leading-relaxed">{desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-text-light text-sm leading-relaxed mt-6">
+            自分に合う対策の進め方やレベル感がつかめないときは、<a href="/diagnosis/" className="underline" style={{ color: "#7c3a55" }}>無料のエージェント診断</a>で相性の良いIT特化型エージェントを探し、企業ごとのテスト傾向を教えてもらうのが近道です。テストの先に控える<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接</a>までまとめて対策できます。
           </p>
         </div>
       </section>

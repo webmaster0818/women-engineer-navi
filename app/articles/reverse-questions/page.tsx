@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "エンジニア面接の逆質問 例文集｜好印象・NG例・フェーズ別の聞き方ガイド",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-07",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "『特にありません』はできるだけ避けましょう。面接での会話を踏まえて『先ほど伺った◯◯について、もう少し詳しく教えていただけますか』と深掘りするのが自然で好印象です。それも難しい場合は、入社後を見据えた質問が無難で評価されやすいです。たとえば『入社までに勉強しておくと役立つ技術や領域はありますか』『活躍されている方に共通する特徴はありますか』など。これらは意欲が伝わるうえ、どの企業・どのフェーズでも使える汎用ストックになるので、最後の一手として常に1つ持っておくと安心です。",
       },
     },
+    {
+      "@type": "Question",
+      name: "カジュアル面談の逆質問と、本選考の面接の逆質問は変えるべきですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "変えると効果的です。カジュアル面談は合否のつかない相互理解の場なので、志望動機を作り込むより『求人票に出ない実態』を掘り下げる質問が向いています。現場エンジニアが相手になることも多いため、開発体制・1日の流れ・チームの雰囲気・働き方の実態など、応募するかどうかを判断するための情報を遠慮なく聞いてよい場です。一方、本選考の面接では『調べたうえで、この会社で活躍する自分をイメージしている』ことが伝わる質問——つまり逆質問そのものが自己PRになる聞き方が求められます。カジュアル面談全体の進め方は専用ガイドで、フェーズ別の逆質問の作り分けは本記事で確認するのがおすすめです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "女性エンジニアとして、長く働けるチームかどうかは逆質問でどう見極めますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "制度の有無だけでなく『運用の実態』を引き出す質問が有効です。たとえば残業や繁忙期・オンコールの実際、コードレビューや相談のしやすさ（心理的安全性）、属人化していないか、産休育休からの復帰後にポジションや評価がどうなったかなど、チーム体制の持続可能性に踏み込む質問です。『長く技術者として貢献したいので』と前置きし、制度ではなく事例（実際に活躍している人の働き方）を尋ねると、答え方の具体性から実態が読み取れます。言葉を濁したり抽象論に終始したりする場合は、入社後のギャップに注意しましょう。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 好印象な質問・NG例・フェーズ別の聞き方を実例で解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月7日</p>
           </div>
         </div>
       </section>
@@ -142,10 +158,12 @@ export default function ArticlePage() {
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. フェーズ別の逆質問（一次・最終・役員）</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. やってはいけないNG逆質問</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 女性がキャリア継続を角を立てず確認する聞き方</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 逆質問の準備法（5STEP）</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 終わり方・締めのひと言</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec-casual" className="hover:underline" style={{ color: "#7c3a55" }}>6. カジュアル面談での逆質問（本選考との違い）</a></li>
+              <li><a href="#sec-team" className="hover:underline" style={{ color: "#7c3a55" }}>7. 働き方・チーム体制を見極める逆質問</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>8. 逆質問の準備法（5STEP）</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>9. 終わり方・締めのひと言</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>10. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -383,6 +401,101 @@ export default function ArticlePage() {
           <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#efe3d8" }}>
             <p className="text-sm text-text-light leading-relaxed">
               <strong style={{ color: "#7c3a55" }}>面接で聞きにくいときは</strong>　復帰率の数字や女性管理職比率、リモートの本当の運用実態など、本人には聞きづらい情報は、女性のキャリアに詳しい転職エージェント経由で確認するのが確実です。求人票に出ない実態を代わりに引き出してもらえます。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* sec-casual カジュアル面談での逆質問 */}
+      <section id="sec-casual" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">カジュアル面談での逆質問（本選考との違い）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              一次・最終だけでなく、選考の前段に置かれることが増えた<strong>カジュアル面談</strong>でも逆質問は主役です。カジュアル面談は原則<strong>合否がつかない相互理解の場</strong>で、面談時間の半分ほどが質疑応答にあてられることも多いため、質問の質と量がそのまま面談の成否を左右します。本選考の面接とはねらいが違うので、逆質問も作り分けましょう。
+            </p>
+          </div>
+          <div className="overflow-x-auto mt-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#efe3d8" }}>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>観点</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>カジュアル面談の逆質問</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>本選考（面接）の逆質問</th>
+                </tr>
+              </thead>
+              <tbody className="text-text-light">
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ねらい</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>求人票に出ない実態の確認・応募判断</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>志望度と理解度のアピール（自己PR）</td>
+                </tr>
+                <tr style={{ backgroundColor: "#f0e7dd" }}>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>相手</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>現場エンジニア・人事が多い</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>面接官・マネージャー・役員</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>聞き方</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>働き方・待遇も前向きな関心とセットで確認可</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>業務系の質問を主に。待遇はクッション言葉を添えて</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>カジュアル面談で聞きやすい逆質問の例</h3>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「配属予定チームの1日の流れや、実際の開発の進め方を教えていただけますか？」</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「入社後に活躍されている方は、どんなバックグラウンドの方が多いですか？」</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「率直に、いま現場でいちばん課題に感じている点はどこでしょうか？」</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「長く働きたいと考えています。リモートや時短が実際にどの程度活用されているか、運用の実態を伺えますか？」</span></li>
+            </ul>
+          </div>
+          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#efe3d8" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong style={{ color: "#7c3a55" }}>役割の使い分け</strong>　本ページは<strong>「逆質問そのもの」に特化</strong>したフェーズ別の例文集です。カジュアル面談の<strong>全体の進め方・服装・当日の流れ・面談後の見極め</strong>までまとめて知りたい場合は、<a href="/articles/casual-interview/" className="underline" style={{ color: "#7c3a55" }}>カジュアル面談の対策ガイド</a>をあわせてご覧ください。選考フロー全体は<a href="/articles/interview-guide/" className="underline" style={{ color: "#7c3a55" }}>エンジニア面接ガイド</a>で確認できます。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* sec-team 働き方・チーム体制を見極める逆質問 */}
+      <section id="sec-team" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">働き方・チーム体制を見極める逆質問</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              長く働けるかどうかは、制度の有無よりも<strong>チーム体制の持続可能性</strong>で決まります。制度が整っていても、属人化が激しく特定の人に負荷が集中していたり、相談しづらい雰囲気だったりすると、ライフイベントを経て働き続けるのは難しくなります。ここでは女性エンジニアが<strong>「入社後に無理なく貢献し続けられるか」を見極めるための逆質問</strong>を、見るべきシグナルとセットで紹介します。
+            </p>
+          </div>
+
+          <div className="space-y-5 mt-8">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>働き方の持続可能性（残業・繁忙期・オンコール）</h3>
+              <p className="text-sm text-text-light leading-relaxed mb-2">「繁忙期の働き方や、リリース前後の残業はどのくらいになりますか？ オンコール（緊急対応）の当番はどう回していますか？」</p>
+              <p className="text-xs text-text-light leading-relaxed"><strong>見るシグナル：</strong>平均だけでなくピーク時を具体的に答えられるか。当番が一部の人に偏っていないか。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>属人化とバックアップ体制</h3>
+              <p className="text-sm text-text-light leading-relaxed mb-2">「担当者が休んでも業務が回るよう、ドキュメントや引き継ぎの仕組みはどのように整えていますか？」</p>
+              <p className="text-xs text-text-light leading-relaxed"><strong>見るシグナル：</strong>急な休みや時短でも回る体制か。属人化が放置されていないか（＝復帰後も働きやすいか）。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>相談のしやすさ（心理的安全性）</h3>
+              <p className="text-sm text-text-light leading-relaxed mb-2">「コードレビューや、わからないことを質問するときの雰囲気はどんな感じですか？ 未経験の領域を任される際のフォロー体制は？」</p>
+              <p className="text-xs text-text-light leading-relaxed"><strong>見るシグナル：</strong>レビューが詰問でなく学びの場になっているか。質問を歓迎する文化か。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>ライフイベント後の評価・キャリア</h3>
+              <p className="text-sm text-text-light leading-relaxed mb-2">「長く技術者として貢献したいと考えています。時短勤務や復帰後も、評価やキャリアアップの機会は変わらず得られますか？ 実際に活躍されている方の事例があれば伺えますか？」</p>
+              <p className="text-xs text-text-light leading-relaxed"><strong>見るシグナル：</strong>制度の説明ではなく具体的な事例で答えられるか。時短＝評価が下がる運用になっていないか。</p>
+            </div>
+          </div>
+
+          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#efe3d8" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong style={{ color: "#7c3a55" }}>答え方から実態を読む</strong>　これらは「制度がありますか」ではなく<strong>「実際どうか」を事例で尋ねる</strong>のがコツです。スラスラと具体例を挙げられる企業は運用が根づいている可能性が高く、言葉を濁す・抽象論に終始する場合は入社後のギャップに注意。数字（復帰率・女性管理職比率）など本人に聞きづらい情報は、<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の選び方</a>の視点や、女性のキャリアに詳しい転職エージェントの活用で裏取りすると確実です。自分に合う企業やエージェントの当たりをつけたいときは、<a href="/diagnosis/" className="underline" style={{ color: "#7c3a55" }}>無料のエージェント診断</a>も役立ちます。
             </p>
           </div>
         </div>

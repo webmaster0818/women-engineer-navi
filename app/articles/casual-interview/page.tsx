@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "カジュアル面談の対策ガイド｜エンジニア転職の流れ・逆質問例・NG行動",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-07",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "最低限、(1)自己紹介と転職を考えた背景を1〜2分で話せるよう整理、(2)企業のサービス・技術スタック・採用ページに目を通す、(3)聞きたい質問を5〜10個リスト化、の3点を準備しておけば十分です。エンジニアの場合は、技術ブログやGitHub、使用言語・フレームワーク、開発体制（チーム規模・開発手法）まで見ておくと、踏み込んだ会話ができ評価につながります。志望動機を完璧に固める必要はありませんが、『なぜこの会社の話を聞きたいと思ったか』だけは言語化しておきましょう。",
       },
     },
+    {
+      "@type": "Question",
+      name: "カジュアル面談を受けたら、必ず選考に進まないといけませんか？辞退できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "進む義務はありません。カジュアル面談は『応募するか／選考に進むか』を判断するための場なので、話を聞いた結果ミスマッチだと感じたら辞退して問題ありません。辞退の連絡は、面談のお礼を述べたうえで『検討した結果、今回は見送らせていただきたい』と簡潔に伝えれば十分です。エージェント経由の場合は担当者に理由（社風・働き方・技術領域が合わなかった等）を伝えると、次の求人紹介の精度が上がります。逆に、その場で答えを出す必要もないので、持ち帰って落ち着いて見極めてから判断しましょう。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "カジュアル面談が終わった後、その企業に進むかどうかは何で見極めればいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "『働き方の実態』『チーム体制』『成長機会』『相性』の4点で振り返るのがおすすめです。担当者が制度や現場の課題を具体的に答えられたか、リモートや時短などの運用実態を数字や事例で示せたか、質問への回答に一貫性があったか、そして話していて価値観が合いそうかを確認します。逆に、待遇の話を濁す・現場のリアルを語れない・高圧的だった場合は、入社後のギャップに注意が必要です。求人票に出ない女性の働きやすさ（復帰率・女性管理職比率など）は、女性のキャリアに詳しいエージェント経由で裏取りすると確実です。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 エンジニア転職の流れ・逆質問例・NG行動を具体例で解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月7日</p>
           </div>
         </div>
       </section>
@@ -144,9 +160,10 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. やってはいけないNG行動</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 面接選考に進むコツ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 女性が働き方を確認する活用法</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. 関連記事</a></li>
+              <li><a href="#sec-judge" className="hover:underline" style={{ color: "#7c3a55" }}>8. カジュアル面談後の見極め（進む／見送る）</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. 関連記事</a></li>
             </ol>
           </div>
         </div>
@@ -413,6 +430,52 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      {/* sec-judge 面談後の見極め */}
+      <section id="sec-judge" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">カジュアル面談後の見極め（進む／見送る）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              カジュアル面談は「受けて終わり」ではなく、<strong>その企業の選考に進むか、見送るかを判断するための材料集め</strong>でもあります。その場で結論を出す必要はありません。面談後に落ち着いて、次の4つの軸で振り返りましょう。合否のない面談だからこそ、候補者側が主体的に見極める姿勢が大切です。
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>1. 働き方の実態は具体的だったか</h3>
+              <p className="text-sm text-text-light leading-relaxed">リモート・時短・残業・繁忙期について、平均値や制度名だけでなく「実際どう運用されているか」を事例で語れたか。数字や具体例で答えられた企業は運用が根づいている可能性が高い。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>2. チーム体制は持続可能か</h3>
+              <p className="text-sm text-text-light leading-relaxed">属人化していないか、相談やレビューがしやすい雰囲気か、特定の人に負荷が偏っていないか。急な休みや時短でも回る体制かは、長く働くうえで重要なシグナル。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>3. 成長・キャリアの機会があるか</h3>
+              <p className="text-sm text-text-light leading-relaxed">任される役割や技術的なチャレンジ、評価・キャリアパスの考え方が自分の希望と合うか。ライフイベント後も評価やキャリアアップの機会が続くかも確認しておきたい。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>4. 話していて相性が良かったか</h3>
+              <p className="text-sm text-text-light leading-relaxed">担当者や現場の雰囲気に無理がなかったか、価値観が合いそうか。第一印象の違和感は入社後に効いてくることも多いので軽視しない。</p>
+            </div>
+          </div>
+
+          <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#c15f47", borderWidth: "2px" }}>
+            <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>見送りを検討したい「注意サイン」</h3>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">!</span><span>働き方や待遇の質問をはぐらかす・具体例を出せない</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">!</span><span>現場の課題を語れず、良い面しか話さない</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">!</span><span>質問に対する回答に一貫性がない・高圧的だった</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">!</span><span>「フルリモート可」等の記載と、面談で聞いた実態が食い違う</span></li>
+            </ul>
+          </div>
+
+          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#efe3d8" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong style={{ color: "#7c3a55" }}>進むと決めたら</strong>　選考に進む意思が固まったら、次は本選考の面接対策へ。逆質問はフェーズ（一次・最終）で作り分けると効果的なので、<a href="/articles/reverse-questions/" className="underline" style={{ color: "#7c3a55" }}>面接の逆質問 例文集</a>で準備を。内定後には条件をすり合わせる<a href="/articles/offer-meeting/" className="underline" style={{ color: "#7c3a55" }}>オファー面談（条件面談）</a>も控えています。どの企業・エージェントが自分に合うか整理したいときは、<a href="/diagnosis/" className="underline" style={{ color: "#7c3a55" }}>無料のエージェント診断</a>もあわせて活用してください。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* sec8 エージェント */}
       <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
@@ -471,6 +534,8 @@ export default function ArticlePage() {
             <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>技術面接の対策</h3><p className="text-sm text-text-light">コーディング・設計質問への備え方</p></a>
             <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすい企業の選び方</h3><p className="text-sm text-text-light">制度と実態を見抜くチェックポイント</p></a>
             <a href="/articles/negotiation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収・条件交渉のコツ</h3><p className="text-sm text-text-light">適正な条件を引き出す交渉術</p></a>
+            <a href="/articles/reverse-questions/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>面接の逆質問 例文集</h3><p className="text-sm text-text-light">フェーズ別・好印象な逆質問とNG例</p></a>
+            <a href="/articles/offer-meeting/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>オファー面談（条件面談）の進め方</h3><p className="text-sm text-text-light">内定後に条件をすり合わせるコツ</p></a>
           </div>
         </div>
       </section>

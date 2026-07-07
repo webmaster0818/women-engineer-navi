@@ -160,3 +160,8 @@
 - ハブwomen-it-support-mapに導線3本(埼玉カード内詳細リンク+関連カード2枚)・categories公的支援カテゴリ+3(category-index/sitemapページ自動反映)・sitemap 125→128
 - tsc0・build成功・deploy両push・本番3/3 200+ハブ導線+sitemap128+主要事実grep検証・GSC再送信
 - 残: v4 P4(登録リクエスト後再計測)/第1弾5本+第2弾3本のGSC観測(7月中旬)→第3弾判断
+
+## 2026-07-06 テックゴーアフィリンク設定（MediaXAI依頼・moshimo）✅
+- 差し替え対象の判断: CTAボタン2箇所のみアフィリ化(reviews/techgo:「テックゴーに無料相談する」/techgo-career-mendan:「無料キャリア面談を予約する」)。**出典リンク(tech-go.jp/service等)は検証可能性のため直リンク維持**(アフィリURLは個別ページに飛べない)。TOP Pickup/ranking/診断は内部リンクのみで対象外
+- 実装: moshimoクリックURL+インプレッションピクセル(width/height 1・loading lazy)+rel="nofollow noopener"+referrerPolicy+attributionsrc(JSXでは`{...({attributionsrc:""} as any)}`のspreadで付与=TS型エラー回避)。**ステマ規制対応でCTA直下に「PR（アフィリエイト広告）・公式サイトへ移動します」を明記**(サイト初のアフィリのためページ内PR表記が無かった)
+- 検証: 本番2ページでクリックURL/ピクセル/attributionsrc/PR表記を確認+アフィリリンクの遷移先がform.tech-go.jp(moshimo計測パラメータ付き)に到達することをcurlで確認。dateModified/sitemap lastmod更新・GSC再送信
