@@ -180,3 +180,10 @@
 - 🐛ついで是正: negotiation内のレバテック旧値「48,000件」「リモート約60%」(7/5ランキング是正の漏れ)を「約58,000件」「リモート%削除」へ。7/4承認の差異修正クラスと同種
 - dateModified 4件・表示最終更新日も07-07へ・sitemap lastmod4件・deploy両push・本番検証(テックゴー導線4/4・旧値消滅)・GSC再送信
 - 残: v5 P4(育成事業刈り取り)/P3(ビッグKW権威底上げ)。※テックゴーのアフィリは/reviews/techgo/と/articles/techgo-career-mendan/のCTAに設定済み(7/6)
+
+## 2026-07-07 戦略v5 P3: ビッグKW=E-E-A-T実体化（MediaXAI「p3進めて」）✅
+- ビッグKW(女性エンジニア転職29位等)は新規ドメインの評価天井が主因→半年スパンの土台づくりとしてE-E-A-T実体化を実施(factoring/kimonoと共通の底上げ策)
+- Organization schema(layout)を強化: publisher配下にparentOrganization=株式会社MediaX(東京都渋谷区)・publishingPrinciples→/content-policy/・knowsAbout(女性エンジニア転職/IT転職/年収/資格/未経験)を追加。**sameAsは実在の公式SNS URLが無いため捏造せず不追加**(必要ならMediaXAIからURL支給後に追加)
+- Footer全ページに運営者(株式会社MediaX)+情報メディア明示+確認日運用+ランキングは広告非影響、の編集方針文を追加(content-policyへリンク)=shoenehou/kimono/factoring型の透明化。content-policy自体は既に運営/編集体制/確認方針が充実
+- sitemap lastmod・deploy両push・本番(Footer運営表記・schema parentOrganization/publishingPrinciples)cache回避curl検証・GSC再送信
+- 残: v5 P4(育成事業刈り取り)。※sameAsはMediaXAIの公式SNS URL待ち。ビッグKW順位は権威蓄積後(数ヶ月)に観測

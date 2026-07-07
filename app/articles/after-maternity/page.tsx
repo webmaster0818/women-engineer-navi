@@ -643,6 +643,16 @@ export default function ArticlePage() {
               <p className="text-sm text-text-light">時短・在宅の実態と両立できる職種</p>
             </a>
             <a
+              href="/articles/tokyo-women-training/"
+              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
+              style={{ borderColor: "#d9c7b8" }}
+            >
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
+                東京都 女性ITエンジニア育成事業
+              </h3>
+              <p className="text-sm text-text-light">受講料無料・託児つきで学び直せる都の事業</p>
+            </a>
+            <a
               href="/articles/return-to-work/"
               className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
               style={{ borderColor: "#d9c7b8" }}
