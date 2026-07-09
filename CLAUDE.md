@@ -187,3 +187,14 @@
 - Footer全ページに運営者(株式会社MediaX)+情報メディア明示+確認日運用+ランキングは広告非影響、の編集方針文を追加(content-policyへリンク)=shoenehou/kimono/factoring型の透明化。content-policy自体は既に運営/編集体制/確認方針が充実
 - sitemap lastmod・deploy両push・本番(Footer運営表記・schema parentOrganization/publishingPrinciples)cache回避curl検証・GSC再送信
 - 残: v5 P4(育成事業刈り取り)。※sameAsはMediaXAIの公式SNS URL待ち。ビッグKW順位は権威蓄積後(数ヶ月)に観測
+
+## 2026-07-08 戦略v5 P4: 育成事業クラスタ刈り取り（MediaXAI「p4進めて」）✅
+- 勝ちページ tokyo-women-training(「育成事業 口コミ」10位)を5位内へ: ①鮮度更新=公式(women-tokyo-en.metro.tokyo.lg.jp)を7/8再確認し募集状況を更新(**前期2期生は両コース募集終了・後期1期生8/1が両コース募集中**=7/2時点から変化を正確反映)+最終更新日6/12→7/8+dateModified+出典参照日7/8。虚偽の日付でなく実確認に基づく更新
+- ②内部リンク集約: 公的支援クラスタ→勝ちページの唯一の穴だったhitorioya-it-training→tokyo追加+after-maternity(産育休学び直し文脈)→tokyo追加。ranking/beginner/reskilling-leaveは既にリンク済み
+- sitemap lastmod3件・deploy両push・本番(募集状況7/8・最終更新・クラスタ集約2本)cache回避curl検証・GSC再送信
+- ★v5完遂(P1know深掘り/P2テックゴー年収動線/P3 E-E-A-T/P4育成事業刈り取り)。残: 登録リクエスト後のインデックス再計測(MediaXAI作業待ち)/sameAs用SNS URL待ち/育成事業10→5位・know順位の観測
+
+## 2026-07-09 v6策定（MediaXAI「ネクストアクション策定して欲しい」）→承認待ち
+- 実測(6/25-7/8): 「女性エンジニア 転職サイト おすすめ」**3.0位**(収益クエリがP1上位到達)・**職種×女性が勝ち筋実証**(データベースエンジニア女性6.2位/転職女性社内se20位)・育成事業口コミ11位台(P4反映待ち)・ビッグ30位・python資格50代32位
+- 提案(id 1524694029898485791): P1=職種×女性クラスタ強化(既存職種~15本に「女性が働くリアル」深掘り+相互配線+診断導線=sole-lab症状4本と同型) P2=トピッククラスタ配線監査+穴埋め(factoring手法移植・14カテゴリ×ピラーup/down機械分析) P3=資格×年代(python資格50代32位→cert-pythonに年代別セクション+学び直し接続) P4=登録リクエスト実施確認→再計測+育成事業/know観測
+- ★全4サイトの勝ち筋が確定: factoring=地域+指名ニッチ/sole-lab=症状ロングテール/kimono=産地織物×実売/women-engineer=職種×女性+公的支援。「実証面への集中投資+クラスタ配線+E-E-A-T」の共通型

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性組み込み・IoTエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "技術を正当に評価してもらうならIT・モノづくり特化型のレバテックキャリアやGeekly、機電・製造系に強いメイテックネクスト、女性のキャリア継続を重視するならtype女性の転職エージェントがおすすめです。特化型は車載・家電・産業機器など分野ごとの技術スタックを理解したアドバイザーが多く、年収交渉にも強みがあります。女性特化型は産休育休やリモートなど働き方の条件で求人を絞り込めます。2〜3社の併用がベストです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "組み込みエンジニアの職場は男性が多いと聞きますが、女性は働きにくいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "製造業系の開発現場は男性比率が高い職場が依然多いのが実情ですが、働きにくいかどうかは会社・チームの文化で大きく変わります。ダイバーシティ採用を進める大手メーカーを中心に女性エンジニアの採用・登用は広がっており、育休・時短の制度運用が定着している企業も少なくありません。応募前に、女性エンジニアの在籍状況、育休取得・復帰の実績、時短勤務者がどの工程（設計中心か実機検証中心か）を担当しているかを確認しましょう。求人票に出ない現場の実態は、エージェント経由で確認するのが確実です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "時短勤務でも組み込み開発は続けられますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "続けられます。設計・ファームウェア実装・コードレビューが中心のポジションであれば業務を時間で区切りやすく、時短勤務との相性は悪くありません。一方、実機検証・量産立ち上げ・不具合対応が重なる時期は稼働が読みにくくなるため、時短で働くなら担当工程と繁忙期の対応ルール（当番制の有無・時短者の扱い）を事前に確認することが重要です。長期プロジェクトが多くマイルストーンや引き継ぎの計画を立てやすい点は、時短・育児との両立において組み込みの有利な特徴です。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 年収・必要スキル・未経験からの道のりを実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -146,7 +162,8 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 組み込みのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-women-real" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性が組み込みエンジニアとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -410,6 +427,52 @@ export default function ArticlePage() {
               </div>
               <p className="text-sm text-text-light">独学でCとRaspberry Piを学び、センサーデータをクラウドに送るIoT作品を公開。未経験可・研修ありの自社製品メーカーに転職し、産休育休実績のある環境で長く働ける基盤を得ました。</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women-real" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性が組み込みエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              ここまで制度やスキルの面から働きやすさを見てきましたが、実際に飛び込む前に知っておきたいのは「現場の空気感」です。組み込みの主戦場は自動車・家電・産業機器といった<strong>製造業</strong>で、Web業界とは文化がひと味違います。相性・両立・キャリア・注意点を、一般論として正直に整理します。なお、女性エンジニアの比率や年収の実数は<a href="/articles/data/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">女性エンジニアの実データ集</a>にまとめています。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 製造業文化との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                メーカー系の開発現場は、設計レビューや品質ゲートを段階的に通していく<strong>プロセス重視・ドキュメント重視</strong>の文化が根付いています。スケジュールが長期で計画的なぶん、締切前の突発的な追い込みが常態化しにくく、「見通しを立てて着実に働きたい」タイプの人と相性が良い環境です。一方で、会議や手続きが多く意思決定が慎重な傾向はあり、Web系のスピード感を求める人には物足りない可能性もあります。また、職場の男女比は現場差が大きく、男性比率の高いチームが依然多いのも事実です。SIer的な多重下請け構造の現場も一部にあるため、商流は<a href="/articles/sier-industry/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">SIer業界の働き方ガイド</a>も参考に確認しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休・育休・時短との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                長期プロジェクトが中心でマイルストーンが読みやすいため、<strong>産休前の引き継ぎ計画や復帰時期の調整が立てやすい</strong>のは組み込みの強みです。C/C++やRTOSの知識は陳腐化しにくく、ブランク後のキャッチアップ負荷も比較的小さめです。ただし、実機検証や量産立ち上げの時期は出社や稼働が集中しやすいため、時短で働くなら設計・実装・レビュー中心のポジションを選ぶのが現実的です。制度の有無だけでなく、時短勤務者が実際にどの工程を担当しているかまで確認しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ 女性が積み上げやすいキャリアパス</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                車載（機能安全）・半導体・医療機器といった分野の専門特化、リーダー・PM、IoT・クラウド連携への拡張と、進路の選択肢は本文sec7の通り豊富です。専門性が高い職種ほど<strong>労働時間ではなく設計力・成果で評価されやすく</strong>、ライフイベントを挟んでも積み上げが消えにくいのが女性にとっての実利です。職種別の年収の目安は<a href="/articles/salary-by-job/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">職種別年収ガイド</a>、需要動向の実データは<a href="/articles/demand/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">エンジニアの需要・将来性</a>を参照してください。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点（正直に）</h3>
+              <ul className="text-sm text-text-light space-y-2 leading-relaxed">
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>女性エンジニアが少ない現場が依然多く、社内にロールモデルを見つけにくい場合がある</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>実機が必要な工程はリモートに制約があり、フルリモート求人はWeb系より少ない</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>工場・試験場への出張や、量産立ち上げ前・市場不具合対応時の繁忙がある現場も</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>会社により文化差が大きいため、女性エンジニアの在籍状況・育休復帰実績・リモート運用は面接やエージェント経由で個別に確認を</span></li>
+              </ul>
+            </div>
+          </div>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p className="text-sm">
+              「自分の状況にどの働き方・エージェントが合うか」を整理したい方は<a href="/diagnosis/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">エージェント無料診断</a>で相性を確認できます。各社の比較は<a href="/ranking/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">おすすめ転職エージェントランキング</a>をご覧ください。
+            </p>
           </div>
         </div>
       </section>

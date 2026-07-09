@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性バックエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "技術を正当に評価してもらうならIT特化型のレバテックキャリアやGeekly、女性のキャリア継続を重視するならtype女性の転職エージェントがおすすめです。IT特化型はバックエンドの技術スタックを理解したアドバイザーが多く、年収交渉にも強みがあります。女性特化型は産休育休やリモートなど働き方の条件で求人を絞り込めます。2〜3社の併用がベストです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "バックエンドエンジニアに夜間対応（オンコール）はありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "サービスの本番障害に備えるオンコール（呼び出し待機）当番を設けている企業はあります。ただし運用は企業差が大きく、SREや運用チームが一次対応を担い開発者はほとんど呼ばれない体制から、開発者が輪番で待機する体制までさまざまです。深夜リリースの有無も含め、応募時に『障害対応・リリースの体制』を確認しましょう。育児中はオンコール当番の免除・調整に応じる企業もあるため、面談で相談する価値があります。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "時短勤務でもバックエンドエンジニアとして評価されますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "評価されやすい傾向のある職種です。実装した機能・コード・改善した処理速度など成果が客観的に残るため、一般に労働時間の長さではなくアウトプットで評価されやすいとされます。プルリクエストやドキュメントなど非同期のテキストコミュニケーションが中心の開発チームであれば、勤務時間帯のズレも吸収しやすい環境です。ただし評価制度の実態は企業差が大きいため、時短勤務者の在籍実績や評価の仕組みを事前に確認するのがおすすめです。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 年収・必要スキル・未経験からの道のりを実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -146,7 +162,8 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. バックエンドのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性がバックエンドエンジニアとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -409,6 +426,52 @@ export default function ArticlePage() {
                 <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のバックエンド（Python）/ 年収430万円</p></div>
               </div>
               <p className="text-sm text-text-light">独学＋スクールでPython/Djangoを学び、CRUD＋API付きのポートフォリオを公開。未経験可の自社開発企業に転職し、産休育休実績のある環境で長く働ける基盤を得ました。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がバックエンドエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              2章で「長く働きやすい理由」を紹介しましたが、ここでは実際に働くうえで気になる「夜間対応の有無」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向を正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                バックエンド開発はコードを書く・レビューする作業がオンラインで完結しやすく、一般にリモートワークとの相性が良い職種です。体力面もデスクワーク中心で、力仕事はほぼありません。一方で正直に触れておきたいのが、本番サービスの障害に備える<strong>オンコール（呼び出し待機）当番や深夜リリース</strong>の存在です。運用チームが一次対応を担い開発者はほぼ呼ばれない企業もあれば、開発者が輪番で待機する企業もあり、体制次第で負担が大きく変わります。応募時には「障害対応とリリースの体制」を必ず確認しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休育休・時短との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                バックエンド開発には、コードレビュー・プルリクエスト・設計ドキュメントといった「仕事の中身をテキストで残す」文化が根付きやすく、業務の属人性を下げやすい傾向があります。担当機能の引き継ぎもコードとドキュメントを軸に進められるため、一般に産休育休の計画は立てやすい仕事です。復帰後も、DB設計やAPI設計といった中核スキルは流行に左右されにくく、ブランクで価値が落ちにくいのが強み。成果がアウトプットで残るため、時短勤務でも評価されやすい傾向です。ただし時短の評価運用は企業差が大きいため、時短勤務者の在籍実績を確認しておくと安心です。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ バックエンドからのキャリアパス</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                7章で紹介したテックリード・アーキテクト・EMの道に加え、女性のキャリア設計の観点では「働き方を軸にした転向」も選択肢です。データベースやSQLの経験を活かして<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア</a>へ広げる道は市場価値を高めやすく、腰を据えた働き方を重視するなら<a href="/articles/internal-se/" className="underline" style={{ color: "#7c3a55" }}>社内SE</a>へ移る道もあります。開発経験はどちらでも強く評価されるため、「バックエンドで数年経験を積むこと」自体が将来の選択肢を増やす投資になります。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                正直な注意点は3つ。(1)技術の学習を続けることが前提の職種で、業務外のキャッチアップ時間をどれだけ確保できるかが長期的な差になりやすい、(2)オンコールや障害対応の負担は企業差が大きく、求人票だけでは分からない、(3)開発チームの女性比率が低い職場もあり、ロールモデルの有無やチーム構成は面談・カジュアル面談で確認する価値がある、という点です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <p className="font-bold text-lg mb-2">自分に合った働き方から探すなら</p>
+            <p className="text-sm text-text-light mb-4">8つの質問で相性の良い転職エージェントがわかる無料診断も活用してください。</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="/diagnosis/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#7c3a55" }}>無料エージェント診断を試す</a>
+              <a href="/ranking/" className="inline-block rounded-full px-8 py-3 font-bold transition-transform hover:scale-105" style={{ border: "2px solid #7c3a55", color: "#7c3a55" }}>ランキングを見る</a>
             </div>
           </div>
         </div>

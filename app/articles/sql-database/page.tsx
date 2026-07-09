@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性データベースエンジニア（DBA）転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "資格はPostgreSQLならOSS-DB Silver/Gold、OracleならORACLE MASTER Bronze/Silver/Goldが王道で、基本情報技術者やデータベーススペシャリスト（国家資格）も評価されます。エージェントは、技術スタックを正しく評価してもらうならIT特化型のレバテックキャリアやGeekly、女性のキャリア継続を重視するならtype女性の転職エージェントがおすすめです。IT特化型はOracle運用やSQLチューニングといった専門スキルを年収に反映させる交渉に強く、2〜3社の併用がベストです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "バックエンドやデータエンジニアからデータベースエンジニアに転向できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "転向できます。バックエンドエンジニアならアプリケーション側から見たSQL・テーブル設計の経験が、データエンジニアならデータモデリングやSQLでの集計・変換の経験が、そのまま土台として活きます。そこにバックアップ／リカバリ・冗長化・実行計画を使ったチューニングといったRDBMS運用の知識を足せば、DBA寄りのポジションに手が届きます。逆にDBエンジニアからバックエンドやデータ基盤側へ広げるキャリアも一般的で、相互に行き来しやすい職種群です。ライフイベントに合わせて働き方を変えたいときに選択肢が多いのは、この職種群の強みです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "データベースエンジニアの夜間対応・オンコールは避けられますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "ポジション選びで避けられます。本番DBの障害対応や夜間メンテナンスが当番制になっている運用中心の現場がある一方、DB設計・SQLチューニング・性能改善が中心のポジションではオンコールが無いか限定的なことも多くあります。転職時は、運用体制（当番の有無・頻度・免除制度）と担当工程（運用中心か設計中心か）を求人票と面接で具体的に確認しましょう。育児などで夜間対応が難しい場合は、その旨をエージェントに伝えて設計・チューニング寄りの求人に絞り込むのが確実です。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 SQL・DB設計・RDBMS運用とチューニングを実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -146,7 +162,8 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. DBエンジニアのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-women-real" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性がデータベースエンジニアとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -420,6 +437,52 @@ export default function ArticlePage() {
               </div>
               <p className="text-sm text-text-light">独学でSQL・正規化を学びOSS-DB Silverを取得。サンプルDBの設計とクエリ改善をまとめた成果物を提示し、未経験可のDB運用ポジションに転職。産休育休実績のある環境で長く働ける基盤を得ました。</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women-real" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がデータベースエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              「長く働きやすい理由」で制度・スキル面は紹介した通りです。ここでは、これから<strong>データベースエンジニアへのキャリア</strong>を考える女性に向けて、業務の質感・ライフイベントとの両立・キャリアの築き方・注意点をもう一歩踏み込んで整理します。女性エンジニアの比率や年収の実数は<a href="/articles/data/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">女性エンジニアの実データ集</a>と<a href="/articles/salary-by-job/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">職種別年収ガイド</a>を参照してください。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 安定需要×計画的な業務という相性の良さ</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                データベースはあらゆる業務システムの土台にあるため、流行の移り変わりで仕事が急に消えにくい領域です（需要動向の実データは<a href="/articles/demand/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">エンジニアの需要・将来性</a>参照）。加えて、DB設計・チューニング・リリース作業は「計画を立てて、検証して、実施する」<strong>計画駆動</strong>の進め方が基本で、本番作業ほど事前準備が重視されます。スケジュールの見通しを立てて働きたい人、家庭の予定と仕事を両立させたい人と相性の良い業務特性です。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休・育休・時短との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                設計・チューニング中心のポジションは業務を時間で区切りやすく、時短勤務との相性が良好です。正規化やトランザクションといったRDBMSの基礎は陳腐化しにくいため、<strong>ブランク後のキャッチアップ負荷が小さい</strong>のも復帰のしやすさにつながります。一方で、復帰後の負荷は「当番・オンコールの有無」で大きく変わります。復帰や時短を見据えるなら、制度の有無だけでなく運用体制と担当工程まで確認して選びましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ データベースエンジニアへのキャリアの築き方</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                未経験からは、本文のロードマップの通り運用・監視から入って設計・チューニングへ進むのが王道です。隣接職種からの転向も現実的で、<a href="/articles/backend/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">バックエンドエンジニア</a>ならアプリ側から見たSQL・設計経験が、<a href="/articles/data-engineer/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">データエンジニア</a>ならデータモデリング経験がそのまま土台になります。学習を職種転換につなげたい場合は、<a href="/articles/cert-database/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">データベース資格ガイド</a>で基礎力の証明から橋を架けるのが着実です。専門性は労働時間ではなく設計力・改善実績で評価されるため、時短期間があってもキャリアの積み上げが消えにくいのがこの職種の実利です。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点（正直に）</h3>
+              <ul className="text-sm text-text-light space-y-2 leading-relaxed">
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>本番DBの障害対応・夜間メンテナンスが当番制の現場では、生活リズムへの影響がある（設計・チューニング中心のポジション選びで回避可能）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>金融・基幹系にはオンプレミス環境や客先常駐の現場も残っており、リモート可否は案件差が大きい</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>運用オペレーターの業務範囲にとどまると評価も年収も伸びにくい。設計・チューニングへ意識的にステップアップする計画が必要</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>オンコールの有無・頻度・免除制度は求人票に書かれていないことが多く、面接やエージェント経由での個別確認が必須</span></li>
+              </ul>
+            </div>
+          </div>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p className="text-sm">
+              自分の経験・希望する働き方に合うエージェントを整理したい方は<a href="/diagnosis/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">エージェント無料診断</a>で相性を確認できます。各社の比較は<a href="/ranking/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">おすすめ転職エージェントランキング</a>をご覧ください。
+            </p>
           </div>
         </div>
       </section>

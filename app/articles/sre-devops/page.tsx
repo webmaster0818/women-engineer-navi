@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性SRE・DevOpsエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "クラウド・コンテナのスキルを正当に評価してもらうならIT特化型のレバテックキャリアやGeekly、女性のキャリア継続を重視するならtype女性の転職エージェントがおすすめです。IT特化型はKubernetesやTerraformといった技術スタックを理解したアドバイザーが多く、高単価のSRE・DevOps求人と年収交渉に強みがあります。女性特化型はリモート・オンコール体制・産休育休実績などの働き方条件で求人を絞り込めます。技術評価と働きやすさの両面を担保するため、2〜3社の併用がベストです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "育児中でもSREのオンコール当番はこなせますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "現場の体制次第です。一般に、輪番の人数が多く自動化が進んでいる現場ほど1人あたりの負担は小さく、育児中のメンバーが担当時間帯を調整できる運用をとる企業もあります。逆に少人数のチームで24時間対応している現場では負担が大きくなりがちです。応募時には、輪番の人数と頻度・深夜アラートの実際の発生状況・当番の交代やスキップの柔軟性・手当や代休の有無を確認しましょう。社内基盤の担当や日中のみの対応など、オンコールのない（少ない）SREポジションも存在するため、条件を諦める必要はありません。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "「SRE募集」の求人で入社前に確認すべきポイントは何ですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "求人名がSREでも、実態が従来型の運用監視（手順書ベースの障害一次対応）に近いケースがあるため、業務内容の確認が重要です。具体的には、(1)SLOやエラーバジェットを実際に運用しているか、(2)トイル削減・自動化にどの程度の時間を使えているか、(3)IaCやCI/CDの整備状況、(4)オンコールの体制と頻度、を面接で質問しましょう。回答が具体的な企業ほどSREの考え方が根付いている可能性が高いといえます。働き方の条件と合わせて、エージェント経由で現場の実態を確認するのも有効です。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 年収・必要スキル・インフラからの道のりを実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -147,6 +163,7 @@ export default function ArticlePage() {
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
               <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. 女性がSRE・DevOpsエンジニアとして働くリアル</a></li>
             </ol>
           </div>
         </div>
@@ -440,6 +457,39 @@ export default function ArticlePage() {
                 </div>
               </details>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* sec11 女性が働くリアル（2026-07-09追記） */}
+      <section id="sec11" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がSRE・DevOpsエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              最後に、実際に女性がSRE・DevOpsエンジニアとして働くうえで気になりやすいポイントを、働き方の観点から補足します。年収や女性比率などの具体的な数値は<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>と<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別の年収ガイド</a>に出典付きでまとめています。
+            </p>
+          </div>
+          <div className="space-y-4 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>職種との相性｜働きやすさは「自動化の成熟度」でほぼ決まる</h3>
+              <p className="text-sm text-text-light leading-relaxed">SRE・DevOpsは一般にリモート親和性の高い職種ですが、同じ職種名でも現場の負荷は大きく異なります。分かれ目は自動化と信頼性設計の成熟度です。トイル削減が進みSLOで対応範囲を数値合意している現場では計画的に働きやすい一方、自動化が進んでいない現場では突発対応に追われがちです。つまり「SREだから働きやすい」のではなく「SREの思想が実践されている現場だから働きやすい」——この違いを見極めることが、育児・介護と両立したい人ほど重要になります。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>産休育休・時短との相性｜属人化を排除する文化が引き継ぎを助ける</h3>
+              <p className="text-sm text-text-light leading-relaxed">SREの文化（IaC・手順の自動化・ポストモーテムの文書化）は属人化の排除そのものなので、一般に休業前の引き継ぎがしやすく、復帰後も構成やインシデント履歴がコードと文書で追える傾向があります。一方でツールの更新は速いため、復帰時には主要ツールのバージョン差分をキャッチアップする期間を見込んでおくと安心です。復帰の進め方は<a href="/articles/after-maternity/" className="underline" style={{ color: "#7c3a55" }}>産休・育休後の復帰ガイド</a>も参考にしてください。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>キャリアパス｜時期に応じて「軸足」を移せる</h3>
+              <p className="text-sm text-text-light leading-relaxed"><a href="/articles/infrastructure/" className="underline" style={{ color: "#7c3a55" }}>インフラエンジニア</a>や<a href="/articles/backend/" className="underline" style={{ color: "#7c3a55" }}>バックエンド</a>からSREへ、SREから<a href="/articles/cloud-gcp-azure/" className="underline" style={{ color: "#7c3a55" }}>クラウドアーキテクト</a>やプラットフォームエンジニアへと、隣接領域と行き来しやすい職種です。時短勤務の期間は可観測性の改善や自動化ツール整備など区切りを付けやすい業務に軸足を置き、フルタイム復帰後に信頼性設計やオンコールを含む役割へ戻す、といった調整をしている現場もあります（体制は企業差が大きいため要確認）。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
+              <p className="text-sm text-text-light leading-relaxed">正直な注意点として、(1)「SRE募集」でも実態が従来型の運用監視に近い求人が混ざっていること（SLO運用・自動化の実態を面接で質問して見極める）、(2)オンコールの負担は輪番人数・アラート件数・代休運用で大きく変わるため具体的な数字で確認が必要なこと、(3)ツールチェーンの進化が速く継続的な学習が前提になること、の3点は押さえておきましょう。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <p className="text-sm text-text-light leading-relaxed">オンコール体制・リモート・時短など働き方の条件を重視した転職では、エージェント選びが結果を左右します。<a href="/diagnosis/" className="underline font-bold" style={{ color: "#7c3a55" }}>無料のエージェント診断</a>で自分の状況に合うエージェントを確認し、<a href="/ranking/" className="underline font-bold" style={{ color: "#7c3a55" }}>おすすめエージェントランキング</a>と併せて活用してください。</p>
           </div>
         </div>
       </section>

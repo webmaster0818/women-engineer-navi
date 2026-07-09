@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性 社内SE 転職ガイド｜仕事内容・年収・未経験から目指す道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "社内SE求人を正当に評価してもらうなら、IT特化型のレバテックキャリアやGeekly、女性のキャリア継続を重視するならtype女性の転職エージェントがおすすめです。IT特化型は社内SEのポジション（情シス・ITヘルプデスク・DX推進など）の違いを理解したアドバイザーが多く、年収交渉にも強みがあります。女性特化型は残業の少なさや産休育休実績、リモートなど働き方の条件で求人を絞り込めます。社内SEは人気職で競争率が高いため、求人情報の早さでも複数登録（2〜3社）がおすすめです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "子育て中の女性でも社内SEは続けやすいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "一般に続けやすい傾向のある職種です。業務がルーティン中心で計画的に進めやすく、突発の納期に振り回されにくいため、時短勤務や保育園の送迎とも両立しやすいとされます。運用手順をドキュメント化する文化が根付きやすく、産休育休の引き継ぎもしやすい仕事です。ただし『一人情シス』（情シス担当が自分だけ）の企業では業務が属人化して休みにくいことがあるため、情シスの人員体制と育休の取得・復帰実績は応募前に必ず確認しましょう。実態は企業差が大きいため、内情に詳しい転職エージェント経由での確認が確実です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "社内SEに夜間対応や休日出勤はありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "企業によります。システム障害の対応や、業務を止めないためのメンテナンス作業（サーバー更新・システム切替など）は、夜間や休日に発生することがあります。ただし頻度は体制次第で、監視や一次対応を外部ベンダーに委託していたり、複数名の輪番制にしていたりする企業では負担は限定的です。応募時には『障害発生時の対応体制』『夜間・休日対応の頻度と代休の運用』を確認しておくと、入社後のギャップを防げます。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 残業少なめ・WLB良好で腰を据えて働ける人気職を実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -146,7 +162,8 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 社内SEのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性が社内SEとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -417,6 +434,52 @@ export default function ArticlePage() {
                 <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">IT企業の社内SE（ヘルプデスク＋業務システム）/ 年収420万円</p></div>
               </div>
               <p className="text-sm text-text-light">営業事務として勤怠・販売管理システムの運用やトラブル対応を担当していた経験を棚卸し。ITパスポートと基本情報技術者を取得して基礎を証明し、未経験可の社内SE求人へ。業務理解と調整力を評価され、ヘルプデスク＋業務システム担当としてキャリアチェンジに成功しました。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性が社内SEとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              ここまで仕事内容や年収を見てきましたが、実際に女性が社内SEとして働くうえで気になるのは「働き方の実態」と「ライフイベントとの両立」ではないでしょうか。求人票だけでは見えにくいポイントを、一般的な傾向として正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                社内SEはデスクワーク中心で体力的な負担が少なく、業務がルーティン中心で計画的に働きやすい傾向があります。一方で、ヘルプデスクや機器のキッティング（PCのセットアップ）など出社が前提になりやすい業務も含むため、フルリモートよりは「リモート併用」の働き方が一般的です。また、社内システムの障害対応やメンテナンスは業務時間外（夜間・休日）に発生することがあり、その頻度は情シスの人員体制やベンダーへの委託範囲によって大きく変わります。応募時には「障害時の対応体制」「リモートの運用実態」を確認しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休育休・時短との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                社内SEの業務は、運用手順やシステム構成をドキュメント化して引き継ぐ文化が根付きやすく、一般に産休育休の引き継ぎがしやすい職種といえます。突発対応が比較的少なくスケジュールを立てやすいため、時短勤務とも相性が良い傾向です。ただし注意したいのは「一人情シス」（情シス担当が自分だけ）の企業。業務が属人化して休みを取りにくく、育休取得のハードルも上がりがちです。産休育休との両立を重視するなら、情シスが複数名いる体制か、育休の取得・復帰実績があるかを必ず確認してください。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ 社内SEからのキャリアパス</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                社内SEは「業務とITの両方がわかる」経験が積み上がるため、情シスリーダー→ITマネージャーという管理職の道のほか、DX推進担当・ITコンサルタント方面へ広げる道があります。また、ベンダー管理や業務システムの経験を足がかりに、<a href="/articles/backend/" className="underline" style={{ color: "#7c3a55" }}>バックエンドエンジニア</a>などの開発職へ転向する人もいます。腰を据えて働きながら選択肢を広げられるのは、社内SEならではの強みです。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                正直な注意点として、(1)人気職のため良い求人ほど競争率が高い、(2)ヘルプデスク中心のポジションに長くとどまるとスキルと年収が伸びにくい、(3)「ホワイトで楽」というイメージが先行しがちだが実態は企業差が非常に大きい、の3点は押さえておきましょう。「社内SEだから働きやすい」のではなく「働きやすい体制の会社の社内SEだから働きやすい」のが実情です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <p className="font-bold text-lg mb-2">自分に合った働き方から探すなら</p>
+            <p className="text-sm text-text-light mb-4">8つの質問で相性の良い転職エージェントがわかる無料診断も活用してください。</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="/diagnosis/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#7c3a55" }}>無料エージェント診断を試す</a>
+              <a href="/ranking/" className="inline-block rounded-full px-8 py-3 font-bold transition-transform hover:scale-105" style={{ border: "2px solid #7c3a55", color: "#7c3a55" }}>ランキングを見る</a>
             </div>
           </div>
         </div>

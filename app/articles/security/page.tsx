@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性セキュリティエンジニア転職ガイド｜年収・資格・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "技術と資格を正当に評価してもらうならIT特化型のレバテックキャリアやGeekly、女性のキャリア継続を重視するならtype女性の転職エージェントがおすすめです。IT特化型はセキュリティの技術領域（SOC・診断・CSIRT）を理解したアドバイザーが多く、高年収帯の非公開求人や年収交渉に強みがあります。女性特化型は産休育休・リモート・夜勤なしなど働き方の条件で求人を絞り込めます。専門性が高い職種ほど提案の質に差が出るため、2〜3社の併用がベストです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "夜勤なしでセキュリティエンジニアとして働けますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "可能です。セキュリティの中でもSOC（24時間監視）は交代制シフトの現場が多い一方、脆弱性診断・セキュリティコンサルティング・設計・監査・ガバナンス系の業務は一般に日中中心で、夜勤のない働き方を選びやすい領域です。キャリアの入り口としてSOCを経験する場合も、日勤中心のポジションを選ぶ、数年後に診断・設計へ移る前提でキャリアを組むといった方法があります。応募時には、シフトの有無に加えて、インシデント発生時の緊急呼び出し体制（当番制か・頻度はどの程度か）も確認しておきましょう。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "出産・育児のブランクがあってもセキュリティ分野に復帰できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "復帰しやすい要素が多い職種です。土台となるネットワーク・認証・リスク評価の考え方は陳腐化しにくく、情報処理安全確保支援士（登録セキスペ）などの資格はブランク後も専門性の客観的な証明として機能します。登録セキスペには継続講習の制度があり、知識を更新しながら資格を維持できます。一方で攻撃手法や脆弱性情報は日々更新されるため、復帰前にセキュリティニュースや脆弱性情報のキャッチアップ期間を設けると安心です。人材不足が続く分野のため、経験者の復帰は一般に歓迎されやすい状況です。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 年収・必要資格・未経験からの道のりを実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -147,6 +163,7 @@ export default function ArticlePage() {
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
               <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. 女性がセキュリティエンジニアとして働くリアル</a></li>
             </ol>
           </div>
         </div>
@@ -432,6 +449,39 @@ export default function ArticlePage() {
                 </div>
               </details>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* sec11 女性が働くリアル（2026-07-09追記） */}
+      <section id="sec11" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がセキュリティエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              最後に、実際に女性がセキュリティエンジニアとして働くうえで気になりやすいポイントを、働き方の観点から補足します。年収や女性比率、職種別の需要などの具体的な数値は<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別の年収ガイド</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要の高いエンジニア職種</a>に出典付きでまとめています。
+            </p>
+          </div>
+          <div className="space-y-4 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>職種との相性｜「資格が効く職種」はライフイベントに強い</h3>
+              <p className="text-sm text-text-light leading-relaxed">セキュリティは需要の増加が続く一方で担い手が不足しており、資格と専門知識でスキルを客観的に示しやすい職種です。一般に、こうした「資格が効く職種」は、産休育休や転居などライフイベントを挟んでも市場価値を証明し直しやすい傾向があります。また業務のうち脆弱性診断・監査・コンサルティングはリモートと相性が良く、働く場所の制約が小さい領域を選べるのも特徴です。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>産休育休・時短との相性｜知識が陳腐化しにくい土台を持てる</h3>
+              <p className="text-sm text-text-light leading-relaxed">ネットワーク・認証・リスク評価・法令やガイドラインへの対応といったセキュリティの土台は変化が緩やかで、ブランクがあっても失われにくい資産です。情報処理安全確保支援士は継続講習で知識を更新しながら維持できる国家資格で、復帰時の証明として機能します。時短勤務でも「専門職として」評価されやすい構造は、長く働くうえで大きな支えになります。復帰の進め方は<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>仕事復帰ガイド</a>も参考にしてください。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>キャリアパス｜両立期は「時間が読める領域」を選べる</h3>
+              <p className="text-sm text-text-light leading-relaxed">入り口は<a href="/articles/infrastructure/" className="underline" style={{ color: "#7c3a55" }}>インフラエンジニア</a>経由が王道ですが、セキュリティ内部でもキャリアの選び直しができます。一般に、監査・ガバナンス・コンサルティング系は計画的に進む業務が中心で勤務時間が読みやすい傾向があり、育児との両立期の選択肢になります。フルタイムで攻めたい時期は診断・インシデント対応で技術を深める、というように、同じ専門性の中で働き方の強弱を付けられるのがこの職種の強みです。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
+              <p className="text-sm text-text-light leading-relaxed">正直な注意点として、(1)SOC（監視）は24時間の交代制シフトの現場が多く、夜勤を避けたい場合はポジション選びが必須なこと、(2)インシデント対応は性質上、突発対応が発生し得ること（体制・当番制の有無を要確認）、(3)上級職ゆえに未経験からはインフラ経験を挟む数年単位の道のりになること、の3点は押さえておきましょう。働き方の実態は求人票に出にくいため、エージェント経由での確認が確実です。</p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <p className="text-sm text-text-light leading-relaxed">夜勤なし・リモート・時短など働き方の条件を重視した転職では、エージェント選びが結果を左右します。<a href="/diagnosis/" className="underline font-bold" style={{ color: "#7c3a55" }}>無料のエージェント診断</a>で自分の状況に合うエージェントを確認し、<a href="/ranking/" className="underline font-bold" style={{ color: "#7c3a55" }}>おすすめエージェントランキング</a>と併せて活用してください。</p>
           </div>
         </div>
       </section>

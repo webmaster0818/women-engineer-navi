@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性データサイエンティスト転職ガイド｜年収・必要スキル・未経験からの道筋【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "データサイエンティスト協会の調査では、日本のデータサイエンティストの女性比率は約1割（2019年調査で13%、2021年調査では男女比およそ9:1）とまだ少数派です。ただし職種としては、有効求人倍率11.88倍（厚労省job tag・令和6年度）という強い売り手市場で、分析業務はリモートワークと相性が良く、成果がアウトプットで可視化されるため時短勤務でも評価されやすいのが特徴です。女性が少ないからこそ採用・登用に積極的な企業も多く、長期的なキャリアを築きやすい職種といえます。",
       },
     },
+    {
+      "@type": "Question",
+      name: "データサイエンティストは子育てと両立しやすいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "両立しやすい要素の多い職種です。分析業務はリモートワークと相性が良く、成果がレポートやモデルの精度として客観的に残るため、一般に時短勤務でも評価されやすい傾向があります。分析はプロジェクト単位で区切りやすく、産休前の引き継ぎ計画も立てやすい仕事です。一方で、施策の意思決定に関わる打ち合わせが多い職種のため、会議時間帯の柔軟さは職場によって差があります。時短・リモートの運用実態と育休の取得・復帰実績を、応募前にエージェント経由で確認するのが確実です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "データサイエンティストに夜間対応や深夜残業はありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "システムの障害対応を本務としないため、一般に夜間の呼び出し対応は少ない職種です。ただし、分析レポートの提出期限前や機械学習モデルのリリース前に業務量が増えることはあり、繁閑の波はプロジェクト次第です。また、モデルを本番運用まで担うポジション（MLOps寄り）では監視・障害対応が業務に含まれる場合があります。応募時には『担当範囲が分析までか、本番運用まで含むか』を確認すると、働き方のイメージが正確になります。",
+      },
+    },
   ],
 };
 
@@ -128,7 +144,7 @@ export default function ArticlePage() {
                 年収・必要スキル・未経験からの道筋を実データで解説【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -183,7 +199,8 @@ export default function ArticlePage() {
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 未経験からの段階的キャリアルート（アナリスト→DS）</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. データサイエンティストのキャリアパス</a></li>
               <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. おすすめ転職エージェント</a></li>
-              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
+              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>11. 女性がデータサイエンティストとして働くリアル</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>12. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -589,6 +606,52 @@ export default function ArticlePage() {
             >
               おすすめエージェントランキングを見る
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がデータサイエンティストとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              3章では女性比率や働きやすさの現状を出典付きで見ました。ここでは実際に働くうえで気になる「夜間対応や繁閑の波」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向を正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                分析業務はPCとクラウド環境があれば場所を選ばず、一般にリモートワークとの相性が良い職種です。体力面もデスクワーク中心です。夜間対応については、システム障害の一次対応を本務としないため、開発・運用系の職種に比べて夜間の呼び出しは少ない傾向があります。ただし、レポートの提出期限前やモデルのリリース前に業務量が増える「繁閑の波」はプロジェクト次第で、事業部門や経営層との打ち合わせが多い職種でもあるため、会議時間帯の柔軟さ（コアタイムの運用など）は職場によって差があります。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休育休・時短との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                分析はプロジェクト単位で区切りやすく、分析設計・コード・レポートが成果物として残るため、一般に産休前の引き継ぎ計画を立てやすい仕事です。復帰の面でも、統計学・実験計画・因果推論といった土台の知識は陳腐化しにくく、ブランクで価値が落ちにくいスキル資産といえます。成果がアウトプットで可視化されるため、時短勤務でも評価されやすい傾向です。一方で生成AIをはじめ分析を取り巻く技術の進展は速いため、復帰時にはツール・手法の差分キャッチアップを見込んでおきましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ データサイエンティストからのキャリアパス</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                9章で紹介したリードDS・マネジメント・事業側への道に加え、基盤側へ軸足を移して<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア</a>を目指す道もあります。分析の現場を知っているデータエンジニアは「使われる基盤」を設計できる人材として重宝され、フルリモート求人の多い領域でもあるため、ライフステージに合わせた働き方の選び直しにも向いています。どの方向へ進むにも土台となるSQLの磨き方は<a href="/articles/sql-database/" className="underline" style={{ color: "#7c3a55" }}>SQL・データベーススキルガイド</a>を参考にしてください。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                正直な注意点は3つ。(1)「データサイエンティスト」の求人タイトルでも実務は集計・レポーティング中心という場合があり、モデリングまで任せてもらえるかは求人ごとの見極めが必要、(2)3章で見たとおり女性比率は約1割（データサイエンティスト協会調査）とまだ少なく、職場によってはロールモデルが身近にいない、(3)完全未経験からの直行は難易度が高く、アナリスト経由の段階的ルート（8章）が現実的、という点です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <p className="font-bold text-lg mb-2">自分に合った働き方から探すなら</p>
+            <p className="text-sm text-text-light mb-4">8つの質問で相性の良い転職エージェントがわかる無料診断も活用してください。</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="/diagnosis/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#7c3a55" }}>無料エージェント診断を試す</a>
+              <a href="/ranking/" className="inline-block rounded-full px-8 py-3 font-bold transition-transform hover:scale-105" style={{ border: "2px solid #7c3a55", color: "#7c3a55" }}>ランキングを見る</a>
+            </div>
           </div>
         </div>
       </section>

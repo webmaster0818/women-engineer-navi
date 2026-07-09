@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "Webデザイナーから女性エンジニアへ｜年収差・キャリアチェンジの現実的ルート【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "「なぜ使いやすいかを設計したい」ならUXデザイナー、「手を動かして画面を作り込みたい」ならフロントエンドエンジニアが向いています。年収面では、求人ボックスの平均はUXデザイナー約404万円・フロントエンド約446万円ですが、UXは上流職（UXリサーチャー等）で538万〜631万円、フロントエンドはスキル次第で900万円超と、どちらも伸びしろがあります。コードを書く時間を増やしたいか減らしたいかが分かれ目です。UXデザイナーの詳細は当サイトのUXデザイナー転職ガイドで解説しています。",
       },
     },
+    {
+      "@type": "Question",
+      name: "Webデザイナーは子育てと両立しやすい仕事ですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "制作業務は在宅で完結しやすく、時短・フリーランス・副業など柔軟な働き方を選びやすい職種である一方、納期前の集中やクライアント都合の修正対応が突発的に発生しやすい面もあります。両立のしやすさは「事業会社のインハウスか受託制作か」「スケジュールの裁量がどれだけあるか」で大きく変わるのが実態です。長期的には、年収レンジの広いエンジニア側へスキルを広げておくと、成果物で評価されやすくなり、時短勤務やリモート勤務を含めた働き方の選択肢が増えます。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "女性のWebデザイナーは多いですか？エンジニアへ転身する人は実際にいますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Webデザイナーは一般に、IT系職種の中でも女性の割合が高い傾向があるとされる職種です。ただし職種別の公的な女性比率統計は少ないため、関連する統計データは当サイトの「女性エンジニアのデータ集」で出典付きで整理しています。デザイナーからフロントエンドエンジニアへの転身は確立されたルートの一つで、HTML/CSSやFigmaの経験を土台にJavaScript・React・TypeScriptを積み上げる学習パスが定番です。デザインと実装の両方が分かる人材への需要は高まっており、キャリアチェンジ先としての現実性は十分あります。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 年収差・キャリアチェンジの現実的ルート【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -187,7 +203,8 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. キャリアチェンジ後のキャリアパス</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 転職活動のポイント（女性のキャリア視点）</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>9. 女性がWebデザイナーとして働くリアル</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -527,6 +544,41 @@ export default function ArticlePage() {
             >
               おすすめエージェントランキングを見る
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がWebデザイナーとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              エンジニアへの転身ルートを解説してきましたが、ここで一度、「女性がWebデザイナーという職種で働き続けるとどうなのか」を、良い面も注意点も含めて整理します。今の職種の構造を正しく理解しておくことが、キャリアチェンジするかどうかの判断材料になるからです。
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 職種との相性: 始めやすいが、競争も激しい</h3>
+              <p className="text-text-light text-sm leading-relaxed">スクールや独学教材など学習環境が豊富で未経験から始めやすく、在宅・副業案件も見つけやすい傾向のある人気職種です。ただし参入しやすさの裏返しとして担い手が多く、単価競争が起きやすい構造があります。本文で見たとおり年収のボリュームゾーンが400万円前後に固定されやすいのは、この構造によるものです。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 産休育休・時短との相性</h3>
+              <p className="text-text-light text-sm leading-relaxed">制作業務は在宅で完結しやすく、時短・フリーランス・副業と組み合わせて稼働を調整しやすいのは大きな利点です。一方で、納期前の集中やクライアント都合の急な修正対応が発生しやすく、スケジュールの裁量が小さい受託制作の現場では両立の負荷が高くなることもあります。一般に、事業会社のインハウスデザイナーの方が時間をコントロールしやすい傾向があります。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. キャリアパス: 3方向に広げられる</h3>
+              <p className="text-text-light text-sm leading-relaxed">長く働くための展開先は、ディレクション側（アートディレクター・Webディレクター）、実装側（<a href="/articles/frontend/" className="underline" style={{ color: "#7c3a55" }}>フロントエンドエンジニア</a>）、設計側（<a href="/articles/ux-designer/" className="underline" style={{ color: "#7c3a55" }}>UXデザイナー</a>）の3方向です。年収レンジとリモート求人の広さでは、本文で比較したとおりエンジニア側への展開が最も伸びしろのあるルートです。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>4. 現実的な注意点</h3>
+              <p className="text-text-light text-sm leading-relaxed">バナー量産やテンプレート的なLP制作など、AIで代替されやすい業務から縮小が進む傾向にあります。「デザインだけ」のスキルセットのままでは、年収も仕事の幅も頭打ちになりやすいのが正直なところです。実装・UX・ディレクションのいずれかを掛け算して「代替されにくい専門性」を作ることが、この職種で長く働くための現実的な戦略です。</p>
+            </div>
+          </div>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              女性比率や年収などの具体的な数値は、<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>IT人材の需要データ</a>で出典付きで整理しています。エンジニア転身を含めた進路に迷う場合は<a href="/diagnosis/" className="underline" style={{ color: "#7c3a55" }}>転職エージェント無料診断</a>で相性を確かめ、具体的な求人は<a href="/ranking/" className="underline" style={{ color: "#7c3a55" }}>おすすめエージェントランキング</a>から探してみてください。
+            </p>
           </div>
         </div>
       </section>

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ゲーム業界で働く女性エンジニア｜年収・職種・必要スキルと転職ルート【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-09",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -74,6 +74,22 @@ const faqData = {
         text: "ゲーム業界の転職にはIT・Web・ゲーム業界特化のGeeklyが代表的で、大手ゲーム会社からスタートアップまで幅広い求人を保有しています。レバテックキャリアもゲーム業界の求人を扱っており、技術力を重視した提案が受けられます。働き方の条件（産休育休・リモート等）を重視する場合は女性特化型エージェントの併用も有効です。各社で得意領域が異なるため、2〜3社を併用して求人と提案を比較するのが効果的です。",
       },
     },
+    {
+      "@type": "Question",
+      name: "産休・育休を取ってもゲーム業界で働き続けられますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "働き続けられますが、企業差が大きいのが実態です。大手パブリッシャーや運営会社を中心に産休育休や時短の制度整備は進んでいる一方、制度が「ある」ことと「使われている」ことは別問題です。転職時は制度の有無ではなく、取得実績・復帰率・復帰後の配属実態を確認しましょう。復帰後は、イベントサイクルに沿って繁閑が読みやすい運営タイトルや、ツール開発・QAといった納期の波を平準化しやすいポジションが両立と相性が良い傾向にあります。求人票に出ない実態はゲーム業界の内情に詳しいエージェント経由での確認が確実です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "時短勤務でゲーム開発の仕事はできますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "職種とタイトル種別を選べば現実的です。サーバーサイド・ツール開発・QAは業務を時間で区切りやすく、時短やフレックスとの相性が比較的良い職種です。クライアント実装も、フレックスやリモートを運用している企業なら両立している人はいます。注意すべきはマスターアップ前や大型アップデート前など負荷が上がる時期の扱いで、時短勤務者の業務分担や免除の運用が実際にどうなっているかを面接で具体的に確認しましょう。新規開発より運営型タイトルのほうが繁閑を読みやすく、生活時間を設計しやすい傾向があります。",
+      },
+    },
   ],
 };
 
@@ -104,7 +120,7 @@ export default function GameIndustryPage() {
               ゲーム業界で働く女性エンジニア
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・職種・必要スキルと転職ルートを実データで解説【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -139,7 +155,8 @@ export default function GameIndustryPage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 働き方の実態（魅力とクランチを公平に）</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 未経験・異業種からの現実的な入り方</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. ゲーム業界に強いエージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec-women-real" className="hover:underline" style={{ color: "#7c3a55" }}>9. 女性がゲーム業界エンジニアとして働くリアル</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -445,6 +462,52 @@ export default function GameIndustryPage() {
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p className="text-sm">
               レバテックキャリアとGeeklyのどちらに登録すべきか迷う場合は、両社の特徴を並べて比較した<a href="/articles/levtech-vs-geekly/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>レバテックキャリアとGeeklyの比較記事</a>が参考になります。ゲーム業界を含むかどうか・サポートの進め方など、公開情報ベースで違いを整理しています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women-real" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がゲーム業界エンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              働き方の実態は前段で統計とともに見た通りですが、ここでは「女性がゲーム業界で<strong>長く</strong>働く」という視点で、繁忙期との付き合い方・ライフイベントとの両立・キャリアの築き方・注意点を一般論として整理します。女性エンジニアの比率や年収の実数は本ページの統計セクションと<a href="/articles/data/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>女性エンジニアの実データ集</a>を参照してください。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 繁忙期（クランチ）との相性は「選び方」で作る</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                ゲーム業界の繁忙の波はゼロにはできませんが、<strong>「波が読める環境を選ぶ」ことはできます</strong>。運営型タイトルはイベントサイクルに沿って繁閑の見通しが立ちやすく、生活時間を設計しやすいのに対し、新規開発はリリース直前に負荷が集中しがちです。職種でも差があり、サーバーサイド・ツール開発・QAはクライアント実装に比べて納期の波を平準化しやすい傾向があります。「新規か運営か」「どの職種か」の掛け合わせで、自分の生活設計に合う波を選ぶのが現実解です。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休・育休・時短との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                制度整備は大手を中心に進んでいますが、<strong>企業差が大きい</strong>のが正直なところです。判断材料にすべきは制度の有無ではなく、取得実績・復帰率・復帰後の配属の実態です。復帰後や時短勤務では、繁閑の読みやすい運営タイトルやツール・QA寄りのポジションが両立しやすく、リリース直前期の時短勤務者の扱い（業務分担・免除の運用）まで面接で確認しておくと入社後のギャップを防げます。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ キャリアパスは「業界の外」にも通じている</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                クライアントエンジニアはリードやテクニカルアーティストへ、サーバーサイドは大規模トラフィック処理の専門家へと深められます。特筆すべきは<strong>スキルの可搬性</strong>で、ゲームサーバーの経験は<a href="/articles/backend/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>Web業界のバックエンド</a>と、運営型ゲームの管理画面・Web連携の経験は<a href="/articles/frontend/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>フロントエンド</a>とも地続きです。ライフイベントで働き方を変えたくなったときにWeb業界と行き来できる「潰しの効きやすさ」は、長期キャリアの保険になります。職種ごとの年収の目安は<a href="/articles/salary-by-job/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>を参照してください。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点（正直に）</h3>
+              <ul className="text-sm text-text-light space-y-2 leading-relaxed">
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>エンジニア職の女性はまだ少数派の現場が多く、社内にロールモデルが少ない場合がある（比率のデータは本ページ統計セクション参照）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>プロジェクトの中止・方針転換が起こりうるため、タイトルではなくスキルに紐づくキャリア設計が安全</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>「好きな作品だから」だけで選ばず、残業実績・代休運用・繁忙期の頻度という労働実態を必ず確認する</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>働き方の条件（産休育休・リモート）は企業差が大きく、公開情報だけでは判断しにくい。エージェント経由での実態確認を</span></li>
+              </ul>
+            </div>
+          </div>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p className="text-sm">
+              自分の経験・希望する働き方に合うエージェントを整理したい方は<a href="/diagnosis/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>エージェント無料診断</a>が便利です。各社の比較は<a href="/ranking/" className="hover:underline font-bold" style={{ color: "#7c3a55" }}>おすすめ転職エージェントランキング</a>をご覧ください。
             </p>
           </div>
         </div>

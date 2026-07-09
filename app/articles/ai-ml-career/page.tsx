@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性AI・機械学習エンジニア転職ガイド｜年収・必要スキル・現実的な道筋【2026年】",
   datePublished: "2026-04-28",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "いきなりMLエンジニアを狙わず、(1)SQL＋Pythonを学びデータアナリスト・データ活用ポジションへ転職、(2)実務でデータ基盤や分析の経験を1〜3年積む、(3)機械学習案件のあるチームへ社内異動または転職、という3段階が王道です。事務・営業・マーケティングなどでデータに触れた経験は分析職への転職で評価されます。Python3エンジニア認定データ分析試験や統計検定2級などの資格は、学習の証明として未経験転職の補強材料になります。",
       },
     },
+    {
+      "@type": "Question",
+      name: "産休・育休のブランクはAI・機械学習のキャリアに致命的ですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "致命的ではありませんが、対策は必要です。AI分野は技術の更新が速く、休んでいる間に主流のツールやモデルが入れ替わることは正直あり得ます。ただし、統計・機械学習の基礎やデータの扱い方といった土台は変わらないため、基礎が固まっている人ほど復帰はスムーズです。現実的な対策は、復帰前に技術ニュースや公式ドキュメントで変化を把握する期間を設けること、Kaggleや小さな個人開発でリハビリすることです。復帰後の職場選びでは、キャッチアップの学習時間を業務内に確保できる文化があるかを確認すると長く続けやすくなります。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "AI・機械学習エンジニアは、学習を続けないと働けなくなりますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "継続的な学習が前提の職種であることは事実です。ただし「常に最先端の論文を追い続ける」必要があるのは研究開発職が中心で、実装寄りのポジションでは、担当領域の主要ツールと設計パターンを押さえて定期的にキャッチアップすれば十分に活躍できます。学習を業務時間内に組み込む企業（勉強会・学習時間の制度など）もあり、家庭と両立しながら働く場合は、その制度の有無が企業選びの重要な確認ポイントになります。学び続けること自体が好きな人には強みが積み上がる分野なので、向き不向きを見極めてから進むのが現実的です。",
+      },
+    },
   ],
 };
 
@@ -115,7 +131,7 @@ export default function ArticlePage() {
               女性AI・機械学習エンジニア転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・必要スキル・未経験からの現実的な道筋【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -151,6 +167,7 @@ export default function ArticlePage() {
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 女性が長く働きやすい理由とキャリアパス</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
               <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. 女性がAI・機械学習エンジニアとして働くリアル</a></li>
             </ol>
           </div>
         </div>
@@ -528,6 +545,39 @@ export default function ArticlePage() {
                 </div>
               </details>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* sec11 女性が働くリアル（2026-07-09追記） */}
+      <section id="sec11" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がAI・機械学習エンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              最後に、実際に女性がAI・機械学習エンジニアとして働くうえで気になりやすいポイントを、働き方の観点から補足します。年収や女性比率などの具体的な数値は<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>と<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別の年収ガイド</a>に出典付きでまとめています。
+            </p>
+          </div>
+          <div className="space-y-4 mt-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>職種との相性｜「学び続けることが前提」に納得できるかが分岐点</h3>
+              <p className="text-sm text-text-light leading-relaxed">AI・機械学習は、リモート親和性や成果の可視化されやすさ（前述の通り）に加えて、技術の入れ替わりが速く継続的な学習が職務の一部になる、という特性を持つ職種です。この特性は「学ぶこと自体が好きな人」には専門性が積み上がり続ける強みになる一方、学習を負担に感じる人には長期的なストレスになり得ます。家庭との両立を考えるなら、自分の学習スタイル（業務内で学びたいか・自主学習が苦にならないか）と職種特性の相性を先に見極めておくのが現実的です。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>産休育休・時短との相性｜変化の速さはブランクの不安要素、ただし土台は変わらない</h3>
+              <p className="text-sm text-text-light leading-relaxed">正直に言えば、変化の速いAI分野では産休育休中に主流ツールが入れ替わる可能性があり、他職種よりブランクへの不安が語られやすい領域です。ただし統計・機械学習の基礎、データの扱い方、評価設計の考え方といった土台は変わらないため、基礎が固い人ほど復帰は現実的です。復帰前のキャッチアップ期間の確保と、学習時間を業務内に組み込める職場を選ぶことが対策になります。復帰の進め方は<a href="/articles/after-maternity/" className="underline" style={{ color: "#7c3a55" }}>産休・育休後の復帰ガイド</a>も参考にしてください。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>キャリアパス｜データ系職種と行き来しながら負荷を調整できる</h3>
+              <p className="text-sm text-text-light leading-relaxed"><a href="/articles/data-scientist/" className="underline" style={{ color: "#7c3a55" }}>データサイエンティスト</a>・<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア</a>とML・AI開発は相互に行き来しやすく、ライフステージに合わせた調整がしやすい構造です。たとえば両立期は納期が読みやすい分析・データ基盤側に軸足を置き、時間に余裕ができたらモデル開発・LLMアプリ開発へ戻る、といった選択が取れます。一つの職種名に固執せず「データ×AIの専門家」として広く捉えると、キャリアの選択肢が保ちやすくなります。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
+              <p className="text-sm text-text-light leading-relaxed">正直な注意点として、(1)「AIエンジニア募集」でも実態がデータ整備やアノテーション管理中心の求人が混ざっており、業務内容の確認が必須なこと、(2)本記事の年収相場の通り求人の金額幅が極端に大きく、「AI＝即高年収」ではないこと、(3)モデルの本番運用を担う場合は障害対応が発生し得るため、運用体制の確認が必要なこと、の3点は押さえておきましょう。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+            <p className="text-sm text-text-light leading-relaxed">学習制度・リモート・時短など働き方の条件を重視した転職では、エージェント選びが結果を左右します。<a href="/diagnosis/" className="underline font-bold" style={{ color: "#7c3a55" }}>無料のエージェント診断</a>で自分の状況に合うエージェントを確認し、<a href="/ranking/" className="underline font-bold" style={{ color: "#7c3a55" }}>おすすめエージェントランキング</a>と併せて活用してください。</p>
           </div>
         </div>
       </section>

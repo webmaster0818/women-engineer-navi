@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性クラウドエンジニア転職ガイド（GCP・Azure）｜年収・資格・未経験から",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -95,6 +95,22 @@ const faqData = {
         text: "Azureは役割別に体系化されており、入門のAZ-900（Fundamentals）→ AZ-104（Administrator）→ 上流設計のAZ-305（Solutions Architect Expert）が王道ルートです。GCPはGoogle Cloud Digital Leader → Associate Cloud Engineer → Professional Cloud Architect（クラウド業界3年以上・GCP構築1年以上が推奨）の順。最短で転職を狙うならAZ-104やAssociate Cloud Engineer、上流志向ならAZ-305やProfessional Cloud Architectが評価されます。データ分析職を狙うならProfessional Data Engineer（BigQuery中心）も有効です。",
       },
     },
+    {
+      "@type": "Question",
+      name: "クラウドエンジニアはオンコールや夜間対応が必ずあるのですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "必ずあるわけではなく、担当領域と企業の体制次第です。一般に、設計・構築が中心のポジションや社内向けシステムではオンコールがない現場も多い一方、24時間稼働のサービスを運用するポジションでは輪番制のオンコールや夜間メンテナンスが発生することがあります。輪番の人数・頻度・手当・代休の有無で負担は大きく変わるため、応募前に「オンコールの有無と体制」「夜間作業の頻度」を確認しましょう。求人票に書かれていないことも多いので、エージェント経由で確認するのが確実です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "時短勤務や子育て中でもクラウドエンジニアとして評価されますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "評価されやすい構造を持つ職種です。クラウドはTerraformの構成やアーキテクチャ図、削減したクラウド費用など成果が客観的な形で残るため、一般に勤務時間の長さよりアウトプットで評価されやすい傾向があります。またGoogle Cloud認定・Azure認定は世界共通の基準としてスキルを証明してくれるので、時短勤務中や復帰直後でも実力を示しやすいのが強みです。ただし評価制度の運用は企業差が大きいため、時短勤務者の昇給・昇格の実例や、育児中社員の働き方を面接やエージェント経由で確認しておくと安心です。",
+      },
+    },
   ],
 };
 
@@ -140,7 +156,7 @@ export default function ArticlePage() {
                 AWS以外のGCP・Azure・マルチクラウドで広がるキャリアを実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -161,6 +177,7 @@ export default function ArticlePage() {
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
               <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. 女性がクラウドエンジニアとして働くリアル</a></li>
             </ol>
           </div>
         </div>
@@ -470,6 +487,39 @@ export default function ArticlePage() {
                 </div>
               </details>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* sec11 女性が働くリアル（2026-07-09追記） */}
+      <section id="sec11" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がクラウドエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              最後に、実際に女性がクラウドエンジニアとして働くうえで気になりやすいポイントを、働き方の観点から補足します。なお、年収や女性比率などの具体的な数値は<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>と<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別の年収ガイド</a>に出典付きでまとめています。
+            </p>
+          </div>
+          <div className="space-y-4 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>職種との相性｜リモート親和性は高いが「担当領域」で働き方が変わる</h3>
+              <p className="text-sm text-text-light leading-relaxed">クラウドの構築・運用はコード（IaC）と管理画面で完結しやすく、一般にリモートワークとの相性が高い職種です。一方で、運用監視を含むポジションではオンコール（障害対応の当番）や夜間メンテナンスの有無が現場によって分かれます。「クラウド＝必ず自由な働き方」ではなく、設計・構築中心か、運用・監視中心かという担当領域で働き方が大きく変わる点は、応募前に押さえておきましょう。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>産休育休・時短との相性｜IaCと資格が復帰のしやすさを支える</h3>
+              <p className="text-sm text-text-light leading-relaxed">構築プロジェクトは案件単位で区切りを付けやすく、IaC化された環境は構成がコードとして残るため作業が属人化しにくく、一般に引き継ぎ・復帰がしやすい傾向があります。Google Cloud認定・Azure認定は、ブランク後も客観的なスキル証明として機能します（有効期限と更新条件は要確認）。復帰の進め方は<a href="/articles/after-maternity/" className="underline" style={{ color: "#7c3a55" }}>産休・育休後の復帰ガイド</a>や<a href="/articles/mama-engineer/" className="underline" style={{ color: "#7c3a55" }}>ママエンジニアの働き方</a>も参考にしてください。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>キャリアパス｜隣接職種と行き来しながら負荷を調整できる</h3>
+              <p className="text-sm text-text-light leading-relaxed"><a href="/articles/infrastructure/" className="underline" style={{ color: "#7c3a55" }}>インフラエンジニア</a>からクラウドへ、クラウドから<a href="/articles/sre-devops/" className="underline" style={{ color: "#7c3a55" }}>SRE・DevOps</a>や<a href="/articles/data-engineer/" className="underline" style={{ color: "#7c3a55" }}>データエンジニア</a>へ——クラウドは隣接職種と行き来しやすいのが特徴です。時短勤務の期間は運用改善やコスト最適化に軸足を置き、フルタイム復帰後に設計・アーキテクチャへ広げる、といったライフステージに合わせた調整もしやすい構造です。</p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
+              <p className="text-sm text-text-light leading-relaxed">正直な注意点として、(1)クラウドサービスは機能更新が速く、継続的なキャッチアップが働き続ける前提になること、(2)「クラウドエンジニア募集」でも実態が夜勤シフトの監視オペレーターに近い求人が混ざっていること、(3)時短勤務者の評価運用は企業差が大きいこと、の3点は事前確認が必要です。求人票だけで判断が難しい部分は、面接で具体的に質問するか、エージェント経由で実態を確認しましょう。</p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
+            <p className="text-sm text-text-light leading-relaxed">リモート・オンコール・時短など働き方の条件を重視した転職では、エージェント選びが結果を左右します。<a href="/diagnosis/" className="underline font-bold" style={{ color: "#7c3a55" }}>無料のエージェント診断</a>で自分の状況に合うエージェントを確認し、<a href="/ranking/" className="underline font-bold" style={{ color: "#7c3a55" }}>おすすめエージェントランキング</a>と併せて活用してください。</p>
           </div>
         </div>
       </section>

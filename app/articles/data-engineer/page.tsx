@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性データエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "技術を正当に評価してもらうならIT特化型のレバテックキャリアやGeekly、女性のキャリア継続を重視するならtype女性の転職エージェントがおすすめです。IT特化型はSnowflakeやBigQuery、dbtといったデータ基盤の技術スタックを理解したアドバイザーが多く、年収交渉にも強みがあります。データエンジニアは求人の母数がWeb開発職より少ないため、複数のエージェントを併用して非公開求人にもアクセスするのが効果的です。2〜3社の併用がベストです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "データエンジニアに夜間対応はありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "データパイプラインのバッチ処理は深夜〜早朝に実行されることが多いため、障害時のアラート対応が夜間に発生する可能性はあります。ただし体制は企業差が大きく、リトライの自動化や監視の外部化で夜間対応がほとんどない環境もあれば、輪番のオンコール当番がある環境もあります。応募時には『バッチ障害時の対応体制』『オンコールの有無と頻度』を確認しましょう。育児中はオンコール免除・調整に応じる企業もあるため、面談で相談する価値があります。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "産休・育休のブランクがあってもデータエンジニアに復帰しやすいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "復帰しやすい傾向のある職種です。中核スキルであるSQLとデータモデリングの考え方は流行の影響を受けにくく、ブランクがあっても価値が落ちにくいためです。パイプラインはコードとドキュメントの形で残るため、引き継ぎやキャッチアップの見通しも立てやすいといえます。一方でdbtやSnowflakeなどツール側の進化は速いため、復帰前に公式ドキュメントやリリースノートで差分を確認しておくとスムーズです。育休からの復帰実績がある企業かどうかは、エージェント経由で確認するのが確実です。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 データ基盤・ETL・パイプラインを支える高需要職種を実データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -146,7 +162,8 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. データエンジニアのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性がデータエンジニアとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -409,6 +426,52 @@ export default function ArticlePage() {
                 <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のジュニアデータエンジニア（BigQuery/Python）/ 年収440万円</p></div>
               </div>
               <p className="text-sm text-text-light">SQLを本格的に学び直し、BigQueryの無料枠で公開データを使ったパイプラインのポートフォリオを公開。未経験可・ポテンシャル採用の自社開発企業に転職し、産休育休実績のある環境で長く働ける基盤を得ました。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がデータエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              2章で「長く働きやすい理由」を紹介しましたが、ここでは実際に働くうえで気になる「夜間対応の有無」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向を正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+            </p>
+          </div>
+          <div className="space-y-6 mt-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                データ基盤の構築・運用はBigQueryやSnowflakeなどクラウド上で完結しやすく、一般にリモートワークとの相性が非常に良い職種です。体力面もデスクワーク中心です。一方で正直に触れておきたいのは、<strong>データパイプラインのバッチ処理が深夜〜早朝に実行されることが多い</strong>という職種特性。障害時のアラート対応が夜間に発生する可能性があり、リトライの自動化や監視体制の整備度合いで負担が大きく変わります。応募時には「バッチ障害時の対応体制」「オンコール当番の有無と頻度」を必ず確認しましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休育休・時短との相性</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                データパイプラインはコードと設定・ドキュメントの形で残るため、業務の属人性を下げやすく、一般に産休育休の引き継ぎ計画を立てやすい仕事です。復帰の面でも、中核スキルであるSQLとデータモデリングの考え方は流行に左右されにくく、ブランクで価値が落ちにくいのが強み。処理時間の短縮やデータ品質の改善など成果が数値で残るため、時短勤務でも評価されやすい傾向です。ただしdbtやSnowflakeなどツール側の進化は速いため、復帰時には差分のキャッチアップを見込んでおきましょう。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>③ データエンジニアからのキャリアパス</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                7章で紹介したデータアーキテクト・MLOpsの道に加え、分析側へ軸足を移して<a href="/articles/data-scientist/" className="underline" style={{ color: "#7c3a55" }}>データサイエンティスト</a>を目指す道は、基盤を知っている強みがそのまま活きる発展先です。土台となるSQL・データベーススキルの磨き方は<a href="/articles/sql-database/" className="underline" style={{ color: "#7c3a55" }}>SQL・データベーススキルガイド</a>で詳しく解説しています。「データを扱う基盤力」はデータ領域のどの職種にも通用するため、ライフステージに合わせて役割を選び直しやすいのがこの職種の強みです。
+              </p>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
+              <p className="text-sm text-text-light leading-relaxed">
+                正直な注意点は3つ。(1)求人の母数がWeb開発職より少なく、未経験直行や地方勤務では選択肢が限られる傾向がある、(2)データ基盤チームは少人数のことが多く、体制によっては業務が属人化して休みにくい場合がある、(3)夜間バッチの監視・障害対応の負担は求人票からは読み取りにくい、という点です。人員体制と復帰実績は面談やエージェント経由で確認してください。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <p className="font-bold text-lg mb-2">自分に合った働き方から探すなら</p>
+            <p className="text-sm text-text-light mb-4">8つの質問で相性の良い転職エージェントがわかる無料診断も活用してください。</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="/diagnosis/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#7c3a55" }}>無料エージェント診断を試す</a>
+              <a href="/ranking/" className="inline-block rounded-full px-8 py-3 font-bold transition-transform hover:scale-105" style={{ border: "2px solid #7c3a55", color: "#7c3a55" }}>ランキングを見る</a>
             </div>
           </div>
         </div>

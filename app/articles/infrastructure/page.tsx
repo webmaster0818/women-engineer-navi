@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性インフラエンジニア転職ガイド｜年収・未経験からの道・夜勤の実態【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "なくなりませんが、仕事の中身は変わります。IDC Japanによると国内パブリッククラウド市場は2025年に4兆4,930億円（前年比20.3%増）、2030年には10兆962億円と約2.2倍に拡大する見込みで、物理機器の設置・配線のような仕事は減る一方、AWSなどクラウド上での設計・構築やIaC（コードによるインフラ管理）の需要が急増しています。求人ボックスの統計でもクラウド関連の給与水準は全体より高い傾向です。オンプレミスの基礎にクラウドスキルを足すことが、年収と将来性を両立する最短ルートです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "女性のインフラエンジニアは少ないですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "インフラを含むIT基盤系の職種は、一般に男性が多い職場になりやすい傾向があるとされますが、職種単位の公的な女性比率統計はほとんど公表されていません。IT業界全体の女性比率などの統計は、当サイトの「女性エンジニアのデータ集」で出典付きで整理しています。実務で評価されるのは障害対応の正確さ・報告や調整の丁寧さ・段取り力であり、女性が少数派であること自体が不利に働く職種ではありません。むしろ慢性的な人材不足が続く領域のため、資格と経験があれば性別を問わず売り手市場です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "子育てしながらインフラエンジニアを続けられますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "続けられますが、担当フェーズの選び方が重要です。24時間監視を担う運用フェーズはシフト勤務が基本のため、一般に保育園の送迎など時間の制約とは両立しにくい面があります。一方、構築・設計・クラウド運用・社内SEは日勤中心で、クラウド化によりリモートで完結する業務も増えています。出産・育児を見据えるなら、その前に構築経験を積んで日勤中心のポジションへ移っておくのが現実的な戦略です。時短勤務の実績や夜間対応の扱いは企業ごとに差が大きいため、エージェント経由で運用実態を確認しましょう。",
+      },
+    },
   ],
 };
 
@@ -126,7 +142,7 @@ export default function ArticlePage() {
                 年収・未経験からの道・夜勤の実態【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
           </div>
         </div>
       </section>
@@ -161,7 +177,8 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. クラウド化で変わる仕事と将来性</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. インフラエンジニアのキャリアパス</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性がインフラエンジニアとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -542,6 +559,41 @@ export default function ArticlePage() {
             >
               おすすめエージェントランキングを見る
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 女性が働くリアル */}
+      <section id="sec-women" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性がインフラエンジニアとして働くリアル</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              夜勤・オンコールの実態は<a href="#sec4" className="underline" style={{ color: "#7c3a55" }}>セクション4</a>、両立戦略は<a href="#sec5" className="underline" style={{ color: "#7c3a55" }}>セクション5</a>で解説したとおりです。ここでは総まとめとして、「女性がインフラという職種を選ぶと実際どうなのか」を、相性・ライフイベント・注意点の視点で率直に整理します。向き不向きは性別で決まりませんが、働き方の設計に効いてくる職種特有の構造があります。
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 mt-6">
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 職種との相性: 正確さと段取りが評価される</h3>
+              <p className="text-text-light text-sm leading-relaxed">未経験の入口が広く、手順書に沿った正確な作業・丁寧な報告・障害時の冷静な連絡調整といった力がそのまま評価につながります。かつての「データセンターでの力仕事」のイメージは薄れつつあり、クラウド化でリモートで完結する業務が増えているのも追い風です。一方、一般にIT基盤系は男性の多い職場になりやすい傾向があり、現場によっては女性が少数派になることもあります。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 産休育休・時短との相性: フェーズ選びがすべて</h3>
+              <p className="text-text-light text-sm leading-relaxed">正直なところ、24時間監視のシフト勤務のままでは、保育園の送迎など時間の制約と両立しにくい面があります。逆に、ライフイベントの前に構築・設計・クラウド運用へ進んでおけば日勤中心となり、両立の難易度は大きく下がります。ネットワーク・Linuxなどの基礎知識は陳腐化が遅く、CCNA・LPICなどの資格でブランク後も実力を証明しやすいことは、復職のしやすさという意味で大きな強みです。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. キャリアパス: 日勤・リモート中心の進路を選べる</h3>
+              <p className="text-text-light text-sm leading-relaxed">経験を積んだ後は、<a href="/articles/cloud-gcp-azure/" className="underline" style={{ color: "#7c3a55" }}>クラウドエンジニア</a>や<a href="/articles/sre-devops/" className="underline" style={{ color: "#7c3a55" }}>SRE・DevOps</a>のように技術を深める道も、<a href="/articles/internal-se/" className="underline" style={{ color: "#7c3a55" }}>社内SE</a>のようにワークライフバランスへ寄せる道も選べます。「20代で夜勤込みの運用・構築経験と資格を貯め、30代で働き方を選ぶ」という時間軸で設計しやすい職種です。</p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>4. 現実的な注意点</h3>
+              <p className="text-text-light text-sm leading-relaxed">夜間メンテナンスやオンコール当番のある現場は今も存在します（主に運用フェーズ）。障害対応は突発的で、当番日は外出や予定が縛られることもあります。応募前に「夜勤・シフトの有無」「オンコールの頻度と手当」「時短勤務の実績」を必ず確認してください。また、運用監視のまま長く働いても市場評価が上がりにくい点は、キャリア設計上の重要な注意点です。</p>
+            </div>
+          </div>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              女性比率や年収などの具体的な数値は、<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>IT人材の需要データ</a>で出典付きで整理しています。インフラが自分に合うか迷う場合は<a href="/diagnosis/" className="underline" style={{ color: "#7c3a55" }}>転職エージェント無料診断</a>で相性を確かめ、具体的な求人は<a href="/ranking/" className="underline" style={{ color: "#7c3a55" }}>おすすめエージェントランキング</a>から探してみてください。
+            </p>
           </div>
         </div>
       </section>
