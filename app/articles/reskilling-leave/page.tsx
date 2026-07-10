@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "育休中のスキルアップ・リスキリングガイド｜エンジニアが復職・転職に向けて学ぶ方法",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-10",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -488,6 +488,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
+            <a href="/articles/cert-python/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Python資格ガイド（年代別の活かし方つき）</h3><p className="text-sm text-text-light">育休中の学び直しに人気の資格を種類別に解説</p></a>
             <a href="/articles/after-maternity/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>産休・育休後の働き方ガイド</h3><p className="text-sm text-text-light">復帰後のキャリアと両立のコツ</p></a>
             <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>復職・職場復帰ガイド</h3><p className="text-sm text-text-light">ブランクからスムーズに戻る準備</p></a>
             <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都の女性ITエンジニア育成事業</h3><p className="text-sm text-text-light">受講料無料で学べる公的支援</p></a>
