@@ -558,6 +558,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
+            <a href="/articles/sier-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SIer業界研究</h3><p className="text-sm text-text-light">業界構造の基本ガイド</p></a>
             <a href="/articles/web-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Web業界転職ガイド</h3><p className="text-sm text-text-light">Web系企業の構造とスタートアップとの違い</p></a>
             <a href="/articles/salary-1000man/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収1,000万円を目指す方法</h3><p className="text-sm text-text-light">高年収を実現する現実的なルート</p></a>
             <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見つけ方</h3><p className="text-sm text-text-light">制度の運用実績を公開データで確認する方法</p></a>

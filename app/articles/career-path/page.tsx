@@ -591,12 +591,36 @@ export default function ArticlePage() {
           <p className="text-xs text-text-light mt-4">※年収・単価・割合などの数値は調査時点のものであり、企業・地域・スキルにより変動します。マネジメント路線・高需要技術領域の年収レンジは公開求人水準をもとにした目安です。</p>
         </div>
       </section>
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">職種別ガイド一覧</h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            <a href="/articles/frontend/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>フロントエンドエンジニア転職ガイド</p></a>
+            <a href="/articles/backend/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>バックエンドエンジニア転職ガイド</p></a>
+            <a href="/articles/infrastructure/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>インフラエンジニア転職ガイド</p></a>
+            <a href="/articles/mobile-app/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>モバイルアプリエンジニア転職ガイド</p></a>
+            <a href="/articles/data-scientist/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>データサイエンティスト転職ガイド</p></a>
+            <a href="/articles/data-engineer/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>データエンジニア転職ガイド</p></a>
+            <a href="/articles/ai-ml-career/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>AI・機械学習エンジニア転職ガイド</p></a>
+            <a href="/articles/security/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>セキュリティエンジニア転職ガイド</p></a>
+            <a href="/articles/sre-devops/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>SRE・DevOpsエンジニア転職ガイド</p></a>
+            <a href="/articles/embedded/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>組み込み・IoTエンジニア転職ガイド</p></a>
+            <a href="/articles/qa-tester/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>QAエンジニア・テスター転職ガイド</p></a>
+            <a href="/articles/it-consultant/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>ITコンサルタント転職ガイド</p></a>
+            <a href="/articles/support-engineer/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>テクニカルサポート・カスタマーサクセス転職ガイド</p></a>
+            <a href="/articles/web-designer/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>Webデザイナーからエンジニアへのキャリアチェンジ</p></a>
+            <a href="/articles/ux-designer/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>UXデザイナー転職ガイド</p></a>
+          </div>
+        </div>
+      </section>
+
 
       {/* 関連記事 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
+            <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見極め方</h3><p className="text-sm text-text-light">職場環境選びの総合ガイド</p></a>
             <a href="/articles/women-manager/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの管理職キャリア</h3>
               <p className="text-sm text-text-light">マネジメント路線の実態と転身戦略</p>

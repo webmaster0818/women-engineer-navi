@@ -554,6 +554,7 @@ export default function GameIndustryPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
+            <a href="/articles/sier-industry/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>SIer業界研究</h3><p className="text-sm text-text-light">業界構造の基本ガイド</p></a>
             <a href="/articles/csharp-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性C#エンジニアの転職ガイド</h3>
               <p className="text-sm text-text-light">Unityゲーム開発と業務系、C#で広がる2つの道</p>

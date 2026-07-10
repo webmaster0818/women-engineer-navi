@@ -496,6 +496,23 @@ export default function ArticlePage() {
           </div>
         </div>
       </section>
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">言語・スキル別の記事一覧</h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            <a href="/articles/javascript-career/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>JavaScriptで転職する</p></a>
+            <a href="/articles/typescript-react/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>TypeScript・Reactエンジニア転職</p></a>
+            <a href="/articles/java-career/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>Javaエンジニア転職</p></a>
+            <a href="/articles/ruby-career/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>Rubyエンジニア転職</p></a>
+            <a href="/articles/php-career/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>PHPエンジニア転職</p></a>
+            <a href="/articles/csharp-career/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>C#エンジニア転職</p></a>
+            <a href="/articles/aws-career/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>AWSエンジニア転職</p></a>
+            <a href="/articles/cloud-gcp-azure/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>クラウドエンジニア転職（GCP・Azure）</p></a>
+            <a href="/articles/sql-database/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>データベースエンジニア（DBA）転職</p></a>
+          </div>
+        </div>
+      </section>
+
 
       {/* 関連記事 */}
       <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>

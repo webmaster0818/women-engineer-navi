@@ -473,6 +473,19 @@ export default function ArticlePage() {
           </div>
         </div>
       </section>
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">地域・リモート関連の記事一覧</h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            <a href="/articles/tokyo/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>東京の転職ガイド</p></a>
+            <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>東京都の女性ITエンジニア育成事業とは</p></a>
+            <a href="/articles/osaka/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>大阪・関西の転職ガイド</p></a>
+            <a href="/articles/nagoya/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>名古屋・東海の転職ガイド</p></a>
+            <a href="/articles/fukuoka/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>福岡の転職ガイド</p></a>
+          </div>
+        </div>
+      </section>
+
 
       {/* 関連記事 */}
       <section className="py-10">

@@ -639,6 +639,19 @@ export default function ArticlePage() {
           </p>
         </div>
       </section>
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">エージェント比較の記事一覧</h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            <a href="/articles/levtech-vs-geekly/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>レバテックキャリアとGeeklyの違い</p></a>
+            <a href="/articles/type-vs-doda/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>type女性の転職エージェントとdodaの違い</p></a>
+            <a href="/articles/workport-vs-recruit/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>ワークポートとリクルートエージェントの違い</p></a>
+            <a href="/articles/green-vs-reworks/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>GreenとReWorksの違い</p></a>
+            <a href="/articles/techgo-career-mendan/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>テックゴーの無料キャリア面談とは</p></a>
+          </div>
+        </div>
+      </section>
+
 
       {/* 関連記事 */}
       <section className="py-10">

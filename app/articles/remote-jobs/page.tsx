@@ -594,6 +594,21 @@ export default function ArticlePage() {
           <p className="mt-4 text-xs text-text-light">※ 統計値は各調査の公表時点のものです。最新の数値は各機関の公式サイトをご確認ください。</p>
         </div>
       </section>
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">働き方の記事一覧</h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            <a href="/articles/short-time/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>時短勤務で転職・継続するガイド</p></a>
+            <a href="/articles/short-week/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>週3・週4・時短で働ける求人の探し方</p></a>
+            <a href="/articles/work-life-balance/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>ワークライフバランスの実態データ</p></a>
+            <a href="/articles/side-job/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>副業の始め方と単価相場</p></a>
+            <a href="/articles/freelance/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>フリーランスエンジニアの始め方</p></a>
+            <a href="/articles/dispatch/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>派遣エンジニアという働き方</p></a>
+            <a href="/articles/contract-to-perm/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><p className="text-sm font-bold" style={{ color: "#7c3a55" }}>契約社員から正社員を目指す</p></a>
+          </div>
+        </div>
+      </section>
+
 
       {/* 関連記事 */}
       <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
