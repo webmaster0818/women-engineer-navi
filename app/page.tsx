@@ -46,6 +46,54 @@ const themes = [
   { label: "選考・面接対策", desc: "職務経歴書・技術面接ほか", href: "/articles/interview-guide/" },
 ];
 
+const supports = [
+  {
+    label: "女性向けIT支援マップ（全国）",
+    desc: "国・自治体の女性向けIT学習支援を一覧で",
+    href: "/articles/women-it-support-map/",
+  },
+  {
+    label: "東京都 女性ITエンジニア育成事業",
+    desc: "無料研修と就職支援・募集状況つき",
+    href: "/articles/tokyo-women-training/",
+  },
+  {
+    label: "埼玉県 女性デジタル人材育成",
+    desc: "在職中も学べる無料プログラム",
+    href: "/articles/saitama-women-training/",
+  },
+  {
+    label: "教育訓練給付制度でIT講座",
+    desc: "受講料の20〜80%が支給される国の制度",
+    href: "/articles/training-benefit-it/",
+  },
+  {
+    label: "マナビDXで無料学習",
+    desc: "経産省系ポータルの無料デジタル講座",
+    href: "/articles/manabi-dx/",
+  },
+  {
+    label: "ひとり親向けIT訓練・給付金",
+    desc: "月10万円の給付を受けながら学ぶ",
+    href: "/articles/hitorioya-it-training/",
+  },
+];
+
+const roles = [
+  { label: "クラウドエンジニア", href: "/articles/cloud-gcp-azure/" },
+  { label: "データベースエンジニア", href: "/articles/sql-database/" },
+  { label: "社内SE", href: "/articles/internal-se/" },
+  { label: "データサイエンティスト", href: "/articles/data-scientist/" },
+  { label: "データエンジニア", href: "/articles/data-engineer/" },
+  { label: "フロントエンド", href: "/articles/frontend/" },
+  { label: "バックエンド", href: "/articles/backend/" },
+  { label: "インフラエンジニア", href: "/articles/infrastructure/" },
+  { label: "SRE・DevOps", href: "/articles/sre-devops/" },
+  { label: "セキュリティ", href: "/articles/security/" },
+  { label: "QA・テスター", href: "/articles/qa-tester/" },
+  { label: "Webデザイナー", href: "/articles/web-designer/" },
+];
+
 const faqs = [
   {
     question: "女性エンジニアが転職エージェントを選ぶポイントは？",
@@ -272,6 +320,68 @@ export default function HomePage() {
             </Link>
             <Link href="/articles/faq-all/" className="btn-outline text-base">
               よくある質問をまとめて見る
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Public support cluster */}
+      <section className="section-light py-20 md:py-28">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="max-w-2xl">
+            <p className="eyebrow">Public Support</p>
+            <h2 className="mt-5 text-2xl md:text-[2.1rem] text-text leading-snug">
+              <span className="text-gradient">公的支援・給付金</span>で、無料から学ぶ
+            </h2>
+            <p className="mt-4 text-text-light leading-[2]">
+              国や自治体には、女性向けの無料IT研修や給付金制度があります。転職の前に、費用を抑えて学べる選択肢を知っておきましょう。すべて一次情報を確認して解説しています。
+            </p>
+          </div>
+          <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            {supports.map((s) => (
+              <Link key={s.href} href={s.href} className="card group block">
+                <h3 className="text-sm md:text-base text-text group-hover:text-primary transition-colors">
+                  {s.label}
+                </h3>
+                <p className="mt-2 text-xs text-text-light leading-relaxed">{s.desc}</p>
+                <span
+                  className="mt-4 inline-block text-xs tracking-[0.2em] text-secondary uppercase"
+                  style={{ fontFamily: "var(--font-fraunces), serif", fontStyle: "italic" }}
+                >
+                  Read
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Browse by role */}
+      <section className="py-20 md:py-28">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="max-w-2xl">
+            <p className="eyebrow">Browse by Role</p>
+            <h2 className="mt-5 text-2xl md:text-[2.1rem] text-text leading-snug">
+              職種から、働き方を探す
+            </h2>
+            <p className="mt-4 text-text-light leading-[2]">
+              リモートのしやすさ、産休育休との相性、キャリアパス。それぞれの職種を「女性が働くリアル」の視点で解説しています。
+            </p>
+          </div>
+          <div className="mt-10 flex flex-wrap gap-3">
+            {roles.map((r) => (
+              <Link
+                key={r.href}
+                href={r.href}
+                className="inline-block border border-border rounded-sm bg-[#fffaf4] px-5 py-3 text-sm text-text hover:text-primary hover:border-primary/40 transition-colors"
+              >
+                {r.label}
+              </Link>
+            ))}
+          </div>
+          <div className="mt-10">
+            <Link href="/articles/career-path/" className="btn-outline text-base">
+              職種別キャリアパスの全体像を見る
             </Link>
           </div>
         </div>
