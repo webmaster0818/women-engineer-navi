@@ -224,3 +224,9 @@
 - v5/v6初動の朗報: 育成事業クラスタ5.3〜11.3位に上昇+「育成事業 口コミ」8.4位でクリック獲得・DB女性4.5位・転職サイトおすすめ3位維持
 - v7提案(id 1525234385580720332): P0=登録リクエスト20URL(MediaXAI・リスト提出済み id 1525234451393679511・factoringの33→76%実証を添付) P1=トップ動線補強(公的支援/職種への直リンクが現状ゼロと判明) P2=beginner深掘り(未経験女性37-39位×12i=最大の未収穫) P3=実施3-4日後の全数再計測
 - 教訓: nohup+heredoc起動したが生存確認の上で完了監視タスクを併走させる方式で無事完走(要run_in_background徹底)
+
+## 2026-07-12 v7 P1: トップ動線補強（MediaXAI「p1進めよう」）✅
+- トップに2セクション新設: ①「公的支援・給付金で、無料から学ぶ」6カード(women-it-support-map/tokyo/saitama/training-benefit-it/manabi-dx/hitorioya=discovered滞留クラスタへトップ直リンク) ②「職種から、働き方を探す」12職種チップ(cloud-gcp-azure/sql-database/internal-se/data-scientist/data-engineer/frontend/backend/infrastructure/sre-devops/security/qa-tester/web-designer)+career-pathボタン
+- 従来トップ→公的支援/個別職種は0本だった(themesグリッドはcareer-path等ハブのみ)。全18slugをls実在確認してから実装。エディトリアル調(section-light交互配置)維持・既存セクション/エージェント文言不変更
+- sitemap lastmod(/)→2026-07-12・deploy両push・本番検証(公的支援6/6・職種12/12・両見出し・sitemap)cache回避until・GSC再送信・報告(id 1525590408481083392)
+- 残: P0登録リクエスト20URL(MediaXAI)/P2 beginner深掘り(承認待ち)/P3 実施3-4日後の全数再計測

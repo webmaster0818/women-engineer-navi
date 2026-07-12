@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "未経験から女性エンジニアになるには？現実のロードマップと職種の選び方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-12",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -85,6 +85,22 @@ const faqData = {
         text: "費用を抑えたい・自走力に自信があるなら独学、効率と挫折防止を優先するならスクールです。独学は無料〜数千円の教材で始められる一方、エラー解決で詰まりやすいのが難点。スクールは数十万円かかりますが、カリキュラムとメンターのサポートで学習効率が上がります。まず独学で1〜2ヶ月試して適性を確かめてからスクールを検討する順番が、費用対効果の面でおすすめです。",
       },
     },
+    {
+      "@type": "Question",
+      name: "女性が未経験からエンジニアを目指すとき、無料で学べる公的支援はありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "あります。東京都の「女性ITエンジニア育成事業」（受講料無料・就職支援つき）や埼玉県の「女性デジタル人材育成事業」など、自治体の女性向けIT育成事業が代表例です。全国どこからでも、教育訓練給付制度（対象講座の受講料の20〜80%を支給）や経済産業省系ポータル「マナビDX」の無料講座を使えます。募集時期や要件は変わるため、各制度の公式案内で最新情報を確認してください。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "未経験の女性がエンジニア転職で不利になることはありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "採用選考は経験・スキルベースで進むため、性別そのものが応募の障壁になる場面は限られます。日本のITエンジニアの女性比率は18.8%とまだ少数派ですが、IT人材不足を背景に女性向けの育成事業や女性の活躍を打ち出す企業は増えています。大切なのは、産休育休の取得実績やリモート対応など、入社後に長く働ける環境かを企業選びの段階で見極めることです。女性視点のサポートがある転職エージェントを併用すると、環境面の情報を集めやすくなります。",
+      },
+    },
   ],
 };
 
@@ -128,7 +144,7 @@ export default function ArticlePage() {
                 現実のロードマップと職種の選び方【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月12日</p>
           </div>
         </div>
       </section>
@@ -162,11 +178,12 @@ export default function ArticlePage() {
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 職種別・未経験ハードル比較（どこから入るか）</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 学習ロードマップ（期間の目安つき）</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 独学かスクールか・資格は必要か</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. ポートフォリオの作り方</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 転職活動の進め方と求人の見極め方</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#public-support" className="hover:underline" style={{ color: "#7c3a55" }}>6. 女性向けの公的支援・給付金で費用を抑える</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>7. ポートフォリオの作り方</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>8. 転職活動の進め方と求人の見極め方</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -387,6 +404,44 @@ export default function ArticlePage() {
             </p>
             <p>
               資格については、開発職なら「必須ではないがあれば学習の証明になる」、インフラ・サポート系なら「評価に直結しやすい」のが実情です。国家試験の<a href="/articles/cert-kihonjoho/" className="underline font-bold" style={{ color: "#7c3a55" }}>基本情報技術者試験</a>はIT全般の基礎を体系的に学べるため、未経験者の知識の土台づくりと書類選考対策を兼ねられます。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 公的支援・給付金ルート */}
+      <section id="public-support" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">女性向けの公的支援・給付金で費用を抑える</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              「独学かスクールか」の2択の前に、女性の未経験者にはもうひとつ選択肢があります。<strong>国や自治体の公的支援を使えば、無料〜低コストで体系的に学べます</strong>。特に女性向けのIT育成事業は就職支援までセットになっているものがあり、費用面のハードルを大きく下げられます。
+            </p>
+          </div>
+          <div className="grid gap-4 md:grid-cols-2 mt-6">
+            <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都 女性ITエンジニア育成事業</h3>
+              <p className="text-sm text-text-light">受講料無料の研修＋就職支援まで一体型。都内在住・在勤の方はまずここから</p>
+            </a>
+            <a href="/articles/saitama-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>埼玉県 女性デジタル人材育成事業</h3>
+              <p className="text-sm text-text-light">無料プログラム。在職中でも学べる設計</p>
+            </a>
+            <a href="/articles/training-benefit-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>教育訓練給付制度でIT講座</h3>
+              <p className="text-sm text-text-light">対象講座なら受講料の20〜80%が支給される国の制度。スクール費用の圧縮に</p>
+            </a>
+            <a href="/articles/manabi-dx/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>マナビDXの無料講座</h3>
+              <p className="text-sm text-text-light">経済産業省系ポータル。独学の教材選びにも使える無料デジタル講座</p>
+            </a>
+          </div>
+          <div className="space-y-4 text-text-light leading-relaxed mt-6">
+            <p>
+              お住まいの地域の制度は<a href="/articles/women-it-support-map/" className="underline font-bold" style={{ color: "#7c3a55" }}>女性向けIT学習支援マップ（全国版）</a>で確認できます。ひとり親の方は月10万円の給付を受けながら学べる<a href="/articles/hitorioya-it-training/" className="underline font-bold" style={{ color: "#7c3a55" }}>高等職業訓練促進給付金</a>も対象になる場合があります。募集時期・要件は変わるため、最新情報は各制度の公式案内で確認してください。
+            </p>
+            <p>
+              学習の出口となる転職先探しは、<a href="/diagnosis/" className="underline font-bold" style={{ color: "#7c3a55" }}>エージェント無料診断（8つの質問）</a>で自分に合う相談先を絞り込んでおくとスムーズです。
             </p>
           </div>
         </div>
@@ -614,6 +669,10 @@ export default function ArticlePage() {
             <a href="/articles/how-to-choose/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>エージェント選び方ガイド</h3>
               <p className="text-sm text-text-light">失敗しない5つのポイント</p>
+            </a>
+            <a href="/articles/women-it-support-map/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性向けIT学習支援マップ（全国版）</h3>
+              <p className="text-sm text-text-light">国・自治体の無料研修と給付金を一覧で</p>
             </a>
           </div>
         </div>
