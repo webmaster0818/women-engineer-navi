@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-13",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -397,6 +397,11 @@ export default function ArticlePage() {
               </p>
             </div>
           </div>
+          <div className="rounded-xl p-6 mt-6 bg-white" style={{ border: "1px solid #7c3a55" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong style={{ color: "#7c3a55" }}>タイミング設計をさらに詳しく</strong>　転職と妊娠・出産のタイミングには、育休の入社1年未満除外（労使協定）や育児休業給付金の12か月要件と前職通算など、制度上の分岐点がある場合があります。順番ごとの整理は<a href="/articles/career-lifeevent-timing/" className="underline" style={{ color: "#7c3a55" }}>転職と妊娠・出産のタイミング設計ガイド</a>で、産休・育休・時短期間の収入の考え方は<a href="/articles/maternity-money-guide/" className="underline" style={{ color: "#7c3a55" }}>産休・育休・時短勤務のお金ガイド</a>で解説しています。
+            </p>
+          </div>
           <p className="text-xs text-text-light mt-3 leading-relaxed">
             出典: 最高裁昭和57年10月7日判決（大和銀行事件）— 賞与の支給日在籍要件を有効と判断、人事院「期末手当・勤勉手当」— 国家公務員の賞与支給日は6月30日・12月10日、厚生労働省「育児・介護休業法のあらまし」— 労使協定による入社1年未満の労働者の育休除外、ハローワークインターネットサービス「育児休業給付」— みなし被保険者期間12ヶ月以上の要件（いずれも2026年6月参照）
           </p>
@@ -581,6 +586,14 @@ export default function ArticlePage() {
             <a href="/articles/mama-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ママエンジニアの働き方ガイド</h3>
               <p className="text-sm text-text-light">育児と両立する働き方と法制度</p>
+            </a>
+            <a href="/articles/career-lifeevent-timing/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>転職と妊娠・出産のタイミング設計ガイド</h3>
+              <p className="text-sm text-text-light">育休・給付金の制度上の分岐点から逆算する</p>
+            </a>
+            <a href="/articles/maternity-money-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>産休・育休・時短勤務のお金ガイド</h3>
+              <p className="text-sm text-text-light">出産手当金・育児休業給付金と手取りの考え方</p>
             </a>
           </div>
         </div>

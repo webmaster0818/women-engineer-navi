@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "エンジニア面接の逆質問 例文集｜好印象・NG例・フェーズ別の聞き方ガイド",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-07",
+  dateModified: "2026-07-13",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -403,6 +403,11 @@ export default function ArticlePage() {
               <strong style={{ color: "#7c3a55" }}>面接で聞きにくいときは</strong>　復帰率の数字や女性管理職比率、リモートの本当の運用実態など、本人には聞きづらい情報は、女性のキャリアに詳しい転職エージェント経由で確認するのが確実です。求人票に出ない実態を代わりに引き出してもらえます。
             </p>
           </div>
+          <div className="rounded-xl border p-5 mt-4 bg-white" style={{ borderColor: "#7c3a55" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong style={{ color: "#7c3a55" }}>聞き方文例と事前リサーチをさらに詳しく</strong>　産休育休・残業実態・女性比率など「聞きにくいこと」の聞き方文例と、面接の前に厚労省の公式データベースで企業の実態を調べておく方法は、<a href="/articles/company-check-guide/" className="underline" style={{ color: "#7c3a55" }}>働きやすい企業の見極め方・実務編</a>で詳しく解説しています。
+            </p>
+          </div>
         </div>
       </section>
 
@@ -608,6 +613,7 @@ export default function ArticlePage() {
             <a href="/articles/casual-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>カジュアル面談の進め方</h3><p className="text-sm text-text-light">選考前の情報収集で差をつける</p></a>
             <a href="/articles/technical-interview/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>技術面接の対策ガイド</h3><p className="text-sm text-text-light">技術質問への備え方を解説</p></a>
             <a href="/articles/women-friendly-companies/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の選び方</h3><p className="text-sm text-text-light">長く働ける会社を見極める</p></a>
+            <a href="/articles/company-check-guide/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>働きやすい企業の見極め方・実務編</h3><p className="text-sm text-text-light">公式データベースの使い方と聞き方文例</p></a>
           </div>
         </div>
       </section>

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性が働きやすいIT企業の見極め方｜認定制度と公開データの読み方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-13",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -180,9 +180,10 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. IT大手が実際に公開しているデータの例</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 求人票・面接でのチェックリスト</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 見極めの注意点とよくある落とし穴</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-official-check" className="hover:underline" style={{ color: "#7c3a55" }}>8. 公式データで確かめる（3ステップ）</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. 転職成功事例</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -498,6 +499,26 @@ export default function ArticlePage() {
         </div>
       </section>
 
+      {/* 公式データで確かめる（実務ガイドへのティーザー） */}
+      <section id="sec-official-check" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">公式データで確かめる（3ステップ）</h2>
+          <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
+            <p className="text-sm text-text-light leading-relaxed mb-4">
+              ここまで紹介した認定と公開データは、応募前に次の3ステップで手早く確認できます。厚生労働省「女性の活躍推進企業データベース」では、企業ごとの女性管理職比率・男女別の育休取得率・平均残業時間などの公表値を無料で調べられます。
+            </p>
+            <ol className="space-y-2 text-sm text-text-light leading-relaxed">
+              <li><strong style={{ color: "#7c3a55" }}>STEP1</strong>　データベースで企業名を検索し、公表データを確認する</li>
+              <li><strong style={{ color: "#7c3a55" }}>STEP2</strong>　えるぼし・くるみん認定の有無を確認する</li>
+              <li><strong style={{ color: "#7c3a55" }}>STEP3</strong>　上場企業なら有価証券報告書の人的資本情報もあわせて確認する</li>
+            </ol>
+            <p className="text-sm text-text-light leading-relaxed mt-4">
+              各ステップの詳しい手順・公表項目の読み方・面接での聞き方文例は、実務編の<a href="/articles/company-check-guide/" className="underline font-bold" style={{ color: "#7c3a55" }}>働きやすい企業の見極め方・実務編（公式データベースの使い方と聞き方文例）</a>でまとめて解説しています。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* おすすめ転職エージェント */}
       <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
@@ -732,6 +753,16 @@ export default function ArticlePage() {
                 女性エンジニアの管理職キャリア
               </h3>
               <p className="text-sm text-text-light">女性管理職比率の高い職場の選び方</p>
+            </a>
+            <a
+              href="/articles/company-check-guide/"
+              className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md"
+              style={{ borderColor: "#d9c7b8" }}
+            >
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
+                働きやすい企業の見極め方・実務編
+              </h3>
+              <p className="text-sm text-text-light">公式データベースの使い方と面接での聞き方文例</p>
             </a>
           </div>
         </div>

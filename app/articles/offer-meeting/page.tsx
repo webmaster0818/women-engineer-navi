@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "オファー面談で確認すべきこと完全ガイド｜女性エンジニアの条件交渉・チェックリスト",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-07-13",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -83,6 +83,14 @@ const faqData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "まずオファーレター（労働条件通知書・雇用契約書案）を熟読し、基本給と賞与・みなし残業の有無・想定年収の内訳を分解して把握します。次に、確認したい質問をチェックリスト化しておきましょう。年収内訳、昇給・評価制度、配属部署とポジション、残業時間の実態、リモート/フレックスの運用、産休育休の取得率・復帰率などが定番です。さらに、年収交渉をする場合は希望額と根拠（現職年収・スキル・市場価値）を整理し、複数社の選考状況も手元にまとめておきます。質問は5〜8個程度に絞り、優先度の高いものから聞くと面談がスムーズです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "オファー面談で育休の労使協定や時短勤務の適用条件まで確認してもいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "問題ありません。オファー面談は選考ではなく、労働条件や社内制度の詳細を正式に確認するための場です。育児休業は労使協定によって入社1年未満の労働者が対象から除外される場合があるなど、制度の適用条件は企業によって異なることがあるため、近い将来のライフイベントを考えている場合はこの段階で確認しておくと入社後のギャップを防げます。時短勤務の対象となる子の年齢や、時短時の給与・評価の扱いも同様です。口頭の回答だけでなく、就業規則や労働条件通知書など書面での確認をあわせて依頼すると確実です。",
       },
     },
   ],
@@ -162,10 +170,11 @@ export default function ArticlePage() {
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 年収・条件交渉のコツ</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性がライフプランを確認するポイント</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 当日の進め方・流れ（STEP解説）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 辞退する場合の対応とマナー</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. オファー面談の活用事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec-pre-accept" className="hover:underline" style={{ color: "#7c3a55" }}>6. オファー受諾前チェックリスト（女性エンジニア版）</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>7. 辞退する場合の対応とマナー</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. オファー面談の活用事例</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -348,6 +357,52 @@ export default function ArticlePage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* sec-pre-accept オファー受諾前チェックリスト（女性エンジニア版） */}
+      <section id="sec-pre-accept" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">オファー受諾前チェックリスト（女性エンジニア版）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+            <p>
+              オファー面談は、面接では踏み込みにくかった制度の詳細を<strong>正式に確認できる場</strong>です。内定承諾書にサインする前に、「環境」「制度」「お金」の3軸で確認漏れがないか最終チェックしましょう。いずれも「確認する観点」のリストであり、答えや運用は企業によって異なります。
+            </p>
+          </div>
+          <div className="space-y-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>環境軸：入社後の働き方を続けられるか</h3>
+              <ul className="space-y-3 text-sm text-text-light">
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>配属チームの構成（人数・役割分担・女性メンバーやロールモデルの有無）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>リモート・フレックスの実運用（週何日か・コアタイム・出社が必要になる条件）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>子の発熱など急な休みの際のカバー体制（業務が属人化していないか）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>評価制度の運用（時短勤務時の評価基準・目標設定がどう扱われるか）</span></li>
+              </ul>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>制度軸：制度が自分に適用されるか</h3>
+              <ul className="space-y-3 text-sm text-text-light">
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>育休に関する労使協定の有無（入社1年未満の労働者を対象から除外する定めがある場合があります。制度上の分岐点の整理は<a href="/articles/career-lifeevent-timing/" className="underline" style={{ color: "#7c3a55" }}>転職と妊娠・出産のタイミング設計ガイド</a>へ）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>時短勤務の適用条件（対象となる子の年齢・利用できる期間）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>産休・育休からの復帰事例（同じ職種・チームでの実例があるか）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>復帰後の配属・ポジションの考え方（希望がどこまで考慮されるか）</span></li>
+              </ul>
+            </div>
+            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>お金軸：提示条件の中身を分解できているか</h3>
+              <ul className="space-y-3 text-sm text-text-light">
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>提示年収の内訳（基本給・裁量労働手当や固定残業代・各種手当の区分）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>賞与の算定方法（算定期間と支給実績・時短勤務時や育休期間の扱い）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>育休・時短勤務時の収入見込み（給付や社会保険の扱いを含めた考え方は<a href="/articles/maternity-money-guide/" className="underline" style={{ color: "#7c3a55" }}>産休・育休・時短勤務のお金ガイド</a>へ）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>昇給・評価サイクル（復帰後にどのタイミングで再開されるか）</span></li>
+              </ul>
+            </div>
+          </div>
+          <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#efe3d8" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong style={{ color: "#7c3a55" }}>聞き方に迷ったら</strong>　これらを角を立てずに確認する聞き方の文例や、面談の前に公式データで企業の実態を調べておく方法は、<a href="/articles/company-check-guide/" className="underline" style={{ color: "#7c3a55" }}>働きやすい企業の見極め方・実務編</a>で詳しく解説しています。
+            </p>
           </div>
         </div>
       </section>
