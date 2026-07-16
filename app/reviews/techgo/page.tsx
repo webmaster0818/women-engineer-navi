@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "テックゴー（TechGo）の口コミ・評判｜平均138万円年収アップの実力を検証",
   datePublished: "2026-07-02",
-  dateModified: "2026-07-06",
+  dateModified: "2026-07-16",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "ITエンジニア特化の転職エージェント「テックゴー」を女性エンジニア目線で徹底レビュー。年収アップ実績・無料キャリア面談・選考対策の実力を検証。",
@@ -76,6 +76,22 @@ const faqData = {
         text: "女性専用のプログラムや女性特化の窓口は公式サイトに記載がありません。一方で、キャリア面談で職場環境や働き方の希望を含めてヒアリングし、技術スタック・組織文化・成長性まで加味して応募先を選定するとされているため、リモート可否や産休育休の取得状況などの希望は面談で具体的に伝えるのがポイントです。女性特化の手厚いサポートを重視する場合はtype女性の転職エージェントとの併用が有力です。",
       },
     },
+    {
+      "@type": "Question",
+      name: "テックゴーの面談を受けた後、応募や転職を断ってもいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "断れます。公式サイトの「ご利用の流れ」では、紹介された求人の中から「興味を持っていただいた求人へ応募」と説明されており、応募するかどうかは求職者が選ぶ設計です。面談を受けた結果「今は転職しない」という結論になった場合も、担当アドバイザーにその旨を率直に伝えれば問題ありません。無理な引き止めや連絡頻度に関する公式の記載はないため、気になる場合は面談時に連絡手段・頻度の希望（メール中心など）を先に伝えておくとスムーズです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "テックゴーの口コミが少ないのはなぜですか？怪しくないですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "テックゴーはサービスの歴史が比較的浅いため、SNSや口コミサイトでの第三者の投稿がまだ少ない段階です。口コミが少ないこと自体は「怪しい」ことを意味しません。運営元の株式会社MyVisionは有料職業紹介事業許可（13-ユ-314719）を取得した実在の人材紹介会社で、コンサル転職エージェント「MyVision」の運営実績もあります。当サイトでは公式サイトの公開情報（実績数値・注記・会社概要）を確認した範囲で本ページを作成しており、掲載情報は2026年7月16日に公式サイトで再確認済みです。第三者の口コミを重視する方は、運営歴が長く情報が豊富なレバテックキャリアとの併用・比較をおすすめします。",
+      },
+    },
   ],
 };
 
@@ -99,7 +115,7 @@ export default function TechgoReviewPage() {
                 平均138万円年収アップの実力を検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月2日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月16日（実績数値・サービス内容を公式サイトで同日再確認）</p>
           </div>
         </div>
       </section>
@@ -409,6 +425,7 @@ export default function TechgoReviewPage() {
           <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/articles/techgo-career-mendan/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} テックゴーの無料キャリア面談とは？内容・流れ・準備</Link>
+            <Link href="/articles/techgo-vs-levtech/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} テックゴーとレバテックキャリアの違い｜使い分け</Link>
             <Link href="/articles/how-to-choose/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} 転職エージェントの選び方｜7つのチェックポイント</Link>
             <Link href="/articles/specialized-vs-general/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} IT特化型と総合型の使い分け</Link>
             <Link href="/articles/negotiation/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} 年収交渉のやり方ガイド</Link>

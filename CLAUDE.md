@@ -257,3 +257,8 @@
 - 全記事「2026年7月参照」+改正注記+個別確認誘導・断定なし・架空ゼロ。3本相互+既存クラスタ配線+診断/ranking導線各記事完備
 - ホスト: categories(ryoritsu+2/senko+1)・sitemap 128→131・deploy両push・本番検証(参照日/診断/制度記述/sitemap131)cache回避until・GSC再送信・報告(id 1526082104910151682)
 - 残: v8 P2(既存4本への組み込み=women-friendly-companiesにDB手順/offer-meetingにチェックリスト/reverse-questions・schedule接続)承認待ち/P0登録リクエスト(次回リストに3本追加)
+
+## 2026-07-13 v8 P2: 既存4本へ組み込み修正（MediaXAI「p2進めよう」）✅
+- agent1体で追記のみ: women-friendly-companies=「公式データで確かめる(3ステップ)」ティーザー節(詳細はcompany-check-guide委譲・重複解説なし)/offer-meeting=**受諾前チェックリスト女性版**(環境4+制度4+お金4=12項目・labor協定→timing記事/収入→money記事リンク)+FAQ1問(faqData同一リテラル両反映)/reverse-questions=聞きにくい質問文脈にcallout/schedule=ライフイベント文脈にcallout(timing+money)。各記事の関連グリッドにもカード追加・目次は表示番号のみ振り直し(アンカー不変)
+- ホスト: dateModified4件・sitemap lastmod4件→2026-07-13・deploy両push・本番4/4配線検証(reverse-questionsはCDN遅延→ローカルout確認+untilで反映確認=偽陰性回避)・GSC再送信・報告(id 1526155319477276722)
+- ★v8完遂(P1新規3本/P2組み込み4本/P3配線はP1P2内で完了)。残: P0登録リクエスト(20URL+意思決定3本を追加依頼済み)→3-4日後再計測

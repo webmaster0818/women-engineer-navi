@@ -606,6 +606,7 @@ export default function LevtechReviewPage() {
             <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
             <Link href="/articles/technical-interview/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法</Link>
             <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} レバテックキャリア vs Geekly徹底比較</Link>
+            <Link href="/articles/techgo-vs-levtech/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} テックゴーとレバテックキャリアの違い</Link>
           </div>
         </div>
       </div>

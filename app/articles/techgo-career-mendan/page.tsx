@@ -324,6 +324,7 @@ export default function ArticlePage() {
           <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/reviews/techgo/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} テックゴーの口コミ・評判｜徹底レビュー</Link>
+            <Link href="/articles/techgo-vs-levtech/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} テックゴーとレバテックキャリアの違い｜使い分け</Link>
             <Link href="/articles/how-to-choose/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} 転職エージェントの選び方｜7つのチェックポイント</Link>
             <Link href="/articles/specialized-vs-general/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} IT特化型と総合型の使い分け</Link>
             <Link href="/articles/negotiation/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} 年収交渉のやり方ガイド</Link>

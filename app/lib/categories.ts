@@ -217,6 +217,7 @@ export const categories: Category[] = [
       { href: "/articles/workport-vs-recruit/", title: "ワークポートとリクルートエージェントの違い" },
       { href: "/articles/green-vs-reworks/", title: "GreenとReWorksの違い" },
       { href: "/articles/techgo-career-mendan/", title: "テックゴーの無料キャリア面談とは" },
+      { href: "/articles/techgo-vs-levtech/", title: "テックゴーとレバテックキャリアの違い" },
     ],
   },
   {
