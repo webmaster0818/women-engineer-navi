@@ -262,3 +262,11 @@
 - agent1体で追記のみ: women-friendly-companies=「公式データで確かめる(3ステップ)」ティーザー節(詳細はcompany-check-guide委譲・重複解説なし)/offer-meeting=**受諾前チェックリスト女性版**(環境4+制度4+お金4=12項目・labor協定→timing記事/収入→money記事リンク)+FAQ1問(faqData同一リテラル両反映)/reverse-questions=聞きにくい質問文脈にcallout/schedule=ライフイベント文脈にcallout(timing+money)。各記事の関連グリッドにもカード追加・目次は表示番号のみ振り直し(アンカー不変)
 - ホスト: dateModified4件・sitemap lastmod4件→2026-07-13・deploy両push・本番4/4配線検証(reverse-questionsはCDN遅延→ローカルout確認+untilで反映確認=偽陰性回避)・GSC再送信・報告(id 1526155319477276722)
 - ★v8完遂(P1新規3本/P2組み込み4本/P3配線はP1P2内で完了)。残: P0登録リクエスト(20URL+意思決定3本を追加依頼済み)→3-4日後再計測
+
+## 2026-07-16 テックゴー対策強化（MediaXAI「day1はやった。テックゴー関連の対策強化を進めて」）✅
+- 実測: テックゴー系クエリ表示0=未インデックスが律速(Day1リクエスト済み)。公式tech-go.jpを再取得し全数値突合→ヒーロー「平均138万円※1(2025年6-7月実績)」「成功率100%※2(2025年9月時点)」「20代120万/30代160万」現存=既存記載は公式現行と完全一致
+- 【新規】/articles/techgo-vs-levtech/: 収益核2社の比較(vs記事群と同型・比較カテゴリ登録)。独自軸=「138万vs70万は平均実績vs実績例で定義が異なり単純比較不可」の正直解説。比較表8行全行出典・状況別4・併用順・女性視点5・FAQ4 schema。CTA=techgo moshimoアフィリ流用+PR表記、levtechは内部レビューへ
+- 【修正】reviews/techgo: FAQ5→7問(「面談後断ってもいい?」「口コミ少ない=怪しくない?」=不安系指名サブインテント回収)・最終更新7/16+公式同日再確認を明記・dateModified
+- 【修正】相互リンク: reviews/techgo・techgo-career-mendan・reviews/levtech・categories.tsの4箇所から比較記事へ
+- sitemap 131→132(3ページlastmod 7/16)・tsc0/build・deploy=women-engineer-navi-deploy両push・本番検証(比較記事200/FAQPage/moshimo・レビューのFAQ2問/確認日/リンク)cache回避curl・GSC再送信
+- 残: techgo-vs-levtechをDay2登録リクエストへ追加依頼済み→3-4日後にインデックス+テックゴー系クエリ初動を再計測
