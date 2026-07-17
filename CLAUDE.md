@@ -281,3 +281,10 @@
 - ★みん評リンク検証: minhyo.jpはCF Browser Integrity Checkでcurl/WebFetch/headless全403(初回のみ突破可)→**Yahooインデックス実在証拠で判定**。levtech-career=404だった→/levtech、green→/green-japan、recruit-agent→/r-agent差し替え。未確認3件(workport/reworks/type-woman-agent)はリンク削除。doda/geeklyは現行維持
 - dateModified/最終更新8ページ→2026-07-17・sitemap lastmod 9URL・tsc0/build・deploy両push・本番検証(架空ペルソナ8/8ゼロ・ranking残存0)・GSC再送信
 - ★これでサイト全体の無出典口コミ=ゼロ（記事側は6/12対応済み+レビュー側今回完了）
+
+## 2026-07-17 明光キャリアパートナーズ掲載+レビュー一覧ハブ新設（MediaXAI「掲載を進めてほしい」）✅
+- 公式実取得の発見: 同社はM&A/コンサル/ファンドのハイキャリア紹介(STRATEGY CAREER・Reverse)+外国籍人材事業=**IT実務エージェントではない**→「先に結論」ボックスで正直に位置づけ(キャリアチェンジ枠)・techgo/levtechへ誘導・総合評価3.0(IT実務求人の専門性1.0)
+- 【新規】/reviews/meiko-career/: 全事実公式実取得(麹町/2022年9月/5,000万/13-ユ-314857/派13-316441/内定率40% 2023上期/平均880万/動画50本/2on1)。誠実対応: No.1系は調査根拠不明で不採用/NPSは明光公式82.2 vs Reverse公式現行67.7の齟齬を両方併記(時点差明記)/LPの旧会社情報(西新宿・小西代表)でなく現行会社概要を採用。口コミ=Reverse公式体験談の実在2件(個別記事URL出典・コーチングサービスの声と明記・原文が仮名)+「第三者口コミ少ない」正直記載
+- 【新規】/reviews/ 一覧ハブ: **全レビューのパンくずが未作成の/reviews/(404)を向くサイト共通切れリンクを発見**(factoringの6/13と同種)→10社を4タイプ(IT特化/女性・働き方特化/総合/ハイキャリア)で整理したハブを新設し解消。診断・rankingへCTA
+- 【修正】it-consultant関連記事にmeiko-careerカード追加。sitemap 132→134・tsc0/build・deploy両push・本番検証(結論ボックス/許可番号/体験談出典リンク/hub200/sitemap134)・GSC再送信
+- 残: ranking(10社目)・診断への組み込み=要MediaXAI判断(キャリアチェンジ枠推奨)/アフィリリンク支給あればCTA差し替え/新URL2本を次回登録リクエストへ
