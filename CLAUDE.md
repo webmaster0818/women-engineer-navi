@@ -270,3 +270,14 @@
 - 【修正】相互リンク: reviews/techgo・techgo-career-mendan・reviews/levtech・categories.tsの4箇所から比較記事へ
 - sitemap 131→132(3ページlastmod 7/16)・tsc0/build・deploy=women-engineer-navi-deploy両push・本番検証(比較記事200/FAQPage/moshimo・レビューのFAQ2問/確認日/リンク)cache回避curl・GSC再送信
 - 残: techgo-vs-levtechをDay2登録リクエストへ追加依頼済み→3-4日後にインデックス+テックゴー系クエリ初動を再計測
+
+## 2026-07-17 口コミ全面是正（MediaXAI「口コミ情報すべて出典リンク付けて。架空情報は無し」）✅
+- 監査結果: 9レビュー中8社に**架空口コミ計48件**（創作人物の一人称体験談・6/12リライトでレビューは保護対象だったため残存）。techgoのみ準拠形。rankingにも無出典「口コミ多数」+7/5是正漏れ(Geekly 30,000件/リモート55%/Green 30,000件/50%)
+- 並列agent4体で8社是正（techgoパターン移植）: 実取得ソースのみ要約・reviewer属性はソース記載の範囲だけ（性別なしなら付けない）・各項目に出典リンク+2026年7月参照+公式発信注記。ソース無しは捏造せず正直記載
+  - 実ソース獲得: levtech=公式評判ページ(投稿日付き・ネガ声も採用)/geekly=**公式data.json実データ108件**(/services_assets/reviews/json/data.json)/workport=公式voice(実投稿日)/type-woman=公式事例の個別ページURL/recruit=公式トップの声(性別記載なし→性別付けず)
+  - ソース無し正直記載: green(声の掲載自体なし)/reworks(同)/doda(公式が全手段で取得不可の継続案件)
+- 旧「気になる口コミ」→「利用前に知っておきたい注意点」(確認済み事実ベースの編集部解説)へ全社転換
+- ranking是正6箇所: 「口コミが多数」削除・Geekly 46,000件/Green約28,000件へ統一・リモート%撤去・workport弱点の「口コミも」表現を編集部一般論へ
+- ★みん評リンク検証: minhyo.jpはCF Browser Integrity Checkでcurl/WebFetch/headless全403(初回のみ突破可)→**Yahooインデックス実在証拠で判定**。levtech-career=404だった→/levtech、green→/green-japan、recruit-agent→/r-agent差し替え。未確認3件(workport/reworks/type-woman-agent)はリンク削除。doda/geeklyは現行維持
+- dateModified/最終更新8ページ→2026-07-17・sitemap lastmod 9URL・tsc0/build・deploy両push・本番検証(架空ペルソナ8/8ゼロ・ranking残存0)・GSC再送信
+- ★これでサイト全体の無出典口コミ=ゼロ（記事側は6/12対応済み+レビュー側今回完了）
