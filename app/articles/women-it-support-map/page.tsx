@@ -368,6 +368,29 @@ export default function ArticlePage() {
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">&#8226;</span><span><strong>公式:</strong> <a href="https://digital-women.maia.co.jp/fukuoka/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>digital-women.maia.co.jp/fukuoka</a>／<a href="https://www.pref.fukuoka.lg.jp/press-release/josei-digital.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>福岡県庁 報道発表</a></span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-1 font-bold">&#8226;</span><span>このように自治体事業は年度で入れ替わります。福岡県にお住まいの方は、県公式サイトで最新年度の女性向け事業の有無を確認してください</span></li>
               </ul>
+              <p className="mt-3 text-sm"><a href="/articles/fukuoka-digital-woman/" className="font-bold underline" style={{ color: "#7c3a55" }}>→ 福岡県事業の詳細解説（実施していた内容・今後の確認方法）はこちら</a></p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3">そのほか公式ページに到達確認できた自治体事業（2026年7月18日確認・詳細解説つき）</h3>
+              <ul className="space-y-3 text-sm text-text-light">
+                <li className="flex items-start gap-2">
+                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>募集中</span>
+                  <span><a href="/articles/iwate-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>岩手県「いわて女性デジタル人材育成プロジェクト」</a> — 申込〜2026年7月24日・受講料19,800円税込（無料ではない点に注意）・8月開講</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>募集中</span>
+                  <span><a href="/articles/yamaguchi-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>山口県「WINGs YAMAGUCHI」</a> — 申込〜2026年7月31日・受講料無料（テキスト代実費）・9月開講。オンライン枠は定員超過表示あり</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#bd8a3c" }}>次回8月〜</span>
+                  <span><a href="/articles/kanagawa-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>神奈川県「女性のためのデジタルスキル育成講座」</a> — 受講料無料・eラーニング第2回の申込は2026年8月10日開始予定</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>締切済み</span>
+                  <span><a href="/articles/yamanashi-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>山梨県「やまなし女性デジタル人材プロジェクト」</a> — 2026年度の募集は終了（次期の確認方法を解説）</span>
+                </li>
+              </ul>
+              <p className="text-xs text-text-light mt-3">※募集状況は確認日時点のものです。申込前に必ず各公式サイトで最新の募集状況をご確認ください。</p>
             </div>
           </div>
 
