@@ -23,7 +23,7 @@ const structuredData = {
   "@type": "Article",
   headline: "Greenの口コミ・評判｜女性エンジニアのカジュアル転職に最適？",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "Green（グリーン）を女性エンジニア目線で徹底レビュー。カジュアル面談・スカウト型の実力を検証。",
@@ -93,7 +93,7 @@ export default function GreenReviewPage() {
               Green（グリーン）の口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアのカジュアル転職に最適？徹底検証</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイトの公開情報に基づき再構成）</p>
           </div>
         </div>
       </section>
@@ -231,46 +231,30 @@ export default function GreenReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">Greenの口コミ・評判</h2>
           <p className="text-xs text-text-light mb-8">
-            ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            ※当セクションはGreen公式サイトの公開情報に基づく編集部の解説です。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
-          <div className="space-y-4 mb-8">
-            {[
-              {
-                reviewer: "20代女性エンジニア（スタートアップ転職）",
-                text: "カジュアル面談がとても良かったです。いきなり選考ではなく、まず会社の雰囲気を感じ取れるので安心感があります。3社とカジュアル面談をした結果、一番フィーリングの合ったスタートアップに転職しました。女性エンジニアも多い職場で、働きやすさに満足しています。",
-              },
-              {
-                reviewer: "30代女性エンジニア（フルリモート希望）",
-                text: "フルリモートの求人を探していて、Greenにはリモートワーク可能な求人が多くて助かりました。企業ページで社員の口コミや福利厚生を確認できるので、応募前のリサーチがしやすいです。スカウトも結構来て、自分の市場価値が分かりました。",
-              },
-              {
-                reviewer: "20代後半女性（Webエンジニア）",
-                text: "自分のペースで転職活動を進めたかったのでGreenを選びました。エージェントのように急かされることなく、気になった企業にカジュアル面談を申し込める気軽さが良かったです。最終的にSaaS企業に転職し、技術的にも成長できる環境を手に入れました。",
-              },
-              {
-                reviewer: "30代女性（PM・マネージャー職）",
-                text: "スカウト機能が優秀で、自分のプロフィールを見た企業から直接声がかかりました。CTO自らスカウトメッセージを送ってくれた企業もあり、入社前から信頼関係を築けた点が良かったです。ベンチャー企業のマネージャーポジションに転職できました。",
-              },
-            ].map((review, i) => (
-              <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#ecfdf5", border: "1px solid #a7f3d0" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>{review.reviewer}</p>
-                <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
-              </div>
-            ))}
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>利用者の声について</h3>
+          <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#ecfdf5", border: "1px solid #a7f3d0" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              Green公式サイト（green-japan.com）には、サービス利用者の声・転職成功事例のまとまった掲載は確認できませんでした（2026年7月時点）。Greenはエージェント型ではなく、企業と求職者が直接やり取りする転職サイト型のサービスで、公式サイトは求人検索・スカウト機能が中心の構成になっています。第三者の口コミを確認したい方は、下記のみん評などの口コミサイトを参照のうえ、最終的には実際に無料登録して求人内容やスカウトを自分の目で確かめるのが確実です。
+            </p>
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点</h3>
           <div className="space-y-4 mb-6">
             {[
               {
-                reviewer: "20代女性エンジニア（サポート不足を感じた）",
-                text: "プラットフォーム型なのでキャリアアドバイザーがいません。書類の添削や面接対策を受けたい方にはサポートが足りないと感じるかもしれません。初めての転職ではエージェント型と併用した方が安心です。",
+                reviewer: "エージェントのような伴走サポートはない",
+                text: "Greenはスカウト型の転職サイトであり、専任キャリアアドバイザーによる書類添削・面接対策・年収交渉の代行はありません。応募書類の準備や条件交渉は自分で行う必要があるため、手厚いサポートを受けながら進めたい方はエージェント型サービスとの併用が安心です。",
               },
               {
-                reviewer: "30代女性エンジニア（大手企業希望）",
-                text: "スタートアップやベンチャー企業の求人は多いのですが、大手企業の求人は少ない印象です。安定した大手企業を希望する方には物足りないかもしれません。大手企業を希望するなら他のサービスとの併用がおすすめです。",
+                reviewer: "スタートアップ・ベンチャー中心で大手求人は少なめ",
+                text: "IT・Web業界のスタートアップ・ベンチャー企業の求人が豊富な一方、大手企業の求人は他のサービスと比べると少ない傾向があります。安定した大手企業を中心に探したい方は、総合型の転職サービスとの併用がおすすめです。",
+              },
+              {
+                reviewer: "スカウトはプロフィールの充実度に左右される",
+                text: "企業からのスカウトは登録プロフィールを見て送られる仕組みのため、職歴・スキルの記載が薄いとスカウトが届きにくくなります。登録時にプロフィールをしっかり作り込むことが、Greenを活かす前提条件になります。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
@@ -281,10 +265,11 @@ export default function GreenReviewPage() {
           </div>
 
           <div className="text-xs text-text-light mt-4 space-y-1">
+            <p>※上記の注意点は、Green公式サイトの公開情報（サービスの仕組み・掲載求人の傾向）から編集部が整理したものです（2026年7月参照）。根拠のない評判・体験談は掲載していません。</p>
             <p>出典・参考:</p>
             <ul className="list-disc pl-5 space-y-1">
-              <li><a href="https://www.green-japan.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">Green公式サイト</a></li>
-              <li><a href="https://minhyo.jp/green" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">みん評 - Greenの口コミ・評判</a></li>
+              <li><a href="https://www.green-japan.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">Green公式サイト</a>（2026年7月参照）</li>
+              <li><a href="https://minhyo.jp/green-japan" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">みん評 - Greenの口コミ・評判</a></li>
             </ul>
           </div>
         </div>

@@ -23,7 +23,7 @@ const structuredData = {
   "@type": "Article",
   headline: "dodaの口コミ・評判｜女性エンジニアの転職にdodaは使える？",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "dodaを女性エンジニア目線で徹底レビュー。求人数業界2位・Women's Career運営の実力を検証。",
@@ -93,7 +93,7 @@ export default function DodaReviewPage() {
               dodaの口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアの転職にdodaは使える？徹底検証</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを確認済み情報ベースに刷新）</p>
           </div>
         </div>
       </section>
@@ -231,46 +231,30 @@ export default function DodaReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">dodaの口コミ・評判</h2>
           <p className="text-xs text-text-light mb-8">
-            ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            ※当サイトでは、実際に内容を確認できた情報のみを掲載する方針です。確認できていない口コミ・体験談は掲載していません。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
-          <div className="space-y-4 mb-8">
-            {[
-              {
-                reviewer: "30代女性エンジニア（バックエンド・転職2回目）",
-                text: "求人数がとにかく多くて、自分の希望条件に合う企業をたくさん比較できました。産休育休実績ありのフィルターが便利で、子育て支援が充実した企業を効率的に探せました。スカウト機能で大手IT企業からオファーが来たのは驚きでした。",
-              },
-              {
-                reviewer: "20代女性（IT営業からエンジニアへ転職）",
-                text: "IT営業からエンジニアへのキャリアチェンジで利用しました。Woman Careerのコラムでキャリアチェンジした先輩の体験談を読めたのが参考になりました。アドバイザーの方が転職の全体像を丁寧に説明してくれて、初めての転職でも安心して進められました。",
-              },
-              {
-                reviewer: "30代女性エンジニア（フルリモート希望）",
-                text: "リモートワーク可の条件で検索したらたくさんの求人が出てきて、選択肢の多さに驚きました。エージェントとスカウトを併用して、効率的に転職活動ができました。面接対策セミナーも無料で参加でき、とても勉強になりました。",
-              },
-              {
-                reviewer: "20代後半女性エンジニア（年収アップ目的）",
-                text: "前職の年収に不満があり転職を決意。dodaのスカウト機能で自分の市場価値を確認した上で、アドバイザーと一緒に年収交渉の戦略を立てられました。結果的に年収50万円アップで転職できました。大手ならではの安心感があります。",
-              },
-            ].map((review, i) => (
-              <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #ecdcce" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>{review.reviewer}</p>
-                <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
-              </div>
-            ))}
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>公式サイト掲載の利用者の声について</h3>
+          <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#efe3d8", border: "1px solid #ecdcce" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              doda公式サイト（doda.jp）は当サイトの調査環境からページを取得できない状態が続いており、公式サイトに利用者の声・転職成功者インタビューのまとまった掲載があるかを確認できませんでした（2026年7月時点）。そのため、本ページでは利用者の声の引用・要約は掲載していません。第三者の投稿は下記のみん評などの口コミサイトでご確認ください。実際のサポートや担当者との相性は、無料登録後の面談で確かめるのが確実です。
+            </p>
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点（編集部）</h3>
           <div className="space-y-4 mb-6">
             {[
               {
-                reviewer: "30代女性エンジニア（専門性に不満）",
-                text: "求人数は多いのですが、IT分野に特化したアドバイザーとは限らず、技術的な会話が深くできない場面がありました。KubernetesやTerraformなどの専門技術を理解してもらうのに苦労しました。IT特化型のエージェントと併用した方が良いです。",
+                reviewer: "総合型のため、IT専門特化のアドバイザーとは限らない",
+                text: "dodaは全職種対応の総合型サービスで、担当アドバイザーがITエンジニア領域の専門とは限りません。技術スタックを踏まえた深い相談を重視する場合は、レバテックキャリアなどIT特化型エージェントとの併用が安心です。",
               },
               {
-                reviewer: "20代女性エンジニア（求人の多さに迷う）",
-                text: "求人が多すぎて、どれを選べばいいか分からなくなってしまいました。自分で求人を精査する必要があり、忙しい中での転職活動はやや大変でした。もう少し絞り込んだ提案があると嬉しかったです。",
+                reviewer: "求人数が多いぶん、自分での取捨選択も必要",
+                text: "240,000件以上という求人規模のため、紹介・検索・スカウトで届く求人の精査に時間がかかることがあります。産休育休実績あり・リモートワーク可などの検索フィルターを活用し、面談でも希望条件を具体的に伝えて絞り込むのがポイントです。",
+              },
+              {
+                reviewer: "最新のサービス内容は公式サイトで直接確認を",
+                text: "前述のとおり、当サイトの調査環境からdoda公式サイトの表示を確認できない状態が続いているため、本ページの情報の一部は最新の公式表記との突合ができていません。登録前に必ず公式サイトで最新のサービス内容・求人数をご確認ください。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>

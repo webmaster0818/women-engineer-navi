@@ -28,7 +28,7 @@ const structuredData = {
   headline:
     "type女性の転職エージェントの口コミ・評判｜女性エンジニアへの対応は？",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-07-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -134,7 +134,7 @@ export default function TypeWomanReviewPage() {
                 女性エンジニアへの対応は？徹底検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の転職成功事例に基づき再構成）</p>
           </div>
         </div>
       </section>
@@ -313,29 +313,31 @@ export default function TypeWomanReviewPage() {
             type女性の転職エージェントの口コミ・評判
           </h2>
           <p className="text-xs text-text-light mb-8">
-            ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            ※以下はtype女性の転職エージェント公式サイト「転職成功事例」に掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。属性・数値は出典ページの記載に基づきます（2026年7月参照）。サービス内容は変更される場合があります。
           </p>
 
           <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
-            良い口コミ
+            公式サイト掲載の転職成功事例（要約）
           </h3>
           <div className="space-y-4 mb-8">
             {[
               {
-                reviewer: "30代女性エンジニア（Webデザイナー兼フロントエンド）",
-                text: "女性のアドバイザーさんに相談できたのが一番良かったです。出産後の復帰を見据えた転職だったのですが、時短勤務可能でリモートワークもOKな企業を中心に紹介してもらえました。面接で結婚や出産について聞かれたときの回答も一緒に準備してもらえて心強かったです。",
+                reviewer: "32歳女性 ITエンジニア→ITエンジニア（年収462万円→550万円）",
+                text: "基幹システムの経験をベースにWeb系の新技術へ挑戦したいという動機で転職活動を開始。年齢的な壁や年収ダウンの不安があったものの、「オープン系開発への挑戦・勤務地固定・現職以上の年収」と譲れない条件を明確に設定。カウンセリングでの方向性の明確化、職務経歴書作成のサポート、隙間時間での面接アドバイスを受け、第一志望の自社開発企業へ転職。年収約90万円アップを実現した。",
+                sourceUrl: "https://type.woman-agent.jp/service/cases/it/19.html",
+                sourceLabel: "公式サイト転職成功事例「基幹システムから新技術開発の道へ」",
               },
               {
-                reviewer: "20代女性（事務職からエンジニアへ転職）",
-                text: "事務職からエンジニアへのキャリアチェンジで不安でしたが、同様の転職事例を多数持っていて、どのようなスキルをアピールすべきか具体的にアドバイスしてもらえました。カウンセリングが丁寧で、自分のキャリアの方向性が明確になりました。",
+                reviewer: "27歳女性 ITエンジニア→ITエンジニア（年収420万円→468万円）",
+                text: "案件ごとに勤務地が変わる客先常駐の環境から、腰を据えて技術を磨ける環境への転職を希望。勤務地の固定と副業可能な条件の両立を目指した。複数選考が重なった際のスケジュール管理や、企業別の面接対策・面接前の情報提供のサポートを受け、複数企業を同時期に比較検討しながら希望条件に合う企業へ転職。年収も48万円アップした。",
+                sourceUrl: "https://type.woman-agent.jp/service/cases/it/17.html",
+                sourceLabel: "公式サイト転職成功事例「客先常駐から腰を据えた環境へ」",
               },
               {
-                reviewer: "30代女性エンジニア（育休明けの転職）",
-                text: "育休から復帰した直後に転職を考え始めたのですが、子育てと両立できる職場を優先して探してもらえました。女性の気持ちをよく理解してくれるアドバイザーさんで、焦らず自分のペースで活動できたのが良かったです。最終的に在宅勤務可能な企業に内定をいただけました。",
-              },
-              {
-                reviewer: "20代後半女性（IT企業の社内SE）",
-                text: "他のエージェントでは技術の話が通じにくかったのですが、typeさんはIT業界の求人もしっかり扱っていて、女性の働きやすさとIT求人の両方の視点でマッチングしてもらえました。書類添削も細かくて、通過率が上がった実感があります。",
+                reviewer: "25歳女性 店舗スタッフ→ITエンジニア（未経験・年収300万円→284万円）",
+                text: "年間100日の出張が常態化するなど過酷な労働環境に限界を感じて転職を決意。休日数などの就業環境に加え、未経験から専門スキルを習得できる教育体制を重視した。LINEでのこまめな状況確認や、第一志望の不採用後に志望理由を改めて深くヒアリングしたうえでの幅広い求人提案を受け、教育体制の整った企業への未経験転職を納得して決断できた。",
+                sourceUrl: "https://type.woman-agent.jp/service/cases/it/18.html",
+                sourceLabel: "公式サイト転職成功事例「過酷な現場からIT業界へ」",
               },
             ].map((review, i) => (
               <div
@@ -347,22 +349,38 @@ export default function TypeWomanReviewPage() {
                   {review.reviewer}
                 </p>
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
+                <p className="text-xs text-text-light mt-3">
+                  出典:{" "}
+                  <a
+                    href={review.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="underline hover:text-primary"
+                  >
+                    {review.sourceLabel}
+                  </a>
+                  （公式発信の内容・2026年7月参照）
+                </p>
               </div>
             ))}
           </div>
 
           <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>
-            気になる口コミ
+            利用前に知っておきたい注意点
           </h3>
           <div className="space-y-4 mb-6">
             {[
               {
-                reviewer: "20代女性エンジニア（バックエンド志望）",
-                text: "女性特化のサポートは素晴らしいのですが、バックエンドエンジニアとしての高度な技術求人は少なかった印象です。IT特化型のエージェントと比べると、技術面の深い知識を持ったアドバイザーは少ないかもしれません。IT特化型との併用がおすすめです。",
+                reviewer: "上記はいずれも公式サイト掲載の成功事例",
+                text: "紹介した事例はtype女性の転職エージェント公式サイトが発信している転職成功事例であり、第三者による評価ではありません。第三者の口コミはみん評などの口コミサイトで確認でき、実際のサポートの相性は無料のキャリアカウンセリングで確かめるのが確実です。",
               },
               {
-                reviewer: "30代女性エンジニア（地方在住）",
-                text: "首都圏の求人がメインで、地方在住の私にとっては選択肢が限られました。リモート可の求人もありますが、首都圏に比べると数が少なく、地方の方は他のサービスとの併用が必要かもしれません。",
+                reviewer: "高度な技術職の求人はIT特化型に及ばない場合がある",
+                text: "女性特化の総合型エージェントのため、バックエンドやインフラなど高度な技術職の求人数・技術面のサポートはIT特化型エージェントに及ばない場合があります。技術職の選択肢を広げたい方はレバテックキャリアなどIT特化型との併用がおすすめです。",
+              },
+              {
+                reviewer: "首都圏中心のため地方在住の方は選択肢が限られる",
+                text: "求人は首都圏（東京・神奈川・埼玉・千葉）が中心です。リモート対応求人の取り扱いもありますが、地方で出社前提の求人を探す場合は、全国対応の大手エージェントとの併用が必要です。",
               },
             ].map((review, i) => (
               <div
@@ -393,12 +411,12 @@ export default function TypeWomanReviewPage() {
               </li>
               <li>
                 <a
-                  href="https://minhyo.jp/type-woman-agent"
+                  href="https://type.woman-agent.jp/service/cases/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   className="underline hover:text-primary"
                 >
-                  みん評 - type女性の転職エージェントの口コミ・評判
+                  type女性の転職エージェント公式サイト - 転職成功事例一覧（2026年7月参照）
                 </a>
               </li>
             </ul>

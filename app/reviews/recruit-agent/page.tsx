@@ -24,7 +24,7 @@ const structuredData = {
   "@type": "Article",
   headline: "リクルートエージェントの口コミ・評判｜女性ITエンジニアの求人数は？",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "リクルートエージェントを女性エンジニア目線で徹底レビュー。非公開含む約100万件（2026年6月時点）の求人の実力を検証。",
@@ -94,7 +94,7 @@ export default function RecruitAgentReviewPage() {
               リクルートエージェントの口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性ITエンジニアの求人数は？徹底検証</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の利用者の声ベースに刷新）</p>
           </div>
         </div>
       </section>
@@ -232,27 +232,23 @@ export default function RecruitAgentReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">リクルートエージェントの口コミ・評判</h2>
           <p className="text-xs text-text-light mb-8">
-            ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            ※以下はリクルートエージェント公式サイト（トップページ）に掲載されている「ご利用者の声」を要約・再構成したものです。出典元の原文とは異なります。利用者の属性は出典に記載されている範囲（年齢・職種）のみを記載しており、性別の記載は出典にありません。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
-          <div className="space-y-4 mb-8">
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>公式サイト掲載の利用者の声（要約）</h3>
+          <div className="space-y-4 mb-3">
             {[
               {
-                reviewer: "30代女性エンジニア（大手SIerへ転職）",
-                text: "とにかく求人数が多くて驚きました。大手SIerの求人が特に豊富で、福利厚生が充実した企業をたくさん比較できました。面接対策では過去の質問データベースを基にした練習ができ、本番でもほぼ同じ質問が出て驚きました。",
+                reviewer: "29歳 システムエンジニア（公式サイト掲載）",
+                text: "「なんとかして転職させよう」という感じではなく、まず転職すべきかどうかという部分から一緒に考えてくれたので、非常に信頼できた。",
               },
               {
-                reviewer: "20代女性エンジニア（初めての転職）",
-                text: "初めての転職で何も分からない状態でしたが、職務経歴書の書き方から面接マナー、退職の切り出し方まで丁寧に教えてもらえました。女性のアドバイザーさんに担当してもらい、出産後のキャリアプランについても相談できて心強かったです。",
+                reviewer: "31歳 建築エンジニア（公式サイト掲載）",
+                text: "模擬面接を通して「何をメインに伝えたらよいか」「企業側はどういう考えか」など、本番の面接で役に立ったことを学べた。",
               },
               {
-                reviewer: "30代女性エンジニア（年収アップ転職）",
-                text: "非公開求人の質が高く、一般には出回っていない大手企業のポジションに応募できました。結果的に年収60万円アップで転職でき、産休育休の取得実績も豊富な企業だったので将来的にも安心です。",
-              },
-              {
-                reviewer: "20代後半女性（インフラエンジニア）",
-                text: "他のエージェントでは紹介してもらえなかった大手メーカー系IT企業の求人を紹介してもらえました。福利厚生が手厚い企業が多く、長期的に働ける環境を見つけられました。リクルートのブランド力で企業との交渉力も高いと感じました。",
+                reviewer: "27歳 SE（公式サイト掲載）",
+                text: "本番の面接前に、過去の質問例や面接の雰囲気などを教えてもらえたので、しっかり対策を練ることができて助かった。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #ecdcce" }}>
@@ -261,17 +257,24 @@ export default function RecruitAgentReviewPage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-light mb-8">
+            出典: <a href="https://www.r-agent.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">リクルートエージェント公式サイト トップページ「ご利用者の声」</a>（2026年7月参照）。公式サイトが発信している内容の要約のため、中立的な第三者の評価とは性質が異なります。
+          </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点（編集部）</h3>
           <div className="space-y-4 mb-6">
             {[
               {
-                reviewer: "30代女性エンジニア（個別対応に不満）",
-                text: "担当者が抱える求職者数が多いようで、メールの返信が遅かったりフォローが薄かったりすることがありました。こちらから積極的に連絡を取らないと、案件が滞ってしまうことも。能動的にコミュニケーションを取ることが大事です。",
+                reviewer: "総合型のため、IT専門特化のアドバイザーとは限らない",
+                text: "リクルートエージェントは全職種対応の総合型エージェントで、担当アドバイザーがITエンジニア領域の専門とは限りません。技術スタックを踏まえた深い相談を重視する場合は、レバテックキャリアなどIT特化型エージェントとの併用が安心です。",
               },
               {
-                reviewer: "20代女性エンジニア（IT専門性に不満）",
-                text: "求人数は圧倒的ですが、エンジニア以外の求人も含まれているため精査が必要でした。アドバイザーのIT領域への専門性はIT特化型と比べると物足りなく、技術的な深い相談は難しかったです。IT特化型との併用がベストだと思います。",
+                reviewer: "求人数が膨大なぶん、自分での取捨選択も必要",
+                text: "非公開含む約100万件（2026年6月時点の公式表記）という規模のため、紹介・検索で出てくる求人の精査に時間がかかることがあります。面談でリモート可否・産休育休実績などの希望条件を具体的に伝えて、絞り込んで提案してもらうのがポイントです。",
+              },
+              {
+                reviewer: "上記の利用者の声は公式サイト掲載のもの",
+                text: "公式サイトが選んで掲載している内容のため、良い評価が中心です。第三者の投稿はみん評などの口コミサイトで確認できます。実際のサポートや担当者との相性は、無料面談で確かめるのが確実です。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
@@ -285,7 +288,7 @@ export default function RecruitAgentReviewPage() {
             <p>出典・参考:</p>
             <ul className="list-disc pl-5 space-y-1">
               <li><a href="https://www.r-agent.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">リクルートエージェント公式サイト</a></li>
-              <li><a href="https://minhyo.jp/recruit-agent" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">みん評 - リクルートエージェントの口コミ・評判</a></li>
+              <li><a href="https://minhyo.jp/r-agent" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">みん評 - リクルートエージェントの口コミ・評判</a></li>
             </ul>
           </div>
         </div>

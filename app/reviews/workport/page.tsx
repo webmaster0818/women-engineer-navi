@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ワークポートの口コミ・評判｜女性ITエンジニア育成事業受託の実力",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "ワークポートを女性エンジニア目線で徹底レビュー。IT特化+全国47拠点・未経験OKの実力を検証。",
@@ -99,7 +99,7 @@ export default function WorkportReviewPage() {
                 女性ITエンジニア育成事業受託の実力を検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の利用者の声に基づき再構成）</p>
           </div>
         </div>
       </section>
@@ -237,27 +237,27 @@ export default function WorkportReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">ワークポートの口コミ・評判</h2>
           <p className="text-xs text-text-light mb-8">
-            ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            ※以下はワークポート公式サイト「利用者のクチコミ」に掲載されている転職決定者の声を要約・再構成したものです（2026年7月参照・公式発信の内容）。出典元の原文とは異なります。利用者の属性（年齢・性別・決定職種）は出典の記載に基づきます。掲載内容は入れ替わる場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>公式サイト掲載の利用者の声（要約）</h3>
           <div className="space-y-4 mb-8">
             {[
               {
-                reviewer: "20代女性（未経験からエンジニア転職）",
-                text: "事務職からエンジニアへの転職で利用しました。みんスクでJavaの基礎を学んでから転職活動を始めたのですが、スクールと転職支援が一体化しているのでとてもスムーズでした。担当の方の対応がとにかく速く、登録翌日には面談、その週には求人紹介がありました。",
+                reviewer: "26歳男性・フロントエンドエンジニアで転職決定（公式サイト掲載）",
+                text: "サイト内でメッセージのやり取りができ、まとめて見直せるので管理の手間がなかった。応募状況のタブで自分の選考状況が一目で確認でき、使い勝手が良かった。担当コンシェルジュは常に丁寧で、こちらの意向に寄り添った対応をしてくれ、急なお願いにも迅速に対応してもらえた。",
               },
               {
-                reviewer: "30代女性エンジニア（地方在住でUターン転職）",
-                text: "地方のオフィスで対面相談ができたのが良かったです。地元企業のIT求人も扱っていて、東京から地方へのUターン転職をスムーズに進められました。IT業界に詳しいアドバイザーが地方にもいるのは心強いです。",
+                reviewer: "33歳男性・ITエンジニアで転職決定（公式サイト掲載）",
+                text: "求人票の提示から内定先との交渉、メッセージのやり取りまで迅速かつ的確に対応してもらえた。面接前にはオンラインで打ち合わせの場を設けてもらい、アドバイスや質問の回答例まで用意してくれるサポートに「ここまでしてもらえるのか」と驚いた。",
               },
               {
-                reviewer: "20代後半女性（販売職からITエンジニアへ）",
-                text: "全くの異業種からの転身で不安でしたが、東京都の女性ITエンジニア育成事業のことも教えてもらい、研修とセットでサポートしてもらえました。未経験でも応募できる求人を多く紹介してもらえて、無事にSEとして内定をもらえました。",
+                reviewer: "33歳女性・営業職で転職決定（公式サイト掲載）",
+                text: "履歴書・職務経歴書の作成から志望動機の言語化・添削、面接に至るまでの過程だけでなく、企業とのやり取りまで対応してもらえたのがありがたかった。形式的なやり取りに終わらず、不安な点に機敏に声をかけてもらえたことがモチベーションにつながった。",
               },
               {
-                reviewer: "30代女性エンジニア（時短勤務希望）",
-                text: "子どもが小さいので時短勤務ができる企業を探していました。eコンシェルジュアプリでやり取りできるので、仕事の合間や子どもが寝た後に連絡でき、効率的に転職活動ができました。希望通り時短勤務OKの企業に転職できました。",
+                reviewer: "47歳女性・BPR職で転職決定（公式サイト掲載）",
+                text: "複数の担当者から連絡があった中で、プロフィールを読んで信頼できそうな担当を自分で選べた。面接対策では回答の言語化を補助してもらい、的確なアドバイスで回答の精度が上がって、本番で自身の特性や貢献イメージを企業へ伝えることができた。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #ecdcce" }}>
@@ -267,16 +267,16 @@ export default function WorkportReviewPage() {
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点</h3>
           <div className="space-y-4 mb-6">
             {[
               {
-                reviewer: "30代女性エンジニア（経験5年以上）",
-                text: "求人数は多いですが、質にばらつきを感じました。中にはSESの案件が多く含まれていて、希望と合わないものも紹介されました。求人を精査する手間がかかったので、経験者は他のIT特化型と併用した方がいいかもしれません。",
+                reviewer: "上記は公式サイト掲載の声である点に留意",
+                text: "上記の利用者の声はワークポートが公式サイトで公開しているもので、担当コンシェルジュとの相性やサポートの感じ方には個人差があります。第三者の口コミはみん評などの口コミサイトで確認し、最終的には無料面談で実際の対応を確かめるのが確実です。",
               },
               {
-                reviewer: "20代女性エンジニア（担当者との相性）",
-                text: "対応は速いのですが、やや押しが強いと感じることがありました。自分のペースでじっくり転職活動を進めたい方は、その旨を最初に伝えておいた方がいいと思います。担当者の変更もお願いすれば対応してもらえます。",
+                reviewer: "IT特化型ではなく総合型のエージェント",
+                text: "ワークポートは2014年にIT特化型から総合型に転身しており、公式サイトの利用者の声にも営業・事務系など幅広い職種の転職事例が含まれます。IT業界のハイクラス求人に絞って探したい経験者は、IT特化型エージェントとの併用も検討すると安心です。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
@@ -289,8 +289,8 @@ export default function WorkportReviewPage() {
           <div className="text-xs text-text-light mt-4 space-y-1">
             <p>出典・参考:</p>
             <ul className="list-disc pl-5 space-y-1">
+              <li><a href="https://www.workport.co.jp/voice/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">ワークポート公式サイト - 利用者のクチコミ</a>（2026年7月参照・公式発信の内容）</li>
               <li><a href="https://www.workport.co.jp/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">ワークポート公式サイト</a></li>
-              <li><a href="https://minhyo.jp/workport" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">みん評 - ワークポートの口コミ・評判</a></li>
             </ul>
           </div>
         </div>

@@ -24,7 +24,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ReWorks(リワークス)の口コミ・評判｜フルリモート×女性エンジニア",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "ReWorks(リワークス)を女性エンジニア目線で徹底レビュー。フルリモート特化の実力を検証。",
@@ -94,7 +94,7 @@ export default function ReworksReviewPage() {
               ReWorks（リワークス）の口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">フルリモート×女性エンジニアの転職を徹底検証</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト確認に基づき再構成）</p>
           </div>
         </div>
       </section>
@@ -232,46 +232,42 @@ export default function ReworksReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">ReWorksの口コミ・評判</h2>
           <p className="text-xs text-text-light mb-8">
-            ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            ※当セクションは、公式サイトの公開情報と当ページに掲載している確認済みの事実のみに基づいて構成しています。実在を確認できない体験談は掲載していません。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
-          <div className="space-y-4 mb-8">
-            {[
-              {
-                reviewer: "30代女性エンジニア（育児中・地方在住）",
-                text: "子どもが小さくて通勤が難しかったのですが、ReWorksのおかげでフルリモートのエンジニア職に就けました。地方在住でも東京の企業で働けるのは本当にありがたいです。キャリアカウンセリングで在宅勤務のコツも教えてもらえて助かりました。",
-              },
-              {
-                reviewer: "20代女性（未経験からリモートワーク）",
-                text: "事務職からの転身でスキルに自信がなかったのですが、無料の研修制度でWebマーケティングの基礎を学べました。研修後にフルリモートのマーケティングアシスタントの仕事を紹介してもらい、無事に転職できました。",
-              },
-              {
-                reviewer: "30代女性エンジニア（介護との両立）",
-                text: "親の介護をしながらエンジニアとして働ける環境を探していました。すべての求人がフルリモートなので、介護の合間に自宅で作業できる求人だけに絞って探せたのが効率的でした。フレックスタイム制の企業を紹介してもらい、介護と仕事を両立できています。",
-              },
-              {
-                reviewer: "20代後半女性（海外在住エンジニア）",
-                text: "パートナーの海外赴任に帯同するため、日本企業のフルリモート求人を探していました。ReWorksには海外からでも応募できる求人があり、時差を考慮した勤務が可能な企業を見つけられました。日本の社会保険にも加入できる企業で安心です。",
-              },
-            ].map((review, i) => (
-              <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
-                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>{review.reviewer}</p>
-                <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
-              </div>
-            ))}
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>利用者の声について</h3>
+          <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              ReWorks公式サイト（rework-s.com）には、利用者の声・転職成功事例のまとまった掲載は確認できませんでした（2026年7月時点）。そのため当ページでは利用者の体験談は掲載せず、公式サイトの公開情報から確認できる事実と注意点のみを紹介します。第三者の口コミを確認したい方は、みん評などの口コミサイトをご参照ください。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              出典:{" "}
+              <a
+                href="https://rework-s.com/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="underline hover:text-primary"
+              >
+                ReWorks公式サイト
+              </a>
+              （2026年7月参照）
+            </p>
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点</h3>
           <div className="space-y-4 mb-6">
             {[
               {
-                reviewer: "30代女性エンジニア（求人数に不満）",
-                text: "フルリモート特化は魅力的ですが、大手エージェントと比べると求人数が少ないです。特にバックエンドエンジニアの求人は限られていました。他のエージェントも併用して、リモート可の求人を幅広く探した方が良いかもしれません。",
+                reviewer: "求人数は非公開で、大手と比べると選択肢が限られる可能性",
+                text: "公式サイトに求人総数の公表はありません（2026年7月時点）。フルリモートに特化している分、大手総合エージェントと比べると母数は限られるため、職種によっては選択肢が少ない可能性があります。求人を幅広く比較したい方はdodaやリクルートエージェントとの併用が安心です。",
               },
               {
-                reviewer: "20代女性エンジニア（フルリモート以外も検討したい）",
-                text: "フルリモートの求人しかないため、たまに出社してもOKという柔軟な選択肢がありません。ハイブリッドワーク（週数回出社）も含めて検討したい方は、他のサービスとの併用が必要です。",
+                reviewer: "フルリモート求人のみで、ハイブリッド勤務は探せない",
+                text: "掲載求人はフルリモートに特化しているため、「週数回は出社したい」といったハイブリッドワークの求人は取り扱いがありません。出社も視野に入れて検討したい方は、リモート可の求人を扱う他のサービスとの併用が必要です。",
+              },
+              {
+                reviewer: "SE・エンジニア職は実務経験者向けの求人が中心",
+                text: "未経験者向けの無料研修制度はWebデザインやマーケティングなどの基礎スキルが対象で、SE・エンジニア職の求人は実務経験がある方向けのものが多い傾向です。未経験からエンジニアを目指す方は、未経験支援に実績のあるワークポートなどとの併用がおすすめです。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
@@ -285,7 +281,6 @@ export default function ReworksReviewPage() {
             <p>出典・参考:</p>
             <ul className="list-disc pl-5 space-y-1">
               <li><a href="https://rework-s.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">ReWorks公式サイト</a></li>
-              <li><a href="https://minhyo.jp/reworks" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">みん評 - ReWorksの口コミ・評判</a></li>
             </ul>
           </div>
         </div>

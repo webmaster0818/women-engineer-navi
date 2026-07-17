@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "Geekly(ギークリー)の口コミ・評判｜女性ITエンジニアの転職実績",
   datePublished: "2026-04-27",
-  dateModified: "2026-04-27",
+  dateModified: "2026-07-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -131,7 +131,7 @@ export default function GeeklyReviewPage() {
                 女性ITエンジニアの転職実績を徹底検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年4月27日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の声に基づき再構成）</p>
           </div>
         </div>
       </section>
@@ -269,27 +269,30 @@ export default function GeeklyReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">Geeklyの口コミ・評判</h2>
           <p className="text-xs text-text-light mb-8">
-            ※掲載している口コミは、公式サイト・みん評・OpenWork等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            ※以下はGeekly公式サイト「転職成功事例・お客様の声」ページに掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。公式サイトでの発信である点に留意してください。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>公式サイト掲載の利用者の声（要約）</h3>
+          <p className="text-sm text-text-light mb-4 leading-relaxed">
+            公式サイトの「転職成功事例・お客様の声」ページには、利用者の評判・口コミが職種ごとに「良かった点」「気になる点」の両方で掲載されています。同ページでは職場定着率97%（2024年3月時点）、「友人にも紹介したい」と答えた方95%（2023年3月時点・カウンセリングアンケート）という数字も公表されています。
+          </p>
           <div className="space-y-4 mb-8">
             {[
               {
-                reviewer: "30代女性エンジニア（サーバーサイド）",
-                text: "独占求人の質がとても高かったです。他のエージェントでは紹介されなかった有名IT企業の求人を紹介してもらい、最終的にそこに入社しました。書類添削が企業ごとに違うアドバイスで、書類選考の通過率が体感で倍くらいに上がりました。",
+                reviewer: "業務系SE・PG（SI・受託）・26歳女性（2024年4月・カウンセリングについて）",
+                text: "希望条件に合致する求人を紹介してもらえた。丁寧なヒアリングのおかげで、自分がどんな希望を持っているのか曖昧だったところも整理できた。",
               },
               {
-                reviewer: "20代女性エンジニア（ゲーム業界志望）",
-                text: "ゲーム業界に転職したくてGeeklyに登録しました。ゲーム会社の求人が非常に豊富で、大手からインディーまで幅広い選択肢がありました。コンサルタントがゲーム業界に詳しくて、技術面接の対策も的確でした。",
+                reviewer: "Web系SE・PG（SI・受託）・29歳女性（2024年2月・カウンセリングについて）",
+                text: "履歴書・職務経歴書作成のサポートや、求人の選定・応募の代行など、働きながらの転職活動で一番面倒な作業へのサポートが手厚い。自分の作業を最大限減らして良い機会を得たいというニーズに合っていた。",
               },
               {
-                reviewer: "30代女性（PM/PLとして転職）",
-                text: "PMとしてのキャリアアップを目指して利用しました。技術とマネジメントの両方のスキルを理解してくれるコンサルタントが担当で、スキルセットに合った求人を的確に紹介してもらえました。入社後も期待通りの仕事内容で満足しています。",
+                reviewer: "データベースエンジニア・38歳男性（2024年5月・カウンセリングについて）",
+                text: "希望に沿う求人はそれほど多くないだろうと思っていたが、他のエージェントからは紹介されなかったような求人をたくさん紹介してもらえた。対面での面談はオンラインより密度の高い情報共有ができた。",
               },
               {
-                reviewer: "20代後半女性エンジニア（フロントエンド）",
-                text: "React/TypeScriptのスキルを活かした転職がしたくて登録しました。希望技術スタックに合った求人をピンポイントで提案してくれました。リモートワーク可能な企業を中心に紹介してもらえたので、ワークライフバランスも改善できました。",
+                reviewer: "コーダー/マークアップエンジニア・43歳女性（2024年4月・カウンセリングについて）",
+                text: "フルリモートで探していて、なかなか無いと感じていたなかで求人の量に驚いた。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #ecdcce" }}>
@@ -299,16 +302,20 @@ export default function GeeklyReviewPage() {
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>気になる口コミ</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点</h3>
           <div className="space-y-4 mb-6">
             {[
               {
-                reviewer: "30代女性エンジニア（地方在住）",
-                text: "首都圏の求人が中心で、地方在住の私にとっては通勤可能な求人が少なかったです。リモート求人もありましたが、週数回の出社が必要なものが多く、完全フルリモートの選択肢は限られていました。",
+                reviewer: "求人は首都圏中心",
+                text: "Geeklyの求人は首都圏（東京・神奈川・埼玉・千葉）が中心で、地方求人は限定的です。地方在住でフルリモートにこだわる場合は、フルリモート特化のエージェントとの併用も検討しましょう。",
               },
               {
-                reviewer: "20代女性（未経験からIT転職希望）",
-                text: "IT業界未経験で登録しましたが、経験者向けの求人がほとんどで、紹介してもらえる案件がかなり少なかったです。まずは未経験OKのエージェントでスキルを身につけてから利用した方が良いと感じました。",
+                reviewer: "IT業界の実務経験者向けのサービス",
+                text: "IT・Web・ゲーム業界の経験者向けサービスのため、完全未経験の方には紹介できる求人が限られます。未経験からのIT転職を目指す方は、未経験支援に実績のあるエージェント（ワークポートなど）の利用が現実的です。",
+              },
+              {
+                reviewer: "紹介求人数の多さ・スピード感は人を選ぶ",
+                text: "公式サイト掲載の「気になる点」にも、紹介される求人数が多く吟味する時間がもっと欲しい、スピーディーすぎて圧倒された、といった声が掲載されています。じっくり比較検討したい方は、面談時に自分のペースや希望の進め方を先に伝えておくとスムーズです。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
@@ -319,8 +326,14 @@ export default function GeeklyReviewPage() {
           </div>
 
           <div className="text-xs text-text-light mt-4 space-y-1">
-            <p>出典・参考:</p>
+            <p>出典・参考（利用者の声はいずれも2026年7月参照。公式サイト掲載内容の要約であり、公式発信の内容です）:</p>
             <ul className="list-disc pl-5 space-y-1">
+              <li>
+                <a href="https://www.geekly.co.jp/services/reviews/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">
+                  Geekly公式サイト - 転職成功事例・お客様の声
+                </a>
+                （2026年7月参照）
+              </li>
               <li>
                 <a href="https://www.geekly.co.jp/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">
                   Geekly公式サイト
