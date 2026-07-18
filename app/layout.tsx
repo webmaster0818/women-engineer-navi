@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     default: "CareeHUB for woman | 女性ITエンジニアのための転職エージェント比較サイト",
   },
   description:
-    "女性エンジニアに特化した転職エージェント比較サイト。産休育休取得率・リモートワーク率・女性アドバイザー有無など、女性ならではの視点で徹底比較。あなたに最適な転職エージェントが見つかります。",
+    "女性エンジニアに特化した転職エージェント比較サイト。産休育休の取得実績・リモートワーク対応・サポート体制（公式に記載のない項目は「要確認」と明示）など、女性ならではの視点で徹底比較。あなたに最適な転職エージェントが見つかります。",
   metadataBase: new URL("https://women-engineer.com"),
   alternates: {
     canonical: "/",
@@ -53,7 +53,7 @@ const schemaOrg = {
   name: "CareeHUB for woman",
   url: "https://women-engineer.com",
   description:
-    "女性エンジニアに特化した転職エージェント比較サイト。産休育休取得率・リモートワーク率・女性アドバイザー有無など、女性ならではの視点で徹底比較。",
+    "女性エンジニアに特化した転職エージェント比較サイト。産休育休の取得実績・リモートワーク対応・サポート体制（公式に記載のない項目は「要確認」と明示）など、女性ならではの視点で徹底比較。",
   publisher: {
     "@type": "Organization",
     name: "CareeHUB for woman",

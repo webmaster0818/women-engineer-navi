@@ -596,7 +596,7 @@ export default function RankingPage() {
           <p className="mt-4 text-text-light leading-relaxed">
             「女性向け転職サイト」と「ITエンジニア向け転職サイト」はたくさんありますが、
             <strong className="text-text">「女性エンジニア」に特化した比較情報</strong>
-            はほとんどありません。当サイトでは、産休育休取得率・リモートワーク率・女性アドバイザー有無など、
+            はほとんどありません。当サイトでは、産休育休の取得実績・リモートワーク対応・サポート体制（公式に記載のない項目は「要確認」と明示）など、
             女性エンジニアが本当に知りたい6つの基準で9社を徹底比較しています。
           </p>
           <p className="mt-4 text-text-light leading-relaxed">
@@ -1407,7 +1407,7 @@ export default function RankingPage() {
               </h3>
               <p className="text-sm leading-relaxed text-text-light">
                 女性エンジニアの転職では、IT業界への専門性と女性向けサポートの両方を兼ね備えたエージェント選びが重要です。
-                当サイトでは、産休育休取得率・リモートワーク率・女性アドバイザー有無など、
+                当サイトでは、産休育休の取得実績・リモートワーク対応・サポート体制（公式に記載のない項目は「要確認」と明示）など、
                 女性エンジニアが本当に必要とする6つの基準で9社を比較しました。
               </p>
             </div>
