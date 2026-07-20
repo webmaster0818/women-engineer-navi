@@ -82,7 +82,23 @@ const faqData = {
       name: "修了したら必ずITエンジニアとして就職できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "就職が保証される制度ではありません。キャリアアドバイザーによるキャリアカウンセリング、履歴書・職務経歴書の作成サポート、面接対策、職業紹介・マッチングといった就職支援が訓練と一体的に提供されますが、最終的には本人の学習成果と転職活動次第です。事業の職業紹介だけに頼らず、レバテックキャリアなどのIT特化型エージェントやtype女性の転職エージェントを併用して求人の選択肢を広げると、訓練で得たスキルを活かせる企業に出会える確率が上がります。",
+        text: "就職が保証される制度ではありません。キャリアアドバイザーによるキャリアカウンセリング、履歴書・職務経歴書の作成サポート、面接対策、職業紹介・マッチングといった就職支援が訓練と一体的に提供されますが、最終的には本人の学習成果と転職活動次第です。事業の職業紹介だけに頼らず、レバテックキャリアなどのIT特化型エージェントやtype女性の転職エージェントを併用して求人の選択肢を広げると、訓練で得たスキルを活かせる企業に出会える確率が上がります。修了後の進め方は「女性IT育成事業の修了後の転職活動ガイド」で詳しく解説しています。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "女性ITエンジニア育成事業の倍率・選考の難易度はどのくらいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "公式には応募倍率は公表されていません（2026年7月時点）。定員に対して応募多数の場合は選考が行われ、書類（応募動機・受講後のキャリアプラン）と面談で意欲・目的の明確さが見られる設計です。倍率を気にするより、「なぜITエンジニアを目指すのか」「受講後にどう働きたいか」を具体的に書けるかが通過のポイントです。人気コース（プログラミング）は応募が集中しやすいため、募集開始後の早めの応募が無難です。万一選考に通らなかった場合の代替ルートは「育成事業に落ちたら？」の記事で整理しています。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "女性ITエンジニア育成事業にデメリット・注意点はありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "行政の委託訓練であるため、次の点は理解しておきましょう。（1）年度単位の事業で運営事業者や募集要項が変わることがある（令和6年度ワークポート→令和7年度以降アデコ）。（2）約142〜148時間の学習時間の確保が必要で、働きながらの受講は計画性が求められる。（3）就職は保証されず、職業紹介の求人だけに頼ると選択肢が限られる。（4）交通費・受験料は自己負担。これらは制度の性質上のもので、就職支援やエージェント併用で補える範囲です。「先に学ぶか、未経験可の会社に転職して実務で学ぶか」で迷う場合は、ルート比較の記事も参考にしてください。",
       },
     },
   ],
@@ -530,6 +546,19 @@ export default function ArticlePage() {
           </div>
         </div>
       </section>
+
+      {/* 次のステップ（橋渡し導線） */}
+      <section className="py-8" style={{ backgroundColor: "#efe3d8" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>受講の前後で迷ったら（次のステップ）</h2>
+          <div className="grid gap-3 md:grid-cols-3">
+            <a href="/articles/training-not-selected/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold text-sm mb-1" style={{ color: "#7c3a55" }}>選考に落ちたら？</h3><p className="text-xs text-text-light">無料の代替ルートと研修付き転職という選択肢</p></a>
+            <a href="/articles/training-after-graduation/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold text-sm mb-1" style={{ color: "#7c3a55" }}>修了後の転職活動ガイド</h3><p className="text-xs text-text-light">進路パターンとエージェントの活用法</p></a>
+            <a href="/articles/learn-vs-transfer/" className="block rounded-xl border bg-white p-4 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold text-sm mb-1" style={{ color: "#7c3a55" }}>先に学ぶ vs 転職して学ぶ</h3><p className="text-xs text-text-light">2つのルートを費用・時間で比較</p></a>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 }
