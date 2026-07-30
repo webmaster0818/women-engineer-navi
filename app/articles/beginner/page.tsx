@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "未経験から女性エンジニアになるには？現実のロードマップと職種の選び方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-12",
+  dateModified: "2026-07-30",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,7 +144,7 @@ export default function ArticlePage() {
                 現実のロードマップと職種の選び方【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月30日</p>
           </div>
         </div>
       </section>
@@ -159,6 +159,7 @@ export default function ArticlePage() {
               <li>・ただし「1ヶ月でなれる」は幻想。<strong>1日2〜3時間×6ヶ月〜1年の学習＋ポートフォリオ</strong>が現実的な条件です。</li>
               <li>・日本のITエンジニアの女性比率は<strong>18.8%</strong>とまだ少数派ですが、だからこそ採用・育成に積極的な企業が増えています。</li>
               <li>・いきなり開発職が難しければ、QAテスターやサポートエンジニアなど<strong>未経験ハードルの低い職種から段階的に</strong>進むルートもあります（後述の比較表参照）。</li>
+              <li>・費用を抑えるなら、求人サイトを見る前に<strong>東京都の無料育成事業など公的支援</strong>を確認するのが近道です（<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>東京都 女性ITエンジニア育成事業</a>・<a href="#public-support" className="underline" style={{ color: "#7c3a55" }}>公的支援まとめは本文へ</a>）。</li>
             </ul>
           </div>
         </div>
@@ -183,7 +184,8 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>8. 転職活動の進め方と求人の見極め方</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
+              <li><a href="#age-route" className="hover:underline" style={{ color: "#7c3a55" }}>11. 30代・40代から未経験で目指す場合</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>12. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -614,6 +616,43 @@ export default function ArticlePage() {
       </section>
 
       {/* sec10 FAQ */}
+
+      {/* 年代別ルート */}
+      <section id="age-route" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">30代・40代から未経験で目指す場合</h2>
+          <p className="text-sm leading-relaxed text-text-light mb-5">
+            「未経験からエンジニア」を検討する女性で特に多いのが30代・40代からの挑戦です。20代と同じ戦い方（ポテンシャル採用頼み）では不利になりやすい一方、<strong>前職経験と公的支援を組み合わせれば現実的なルートが描けます</strong>。
+          </p>
+          <div className="grid gap-4 md:grid-cols-2 mb-5">
+            <div className="rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-2" style={{ color: "#7c3a55" }}>30代からの基本戦略</h3>
+              <ul className="space-y-2 text-sm leading-relaxed text-text-light">
+                <li>・前職の経験（業務知識・マネジメント・顧客折衝）を活かせる職種・業界を選ぶ</li>
+                <li>・ポートフォリオで学習量を客観的に示す</li>
+                <li>・QAテスター・サポートエンジニアなど未経験ハードルの低い職種から開発へ進む段階ルートも有効</li>
+                <li className="pt-1"><a href="/articles/age-30s/" className="underline" style={{ color: "#7c3a55" }}>→ 30代女性のエンジニア転職ガイド</a></li>
+              </ul>
+            </div>
+            <div className="rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="font-bold mb-2" style={{ color: "#7c3a55" }}>40代からの基本戦略</h3>
+              <ul className="space-y-2 text-sm leading-relaxed text-text-light">
+                <li>・教育訓練給付など<strong>年齢上限のない公的支援</strong>を軸に学習費用を抑える</li>
+                <li>・再就職希望なら託児付き職業訓練（女性デジタルカレッジ事業）も選択肢</li>
+                <li>・IT隣接職（社内SE補助・ヘルプデスク・QA）で実務経験を先に作る</li>
+                <li className="pt-1"><a href="/articles/age-40s/" className="underline" style={{ color: "#7c3a55" }}>→ 40代女性のエンジニア転職ガイド</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="rounded-xl p-4 text-sm leading-relaxed" style={{ backgroundColor: "#f0e7dd" }}>
+            <p className="font-bold mb-1" style={{ color: "#c15f47" }}>年齢要件の注意</p>
+            <p className="text-text-light">
+              東京都の<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>女性ITエンジニア育成事業</a>は<strong>39歳以下</strong>が対象です（公式サイト確認）。40代の方は<a href="/articles/women-digital-college/" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジ事業</a>や<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付</a>など、年齢上限のない制度から検討してください。
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>

@@ -288,3 +288,11 @@
 - 【新規】/reviews/ 一覧ハブ: **全レビューのパンくずが未作成の/reviews/(404)を向くサイト共通切れリンクを発見**(factoringの6/13と同種)→10社を4タイプ(IT特化/女性・働き方特化/総合/ハイキャリア)で整理したハブを新設し解消。診断・rankingへCTA
 - 【修正】it-consultant関連記事にmeiko-careerカード追加。sitemap 132→134・tsc0/build・deploy両push・本番検証(結論ボックス/許可番号/体験談出典リンク/hub200/sitemap134)・GSC再送信
 - 残: ranking(10社目)・診断への組み込み=要MediaXAI判断(キャリアチェンジ枠推奨)/アフィリリンク支給あればCTA差し替え/新URL2本を次回登録リクエストへ
+
+## 2026-07-30 do/know/go ①②実装（MediaXAI「①②進めよう」）✅
+- ①インデックス実査(URL検査API): techgo/type-woman/recruit-agent/ranking/diagnosis/techgo-career-mendan=indexed済(→53-76位は権威問題と真因分解)。未登録9=levtech(unknown)+workport/doda/geekly/green/reworks/meiko-career/reviewsハブ/techgo-vs-levtech(discovered)
+- ①/reviews/ハブが被リンク0で孤立と判明→Headerナビ「口コミ・評判」+Footer「エージェント口コミ・評判一覧」追加(全ページから到達)。登録リクエスト9URLリスト提出
+- ②tokyo-women-training: 公式7/30再確認→募集状況更新(後期1期生=募集終了/後期2期生9/1開始=募集中/令和8年度は後期2期生で募集終了の公式案内追記)。流れ節・口コミ節は既存完備のため重複追加せず
+- ②women-digital-college: 「口コミ・評判の調べ方と応募前のチェックポイント」節新設(id=kuchikomi・目次8挿入FAQ9へ・第三者口コミ少ない正直記載・育成事業との混同注意+比較表リンク・チェック4点)+募集状況を公式News7/27付で更新(入門第2期江戸川・立川締切8/7・基礎応用8/2・8/16締切)。★提案の「検証記事新規」は既存ページ発見によりカニバリ回避で追補に切替
+- dateModified/最終更新2ページ→07-30・sitemap lastmod3件・tsc0/build成功・deploy両push・本番全項目cache回避curl検証・GSC再送信。報告id 1532236982590374000
+- 残: 登録リクエスト実施(MediaXAI)→3-4日後再計測/③beginner強化/8社アフィリリンク支給待ち
