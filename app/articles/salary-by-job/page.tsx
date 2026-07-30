@@ -163,7 +163,8 @@ export default function ArticlePage() {
               年収を決める要素はおおむね次の4つです。<strong>(1)上流工程に近いか</strong>（要件定義・設計・マネジメントほど高い）、<strong>(2)スキルの希少性</strong>（クラウド・AI・セキュリティは人材不足で単価が高い）、<strong>(3)業界・契約形態</strong>（一次請け・自社開発・SaaS・外資は高め）、<strong>(4)年代・経験</strong>。これらを意識して職種を選ぶ・スキルを足すことで、同じ「エンジニア」でも年収は大きく変わります。
             </p>
             <p>
-              この記事では、女性が「今の職種からどこへ動けば年収が上がるか」を判断できるよう、主要IT職種の年収を<strong>一覧で比較</strong>します。総合的な年収相場は<a href="/articles/salary/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</a>もあわせてご覧ください。本記事は「職種ごとの比較」に特化しています。
+              この記事では、女性が「今の職種からどこへ動けば年収が上がるか」を判断できるよう、主要IT職種の年収を<strong>一覧で比較</strong>します。総合的な年収相場は<a href="/articles/salary/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</a>
+            <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典つきで集約</p></a>もあわせてご覧ください。本記事は「職種ごとの比較」に特化しています。
             </p>
             <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>年収を左右する4つの要素</h3>

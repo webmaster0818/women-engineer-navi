@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -22,7 +23,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性デジタルカレッジ事業とは？対象者・費用・申込方法【2026年度】",
   datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  dateModified: "2026-07-30",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -126,7 +127,7 @@ export default function ArticlePage() {
                 対象者・費用・申込方法と女性ITエンジニア育成事業との違い【2026年度】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月4日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年7月30日</p>
           </div>
         </div>
       </section>
@@ -156,10 +157,10 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月4日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月30日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>入門コース:</strong> 第2期（2026年8月〜10月開催）のスケジュールが7月1日に公開され、<strong>7月13日より各募集期間内で申込受付</strong>と案内されています（第1期は5月7日募集開始・計8回）。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 8月17日開講の渋谷・港会場が申込受付中、8月24日開講の三鷹、8月31日開講の千代田・港会場も受付開始済み。10月〜12月開催分のスケジュールも7月1日に公開されています。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>入門コース:</strong> 第2期の江戸川・立川会場の申込受付が開始されています（公式発表 2026年7月27日）。<strong>両会場の申込締切は8月7日（金）</strong>です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 9月14日開講の多摩会場が受付開始。<strong>8月24日開講の三鷹、8月31日開講の千代田・港会場（浜松町）は8月2日（日）締切</strong>、9月7日開講の世田谷・新宿会場は8月16日（日）締切と案内されています。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況・日程は変動します。最新情報は必ず<a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
@@ -181,7 +182,8 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 女性ITエンジニア育成事業との違い（比較表）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 申込方法と受講までのステップ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 修了後の再就職・転職活動の進め方</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
+              <li><a href="#kuchikomi" className="hover:underline" style={{ color: "#7c3a55" }}>8. 口コミ・評判の調べ方と応募前のチェックポイント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -480,6 +482,35 @@ export default function ArticlePage() {
       </section>
 
       {/* FAQ */}
+
+      {/* 口コミ・評判 */}
+      <section id="kuchikomi" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">口コミ・評判の調べ方と応募前のチェックポイント</h2>
+          <p className="text-sm leading-relaxed mb-4">
+            女性デジタルカレッジ事業は比較的新しい事業のため、<strong>第三者による口コミ・体験談はまだ多くありません</strong>。当サイトでも実際の受講者の声は確認できていないため、架空の体験談は掲載していません。応募を検討する際は、次の方法で情報を集めるのが確実です。
+          </p>
+          <ul className="space-y-3 text-sm leading-relaxed mb-6">
+            <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">1.</span><span><strong>公式サイト・公式発表を一次情報として確認する:</strong> 日程・会場・託児・費用などの事実は<a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>が最も正確です。運営側の発信である点は理解した上で読みましょう。</span></li>
+            <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">2.</span><span><strong>SNS・個人ブログは「個人の感想」として参考程度に:</strong> 「女性デジタルカレッジ」で検索すると受講検討者・受講者の投稿が見つかることがあります。時期や会場で運用が変わるため、投稿日を必ず確認してください。</span></li>
+            <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">3.</span><span><strong>迷ったら申込前に問い合わせ窓口で直接確認する:</strong> 託児の空きや就職支援の内容など、個別事情に関わることは窓口への確認が最も確実です。</span></li>
+          </ul>
+          <div className="rounded-xl border p-5 mb-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f7f1ea" }}>
+            <p className="text-sm font-bold mb-2" style={{ color: "#c15f47" }}>名前が似ている事業との混同に注意</p>
+            <p className="text-sm leading-relaxed">
+              東京都には「<Link href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>女性ITエンジニア育成事業</Link>」という別の事業があり、口コミを検索するとこちらの情報が混ざることがあります。デジタルカレッジ＝<strong>再就職希望者向けの職業訓練（託児付き）</strong>、育成事業＝<strong>ITエンジニア就職を目指す39歳以下向け</strong>という違いがあります（詳細は<a href="#sec5" className="underline" style={{ color: "#7c3a55" }}>比較表</a>へ）。
+            </p>
+          </div>
+          <p className="text-sm font-bold mb-3">応募前のチェックポイント</p>
+          <ul className="space-y-2 text-sm leading-relaxed">
+            <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>託児サービスの対象年齢・利用条件（利用予定がある場合は必ず事前確認）</span></li>
+            <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>通学会場までのアクセスと開催日程（会場ごとに開講日・締切が異なります）</span></li>
+            <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>申込締切（募集状況ボックス参照。締切が近い会場から埋まります）</span></li>
+            <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>修了後の就職支援の内容と期間（基礎及び応用コースは2か月間の就職支援付き）</span></li>
+          </ul>
+        </div>
+      </section>
+
       <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">よくある質問</h2>

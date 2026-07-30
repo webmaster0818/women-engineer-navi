@@ -195,6 +195,7 @@ export const categories: Category[] = [
     desc: "受講料無料の訓練や給付金など、国・自治体の制度を使ってITスキルを身につける方法です。東京都の女性ITエンジニア育成事業（「地域から探す」に掲載）とあわせてご覧ください。",
     articles: [
       { href: "/articles/women-it-support-map/", title: "全国の女性向けIT訓練・支援まとめ【公的制度ハブ】" },
+      { href: "/articles/reskilling-careerup/", title: "リスキリングを通じたキャリアアップ支援事業（経産省・最大56万円補助・在職者の転職向け）" },
       { href: "/articles/women-digital-college/", title: "東京都 女性デジタルカレッジとは（無料・託児つき）" },
       { href: "/articles/training-benefit-it/", title: "教育訓練給付制度でITスキルを学ぶ（最大80%給付）" },
       { href: "/articles/hello-training-it/", title: "求職者支援訓練（ハロートレーニング）でITを学ぶ" },

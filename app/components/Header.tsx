@@ -7,6 +7,7 @@ const navItems = [
   { href: "/", label: "トップ" },
   { href: "/ranking/", label: "おすすめエージェント" },
   { href: "/diagnosis/", label: "エージェント診断" },
+  { href: "/reviews/", label: "口コミ・評判" },
   { href: "/articles/category-index/", label: "記事一覧" },
   { href: "/articles/faq-all/", label: "よくある質問" },
 ];

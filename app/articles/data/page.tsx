@@ -39,6 +39,36 @@ const structuredData = {
   },
 };
 
+const datasetStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: "女性ITエンジニアの転職データ集（年収・女性比率・求人倍率・育休取得率）",
+  description:
+    "女性ITエンジニアの平均年収（年代別・使用言語別・主要12職種別）、業界の女性比率、IT人材の求人倍率、情報通信業の育児休業取得率・テレワーク導入率を、公的統計や調査の出典・参照時期つきで集約したデータ集です。推定値・出典不明の数値は掲載していません。",
+  creator: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
+  variableMeasured: [
+    "女性ITエンジニアの平均年収",
+    "年代別・言語別・職種別の年収",
+    "IT業界の女性比率",
+    "IT人材の求人倍率",
+    "情報通信業の育児休業取得率",
+    "情報通信業のテレワーク導入率",
+  ],
+  isBasedOn: [
+    "厚生労働省「賃金構造基本統計調査」",
+    "doda「平均年収ランキング2025」",
+    "求人ボックス 給料ナビ",
+    "Morgan McKinley 給与ガイド",
+  ],
+  measurementTechnique: "公的統計・調査の公開値を出典・参照時期つきで集計（推定値・出典不明の数値は不採用）",
+  temporalCoverage: "2026",
+  datePublished: "2026-06-21",
+  dateModified: "2026-07-25",
+  url: "https://women-engineer.com/articles/data/",
+  isAccessibleForFree: true,
+};
+
 const th = "px-3 py-2 text-left text-xs font-bold text-white";
 const td = "px-3 py-2 text-sm";
 
@@ -48,6 +78,10 @@ export default function DataPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetStructuredData) }}
       />
       <Breadcrumb items={[{ label: "女性ITエンジニア データ集" }]} />
       <article className="mx-auto max-w-3xl px-4 py-10">

@@ -271,6 +271,15 @@ export default function ArticlePage() {
                 講座の選び方・活用手順は<a href="/articles/manabi-dx/" className="underline" style={{ color: "#7c3a55" }}>マナビDX活用ガイド</a>で詳しく解説しています（出典: マナビDX公式サイト、2026年7月参照）。
               </p>
             </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. リスキリングを通じたキャリアアップ支援事業 — 在職者の「学び直し→転職」を一体支援</h3>
+              <p className="text-sm text-text-light leading-relaxed mb-3">
+                経済産業省の事業で、<strong>在職中で転職を目指す方</strong>が、キャリア相談→リスキリング講座→転職支援までを一体的に受けられます。講座受講費用は補助事業者経由で軽減され、<strong>修了で1/2（上限40万円）＋転職して1年継続就業で追加1/5（上限16万円）＝最大70%・56万円</strong>が補助されます。教育訓練給付が「講座費用の給付」なのに対し、こちらは<strong>転職支援まで含む</strong>のが特徴です（離職中・専業主婦の方は対象外）。
+              </p>
+              <p className="text-sm text-text-light leading-relaxed">
+                対象・補助の内訳・女性の活用事例・口コミの見方は<a href="/articles/reskilling-careerup/" className="underline" style={{ color: "#7c3a55" }}>リスキリングを通じたキャリアアップ支援事業の解説記事</a>で詳しく紹介しています（出典: 公式ポータル、2026年7月21日確認）。
+              </p>
+            </div>
           </div>
         </div>
       </section>
