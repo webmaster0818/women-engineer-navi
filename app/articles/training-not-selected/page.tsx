@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性IT育成事業に落ちたら？無料で学べる代替ルートと研修付き転職という選択肢【2026年】",
   datePublished: "2026-07-21",
-  dateModified: "2026-07-21",
+  dateModified: "2026-08-10",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -126,7 +126,7 @@ export default function ArticlePage() {
                 無料で学べる代替ルートと「研修付き転職」という選択肢【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月21日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年8月10日</p>
           </div>
         </div>
       </section>
@@ -161,6 +161,7 @@ export default function ArticlePage() {
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
               <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 落ちても道はある（気持ちの整理は手短に）</a></li>
+              <li><a href="#next-round" className="hover:underline" style={{ color: "#7c3a55" }}>令和9年度の募集はいつ？【定点更新】</a></li>
               <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 選択肢A：無料で学べる代替ルート</a></li>
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 選択肢B：研修付き転職という第3の道</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 「学んでから」と「研修付き転職」の使い分け</a></li>
@@ -190,6 +191,24 @@ export default function ArticlePage() {
       </section>
 
       {/* sec2 無料で学べる代替ルート */}
+      {/* 次年度募集の定点情報 */}
+      <section id="next-round" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">令和9年度（来年度）の募集はいつ？【定点更新】</h2>
+          <div className="rounded-xl border p-5 mb-4" style={{ borderColor: "#d9c7b8", backgroundColor: "#f7f1ea" }}>
+            <p className="text-sm leading-relaxed">
+              <strong>2026年8月10日時点で、東京都の女性ITエンジニア育成事業の令和9年度（2027年度）募集は公式に発表されていません。</strong>令和8年度の募集は後期2期生（2026年9月1日開始）をもって終了と案内されています。当ページでは公式発表を毎月確認し、発表があり次第この欄を更新します。
+            </p>
+          </div>
+          <p className="text-sm leading-relaxed text-text-light mb-3">
+            自分でも確認したい方は、<a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>事業公式サイト</a>と<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/jyosei_en/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>を確認してください。例年の流れが公表されているわけではないため、発表時期の予測（推測）は当ページには掲載しません。
+          </p>
+          <p className="text-sm leading-relaxed text-text-light">
+            待っている間に進められる無料〜低負担の選択肢は、次の「選択肢A」で整理しています。
+          </p>
+        </div>
+      </section>
+
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">選択肢A：無料で学べる代替ルート</h2>

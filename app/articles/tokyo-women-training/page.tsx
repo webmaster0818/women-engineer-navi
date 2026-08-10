@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   datePublished: "2026-06-12",
-  dateModified: "2026-07-30",
+  dateModified: "2026-08-10",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -142,7 +142,7 @@ export default function ArticlePage() {
                 内容・費用・申込方法と応募前に知るべきポイント【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月30日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年8月10日</p>
           </div>
         </div>
       </section>
@@ -172,7 +172,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月30日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年8月10日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（1期生・2026年8月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集終了。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（2期生・2026年9月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集中です（※申込状況により追加募集の場合あり）。いまから申し込めるのはこちらです。</span></li>
@@ -181,6 +181,16 @@ export default function ArticlePage() {
             <p className="text-xs text-text-light mt-3">
               ※募集状況は変動します。最新の空き状況は必ず<a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
             </p>
+            <div className="mt-4 rounded-xl border p-4" style={{ borderColor: "#d9c7b8", backgroundColor: "#fff" }}>
+              <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>募集終了後・応募が間に合わなかった場合の選択肢</p>
+              <p className="text-xs text-text-light mb-3">令和8年度の募集は後期2期生（9/1開始）で終了予定です。間に合わなかった場合も、無料〜低負担で学べる公的ルートは他にもあります。</p>
+              <ul className="space-y-1.5 text-sm">
+                <li><a href="/articles/women-digital-college/" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジ事業</a><span className="text-xs text-text-light">（再就職希望の女性向け・託児付き職業訓練）</span></li>
+                <li><a href="/articles/reskilling-careerup/" className="underline" style={{ color: "#7c3a55" }}>リスキリングを通じたキャリアアップ支援事業</a><span className="text-xs text-text-light">（在職中・転職前提・受講費最大70%補助）</span></li>
+                <li><a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付でIT講座を受ける</a><span className="text-xs text-text-light">（年齢上限なし）</span></li>
+                <li><a href="/articles/women-it-support-map/" className="underline" style={{ color: "#7c3a55" }}>全国の女性向けIT支援まとめ</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
