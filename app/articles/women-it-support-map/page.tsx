@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "全国の女性向けITリスキリング・訓練支援まとめ【公的制度ハブ・2026年】",
   datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  dateModified: "2026-08-14",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -278,6 +278,15 @@ export default function ArticlePage() {
               </p>
               <p className="text-sm text-text-light leading-relaxed">
                 対象・補助の内訳・女性の活用事例・口コミの見方は<a href="/articles/reskilling-careerup/" className="underline" style={{ color: "#7c3a55" }}>リスキリングを通じたキャリアアップ支援事業の解説記事</a>で詳しく紹介しています（出典: 公式ポータル、2026年7月21日確認）。
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>5. 東京都 デジタル人材育成支援事業（デジカレTOKYO） — 35歳以下・受講料無料の職業訓練＋就職支援</h3>
+              <p className="text-sm text-text-light leading-relaxed mb-3">
+                東京都の事業で、<strong>原則35歳以下・求職中または非正規雇用で就業中の方</strong>（都内のIT関連就職を希望・学生でない方）を対象に、<strong>1.5〜3か月の職業訓練とキャリアカウンセリング・就職マッチングを一体で無料提供</strong>します（受講料・テキスト代無料、オンライン校はPC無料貸出あり）。短期集中コース（デジタル人材／インフラ・AWS／プログラミング等）は通学・オンラインの両方に対応。女性限定の事業ではありませんが、女性ITエンジニア育成事業（39歳以下・女性限定）の対象外だった方や、より短期で就職を目指したい方の受け皿になります。
+              </p>
+              <p className="text-sm text-text-light leading-relaxed">
+                令和8年度の募集は2026年4月30日開始。最新の募集状況・申込は<a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>と<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/digitaljinzai/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>でご確認ください（出典: 各公式サイト、2026年8月14日確認）。
               </p>
             </div>
           </div>
