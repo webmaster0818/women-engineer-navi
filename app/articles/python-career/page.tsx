@@ -515,7 +515,7 @@ export default function ArticlePage() {
             <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>
-              おすすめエージェントランキングを見る
+              女性エンジニアにおすすめの転職サイトランキングを見る
             </a>
           </div>
         </div>

@@ -507,7 +507,7 @@ export default function ArticlePage() {
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">データで見極めたら、次は出会い方</h2>
             <p className="text-white/90 mb-6">公表データと面接での確認で「入社してから違った」を減らせます。女性エンジニアの転職に強いエージェントを比較して、聞きにくい確認ごとはプロに任せるのも一つの方法です。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
       </section>

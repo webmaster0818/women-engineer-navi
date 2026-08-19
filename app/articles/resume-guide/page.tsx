@@ -510,7 +510,7 @@ export default function ResumeGuidePage() {
               className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105"
               style={{ backgroundColor: "#c15f47" }}
             >
-              おすすめエージェントランキングを見る
+              女性エンジニアにおすすめの転職サイトランキングを見る
             </a>
           </div>
         </div>
@@ -596,7 +596,7 @@ export default function ResumeGuidePage() {
               className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105"
               style={{ backgroundColor: "#c15f47", color: "#ffffff" }}
             >
-              おすすめエージェントランキングを見る
+              女性エンジニアにおすすめの転職サイトランキングを見る
             </a>
           </div>
         </div>

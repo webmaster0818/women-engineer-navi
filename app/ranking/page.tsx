@@ -4,9 +4,9 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "女性エンジニアにおすすめの転職サイト・転職エージェント9選【2026年7月更新】無料診断つき",
+    "女性エンジニアにおすすめの転職サイト・転職エージェント9選【2026年8月更新】無料診断つき",
   description:
-    "女性エンジニアの転職に強いエージェント・転職サイト9社を、求人数・実績とも各社公式サイトで確認した現行値だけで比較（2026年7月更新）。IT特化・女性特化・未経験向け・フルリモート特化まで状況別に整理し、8つの質問の無料診断で自分に合う1社を30秒で絞り込めます。口コミはすべて出典つき・架空なし。",
+    "女性エンジニアの転職に強いエージェント・転職サイト9社を、求人数・実績とも各社公式サイトで確認した現行値だけで比較（2026年8月更新）。IT特化・女性特化・未経験向け・フルリモート特化まで状況別に整理し、8つの質問の無料診断で自分に合う1社を30秒で絞り込めます。口コミはすべて出典つき・架空なし。",
   keywords:
     "女性 エンジニア 転職エージェント おすすめ, 女性エンジニア 転職, 女性 IT転職",
   alternates: { canonical: "/ranking/" },
@@ -585,7 +585,7 @@ export default function RankingPage() {
       <section className="section-primary-light py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm text-primary font-bold mb-3">
-            2026年7月更新
+            2026年8月更新
           </p>
           <h1 className="text-2xl md:text-4xl font-bold leading-tight">
             女性エンジニアにおすすめの

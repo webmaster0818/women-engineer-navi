@@ -51,12 +51,14 @@ const schemaOrg = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "CareeHUB for woman",
+  alternateName: ["CareeHUB", "キャリーハブ", "キャリーハブ for woman"],
   url: "https://women-engineer.com",
   description:
     "女性エンジニアに特化した転職エージェント比較サイト。産休育休の取得実績・リモートワーク対応・サポート体制（公式に記載のない項目は「要確認」と明示）など、女性ならではの視点で徹底比較。",
   publisher: {
     "@type": "Organization",
     name: "CareeHUB for woman",
+    alternateName: ["CareeHUB", "キャリーハブ"],
     url: "https://women-engineer.com",
     parentOrganization: {
       "@type": "Organization",

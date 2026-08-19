@@ -477,7 +477,7 @@ export default function ArticlePage() {
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">職種選びで生涯年収が大きく変わる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、相場を踏まえた最適な一手を見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
       </section>
@@ -521,7 +521,7 @@ export default function ArticlePage() {
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">あなたの職種、まだ年収を上げられます</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。相場を踏まえた最適なキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
       </section>

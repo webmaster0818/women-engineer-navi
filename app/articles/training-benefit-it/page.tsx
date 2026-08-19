@@ -456,7 +456,7 @@ export default function ArticlePage() {
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">学んだスキルを活かせる職場を見つけましょう</h2>
             <p className="text-white/90 mb-6">給付制度で費用を抑えて学んだら、次は転職活動。まずはエージェントに無料相談して、あなたに合ったキャリアプランを一緒に考えましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
       </section>

@@ -414,7 +414,7 @@ export default function ArticlePage() {
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">“リモートの実態”はエージェントに確認するのが近道</p>
             <p className="text-sm text-text-light mb-4">複数登録して、社内事情に詳しいアドバイザーを見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
       </section>
@@ -483,7 +483,7 @@ export default function ArticlePage() {
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">本当に働きやすいリモート企業を見極めよう</h2>
             <p className="text-white/90 mb-6">求人票に出ない“リモートの実態”は、エージェントに無料相談。あなたに合った働き方を一緒に見つけましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
       </section>

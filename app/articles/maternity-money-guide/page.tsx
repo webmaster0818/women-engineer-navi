@@ -518,7 +518,7 @@ export default function ArticlePage() {
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">給付のベースは「休業前の年収」。だから今の一歩が効きます</h2>
             <p className="text-white/90 mb-6">産育休中の給付額は休業開始前の賃金で決まります。ライフイベントの前にキャリアと年収を整えたい方は、産育休の実績や両立支援に詳しいエージェントに無料相談してみましょう。</p>
-            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>おすすめエージェントランキングを見る</a>
+            <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
       </section>
