@@ -172,10 +172,10 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年8月10日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年8月25日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（1期生・2026年8月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集終了。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（2期生・2026年9月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集中です（※申込状況により追加募集の場合あり）。いまから申し込めるのはこちらです。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（2期生・2026年9月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも<strong>「残りわずか」</strong>の表示になっています（8月25日時点・※申込状況により追加募集の場合あり）。いまから申し込める最後の枠です。検討中の方は早めの申し込みをおすすめします。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>公式サイトによると、<strong>令和8年度の募集は後期2期生をもって終了</strong>と案内されています。検討中の方は早めの確認がおすすめです。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
