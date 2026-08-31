@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   description:
-    "東京都「女性ITエンジニア育成事業」を公式情報をもとに解説。対象者（原則39歳以下の女性）、プログラミング/インフラクラウドの2コース、6か月の訓練内容、受講料無料の範囲、申込方法、就職支援、応募前のチェックポイントまで。事業終了後の転職活動の進め方も紹介します。",
+    "東京都「女性ITエンジニア育成事業」を公式情報をもとに解説。令和8年度の募集は終了しました（2026年9月1日確認）。事業内容・口コミ・落ちた場合や間に合わなかった場合の選択肢（女性デジタルカレッジ・リスキリング支援・教育訓練給付）、令和9年度の発表状況まで継続更新しています。",
   alternates: { canonical: "/articles/tokyo-women-training/" },
   openGraph: {
     title: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
@@ -172,11 +172,11 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年8月25日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年9月1日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（1期生・2026年8月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集終了。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（2期生・2026年9月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも<strong>「残りわずか」</strong>の表示になっています（8月25日時点・※申込状況により追加募集の場合あり）。いまから申し込める最後の枠です。検討中の方は早めの申し込みをおすすめします。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>公式サイトによると、<strong>令和8年度の募集は後期2期生をもって終了</strong>と案内されています。検討中の方は早めの確認がおすすめです。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（2期生・2026年9月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも<strong>募集終了</strong>となりました（9月1日時点）。これをもって<strong>令和8年度の募集はすべて終了</strong>です（※公式には「申込状況により追加募集いたします」の記載があるため、追加募集の有無は公式サイトでご確認ください）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>令和8年度の募集は終了しました。<strong>次年度（令和9年度）の実施・募集は未発表</strong>です（当サイトで毎月公式サイトを確認し、発表があれば更新します）。いま学び始めたい方は下記の「募集終了後の選択肢」をご覧ください。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況は変動します。最新の空き状況は必ず<a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
