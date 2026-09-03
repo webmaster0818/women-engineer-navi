@@ -691,6 +691,33 @@ export default function RankingPage() {
         </div>
       </section>
 
+      {/* 転職の進め方(本丸クエリ適合) */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold flex items-center gap-2">
+            <span className="text-primary">&#9670;</span>
+            女性エンジニアの転職の進め方（3ステップ）
+          </h2>
+          <p className="mt-4 text-sm text-text-light leading-relaxed">
+            転職サイト選びの前に、全体の流れを押さえておくと迷いません。女性エンジニアの転職は「情報収集 → エージェント登録・相談 → 応募・面接」の3ステップで進みます。
+          </p>
+          <div className="mt-6 grid gap-4 md:grid-cols-3">
+            <div className="rounded-xl border border-line bg-base p-5">
+              <p className="font-bold text-text mb-2">STEP1: 情報収集</p>
+              <p className="text-sm text-text-light">希望条件(リモート可否・産休育休実績・年収)を整理します。<a href="/articles/" className="underline text-primary">キャリアガイド記事</a>や<a href="/diagnosis/" className="underline text-primary">無料診断</a>が入口です。</p>
+            </div>
+            <div className="rounded-xl border border-line bg-base p-5">
+              <p className="font-bold text-text mb-2">STEP2: エージェント登録・相談</p>
+              <p className="text-sm text-text-light">本ページのランキングから2〜3社に登録し、面談で求人の幅を確認します。1社に絞らないのが失敗しないコツです。</p>
+            </div>
+            <div className="rounded-xl border border-line bg-base p-5">
+              <p className="font-bold text-text mb-2">STEP3: 応募・面接</p>
+              <p className="text-sm text-text-light">書類・面接対策はエージェントのサポートを活用。<a href="/articles/interview-guide/" className="underline text-primary">面接対策ガイド</a>も参考にしてください。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 選び方ポイント */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
