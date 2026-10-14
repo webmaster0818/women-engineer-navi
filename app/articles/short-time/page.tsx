@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが時短勤務でキャリアを続ける・時短で転職する方法を実データで解説。育児・介護休業法の短時間勤務制度（1日6時間）、2025年新設の育児時短就業給付金、時短可求人の探し方、年収・キャリアへの影響と対策、時短OK企業の見極め方、注意点まで女性視点でまとめました。",
   alternates: { canonical: "/articles/short-time/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア 時短勤務で転職・継続するガイド｜制度・求人の探し方・年収への影響",
     description:
       "育児・介護休業法の短時間勤務制度や育児時短就業給付金、時短可求人の探し方、年収・キャリアへの影響と対策、時短OK企業の見極め方を女性視点で実データ解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "時短勤務でエンジニアを続けるガイド" },
             ]}
           />

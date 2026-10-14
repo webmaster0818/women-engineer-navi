@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "JavaScriptで転職したい女性エンジニア向けの決定版ガイド。求人ニーズ1位（paiza調査14.4%）の実データ、経験年数別年収（300万〜800万円超）、TypeScript併用での市場価値差、React/Vue/Next.jsのフレームワーク需要、未経験からの学習ロードマップまで出典付きで解説します。",
   alternates: { canonical: "/articles/javascript-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "JavaScriptで女性エンジニア転職｜年収・需要・TypeScript時代の学び方【2026年】",
     description:
       "JavaScript転職の年収・求人数・TypeScriptとの市場価値差・フレームワーク需要・学習ロードマップを実データと出典付きで解説。",
@@ -82,7 +82,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "JavaScriptキャリアガイド", item: "https://women-engineer.com/articles/javascript-career/" },
   ],
 };
@@ -97,7 +97,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "JavaScriptキャリアガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "JavaScriptキャリアガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>言語別ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

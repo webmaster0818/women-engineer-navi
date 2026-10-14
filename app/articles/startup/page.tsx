@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "スタートアップ転職を考える女性エンジニア向けの実データガイド。2025年の国内資金調達総額7,613億円（スピーダ調べ）の市況、フェーズ別（シード〜レイター）の給与・裁量・リスク、税制適格ストックオプションの仕組み（令和6年度改正対応）、産休育休が法定制度として小規模企業でも使える事実まで出典付きで解説します。",
   alternates: { canonical: "/articles/startup/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "スタートアップで働く女性エンジニア｜年収・SO・フェーズ別の現実【2026年】",
     description:
       "国内スタートアップの資金調達動向、フェーズ別の働き方の違い、税制適格ストックオプションの正確な仕組み、産育休の法定制度まで実データ・出典付きで解説。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "スタートアップで働く女性エンジニア", item: "https://women-engineer.com/articles/startup/" },
   ],
 };
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "スタートアップで働く女性エンジニア" },
             ]}
           />

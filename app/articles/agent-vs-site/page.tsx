@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "転職エージェントと転職サイトの違いを仕組みから徹底解説。職業安定法上の位置づけ（職業紹介事業と募集情報等提供事業）、成功報酬モデル、厚労省の転職者実態調査による利用実態を出典付きで整理し、在職中・未経験・ブランク・急ぎの状況別の使い分けを紹介します。",
   alternates: { canonical: "/articles/agent-vs-site/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "転職エージェントと転職サイトの違い｜女性エンジニアはどっちを使うべき？【2026年】",
     description:
       "転職エージェントと転職サイトの違いを仕組みと制度から解説。職業安定法上の位置づけ、成功報酬モデル、厚労省の公的調査による利用実態を出典付きで整理し、状況別の使い分けを紹介します。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "転職エージェント vs 転職サイト" },
             ]}
           />

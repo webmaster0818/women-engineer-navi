@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの需要はなぜ高い？統計データで見る市場価値【2026年最新】",
   description:
-    "女性エンジニアの需要を統計データで検証。IT人材は2030年に最大約79万人不足（経産省）、エンジニア求人倍率10.68倍（doda）、日本の女性エンジニア比率18.8%はOECD平均以下。人材不足×低い女性比率×ダイバーシティ要請×政策の後押しという構造的理由と、需要を年収・キャリアに変える方法を全数値出典付きで解説します。",
+    "女性エンジニアの需要を統計データで検証。IT人材は2030年に最大約79万人不足（経産省）、エンジニア求人倍率10.68倍（doda）、日本の女性エンジニア比率18.8%はOECD平均以下。",
   alternates: { canonical: "/articles/demand/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの需要はなぜ高い？統計データで見る市場価値【2026年最新】",
     description:
       "IT人材は2030年に最大約79万人不足（経産省）、エンジニア求人倍率10.68倍（doda）、女性エンジニア比率18.8%。女性エンジニアの需要が高い構造的理由を統計データと出典で論証し、需要を市場価値に変える方法まで解説します。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアの需要データ" },
             ]}
           />

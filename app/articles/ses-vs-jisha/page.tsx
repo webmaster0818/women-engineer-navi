@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "SES・受託・自社開発の違いを契約形態（準委任・請負）から正確に解説。日本のIT人材の約7割がベンダー側所属（IPA）という構造、多重下請け（経産省資料）、産育休・リモートが常駐先に左右される仕組みまで、女性エンジニアのキャリア視点で公平に比較します。",
   alternates: { canonical: "/articles/ses-vs-jisha/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "SESと自社開発の違い｜女性エンジニアのキャリアへの影響と見極め方【2026年】",
     description:
       "SES・受託・自社開発の違いを契約形態から正確に解説。産育休・リモートの決まり方など女性エンジニア視点の固有論点と、求人票での見極めチェックリストつき。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "SESと自社開発の違い" },
             ]}
           />

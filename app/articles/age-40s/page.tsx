@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "40代女性エンジニアの転職ガイド｜年収相場・現実的な選択肢・強みの活かし方【2026年】",
   description:
-    "40代女性エンジニアの転職を実データで解説。女性の転職入職率は40〜44歳10.2%・45〜49歳10.7%と同年代男性の約1.5〜1.8倍、転職者の約46%が賃金増（厚労省・令和6年雇用動向調査）。40代の年収相場、マネジメント/スペシャリスト/社内SEのキャリア戦略、未経験挑戦の現実的な選択肢まで出典付きで紹介します。",
+    "40代女性エンジニアの転職を実データで解説。女性の転職入職率は40〜44歳10.2%・45〜49歳10.7%と同年代男性の約1.5〜1.8倍、転職者の約46%が賃金増（厚労省・令和6年雇用動向調査）。",
   alternates: { canonical: "/articles/age-40s/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "40代女性エンジニアの転職ガイド｜年収相場・現実的な選択肢・強みの活かし方【2026年】",
     description:
       "40代女性エンジニアの年収相場・転職市場・マネジメント/スペシャリスト/社内SEのキャリア戦略・未経験挑戦の現実的な選択肢を公的統計と実データで解説。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "40代女性エンジニアの転職ガイド" },
             ]}
           />

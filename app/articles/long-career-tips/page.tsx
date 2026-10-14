@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが長く働き続けるコツを実データで解説。辞めてしまう理由（ライフイベント・ロールモデル不足・評価・体力）、スキルの陳腐化を防ぐ学び方、キャリアの棚卸し、メンター活用、燃え尽き・体調管理、働き方を変える選択肢まで。長期視点でキャリアを設計する女性向けガイドです。",
   alternates: { canonical: "/articles/long-career-tips/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが長く働き続けるコツ｜辞める理由とキャリアを続ける7つの習慣",
     description:
       "女性エンジニアが辞める理由と長く働き続けるコツを実データで解説。学び続ける習慣・キャリアの棚卸し・メンター・燃え尽き対策・働き方の見直しまで、長期視点のキャリア設計を女性視点でまとめました。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアが長く働き続けるコツ" },
             ]}
           />

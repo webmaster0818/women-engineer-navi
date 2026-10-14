@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "IT業界（情報通信業）の育休取得率は女性94.4%・男性58.1%（厚生労働省・令和6年度雇用均等基本調査）。全産業との比較、年次推移、男女別データ、IT企業の公開実績、育児休業給付金の制度数値まで全数値出典付きで整理。厚労省データベースで企業ごとの実績を調べる方法も解説します。",
   alternates: { canonical: "/articles/maternity-leave-rate/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "IT業界の育休取得率・復帰率データまとめ【2026年最新】企業の調べ方つき",
     description:
       "IT業界（情報通信業）の育休取得率は女性94.4%・男性58.1%（令和6年度雇用均等基本調査）。全産業比較・年次推移・男女別・企業公開値を出典付きで整理し、企業ごとの実績の調べ方も解説します。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "IT業界の育休取得率・復帰率データ" },
             ]}
           />

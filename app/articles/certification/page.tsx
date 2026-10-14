@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの資格ガイド｜目的別おすすめ資格マップと優先順位【2026年】",
   description:
-    "女性エンジニアの資格ガイド決定版。基本情報・応用情報（IPA受験料7,500円）、AWS認定（SAA 150USD）、LPIC・LinuC、Python認定、データベース系資格を目的×レベル別マップで整理。受験料・試験形式を公式情報の出典付きでまとめ、資格が転職で効く場面・効かない場面、産休育休中の学習法まで解説します。",
+    "女性エンジニアの資格ガイド決定版。基本情報・応用情報（IPA受験料7,500円）、AWS認定（SAA 150USD）、LPIC・LinuC、Python認定、データベース系資格を目的×レベル別マップで整理。受験料・試験形式を公式情報の出典付きでまとめ、資格が転職で効く場面・効かない場面、産休育休中の学習法まで解説。",
   alternates: { canonical: "/articles/certification/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの資格ガイド｜目的別おすすめ資格マップと優先順位【2026年】",
     description:
       "基本情報・応用情報・AWS・LPIC・Python・データベース系資格を目的×レベル別マップで整理。受験料・形式を公式出典付きで解説する決定版ガイド。",
@@ -82,7 +82,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "女性エンジニアの資格ガイド", item: "https://women-engineer.com/articles/certification/" },
   ],
 };
@@ -119,7 +119,7 @@ export default function CertificationPage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "女性エンジニアの資格ガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "女性エンジニアの資格ガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#c15f47" }}>スキルアップ</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "東京で女性エンジニアが転職するための完全ガイド。全国最多の求人数や自社開発・メガベンチャー・スタートアップの集積、全国比で高い年収相場（東京567万円前後）、女性が働きやすい企業の見極め方、未経験からのステップ、リモートと保活・通勤事情まで実データで解説します。",
   alternates: { canonical: "/articles/tokyo/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア 転職 東京ガイド｜求人動向・年収相場・働きやすい企業",
     description:
       "東京の女性エンジニア転職を実データで解説。全国最多の求人、高い年収相場、働きやすい企業、未経験ステップ、リモートと保活・通勤事情まで。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "東京の女性エンジニア転職ガイド" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "未経験から女性エンジニアへの転職は可能？IT人材不足（2030年最大79万人・経産省）や求人倍率10.68倍（doda）など実データをもとに、現実的な学習期間、職種別の未経験ハードル比較、独学vsスクール、転職活動の進め方まで2026年最新情報で解説します。",
   alternates: { canonical: "/articles/beginner/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "未経験から女性エンジニアになるには？現実のロードマップと職種の選び方【2026年】",
     description:
       "IT人材不足や求人倍率の実データをもとに、未経験から女性エンジニアになる現実的なロードマップと職種の選び方を解説。",
@@ -127,7 +127,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "未経験からエンジニアになるには" },
             ]}
           />

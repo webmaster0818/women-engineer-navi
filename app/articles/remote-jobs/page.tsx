@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアの在宅・リモート転職ガイド。情報通信業のテレワーク導入率は94.3%と全産業トップ（総務省調査）。職種別のリモートのしやすさ、フルリモート求人の動向と出社回帰の実態、求人の探し方を公的統計・公開調査の実データで解説します。",
   alternates: { canonical: "/articles/remote-jobs/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの在宅・リモート転職ガイド｜職種別の実態と求人の探し方【2026年】",
     description:
       "情報通信業のテレワーク導入率94.3%（全産業47.3%）。職種別のリモートのしやすさ、フルリモート求人動向、出社回帰の実態を実データで解説。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "在宅・リモート転職ガイド" },
             ]}
           />

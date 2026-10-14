@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性フリーランスエンジニアの始め方を実データで解説。レバテックフリーランスの職種別単価相場（SE月72万円・PM88万円・ITコンサル102万円等）、会社員との保障の違い（国民健康保険に出産手当金はない等）、2024年11月施行のフリーランス新法の要点、独立までの現実的なステップとリスクまで出典付きで紹介します。",
   alternates: { canonical: "/articles/freelance/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性フリーランスエンジニアの始め方｜単価相場・必要な準備・現実とリスク【2026年】",
     description:
       "職種別単価相場（SE月72万円・PM88万円等=レバテックフリーランス）、会社員との保障比較、フリーランス新法、独立ステップとリスクを実データで解説。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性フリーランスエンジニアの始め方" },
             ]}
           />

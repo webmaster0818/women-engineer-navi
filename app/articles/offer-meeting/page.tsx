@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "オファー面談（内定後の条件確認面談）で確認すべきことを女性エンジニア向けに解説。年収内訳・評価制度・配属・残業・リモート・産休育休実績など必須チェックリスト、年収交渉のコツ、辞退の可否、ライフプランの確認ポイント、当日の進め方まで実例つきで紹介します。",
   alternates: { canonical: "/articles/offer-meeting/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "オファー面談で確認すべきこと完全ガイド｜女性エンジニアの条件交渉・チェックリスト",
     description:
       "内定後のオファー面談で確認すべき項目チェックリスト、年収交渉のコツ、辞退の対応、女性のライフプラン確認ポイントを実データで解説。",
@@ -137,7 +137,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "オファー面談の活用法ガイド" },
             ]}
           />

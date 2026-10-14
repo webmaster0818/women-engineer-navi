@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性バックエンドエンジニアの転職ガイド。平均年収（20代460万〜40代558万）や必要な言語・スキル、未経験からのロードマップ、求人動向、キャリアパスを実データで解説。長く働きやすい理由とおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/backend/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性バックエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性バックエンドエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "バックエンドエンジニア転職ガイド" },
             ]}
           />

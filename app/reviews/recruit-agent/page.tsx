@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "リクルートエージェント 口コミ, リクルートエージェント 評判, リクルートエージェント 女性, リクルートエージェント エンジニア",
   alternates: { canonical: "/reviews/recruit-agent/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "リクルートエージェントの口コミ・評判｜女性ITエンジニアの求人数は？",
     description: "リクルートエージェントを女性エンジニア目線で徹底レビュー。非公開含む約100万件（2026年6月時点）の求人の実力を検証。",
     url: "https://women-engineer.com/reviews/recruit-agent/",

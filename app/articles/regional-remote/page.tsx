@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "地方在住の女性エンジニアがフルリモートで東京水準の年収を得る方法を実データで解説。家賃96万円差の地理的アービトラージ、フルリモート求人の現状、受かりやすい職種・条件、求人の探し方STEP、移住のリアルな注意点、育児・介護との両立、転職事例とFAQまで網羅します。",
   alternates: { canonical: "/articles/regional-remote/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが地方在住×フルリモートで転職するガイド｜東京水準の年収を地方で得る方法",
     description:
       "地方在住の女性エンジニアがフルリモートで東京水準の年収を得る方法・求人の探し方・移住の注意点・育児介護との両立を実データで徹底解説。",
@@ -110,7 +110,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "地方在住×フルリモートで転職するガイド" },
             ]}
           />

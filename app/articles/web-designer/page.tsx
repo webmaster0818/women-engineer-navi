@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Webデザイナーからエンジニアへのキャリアチェンジを実データで解説。平均年収はWebデザイナー約423万円に対しフロントエンドエンジニア約446万円（求人ボックス）。AI時代に価値が上がる「デザインもコードも分かる人材」への現実的ルート、学習ロードマップ、活かせる強みを紹介します。",
   alternates: { canonical: "/articles/web-designer/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "Webデザイナーから女性エンジニアへ｜年収差・キャリアチェンジの現実的ルート【2026年】",
     description:
       "Webデザイナーとエンジニアの年収差、AIによるデザイナー職の変化、デザイン経験が強みになる領域、学習ロードマップを実データ・出典付きで解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "Webデザイナーからエンジニアへ" },
             ]}
           />

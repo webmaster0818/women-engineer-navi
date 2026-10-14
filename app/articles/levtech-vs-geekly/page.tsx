@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "レバテックキャリアとGeeklyの違いを公式公開情報で比較。どちらもIT特化型ですが、得意領域（ITエンジニア特化／IT・Web・ゲーム業界特化）と拠点・求人数の公式表示に構造的な違いがあります。職種・志望業界・地域別の向き不向きを出典付きで中立に整理します。",
   alternates: { canonical: "/articles/levtech-vs-geekly/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "レバテックキャリアとGeeklyの違い｜女性エンジニアの使い分け【2026年】",
     description:
       "レバテックキャリアとGeeklyの違いを公式公開情報で比較。得意領域・拠点・求人数の公式表示の違いと、職種・志望業界・地域別の向き不向きを出典付きで中立に整理します。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "レバテックキャリア vs Geekly" },
             ]}
           />

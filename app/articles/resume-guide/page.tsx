@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "エンジニアの職務経歴書・スキルシートの書き方を実データで解説。プロジェクト単位の構成テンプレ（規模・役割・技術スタック・成果の定量化）、経験が浅い・ブランクあり別の書き方、時短希望の伝え方、厚労省履歴書様式例の性別欄任意化まで、2026年の書類選考対策を出典付きで網羅します。",
   alternates: { canonical: "/articles/resume-guide/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの職務経歴書ガイド｜スキルシートの書き方・ブランクの伝え方【2026年】",
     description:
       "プロジェクト単位の構成テンプレ、成果の定量化、ブランク・時短希望の伝え方、厚労省履歴書様式例の公的事実まで出典付きで解説。",
@@ -82,7 +82,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "職務経歴書ガイド", item: "https://women-engineer.com/articles/resume-guide/" },
   ],
 };
@@ -97,7 +97,7 @@ export default function ResumeGuidePage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "職務経歴書ガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "職務経歴書ガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>転職ノウハウ</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

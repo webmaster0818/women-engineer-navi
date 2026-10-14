@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "GreenとReWorksの違いを公式サイトの公開情報に基づき整理。Greenは株式会社アトラエ運営のIT/Web業界に強い転職サイト、ReWorksは株式会社アイドマ・ホールディングス運営のフルリモート正社員特化型転職支援サイト。運営会社・機能・料金を出典付きで比較し、女性エンジニアの状況別の使い分けを解説します。",
   alternates: { canonical: "/articles/green-vs-reworks/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "GreenとReWorksの違い｜女性エンジニアの転職サイト使い分け【2026年】",
     description:
       "GreenとReWorksの違いを公式サイトの公開情報に基づき整理。運営会社・サービス形態・特化領域・スカウト等の機能を出典付きで比較し、女性エンジニアの状況別の使い分けを中立に解説します。",
@@ -102,7 +102,7 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer.com/articles/",
+      item: "https://women-engineer.com/articles/category-index/",
     },
     {
       "@type": "ListItem",
@@ -140,7 +140,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "GreenとReWorksの違い" },
             ]}
           />

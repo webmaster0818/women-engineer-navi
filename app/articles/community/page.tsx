@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアコミュニティまとめ｜つながりがキャリアを変える理由と選び方【2026年】",
   description:
-    "女性エンジニア向けコミュニティを2026年6月時点で実在確認したものだけ紹介。PyLadies Tokyo・Java女子部・TECH PLAY女子部・JAWS-UGクラウド女子会・Rails Girls等の対象・活動内容・参加方法と、Women Who Code国際組織の解散（2024年）など最新状況、参加メリット・選び方を解説します。",
+    "女性エンジニア向けコミュニティを2026年6月時点で実在確認したものだけ紹介。PyLadies Tokyo・Java女子部・TECH PLAY女子部・JAWS-UGクラウド女子会・Rails Girls等の対象・活動内容・参加方法と、参加メリット・選び方を解説します。",
   alternates: { canonical: "/articles/community/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアコミュニティまとめ｜つながりがキャリアを変える理由と選び方【2026年】",
     description:
       "2026年6月時点で活動を確認できた女性エンジニア向けコミュニティのみを紹介。対象・活動内容・参加方法、解散・休止情報まで正直に解説。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "女性エンジニアコミュニティまとめ", item: "https://women-engineer.com/articles/community/" },
   ],
 };
@@ -169,7 +169,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアコミュニティまとめ" },
             ]}
           />

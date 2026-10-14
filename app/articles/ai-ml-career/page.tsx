@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性AI・機械学習エンジニアの転職ガイド。求人統計に基づく年収相場（AIエンジニア平均569万円・MLエンジニア630万円前後）、生成AI関連求人の急増データ、数学・統計の現実的な必要ライン、未経験から段階的に目指すルートを出典付きで解説します。",
   alternates: { canonical: "/articles/ai-ml-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性AI・機械学習エンジニア転職ガイド｜年収・必要スキル・現実的な道筋【2026年】",
     description:
       "AI・機械学習エンジニアの年収相場・求人急増データ・必要スキル・未経験からの現実的な段階ルートを、求人統計と公的調査の出典付きで解説。",
@@ -109,7 +109,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "AI・機械学習エンジニア転職ガイド", item: "https://women-engineer.com/articles/ai-ml-career/" },
   ],
 };
@@ -124,7 +124,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "AI・機械学習エンジニア転職ガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "AI・機械学習エンジニア転職ガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>職種別ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

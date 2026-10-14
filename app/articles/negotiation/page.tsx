@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの年収交渉術｜タイミング・相場の調べ方・伝え方の実例【2026年】",
   description:
-    "女性エンジニアのための年収交渉ガイド。交渉した人の85〜91%が年収アップに成功（マイナビ転職・IT実態調査）。転職時の昇給額には男女差（男性139万円/女性85万円・Forkwell調査）があり、女性こそ交渉すべき理由をデータで解説。交渉のベストタイミング、job tag・dodaを使った相場の調べ方、伝え方のフレーズ例まで紹介します。",
+    "女性エンジニアのための年収交渉ガイド。交渉した人の85〜91%が年収アップに成功（マイナビ転職・IT実態調査）。転職時の昇給額には男女差（男性139万円/女性85万円・Forkwell調査）があり、女性こそ交渉すべき理由をデータで解説。",
   alternates: { canonical: "/articles/negotiation/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの年収交渉術｜タイミング・相場の調べ方・伝え方の実例【2026年】",
     description:
       "交渉した人の85〜91%が年収アップに成功。転職時の昇給額の男女差データから、交渉のタイミング・相場の調べ方・伝え方の実例まで2026年最新データで解説。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "女性エンジニアの年収交渉術", item: "https://women-engineer.com/articles/negotiation/" },
   ],
 };
@@ -123,7 +123,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアの年収交渉術" },
             ]}
           />

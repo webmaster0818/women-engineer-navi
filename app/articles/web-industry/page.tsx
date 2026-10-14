@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Web業界で働く女性エンジニアのリアル｜年収・文化・SIerとの違い【2026年】",
   description:
-    "Web業界（自社サービス・メガベンチャー・受託・スタートアップ）の構造と年収相場を公的データで解説。doda調査ではインターネット業界の平均年収440万円とSIer481万円より低い一方、job tagのWebサービス開発SEは578.5万円。SIerとの文化差や女性比率18.8%の実態、未経験では入りにくい現実まで正直に整理します。",
+    "Web業界（自社サービス・メガベンチャー・受託・スタートアップ）の構造と年収相場を公的データで解説。doda調査ではインターネット業界の平均年収440万円とSIer481万円より低い一方、job tagのWebサービス開発SEは578.5万円。",
   alternates: { canonical: "/articles/web-industry/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "Web業界で働く女性エンジニアのリアル｜年収・文化・SIerとの違い【2026年】",
     description:
       "Web業界の構造・年収相場・SIerとの文化差・女性比率を公的データと出典付きで解説。未経験転職の現実的なルートも正直に紹介します。",
@@ -102,7 +102,7 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer.com/articles/",
+      item: "https://women-engineer.com/articles/category-index/",
     },
     {
       "@type": "ListItem",
@@ -140,7 +140,7 @@ export default function WebIndustryPage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "Web業界で働く女性エンジニアのリアル" },
             ]}
           />

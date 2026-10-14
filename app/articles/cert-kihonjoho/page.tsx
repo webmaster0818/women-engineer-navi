@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが基本情報技術者試験を取得するためのガイド。IPA国家資格の試験概要（科目A・B／CBT通年）、合格率（約40%）、勉強時間200時間の目安と勉強法、おすすめ教材、資格手当や転職での評価、女性に役立つ理由を実データで解説します。",
   alternates: { canonical: "/articles/cert-kihonjoho/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの基本情報技術者試験ガイド｜難易度・合格率・勉強法・取得メリット",
     description:
       "基本情報技術者試験の概要・合格率・勉強時間・勉強法・おすすめ教材・取得メリット・年収への影響を、女性エンジニア視点で実データ解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "基本情報技術者試験ガイド" },
             ]}
           />

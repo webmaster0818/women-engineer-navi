@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "GCP・Azureを軸にした女性クラウドエンジニアの転職ガイド。AWSとの違い、マルチクラウド需要、平均年収（20代約480万〜40代約700万）、Google Cloud認定・Azure認定（AZ-104/AZ-305）、未経験・インフラからのロードマップ、キャリアパスを実データで解説します。",
   alternates: { canonical: "/articles/cloud-gcp-azure/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性クラウドエンジニア転職ガイド（GCP・Azure）｜年収・資格・未経験から",
     description:
       "GCP・Azure中心の女性クラウドエンジニア転職ガイド。AWSとの違い・マルチクラウド需要・年収・Google Cloud/Azure認定資格・ロードマップを実データで解説。",
@@ -46,7 +46,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "クラウドエンジニア（GCP・Azure）転職ガイド", item: "https://women-engineer.com/articles/cloud-gcp-azure/" },
   ],
 };
@@ -139,7 +139,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "クラウドエンジニア（GCP・Azure）転職ガイド" },
             ]}
           />

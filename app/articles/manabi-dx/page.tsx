@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "経済産業省とIPAが運営するデジタル人材育成ポータル「マナビDX」を公式情報をもとに解説。デジタルスキル標準（DSS）との関係、受講料無料の講座の絞り込み方、教育訓練給付対象講座の探し方、無料実践プログラム「マナビDX Quest」、女性エンジニア転職の準備での活用法まで紹介します。",
   alternates: { canonical: "/articles/manabi-dx/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "マナビDX（経産省・IPA）の使い方ガイド｜無料講座の探し方と転職準備での活用法【2026年】",
     description:
       "経産省・IPA運営のポータル「マナビDX」の使い方を公式情報をもとに解説。無料講座の絞り込み方、教育訓練給付対象講座、マナビDX Quest、転職準備での活用法を紹介。",
@@ -101,7 +101,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "マナビDXの使い方ガイド" },
             ]}
           />

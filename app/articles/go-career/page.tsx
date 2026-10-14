@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性Go（Golang）エンジニアの転職ガイド。提示年収トップクラス（平均710万円台）の高単価言語の仕事内容、年代別年収、求人倍率19.8倍の需要・将来性、必要スキル、他言語・未経験からのロードマップ、キャリアパスを実データで解説。長く働きやすい理由とおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/go-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性Goエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性Go（Golang）エンジニアの年収・必要スキル・他言語からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "Goエンジニア転職ガイド" },
             ]}
           />

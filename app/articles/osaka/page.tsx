@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "大阪・関西で転職したい女性エンジニア向けガイド。東京に次ぐ全国2位の求人規模、SIer・受託が多い市場特性、年収相場（大阪のSE平均約620万円）、さくらインターネット・ラクスなど働きやすい関西企業、リモートで東京案件を受ける選択肢を実データで解説します。",
   alternates: { canonical: "/articles/osaka/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア転職 大阪・関西ガイド｜求人動向・年収相場・働きやすい企業",
     description:
       "大阪・関西の女性エンジニア転職を実データで解説。求人動向・年収相場・働きやすい関西企業・リモートで東京案件を受ける選択肢まで網羅。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "大阪・関西の女性エンジニア転職ガイド" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性に人気の社内SE（情シス）への転職ガイド。仕事内容（社内インフラ・ヘルプデスク・業務システム・ベンダー管理・DX推進）、平均年収（20代450万〜40代600万）、必要スキル、求人動向、未経験からのロードマップを実データで解説。残業少なめ・WLB良好で腰を据えて働ける理由とおすすめエージェントも紹介します。",
   alternates: { canonical: "/articles/internal-se/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性 社内SE 転職ガイド｜仕事内容・年収・未経験から目指す道",
     description:
       "女性に人気の社内SEの仕事内容・年収・必要スキル・未経験からのロードマップ・求人動向を実データで徹底解説。残業少なめでWLBが良好な理由も紹介。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "社内SE転職ガイド" },
             ]}
           />

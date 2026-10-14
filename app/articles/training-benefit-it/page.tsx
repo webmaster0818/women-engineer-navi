@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "教育訓練給付制度を厚生労働省の公式情報をもとに解説。一般（20%・上限10万円）・特定一般（40〜50%）・専門実践（50〜最大80%）の3種類の違い、雇用保険の加入期間などの支給要件、ハローワークでの手続き、IT関連講座の探し方（教育訓練講座検索システム）まで。在職中の女性がITスキル習得に活用する方法を紹介します。",
   alternates: { canonical: "/articles/training-benefit-it/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "教育訓練給付制度でITスキルを学ぶ方法｜給付の種類・最大80%の条件・講座の探し方【2026年】",
     description:
       "教育訓練給付制度の3種類（一般・特定一般・専門実践）の給付率と上限額、支給要件、ハローワークでの手続き、IT関連講座の探し方を厚生労働省の公式情報をもとに解説。在職中でも使える学び直しの公的支援です。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "教育訓練給付制度でITスキルを学ぶ" },
             ]}
           />

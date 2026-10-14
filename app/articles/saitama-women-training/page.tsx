@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "埼玉県 女性のデジタル人材育成推進事業を解説｜対象・費用・申込【2026年】",
   description:
-    "埼玉県「女性のデジタル人材育成推進事業」を公式情報をもとに解説。埼玉県在住または県内就業を希望する女性が対象（在職中も受講可）、全講座オンライン・受講料無料。基礎・応用講座（データ分析/WEB/CAD/Office）、実践講座（WordPress・生成AI・Figma等）、自営型テレワーク講座の内容から申込方法、東京都事業・教育訓練給付との違いまで一次情報で整理します。",
+    "埼玉県「女性のデジタル人材育成推進事業」を公式情報をもとに解説。埼玉県在住または県内就業を希望する女性が対象（在職中も受講可）、全講座オンライン・受講料無料。",
   alternates: { canonical: "/articles/saitama-women-training/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "埼玉県 女性のデジタル人材育成推進事業を解説｜対象・費用・申込【2026年】",
     description:
       "埼玉県「女性のデジタル人材育成推進事業」の対象者（県内在住・県内就業希望の女性、在職中も可）、講座内容、費用（受講料無料・通信費のみ自己負担）、申込方法を公式情報をもとに解説。東京都の女性向け事業や教育訓練給付との違いも比較表で整理。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "埼玉県の女性のデジタル人材育成推進事業" },
             ]}
           />

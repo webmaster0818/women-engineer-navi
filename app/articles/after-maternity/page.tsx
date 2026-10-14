@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "産休・育休後のエンジニア転職ガイド。育休からの復職率93.2%・女性の育休取得率86.6%などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを育児休業給付金・保育園・現職への心証の3つの論点で整理。ブランク不安への対処や転職タイミングの目安まで出典付きで解説します。",
   alternates: { canonical: "/articles/after-maternity/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "産休・育休後のエンジニア転職ガイド｜復帰と転職の判断基準・タイミング【2026年】",
     description:
       "育休からの復職率93.2%・女性の育休取得率86.6%などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを給付金・保育園・心証の3論点で整理。転職タイミングの判断基準がわかります。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "産休・育休後のエンジニア転職ガイド" },
             ]}
           />

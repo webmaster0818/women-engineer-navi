@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "転職エージェントの選び方を公的に検証できる情報で解説。厚労省「人材サービス総合サイト」での許可確認と就職実績・離職者数データの読み方、職業紹介優良事業者認定制度、面談で担当者を見極める質問リストまで、女性エンジニア向けに7つのチェックポイントで整理します。",
   alternates: { canonical: "/articles/how-to-choose/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "転職エージェントの選び方｜公的データで見極める7つのチェックポイント【2026年】",
     description:
       "厚労省「人材サービス総合サイト」での許可確認・実績データの読み方、職業紹介優良事業者認定制度、面談での見極め質問リストまで。転職エージェントの選び方を検証可能な情報で解説します。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "転職エージェントの選び方" },
             ]}
           />

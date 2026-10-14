@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "ReWorks 口コミ, リワークス 評判, ReWorks 女性, リワークス エンジニア フルリモート",
   alternates: { canonical: "/reviews/reworks/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ReWorks(リワークス)の口コミ・評判｜フルリモート×女性エンジニア",
     description: "ReWorks(リワークス)を女性エンジニア目線で徹底レビュー。フルリモート特化の実力を検証。",
     url: "https://women-engineer.com/reviews/reworks/",

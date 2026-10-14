@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "エンジニア転職の面接で使える逆質問の例文を、技術・チーム・評価・働き方のカテゴリ別、一次/最終/役員のフェーズ別で網羅。NG逆質問や、女性が産休育休・リモートを角を立てずに確認する聞き方、準備法まで実例豊富に解説します。",
   alternates: { canonical: "/articles/reverse-questions/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "エンジニア面接の逆質問 例文集｜好印象・NG例・フェーズ別の聞き方ガイド",
     description:
       "エンジニア転職の面接で評価される逆質問の例文を、カテゴリ別・フェーズ別で網羅。NG例や女性がキャリア継続を確認する聞き方、準備法まで実例豊富に解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "面接の逆質問ガイド" },
             ]}
           />

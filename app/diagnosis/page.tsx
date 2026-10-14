@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "8つの質問に答えるだけで、女性エンジニアにおすすめの転職エージェント9社からあなたに合う1社を無料診断。経験段階・重視するサポート・働き方・志望領域から相性の良いエージェントが分かります。登録不要・完全無料。",
   alternates: { canonical: "https://women-engineer.com/diagnosis/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア向け転職エージェント診断｜8つの質問で無料診断",
     description:
       "8つの質問で、女性エンジニア向け転職エージェント9社からあなたに合う1社を無料診断。",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアの職種別年収を一覧比較。フロントエンド523万・バックエンド・インフラ497万・SRE/クラウド660万・データサイエンティスト・セキュリティ629万・ITコンサル595万・PM等を実データで比較。高年収職種の傾向、女性が年収を上げる戦略、年代別推移、未経験から高年収を狙う道、転職事例も解説。",
   alternates: { canonical: "/articles/salary-by-job/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの職種別年収比較｜フロントからデータサイエンスまで一覧",
     description:
       "主要IT職種の平均年収を女性視点で一覧比較。高年収職種の傾向・年収を上げる戦略・年代別推移・未経験からの道を実データで解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "職種別エンジニア年収比較" },
             ]}
           />

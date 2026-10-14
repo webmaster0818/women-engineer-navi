@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性組み込み・IoTエンジニアの転職ガイド。平均年収約557万円（20代約450万〜50代約730万）や必要なC/C++・マイコン・RTOSスキル、未経験からのロードマップ、車載・IoTで伸びる求人動向、キャリアパスを実データで解説。長く働きやすい理由とおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/embedded/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性組み込み・IoTエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性組み込み・IoTエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "組み込みエンジニア転職ガイド" },
             ]}
           />

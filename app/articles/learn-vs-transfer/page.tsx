@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "未経験の女性がITエンジニアを目指すとき、「先にスクール・育成事業で学ぶ」ルートと「未経験可の会社に転職して実務で学ぶ」ルートのどちらが合うかを比較。年齢・貯蓄・学習時間による向き不向き、費用と時間の考え方、両取り（学んでから研修付き求人）まで整理し、両ルートで役立つエージェント活用も解説します。",
   alternates: { canonical: "/articles/learn-vs-transfer/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "先に学ぶ vs 転職して実務で学ぶ｜女性エンジニアのルート比較【2026年】",
     description:
       "「先に学ぶ」と「転職して実務で学ぶ」を、年齢・貯蓄・学習時間の観点で比較。費用と時間の考え方、両取り、エージェント活用まで解説します。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "先に学ぶ vs 転職して学ぶ" },
             ]}
           />

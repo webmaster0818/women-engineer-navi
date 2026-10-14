@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性が働きやすいIT企業の見極め方を解説。えるぼし・くるみん・なでしこ銘柄・健康経営優良法人の4つの公的認定の違い、厚労省「女性の活躍推進企業データベース」の使い方、女性管理職比率・育休復帰率など公開データの読み方を2026年最新の制度改正情報とともに紹介します。",
   alternates: { canonical: "/articles/women-friendly-companies/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性が働きやすいIT企業の見極め方｜認定制度と公開データの読み方【2026年】",
     description:
       "えるぼし・くるみんなど4つの公的認定の違いと、厚労省「女性の活躍推進企業データベース」の使い方、女性管理職比率・育休復帰率など公開データの読み方を解説。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性が働きやすいIT企業の見極め方" },
             ]}
           />

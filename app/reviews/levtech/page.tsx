@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords:
     "レバテックキャリア 口コミ, レバテックキャリア 評判, レバテックキャリア 女性, レバテックキャリア エンジニア",
   alternates: { canonical: "/reviews/levtech/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "レバテックキャリアの口コミ・評判｜女性エンジニアの転職に使える？",
     description:
       "レバテックキャリアを女性エンジニア目線で徹底レビュー。IT特化・求人約58,000件（2026年7月時点）・年収70万UP実績など、リアルな口コミと評判を紹介。",

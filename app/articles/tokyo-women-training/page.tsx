@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "東京都「女性ITエンジニア育成事業」を公式情報をもとに解説。令和8年度の募集は終了しました（2026年9月1日確認）。事業内容・口コミ・落ちた場合や間に合わなかった場合の選択肢（女性デジタルカレッジ・リスキリング支援・教育訓練給付）、令和9年度の発表状況まで継続更新しています。",
   alternates: { canonical: "/articles/tokyo-women-training/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
     description:
       "東京都「女性ITエンジニア育成事業」の対象者・コース内容・費用（受講料無料）・申込方法・就職支援を公式情報をもとに解説。応募前のチェックポイントと修了後の転職活動の進め方も紹介。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "東京都の女性ITエンジニア育成事業" },
             ]}
           />

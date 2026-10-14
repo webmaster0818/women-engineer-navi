@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "type女性の転職エージェント（キャリアデザインセンター運営）とdoda（パーソルキャリア運営）の違いを公式公開情報に基づいて整理。女性特化エージェントと総合型転職サービスという形態の違いから、女性エンジニアの状況別の使い分け・併用時の注意点を出典付きで解説します。",
   alternates: { canonical: "/articles/type-vs-doda/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "type女性の転職エージェントとdodaの違い｜女性エンジニアの使い分け【2026年】",
     description:
       "type女性の転職エージェントとdodaの違いを公式公開情報に基づいて整理。女性特化エージェントと総合型転職サービスという形態の違いから、状況別の使い分け・併用時の注意点を出典付きで解説します。",
@@ -102,7 +102,7 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer.com/articles/",
+      item: "https://women-engineer.com/articles/category-index/",
     },
     {
       "@type": "ListItem",
@@ -140,7 +140,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "type女性の転職エージェント vs doda" },
             ]}
           />

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "テックゴー 口コミ, テックゴー 評判, TechGo 評判, テックゴー 無料キャリア面談, テックゴー 面談 流れ, テックゴー 断られた, テックゴー 女性 エンジニア",
   alternates: { canonical: "/reviews/techgo/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "テックゴー（TechGo）の口コミ・評判｜平均138万円年収アップの実力を検証",
     description:
       "ITエンジニア特化の転職エージェント「テックゴー」を女性エンジニア目線で徹底レビュー。年収アップ実績・無料キャリア面談・選考対策の実力を公式情報をもとに検証。",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "CareeHUB for womanの記事制作ポリシーです。当サイトのコンテンツ制作における方針、情報の正確性、評価基準について説明しています。",
   alternates: { canonical: "/content-policy/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "記事制作ポリシー | CareeHUB for woman",
     description:
       "CareeHUB for womanの記事制作ポリシーです。コンテンツ制作の方針と評価基準について説明しています。",

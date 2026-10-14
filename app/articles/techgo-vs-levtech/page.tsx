@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "テックゴー レバテック 比較, テックゴー レバテックキャリア どっち, TechGo レバテック 違い, テックゴー 比較, 女性エンジニア 転職エージェント 比較",
   alternates: { canonical: "/articles/techgo-vs-levtech/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "テックゴーとレバテックキャリアの違い｜女性エンジニアの使い分け【2026年】",
     description:
       "テックゴーとレバテックキャリアの違いを公式公開情報で比較。年収アップ実績の公表方法・求人数・成熟度の違いと、状況別の向き不向き・併用の順番を出典付きで整理。",

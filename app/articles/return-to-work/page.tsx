@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ブランクから女性エンジニアに復職するには？再就職ロードマップと支援制度【2026年】",
   description:
-    "ブランクから女性エンジニアに復職・再就職する方法を解説。第1子出産前後の就業継続率69.5%や正規雇用比率のL字カーブなど公的統計と、教育訓練給付（最大80%）・経産省リスキリング支援（最大56万円）など実在の支援制度を出典付きで紹介。ブランク年数別（1〜2年／3〜5年／5年以上）の戦略とスキルキャッチアップのロードマップがわかります。",
+    "ブランクから女性エンジニアに復職・再就職する方法を解説。第1子出産前後の就業継続率69.5%や正規雇用比率のL字カーブなど公的統計と、教育訓練給付（最大80%）・経産省リスキリング支援（最大56万円）など実在の支援制度を出典付きで紹介。",
   alternates: { canonical: "/articles/return-to-work/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ブランクから女性エンジニアに復職するには？再就職ロードマップと支援制度【2026年】",
     description:
       "第1子出産前後の就業継続率69.5%や正規雇用比率のL字カーブなど公的統計と、教育訓練給付（最大80%）・経産省リスキリング支援（最大56万円）など実在の支援制度を出典付きで解説。ブランク年数別の復職戦略がわかります。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "ブランクから女性エンジニアに復職するには", item: "https://women-engineer.com/articles/return-to-work/" },
   ],
 };
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "ブランクからの復職・再就職ガイド" },
             ]}
           />

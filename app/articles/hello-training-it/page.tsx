@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "求職者支援訓練・ハロートレーニングでIT分野（Webデザイン・プログラミング等）を無料で学ぶ方法を厚生労働省の公式情報をもとに解説。雇用保険の有無による制度の違い、月10万円の職業訓練受講給付金の要件、IT系コースの探し方（ハローワークインターネットサービス）、申込みの流れ、訓練後の転職活動までまとめました。",
   alternates: { canonical: "/articles/hello-training-it/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "求職者支援訓練（ハロートレーニング）でITを学ぶには？受講料・給付金・コースの探し方【女性向け2026年】",
     description:
       "求職者支援訓練・ハロートレーニングでIT分野を無料で学ぶ方法を厚労省の公式情報をもとに解説。制度の仕組み、月10万円の給付金要件、IT系コースの探し方、申込みの流れ、訓練後の転職活動まで。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "求職者支援訓練（ハロートレーニング）でITを学ぶ" },
             ]}
           />

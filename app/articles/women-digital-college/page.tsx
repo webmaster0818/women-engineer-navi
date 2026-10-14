@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "東京都「女性デジタルカレッジ事業」を公式情報をもとに解説。結婚・出産・育児等で退職し再就職を目指す女性向けに、入門コース（Word・Excel基礎/5日間）と基礎及び応用コース（VBA・生成AIまで/15日間）を無料託児付きで提供。費用、申込方法、選考、女性ITエンジニア育成事業との違いまで一次情報で整理します。",
   alternates: { canonical: "/articles/women-digital-college/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "東京都 女性デジタルカレッジ事業とは？対象者・費用・申込方法【2026年度】",
     description:
       "東京都「女性デジタルカレッジ事業」の対象者・2コースの内容・費用（受講料無料）・無料託児・申込方法・選考を公式情報をもとに解説。女性ITエンジニア育成事業との違いも比較表で整理。",
@@ -110,7 +110,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "東京都の女性デジタルカレッジ事業" },
             ]}
           />

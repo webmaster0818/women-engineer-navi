@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニア向けPython資格の取得ガイド。Python3エンジニア認定基礎試験（合格率約78%・受験料1万円）とデータ分析試験（合格率81.5%・1万1000円）の難易度・出題範囲・勉強時間・教材を実データで解説。AI・データ分析需要で広がる年収・キャリアと、女性に役立つ理由・おすすめエージェントも紹介します。",
   alternates: { canonical: "/articles/cert-python/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアのPython資格ガイド｜基礎・データ分析試験の難易度・合格率・勉強法",
     description:
       "Python3エンジニア認定基礎試験・データ分析試験の難易度・合格率・受験料・勉強法を実データで解説。女性エンジニアに役立つ理由とキャリア・年収への影響も紹介。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "Python資格ガイド" },
             ]}
           />

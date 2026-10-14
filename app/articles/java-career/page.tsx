@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性Javaエンジニアの転職ガイド。平均年収（20代約430万〜40代約580万）や必要スキル（Java・Spring・SQL・設計）、未経験からのロードマップ、求人動向と将来性、キャリアパスを実データで解説。金融・大規模業務系で長く働きやすい理由とおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/java-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性Javaエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性Javaエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "Javaエンジニア転職ガイド" },
             ]}
           />

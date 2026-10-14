@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性がITスキルを公的支援で学ぶ方法を全国版で整理。全国どこでも使える教育訓練給付・求職者支援訓練・マナビDXの3制度と、東京都の女性ITエンジニア育成事業・女性デジタルカレッジを、対象・費用・形式・公式リンクの統一フォーマットで比較。他の道府県での探し方、在職中/離職中別の制度の選び方まで解説します。",
   alternates: { canonical: "/articles/women-it-support-map/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "全国の女性向けITリスキリング・訓練支援まとめ【公的制度ハブ・2026年】",
     description:
       "全国共通3制度（教育訓練給付・求職者支援訓練・マナビDX）と東京都の2事業を、対象・費用・形式・公式リンクで比較。他の道府県での探し方と在職中/離職中別の選び方も解説。",
@@ -101,7 +101,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "全国の女性向けITリスキリング支援まとめ" },
             ]}
           />

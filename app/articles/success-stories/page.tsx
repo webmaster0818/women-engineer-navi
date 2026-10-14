@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアの転職成功パターンを公的統計で分析。転職者の40.5%が賃金増・増減差+11.1ポイントは過去10年で最大（厚労省 令和6年雇用動向調査）、成功者の平均応募社数は31.9社（doda）。未経験・経験者・復職の3ルート別戦略と、統計に基づくモデルケースを出典付きで解説します。",
   alternates: { canonical: "/articles/success-stories/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの転職成功パターン分析｜データで見る成功の共通点【2026年】",
     description:
       "転職者の40.5%が賃金増・成功者の平均応募社数31.9社。架空の体験談ではなく、公的統計から見える転職成功の共通要因をパターン別に分析します。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "転職成功パターン分析" },
             ]}
           />

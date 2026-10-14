@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "求人票の「女性活躍中」を鵜呑みにせず、入社前に実態を確かめる具体手順を解説。厚生労働省「女性の活躍推進企業データベース」で管理職比率・勤続年数の男女差・残業時間・育休取得率を確認する方法、えるぼし・くるみん認定の読み方、有価証券報告書（EDINET）の探し方、面接で産休育休について角を立てずに聞く文例まで。",
   alternates: { canonical: "/articles/company-check-guide/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性が働きやすいIT企業の見極め方・実務編｜公式データベースの使い方・面接での聞き方文例【2026年】",
     description:
       "「女性活躍中」の求人票を印象で信じない。厚労省の公式データベース・えるぼし/くるみん認定・有価証券報告書という公表データの見方と、面接での聞き方文例で、入社前に女性の働きやすさを確かめる実務手順を解説します。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性が働きやすいIT企業の見極め方・実務編" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "エンジニア転職の技術面接対策を実情ベースで解説。ライブコーディング・システム設計・技術深掘り・ペアプロの4形式と評価観点、詰まったときの立ち回り、STAR法での経験整理、未経験者のポートフォリオ連携まで。AI協働時代の技術面接の変化も出典付きで網羅します。",
   alternates: { canonical: "/articles/technical-interview/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "エンジニア技術面接の対策ガイド｜ライブコーディング・設計質問・深掘りへの備え【2026年】",
     description:
       "ライブコーディング・システム設計・技術深掘り・ペアプロの4形式と評価観点、詰まったときの立ち回りを出典付きで解説。",
@@ -82,7 +82,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "技術面接対策", item: "https://women-engineer.com/articles/technical-interview/" },
   ],
 };
@@ -97,7 +97,7 @@ export default function TechnicalInterviewPage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "技術面接対策" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "技術面接対策" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#c15f47" }}>面接・選考</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

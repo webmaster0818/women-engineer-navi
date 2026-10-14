@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "ママエンジニアの働き方ガイド。女性の育休取得率86.6%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法（時短勤務・テレワーク・残業免除）を出典付きで解説。育児と両立しやすい職種の比較や時短×在宅のモデルケースも紹介します。",
   alternates: { canonical: "/articles/mama-engineer/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ママエンジニアの働き方ガイド｜時短・在宅の実態と両立できる職種【2026年】",
     description:
       "女性の育休取得率86.6%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法を出典付きで解説。育児と両立しやすい職種・働き方がわかります。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "ママエンジニアの働き方ガイド" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性UXデザイナー・UXリサーチャーの転職ガイド。ユーザーリサーチ・情報設計・プロトタイプなどの仕事内容、UI/Webデザイナーとの違い、平均年収（20代345万〜40代507万）、必要スキルとFigma、需要・将来性、未経験ロードマップ、キャリアパスを実データで解説。おすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/ux-designer/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性UXデザイナー転職ガイド｜仕事内容・年収・未経験からの道",
     description:
       "女性UXデザイナー・UXリサーチャーの仕事内容・年収・必要スキル・未経験からのロードマップ・将来性・キャリアパスを実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "UXデザイナー転職ガイド" },
             ]}
           />

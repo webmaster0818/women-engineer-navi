@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの副業ガイド｜始め方・単価相場・税金と会社規定の注意【2026年】",
   description:
-    "女性エンジニアの副業を実データで解説。企業の副業容認率64.0%（パーソル総合研究所2025）・正社員の副業実施率11.0%、副業の平均時給3,617円、形態別の単価目安、「所得20万円以下は確定申告不要」ルールの正確な中身（住民税の申告は別途必要=国税庁）、就業規則・競業避止の注意、転職市場での副業実績の活かし方まで出典付きで紹介します。",
+    "女性エンジニアの副業を実データで解説。企業の副業容認率64.0%（パーソル総合研究所2025）、副業の平均時給3,617円、「所得20万円以下は確定申告不要」ルールの正確な中身（住民税の申告は別途必要）、就業規則の注意まで出典付きで紹介します。",
   alternates: { canonical: "/articles/side-job/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの副業ガイド｜始め方・単価相場・税金と会社規定の注意【2026年】",
     description:
       "副業容認企業64.0%・副業実施率11.0%・平均時給3,617円（パーソル総合研究所2025）。形態別単価、20万円ルールの正確な税務、就業規則の注意点を実データで解説。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "女性エンジニアの副業ガイド", item: "https://women-engineer.com/articles/side-job/" },
   ],
 };
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアの副業ガイド" },
             ]}
           />

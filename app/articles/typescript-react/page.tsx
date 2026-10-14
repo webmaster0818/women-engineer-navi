@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性のTypeScript・Reactエンジニア転職ガイド。JavaScriptとの違い（型安全）やReact/Next.jsの実務、平均月単価76.9万円という高単価の実態、年代別年収、必要スキル、未経験・JSからのロードマップ、キャリアパスを実データで解説します。",
   alternates: { canonical: "/articles/typescript-react/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性TypeScript・Reactエンジニア転職ガイド｜年収・型安全・モダンフロント",
     description:
       "女性のTypeScript・Reactエンジニアの年収・必要スキル・JSからのロードマップ・求人動向・キャリアパスを実データで徹底解説。型安全なモダンフロント開発の魅力を紹介。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "TypeScript・Reactエンジニア転職ガイド" },
             ]}
           />

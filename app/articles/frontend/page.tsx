@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性フロントエンドエンジニアの転職ガイド。平均年収446万円（20代378万〜40代655万）やReact・TypeScriptなど必要スキル、未経験からのロードマップ、AI時代の役割の変化、キャリアパスを出典付きの実データで解説。おすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/frontend/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性フロントエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを実データで徹底解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "フロントエンドエンジニア転職ガイド" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "転職のコーディングテスト対策を実データで解説。paiza（採用企業3,000社以上）・Track Test（導入400社以上）・HireRoo・AtCoder PASTなど実在サービスの形式と難易度、レベル別の対策ロードマップ、落ちやすいポイント、AI利用ルールまで2026年の最新事情を網羅します。",
   alternates: { canonical: "/articles/coding-test/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "転職のコーディングテスト対策ガイド｜出題形式・難易度・対策ロードマップ【2026年】",
     description:
       "paiza・Track Test・HireRoo・AtCoder PASTなど実在サービスの形式比較と、レベル別対策ロードマップを出典付きで解説。",
@@ -98,7 +98,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "コーディングテスト対策", item: "https://women-engineer.com/articles/coding-test/" },
   ],
 };
@@ -113,7 +113,7 @@ export default function CodingTestPage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "コーディングテスト対策" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "コーディングテスト対策" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#c15f47" }}>面接・選考</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

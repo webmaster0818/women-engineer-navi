@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性Rubyエンジニア（Ruby on Rails）の転職ガイド。平均年収（20代約480万〜40代約650万）や必要スキル、未経験からのロードマップ、求人動向・将来性、キャリアパスを実データで解説。スタートアップ・自社開発で働きやすい理由とおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/ruby-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性Rubyエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性Rubyエンジニア（Ruby on Rails）の年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "Rubyエンジニア転職ガイド" },
             ]}
           />

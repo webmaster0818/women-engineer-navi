@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "契約社員エンジニアの女性が正社員を目指すための完全ガイド。無期転換ルール（通算5年）と正社員登用制度の違い、正社員になる具体ステップ、契約社員のメリット・デメリット、正社員転職という別ルート、女性が安定を得る戦略を実データと制度名で解説します。",
   alternates: { canonical: "/articles/contract-to-perm/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア｜契約社員から正社員を目指すガイド｜無期転換・登用の道筋",
     description:
       "契約社員エンジニアの女性が正社員を目指すためのガイド。無期転換ルール・正社員登用制度・具体ステップ・メリデメ・転職という別ルート・安定戦略を実データで解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "契約社員から正社員を目指すガイド" },
             ]}
           />

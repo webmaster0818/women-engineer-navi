@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "CareeHUB for womanの全100記事を13カテゴリに整理した記事ハブ。はじめての方向けガイドから職種・言語・資格・年収・働き方・両立・年代別・地域・選考対策・業界研究・エージェント比較・キャリアまで、目的の記事がすぐ見つかります。",
   alternates: { canonical: "/articles/category-index/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "記事カテゴリ一覧｜CareeHUB for womanの歩き方【全記事ガイド】",
     description:
       "全100記事を13カテゴリに整理した記事ハブ。職種・言語・資格・年収・働き方・両立・選考対策など、目的の記事がすぐ見つかります。",
@@ -36,7 +36,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "記事カテゴリ一覧", item: "https://women-engineer.com/articles/category-index/" },
   ],
 };
@@ -99,7 +99,7 @@ export default function CategoryIndexPage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "記事カテゴリ一覧" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "記事カテゴリ一覧" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>全記事ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

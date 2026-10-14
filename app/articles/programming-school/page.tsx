@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "プログラミングスクールは必要？女性エンジニア転職での選び方と給付金活用【2026年】",
   description:
-    "プログラミングスクールは本当に必要かを中立的に解説。独学・民間スクール・公的職業訓練の比較と、専門実践教育訓練給付（最大80%・年間上限64万円）・経産省リスキリング支援（最大70%・上限56万円）・求職者支援制度（無料訓練＋月10万円）など実在の給付金制度、誇大広告に惑わされないスクール選び7つのチェックポイントを出典付きで紹介します。",
+    "プログラミングスクールは本当に必要かを中立的に解説。独学・民間スクール・公的職業訓練の比較と、専門実践教育訓練給付（最大80%）・求職者支援制度など実在の給付金制度、スクール選び7つのチェックポイントを出典付きで紹介します。",
   alternates: { canonical: "/articles/programming-school/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "プログラミングスクールは必要？女性エンジニア転職での選び方と給付金活用【2026年】",
     description:
       "独学・民間スクール・公的職業訓練の比較と、教育訓練給付（最大80%）・経産省リスキリング支援（最大56万円）・求職者支援制度（無料訓練＋月10万円）など実在の給付金制度を出典付きで解説。誇大広告に惑わされないスクール選び7つのチェックポイントを紹介。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "プログラミングスクールは必要？選び方と給付金活用", item: "https://women-engineer.com/articles/programming-school/" },
   ],
 };
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "プログラミングスクールの選び方と給付金活用" },
             ]}
           />

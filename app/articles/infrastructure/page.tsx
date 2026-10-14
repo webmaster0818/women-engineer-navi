@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性インフラエンジニアの転職ガイド2026年版。平均年収475万円（求人ボックス）の実データと運用保守→構築→設計のラダー別年収、未経験から運用監視で入る現実的ルート、夜勤・オンコールの実態と回避策、CCNA/LPIC資格ルート、クラウド化による職種変化まで出典付きで解説します。",
   alternates: { canonical: "/articles/infrastructure/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性インフラエンジニア転職ガイド｜年収・未経験からの道・夜勤の実態【2026年】",
     description:
       "女性インフラエンジニアの年収（ラダー別）・未経験から運用監視で入るルート・夜勤の実態と回避策・資格ルート・クラウド化の影響を実データで解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "インフラエンジニア転職ガイド" },
             ]}
           />

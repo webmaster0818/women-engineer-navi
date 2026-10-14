@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアのワークライフバランス実態をデータで解説。IT業界（情報通信業）の残業は月16.5時間（全産業13.2時間）、有給取得率66.9%、フレックスタイム制導入率35.9%で産業別トップ——厚労省・総務省の公的統計を出典付きで整理し、WLBの良い職場の見極め方まで紹介します。",
   alternates: { canonical: "/articles/work-life-balance/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアのワークライフバランス実態｜残業・有給・柔軟な働き方のデータ【2026年】",
     description:
       "IT業界の残業は月16.5時間（全産業13.2時間）、有給取得率66.9%、フレックス導入率35.9%で産業別トップ。公的統計でWLBの実態と職場の見極め方を解説。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "ワークライフバランス実態" },
             ]}
           />

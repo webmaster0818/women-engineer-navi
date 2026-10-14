@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "育児と両立する女性エンジニアのリアルな1日を、平日リモート例・出社例のタイムスケジュール表で具体的に解説。子の看護休暇や時短勤務・在宅勤務などの制度（2025年改正対応）、家事分担・時短家電・病児保育の工夫、両立のコツと本音、メンタル維持まで紹介します。",
   alternates: { canonical: "/articles/work-childcare-day/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "育児と両立する女性エンジニアの1日｜リアルなタイムスケジュール（リモート・出社・時短）",
     description:
       "育児中の女性エンジニアの1日を、リモート例・出社例のタイムスケジュール表で具体的に解説。使える制度・両立の工夫・病児対応・本音・メンタル維持まで。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "育児と両立する女性エンジニアの1日" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "東京都の女性ITエンジニア育成事業やデジタルカレッジなどを修了した女性向けの転職活動ガイド。修了直後にやること（成果物のポートフォリオ化・職務経歴書）、修了生の進路パターン（受託／自社開発／SES）を正直に整理し、未経験〜微経験の転職で定石となるエージェント併用の使い方まで解説します。",
   alternates: { canonical: "/articles/training-after-graduation/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性IT育成事業の修了後の転職活動ガイド｜進路とエージェント活用【2026年】",
     description:
       "女性IT育成事業を修了した人向けの転職活動ガイド。修了直後にやること・進路パターン・エージェント活用を、未経験からの転職の実情に即して解説します。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "育成事業 修了後の転職活動" },
             ]}
           />

@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを徹底比較",
   description:
-    "女性エンジニアがデータベース系資格を取得するためのガイド。OSS-DB Silver/Gold、ORACLE MASTER Bronze/Silver/Gold、データベーススペシャリスト（IPA高度）の難易度・受験料・勉強時間・勉強法を実データで比較。取得後の年収・キャリアへの影響、女性に役立つ理由、おすすめ教材・転職エージェントまで解説します。",
+    "女性エンジニアがデータベース系資格を取得するためのガイド。OSS-DB Silver/Gold、ORACLE MASTER Bronze/Silver/Gold、データベーススペシャリスト（IPA高度）の難易度・受験料・勉強時間・勉強法を実データで比較。",
   alternates: { canonical: "/articles/cert-database/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを徹底比較",
     description:
       "OSS-DB・ORACLE MASTER・データベーススペシャリストの難易度・受験料・勉強時間・勉強法・年収への影響を実データで比較。女性エンジニアがDB資格で市場価値を上げる方法を解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "データベース資格ガイド" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性データサイエンティストの転職ガイド。平均年収556万円（doda）・厚労省job tagでは611.9万円という実データをもとに、必要なスキル3領域（統計・エンジニアリング・ビジネス）、統計検定・DS検定、データアナリストとの違い、未経験からの段階的キャリアルートを出典付きで解説します。",
   alternates: { canonical: "/articles/data-scientist/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性データサイエンティスト転職ガイド｜年収・必要スキル・未経験からの道筋【2026年】",
     description:
       "女性データサイエンティストの年収相場・必要スキル3領域・統計検定/DS検定・データアナリストとの違い・未経験からの段階的キャリアルートを実データと出典付きで解説。",
@@ -127,7 +127,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "データサイエンティスト転職ガイド" },
             ]}
           />

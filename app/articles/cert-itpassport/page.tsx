@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "ITパスポート試験（iパス）を未経験からITを目指す女性向けに解説。IPA公式データに基づく試験概要（CBT随時・受験料7,500円・100問120分）、令和7年度合格率48.6%、出題範囲と合格基準、勉強の進め方、教育訓練給付・無料講座など費用を抑える公的支援、転職での評価の実際まで。",
   alternates: { canonical: "/articles/cert-itpassport/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性のITパスポート試験ガイド｜合格率48.6%・未経験の最初の一歩【2026年】",
     description:
       "ITパスポート試験をIPA公式データで解説。CBT随時・7,500円・令和7年度合格率48.6%。未経験女性の最初の一歩としての活かし方と公的支援の使い方。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "ITパスポート試験ガイド" },
             ]}
           />

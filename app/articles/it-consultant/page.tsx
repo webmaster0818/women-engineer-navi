@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性ITコンサルタントの転職ガイド。平均年収（20代500万〜40代780万）や上流・要件定義・DX・PMO・SAPの仕事内容、エンジニアから目指すロードマップ、求人動向・将来性、キャリアパスを実データで解説。働き方の実態やおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/it-consultant/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性ITコンサルタント転職ガイド｜年収・必要スキル・エンジニアからの道",
     description:
       "女性ITコンサルタントの年収・必要スキル・エンジニアからのロードマップ・求人動向・キャリアパス・働き方の実態を実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "ITコンサルタント転職ガイド" },
             ]}
           />

@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野を解説【2026年】",
   description:
-    "シングルマザー・シングルファザーがIT資格取得で使える給付制度を、こども家庭庁の公式情報をもとに解説。高等職業訓練促進給付金（訓練期間中 月額10万円・シスコ/LPI等のデジタル分野の民間資格も対象例に明記）、自立支援教育訓練給付金（受講費の60%）の支給内容・対象者・申請窓口（都道府県・市区町村）、一般の教育訓練給付や求職者支援制度との違いまでまとめました。",
+    "シングルマザー・シングルファザーがIT資格取得で使える給付制度を、こども家庭庁の公式情報をもとに解説。高等職業訓練促進給付金（月額10万円）、自立支援教育訓練給付金（受講費の60%）の支給内容・対象者・申請窓口をまとめました。",
   alternates: { canonical: "/articles/hitorioya-it-training/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野を解説【2026年】",
     description:
       "ひとり親がIT資格取得で使える給付制度をこども家庭庁の公式情報をもとに解説。高等職業訓練促進給付金（月額10万円・シスコ/LPI等デジタル分野も対象例）、自立支援教育訓練給付金、申請窓口、他制度との違いまで。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "ひとり親のIT資格取得に使える給付金" },
             ]}
           />

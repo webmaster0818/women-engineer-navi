@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "テックゴー 無料キャリア面談, テックゴー キャリア面談 無料, TechGo キャリア面談, テックゴー 面談 内容, テックゴー 登録",
   alternates: { canonical: "/articles/techgo-career-mendan/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "テックゴーの無料キャリア面談とは？内容・流れ・準備を徹底解説【2026年】",
     description:
       "テックゴー（TechGo）の無料キャリア面談を公式情報をもとに解説。面談で聞かれること、無料の理由、登録から内定までの5ステップ、面談前の準備まで紹介。",

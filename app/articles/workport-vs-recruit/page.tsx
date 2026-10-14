@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "ワークポートとリクルートエージェントの違いを公式サイトの公開情報のみで整理。運営会社・求人数の公式表示・サポート体制を出典付きで比較し、未経験・経験者・地方在住など状況別の使い分けを中立に解説します。",
   alternates: { canonical: "/articles/workport-vs-recruit/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ワークポートとリクルートエージェントの違い｜女性エンジニアの使い分け【2026年】",
     description:
       "ワークポートとリクルートエージェントの違いを公式サイトの公開情報のみで整理。運営会社・求人数の公式表示・サポート体制を出典付きで比較し、状況別の使い分けを中立に解説します。",
@@ -102,7 +102,7 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer.com/articles/",
+      item: "https://women-engineer.com/articles/category-index/",
     },
     {
       "@type": "ListItem",
@@ -140,7 +140,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "ワークポート vs リクルートエージェント比較" },
             ]}
           />

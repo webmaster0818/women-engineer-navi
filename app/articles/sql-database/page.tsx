@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性データベースエンジニア（DBA）転職ガイド｜年収・必要スキル・未経験からの道",
   description:
-    "女性データベースエンジニア・DBAの転職ガイド。DB設計・SQL・RDBMS運用・パフォーマンスチューニングという仕事内容やデータエンジニアとの違い、平均年収（20代373万〜40代600万）、必要スキル・資格（ORACLE MASTER/OSS-DB）、未経験ロードマップ、求人動向、キャリアパスを実データで解説します。",
+    "女性データベースエンジニア・DBAの転職ガイド。DB設計・SQL・RDBMS運用・パフォーマンスチューニングという仕事内容やデータエンジニアとの違い、平均年収（20代373万〜40代600万）、必要スキル・資格（ORACLE MASTER/OSS-DB）、未経験ロードマップ、求人動向、キャリアパスを実データで解説。",
   alternates: { canonical: "/articles/sql-database/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性データベースエンジニア（DBA）転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。データエンジニアとの違いも明確に。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "データベースエンジニア転職ガイド" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "東京都の女性ITエンジニア育成事業やデジタルカレッジなど選考のある公的事業に落ちた・募集終了で受けられない女性向け。他自治体の無料事業・マナビDX・教育訓練給付・ハロートレーニングといった代替ルートと、「研修のある会社に転職して実務で学ぶ」第3の選択肢を、公式情報をもとに整理します。",
   alternates: { canonical: "/articles/training-not-selected/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性IT育成事業に落ちたら？無料で学べる代替ルートと研修付き転職という選択肢【2026年】",
     description:
       "選考のある公的IT育成事業に落ちた・受けられない女性向け。無料で学べる代替ルート（他自治体事業・マナビDX・教育訓練給付・ハロートレーニング）と、研修付き転職という第3の選択肢を整理します。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性IT育成事業に落ちたら" },
             ]}
           />

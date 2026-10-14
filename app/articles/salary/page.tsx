@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアの平均年収を実データで解説。女性ITエンジニアの平均は419万円（doda）、女性SEは約497万円（賃金構造基本統計調査ベース）。年代別・職種別の年収表、男女賃金差の実態、差を埋める年収交渉・職種選択・スキル戦略まで2026年最新データで紹介します。",
   alternates: { canonical: "/articles/salary/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの年収はいくら？年代・職種別の実データと年収アップ術【2026年】",
     description:
       "女性ITエンジニアの平均年収は419万円、女性SEは約497万円。年代別・職種別の実データと男女賃金差、年収アップの具体策を2026年最新データで解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアの年収ガイド" },
             ]}
           />

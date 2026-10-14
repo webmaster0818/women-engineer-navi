@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性SRE・DevOpsエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   description:
-    "女性SRE・DevOpsエンジニアの転職ガイド。平均年収（SRE約850万〜950万、DevOps約678万）や年代別相場、Terraform・Kubernetes・SLO/SLIなど必要スキル、インフラからの移行ロードマップ、求人動向、キャリアパスを実データで解説。長く働きやすい理由とおすすめエージェントも紹介します。",
+    "女性SRE・DevOpsエンジニアの転職ガイド。平均年収（SRE約850万〜950万、DevOps約678万）や年代別相場、Terraform・Kubernetes・SLO/SLIなど必要スキル、インフラからの移行ロードマップ、求人動向、キャリアパスを実データで解説。長く働きやすい理由とおすすめエージェントも紹介。",
   alternates: { canonical: "/articles/sre-devops/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性SRE・DevOpsエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性SRE・DevOpsエンジニアの年収・必要スキル・インフラからのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "SRE・DevOpsエンジニア転職ガイド" },
             ]}
           />

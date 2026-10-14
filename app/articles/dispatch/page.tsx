@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性派遣エンジニアという働き方ガイド｜時給・年収相場・正社員化の道",
   description:
-    "女性が派遣エンジニアとして働くためのガイド。一般派遣・常用型・SESの違い、時給相場（平均2,188円・Python2,568円）や年収（約400〜450万円）、残業少なめ・勤務地が選べる・ブランク後に入りやすいメリットと不安定さ・スキル偏りのデメリット、紹介予定派遣での正社員化（直接雇用56%）まで実データで解説します。",
+    "女性が派遣エンジニアとして働くためのガイド。一般派遣・常用型・SESの違い、時給相場（平均2,188円）や年収（約400〜450万円）、メリット・デメリット、紹介予定派遣での正社員化（直接雇用56%）まで実データで解説します。",
   alternates: { canonical: "/articles/dispatch/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性派遣エンジニアという働き方ガイド｜時給・年収相場・正社員化の道",
     description:
       "女性派遣エンジニアの仕組み・時給年収相場・メリットデメリット・正社員化の道・向いている人を実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "派遣エンジニアという働き方ガイド" },
             ]}
           />

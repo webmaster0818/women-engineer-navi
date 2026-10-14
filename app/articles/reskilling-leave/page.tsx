@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "育休中のエンジニアがスキルアップ・リスキリングに取り組むためのガイド。育児を優先しながら無理なく学ぶ意義と注意点、おすすめ分野（クラウド・AI・言語アップデート）、スキマ時間の学習法、役立つ資格、教育訓練給付金など支援制度、復職・転職への活かし方を実データで解説します。",
   alternates: { canonical: "/articles/reskilling-leave/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "育休中のスキルアップ・リスキリングガイド｜エンジニアが復職・転職に向けて学ぶ方法",
     description:
       "育休中のエンジニアがスキルアップ・リスキリングに取り組む方法を実データで解説。おすすめ学習分野・スキマ時間の学習法・資格・教育訓練給付金などの支援制度・復職/転職への活かし方まで。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "育休中のスキルアップ・リスキリングガイド" },
             ]}
           />

@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
   description:
-    "福岡県「でじたる女子（でじたる女性）プロジェクト」（福岡県女性デジタル人材育成・就業支援事業）を公式情報をもとに解説。県内在住の成人女性向けに無料でSAP・RPAを学べた伴走型支援の内容と、2026年7月18日時点の募集状況（公式サイトに「本事業は終了しました」と表示・令和8年度の募集は確認できず）、代わりに使える支援制度まで正直に整理します。",
+    "福岡県「でじたる女子プロジェクト」を公式情報をもとに解説。無料でSAP・RPAを学べた支援の内容と、2026年7月18日時点の募集状況（公式サイトに「本事業は終了しました」と表示）、代わりに使える支援制度まで正直に整理します。",
   alternates: { canonical: "/articles/fukuoka-digital-woman/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
     description:
       "福岡県「でじたる女子（でじたる女性）プロジェクト」の事業内容（無料・SAP/RPA・約4か月・PC貸与）と、2026年7月時点の募集状況（公式サイトでは終了と表示・次期は未確認）、代替になる女性向け支援制度を一次情報で解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "福岡県のでじたる女子プロジェクト" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "SIer業界の構造（元請け〜多重下請けピラミッド）と女性エンジニアの働きやすさを実データで解説。大手SIerの有価証券報告書ベースの平均年収（788万〜1,322万円）、プラチナくるみん等の認定実績、配属ガチャ・客先常駐の注意点、Web系との違いまで出典付きでまとめました。",
   alternates: { canonical: "/articles/sier-industry/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "SIerで働く女性エンジニアのリアル｜年収・安定性・Web系との違い【2026年】",
     description:
       "SIer業界の構造と女性エンジニアの働きやすさを実データで解説。大手SIerの有報平均年収・産育休の認定実績・注意点まで出典付き。",
@@ -102,7 +102,7 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 2,
       name: "転職コラム",
-      item: "https://women-engineer.com/articles/",
+      item: "https://women-engineer.com/articles/category-index/",
     },
     {
       "@type": "ListItem",
@@ -140,7 +140,7 @@ export default function SierIndustryPage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "SIerで働く女性エンジニアのリアル" },
             ]}
           />

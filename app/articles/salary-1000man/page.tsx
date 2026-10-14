@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが年収1000万円を実現する方法を実データで解説。1000万に届く職種（SRE・データサイエンティスト・ITコンサル・EM・高単価フリーランス・外資）、必要なスキルと経験年数、達成ルート、女性のための5つの戦略、現実的な割合まで具体的に紹介します。",
   alternates: { canonical: "/articles/salary-1000man/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが年収1000万を目指す方法｜届く職種・スキル・5つの戦略",
     description:
       "女性エンジニアが年収1000万円に到達できる職種・必要スキル・達成ルート・5つの戦略を実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアが年収1000万を目指す方法" },
             ]}
           />

@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性QAエンジニア・テスター転職ガイド｜年収・未経験からのキャリアラダー【2026年】",
   description:
-    "女性QAエンジニア・テスターの転職ガイド。テスター350万〜500万円、QAエンジニア400万〜600万円、自動化エンジニア・SDETは700万円超の求人例まで、段階別の年収相場を出典付きで解説。JSTQB資格の合格率、テスト自動化でのステップアップ戦略、AI時代のQA職の変化、未経験からの参入実態まで2026年の実データでまとめました。",
+    "女性QAエンジニア・テスターの転職ガイド。テスター350万〜500万円、QAエンジニア400万〜600万円、自動化エンジニア・SDETは700万円超の求人例まで、段階別の年収相場を出典付きで解説。",
   alternates: { canonical: "/articles/qa-tester/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性QAエンジニア・テスター転職ガイド｜年収・未経験からのキャリアラダー【2026年】",
     description:
       "テスター→QAエンジニア→自動化エンジニアの段階別年収、JSTQB資格、AI時代のQA職の変化を実データ・出典付きで解説。未経験女性の入口職種としての現実も率直に。",
@@ -127,7 +127,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "QAエンジニア・テスター転職ガイド" },
             ]}
           />

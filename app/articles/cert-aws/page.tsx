@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアのAWS認定資格取得ガイド。Foundational/Associate/Professional/Specialtyの体系、CLF・SAAの難易度・受験料・勉強時間・勉強法を実データで解説。クラウド需要と年収アップ、女性に役立つ理由、どれから取るべきか、おすすめ教材・エージェントまで網羅します。",
   alternates: { canonical: "/articles/cert-aws/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアのAWS認定資格ガイド｜取得すべき順番・難易度・勉強法",
     description:
       "AWS認定の体系・難易度・受験料・勉強時間・勉強法・年収アップ効果を実データで解説。女性エンジニアがどの資格から取るべきかも紹介。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "AWS認定資格ガイド" },
             ]}
           />

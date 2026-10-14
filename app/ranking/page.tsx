@@ -704,7 +704,7 @@ export default function RankingPage() {
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             <div className="rounded-xl border border-line bg-base p-5">
               <p className="font-bold text-text mb-2">STEP1: 情報収集</p>
-              <p className="text-sm text-text-light">希望条件(リモート可否・産休育休実績・年収)を整理します。<a href="/articles/" className="underline text-primary">キャリアガイド記事</a>や<a href="/diagnosis/" className="underline text-primary">無料診断</a>が入口です。</p>
+              <p className="text-sm text-text-light">希望条件(リモート可否・産休育休実績・年収)を整理します。<a href="/articles/category-index/" className="underline text-primary">キャリアガイド記事</a>や<a href="/diagnosis/" className="underline text-primary">無料診断</a>が入口です。</p>
             </div>
             <div className="rounded-xl border border-line bg-base p-5">
               <p className="font-bold text-text mb-2">STEP2: エージェント登録・相談</p>

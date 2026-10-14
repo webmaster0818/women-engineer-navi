@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords:
     "type女性の転職エージェント 口コミ, type女性の転職エージェント 評判, type 女性 エンジニア",
   alternates: { canonical: "/reviews/type-woman/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "type女性の転職エージェントの口コミ・評判｜女性エンジニアへの対応は？",
     description:

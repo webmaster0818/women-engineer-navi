@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが応用情報技術者試験を取得するための完全ガイド。試験概要（午前80問・午後記述式）、合格率約20〜25%の難易度、基本情報との違い、勉強時間200〜500時間の勉強法、おすすめ教材、取得後の年収・キャリア（高度試験・支援士への足がかり）を実データで解説します。",
   alternates: { canonical: "/articles/cert-oyojoho/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの応用情報技術者試験ガイド｜難易度・合格率・勉強法・キャリア",
     description:
       "応用情報技術者試験の概要・難易度・合格率・勉強法・教材・取得後の年収とキャリアを実データで徹底解説。女性エンジニアがスキルを証明し市場価値を高める方法。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "応用情報技術者試験ガイド" },
             ]}
           />

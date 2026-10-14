@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性セキュリティエンジニア転職ガイド｜年収・資格・未経験からの道",
   description:
-    "女性セキュリティエンジニアの転職ガイド。平均年収（20代後半445万〜40代620万・全体600万前後）や脆弱性診断・SOC・CSIRTなどの仕事内容、情報処理安全確保支援士やCISSPなど必要資格、未経験ロードマップ、需要・将来性、キャリアパスを実データで解説。長く働きやすい理由とおすすめ転職エージェントも紹介します。",
+    "女性セキュリティエンジニアの転職ガイド。平均年収（20代後半445万〜40代620万・全体600万前後）や脆弱性診断・SOC・CSIRTなどの仕事内容、情報処理安全確保支援士やCISSPなど必要資格、未経験ロードマップ、需要・将来性、キャリアパスを実データで解説。長く働きやすい理由とおすすめ転職エージェントも紹介。",
   alternates: { canonical: "/articles/security/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性セキュリティエンジニア転職ガイド｜年収・資格・未経験からの道",
     description:
       "女性セキュリティエンジニアの年収・必要資格・未経験からのロードマップ・需要・キャリアパスを実データで徹底解説。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "セキュリティエンジニア転職ガイド" },
             ]}
           />

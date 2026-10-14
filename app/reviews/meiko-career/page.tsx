@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "明光キャリアパートナーズ 評判, 明光キャリアパートナーズ 口コミ, STRATEGY CAREER 評判, Reverse コンサル 評判, エンジニア M&A 転職",
   alternates: { canonical: "/reviews/meiko-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "明光キャリアパートナーズの評判・口コミ｜エンジニアからM&A・コンサル転職という選択肢を検証",
     description:
       "M&A・コンサルティングファーム・ファンド領域特化の人材紹介「明光キャリアパートナーズ」を女性エンジニア目線でレビュー。IT実務エージェントとの違いも正直に解説。",

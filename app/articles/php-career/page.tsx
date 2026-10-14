@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性PHPエンジニアの転職ガイド。仕事内容（Web開発/EC/CMS/Laravel/WordPress）や平均年収（20代373万〜40代605万）、必要スキル、未経験ロードマップ、求人動向と将来性、キャリアパスを実データで解説。学習しやすく求人も多いPHPで、女性が長く働く方法とおすすめエージェントを紹介します。",
   alternates: { canonical: "/articles/php-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性PHPエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性PHPエンジニアの仕事内容・年収・必要スキル・未経験ロードマップ・求人動向・将来性・キャリアパスを実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "PHPエンジニア転職ガイド" },
             ]}
           />

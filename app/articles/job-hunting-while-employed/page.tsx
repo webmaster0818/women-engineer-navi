@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "在職中の転職活動の進め方を女性エンジニア向けに解説。収入を維持しながら進めるメリット、3〜6ヶ月の全体スケジュール、平日面接の日程調整術（有給・半休・オンライン面接）、会社にバレない注意点、育児と両立する効率化のコツ、退職交渉のタイミングまで具体的に紹介します。",
   alternates: { canonical: "/articles/job-hunting-while-employed/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "在職中の転職活動の進め方ガイド｜エンジニアのスケジュール・面接調整・退職交渉",
     description:
       "在職中の転職活動の進め方を女性エンジニア向けに解説。スケジュール・面接日程の調整術・バレない注意点・退職交渉のタイミングを実例つきで紹介。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "在職中の転職活動の進め方ガイド" },
             ]}
           />

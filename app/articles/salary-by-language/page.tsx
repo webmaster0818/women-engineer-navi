@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニア向けにプログラミング言語別の年収を徹底比較。Go723万円・TypeScript714万円・Ruby689万円など主要11言語の平均年収とフリーランス単価を一覧表で解説。高単価言語の理由、女性が年収を上げる言語選び、未経験から狙える言語、言語を変えて年収アップした事例まで実データで紹介します。",
   alternates: { canonical: "/articles/salary-by-language/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの言語別年収比較｜稼げる言語の選び方",
     description:
       "主要プログラミング言語の平均年収・フリーランス単価を比較。高単価言語の理由、女性が年収を上げる言語選び、未経験から狙える言語を実データで解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "言語別エンジニア年収比較" },
             ]}
           />

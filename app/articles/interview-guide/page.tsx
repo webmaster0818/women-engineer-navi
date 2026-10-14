@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "エンジニア転職の面接対策を実データで解説。選考フロー全体図（カジュアル面談→一次技術面接→最終）、頻出質問4カテゴリの答え方フレーム、本来聞いてはいけない結婚・出産の質問への対処（厚労省「公正な採用選考」準拠）、オンライン面接チェックリストまで2026年の実情を網羅します。",
   alternates: { canonical: "/articles/interview-guide/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの転職面接対策｜流れ・頻出質問・答え方の組み立て【2026年】",
     description:
       "選考フロー全体図・頻出質問4カテゴリの答え方フレーム・結婚出産の質問への対処・オンライン面接チェックリストを出典付きで解説。",
@@ -82,7 +82,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "面接対策ガイド", item: "https://women-engineer.com/articles/interview-guide/" },
   ],
 };
@@ -97,7 +97,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "面接対策ガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "面接対策ガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#c15f47" }}>面接・選考</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

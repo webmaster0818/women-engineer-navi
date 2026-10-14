@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性C#エンジニアの転職ガイド。.NET業務系・Unityゲーム・Windowsアプリの仕事内容、平均年収（20代約400万〜40代約600万）や必要スキル、未経験からのロードマップ、求人動向と将来性、キャリアパスを実データで解説。長く働きやすい理由とおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/csharp-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性C#エンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性C#エンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・将来性・キャリアパスを実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "C#エンジニア転職ガイド" },
             ]}
           />

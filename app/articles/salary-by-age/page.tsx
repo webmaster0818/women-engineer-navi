@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアの年代別年収を実データで解説。20代前半376万円→30代前半500万円台→40代前半600万円超→50代までの推移、男女差約110万円とその理由、ライフイベントの影響、年代ごとの年収アップ戦略を年代別年収表とともに紹介します。",
   alternates: { canonical: "/articles/salary-by-age/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの年代別年収【20代〜50代】実額と推移を徹底解説",
     description:
       "女性エンジニアの20代〜50代の年収推移を実額で解説。男女差の理由・ライフイベントの影響・年代別の年収アップ戦略を年代別年収表とともに紹介。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "年代別の女性エンジニア年収" },
             ]}
           />

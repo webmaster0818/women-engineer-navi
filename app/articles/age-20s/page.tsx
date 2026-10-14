@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "20代女性エンジニアの転職を実データで解説。20代の平均年収365万円・IT/通信業種の20代は381万円（doda 2025）、20〜24歳の転職者の50.5%が賃金増、女性の転職入職率は25〜29歳で16.8%と全年代トップクラス。第二新卒・ポテンシャル採用の動向、未経験からの選択肢まで出典付きで紹介します。",
   alternates: { canonical: "/articles/age-20s/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "20代女性エンジニアの転職ガイド｜年収相場・第二新卒・未経験の選択肢【2026年】",
     description:
       "20代女性エンジニアの年収相場・転職市場・20代前半/後半の戦略・第二新卒とポテンシャル採用・未経験からの選択肢を公的統計と実データで解説。",
@@ -111,7 +111,7 @@ export default function Age20sArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "20代女性エンジニアの転職ガイド" },
             ]}
           />

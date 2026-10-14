@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "女性ITエンジニアの平均年収（年代別・言語別・主要12職種別）、業界の女性比率、IT人材の求人倍率、情報通信業の育休取得率・テレワーク導入率を、公的統計や調査の出典つきでまとめたデータ集。転職判断やキャリア設計の根拠としてご活用ください。",
   alternates: { canonical: "/articles/data/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性ITエンジニアの転職データ集｜年収・割合・育休・求人倍率【出典つき】",
     description:
       "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を出典つきで集約したデータ集。",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性に人気のテクニカルサポート／カスタマーサクセス（IT・SaaS）転職ガイド。仕事内容や平均年収（20代495万〜30代740万）、未経験からなる方法、SaaS拡大で伸びる求人動向・将来性、CS→PdM/セールスエンジニアへのキャリアパスを実データで解説。おすすめエージェントも紹介します。",
   alternates: { canonical: "/articles/support-engineer/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性のテクニカルサポート・カスタマーサクセス転職ガイド｜年収・なり方・将来性",
     description:
       "女性に人気のテクニカルサポート／カスタマーサクセス転職を実データで徹底解説。年収・未経験からのなり方・SaaS拡大による求人動向・キャリアパス。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "テクニカルサポート・カスタマーサクセス転職ガイド" },
             ]}
           />

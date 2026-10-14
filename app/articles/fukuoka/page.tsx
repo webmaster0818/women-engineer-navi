@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "福岡で転職したい女性エンジニア向けガイド。スタートアップ都市・エンジニアフレンドリーシティ福岡の求人動向、年収相場（SE約523万・東京比較）、LINEヤフー・ヌーラボ・Fusicなど働きやすい企業、移住支援金100万円やリモート移住、未経験ロードマップ、転職事例まで実データで解説します。",
   alternates: { canonical: "/articles/fukuoka/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの福岡転職ガイド｜年収相場・働きやすい企業・移住の選択肢",
     description:
       "福岡のIT転職市場・年収相場・女性が働きやすい企業・リモート移住・転職事例を実データで徹底解説。「女性エンジニア 転職 福岡」の決定版ガイド。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "福岡の女性エンジニア転職ガイド" },
             ]}
           />

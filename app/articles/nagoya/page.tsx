@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "名古屋・東海で女性エンジニアが転職するためのガイド。自動車・製造業のDXや社内SE・組み込み・SIerが強い地域特性、年収相場（IT平均約500万・上位700万超）、育休やリモートが整う東海企業、未経験からのステップ、おすすめエージェントを実データで解説します。",
   alternates: { canonical: "/articles/nagoya/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア転職【名古屋・東海】製造業DX・社内SEで広がる選択肢",
     description:
       "名古屋・東海のIT転職市場、年収相場、女性が働きやすい東海企業、未経験からのステップを実データで解説。製造業DXとリモートで広がる選択肢を紹介します。",
@@ -110,7 +110,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "名古屋・東海の女性エンジニア転職ガイド" },
             ]}
           />

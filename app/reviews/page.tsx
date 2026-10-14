@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニア目線で検証した転職エージェント・転職サービスのレビュー一覧。IT特化型・女性特化型・総合型・ハイキャリア型まで、公式確認済みの情報と出典付きの口コミで比較できます。",
   alternates: { canonical: "/reviews/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "転職エージェント・サービスレビュー一覧｜女性エンジニア目線で検証",
     description:
       "女性エンジニア目線で検証した転職エージェント・サービスのレビュー一覧。公式確認済みの情報と出典付きの口コミで比較。",

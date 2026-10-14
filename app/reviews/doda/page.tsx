@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "dodaを女性エンジニア目線で徹底レビュー。総合型・求人数業界2位・Women's Career運営・エンジニア求人も充実など、リアルな口コミと評判を紹介。",
   keywords: "doda 口コミ, doda 評判, doda 女性, doda エンジニア 転職",
   alternates: { canonical: "/reviews/doda/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "dodaの口コミ・評判｜女性エンジニアの転職にdodaは使える？",
     description: "dodaを女性エンジニア目線で徹底レビュー。求人数業界2位・Women's Career運営の実力を検証。",
     url: "https://women-engineer.com/reviews/doda/",

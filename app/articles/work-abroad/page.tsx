@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが海外で働く方法を実データで解説。米国BLS統計・Levels.fyi公表値による国別年収比較、H-1B・Express Entry・EUブルーカード等の就労ビザの基礎、駐在・外資日本法人・現地採用・海外フルリモートの4ルートの違い、職種別に見る英語力の現実的なラインまで網羅します。",
   alternates: { canonical: "/articles/work-abroad/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが海外で働くには？年収比較・ビザ・4つのルート【2026年】",
     description:
       "国別年収比較（出典付き）・就労ビザの基礎・海外で働く4つのルート・英語力の現実的なラインを実データで解説。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "女性エンジニアが海外で働くには", item: "https://women-engineer.com/articles/work-abroad/" },
   ],
 };
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアが海外で働くには" },
             ]}
           />

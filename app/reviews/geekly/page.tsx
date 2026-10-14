@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "Geekly 口コミ, ギークリー 評判, Geekly 女性, ギークリー エンジニア 転職",
   alternates: { canonical: "/reviews/geekly/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "Geekly(ギークリー)の口コミ・評判｜女性ITエンジニアの転職実績",
     description:
       "Geekly(ギークリー)を女性エンジニア目線で徹底レビュー。IT特化・独占求人3万件以上・マッチング精度の高さなど、リアルな口コミを紹介。",

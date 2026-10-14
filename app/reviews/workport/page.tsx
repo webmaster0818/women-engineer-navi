@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "ワークポート 口コミ, ワークポート 評判, ワークポート 女性, ワークポート エンジニア 未経験",
   alternates: { canonical: "/reviews/workport/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ワークポートの口コミ・評判｜女性ITエンジニア育成事業受託の実力",
     description:
       "ワークポートを女性エンジニア目線で徹底レビュー。IT特化+全国47拠点・東京都女性ITエンジニア育成事業受託の実力を検証。",

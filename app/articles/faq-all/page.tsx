@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニア転職のよくある質問を実データで総まとめ。平均年収419万〜約497万円、求人倍率10.68倍、育休取得率86.6%、テレワーク導入率94.3%など公的統計・公開調査に基づき、年収・未経験・両立・選考・働き方の19の疑問に出典付きで回答します。",
   alternates: { canonical: "/articles/faq-all/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
     description:
       "平均年収419万〜約497万円、求人倍率10.68倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブです。",
@@ -122,7 +122,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "FAQ総まとめ", item: "https://women-engineer.com/articles/faq-all/" },
   ],
 };
@@ -310,7 +310,7 @@ export default function FaqAllPage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "FAQ総まとめ" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "FAQ総まとめ" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>総合FAQ</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

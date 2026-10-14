@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアのLPIC・LinuC資格ガイド｜難易度・勉強時間・年収への影響を解説",
   description:
-    "女性エンジニアがLPIC・LinuC（Linux技術者認定）を取得するためのガイド。LPICとLinuCの違い、レベル1〜3の難易度・受験料（1科目15,000円／16,500円）、勉強時間（未経験130〜180時間）、Ping-t・あずき本など教材、取得後の年収・キャリアへの影響を実データで解説。インフラ・サーバー職を目指す女性に役立つ理由も紹介します。",
+    "女性エンジニアがLPIC・LinuC（Linux技術者認定）を取得するためのガイド。LPICとLinuCの違い、レベル1〜3の難易度・受験料（1科目15,000円／16,500円）、勉強時間（未経験130〜180時間）、Ping-t・あずき本など教材、取得後の年収・キャリアへの影響を実データで解説。",
   alternates: { canonical: "/articles/cert-lpic/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアのLPIC・LinuC資格ガイド｜難易度・勉強時間・年収への影響を解説",
     description:
       "LPIC・LinuCの違い・レベル別難易度・受験料・勉強時間・教材・年収への影響を、インフラ職を目指す女性エンジニア向けに実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "LPIC・LinuC資格ガイド" },
             ]}
           />

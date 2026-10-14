@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが管理職・マネージャーを目指すための実践ガイド。IT業界の女性管理職比率（情報サービス産業8.2%）の現状、EM・PMへのルート、管理職の年収（EM900〜1,200万円）、必要なスキル、ロールモデル不足など女性特有の課題と乗り越え方、えるぼし認定など企業の見極め方を実データで解説します。",
   alternates: { canonical: "/articles/women-manager/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが管理職・マネージャーを目指すガイド｜比率・年収・課題と対策",
     description:
       "IT業界の女性管理職比率、EM・PMへのルート、管理職の年収、必要なスキル、女性特有の課題と対策、えるぼし認定企業の見極め方を実データで徹底解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアが管理職を目指すガイド" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "ゲーム業界への転職を目指す女性エンジニア向け決定版ガイド。国内市場規模2兆3,961億円（ファミ通ゲーム白書2025）、ゲームプログラマー平均年収517万円、女性開発者比率21.9%（CESA調査）など実データで、職種マップ・必要スキル・働き方の実態・転職ルートを解説します。",
   alternates: { canonical: "/articles/game-industry/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ゲーム業界で働く女性エンジニア｜年収・職種・必要スキルと転職ルート【2026年】",
     description:
       "国内市場規模・職種別年収・必要スキル・働き方の実態を、ファミ通ゲーム白書やCESA調査などの実データで解説。女性エンジニアがゲーム業界へ転職する現実的なルートを紹介します。",
@@ -98,7 +98,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "ゲーム業界で働く女性エンジニア", item: "https://women-engineer.com/articles/game-industry/" },
   ],
 };
@@ -113,7 +113,7 @@ export default function GameIndustryPage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "ゲーム業界で働く女性エンジニア" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "ゲーム業界で働く女性エンジニア" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>業界ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

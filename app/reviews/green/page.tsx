@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Green（グリーン）を女性エンジニア目線で徹底レビュー。IT特化転職サイト・カジュアル面談・スタートアップ/ベンチャー豊富・スカウト型など、リアルな口コミと評判を紹介。",
   keywords: "Green 口コミ, グリーン 評判, Green 女性, Green エンジニア 転職",
   alternates: { canonical: "/reviews/green/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "Greenの口コミ・評判｜女性エンジニアのカジュアル転職に最適？",
     description: "Green（グリーン）を女性エンジニア目線で徹底レビュー。カジュアル面談・スカウト型の実力を検証。",
     url: "https://women-engineer.com/reviews/green/",

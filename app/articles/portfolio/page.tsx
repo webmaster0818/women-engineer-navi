@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "エンジニア転職のポートフォリオを実情ベースで解説。未経験は必須級・経験者は職務経歴書+GitHubで代替可という職種別の位置づけ、フロントエンド・バックエンド・データ系・QA別に作るべきもの、README・コミット履歴の評価ポイント、AI生成コードの扱いまで2026年の最新事情を網羅します。",
   alternates: { canonical: "/articles/portfolio/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "エンジニア転職のポートフォリオ作成ガイド｜職種別の作るべきもの・評価ポイント【2026年】",
     description:
       "未経験は必須級・経験者はGitHubで代替可という実情から、職種別に作るべきもの・評価されるポイント・AI生成コードの扱いまで解説。",
@@ -82,7 +82,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "ポートフォリオ作成ガイド", item: "https://women-engineer.com/articles/portfolio/" },
   ],
 };
@@ -97,7 +97,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "ポートフォリオ作成ガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "ポートフォリオ作成ガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>キャリア知識</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

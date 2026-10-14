@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "いわて女性デジタル人材育成プロジェクトを解説｜対象・受講料・申込【2026年】",
   description:
-    "令和8年度「いわて女性デジタル人材育成プロジェクト」を公式情報をもとに解説。岩手県内在住の18歳以上の女性が対象、受講料19,800円（税込・Adobe等のライセンス費込み）で無料ではない点に注意。グラフィックフリーランス/Web担当者・広報/ITスキル就転職の3コース（定員60名）、2026年8月10日開講、申込締切7月24日など募集状況を確認日付きで整理します。",
+    "令和8年度「いわて女性デジタル人材育成プロジェクト」を公式情報をもとに解説。岩手県内在住の18歳以上の女性が対象、受講料19,800円（税込・Adobe等のライセンス費込み）で無料ではない点に注意。",
   alternates: { canonical: "/articles/iwate-women-digital/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "いわて女性デジタル人材育成プロジェクトを解説｜対象・受講料・申込【2026年】",
     description:
       "令和8年度「いわて女性デジタル人材育成プロジェクト」の対象者（岩手県内在住・18歳以上の女性）、3コースの内容、受講料19,800円（税込）、募集期間（2026年6月25日〜7月24日）と申込方法を公式情報をもとに解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "いわて女性デジタル人材育成プロジェクト" },
             ]}
           />

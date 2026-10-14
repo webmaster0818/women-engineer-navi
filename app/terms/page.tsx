@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "CareeHUB for womanの利用規約です。当サイトをご利用いただく前に、本利用規約をよくお読みください。",
   alternates: { canonical: "/terms/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "利用規約 | CareeHUB for woman",
     description:
       "CareeHUB for womanの利用規約です。当サイトをご利用いただく前に、本利用規約をよくお読みください。",

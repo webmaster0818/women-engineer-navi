@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "本当に働きやすいフルリモート企業の見極め方を女性視点で解説。“なんちゃってリモート”の特徴、出社頻度・コアタイム・評価制度・オンボーディング・リモート手当（平均3,683円）のチェックリスト、面接で聞くべき質問、口コミの集め方まで具体的に紹介します。",
   alternates: { canonical: "/articles/fullremote-companies/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "フルリモート企業の見極め方ガイド｜“なんちゃってリモート”を見抜く選び方",
     description:
       "本当に働きやすいフルリモート企業の見極め方。出社頻度・評価制度・オンボーディング・リモート手当のチェックリスト、面接で聞くべき質問、口コミの集め方を女性視点で解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "フルリモート企業の見極め方ガイド" },
             ]}
           />

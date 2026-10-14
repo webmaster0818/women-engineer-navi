@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "職場のハラスメント対処ガイド。パワハラ防止法（労働施策総合推進法）・男女雇用機会均等法・育児介護休業法による防止措置義務と、2026年10月施行のカスハラ対策義務化を出典付きで解説。記録の取り方、総合労働相談コーナー・みんなの人権110番などの実在する相談窓口、転職で環境を変える判断基準まで整理します。",
   alternates: { canonical: "/articles/harassment/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "職場のハラスメント対処ガイド｜女性エンジニアが知っておく法律・相談窓口・転職判断【2026年】",
     description:
       "パワハラ・セクハラ・マタハラの防止措置義務と2026年10月施行のカスハラ対策義務化を出典付きで解説。記録の取り方、実在する公的相談窓口、転職で環境を変える判断基準まで整理します。",
@@ -93,7 +93,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "職場のハラスメント対処ガイド", item: "https://women-engineer.com/articles/harassment/" },
   ],
 };
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "職場のハラスメント対処ガイド" },
             ]}
           />

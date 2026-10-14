@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "IT特化型と総合型転職エージェントの違いを徹底解説。求人の専門性・サポート・担当者の知識をカテゴリ別に比較し、経験者・未経験・ブランクありのフェーズ別の使い分けを紹介。厚労省の職業紹介制度に基づく「無料で使える理由」も出典付きで解説します。",
   alternates: { canonical: "/articles/specialized-vs-general/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "IT特化型と総合型転職エージェントの違い｜女性エンジニアの使い分け方【2026年】",
     description:
       "IT特化型と総合型転職エージェントの違いをカテゴリ別に比較。フェーズ別の使い分け方と、転職エージェントが無料で使える仕組みを厚労省の制度に基づき出典付きで解説します。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "IT特化型 vs 総合型エージェント" },
             ]}
           />

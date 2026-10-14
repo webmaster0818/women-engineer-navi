@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "山口県 女性デジタル人材育成プログラムWINGsを解説｜対象・費用・申込【2026年】",
   description:
-    "山口県「やまぐち女性デジタル人材育成コンソーシアム」による女性デジタル人材育成プログラム（WINgs YAMAGUCHI）を公式情報をもとに解説。山口県在住または県内就業を検討する未就業・非正規雇用の女性が対象、受講料無料（テキスト代1万円程度は実費）。情報セキュリティ・AI活用・デジタルマーケティング・プログラミングを学ぶ約5か月の講座で、2026年度は7月31日まで受講生を募集中です（2026年7月18日確認・オンラインは定員超過）。",
+    "山口県「やまぐち女性デジタル人材育成コンソーシアム」による女性デジタル人材育成プログラム（WINgs YAMAGUCHI）を公式情報をもとに解説。山口県在住または県内就業を検討する未就業・非正規雇用の女性が対象、受講料無料（テキスト代1万円程度は実費）。",
   alternates: { canonical: "/articles/yamaguchi-women-digital/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "山口県 女性デジタル人材育成プログラムWINGsを解説｜対象・費用・申込【2026年】",
     description:
       "山口県の女性デジタル人材育成プログラム「WINgs YAMAGUCHI」の対象者（県在住または県内就業を検討する未就業・非正規雇用の女性）、講座内容、費用（受講料無料・テキスト代1万円程度実費）、申込方法を公式情報をもとに解説。2026年度は7月31日まで募集中（2026年7月18日確認）。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "山口県の女性デジタル人材育成プログラム" },
             ]}
           />

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "内閣府男女共同参画局の「新・女性デジタル人材育成プラン」（令和7年6月10日決定）を一次資料をもとに解説。プランの狙い、4つの活躍パターン別支援メニューの内容、そして個人がこのプランの下で実際に使える窓口——自治体の女性向けデジタル訓練・教育訓練給付・公的職業訓練・マナビDX——への入口を整理します。",
   alternates: { canonical: "/articles/women-digital-plan/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "新・女性デジタル人材育成プランとは？個人が使える支援への入口を解説【2026年】",
     description:
       "内閣府「新・女性デジタル人材育成プラン」（令和7年6月10日決定）の狙いと4つのパターン別支援を公式資料に忠実に解説。個人が実際に使える制度（自治体事業・教育訓練給付・職業訓練・マナビDX）への入口も整理。",
@@ -101,7 +101,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "新・女性デジタル人材育成プランとは" },
             ]}
           />

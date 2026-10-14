@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性エンジニアが週3〜週4日・時短で働ける求人の探し方を実データで解説。業務委託・フリーランス・時短正社員の違い、可能な職種・スキル、収入の目安（月単価40〜60万円台）、ITプロパートナーズなど案件サイトの使い方、育児と両立する選択肢とメリデメ・注意点まで網羅します。",
   alternates: { canonical: "/articles/short-week/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが週3・週4・時短で働ける求人の探し方｜形態・収入・注意点",
     description:
       "週3〜週4日・時短で働ける女性エンジニア求人のリアル。業務委託・フリーランス・時短正社員の違い、可能な職種、収入の目安、探し方のSTEP、育児両立の選択肢を実データで解説。",
@@ -110,7 +110,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "週3-4・時短で働ける求人の探し方" },
             ]}
           />

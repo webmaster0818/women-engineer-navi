@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性AWSエンジニア転職ガイド｜年収・需要・未経験からのロードマップ【2026年】",
   description:
-    "女性AWSエンジニアの転職ガイド2026年版。クラウドエンジニアの平均年収488万円（AWS特化で約580万円）・フリーランス月単価72万円などの実データ、国内クラウド市場の成長（2029年に8.8兆円予測）、EC2/S3基礎→IaC→コンテナ→セキュリティのスキルマップ、インフラ未経験からのロードマップを出典付きで解説します。",
+    "女性AWSエンジニアの転職ガイド2026年版。クラウドエンジニアの平均年収488万円（AWS特化で約580万円）・フリーランス月単価72万円などの実データ、EC2/S3基礎→IaC→コンテナ→セキュリティのスキルマップ、未経験からのロードマップを出典付きで解説します。",
   alternates: { canonical: "/articles/aws-career/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性AWSエンジニア転職ガイド｜年収・需要・未経験からのロードマップ【2026年】",
     description:
       "女性AWSエンジニアの年収・需要・スキルマップ・未経験からのロードマップを実データと出典付きで解説。リモート適性が高くライフイベントと両立しやすい職種です。",
@@ -81,7 +81,7 @@ const breadcrumbData = {
   "@context": "https://schema.org", "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
-    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/" },
+    { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
     { "@type": "ListItem", position: 3, name: "女性AWSエンジニア転職ガイド", item: "https://women-engineer.com/articles/aws-career/" },
   ],
 };
@@ -96,7 +96,7 @@ export default function ArticlePage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/" }, { label: "女性AWSエンジニア転職ガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "女性AWSエンジニア転職ガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>職種別ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">

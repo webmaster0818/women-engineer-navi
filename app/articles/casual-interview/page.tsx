@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "エンジニア転職のカジュアル面談を徹底対策。面接との違い（合否なし・双方向）、目的と当日の流れ、事前準備のSTEP、聞くべき逆質問例、やってはいけないNG行動、面接選考に進むコツまで具体例で解説。女性が働き方・制度を確認する場としての活用法とおすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/casual-interview/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "カジュアル面談の対策ガイド｜エンジニア転職の流れ・逆質問例・NG行動",
     description:
       "エンジニア転職のカジュアル面談を徹底対策。面接との違い・目的・当日の流れ・事前準備・逆質問例・NG行動・面接に進むコツを具体例で解説。女性の働き方確認の活用法も。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "カジュアル面談の対策ガイド" },
             ]}
           />

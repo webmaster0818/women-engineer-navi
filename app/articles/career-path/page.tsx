@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアのキャリアパス完全マップ｜5つの方向性と年収・選び方【2026年】",
   description:
-    "女性エンジニアのキャリアパスを実データで徹底解説。スペシャリスト・マネジメント・PM/PdM・社内SE・フリーランスの5類型を年収データ付きで比較（PM707万円・PdM約774万円=doda/PM Career、社内SE約510万〜580万円等）。課長相当職の女性割合12.3%という現状や、時短期・復帰期を織り込んだキャリア設計まで出典付きで紹介します。",
+    "女性エンジニアのキャリアパスを実データで徹底解説。スペシャリスト・マネジメント・PM/PdM・社内SE・フリーランスの5類型を年収データ付きで比較（PM707万円・PdM約774万円=doda/PM Career、社内SE約510万〜580万円等）。",
   alternates: { canonical: "/articles/career-path/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアのキャリアパス完全マップ｜5つの方向性と年収・選び方【2026年】",
     description:
       "スペシャリスト・マネジメント・PM/PdM・社内SE・フリーランスの5類型を年収データ付きで比較。ライフイベントを織り込んだキャリア設計まで公的統計と実データで解説。",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "女性エンジニアのキャリアパス完全マップ" },
             ]}
           />

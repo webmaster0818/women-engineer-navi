@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "CareeHUB for womanのプライバシーポリシーです。当サイトにおける個人情報の取扱いについて定めています。",
   alternates: { canonical: "/privacy-policy/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "プライバシーポリシー | CareeHUB for woman",
     description:
       "CareeHUB for womanのプライバシーポリシーです。当サイトにおける個人情報の取扱いについて定めています。",

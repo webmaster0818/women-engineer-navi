@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "神奈川県 女性のためのデジタルスキル育成講座を解説｜対象・費用・申込【2026年】",
   description:
-    "神奈川県「女性のためのデジタルスキル育成講座」（かながわjob就業支援事業）を公式情報をもとに解説。県内在住または県内就業を希望する女性（年齢不問）が対象、受講料無料。e-ラーニングコース（Webデザイン/マーケティング/事務・実務/IT実務基礎の4コース・2か月）とグループ講座（Webデザイン実践・全10回）の内容、募集スケジュール、申込方法を一次情報で整理します。",
+    "神奈川県「女性のためのデジタルスキル育成講座」（かながわjob就業支援事業）を公式情報をもとに解説。県内在住または県内就業を希望する女性（年齢不問）が対象、受講料無料。",
   alternates: { canonical: "/articles/kanagawa-women-digital/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "神奈川県 女性のためのデジタルスキル育成講座を解説｜対象・費用・申込【2026年】",
     description:
       "神奈川県「女性のためのデジタルスキル育成講座」の対象者（県内在住・県内就業希望の女性、年齢不問）、e-ラーニング4コースとグループ講座の内容、費用（受講料無料・通信費等のみ自己負担）、募集スケジュールと申込方法を公式情報をもとに解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "神奈川県の女性のためのデジタルスキル育成講座" },
             ]}
           />

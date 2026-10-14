@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   verification: {
     google: "JO-NDRHK3y8eQ2TRnsVf5plFdj7Ba2VuPzWrL4zMgTA",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     type: "website",
     locale: "ja_JP",
     siteName: "CareeHUB for woman",

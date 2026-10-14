@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性PM・PdM・Webディレクターの転職ガイド。プロジェクトマネジャーの平均年収707万円（doda2025・IT技術職1位）、PdM約774万円、Webディレクター約495万円など実データで3職種の違い・エンジニアからの移行ルート・必要スキル（PMP）・ライフイベント両立の実態を解説します。",
   alternates: { canonical: "/articles/pm-director/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性PM・Webディレクター転職ガイド｜年収・エンジニアからのキャリアパス【2026年】",
     description:
       "PM平均年収707万円（doda2025）・PdM約774万円・Webディレクター約495万円。3職種の違いとエンジニアからの移行ルート、両立の実態を実データで解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "PM・Webディレクター転職ガイド" },
             ]}
           />

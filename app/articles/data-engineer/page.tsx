@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "女性データエンジニアの転職ガイド。データ基盤・ETL・データパイプライン構築という仕事内容やデータサイエンティストとの違い、年収（20代466万〜40代707万）、必要スキル（SQL/Python/BigQuery/Snowflake/dbt）、未経験ロードマップ、求人動向、キャリアパスを実データで解説します。",
   alternates: { canonical: "/articles/data-engineer/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "女性データエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
       "女性データエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。データサイエンティストとの違いも明確に。",
@@ -125,7 +125,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "データエンジニア転職ガイド" },
             ]}
           />

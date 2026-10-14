@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "エンジニアが円満退職するための退職交渉の進め方を実務ベースで解説。民法627条（2週間ルール）と就業規則の関係、退職を切り出すタイミングと伝え方、退職交渉のSTEP、カウンターオファー（引き止め）への対応、引き継ぎ・有給消化、ソースや権限などエンジニア特有の注意点まで。女性がスムーズに退職する工夫も紹介します。",
   alternates: { canonical: "/articles/amicable-resignation/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "エンジニアの円満退職・退職交渉の進め方ガイド｜民法ルールから引き継ぎ・有給消化まで",
     description:
       "民法627条と就業規則の関係、退職の切り出し方、退職交渉のSTEP、カウンターオファー対応、引き継ぎ・有給消化、エンジニア特有の注意点まで実務ベースで解説。",
@@ -109,7 +109,7 @@ export default function ArticlePage() {
           <Breadcrumb
             items={[
               { label: "ホーム", href: "/" },
-              { label: "転職コラム", href: "/articles/" },
+              { label: "転職コラム", href: "/articles/category-index/" },
               { label: "円満退職・退職交渉の進め方ガイド" },
             ]}
           />
