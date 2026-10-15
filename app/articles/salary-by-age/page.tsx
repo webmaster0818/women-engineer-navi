@@ -361,7 +361,7 @@ export default function ArticlePage() {
               <p className="text-text-light text-sm leading-relaxed">女性は転職時の昇給を控えめに見積もりがち。エージェント経由で年収交渉を代行してもらうと、提示額が50〜150万円変わることもあります。</p>
               <div className="mt-3 rounded-lg p-4" style={{ backgroundColor: "#efe3d8", border: "1px solid #d9c7b8" }}>
                 <p className="text-sm text-text-light leading-relaxed">
-                  <strong>年収交渉をプロに任せたいなら</strong>、交渉実績を数値で公表しているエージェントが有力です。テックゴー（TechGo）は年収交渉成功率100%（2025年9月時点実績）・平均年収アップ138万円（2025年6〜7月実績）を公式で掲げています。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>、他社との比較は<a href="/ranking/" className="font-bold underline" style={{ color: "#7c3a55" }}>おすすめランキング</a>をご覧ください。
+                  <strong>年収交渉をプロに任せたいなら</strong>、交渉実績を数値で公表しているエージェントが有力です。テックゴー（TechGo）は年収アップ成功率86%（2026年3月実績）・平均年収アップ144万円（2026年3月実績）を公式で掲げています。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>、他社との比較は<a href="/ranking/" className="font-bold underline" style={{ color: "#7c3a55" }}>おすすめランキング</a>をご覧ください。
                 </p>
               </div>
             </div>

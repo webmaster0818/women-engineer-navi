@@ -120,9 +120,9 @@ export default function ArticlePage() {
               <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>テックゴー（TechGo）のキャリア面談は完全無料。登録フォームは最短60秒で、面談から入社後フォローまで費用は一切かからない</li>
               <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>面談では経験・スキルセット・キャリアの展望や悩みをヒアリングし、エンジニアとしての市場価値の把握と転職活動の方向性づくりをサポートしてもらえる</li>
               <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>転職を決めていなくても相談可能。面談後に紹介求人へ応募するかどうかは自分で選べる</li>
-              <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>運営は株式会社MyVision（有料職業紹介事業許可番号 13-ユ-314719）。年収アップ金額は平均138万円※と公式が公表している</li>
+              <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>運営は株式会社MyVision（有料職業紹介事業許可番号 13-ユ-314719）。年収アップ金額は平均144万円※と公式が公表している</li>
             </ul>
-            <p className="text-xs text-text-light mt-4">※2025年6〜7月において内定承諾をし、年収アップを実現された方の平均実績（テックゴー公式サイト表記、2026年7月参照）</p>
+            <p className="text-xs text-text-light mt-4">※2026年3月に内定承諾をし、年収アップを実現された方の平均実績（テックゴー公式サイト表記、2026年7月参照）</p>
           </div>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function ArticlePage() {
               テックゴー（TechGo）は、株式会社MyVisionが運営するITエンジニアの転職支援に特化した転職エージェントです。ITエンジニア向け求人を10,000件以上保有し、メガベンチャー・大手事業会社・ITコンサルなどの求人を紹介しています。
             </p>
             <p>
-              公式サイトでは「年収アップ金額 平均138万円」「年収交渉成功率100%（2025年9月時点実績）」を掲げ、キャリア相談から求人紹介・選考対策・年収交渉・入社後フォローまでを一貫してサポートするとしています。その入り口になるのが、この記事で解説する無料キャリア面談です。
+              公式サイトでは「年収アップ金額 平均144万円」「年収アップ成功率86%（2026年3月実績）」を掲げ、キャリア相談から求人紹介・選考対策・年収交渉・入社後フォローまでを一貫してサポートするとしています。その入り口になるのが、この記事で解説する無料キャリア面談です。
             </p>
           </div>
           <div className="overflow-x-auto">
@@ -313,7 +313,7 @@ export default function ArticlePage() {
               <li><a href="https://tech-go.jp/service/flow" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">テックゴー公式サイト - ご利用の流れ</a></li>
               <li><a href="https://tech-go.jp/about" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">テックゴー公式サイト - 会社概要</a></li>
             </ul>
-            <p className="mt-2">※本記事のサービス内容・実績数値は2026年7月時点の公式サイトの記載に基づきます。最新の情報は公式サイトでご確認ください。</p>
+            <p className="mt-2">※本記事のサービス内容は2026年7月時点、実績数値は2026年10月15日時点の公式サイトの記載に基づきます。最新の情報は公式サイトでご確認ください。</p>
           </div>
         </div>
       </section>

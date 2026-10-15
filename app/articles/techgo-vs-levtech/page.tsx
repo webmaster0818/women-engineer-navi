@@ -42,7 +42,7 @@ const faqData = {
       name: "テックゴーとレバテックキャリアはどちらが年収アップに強いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "公表されている数値の「意味」が異なるため、単純な優劣比較はできません。テックゴーは平均年収アップ138万円（2025年6〜7月に内定承諾し年収アップを実現した方の平均実績）と年収交渉成功率100%（2025年9月時点）を公表しています。レバテックキャリアは年収70万円以上アップの実績が多数あると紹介されていますが、これは平均値ではなく実績例です。「平均」と「実績例」は比較の土台が違う数値であることを理解した上で、両方の面談で自分のケースの見込み額を聞き比べるのが確実です。",
+        text: "公表されている数値の「意味」が異なるため、単純な優劣比較はできません。テックゴーは平均年収アップ144万円（2026年3月に内定承諾し年収アップを実現した方の平均実績）と年収アップ成功率86%（2026年3月実績）を公表しています。レバテックキャリアは年収70万円以上アップの実績が多数あると紹介されていますが、これは平均値ではなく実績例です。「平均」と「実績例」は比較の土台が違う数値であることを理解した上で、両方の面談で自分のケースの見込み額を聞き比べるのが確実です。",
       },
     },
     {
@@ -87,13 +87,13 @@ const compareRows = [
   },
   {
     label: "年収アップの公表実績",
-    techgo: "平均138万円（2025年6〜7月実績）・20代平均120万円・30代平均160万円",
+    techgo: "平均144万円（2026年3月実績）・20代平均120万円・30代平均160万円",
     levtech: "年収70万円以上アップの実績多数（平均値ではなく実績例）",
     source: "両公式サイト（数値の意味が異なる点に注意・本文参照）",
   },
   {
-    label: "年収交渉成功率",
-    techgo: "100%（2025年9月時点）",
+    label: "年収アップ成功率",
+    techgo: "年収アップ成功率86%（2026年3月実績）",
     levtech: "公式記載なし",
     source: "テックゴー公式トップ",
   },
@@ -161,7 +161,7 @@ export default function ArticlePage() {
             <h2 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>この記事の結論</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>どちらもIT特化の実務経験者向けエージェント。<strong>実務経験を活かして年収交渉に強くこだわるならテックゴー起点、求人の選択肢の広さと運営の実績・情報量で選ぶならレバテックキャリア起点</strong>が公式公開情報から見た使い分け</li>
-              <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>年収アップの数値は<strong>「平均138万円（テックゴー）」と「70万円以上の実績多数（レバテック）」で意味が異なる</strong>ため単純比較はできない。両方の面談で自分のケースの見込みを聞き比べるのが確実</li>
+              <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>年収アップの数値は<strong>「平均144万円（テックゴー）」と「70万円以上の実績多数（レバテック）」で意味が異なる</strong>ため単純比較はできない。両方の面談で自分のケースの見込みを聞き比べるのが確実</li>
               <li className="flex gap-2"><span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>女性専用プログラムはどちらも公式記載なし。産休育休の実績・時短・女性比率は<strong>どちらを使う場合も面談で個別確認</strong>。両方無料なので併用も一般的な進め方</li>
             </ul>
           </div>
@@ -176,7 +176,7 @@ export default function ArticlePage() {
             <div className="rounded-xl bg-white p-6" style={{ border: "1px solid #d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>テックゴー（TechGo）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                株式会社MyVision（有料職業紹介事業許可 13-ユ-314719）が運営するITエンジニア特化の転職エージェント。公式サイトで<strong>平均年収アップ138万円（2025年6〜7月実績）・年収交渉成功率100%（2025年9月時点）</strong>という交渉実績を前面に打ち出しているのが最大の特徴です。求人は1万件以上で、独占選考ルートや面接確約求人の記載もあります。サービスの歴史は比較的浅く、第三者の口コミはまだ少なめです。
+                株式会社MyVision（有料職業紹介事業許可 13-ユ-314719）が運営するITエンジニア特化の転職エージェント。公式サイトで<strong>平均年収アップ144万円（2026年3月実績）・年収アップ成功率86%（2026年3月実績）</strong>という交渉実績を前面に打ち出しているのが最大の特徴です。求人は1万件以上で、独占選考ルートや面接確約求人の記載もあります。サービスの歴史は比較的浅く、第三者の口コミはまだ少なめです。
               </p>
               <Link href="/reviews/techgo/" className="mt-3 inline-block text-sm font-bold underline" style={{ color: "#7c3a55" }}>
                 → テックゴーの詳細レビューを見る
@@ -220,7 +220,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-xs text-text-light mt-3">
-            ※出典: テックゴー公式サイト（トップ・サービス紹介・会社概要）、レバテックキャリア公式サイト（トップ・求人検索）。数値・サービス内容は2026年7月時点の各公式サイトの記載に基づきます（テックゴーの実績数値の対象期間は公式の注記どおり: 平均138万円=2025年6〜7月に内定承諾し年収アップを実現した方の平均実績、成功率100%=2025年9月時点実績）。最新の情報は各公式サイトでご確認ください。
+            ※出典: テックゴー公式サイト（トップ・サービス紹介・会社概要）、レバテックキャリア公式サイト（トップ・求人検索）。数値・サービス内容は2026年7月時点の各公式サイトの記載に基づきます（テックゴーの実績数値の対象期間は公式の注記どおり: 平均144万円=2026年3月に内定承諾し年収アップを実現した方の平均実績、成功率86%=同期間に内定承諾した方のうち年収アップを実現した割合）。最新の情報は各公式サイトでご確認ください。
           </p>
         </div>
       </section>
@@ -228,7 +228,7 @@ export default function ArticlePage() {
       {/* 数値の読み方 */}
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">「138万円 vs 70万円」を鵜呑みにしない｜数値の正しい読み方</h2>
+          <h2 className="text-2xl font-bold mb-6">「144万円 vs 70万円」を鵜呑みにしない｜数値の正しい読み方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
               数字だけを並べると「テックゴーの方が2倍近く上がる」ように見えますが、<strong>この2つの数値は定義が異なるため、そのまま優劣として比較できません</strong>。
@@ -236,7 +236,7 @@ export default function ArticlePage() {
             <ul className="space-y-3">
               <li className="flex gap-3 text-sm rounded-lg bg-white p-4" style={{ border: "1px solid #d9c7b8" }}>
                 <span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>
-                <span>テックゴーの「平均138万円」は、<strong>2025年6〜7月に内定承諾し、年収アップを実現した方の平均実績</strong>（公式サイトの注記どおり）。年収が上がった人だけを母集団にした平均であり、対象期間も2か月間です。</span>
+                <span>テックゴーの「平均144万円」は、<strong>2026年3月に内定承諾し、年収アップを実現した方の平均実績</strong>（公式サイトの注記どおり）。年収が上がった人だけを母集団にした平均であり、対象期間も2か月間です。</span>
               </li>
               <li className="flex gap-3 text-sm rounded-lg bg-white p-4" style={{ border: "1px solid #d9c7b8" }}>
                 <span style={{ color: "#7c3a55" }} className="font-bold shrink-0">◆</span>
@@ -259,7 +259,7 @@ export default function ArticlePage() {
             {[
               {
                 t: "実務経験があり、年収交渉を強く重視する → テックゴー起点",
-                d: "年収交渉の実績数値（平均138万円・成功率100%）を公式に打ち出しているのはテックゴー。内定獲得後にオファー年収アップを目的に企業人事と交渉するプロセスが公式の利用の流れに組み込まれています。登録は最短60秒です。",
+                d: "年収交渉の実績数値（平均144万円・年収アップ成功率86%）を公式に打ち出しているのはテックゴー。内定獲得後にオファー年収アップを目的に企業人事と交渉するプロセスが公式の利用の流れに組み込まれています。登録は最短60秒です。",
               },
               {
                 t: "求人の選択肢を広く見てから決めたい → レバテックキャリア起点",
@@ -348,7 +348,7 @@ export default function ArticlePage() {
               <li><a href="https://tech-go.jp/about" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">テックゴー公式サイト - 会社概要</a></li>
               <li><a href="https://career.levtech.jp/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">レバテックキャリア公式サイト</a></li>
             </ul>
-            <p className="mt-2">※本記事のサービス内容・実績数値は2026年7月16日時点の各公式サイトの記載に基づきます。当サイトはテックゴー・レバテックキャリアの運営会社とは関係のない情報メディアであり、掲載内容は中立の比較を目的としています。最新の情報は各公式サイトでご確認ください。</p>
+            <p className="mt-2">※本記事のサービス内容・実績数値は2026年7月16日時点の各公式サイトの記載に基づきます（テックゴーの年収アップ実績・成功率は2026年10月15日に公式サイトで再確認し更新）。当サイトはテックゴー・レバテックキャリアの運営会社とは関係のない情報メディアであり、掲載内容は中立の比較を目的としています。最新の情報は各公式サイトでご確認ください。</p>
           </div>
         </div>
       </section>

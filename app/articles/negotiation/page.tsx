@@ -512,7 +512,7 @@ export default function ArticlePage() {
                 </span>
               </div>
               <p className="text-sm text-text-light">
-                年収交渉の実績を数値で公表しているIT特化型エージェント。<strong>年収交渉成功率100%（2025年9月時点実績）・平均年収アップ138万円（2025年6〜7月に内定承諾し年収アップを実現した方の平均実績）</strong>を公式サイトで掲げており、20代平均+120万円・30代平均+160万円の実績も公表しています。交渉を任せて年収を上げたい方の有力な選択肢です。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>をご覧ください（数値は公式サイト・2026年7月確認）。
+                年収交渉の実績を数値で公表しているIT特化型エージェント。<strong>年収アップ成功率86%（2026年3月実績）・平均年収アップ144万円（2026年3月に内定承諾し年収アップを実現した方の平均実績）</strong>を公式サイトで掲げており、20代平均+120万円・30代平均+160万円の実績も公表しています。交渉を任せて年収を上げたい方の有力な選択肢です。詳しくは<a href="/reviews/techgo/" className="font-bold underline" style={{ color: "#7c3a55" }}>テックゴーの口コミ・評判</a>をご覧ください（数値は公式サイト・2026年7月確認）。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
