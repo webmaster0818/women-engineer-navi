@@ -248,7 +248,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実2. 最初の年収は下がることが多い</h3>
-              <p className="text-text-light text-sm leading-relaxed">未経験入社の初年度は前職より年収が下がるケースが珍しくありません。ただしエンジニアは経験年数とスキルで年収が伸びやすい職種です。相場感は<a href="/articles/salary/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</a>で確認し、2〜3年スパンで回収する計画を立てましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">未経験入社の初年度は前職より年収が下がるケースが珍しくありません。ただしエンジニアは経験年数とスキルで年収が伸びやすい職種です。相場感は<a href="/articles/salary/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</a>で確認し、2〜3年スパンで回収する計画を立ててください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実3. 入社先の「タイプ」で経験の質が変わる</h3>
@@ -256,7 +256,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実4. 入社後も学び続ける仕事である</h3>
-              <p className="text-text-light text-sm leading-relaxed">エンジニアは「なってから」も技術のキャッチアップが続く職業です。逆に言えば、学び続けた分だけ市場価値が上がり、リモートワークや時短など働き方の選択肢が広がります。学習を楽しめるかどうかを、転職前の独学期間で見極めましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">エンジニアは「なってから」も技術のキャッチアップが続く職業です。逆に言えば、学び続けた分だけ市場価値が上がり、リモートワークや時短など働き方の選択肢が広がります。学習を楽しめるかどうかを、転職前の独学期間で見極めてください。</p>
             </div>
           </div>
         </div>
@@ -268,7 +268,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">職種別・未経験ハードル比較（どこから入るか）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「エンジニア」と一口に言っても職種はさまざまで、<strong>未経験から入りやすい職種とそうでない職種の差はかなり大きい</strong>のが実情です。最初の職種選びが学習計画と転職難易度を決めるため、まず全体像を比較しましょう。
+              「エンジニア」と一口に言っても職種はさまざまで、<strong>未経験から入りやすい職種とそうでない職種の差はかなり大きい</strong>のが実情です。最初の職種選びが学習計画と転職難易度を決めるため、まず全体像を比較することをおすすめします。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -571,7 +571,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -720,8 +720,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

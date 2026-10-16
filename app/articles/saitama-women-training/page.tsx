@@ -378,7 +378,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">費用と支援（無料の範囲と自己負担・就職サポート）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              受講料は<strong>すべて無料</strong>です。公式Q&Aにも「通信費等はかかりますが、受講料は無料です」と明記されています。ただし「全部タダ」ではないので、自己負担になるものを正確に押さえておきましょう。
+              受講料は<strong>すべて無料</strong>です。公式Q&Aにも「通信費等はかかりますが、受講料は無料です」と明記されています。ただし「全部タダ」ではないので、自己負担になるものを正確に押さえておいてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -429,9 +429,9 @@ export default function ArticlePage() {
           <div className="space-y-4">
             {[
               ["STEP1", "公式サイトで申込スケジュールを確認", "受講したい月の申込期間・受講期間・オリエンテーション日程を確認します。受講希望者多数の場合は新規受講の方が優先されます。"],
-              ["STEP2", "申込フォームからオンライン申請", "基礎・応用講座と自営型テレワーク講座は同一フォームで申込できます。受講条件（県内在住または県内就業希望の女性等）も事前にセルフチェックしましょう。"],
+              ["STEP2", "申込フォームからオンライン申請", "基礎・応用講座と自営型テレワーク講座は同一フォームで申込できます。受講条件（県内在住または県内就業希望の女性等）も事前にセルフチェックしてください。"],
               ["STEP3", "受講開始案内メールを受け取る", "受講開始案内メールで研修システムのログインID・パスワードが通知されます。まずはZoomライブ配信のオリエンテーション（アーカイブ視聴も可）で受講方法を確認します。"],
-              ["STEP4", "学習スタート（アカウント有効期間1か月）", "オンデマンド講義を好きなタイミングで視聴します。アカウントの有効期間は1か月で、月が変わると学習状況はリセットされるため計画的に進めましょう。"],
+              ["STEP4", "学習スタート（アカウント有効期間1か月）", "オンデマンド講義を好きなタイミングで視聴します。アカウントの有効期間は1か月で、月が変わると学習状況はリセットされるため計画的に進めてください。"],
               ["STEP5", "修了証を取得し、就職サポート・実践講座へ", "動画の視聴完了＋確認テスト8割以上でコースごとに修了証（PDF）を取得。女性キャリアセンターの就職サポートを利用でき、基礎・応用の修了者は選考を経て実践講座にも進めます。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
@@ -567,8 +567,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

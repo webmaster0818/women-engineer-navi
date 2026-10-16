@@ -82,7 +82,7 @@ const faqData = {
       name: "育児とエンジニアの仕事を両立できる職場を見つけるには？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "求人票だけでは「制度はあるが実際は使われていない」職場かどうかを見抜きにくいため、女性のキャリアに詳しいエージェントを活用するのが確実です。具体的には、育休からの復帰率、時短・在宅勤務の実利用者の有無、女性管理職比率、コアタイムの有無などを質問しましょう。IT特化型エージェント（レバテックキャリアなど）で技術を正当に評価してもらいつつ、女性特化型（type女性の転職エージェント）で働き方の条件を絞り込む、2〜3社の併用がおすすめです。エンジニア職はリモート・成果評価と相性が良く、両立できる求人が比較的見つけやすい職種です。",
+        text: "求人票だけでは「制度はあるが実際は使われていない」職場かどうかを見抜きにくいため、女性のキャリアに詳しいエージェントを活用するのが確実です。具体的には、育休からの復帰率、時短・在宅勤務の実利用者の有無、女性管理職比率、コアタイムの有無などを質問してください。IT特化型エージェント（レバテックキャリアなど）で技術を正当に評価してもらいつつ、女性特化型（type女性の転職エージェント）で働き方の条件を絞り込む、2〜3社の併用がおすすめです。エンジニア職はリモート・成果評価と相性が良く、両立できる求人が比較的見つけやすい職種です。",
       },
     },
   ],
@@ -301,7 +301,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#fffbeb" }}>
             <h3 className="text-base font-bold mb-2" style={{ color: "#b45309" }}>注意：制度が「あること」と「使えること」は別</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              法改正で制度は整いましたが、実際に時短や在宅が運用されているかは会社によって差が大きいのが実情です。求人票に「時短可」「リモート可」と書いてあっても、<strong>実際の利用者がいるか・育休からの復帰率はどうか</strong>を入社前に確認しましょう。求人票に出ない実態は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。
+              法改正で制度は整いましたが、実際に時短や在宅が運用されているかは会社によって差が大きいのが実情です。求人票に「時短可」「リモート可」と書いてあっても、<strong>実際の利用者がいるか・育休からの復帰率はどうか</strong>を入社前にご確認ください。求人票に出ない実態は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。
             </p>
           </div>
         </div>
@@ -433,7 +433,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">「両立できる職場」は、エージェント選びで決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、働き方の条件に合った求人とアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、働き方の条件に合った求人とアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -501,7 +501,7 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">「両立できる働き方」を一緒に見つけましょう</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">「両立できる働き方」を一緒に見つけてください</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。時短・リモートなど、あなたのライフステージに合った求人を提案してもらえます。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>

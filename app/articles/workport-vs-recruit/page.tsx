@@ -387,7 +387,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">運営会社について知っておきたいこと</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              社名で比較するサービスだからこそ、運営会社の現在の姿は正確に押さえておきましょう。
+              社名で比較するサービスだからこそ、運営会社の現在の姿は正確に押さえておいてください。
             </p>
             <p>
               <strong>ワークポート</strong>の運営会社は株式会社ワークポートです。公式サイトでは人材紹介20年以上の実績と、全国47都道府県への拠点展開が案内されています（出典: ワークポート公式サイト（2026年6月参照））。
@@ -522,7 +522,7 @@ export default function ArticlePage() {
                 1. 求人数の「単位」は各社で違う
               </h3>
               <p className="text-text-light text-sm leading-relaxed">
-                公式表示の求人数は、集計時点・公開非公開の区分・カウント方法（求人票単位か採用予定人数単位か等）が各社で異なります。数値の大小をそのまま優劣と読み替えないようにしましょう。
+                公式表示の求人数は、集計時点・公開非公開の区分・カウント方法（求人票単位か採用予定人数単位か等）が各社で異なります。数値の大小をそのまま優劣と読み替えないようにしてください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -643,7 +643,7 @@ export default function ArticlePage() {
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 レバテック vs Geekly比較
               </h3>
-              <p className="text-sm text-text-light">IT特化型エージェントの徹底比較</p>
+              <p className="text-sm text-text-light">IT特化型エージェントの比較</p>
             </a>
             <a
               href="/articles/green-vs-reworks/"
@@ -679,10 +679,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

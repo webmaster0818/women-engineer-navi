@@ -82,7 +82,7 @@ const faqData = {
       name: "福岡は子育てしながらエンジニアを続けやすい街ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "続けやすい街として人気が高まっています。福岡市は都市の利便性とコンパクトな移動圏が両立し、通勤時間が短く保育施設や医療機関へのアクセスも良好です。福岡県内には保育所の待機児童ゼロや子ども医療費助成に積極的な自治体が多く、子育て支援が手厚いことで知られます。リモート・フレックスを導入する福岡拠点のIT企業も増えており、時短勤務や在宅と両立しながらキャリアを継続しやすい環境です。具体的な制度の運用実態は、女性のキャリアに詳しいエージェント経由で確認しましょう。",
+        text: "続けやすい街として人気が高まっています。福岡市は都市の利便性とコンパクトな移動圏が両立し、通勤時間が短く保育施設や医療機関へのアクセスも良好です。福岡県内には保育所の待機児童ゼロや子ども医療費助成に積極的な自治体が多く、子育て支援が手厚いことで知られます。リモート・フレックスを導入する福岡拠点のIT企業も増えており、時短勤務や在宅と両立しながらキャリアを継続しやすい環境です。具体的な制度の運用実態は、女性のキャリアに詳しいエージェント経由でご確認ください。",
       },
     },
   ],
@@ -268,7 +268,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性が働きやすい福岡のIT企業</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              福岡には大手の開発拠点から地場の自社開発企業まで、女性が長くキャリアを築ける企業が増えています。代表的な企業と、女性視点でのチェックポイントを紹介します（働き方の制度は時期により変わるため、最新の実態はエージェント経由で確認しましょう）。
+              福岡には大手の開発拠点から地場の自社開発企業まで、女性が長くキャリアを築ける企業が増えています。代表的な企業と、女性視点でのチェックポイントを紹介します（働き方の制度は時期により変わるため、最新の実態はエージェント経由でご確認ください）。
             </p>
           </div>
           <div className="space-y-6">
@@ -309,7 +309,7 @@ export default function ArticlePage() {
               ["STEP2", "エンジニアカフェ・勉強会を使い倒す", "無料コワーキング『エンジニアカフェ』や各種勉強会・connpassイベントに参加。学習を継続でき、現役エンジニアの生の情報や人脈が得られます。"],
               ["STEP3", "ポートフォリオを作って公開する", "ログイン機能やCRUD・APIを備えた小さなWebアプリを作り公開。未経験採用では実績が最も効きます。"],
               ["STEP4", "福岡に強いエージェントに登録する", "IT特化型と女性特化型を併用し、未経験可・ポテンシャル採用の福岡求人を紹介してもらう。働き方の条件も伝えて絞り込みます。"],
-              ["STEP5", "コミュニティ経由で実態を確認して応募", "勉強会やイベントで企業の雰囲気を確かめつつ、自社開発企業・スタートアップ・大手拠点を比較して応募。条件交渉はエージェントに任せましょう。"],
+              ["STEP5", "コミュニティ経由で実態を確認して応募", "勉強会やイベントで企業の雰囲気を確かめつつ、自社開発企業・スタートアップ・大手拠点を比較して応募。条件交渉はエージェントに任せてください。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
                 <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
@@ -355,7 +355,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>福岡の求人や働き方の実態を正しくつかむには、IT特化型と女性特化型の併用が効果的です。地方求人やフルリモート求人の有無もエージェントに直接確認しましょう。</p>
+            <p>福岡の求人や働き方の実態を正しくつかむには、IT特化型と女性特化型の併用が効果的です。地方求人やフルリモート求人の有無もエージェントに直接ご確認ください。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -373,7 +373,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、福岡・リモート求人に強いアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、福岡・リモート求人に強いアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -442,8 +442,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">福岡で理想の働き方を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。福岡の求人・リモート移住も含め、あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">福岡で理想の働き方を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。福岡の求人・リモート移住も含め、あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

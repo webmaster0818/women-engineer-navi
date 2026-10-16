@@ -74,7 +74,7 @@ const faqData = {
       name: "育児をしながら在職中に転職活動を進めるコツは？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "限られた時間を仕組みで生み出すのがポイントです。(1)通勤電車・子の昼寝中・寝かしつけ後の30分など『スキマ時間』をスマホでの求人チェックやスカウト返信に充てる、(2)面接はオンライン中心にして移動時間ゼロにする（自宅の静かな部屋から参加）、(3)食材宅配やミールキットで家事時間を圧縮して活動時間を捻出する、(4)書類添削や日程調整はエージェントに任せて自分は意思決定に集中する、が有効です。企業選びでは、残業の少なさだけでなくフルリモート・フレックス・時短勤務・看護休暇の実績を求人票やエージェント経由で確認しましょう。全国23ヶ所のマザーズハローワークも、託児スペース付きで相談できる無料の選択肢です。",
+        text: "限られた時間を仕組みで生み出すのがポイントです。(1)通勤電車・子の昼寝中・寝かしつけ後の30分など『スキマ時間』をスマホでの求人チェックやスカウト返信に充てる、(2)面接はオンライン中心にして移動時間ゼロにする（自宅の静かな部屋から参加）、(3)食材宅配やミールキットで家事時間を圧縮して活動時間を捻出する、(4)書類添削や日程調整はエージェントに任せて自分は意思決定に集中する、が有効です。企業選びでは、残業の少なさだけでなくフルリモート・フレックス・時短勤務・看護休暇の実績を求人票やエージェント経由でご確認ください。全国23ヶ所のマザーズハローワークも、託児スペース付きで相談できる無料の選択肢です。",
       },
     },
     {
@@ -82,7 +82,7 @@ const faqData = {
       name: "退職を切り出すのは内定が出る前と後、どちらがいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "必ず『内定承諾後』に切り出してください。内定前に退職の意思を伝えてしまうと、万一選考が不調に終わったときに現職にも居づらくなり、収入の途切れるリスクを負います。流れとしては、(1)内定通知を受け取る→(2)労働条件通知書で年収・勤務地・働き方を書面確認→(3)入社日を企業と合意→(4)その日から逆算して直属の上司に退職を申し出る、が安全な順番です。申し出のタイミングは、就業規則の規定（多くは退職日の1〜2ヶ月前）と引き継ぎ・有給消化を考え、退職希望日の1.5ヶ月前を目安にすると円満に進みやすい傾向があります。引き止めに備え、退職理由は前向きで具体的すぎない内容を準備しておきましょう。",
+        text: "必ず『内定承諾後』に切り出してください。内定前に退職の意思を伝えてしまうと、万一選考が不調に終わったときに現職にも居づらくなり、収入の途切れるリスクを負います。流れとしては、(1)内定通知を受け取る→(2)労働条件通知書で年収・勤務地・働き方を書面確認→(3)入社日を企業と合意→(4)その日から逆算して直属の上司に退職を申し出る、が安全な順番です。申し出のタイミングは、就業規則の規定（多くは退職日の1〜2ヶ月前）と引き継ぎ・有給消化を考え、退職希望日の1.5ヶ月前を目安にすると円満に進みやすい傾向があります。引き止めに備え、退職理由は前向きで具体的すぎない内容を準備しておいてください。",
       },
     },
   ],
@@ -248,7 +248,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">平日面接の日程調整術</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              在職中の最大の壁が「平日昼間の面接にどう出るか」です。すべてを有給で乗り切ろうとすると休みが足りず、頻繁な欠勤で勘ぐられる原因にもなります。次の4つを組み合わせて、有給の消費を最小限に抑えましょう。
+              在職中の最大の壁が「平日昼間の面接にどう出るか」です。すべてを有給で乗り切ろうとすると休みが足りず、頻繁な欠勤で勘ぐられる原因にもなります。次の4つを組み合わせて、有給の消費を最小限に抑えてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -287,7 +287,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">会社にバレないための注意点</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              在職中の活動が現職に知られると、引き止めや人事評価への影響など気まずい状況を招きます。法律上、<strong>有給休暇の取得理由を会社に伝える義務はなく</strong>「私用」で問題ありませんが、日常の小さな油断から発覚することが多いため、次の点を徹底しましょう。
+              在職中の活動が現職に知られると、引き止めや人事評価への影響など気まずい状況を招きます。法律上、<strong>有給休暇の取得理由を会社に伝える義務はなく</strong>「私用」で問題ありませんが、日常の小さな油断から発覚することが多いため、次の点を徹底してください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -404,7 +404,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">在職中こそエージェント活用が効く</p>
-            <p className="text-sm text-text-light mb-4">面倒な日程調整や交渉を任せ、自分は意思決定に集中しましょう。</p>
+            <p className="text-sm text-text-light mb-4">面倒な日程調整や交渉を任せ、自分は意思決定に集中してください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -472,8 +472,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">働きながら、無理なく転職を成功させましょう</h2>
-            <p className="text-white/90 mb-6">面倒な日程調整も交渉もエージェントにお任せ。まずは無料相談から始めましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">働きながら、無理なく転職を成功させてください</h2>
+            <p className="text-white/90 mb-6">面倒な日程調整も交渉もエージェントにお任せ。まずは無料相談から始めてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

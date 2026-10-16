@@ -349,7 +349,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">費用と支援（20,000円の内訳・キャッシュバック・免除）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              受講料は<strong>20,000円（税込）</strong>です。無料の自治体事業が多いなかで受講料がかかる点は事前に押さえておきましょう。ただし、負担を軽くする仕組みが2つ用意されています（公式サイト・特設ページにて2026年7月18日確認）。
+              受講料は<strong>20,000円（税込）</strong>です。無料の自治体事業が多いなかで受講料がかかる点は事前に押さえておいてください。ただし、負担を軽くする仕組みが2つ用意されています（公式サイト・特設ページにて2026年7月18日確認）。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -494,8 +494,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

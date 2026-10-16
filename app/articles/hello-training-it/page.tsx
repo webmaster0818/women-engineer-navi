@@ -50,7 +50,7 @@ const faqData = {
       name: "求職者支援訓練（ハロートレーニング）は本当に無料ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "受講料は無料です。ただしテキスト代等は自己負担と厚生労働省が明記しています。教材費はコースごとに異なるため、受講を検討するコースの募集案内で金額を確認しましょう。加えて、通所の交通費や資格を受験する場合の受験料も基本的に自己負担です。「受講料無料＋テキスト代等は自己負担」と理解しておくと、受講開始後のギャップがありません（出典: 厚生労働省 ハロートレーニング（離職者訓練・求職者支援訓練）ページ、2026年7月参照）。",
+        text: "受講料は無料です。ただしテキスト代等は自己負担と厚生労働省が明記しています。教材費はコースごとに異なるため、受講を検討するコースの募集案内で金額をご確認ください。加えて、通所の交通費や資格を受験する場合の受験料も基本的に自己負担です。「受講料無料＋テキスト代等は自己負担」と理解しておくと、受講開始後のギャップがありません（出典: 厚生労働省 ハロートレーニング（離職者訓練・求職者支援訓練）ページ、2026年7月参照）。",
       },
     },
     {
@@ -74,7 +74,7 @@ const faqData = {
       name: "雇用保険（失業保険）をもらっている場合はどの訓練を受けるのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "雇用保険を受給している求職者は、主に「公共職業訓練（離職者訓練）」の対象です。訓練期間は概ね3か月〜2年で、受講料は無料（テキスト代等は自己負担）です。一方、雇用保険を受給できない方（受給が終わった方を含む）は主に「求職者支援訓練」の対象になります。どちらもハロートレーニングの一部で、申込み窓口はいずれもハローワークです。自分がどちらの対象かは雇用保険の受給状況で変わるため、まずハローワークで相談しましょう（出典: 厚生労働省、2026年7月参照）。",
+        text: "雇用保険を受給している求職者は、主に「公共職業訓練（離職者訓練）」の対象です。訓練期間は概ね3か月〜2年で、受講料は無料（テキスト代等は自己負担）です。一方、雇用保険を受給できない方（受給が終わった方を含む）は主に「求職者支援訓練」の対象になります。どちらもハロートレーニングの一部で、申込み窓口はいずれもハローワークです。自分がどちらの対象かは雇用保険の受給状況で変わるため、まずハローワークでご相談ください（出典: 厚生労働省、2026年7月参照）。",
       },
     },
     {
@@ -318,9 +318,9 @@ export default function ArticlePage() {
           <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>IT系コースを選ぶときの5つの観点</h3>
             <ul className="space-y-3 text-sm text-text-light">
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">1.</span><span><strong>目指す職種から逆算する</strong> — Webサイト制作（HTML/CSS・デザイン寄り）か、プログラミング（アプリ・システム開発寄り）かで学ぶ内容が大きく異なります。<a href="/articles/career-path/" className="underline" style={{ color: "#7c3a55" }}>ITエンジニアのキャリアパス</a>を先に眺めて方向を決めましょう。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">1.</span><span><strong>目指す職種から逆算する</strong> — Webサイト制作（HTML/CSS・デザイン寄り）か、プログラミング（アプリ・システム開発寄り）かで学ぶ内容が大きく異なります。<a href="/articles/career-path/" className="underline" style={{ color: "#7c3a55" }}>ITエンジニアのキャリアパス</a>を先に眺めて方向を決めてください。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">2.</span><span><strong>カリキュラムと訓練時間</strong> — 同じ「Web系」でも内容の深さは様々。習得目標・使用ツール・演習の比率を募集案内で確認します。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">3.</span><span><strong>通いやすさと託児</strong> — 訓練は出席が前提の制度です（給付金は原則全日出席が要件）。自宅からの距離、託児サービスの有無を必ず確認しましょう。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">3.</span><span><strong>通いやすさと託児</strong> — 訓練は出席が前提の制度です（給付金は原則全日出席が要件）。自宅からの距離、託児サービスの有無を必ずご確認ください。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">4.</span><span><strong>目指せる資格</strong> — 訓練と並行して<a href="/articles/certification/" className="underline" style={{ color: "#7c3a55" }}>IT資格</a>（基本情報技術者など）の学習を組み合わせると、修了後の転職で証明材料が増えます（受験料は自己負担）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">5.</span><span><strong>就職支援の内容</strong> — 訓練実施機関やハローワークによる就職支援の内容（キャリアコンサルティング・求人紹介など）も窓口で確認しておくと、修了後の動きがスムーズです。</span></li>
             </ul>
@@ -344,7 +344,7 @@ export default function ArticlePage() {
             {[
               ["STEP1", "ハローワークで求職申込み・訓練の相談", "住所地を管轄するハローワークで求職申込みを行い、職業訓練を受けたい旨を相談します。自分が公共職業訓練と求職者支援訓練のどちらの対象か、給付金の対象になりそうかもここで確認できます。"],
               ["STEP2", "コースを探す", "ハローワークインターネットサービスの「職業訓練検索」や窓口の案内で、IT系コースの募集状況・訓練期間・場所・託児の有無を確認し、候補を絞ります。"],
-              ["STEP3", "受講申込み・選考", "ハローワークを通じて受講を申し込みます。訓練実施機関による選考（面接や筆記試験など）が行われる場合があります。選考方法はコースの募集案内で確認しましょう。"],
+              ["STEP3", "受講申込み・選考", "ハローワークを通じて受講を申し込みます。訓練実施機関による選考（面接や筆記試験など）が行われる場合があります。選考方法はコースの募集案内でご確認ください。"],
               ["STEP4", "受講開始", "訓練が始まったら出席が基本です。給付金を受給する場合は「訓練実施日すべてに出席（やむを得ない理由がある場合でも8割以上）」が要件になるため、生活リズムの設計が重要です。"],
               ["STEP5", "訓練期間中〜修了後の就職支援", "訓練期間中も定期的にハローワークで職業相談を受けながら、修了後の就職に向けて準備を進めます。"],
             ].map(([step, title, desc], i) => (
@@ -388,7 +388,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">訓練で学んだスキルを活かせる企業に出会う</p>
-            <p className="text-sm text-text-light mb-4">未経験歓迎・女性のキャリア継続に配慮した求人を扱うエージェントを比較しましょう。</p>
+            <p className="text-sm text-text-light mb-4">未経験歓迎・女性のキャリア継続に配慮した求人を扱うエージェントを比較することをおすすめします。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -406,7 +406,7 @@ export default function ArticlePage() {
           <div className="grid gap-4 md:grid-cols-2 mt-6">
             <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都 女性ITエンジニア育成事業</h3>
-              <p className="text-sm text-text-light">都内在住・在勤の女性向け。eラーニング主体6か月の訓練と就職支援を無料で提供（原則39歳以下等の要件あり）。ハロートレーニングと要件を見比べて、自分に合うほうを選びましょう。</p>
+              <p className="text-sm text-text-light">都内在住・在勤の女性向け。eラーニング主体6か月の訓練と就職支援を無料で提供（原則39歳以下等の要件あり）。ハロートレーニングと要件を見比べて、自分に合うほうを選ぶことをおすすめします。</p>
             </a>
             <a href="/articles/reskilling-leave/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>リスキリング支援・社内制度の活用</h3>
@@ -477,8 +477,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

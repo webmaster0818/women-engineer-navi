@@ -398,7 +398,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#c15f47" }}>1. 「在職者」限定の制度</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                本事業は、登録時・初回面談時に在職している方が対象です。現在お仕事をしていない離職中の方や専業主婦の方は対象外なので、その場合は離職中でも受けられる<a href="/articles/women-it-support-map/" className="underline" style={{ color: "#7c3a55" }}>自治体の女性デジタル育成事業</a>や<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付</a>を検討しましょう。
+                本事業は、登録時・初回面談時に在職している方が対象です。現在お仕事をしていない離職中の方や専業主婦の方は対象外なので、その場合は離職中でも受けられる<a href="/articles/women-it-support-map/" className="underline" style={{ color: "#7c3a55" }}>自治体の女性デジタル育成事業</a>や<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付</a>をご検討ください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -477,7 +477,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">学び直しの、その先の転職へ</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

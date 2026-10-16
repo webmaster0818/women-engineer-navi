@@ -82,7 +82,7 @@ const faqData = {
       name: "副業の実績は転職でどう活かせますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "副業は「社外でも通用するスキルの証明」として職務経歴書に書ける実績になります。本業では触れない技術スタックや、要件整理〜納品まで一人称で回した経験は、ポートフォリオと面接の具体エピソードの両方に使えます。実際、パーソル総合研究所の調査（2025年）では副業経験者の6.7%が副業先へ転職しており、20代では13.6%に上ります。副業が実質的な「お試し転職」として機能しているということです。守秘義務に反しない範囲で成果物・役割・使用技術を整理し、ポートフォリオに組み込んでおきましょう。",
+        text: "副業は「社外でも通用するスキルの証明」として職務経歴書に書ける実績になります。本業では触れない技術スタックや、要件整理〜納品まで一人称で回した経験は、ポートフォリオと面接の具体エピソードの両方に使えます。実際、パーソル総合研究所の調査（2025年）では副業経験者の6.7%が副業先へ転職しており、20代では13.6%に上ります。副業が実質的な「お試し転職」として機能しているということです。守秘義務に反しない範囲で成果物・役割・使用技術を整理し、ポートフォリオに組み込んでおいてください。",
       },
     },
   ],
@@ -167,7 +167,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>始める順番は「就業規則の確認」が必ず最初。</strong>厚労省モデル就業規則は届出制で原則容認へ転換済みですが、競業・秘密漏洩などは制限対象です。無断で始めず、届け出てから小さく始めましょう。</span>
+                <span><strong>始める順番は「就業規則の確認」が必ず最初。</strong>厚労省モデル就業規則は届出制で原則容認へ転換済みですが、競業・秘密漏洩などは制限対象です。無断で始めず、届け出てから小さく始めてください。</span>
               </li>
             </ul>
           </div>
@@ -316,7 +316,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              副業はフリーランス独立の「試運転」としても最良の手段です。会社員の信用と社会保険を保ったまま、自分のスキルが社外でいくらで売れるかを検証できます。独立まで視野に入れている場合は<a href="/articles/freelance/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性フリーランスエンジニアの始め方</a>で、単価相場と保障の違いを先に確認しておきましょう。
+              副業はフリーランス独立の「試運転」としても最良の手段です。会社員の信用と社会保険を保ったまま、自分のスキルが社外でいくらで売れるかを検証できます。独立まで視野に入れている場合は<a href="/articles/freelance/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性フリーランスエンジニアの始め方</a>で、単価相場と保障の違いを先に確認しておいてください。
             </p>
           </div>
         </div>
@@ -412,7 +412,7 @@ export default function ArticlePage() {
               副業の最大のリスクは税金でも規則でもなく、<strong>働きすぎ</strong>です。パーソル総合研究所の調査（2025年）では、本業と副業を合計した労働時間が<strong>月45時間超の時間外労働に相当する人が約3割</strong>おり、その半数以上が副業を会社に申告していません。「隠れて長時間働く」状態が、健康面で最も危険なパターンです。
             </p>
             <p>
-              同調査の副業の平均月間時間は23.0時間。<strong>週5〜6時間程度が「続けられる副業」の平均像</strong>です。これを基準に、自分のルールを先に決めてから始めましょう。
+              同調査の副業の平均月間時間は23.0時間。<strong>週5〜6時間程度が「続けられる副業」の平均像</strong>です。これを基準に、自分のルールを先に決めてから始めてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -519,7 +519,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -587,7 +587,7 @@ export default function ArticlePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
       </section>
     </>
   );

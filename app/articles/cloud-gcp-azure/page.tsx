@@ -84,7 +84,7 @@ const faqData = {
       name: "クラウドエンジニアは女性が産休・育休後も働きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "働きやすい職種のひとつです。クラウドはコード（IaC）で構築・運用するため物理的なデータセンター作業がほぼなく、フルリモート求人が豊富。Terraformの構成ファイルやアーキテクチャ図など成果が客観的に残るので、時短勤務でも評価されやすいのが特徴です。ただし運用監視やオンコール（障害対応の当番）の有無は企業差が大きいため、リモート運用の実態・夜間対応の体制・女性管理職比率を事前に確認しましょう。求人票に出ない実態は女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
+        text: "働きやすい職種のひとつです。クラウドはコード（IaC）で構築・運用するため物理的なデータセンター作業がほぼなく、フルリモート求人が豊富。Terraformの構成ファイルやアーキテクチャ図など成果が客観的に残るので、時短勤務でも評価されやすいのが特徴です。ただし運用監視やオンコール（障害対応の当番）の有無は企業差が大きいため、リモート運用の実態・夜間対応の体制・女性管理職比率を事前にご確認ください。求人票に出ない実態は女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -100,7 +100,7 @@ const faqData = {
       name: "クラウドエンジニアはオンコールや夜間対応が必ずあるのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "必ずあるわけではなく、担当領域と企業の体制次第です。一般に、設計・構築が中心のポジションや社内向けシステムではオンコールがない現場も多い一方、24時間稼働のサービスを運用するポジションでは輪番制のオンコールや夜間メンテナンスが発生することがあります。輪番の人数・頻度・手当・代休の有無で負担は大きく変わるため、応募前に「オンコールの有無と体制」「夜間作業の頻度」を確認しましょう。求人票に書かれていないことも多いので、エージェント経由で確認するのが確実です。",
+        text: "必ずあるわけではなく、担当領域と企業の体制次第です。一般に、設計・構築が中心のポジションや社内向けシステムではオンコールがない現場も多い一方、24時間稼働のサービスを運用するポジションでは輪番制のオンコールや夜間メンテナンスが発生することがあります。輪番の人数・頻度・手当・代休の有無で負担は大きく変わるため、応募前に「オンコールの有無と体制」「夜間作業の頻度」をご確認ください。求人票に書かれていないことも多いので、エージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -378,7 +378,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験・インフラから目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が目安。インフラ経験者はSTEP1を短縮できます。GCP・Azureのどちらを軸にするかは、行きたい業界（データ活用＝GCP／エンタープライズ＝Azure）で選びましょう。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が目安。インフラ経験者はSTEP1を短縮できます。GCP・Azureのどちらを軸にするかは、行きたい業界（データ活用＝GCP／エンタープライズ＝Azure）で選ぶことをおすすめします。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -440,7 +440,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -503,7 +503,7 @@ export default function ArticlePage() {
           <div className="space-y-4 mt-6">
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>職種との相性｜リモート親和性は高いが「担当領域」で働き方が変わる</h3>
-              <p className="text-sm text-text-light leading-relaxed">クラウドの構築・運用はコード（IaC）と管理画面で完結しやすく、一般にリモートワークとの相性が高い職種です。一方で、運用監視を含むポジションではオンコール（障害対応の当番）や夜間メンテナンスの有無が現場によって分かれます。「クラウド＝必ず自由な働き方」ではなく、設計・構築中心か、運用・監視中心かという担当領域で働き方が大きく変わる点は、応募前に押さえておきましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed">クラウドの構築・運用はコード（IaC）と管理画面で完結しやすく、一般にリモートワークとの相性が高い職種です。一方で、運用監視を含むポジションではオンコール（障害対応の当番）や夜間メンテナンスの有無が現場によって分かれます。「クラウド＝必ず自由な働き方」ではなく、設計・構築中心か、運用・監視中心かという担当領域で働き方が大きく変わる点は、応募前に押さえておいてください。</p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>産休育休・時短との相性｜IaCと資格が復帰のしやすさを支える</h3>
@@ -515,7 +515,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
-              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)クラウドサービスは機能更新が速く、継続的なキャッチアップが働き続ける前提になること、(2)「クラウドエンジニア募集」でも実態が夜勤シフトの監視オペレーターに近い求人が混ざっていること、(3)時短勤務者の評価運用は企業差が大きいこと、の3点は事前確認が必要です。求人票だけで判断が難しい部分は、面接で具体的に質問するか、エージェント経由で実態を確認しましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)クラウドサービスは機能更新が速く、継続的なキャッチアップが働き続ける前提になること、(2)「クラウドエンジニア募集」でも実態が夜勤シフトの監視オペレーターに近い求人が混ざっていること、(3)時短勤務者の評価運用は企業差が大きいこと、の3点は事前確認が必要です。求人票だけで判断が難しい部分は、面接で具体的に質問するか、エージェント経由で実態をご確認ください。</p>
             </div>
           </div>
           <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
@@ -542,8 +542,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

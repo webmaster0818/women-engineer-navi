@@ -71,7 +71,7 @@ const faqData = {
       name: "業務で書いたコードをポートフォリオに使ってもいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "原則NGです。業務で書いたコードの著作権は通常、雇用契約や就業規則により会社に帰属し、無断公開は秘密保持義務違反にもなり得ます。職務経歴書で「何を担当しどう貢献したか」を言葉で説明するにとどめ、公開する制作物は個人として新たに作りましょう。また個人開発でも、APIキー・パスワード等の機密情報をリポジトリに含めない（環境変数で管理し.gitignoreを徹底する）ことは、それ自体がセキュリティ意識の評価ポイントになります。",
+        text: "原則NGです。業務で書いたコードの著作権は通常、雇用契約や就業規則により会社に帰属し、無断公開は秘密保持義務違反にもなり得ます。職務経歴書で「何を担当しどう貢献したか」を言葉で説明するにとどめ、公開する制作物は個人として新たに作ってください。また個人開発でも、APIキー・パスワード等の機密情報をリポジトリに含めない（環境変数で管理し.gitignoreを徹底する）ことは、それ自体がセキュリティ意識の評価ポイントになります。",
       },
     },
   ],
@@ -161,7 +161,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">ポートフォリオの位置づけ：経験別・実情ベースで整理</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              エンジニア転職におけるポートフォリオとは、自分の技術力を示す制作物（Webアプリ・ツール・分析ノートブックなど）と、その置き場所（GitHubリポジトリやデモサイト）の総称です。「全員に必須」と語られがちですが、実情は経験・職種によって重みが大きく異なります。志望先に合わせて、かける労力を正しく配分しましょう。
+              エンジニア転職におけるポートフォリオとは、自分の技術力を示す制作物（Webアプリ・ツール・分析ノートブックなど）と、その置き場所（GitHubリポジトリやデモサイト）の総称です。「全員に必須」と語られがちですが、実情は経験・職種によって重みが大きく異なります。志望先に合わせて、かける労力を正しく配分してください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -268,11 +268,11 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4">
             {[
-              { name: "1. README：最初に読まれる「作品の顔」", desc: "概要（何を解決するものか）、デモURL、スクリーンショット、使用技術、工夫した点・苦労した点、ローカルでの起動手順。この6点が揃ったREADMEは、それ自体がドキュメンテーション能力の証明になります。コードを読む前にREADMEで判断されると考えて、本文と同じ熱量で書きましょう。", color: "#7c3a55" },
+              { name: "1. README：最初に読まれる「作品の顔」", desc: "概要（何を解決するものか）、デモURL、スクリーンショット、使用技術、工夫した点・苦労した点、ローカルでの起動手順。この6点が揃ったREADMEは、それ自体がドキュメンテーション能力の証明になります。コードを読む前にREADMEで判断されると考えて、本文と同じ熱量で書いてください。", color: "#7c3a55" },
               { name: "2. コミット履歴：開発の過程と継続性", desc: "完成品を一括コミットした履歴と、機能単位で意味のあるメッセージを積み重ねた履歴では、後者が圧倒的に信頼されます。「ログイン機能を追加」「N+1クエリを修正」のような粒度のコミットは、実務のチーム開発に近い習慣の証拠です。毎日コミットする必要はなく、週単位でも継続していることが伝われば十分です。", color: "#7c3a55" },
               { name: "3. 動くこと：デプロイ済みデモURL", desc: "「クローンしてビルドしてください」では多忙な選考担当者は見てくれません。Vercel・Netlify・GitHub Pagesなどの無料枠でデプロイし、URLひとつで触れる状態にしておくこと。完成・公開まで持っていく完遂力そのものが評価対象です。", color: "#7c3a55" },
               { name: "4. 実務に近いプラクティス", desc: "テストコード（ユニットテスト1ファイルでも印象が違う）、GitHub ActionsによるCI、環境変数での機密情報管理、Issue・Pull Requestを使った自己レビューの形跡。どれも「チーム開発に入ってすぐ馴染める人」のシグナルになります。全部は不要なので、1〜2個取り入れるだけで差がつきます。", color: "#7c3a55" },
-              { name: "5. 説明できること（2026年最大の評価軸）", desc: "技術選定の理由（なぜReactか、なぜこのDB構成か）、詰まった箇所と解決プロセス、今後の改善案。コードはAIでも書ける時代だからこそ、面接ではここが最重要の確認ポイントになっています。READMEの「工夫した点」に書いた内容は必ず口頭でも語れるよう準備しておきましょう。", color: "#c15f47" },
+              { name: "5. 説明できること（2026年最大の評価軸）", desc: "技術選定の理由（なぜReactか、なぜこのDB構成か）、詰まった箇所と解決プロセス、今後の改善案。コードはAIでも書ける時代だからこそ、面接ではここが最重要の確認ポイントになっています。READMEの「工夫した点」に書いた内容は必ず口頭でも語れるよう準備しておいてください。", color: "#c15f47" },
             ].map((item, i) => (
               <div key={i} className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
                 <h3 className="text-lg font-bold mb-2" style={{ color: item.color }}>{item.name}</h3>
@@ -288,12 +288,12 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">落とし穴：評価を下げる典型NG集</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>努力して作ったのに逆効果になるパターンも決まっています。提出前にセルフチェックしましょう。</p>
+            <p>努力して作ったのに逆効果になるパターンも決まっています。提出前にセルフチェックしてください。</p>
           </div>
           <div className="space-y-4">
             {[
-              { title: "チュートリアルの複製をそのまま出す", desc: "教材や動画講座のTODOアプリ・ブログアプリの完コピは、採用側は何百回も見ているため一目で分かります。教材で学ぶこと自体は正攻法ですが、提出するなら「自分の課題に合わせた機能追加・設計変更」を必ず加え、READMEにベースとの差分を明記しましょう。差分こそが実力の証明です。" },
-              { title: "READMEが空・1行だけ", desc: "コードがどれだけ良くても、READMEがないリポジトリは「何のプロジェクトか分からない」段階で読まれずに終わります。ドキュメントを書かない人という実務上のマイナス推定もつきます。最低でも概要・使用技術・起動手順の3点は書きましょう。" },
+              { title: "チュートリアルの複製をそのまま出す", desc: "教材や動画講座のTODOアプリ・ブログアプリの完コピは、採用側は何百回も見ているため一目で分かります。教材で学ぶこと自体は正攻法ですが、提出するなら「自分の課題に合わせた機能追加・設計変更」を必ず加え、READMEにベースとの差分を明記してください。差分こそが実力の証明です。" },
+              { title: "READMEが空・1行だけ", desc: "コードがどれだけ良くても、READMEがないリポジトリは「何のプロジェクトか分からない」段階で読まれずに終わります。ドキュメントを書かない人という実務上のマイナス推定もつきます。最低でも概要・使用技術・起動手順の3点は書いてください。" },
               { title: "デモURLが死んでいる・エラーで開けない", desc: "応募直前に必ず全リンクを確認すること。無料ホスティングのスリープでの初回表示遅延は許容されますが、404やビルドエラーは「動くものを出せない人」という最悪の印象を残します。" },
               { title: "業務コードの流用・機密情報の公開", desc: "業務で書いたコードの著作権は原則会社に帰属し、無断公開は秘密保持義務違反になり得ます。またAPIキー・パスワードのコミットはそれだけでセキュリティ意識を疑われます。環境変数と.gitignoreの徹底はポートフォリオ以前の基本動作です。" },
               { title: "数を増やして全部が中途半端", desc: "未完成の作品を並べるより、完成・公開済みの1〜2作に絞るほうが強いのが実情です。面接で深掘りされたとき、自分が隅々まで把握している作品しか武器になりません。「説明し切れる規模」を超えて広げないこと。" },
@@ -330,7 +330,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>指針2：全コードを自分の言葉で説明できる状態にする</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                面接で深掘りされたとき答えられないのが最悪のパターンです。AIが書いた部分も「なぜこの書き方を採用したか・他にどんな選択肢があったか」を語れるまで理解してから取り込むこと。説明できない箇所が残るなら、その機能は削るほうが安全です。<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接対策</a>と合わせて、想定質問への回答を準備しておきましょう。
+                面接で深掘りされたとき答えられないのが最悪のパターンです。AIが書いた部分も「なぜこの書き方を採用したか・他にどんな選択肢があったか」を語れるまで理解してから取り込むこと。説明できない箇所が残るなら、その機能は削るほうが安全です。<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接対策</a>と合わせて、想定質問への回答を準備しておいてください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -364,7 +364,7 @@ export default function ArticlePage() {
             </ul>
           </div>
           <p className="text-text-light text-sm leading-relaxed mt-6">
-            ブランクからの復職は、ポートフォリオだけでなく学び直しの支援制度や求人の選び方まで含めた全体設計が大切です。<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>ブランクからの復職ロードマップ</a>で、ブランク年数別の戦略と公的支援制度を確認しておきましょう。
+            ブランクからの復職は、ポートフォリオだけでなく学び直しの支援制度や求人の選び方まで含めた全体設計が大切です。<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>ブランクからの復職ロードマップ</a>で、ブランク年数別の戦略と公的支援制度を確認しておいてください。
           </p>
         </div>
       </section>
@@ -389,7 +389,7 @@ export default function ArticlePage() {
                 <h3 className="text-lg font-bold">実装：意味のあるコミットを積む</h3>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
-                最初からGitHubで管理し、機能単位のコミットメッセージを習慣化します。AIを使う場合は出力を必ず理解してから取り込み、READMEに利用方針をメモしておきます。機密情報は環境変数で管理し、最初に.gitignoreを設定してから書き始めましょう。
+                最初からGitHubで管理し、機能単位のコミットメッセージを習慣化します。AIを使う場合は出力を必ず理解してから取り込み、READMEに利用方針をメモしておきます。機密情報は環境変数で管理し、最初に.gitignoreを設定してから書き始めてください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -470,7 +470,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
       </section>
     </>
   );

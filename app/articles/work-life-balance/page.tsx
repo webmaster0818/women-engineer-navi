@@ -66,7 +66,7 @@ const faqData = {
       name: "フレックスタイム制はIT業界でどのくらい普及していますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "情報通信業のフレックスタイム制導入率は35.9%で、全産業平均（8.2%）の4倍以上、産業別で最も高い水準です（厚生労働省「令和4年就労条件総合調査」）。さらにテレワーク導入率も94.3%と全産業トップ（総務省「令和6年通信利用動向調査」）で、IT業界は「時間と場所の柔軟性」の両面で他産業より有利です。ただしフレックスにはコアタイム（必ず勤務すべき時間帯）の有無・長さに企業差があるため、求人票では「コアタイムなしのフルフレックスか」「中抜けが可能か」まで確認しましょう。",
+        text: "情報通信業のフレックスタイム制導入率は35.9%で、全産業平均（8.2%）の4倍以上、産業別で最も高い水準です（厚生労働省「令和4年就労条件総合調査」）。さらにテレワーク導入率も94.3%と全産業トップ（総務省「令和6年通信利用動向調査」）で、IT業界は「時間と場所の柔軟性」の両面で他産業より有利です。ただしフレックスにはコアタイム（必ず勤務すべき時間帯）の有無・長さに企業差があるため、求人票では「コアタイムなしのフルフレックスか」「中抜けが可能か」までご確認ください。",
       },
     },
     {
@@ -153,7 +153,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
-                <span>見極めは<strong>求人票（固定残業代・年間休日・コアタイム）→公開データ→面接での具体質問</strong>の3段階で。育児に限らず、自己研鑽・介護・健康のための時間確保も含めて条件を整理しましょう。</span>
+                <span>見極めは<strong>求人票（固定残業代・年間休日・コアタイム）→公開データ→面接での具体質問</strong>の3段階で。育児に限らず、自己研鑽・介護・健康のための時間確保も含めて条件を整理してください。</span>
               </li>
             </ul>
           </div>
@@ -350,14 +350,14 @@ export default function ArticlePage() {
               <ul className="space-y-2 text-sm text-text-light leading-relaxed">
                 <li>・<strong>固定残業代（みなし残業）の時間数</strong>——「月45時間分を含む」のような長時間のみなし設定は、恒常的な残業を前提にしている可能性のあるシグナルです。</li>
                 <li>・<strong>年間休日数</strong>——全産業の労働者平均は116.6日（厚労省「令和7年就労条件総合調査」）。120日以上なら完全週休2日＋祝日相当が目安です。</li>
-                <li>・<strong>フレックスのコアタイム</strong>——「フレックスあり」だけでなく、コアタイムなしのフルフレックスか、中抜けが可能かまで読み取りましょう。</li>
+                <li>・<strong>フレックスのコアタイム</strong>——「フレックスあり」だけでなく、コアタイムなしのフルフレックスか、中抜けが可能かまで読み取ってください。</li>
                 <li>・<strong>リモートの条件</strong>——「リモート可」と「フルリモート」は別物。週何日の出社が前提かを確認します。</li>
               </ul>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>ステップ2：公開データで「裏取り」する</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                厚生労働省「女性の活躍推進企業データベース」では、平均残業時間や有給取得率、女性管理職比率などを公表している企業を無料で確認できます。求人票の記載と公開データに食い違いがないかを照合しましょう。えるぼし・くるみんなどの公的認定やデータベースの具体的な使い方は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見極め方</a>で詳しく解説しています。
+                厚生労働省「女性の活躍推進企業データベース」では、平均残業時間や有給取得率、女性管理職比率などを公表している企業を無料で確認できます。求人票の記載と公開データに食い違いがないかを照合してください。えるぼし・くるみんなどの公的認定やデータベースの具体的な使い方は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見極め方</a>で詳しく解説しています。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -385,14 +385,14 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">育児だけじゃないWLB（自己研鑽・介護・趣味・健康）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              ワークライフバランスは「育児との両立」の文脈で語られがちですが、エンジニアにとっての「ライフ」はそれだけではありません。育児以外の4つの観点も、働き方を選ぶ基準に含めましょう。
+              ワークライフバランスは「育児との両立」の文脈で語られがちですが、エンジニアにとっての「ライフ」はそれだけではありません。育児以外の4つの観点も、働き方を選ぶ基準に含めてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 自己研鑽——学習時間はキャリアの生命線</h3>
               <p className="text-text-light text-sm leading-relaxed">
-                技術の移り変わりが速いエンジニアにとって、業務外の学習時間は趣味ではなく<strong>キャリアを維持するための投資</strong>です。恒常的な残業で学習時間がゼロになる職場は、目先の収入が同じでも数年後の市場価値に差がつきます。「残業が少ない＝楽」ではなく「学び続けられる環境」として評価しましょう。
+                技術の移り変わりが速いエンジニアにとって、業務外の学習時間は趣味ではなく<strong>キャリアを維持するための投資</strong>です。恒常的な残業で学習時間がゼロになる職場は、目先の収入が同じでも数年後の市場価値に差がつきます。「残業が少ない＝楽」ではなく「学び続けられる環境」として評価してください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -543,7 +543,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -692,10 +692,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

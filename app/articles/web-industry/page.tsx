@@ -258,7 +258,7 @@ export default function WebIndustryPage() {
           <h2 className="text-2xl font-bold mb-6">Web業界の構造｜4タイプの企業を整理</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「Web業界」と一括りに語られがちですが、実際には事業モデルによって働き方・年収・求められるスキルが大きく異なります。転職で後悔しないために、まず次の4タイプを区別して考えましょう。
+              「Web業界」と一括りに語られがちですが、実際には事業モデルによって働き方・年収・求められるスキルが大きく異なります。転職で後悔しないために、まず次の4タイプを区別して考えてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -283,7 +283,7 @@ export default function WebIndustryPage() {
                 ③ Web受託開発企業
               </h3>
               <p className="text-sm text-text-light leading-relaxed">
-                クライアントのWebサービス・アプリを受託で開発する企業。多様な業界・技術に触れられ、実務経験を積む入口として現実的な選択肢です。一方で納期・予算はクライアント次第で、担当案件によって労働環境が変わりやすい点は把握しておきましょう。SES（客先常駐）との違いは
+                クライアントのWebサービス・アプリを受託で開発する企業。多様な業界・技術に触れられ、実務経験を積む入口として現実的な選択肢です。一方で納期・予算はクライアント次第で、担当案件によって労働環境が変わりやすい点は把握しておいてください。SES（客先常駐）との違いは
                 <a href="/articles/ses-vs-jisha/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>SES・受託・自社開発の違い</a>
                 で詳しく解説しています。
               </p>
@@ -562,7 +562,7 @@ export default function WebIndustryPage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>注意すべき点</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                企業差が極めて大きいのがWeb業界です。スタートアップや小規模企業では「制度はあるが取得前例がない」ケースが現実にあります。求人票だけでは分からない、産休育休の取得・復帰実績、時短勤務者の評価運用、女性管理職の有無は、エージェント経由や面談で必ず確認しましょう。
+                企業差が極めて大きいのがWeb業界です。スタートアップや小規模企業では「制度はあるが取得前例がない」ケースが現実にあります。求人票だけでは分からない、産休育休の取得・復帰実績、時短勤務者の評価運用、女性管理職の有無は、エージェント経由や面談で必ずご確認ください。
               </p>
             </div>
           </div>
@@ -598,7 +598,7 @@ export default function WebIndustryPage() {
               [
                 "ルートD",
                 "周辺職種から開発へ（社内異動・ジョブチェンジ）",
-                "テスター・QA・カスタマーサポート・Webディレクターなどの職種でWeb企業に入り、社内で開発にスライドする方法。企業文化への適応が済んでいる分、異動のハードルは外部転職より低いことがあります。入社前に異動実績の有無を確認しておきましょう。",
+                "テスター・QA・カスタマーサポート・Webディレクターなどの職種でWeb企業に入り、社内で開発にスライドする方法。企業文化への適応が済んでいる分、異動のハードルは外部転職より低いことがあります。入社前に異動実績の有無を確認しておいてください。",
               ],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
@@ -774,7 +774,7 @@ export default function WebIndustryPage() {
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
                 SES・受託・自社開発の違い
               </h3>
-              <p className="text-sm text-text-light">契約形態ごとの働き方を徹底比較</p>
+              <p className="text-sm text-text-light">契約形態ごとの働き方を比較</p>
             </a>
             <a
               href="/articles/startup/"
@@ -830,10 +830,10 @@ export default function WebIndustryPage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              Web系企業への転職を実現しましょう
+              Web系企業への転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              IT特化型エージェントに無料相談して、あなたに合ったWeb系企業を見つけましょう。
+              IT特化型エージェントに無料相談して、あなたに合ったWeb系企業を見つけてください。
             </p>
             <a
               href="/ranking/"

@@ -74,7 +74,7 @@ const faqData = {
       name: "外資系エンジニアとフリーランスは、どちらが1000万に届きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "どちらも1000万円が射程に入りますが、性質が異なります。外資系テック企業は基本給に加えRSU（自社株）やサインオンボーナスが乗り、トータルで2000万円超になるケースもある一方、英語力と高い技術力・選考突破が前提です。高単価フリーランスは月単価80〜100万円超（年収換算1000万円前後）が見込め、SREやEM級では月100万円超の案件もありますが、案件獲得や事務・社会保険を自分で担う必要があります。安定と最大値の外資、自由度と早期到達のフリーランス、という整理で自分の優先順位に合う方を選びましょう。",
+        text: "どちらも1000万円が射程に入りますが、性質が異なります。外資系テック企業は基本給に加えRSU（自社株）やサインオンボーナスが乗り、トータルで2000万円超になるケースもある一方、英語力と高い技術力・選考突破が前提です。高単価フリーランスは月単価80〜100万円超（年収換算1000万円前後）が見込め、SREやEM級では月100万円超の案件もありますが、案件獲得や事務・社会保険を自分で担う必要があります。安定と最大値の外資、自由度と早期到達のフリーランス、という整理で自分の優先順位に合う方を選ぶことをおすすめします。",
       },
     },
     {
@@ -329,7 +329,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">外資・フリーランスという選択</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              日系企業の昇給ペースで1000万円に届くには時間がかかりがちです。早期到達を狙うなら、<strong>外資</strong>と<strong>フリーランス</strong>という2つの近道を検討する価値があります。性質が大きく異なるので、自分の優先順位で選びましょう。
+              日系企業の昇給ペースで1000万円に届くには時間がかかりがちです。早期到達を狙うなら、<strong>外資</strong>と<strong>フリーランス</strong>という2つの近道を検討する価値があります。性質が大きく異なるので、自分の優先順位で選ぶことをおすすめします。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -406,7 +406,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで年収交渉の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分の市場価値を客観的に評価してくれるアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分の市場価値を客観的に評価してくれるアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -449,8 +449,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">年収1000万への一歩を踏み出しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたの市場価値と最短ルートを一緒に見極めましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">年収1000万への一歩を踏み出してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたの市場価値と最短ルートを一緒に見極めてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

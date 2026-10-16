@@ -58,7 +58,7 @@ const faqData = {
       name: "未経験の女性でもLPIC-1（LinuCレベル1）に合格できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "可能です。LPIC-1（LinuCレベル1）はエントリーレベルで、未経験から取得を目指せる内容です。勉強時間の目安は未経験で130〜180時間（1日2時間なら約2〜3か月）。問題演習サイトPing-tとテキスト「あずき本」を中心に学べば、文系・IT未経験から合格している人が多数います。合格体験記では平日2時間・休日6時間で101試験に3週間合格した例もあります。101試験と102試験の2科目に合格して初めてレベル1認定となる点に注意しましょう。",
+        text: "可能です。LPIC-1（LinuCレベル1）はエントリーレベルで、未経験から取得を目指せる内容です。勉強時間の目安は未経験で130〜180時間（1日2時間なら約2〜3か月）。問題演習サイトPing-tとテキスト「あずき本」を中心に学べば、文系・IT未経験から合格している人が多数います。合格体験記では平日2時間・休日6時間で101試験に3週間合格した例もあります。101試験と102試験の2科目に合格して初めてレベル1認定となる点にご注意ください。",
       },
     },
     {
@@ -473,7 +473,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -516,8 +516,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

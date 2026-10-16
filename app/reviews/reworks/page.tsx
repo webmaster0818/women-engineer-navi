@@ -92,7 +92,7 @@ export default function ReworksReviewPage() {
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>フルリモート特化型</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               ReWorks（リワークス）の口コミ・評判
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">フルリモート×女性エンジニアの転職を徹底検証</span>
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">フルリモート×女性エンジニアの転職を検証</span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト確認に基づき再構成）</p>
           </div>
@@ -391,7 +391,7 @@ export default function ReworksReviewPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/articles/remote-jobs/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} リモートワーク求人ガイド</Link>
             <Link href="/articles/mama-engineer/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ママエンジニアの働き方ガイド</Link>
-            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Green vs リワークス徹底比較</Link>
+            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Green vs リワークス比較</Link>
             <Link href="/articles/freelance/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} フリーランスエンジニアガイド</Link>
           </div>
         </div>

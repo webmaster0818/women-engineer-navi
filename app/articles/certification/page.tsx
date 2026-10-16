@@ -39,7 +39,7 @@ const faqData = {
       name: "女性エンジニアはどの資格から取るのがおすすめですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "目的を1つに絞り、それに直結する資格を1つずつ取るのが鉄則です。未経験・異業種からの転職なら、IT全般の基礎を国家資格として証明できる基本情報技術者試験（受験料7,500円・通年CBT）が第一候補。すでにエンジニアとして働いているなら、インフラ志向はLPIC・LinuC、クラウド志向はAWS認定（SAA）、データ・AI志向はPython3エンジニア認定試験やデータベース系資格など、目指す職種に直結するものを選びましょう。複数を同時に勉強するより、1つ取得して実務やポートフォリオに反映してから次へ進む方が転職での評価につながります。",
+        text: "目的を1つに絞り、それに直結する資格を1つずつ取るのが鉄則です。未経験・異業種からの転職なら、IT全般の基礎を国家資格として証明できる基本情報技術者試験（受験料7,500円・通年CBT）が第一候補。すでにエンジニアとして働いているなら、インフラ志向はLPIC・LinuC、クラウド志向はAWS認定（SAA）、データ・AI志向はPython3エンジニア認定試験やデータベース系資格など、目指す職種に直結するものを選ぶことをおすすめします。複数を同時に勉強するより、1つ取得して実務やポートフォリオに反映してから次へ進む方が転職での評価につながります。",
       },
     },
     {
@@ -47,7 +47,7 @@ const faqData = {
       name: "主要なIT資格の受験料はそれぞれいくらですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "2026年6月時点の公式情報では、IPAの情報処理技術者試験（基本情報・応用情報・データベーススペシャリスト等）は全区分7,500円です。AWS認定はFoundationalが100USD（日本では15,000円）、Associateが150USD（20,000円）、Professional・Specialtyが300USD（40,000円）。LPICは1科目15,000円、LinuCは1試験16,500円（税込）で、どちらもレベル1認定には101・102の2科目合格が必要です。Python3エンジニア認定基礎試験・データ分析試験は各11,000円（税込）、統計検定2級はCBT方式で7,000円（税込）です。受験料は改定されることがあるため、申込前に必ず公式サイトで最新額を確認しましょう。",
+        text: "2026年6月時点の公式情報では、IPAの情報処理技術者試験（基本情報・応用情報・データベーススペシャリスト等）は全区分7,500円です。AWS認定はFoundationalが100USD（日本では15,000円）、Associateが150USD（20,000円）、Professional・Specialtyが300USD（40,000円）。LPICは1科目15,000円、LinuCは1試験16,500円（税込）で、どちらもレベル1認定には101・102の2科目合格が必要です。Python3エンジニア認定基礎試験・データ分析試験は各11,000円（税込）、統計検定2級はCBT方式で7,000円（税込）です。受験料は改定されることがあるため、申込前に必ず公式サイトで最新額をご確認ください。",
       },
     },
     {
@@ -316,7 +316,7 @@ export default function CertificationPage() {
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>資格と実務・ポートフォリオの位置づけ</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              資格の本質的な価値は「体系的に学んだことの客観的な証明」です。未経験・ブランク・キャリアチェンジなど<strong>実績で語れない局面ほど効果が大きく</strong>、実績が積み上がるほど相対的な重みは下がります。自分の現在地に合わせて、資格と実務・成果物のバランスを設計しましょう。
+              資格の本質的な価値は「体系的に学んだことの客観的な証明」です。未経験・ブランク・キャリアチェンジなど<strong>実績で語れない局面ほど効果が大きく</strong>、実績が積み上がるほど相対的な重みは下がります。自分の現在地に合わせて、資格と実務・成果物のバランスを設計してください。
             </p>
           </div>
         </div>
@@ -328,7 +328,7 @@ export default function CertificationPage() {
           <h2 className="text-2xl font-bold mb-6">取得の優先順位とロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              迷ったら次の順序で考えましょう。ポイントは<strong>「同時に複数を追わない」</strong>こと。1つ取得するごとに実務やポートフォリオへ反映し、評価される形に変えてから次へ進みます。
+              迷ったら次の順序で考えてください。ポイントは<strong>「同時に複数を追わない」</strong>こと。1つ取得するごとに実務やポートフォリオへ反映し、評価される形に変えてから次へ進みます。
             </p>
           </div>
           <div className="space-y-4">
@@ -411,7 +411,7 @@ export default function CertificationPage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -500,7 +500,7 @@ export default function CertificationPage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">資格を活かした転職を実現しましょう</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">資格を活かした転職を実現してください</h2>
             <p className="text-white/90 mb-6">IT特化型エージェントなら、あなたの資格とスキルを最大限に評価した求人を紹介してもらえます。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>

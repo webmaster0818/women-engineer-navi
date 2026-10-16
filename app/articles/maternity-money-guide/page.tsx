@@ -305,7 +305,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">2025年4月開始の2つの給付（出生後休業支援・育児時短就業）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              2025年（令和7年）4月1日から、育児休業等給付に2つの給付が加わりました。比較的新しい制度のため、勤務先の説明資料が更新されていないこともあります。知らないまま設計すると数十万円単位で見積もりがずれる可能性があるので、必ず押さえておきましょう。
+              2025年（令和7年）4月1日から、育児休業等給付に2つの給付が加わりました。比較的新しい制度のため、勤務先の説明資料が更新されていないこともあります。知らないまま設計すると数十万円単位で見積もりがずれる可能性があるので、必ず押さえておいてください。
             </p>
           </div>
           <div className="space-y-6">
@@ -517,7 +517,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">給付のベースは「休業前の年収」。だから今の一歩が効きます</h2>
-            <p className="text-white/90 mb-6">産育休中の給付額は休業開始前の賃金で決まります。ライフイベントの前にキャリアと年収を整えたい方は、産育休の実績や両立支援に詳しいエージェントに無料相談してみましょう。</p>
+            <p className="text-white/90 mb-6">産育休中の給付額は休業開始前の賃金で決まります。ライフイベントの前にキャリアと年収を整えたい方は、産育休の実績や両立支援に詳しいエージェントに無料相談してんでください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

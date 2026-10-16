@@ -294,7 +294,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">30代前半と30代後半で変わる転職戦略</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              同じ30代でも、企業が見るポイントは前半と後半で明確に変わります。データ上も、女性の転職入職率は30〜34歳の13.2%から35〜39歳の10.5%へ緩やかに下がり、求人側の期待値は「伸びしろ」から「即戦力・再現性」へシフトします。自分がどちらのフェーズにいるかで、アピールの軸を切り替えましょう。
+              同じ30代でも、企業が見るポイントは前半と後半で明確に変わります。データ上も、女性の転職入職率は30〜34歳の13.2%から35〜39歳の10.5%へ緩やかに下がり、求人側の期待値は「伸びしろ」から「即戦力・再現性」へシフトします。自分がどちらのフェーズにいるかで、アピールの軸を切り替えてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -515,7 +515,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -633,8 +633,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

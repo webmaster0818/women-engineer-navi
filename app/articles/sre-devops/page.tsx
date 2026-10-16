@@ -90,7 +90,7 @@ const faqData = {
       name: "育児中でもSREのオンコール当番はこなせますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "現場の体制次第です。一般に、輪番の人数が多く自動化が進んでいる現場ほど1人あたりの負担は小さく、育児中のメンバーが担当時間帯を調整できる運用をとる企業もあります。逆に少人数のチームで24時間対応している現場では負担が大きくなりがちです。応募時には、輪番の人数と頻度・深夜アラートの実際の発生状況・当番の交代やスキップの柔軟性・手当や代休の有無を確認しましょう。社内基盤の担当や日中のみの対応など、オンコールのない（少ない）SREポジションも存在するため、条件を諦める必要はありません。",
+        text: "現場の体制次第です。一般に、輪番の人数が多く自動化が進んでいる現場ほど1人あたりの負担は小さく、育児中のメンバーが担当時間帯を調整できる運用をとる企業もあります。逆に少人数のチームで24時間対応している現場では負担が大きくなりがちです。応募時には、輪番の人数と頻度・深夜アラートの実際の発生状況・当番の交代やスキップの柔軟性・手当や代休の有無をご確認ください。社内基盤の担当や日中のみの対応など、オンコールのない（少ない）SREポジションも存在するため、条件を諦める必要はありません。",
       },
     },
     {
@@ -98,7 +98,7 @@ const faqData = {
       name: "「SRE募集」の求人で入社前に確認すべきポイントは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "求人名がSREでも、実態が従来型の運用監視（手順書ベースの障害一次対応）に近いケースがあるため、業務内容の確認が重要です。具体的には、(1)SLOやエラーバジェットを実際に運用しているか、(2)トイル削減・自動化にどの程度の時間を使えているか、(3)IaCやCI/CDの整備状況、(4)オンコールの体制と頻度、を面接で質問しましょう。回答が具体的な企業ほどSREの考え方が根付いている可能性が高いといえます。働き方の条件と合わせて、エージェント経由で現場の実態を確認するのも有効です。",
+        text: "求人名がSREでも、実態が従来型の運用監視（手順書ベースの障害一次対応）に近いケースがあるため、業務内容の確認が重要です。具体的には、(1)SLOやエラーバジェットを実際に運用しているか、(2)トイル削減・自動化にどの程度の時間を使えているか、(3)IaCやCI/CDの整備状況、(4)オンコールの体制と頻度、を面接で質問してください。回答が具体的な企業ほどSREの考え方が根付いている可能性が高いといえます。働き方の条件と合わせて、エージェント経由で現場の実態を確認するのも有効です。",
       },
     },
   ],
@@ -410,7 +410,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -485,7 +485,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
-              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)「SRE募集」でも実態が従来型の運用監視に近い求人が混ざっていること（SLO運用・自動化の実態を面接で質問して見極める）、(2)オンコールの負担は輪番人数・アラート件数・代休運用で大きく変わるため具体的な数字で確認が必要なこと、(3)ツールチェーンの進化が速く継続的な学習が前提になること、の3点は押さえておきましょう。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
+              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)「SRE募集」でも実態が従来型の運用監視に近い求人が混ざっていること（SLO運用・自動化の実態を面接で質問して見極める）、(2)オンコールの負担は輪番人数・アラート件数・代休運用で大きく変わるため具体的な数字で確認が必要なこと、(3)ツールチェーンの進化が速く継続的な学習が前提になること、の3点は押さえておいてください。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
             </div>
           </div>
           <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
@@ -512,8 +512,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

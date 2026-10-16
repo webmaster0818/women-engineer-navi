@@ -90,7 +90,7 @@ const faqData = {
       name: "夜勤なしでセキュリティエンジニアとして働けますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "可能です。セキュリティの中でもSOC（24時間監視）は交代制シフトの現場が多い一方、脆弱性診断・セキュリティコンサルティング・設計・監査・ガバナンス系の業務は一般に日中中心で、夜勤のない働き方を選びやすい領域です。キャリアの入り口としてSOCを経験する場合も、日勤中心のポジションを選ぶ、数年後に診断・設計へ移る前提でキャリアを組むといった方法があります。応募時には、シフトの有無に加えて、インシデント発生時の緊急呼び出し体制（当番制か・頻度はどの程度か）も確認しておきましょう。",
+        text: "可能です。セキュリティの中でもSOC（24時間監視）は交代制シフトの現場が多い一方、脆弱性診断・セキュリティコンサルティング・設計・監査・ガバナンス系の業務は一般に日中中心で、夜勤のない働き方を選びやすい領域です。キャリアの入り口としてSOCを経験する場合も、日勤中心のポジションを選ぶ、数年後に診断・設計へ移る前提でキャリアを組むといった方法があります。応募時には、シフトの有無に加えて、インシデント発生時の緊急呼び出し体制（当番制か・頻度はどの程度か）も確認しておいてください。",
       },
     },
     {
@@ -402,7 +402,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -477,7 +477,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
-              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)SOC（監視）は24時間の交代制シフトの現場が多く、夜勤を避けたい場合はポジション選びが必須なこと、(2)インシデント対応は性質上、突発対応が発生し得ること（体制・当番制の有無を要確認）、(3)上級職ゆえに未経験からはインフラ経験を挟む数年単位の道のりになること、の3点は押さえておきましょう。働き方の実態は求人票に出にくいため、エージェント経由での確認が確実です。</p>
+              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)SOC（監視）は24時間の交代制シフトの現場が多く、夜勤を避けたい場合はポジション選びが必須なこと、(2)インシデント対応は性質上、突発対応が発生し得ること（体制・当番制の有無を要確認）、(3)上級職ゆえに未経験からはインフラ経験を挟む数年単位の道のりになること、の3点は押さえておいてください。働き方の実態は求人票に出にくいため、エージェント経由での確認が確実です。</p>
             </div>
           </div>
           <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
@@ -504,8 +504,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

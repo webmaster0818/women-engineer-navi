@@ -128,7 +128,7 @@ export default function GeeklyReviewPage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               Geekly（ギークリー）の口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                女性ITエンジニアの転職実績を徹底検証
+                女性ITエンジニアの転職実績を検証
               </span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の声に基づき再構成）</p>
@@ -307,7 +307,7 @@ export default function GeeklyReviewPage() {
             {[
               {
                 reviewer: "求人は首都圏中心",
-                text: "Geeklyの求人は首都圏（東京・神奈川・埼玉・千葉）が中心で、地方求人は限定的です。地方在住でフルリモートにこだわる場合は、フルリモート特化のエージェントとの併用も検討しましょう。",
+                text: "Geeklyの求人は首都圏（東京・神奈川・埼玉・千葉）が中心で、地方求人は限定的です。地方在住でフルリモートにこだわる場合は、フルリモート特化のエージェントとの併用もご検討ください。",
               },
               {
                 reviewer: "IT業界の実務経験者向けのサービス",
@@ -460,7 +460,7 @@ export default function GeeklyReviewPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/articles/web-industry/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Web系企業への転職ガイド｜女性エンジニアが活躍する理由</Link>
             <Link href="/articles/game-industry/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ゲーム業界への転職ガイド｜女性エンジニアの需要と年収</Link>
-            <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} レバテックキャリア vs Geekly徹底比較</Link>
+            <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} レバテックキャリア vs Geekly比較</Link>
             <Link href="/articles/salary/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアの年収ガイド｜平均年収と年収アップの方法</Link>
           </div>
         </div>

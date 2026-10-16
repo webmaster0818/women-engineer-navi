@@ -270,7 +270,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>注意：「苦手分野の捨て問戦略」は使えない</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              合格には総合600点以上に加えて、<strong>3分野すべてで分野別評価点300点以上</strong>が必要です（IRT採点）。「経営は苦手だからテクノロジで稼ぐ」といった偏った戦略では、総合点が足りていても分野別基準で不合格になり得ます。3分野をまんべんなく学びましょう。ITが初めての方はテクノロジ系、経営知識が初めての方はストラテジ系に学習時間を多めに配分するのがコツです。
+              合格には総合600点以上に加えて、<strong>3分野すべてで分野別評価点300点以上</strong>が必要です（IRT採点）。「経営は苦手だからテクノロジで稼ぐ」といった偏った戦略では、総合点が足りていても分野別基準で不合格になり得ます。3分野をまんべんなく学んでください。ITが初めての方はテクノロジ系、経営知識が初めての方はストラテジ系に学習時間を多めに配分するのがコツです。
             </p>
           </div>
         </div>
@@ -386,7 +386,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">次に目指す資格</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
-            <p>ITパスポートはゴールではなくスタート地点。エンジニアを目指すなら、そのまま学習を続けて次の資格へつなげましょう。</p>
+            <p>ITパスポートはゴールではなくスタート地点。エンジニアを目指すなら、そのまま学習を続けて次の資格へつなげてください。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
             <div className="rounded-xl border p-6" style={{ borderColor: "#7c3a55" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>基本情報技術者試験（FE）— 本命</h3><p className="text-sm text-text-light">エンジニアの登竜門となる国家試験（ITSSレベル2）。ITパスポートで学んだ3分野がそのまま土台になります。エンジニア転職を目指すなら、ここまで到達するのがおすすめです。<a href="/articles/cert-kihonjoho/" className="underline font-bold" style={{ color: "#7c3a55" }}>基本情報技術者試験ガイドへ</a></p></div>

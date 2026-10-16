@@ -264,7 +264,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">どのエージェントを併用するか</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>訓練修了後は、未経験サポートに強いエージェントを軸にするのが現実的です。まずは各社の口コミ・特徴を見て、相性の良さそうな2〜3社に登録しましょう。</p>
+            <p>訓練修了後は、未経験サポートに強いエージェントを軸にするのが現実的です。まずは各社の口コミ・特徴を見て、相性の良さそうな2〜3社に登録することをおすすめします。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -354,8 +354,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">修了した学びを、転職につなげましょう</h2>
-            <p className="text-white/90 mb-6">事業の職業紹介＋無料エージェントの併用で、求人の選択肢を広げましょう。まずは相性の良いエージェントを探すところから。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">修了した学びを、転職につなげてください</h2>
+            <p className="text-white/90 mb-6">事業の職業紹介＋無料エージェントの併用で、求人の選択肢を広げてください。まずは相性の良いエージェントを探すところから。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

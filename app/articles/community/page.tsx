@@ -82,7 +82,7 @@ const faqData = {
       name: "コミュニティ選びで失敗しないためのポイントは？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "3点を確認しましょう。(1)直近の活動実績：connpass・Doorkeeper・公式SNSで直近1年以内にイベント開催があるかを必ず確認する（解散・休止したコミュニティが古い記事で紹介され続けているケースがあります）。(2)対象との一致：技術特化型（Python・Java・AWS等）か、キャリア・交流型かを自分の目的と合わせる。(3)参加形式：オンライン中心か、東京などオフライン中心かを生活スタイルと合わせる。まずは単発イベントに1回参加し、雰囲気が合うかを確かめてから継続を決めるのが安全です。",
+        text: "3点をご確認ください。(1)直近の活動実績：connpass・Doorkeeper・公式SNSで直近1年以内にイベント開催があるかを必ず確認する（解散・休止したコミュニティが古い記事で紹介され続けているケースがあります）。(2)対象との一致：技術特化型（Python・Java・AWS等）か、キャリア・交流型かを自分の目的と合わせる。(3)参加形式：オンライン中心か、東京などオフライン中心かを生活スタイルと合わせる。まずは単発イベントに1回参加し、雰囲気が合うかを確かめてから継続を決めるのが安全です。",
       },
     },
   ],
@@ -440,7 +440,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             {[
               ["軸1", "目的で選ぶ", "技術を深めたい→PyLadies Tokyo・JAWS-UGクラウド女子会など技術特化型。キャリアの視野を広げたい・仲間が欲しい→TECH PLAY女子部など交流型。まず体験したい→Rails Girlsのような単発ワークショップ。目的と場のミスマッチが、続かない最大の原因です。"],
-              ["軸2", "参加形式で選ぶ", "オンライン中心なら地方在住・育児中でも続けやすく、オフライン中心なら人間関係が深まりやすい傾向があります。託児スポンサー付きイベント（Rails Girlsの開催回など）のように、子連れ参加に配慮した企画もあるので、募集ページの記載を確認しましょう。"],
+              ["軸2", "参加形式で選ぶ", "オンライン中心なら地方在住・育児中でも続けやすく、オフライン中心なら人間関係が深まりやすい傾向があります。託児スポンサー付きイベント（Rails Girlsの開催回など）のように、子連れ参加に配慮した企画もあるので、募集ページの記載をご確認ください。"],
               ["軸3", "活動の「鮮度」で選ぶ", "直近1年以内にイベント開催実績があるかを必ず確認します。本記事の一覧表には確認日（2026年6月）を明記していますが、状況は変わるため、申し込み前に公式ページの最新情報を見るのが確実です。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
@@ -504,7 +504,7 @@ export default function ArticlePage() {
               ["STEP1", "オンラインで「聞くだけ」参加", "カメラ・マイクオフで視聴できるオンラインイベントから。発言義務はありません。IT Women Summitのような無料オンラインカンファレンスや、過去の講演資料・録画を見るだけでも十分な一歩です。"],
               ["STEP2", "「初心者歓迎」明記のイベントへ", "connpassやTECH PLAYのイベントページには対象者が書かれています。「初心者歓迎」「未経験OK」の表記がある回を選べば、レベルの心配は不要です。女性限定イベントは少人数で丁寧な運営のものが多い傾向があります。"],
               ["STEP3", "ハンズオン・もくもく会で手を動かす", "交流が苦手でも、作業が主役のイベントなら会話のプレッシャーが小さくて済みます。「何をしている人ですか」と聞かれたら、学習中ならそのまま伝えれば大丈夫。同じ段階の参加者は必ずいます。"],
-              ["STEP4", "懇親会で1人と話す・Slackに書き込む", "全員と仲良くなる必要はありません。1回のイベントで1人と話せれば成功と考えましょう。オンラインコミュニティなら自己紹介チャンネルへの書き込みが最初の接点になります。"],
+              ["STEP4", "懇親会で1人と話す・Slackに書き込む", "全員と仲良くなる必要はありません。1回のイベントで1人と話せれば成功と考えてください。オンラインコミュニティなら自己紹介チャンネルへの書き込みが最初の接点になります。"],
               ["STEP5", "5分LTに挑戦する", "「学習でつまずいた話」のような身近なテーマで十分です。登壇すると顔を覚えてもらえて以後の参加が楽になるうえ、資料は職務経歴書に書ける実績になります。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
@@ -581,7 +581,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
       </section>
     </>
   );

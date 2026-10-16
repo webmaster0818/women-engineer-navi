@@ -66,7 +66,7 @@ const faqData = {
       name: "働きながらでも受講できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "非正規雇用で就業中の方も対象に含まれており、訓練はeラーニングが主体で集合型訓練は月2回（新宿会場）です。自分のペースで学習を進めやすい設計のため、パート・派遣などで働きながらの受講も想定されています。ただしプログラミングコースで約148時間、インフラクラウドコースで約142時間の学習時間が目安とされており、6か月で割ると週6時間前後の学習を継続する必要があります。就業中の方は学習時間を確保できるかを先に見積もっておきましょう。",
+        text: "非正規雇用で就業中の方も対象に含まれており、訓練はeラーニングが主体で集合型訓練は月2回（新宿会場）です。自分のペースで学習を進めやすい設計のため、パート・派遣などで働きながらの受講も想定されています。ただしプログラミングコースで約148時間、インフラクラウドコースで約142時間の学習時間が目安とされており、6か月で割ると週6時間前後の学習を継続する必要があります。就業中の方は学習時間を確保できるかを先に見積もっておいてください。",
       },
     },
     {
@@ -98,7 +98,7 @@ const faqData = {
       name: "女性ITエンジニア育成事業にデメリット・注意点はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "行政の委託訓練であるため、次の点は理解しておきましょう。（1）年度単位の事業で運営事業者や募集要項が変わることがある（令和6年度ワークポート→令和7年度以降アデコ）。（2）約142〜148時間の学習時間の確保が必要で、働きながらの受講は計画性が求められる。（3）就職は保証されず、職業紹介の求人だけに頼ると選択肢が限られる。（4）交通費・受験料は自己負担。これらは制度の性質上のもので、就職支援やエージェント併用で補える範囲です。「先に学ぶか、未経験可の会社に転職して実務で学ぶか」で迷う場合は、ルート比較の記事も参考にしてください。",
+        text: "行政の委託訓練であるため、次の点は理解しておいてください。（1）年度単位の事業で運営事業者や募集要項が変わることがある（令和6年度ワークポート→令和7年度以降アデコ）。（2）約142〜148時間の学習時間の確保が必要で、働きながらの受講は計画性が求められる。（3）就職は保証されず、職業紹介の求人だけに頼ると選択肢が限られる。（4）交通費・受験料は自己負担。これらは制度の性質上のもので、就職支援やエージェント併用で補える範囲です。「先に学ぶか、未経験可の会社に転職して実務で学ぶか」で迷う場合は、ルート比較の記事も参考にしてください。",
       },
     },
   ],
@@ -332,7 +332,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">費用は無料？自己負担になるもの</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              受講料は<strong>無料</strong>です。一般的なプログラミングスクールが数十万円かかることを考えると、これが本事業の最大のメリットです。ただし「全部タダ」ではないため、無料の範囲と自己負担を正確に押さえておきましょう。
+              受講料は<strong>無料</strong>です。一般的なプログラミングスクールが数十万円かかることを考えると、これが本事業の最大のメリットです。ただし「全部タダ」ではないため、無料の範囲と自己負担を正確に押さえておいてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -371,7 +371,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4">
             {[
-              ["STEP1", "公式サイトで募集状況を確認", "コース（プログラミング／インフラクラウド）ごとに募集状況が異なります。希望コースの開始時期・申込期限をまず確認しましょう。"],
+              ["STEP1", "公式サイトで募集状況を確認", "コース（プログラミング／インフラクラウド）ごとに募集状況が異なります。希望コースの開始時期・申込期限をまずご確認ください。"],
               ["STEP2", "対象要件をセルフチェック", "原則39歳以下／正社員でない／都内IT企業等への正社員就職希望／学生でない、の4条件を確認。判断に迷う場合は運営事務局（0120-630-023）へ。"],
               ["STEP3", "公式サイトから申込", "公式サイト（women-tokyo-en.metro.tokyo.lg.jp）の申込フォームからエントリーします。"],
               ["STEP4", "訓練開始（6か月）", "eラーニング主体で学習を進め、月2回の集合型訓練（新宿）に参加。学習時間の目安は約142〜148時間です。"],
@@ -493,7 +493,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -551,8 +551,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

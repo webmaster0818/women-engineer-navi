@@ -91,7 +91,7 @@ export default function GreenReviewPage() {
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>IT特化型</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               Green（グリーン）の口コミ・評判
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアのカジュアル転職に最適？徹底検証</span>
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアのカジュアル転職に最適？検証</span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイトの公開情報に基づき再構成）</p>
           </div>
@@ -380,7 +380,7 @@ export default function GreenReviewPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/articles/startup/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} スタートアップ転職ガイド</Link>
             <Link href="/articles/web-industry/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Web系企業への転職ガイド｜女性エンジニアが活躍する理由</Link>
-            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Green vs リワークス徹底比較</Link>
+            <Link href="/articles/green-vs-reworks/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} Green vs リワークス比較</Link>
             <Link href="/articles/side-job/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} エンジニアの副業ガイド</Link>
           </div>
         </div>

@@ -74,7 +74,7 @@ const faqData = {
       name: "UXデザイナーは産休・育休後も働きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "働きやすい職種のひとつです。リサーチ・設計・ドキュメント作成はリモートで完結しやすく、フルリモートやフレックスの求人が増えています。成果がリサーチ結果や改善数値として可視化されるため、時短勤務でも実力が評価されやすいのも利点です。ただし企業差が大きいため、産休育休の取得・復帰実績、デザイン組織の有無、リモート運用の実態を事前に確認しましょう。求人票に出ない実情は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
+        text: "働きやすい職種のひとつです。リサーチ・設計・ドキュメント作成はリモートで完結しやすく、フルリモートやフレックスの求人が増えています。成果がリサーチ結果や改善数値として可視化されるため、時短勤務でも実力が評価されやすいのも利点です。ただし企業差が大きいため、産休育休の取得・復帰実績、デザイン組織の有無、リモート運用の実態を事前にご確認ください。求人票に出ない実情は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -164,7 +164,7 @@ export default function ArticlePage() {
               具体的な業務は、(1)ユーザーインタビュー・アンケート・行動観察などの<strong>ユーザーリサーチ</strong>、(2)集めた情報をもとにサービスの構造を組み立てる<strong>情報設計（IA）</strong>、(3)画面構成と機能配置を描く<strong>ワイヤーフレーム作成</strong>、(4)Figmaなどで作る<strong>プロトタイプ</strong>、(5)試作品を実際のユーザーに触ってもらう<strong>ユーザビリティテスト</strong>、(6)データ分析にもとづく継続的な改善など。開発前にFigmaとMazeでユーザーテストを行い、手戻りを減らす進め方が一般的です。
             </p>
             <p>
-              混同されやすい近接職種との違いを押さえておきましょう。<strong>UIデザイナー</strong>は配色・タイポグラフィ・アイコンなど画面の「見た目」を、<strong>Webデザイナー</strong>はコーポレートサイトやLPのビジュアル制作を主に担当します。UIはUXの一要素であり、UXデザイナーはその前段の「体験そのものの設計」まで踏み込むため、扱う範囲が最も広いのが特徴です。コーディング中心のフロントエンドエンジニアとも軸が異なり、UXは<strong>体験設計・課題解決</strong>が主戦場になります。
+              混同されやすい近接職種との違いを押さえておいてください。<strong>UIデザイナー</strong>は配色・タイポグラフィ・アイコンなど画面の「見た目」を、<strong>Webデザイナー</strong>はコーポレートサイトやLPのビジュアル制作を主に担当します。UIはUXの一要素であり、UXデザイナーはその前段の「体験そのものの設計」まで踏み込むため、扱う範囲が最も広いのが特徴です。コーディング中心のフロントエンドエンジニアとも軸が異なり、UXは<strong>体験設計・課題解決</strong>が主戦場になります。
             </p>
             <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>UXデザイナーの主な仕事内容</h3>
@@ -383,7 +383,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -452,8 +452,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

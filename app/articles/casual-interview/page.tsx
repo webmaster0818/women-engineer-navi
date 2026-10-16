@@ -58,7 +58,7 @@ const faqData = {
       name: "カジュアル面談の服装はどうすればいいですか？私服でいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "オンライン・オフラインともにビジネスカジュアルが無難です。女性ならブラウスやきれいめのニットに、ジャケットやカーディガンを羽織り、きれいめのパンツやスカートを合わせれば十分です。スーツでなくてもよい一方、ヨレた部屋着やすっぴんに近い状態は避けましょう。「私服OK」「服装自由」と案内された場合でも、清潔感のある服装を選べば失礼になりません。オンライン面談では、上半身だけでなく背景や照明、ネット環境も事前にチェックしておくと安心です。",
+        text: "オンライン・オフラインともにビジネスカジュアルが無難です。女性ならブラウスやきれいめのニットに、ジャケットやカーディガンを羽織り、きれいめのパンツやスカートを合わせれば十分です。スーツでなくてもよい一方、ヨレた部屋着やすっぴんに近い状態は避けてください。「私服OK」「服装自由」と案内された場合でも、清潔感のある服装を選べば失礼になりません。オンライン面談では、上半身だけでなく背景や照明、ネット環境も事前にチェックしておくと安心です。",
       },
     },
     {
@@ -82,7 +82,7 @@ const faqData = {
       name: "カジュアル面談の前に、どこまで準備しておけばいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "最低限、(1)自己紹介と転職を考えた背景を1〜2分で話せるよう整理、(2)企業のサービス・技術スタック・採用ページに目を通す、(3)聞きたい質問を5〜10個リスト化、の3点を準備しておけば十分です。エンジニアの場合は、技術ブログやGitHub、使用言語・フレームワーク、開発体制（チーム規模・開発手法）まで見ておくと、踏み込んだ会話ができ評価につながります。志望動機を完璧に固める必要はありませんが、『なぜこの会社の話を聞きたいと思ったか』だけは言語化しておきましょう。",
+        text: "最低限、(1)自己紹介と転職を考えた背景を1〜2分で話せるよう整理、(2)企業のサービス・技術スタック・採用ページに目を通す、(3)聞きたい質問を5〜10個リスト化、の3点を準備しておけば十分です。エンジニアの場合は、技術ブログやGitHub、使用言語・フレームワーク、開発体制（チーム規模・開発手法）まで見ておくと、踏み込んだ会話ができ評価につながります。志望動機を完璧に固める必要はありませんが、『なぜこの会社の話を聞きたいと思ったか』だけは言語化しておいてください。",
       },
     },
     {
@@ -90,7 +90,7 @@ const faqData = {
       name: "カジュアル面談を受けたら、必ず選考に進まないといけませんか？辞退できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "進む義務はありません。カジュアル面談は『応募するか／選考に進むか』を判断するための場なので、話を聞いた結果ミスマッチだと感じたら辞退して問題ありません。辞退の連絡は、面談のお礼を述べたうえで『検討した結果、今回は見送らせていただきたい』と簡潔に伝えれば十分です。エージェント経由の場合は担当者に理由（社風・働き方・技術領域が合わなかった等）を伝えると、次の求人紹介の精度が上がります。逆に、その場で答えを出す必要もないので、持ち帰って落ち着いて見極めてから判断しましょう。",
+        text: "進む義務はありません。カジュアル面談は『応募するか／選考に進むか』を判断するための場なので、話を聞いた結果ミスマッチだと感じたら辞退して問題ありません。辞退の連絡は、面談のお礼を述べたうえで『検討した結果、今回は見送らせていただきたい』と簡潔に伝えれば十分です。エージェント経由の場合は担当者に理由（社風・働き方・技術領域が合わなかった等）を伝えると、次の求人紹介の精度が上がります。逆に、その場で答えを出す必要もないので、持ち帰って落ち着いて見極めてから判断してください。",
       },
     },
     {
@@ -288,7 +288,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">聞くべき質問・逆質問例</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              逆質問は単なる疑問解消だけでなく、<strong>「会社をよく調べている」「入社後を具体的にイメージしている」というアピール</strong>にもなります。エンジニアの転職では技術力に加えてヒューマンスキルやカルチャーフィットも見られるため、観点をバランスよく散らすのがコツです。下のカテゴリーから自分の関心に合わせて選びましょう。
+              逆質問は単なる疑問解消だけでなく、<strong>「会社をよく調べている」「入社後を具体的にイメージしている」というアピール</strong>にもなります。エンジニアの転職では技術力に加えてヒューマンスキルやカルチャーフィットも見られるため、観点をバランスよく散らすのがコツです。下のカテゴリーから自分の関心に合わせて選ぶことをおすすめします。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -343,7 +343,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">やってはいけないNG行動</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>「カジュアル」という言葉に油断すると、知らないうちに印象を下げていることがあります。次のNG行動は避けましょう。</p>
+            <p>「カジュアル」という言葉に油断すると、知らないうちに印象を下げていることがあります。次のNG行動は避けてください。</p>
           </div>
           <div className="space-y-4">
             <div className="rounded-xl border p-5" style={{ borderColor: "#fecaca", backgroundColor: "#fef2f2" }}>
@@ -352,7 +352,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-5" style={{ borderColor: "#fecaca", backgroundColor: "#fef2f2" }}>
               <h3 className="font-bold mb-1" style={{ color: "#dc2626" }}>2. 開口一番に年収・福利厚生の話ばかりする</h3>
-              <p className="text-sm text-text-light">条件確認は大切ですが、最初から待遇の話に終始すると志望度が低い印象に。働き方への前向きな関心とセットで聞きましょう。</p>
+              <p className="text-sm text-text-light">条件確認は大切ですが、最初から待遇の話に終始すると志望度が低い印象に。働き方への前向きな関心とセットで聞いてください。</p>
             </div>
             <div className="rounded-xl border p-5" style={{ borderColor: "#fecaca", backgroundColor: "#fef2f2" }}>
               <h3 className="font-bold mb-1" style={{ color: "#dc2626" }}>3. ネガティブ・詰問口調の質問をする</h3>
@@ -360,7 +360,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-5" style={{ borderColor: "#fecaca", backgroundColor: "#fef2f2" }}>
               <h3 className="font-bold mb-1" style={{ color: "#dc2626" }}>4. 「特に質問はありません」で終える</h3>
-              <p className="text-sm text-text-light">質疑応答が中心の面談で質問ゼロは、関心がないサインに見えます。最低でも3〜5個は用意しておきましょう。</p>
+              <p className="text-sm text-text-light">質疑応答が中心の面談で質問ゼロは、関心がないサインに見えます。最低でも3〜5個は用意しておいてください。</p>
             </div>
             <div className="rounded-xl border p-5" style={{ borderColor: "#fecaca", backgroundColor: "#fef2f2" }}>
               <h3 className="font-bold mb-1" style={{ color: "#dc2626" }}>5. 遅刻・ラフすぎる態度・環境の不備</h3>
@@ -376,7 +376,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">面接選考に進むコツ</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              カジュアル面談を「話を聞いて終わり」にせず、興味があるなら選考につなげましょう。企業は候補者の志望度が高いと感じると、次のステップを案内しやすくなります。
+              カジュアル面談を「話を聞いて終わり」にせず、興味があるなら選考につなげてください。企業は候補者の志望度が高いと感じると、次のステップを案内しやすくなります。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -406,7 +406,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性が働き方を確認する活用法</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              カジュアル面談は、女性エンジニアにとって<strong>求人票に出ない「働き方の実態」を確認できる貴重な場</strong>です。「フルリモート可」と書いてあっても、実際は都内在住者しかいない、入社1年は出社必須、といったギャップは珍しくありません。選考前のフラットな場だからこそ、ライフイベントとの両立に関わる点を早めに確認しておきましょう。
+              カジュアル面談は、女性エンジニアにとって<strong>求人票に出ない「働き方の実態」を確認できる貴重な場</strong>です。「フルリモート可」と書いてあっても、実際は都内在住者しかいない、入社1年は出社必須、といったギャップは珍しくありません。選考前のフラットな場だからこそ、ライフイベントとの両立に関わる点を早めに確認しておいてください。
             </p>
             <p>
               ポイントは<strong>聞き方</strong>です。「長く働き続けたいので確認したい」という前向きな姿勢とセットで尋ねれば、印象を損ねることはありません。次のような質問が有効です。
@@ -436,7 +436,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">カジュアル面談後の見極め（進む／見送る）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              カジュアル面談は「受けて終わり」ではなく、<strong>その企業の選考に進むか、見送るかを判断するための材料集め</strong>でもあります。その場で結論を出す必要はありません。面談後に落ち着いて、次の4つの軸で振り返りましょう。合否のない面談だからこそ、候補者側が主体的に見極める姿勢が大切です。
+              カジュアル面談は「受けて終わり」ではなく、<strong>その企業の選考に進むか、見送るかを判断するための材料集め</strong>でもあります。その場で結論を出す必要はありません。面談後に落ち着いて、次の4つの軸で振り返ってください。合否のない面談だからこそ、候補者側が主体的に見極める姿勢が大切です。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -499,7 +499,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -544,7 +544,7 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。カジュアル面談の調整から条件の裏取りまでサポートしてもらえます。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>

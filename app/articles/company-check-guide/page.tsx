@@ -58,7 +58,7 @@ const faqData = {
       name: "女性の活躍推進企業データベースに載っていない企業は避けるべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "載っていない＝悪い会社、とは言えません。女性活躍推進法で行動計画の策定・情報公表が義務なのは常時雇用101人以上の企業で、100人以下は努力義務です。また、情報公表の方法はこのデータベースへの掲載が推奨されているものの、自社ホームページなどでの公表も認められています。小規模なスタートアップや、自社サイトで公表している企業はデータベースに出てこないことがあります。その場合は採用ページ・カジュアル面談・面接での質問など、他の手段で確かめましょう（出典: 厚生労働省 女性活躍推進法特集ページ、2026年7月参照）。",
+        text: "載っていない＝悪い会社、とは言えません。女性活躍推進法で行動計画の策定・情報公表が義務なのは常時雇用101人以上の企業で、100人以下は努力義務です。また、情報公表の方法はこのデータベースへの掲載が推奨されているものの、自社ホームページなどでの公表も認められています。小規模なスタートアップや、自社サイトで公表している企業はデータベースに出てこないことがあります。その場合は採用ページ・カジュアル面談・面接での質問など、他の手段で確かめてください（出典: 厚生労働省 女性活躍推進法特集ページ、2026年7月参照）。",
       },
     },
     {
@@ -275,7 +275,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>ITエンジニア職で読むときのコツ</h3>
             <ul className="space-y-2 text-sm text-text-light">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>全社数値は職種の混合値です。</strong>営業・事務・エンジニアを合算した数値のため、たとえば「女性比率が高い」会社でも技術部門は別、ということがあり得ます。「雇用管理区分ごと」の数値（総合職・技術職など区分別）が公表されていれば、そちらを優先して見ましょう。区分別がない場合、エンジニア職の実態は面接で確認する項目に回します。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>全社数値は職種の混合値です。</strong>営業・事務・エンジニアを合算した数値のため、たとえば「女性比率が高い」会社でも技術部門は別、ということがあり得ます。「雇用管理区分ごと」の数値（総合職・技術職など区分別）が公表されていれば、そちらを優先してご覧ください。区分別がない場合、エンジニア職の実態は面接で確認する項目に回します。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>勤続年数は「絶対値」より「男女差」。</strong>転職によるキャリアアップが一般的な業界では平均勤続年数そのものは短めに出ることがあります。男女で差が大きい場合に「女性だけ辞めている理由」を面接で確かめる、という使い方が実践的です。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>残業時間は繁忙の偏りに注意。</strong>公表値は年間平均のため、リリース前や障害対応など時期による偏りは見えません。平均値を入口に、繁忙期の実態を面接で聞くのがセットです。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>データが古くないかを確認。</strong>公表データには対象期間が示されます。法律上は年1回の更新が求められているので、極端に古いまま放置されている場合、公表への熱意そのものが一つの判断材料になります。</span></li>
@@ -328,7 +328,7 @@ export default function ArticlePage() {
           <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>注意点：「認定なし＝悪い会社」ではない</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              どちらの認定も<strong>企業が自ら申請して初めて審査される</strong>制度です。実態が良くても、申請の手間やコストから取得していない企業（特に中小・スタートアップ）は珍しくありません。したがって「認定あり」は加点材料として確度が高い一方、「認定なし」から悪い評価を導くのは早計です。認定がない企業は、データベースの公表実績と面接での質問で個別に確かめましょう。逆に、認定マークだけを見て公表実績を確認しないのも避けたいところです。
+              どちらの認定も<strong>企業が自ら申請して初めて審査される</strong>制度です。実態が良くても、申請の手間やコストから取得していない企業（特に中小・スタートアップ）は珍しくありません。したがって「認定あり」は加点材料として確度が高い一方、「認定なし」から悪い評価を導くのは早計です。認定がない企業は、データベースの公表実績と面接での質問で個別に確かめてください。逆に、認定マークだけを見て公表実績を確認しないのも避けたいところです。
             </p>
             <p className="text-xs text-text-light mt-3">
               出典: <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000091025.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>厚生労働省「女性活躍推進法特集ページ」</a>／<a href="https://www.mhlw.go.jp/content/11900000/001677221.pdf" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>えるぼし認定、プラチナえるぼし認定の概要（PDF）</a>／<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/kurumin/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>くるみんマーク・プラチナくるみんマーク・トライくるみんマークについて</a>（いずれも2026年7月参照）
@@ -429,7 +429,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h4 className="font-bold mb-2" style={{ color: "#7c3a55" }}>カジュアル面談：働き方・実態を最も聞きやすい場</h4>
-              <p className="text-sm text-text-light leading-relaxed">選考ではないと位置づけられている面談なら、働き方や職場の雰囲気に関する質問の中心をここに置くのが効率的です。現場エンジニアが相手なら「チームに時短の方はいますか」「復帰された方はどんな働き方をされていますか」と実態ベースで聞けます。ただし企業によっては面談の印象が後の選考に影響しないとは言い切れないため、聞き方の丁寧さは面接と同じ水準を保ちましょう。詳しくは<a href="/articles/casual-interview/" className="underline" style={{ color: "#7c3a55" }}>カジュアル面談の活用法</a>で解説しています。</p>
+              <p className="text-sm text-text-light leading-relaxed">選考ではないと位置づけられている面談なら、働き方や職場の雰囲気に関する質問の中心をここに置くのが効率的です。現場エンジニアが相手なら「チームに時短の方はいますか」「復帰された方はどんな働き方をされていますか」と実態ベースで聞けます。ただし企業によっては面談の印象が後の選考に影響しないとは言い切れないため、聞き方の丁寧さは面接と同じ水準を保ってください。詳しくは<a href="/articles/casual-interview/" className="underline" style={{ color: "#7c3a55" }}>カジュアル面談の活用法</a>で解説しています。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h4 className="font-bold mb-2" style={{ color: "#7c3a55" }}>一次〜最終面接：仕事への関心とセットで、逆質問の一部として</h4>
@@ -437,7 +437,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h4 className="font-bold mb-2" style={{ color: "#7c3a55" }}>内定後（オファー面談）：条件・制度の詳細を確認する正式な場</h4>
-              <p className="text-sm text-text-light leading-relaxed">内定後の条件面談は、給与・勤務条件とあわせて<strong>制度の詳細を確認するために用意された場</strong>です。産休・育休の取得要件、時短勤務の対象期間、復帰後の評価の考え方など、具体的な質問はここで遠慮なく確認しましょう。入社を決める前の最終チェックリストは<a href="/articles/offer-meeting/" className="underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきこと</a>にまとめています。</p>
+              <p className="text-sm text-text-light leading-relaxed">内定後の条件面談は、給与・勤務条件とあわせて<strong>制度の詳細を確認するために用意された場</strong>です。産休・育休の取得要件、時短勤務の対象期間、復帰後の評価の考え方など、具体的な質問はここで遠慮なくご確認ください。入社を決める前の最終チェックリストは<a href="/articles/offer-meeting/" className="underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきこと</a>にまとめています。</p>
             </div>
           </div>
           <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>

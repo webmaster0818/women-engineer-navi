@@ -153,7 +153,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>独立の現実的なルートは「実務3年＋副業で試運転」。</strong>いきなりフリーランスは案件獲得・単価・スキル形成のすべてで不利です。生活費6か月分の貯蓄と、副業での1案件完走を独立のゴーサインにしましょう。</span>
+                <span><strong>独立の現実的なルートは「実務3年＋副業で試運転」。</strong>いきなりフリーランスは案件獲得・単価・スキル形成のすべてで不利です。生活費6か月分の貯蓄と、副業での1案件完走を独立のゴーサインにしてください。</span>
               </li>
             </ul>
           </div>
@@ -325,7 +325,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">会社員との比較表（収入・保障・産休育休）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              フリーランス検討で最も誤解が多いのが社会保障の違いです。特に<strong>出産・育児に関わる給付は「会社員（健康保険・雇用保険）にあって、フリーランス（国民健康保険・国民年金）にないもの」が多い</strong>ため、ライフプランと合わせて正確に把握しておきましょう。
+              フリーランス検討で最も誤解が多いのが社会保障の違いです。特に<strong>出産・育児に関わる給付は「会社員（健康保険・雇用保険）にあって、フリーランス（国民健康保険・国民年金）にないもの」が多い</strong>ため、ライフプランと合わせて正確に把握しておいてください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -476,7 +476,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">税金・保険・インボイスの基礎知識</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              独立すると、会社が代行してくれていた税・保険の手続きがすべて自分の仕事になります。最低限、次の4点を押さえましょう。
+              独立すると、会社が代行してくれていた税・保険の手続きがすべて自分の仕事になります。最低限、次の4点を押さえてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -489,7 +489,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>インボイス制度（消費税）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                企業向け案件では、取引先の仕入税額控除の関係で<strong>インボイス（適格請求書）発行事業者への登録が実務上標準</strong>になっています。登録すると消費税の申告義務が生じますが、納税額を売上にかかる消費税の2割に抑える<strong>「2割特例」が個人事業主は2026年分の申告まで利用可能</strong>（国税庁）。特例終了後に備え、簡易課税制度の選択も含めて2026年中に方針を決めておきましょう。
+                企業向け案件では、取引先の仕入税額控除の関係で<strong>インボイス（適格請求書）発行事業者への登録が実務上標準</strong>になっています。登録すると消費税の申告義務が生じますが、納税額を売上にかかる消費税の2割に抑える<strong>「2割特例」が個人事業主は2026年分の申告まで利用可能</strong>（国税庁）。特例終了後に備え、簡易課税制度の選択も含めて2026年中に方針を決めておいてください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -587,7 +587,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -698,8 +698,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

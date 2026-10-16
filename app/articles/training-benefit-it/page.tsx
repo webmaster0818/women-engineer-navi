@@ -66,7 +66,7 @@ const faqData = {
       name: "給付金はいつ受け取れますか？先に受講料を払う必要はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "教育訓練給付は、支払った教育訓練経費の一定割合が後から支給される仕組みです。受講料はいったん自分で支払う必要があり、「最初から割引価格で受講できる」制度ではありません。支給申請はハローワークで行い、申請期限が定められているため、受講前にハローワークまたは講座の実施機関で申請の流れと期限を確認しておきましょう。",
+        text: "教育訓練給付は、支払った教育訓練経費の一定割合が後から支給される仕組みです。受講料はいったん自分で支払う必要があり、「最初から割引価格で受講できる」制度ではありません。支給申請はハローワークで行い、申請期限が定められているため、受講前にハローワークまたは講座の実施機関で申請の流れと期限を確認しておいてください。",
       },
     },
     {
@@ -255,7 +255,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>誤解しやすいポイント</h3>
             <ul className="space-y-2 text-sm text-text-light">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>「最大80%」は無条件ではありません。</strong>専門実践の80%は「資格取得等→修了後1年以内の雇用→賃金5%以上上昇」という段階的な条件を満たした場合の最大値です。基本は50%と理解しておきましょう。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>「最大80%」は無条件ではありません。</strong>専門実践の80%は「資格取得等→修了後1年以内の雇用→賃金5%以上上昇」という段階的な条件を満たした場合の最大値です。基本は50%と理解しておいてください。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>割引ではなく後払いです。</strong>受講料はいったん自分で支払い、後からハローワークへの申請で支給を受ける仕組みです。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>特定一般・専門実践は受講前の手続きが必須です。</strong>受講開始日の2週間前までの受給資格確認を忘れると給付を受けられないため、申込前に必ずハローワークへ。</span></li>
             </ul>
@@ -319,7 +319,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">利用手順（ハローワークでの手続き）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              手続きの窓口は<strong>住所地を管轄するハローワーク</strong>です。特に特定一般・専門実践は「受講開始前」の手続きが必須なので、講座に申し込む前にハローワークに行く、という順番を覚えておきましょう。
+              手続きの窓口は<strong>住所地を管轄するハローワーク</strong>です。特に特定一般・専門実践は「受講開始前」の手続きが必須なので、講座に申し込む前にハローワークに行く、という順番を覚えておいてください。
             </p>
           </div>
           <div className="space-y-4">
@@ -327,7 +327,7 @@ export default function ArticlePage() {
               ["STEP1", "支給要件を確認する", "自分の雇用保険の加入期間が要件（原則3年以上、初回は一般・特定一般1年以上／専門実践2年以上）を満たすか、ハローワークで支給要件照会ができます。離職中の方は「離職後1年以内の受講開始」も要チェック。"],
               ["STEP2", "検索システムで講座を選ぶ", "教育訓練講座検索システムで指定講座を検索し、給付の種類（一般／特定一般／専門実践）を確認。同じ分野でも講座によって給付の種類が異なります。"],
               ["STEP3", "（特定一般・専門実践）訓練前キャリアコンサルティング", "訓練対応キャリアコンサルタントによる訓練前キャリアコンサルティングを受け、ジョブ・カードの交付を受けます。そのうえで受講開始日の2週間前までにハローワークで受給資格確認の手続きを行います。"],
-              ["STEP4", "受講・修了", "受講料はいったん自分で支払って受講します。修了要件（出席率・課題など）は講座ごとに定められているため、実施機関に確認しましょう。"],
+              ["STEP4", "受講・修了", "受講料はいったん自分で支払って受講します。修了要件（出席率・課題など）は講座ごとに定められているため、実施機関にご確認ください。"],
               ["STEP5", "ハローワークに支給申請", "修了後、必要書類を揃えてハローワークに支給申請します。申請には期限が定められているため、受講前に申請時期と必要書類を確認しておくと安心です。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
@@ -365,7 +365,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>3. 離職後1年以内なら退職後でも使える</h3>
-              <p className="text-sm text-text-light leading-relaxed">出産・育児などでいったん離職した場合も、離職後1年以内に受講を開始すれば対象になり得ます。復職・再就職の準備として学び直したい人は、離職からの期間を早めに確認しましょう。<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>ブランクからの復職ガイド</a>も参考になります。</p>
+              <p className="text-sm text-text-light leading-relaxed">出産・育児などでいったん離職した場合も、離職後1年以内に受講を開始すれば対象になり得ます。復職・再就職の準備として学び直したい人は、離職からの期間を早めにご確認ください。<a href="/articles/return-to-work/" className="underline" style={{ color: "#7c3a55" }}>ブランクからの復職ガイド</a>も参考になります。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>4. 自己負担を抑えて「資格＋スキル」を作れる</h3>
@@ -391,7 +391,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>給付対象のプログラミングスクールを選ぶ</h3>
-              <p className="text-sm text-text-light leading-relaxed">民間スクールの中にも教育訓練給付の指定講座があります。スクール選びの基準と給付金活用の考え方は<a href="/articles/programming-school/" className="underline" style={{ color: "#7c3a55" }}>女性向けプログラミングスクールの選び方</a>で詳しく解説しています。スクールの広告表示だけで判断せず、検索システムで指定状況と給付の種類を確認しましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed">民間スクールの中にも教育訓練給付の指定講座があります。スクール選びの基準と給付金活用の考え方は<a href="/articles/programming-school/" className="underline" style={{ color: "#7c3a55" }}>女性向けプログラミングスクールの選び方</a>で詳しく解説しています。スクールの広告表示だけで判断せず、検索システムで指定状況と給付の種類をご確認ください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>在職中の学び直し・社内制度</h3>
@@ -454,8 +454,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">学んだスキルを活かせる職場を見つけましょう</h2>
-            <p className="text-white/90 mb-6">給付制度で費用を抑えて学んだら、次は転職活動。まずはエージェントに無料相談して、あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">学んだスキルを活かせる職場を見つけてください</h2>
+            <p className="text-white/90 mb-6">給付制度で費用を抑えて学んだら、次は転職活動。まずはエージェントに無料相談して、あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

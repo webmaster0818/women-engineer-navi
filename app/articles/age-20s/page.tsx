@@ -300,7 +300,7 @@ export default function Age20sArticlePage() {
           <h2 className="text-2xl font-bold mb-6">20代前半と20代後半で変わる転職戦略</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              同じ20代でも、企業が見るポイントは前半と後半で大きく異なります。20代前半は「第二新卒・ポテンシャル」、20代後半は「実務経験×伸びしろ」が評価の軸。自分がどちらのフェーズにいるかで、アピールの組み立てを切り替えましょう。
+              同じ20代でも、企業が見るポイントは前半と後半で大きく異なります。20代前半は「第二新卒・ポテンシャル」、20代後半は「実務経験×伸びしろ」が評価の軸。自分がどちらのフェーズにいるかで、アピールの組み立てを切り替えてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -465,7 +465,7 @@ export default function Age20sArticlePage() {
             <ul className="space-y-2 text-sm text-text-light">
               <li>・転職回数が多すぎるとマイナス評価になることも。20代で3回以上の転職は慎重に。</li>
               <li>・「なんとなく」の転職は避け、明確な転職理由を持つことが大切です。</li>
-              <li>・年収だけで判断せず、成長環境や将来性も考慮しましょう。</li>
+              <li>・年収だけで判断せず、成長環境や将来性も考慮してください。</li>
             </ul>
           </div>
         </div>

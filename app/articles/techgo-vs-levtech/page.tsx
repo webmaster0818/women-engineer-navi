@@ -303,7 +303,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">女性エンジニアが面談で確認したいこと（両サービス共通）</h2>
           <p className="text-text-light leading-relaxed mb-6">
-            テックゴー・レバテックキャリアとも、女性専用プログラムの記載は公式サイトにありません（2026年7月確認）。つまり、働きやすさの見極めは<strong>面談での質問の質</strong>にかかっています。次の点は紹介求人ごとに具体的に確認しましょう。
+            テックゴー・レバテックキャリアとも、女性専用プログラムの記載は公式サイトにありません（2026年7月確認）。つまり、働きやすさの見極めは<strong>面談での質問の質</strong>にかかっています。次の点は紹介求人ごとに具体的にご確認ください。
           </p>
           <ul className="space-y-3">
             {[

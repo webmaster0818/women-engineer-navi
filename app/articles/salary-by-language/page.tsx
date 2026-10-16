@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの言語別年収比較｜Go・Python・TypeScriptで稼げる言語の選び方",
   description:
-    "女性エンジニア向けにプログラミング言語別の年収を徹底比較。Go723万円・TypeScript714万円・Ruby689万円など主要11言語の平均年収とフリーランス単価を一覧表で解説。高単価言語の理由、女性が年収を上げる言語選び、未経験から狙える言語、言語を変えて年収アップした事例まで実データで紹介します。",
+    "女性エンジニア向けにプログラミング言語別の年収を比較。Go723万円・TypeScript714万円・Ruby689万円など主要11言語の平均年収とフリーランス単価を一覧表で解説。高単価言語の理由、女性が年収を上げる言語選び、未経験から狙える言語、言語を変えて年収アップした事例まで実データで紹介します。",
   alternates: { canonical: "/articles/salary-by-language/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの言語別年収比較｜稼げる言語の選び方",
@@ -471,7 +471,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">言語を軸にした年収アップは情報戦</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、高単価言語の求人と適正年収を見極めましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、高単価言語の求人と適正年収を見極めてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -521,7 +521,7 @@ export default function ArticlePage() {
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p></a>
             <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典を併記して集約</p></a>
-            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職種別エンジニア年収比較</h3><p className="text-sm text-text-light">職種ごとの年収相場を徹底比較</p></a>
+            <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職種別エンジニア年収比較</h3><p className="text-sm text-text-light">職種ごとの年収相場を比較</p></a>
             <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">需要の高いPythonで広がる道</p></a>
             <a href="/articles/go-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Goエンジニアのキャリア</h3><p className="text-sm text-text-light">提示年収1位の高単価言語</p></a>
           </div>
@@ -532,8 +532,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">稼げる言語で理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたのスキルに合った高単価言語のキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">稼げる言語で理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたのスキルに合った高単価言語のキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

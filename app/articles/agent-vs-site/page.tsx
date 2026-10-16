@@ -563,7 +563,7 @@ export default function ArticlePage() {
               <div>
                 <h3 className="font-bold mb-1">早く決めたい → エージェント軸で集中的に</h3>
                 <p className="text-sm text-text-light leading-relaxed">
-                  退職日が決まっている、現職の環境が限界、といった事情で短期決着を狙うなら、求人の選定・日程調整・選考対策を並走してくれるエージェントの推進力が最大の武器になります。ただし急ぐときほど判断が雑になりやすいので、承諾前に労働条件通知の内容（給与・勤務地・残業の扱い）を必ず自分の目で確認しましょう。
+                  退職日が決まっている、現職の環境が限界、といった事情で短期決着を狙うなら、求人の選定・日程調整・選考対策を並走してくれるエージェントの推進力が最大の武器になります。ただし急ぐときほど判断が雑になりやすいので、承諾前に労働条件通知の内容（給与・勤務地・残業の扱い）を必ず自分の目でご確認ください。
                 </p>
               </div>
             </div>
@@ -673,7 +673,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -809,10 +809,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

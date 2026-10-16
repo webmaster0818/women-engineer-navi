@@ -74,7 +74,7 @@ const faqData = {
       name: "バックエンドエンジニアは産休・育休後も働きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "働きやすい職種のひとつです。リモートワークやフレックスを導入する企業が多く、成果が可視化されやすいため時短勤務とも両立しやすいのが特徴です。ただし企業差が大きいため、産休育休の取得実績・復帰率、リモートの運用実態、女性管理職比率などを事前に確認しましょう。求人票に出ない実態は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
+        text: "働きやすい職種のひとつです。リモートワークやフレックスを導入する企業が多く、成果が可視化されやすいため時短勤務とも両立しやすいのが特徴です。ただし企業差が大きいため、産休育休の取得実績・復帰率、リモートの運用実態、女性管理職比率などを事前にご確認ください。求人票に出ない実態は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -90,7 +90,7 @@ const faqData = {
       name: "バックエンドエンジニアに夜間対応（オンコール）はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "サービスの本番障害に備えるオンコール（呼び出し待機）当番を設けている企業はあります。ただし運用は企業差が大きく、SREや運用チームが一次対応を担い開発者はほとんど呼ばれない体制から、開発者が輪番で待機する体制までさまざまです。深夜リリースの有無も含め、応募時に『障害対応・リリースの体制』を確認しましょう。育児中はオンコール当番の免除・調整に応じる企業もあるため、面談で相談する価値があります。",
+        text: "サービスの本番障害に備えるオンコール（呼び出し待機）当番を設けている企業はあります。ただし運用は企業差が大きく、SREや運用チームが一次対応を担い開発者はほとんど呼ばれない体制から、開発者が輪番で待機する体制までさまざまです。深夜リリースの有無も含め、応募時に『障害対応・リリースの体制』をご確認ください。育児中はオンコール当番の免除・調整に応じる企業もあるため、面談で相談する価値があります。",
       },
     },
     {
@@ -400,7 +400,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -444,7 +444,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                バックエンド開発はコードを書く・レビューする作業がオンラインで完結しやすく、一般にリモートワークとの相性が良い職種です。体力面もデスクワーク中心で、力仕事はほぼありません。一方で申し添えておきたいのが、本番サービスの障害に備える<strong>オンコール（呼び出し待機）当番や深夜リリース</strong>の存在です。運用チームが一次対応を担い開発者はほぼ呼ばれない企業もあれば、開発者が輪番で待機する企業もあり、体制次第で負担が大きく変わります。応募時には「障害対応とリリースの体制」を必ず確認しましょう。
+                バックエンド開発はコードを書く・レビューする作業がオンラインで完結しやすく、一般にリモートワークとの相性が良い職種です。体力面もデスクワーク中心で、力仕事はほぼありません。一方で申し添えておきたいのが、本番サービスの障害に備える<strong>オンコール（呼び出し待機）当番や深夜リリース</strong>の存在です。運用チームが一次対応を担い開発者はほぼ呼ばれない企業もあれば、開発者が輪番で待機する企業もあり、体制次第で負担が大きく変わります。応募時には「障害対応とリリースの体制」を必ずご確認ください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -515,8 +515,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

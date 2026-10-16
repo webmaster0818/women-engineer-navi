@@ -74,7 +74,7 @@ const faqData = {
       name: "カスタマーサクセスやテクニカルサポートは女性が働きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "働きやすい職種のひとつです。オンライン会議・チャット・メールでの対応が中心のためフルリモート求人が多く、育児・介護との両立がしやすいのが特徴です。SaaS企業はフレックスや時短に理解のあるところが多く、解約率やアップセルなど成果が数字で可視化されるため、勤務時間ではなく成果で評価されやすい点も女性に向いています。ただし企業差があるため、リモートの運用実態や産休育休の取得実績はエージェント経由で確認しましょう。",
+        text: "働きやすい職種のひとつです。オンライン会議・チャット・メールでの対応が中心のためフルリモート求人が多く、育児・介護との両立がしやすいのが特徴です。SaaS企業はフレックスや時短に理解のあるところが多く、解約率やアップセルなど成果が数字で可視化されるため、勤務時間ではなく成果で評価されやすい点も女性に向いています。ただし企業差があるため、リモートの運用実態や産休育休の取得実績はエージェント経由でご確認ください。",
       },
     },
     {
@@ -371,7 +371,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>SaaS・IT業界の求人を扱う特化型と、働き方を重視する女性特化型の併用が効果的です。未経験歓迎求人やリモートの実態を引き出してもらいましょう。</p>
+            <p>SaaS・IT業界の求人を扱う特化型と、働き方を重視する女性特化型の併用が効果的です。未経験歓迎求人やリモートの実態を引き出してもらってください。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -389,7 +389,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -457,8 +457,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

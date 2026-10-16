@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "CareeHUB for woman | 女性ITエンジニアのための転職エージェント比較サイト",
   description:
-    "女性エンジニアに特化した転職エージェント比較サイト。産休育休の取得実績・リモートワーク対応・サポート体制（公式に記載のない項目は「要確認」と明示）など、女性ならではの視点で徹底比較。あなたに最適な転職エージェントが見つかります。",
+    "女性エンジニアに特化した転職エージェント比較サイト。産休育休の取得実績・リモートワーク対応・サポート体制（公式に記載のない項目は「要確認」と明示）など、女性ならではの視点で比較。あなたに最適な転職エージェントが見つかります。",
   alternates: { canonical: "/" },
 };
 
@@ -334,7 +334,7 @@ export default function HomePage() {
               <span className="text-gradient">公的支援・給付金</span>で、無料から学ぶ
             </h2>
             <p className="mt-4 text-text-light leading-[2]">
-              国や自治体には、女性向けの無料IT研修や給付金制度があります。転職の前に、費用を抑えて学べる選択肢を知っておきましょう。すべて一次情報を確認して解説しています。
+              国や自治体には、女性向けの無料IT研修や給付金制度があります。転職の前に、費用を抑えて学べる選択肢を知っておいてください。すべて一次情報を確認して解説しています。
             </p>
           </div>
           <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
@@ -421,7 +421,7 @@ export default function HomePage() {
             あなたに合うエージェントを、見つけよう
           </h2>
           <p className="mt-5 text-[#c4ab9e] leading-[2]">
-            女性エンジニアの転職に強い9社を、女性視点の6項目で徹底比較しています。
+            女性エンジニアの転職に強い9社を、女性視点の6項目で比較しています。
           </p>
           <div className="mt-9">
             <Link href="/ranking/" className="btn-cta text-base">

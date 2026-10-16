@@ -535,7 +535,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -639,10 +639,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

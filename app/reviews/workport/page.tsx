@@ -401,7 +401,7 @@ export default function WorkportReviewPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/articles/beginner/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 未経験からエンジニアを目指す方へ</Link>
             <Link href="/articles/age-20s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 20代女性エンジニアの転職ガイド</Link>
-            <Link href="/articles/workport-vs-recruit/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ワークポート vs リクルートエージェント徹底比較</Link>
+            <Link href="/articles/workport-vs-recruit/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ワークポート vs リクルートエージェント比較</Link>
             <Link href="/articles/certification/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアにおすすめの資格10選</Link>
           </div>
         </div>

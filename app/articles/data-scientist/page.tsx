@@ -481,7 +481,7 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              学習順序としては、まず<strong>DS検定で全体像をつかみ、統計検定2級で統計の土台を固める</strong>のがおすすめです。ただし採用選考で最終的に評価されるのは、SQL・Pythonを使った分析の実績（ポートフォリオや業務での分析事例）です。資格はゴールではなく、学習のマイルストーンとして使いましょう。
+              学習順序としては、まず<strong>DS検定で全体像をつかみ、統計検定2級で統計の土台を固める</strong>のがおすすめです。ただし採用選考で最終的に評価されるのは、SQL・Pythonを使った分析の実績（ポートフォリオや業務での分析事例）です。資格はゴールではなく、学習のマイルストーンとして使ってください。
             </p>
           </div>
         </div>
@@ -503,7 +503,7 @@ export default function ArticlePage() {
               ["STEP3", "統計学を体系的に学ぶ", "実務と並行して統計検定2級レベル（推定・検定・回帰分析）を学習。「なぜその分析手法を選ぶのか」を説明できることが、アナリストとDSの分水嶺になります。"],
               ["STEP4", "Pythonで分析を再現できるようにする", "pandasでの前処理、scikit-learnでの予測モデル構築、matplotlibでの可視化まで。公開データ（官公庁統計・Kaggle等）で分析プロセスを一通り再現できるレベルが目標です。"],
               ["STEP5", "分析実績をポートフォリオ化する", "業務での分析事例（課題→手法→結果→意思決定への影響）を整理し、公開できるものはNotebookとしてまとめます。「ビジネス成果につながった分析」が最強の実績です。"],
-              ["STEP6", "データサイエンティスト職へ転職する", "アナリスト実務＋統計＋Pythonがそろえば、ジュニアDSポジションに十分挑戦できます。IT特化型エージェントで「モデリングまで任せてもらえる求人か」を見極めて応募しましょう。"],
+              ["STEP6", "データサイエンティスト職へ転職する", "アナリスト実務＋統計＋Pythonがそろえば、ジュニアDSポジションに十分挑戦できます。IT特化型エージェントで「モデリングまで任せてもらえる求人か」を見極めて応募してください。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
                 <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
@@ -597,7 +597,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -629,7 +629,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休育休・時短との相性</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                分析はプロジェクト単位で区切りやすく、分析設計・コード・レポートが成果物として残るため、一般に産休前の引き継ぎ計画を立てやすい仕事です。復帰の面でも、統計学・実験計画・因果推論といった土台の知識は陳腐化しにくく、ブランクで価値が落ちにくいスキル資産といえます。成果がアウトプットで可視化されるため、時短勤務でも評価されやすい傾向です。一方で生成AIをはじめ分析を取り巻く技術の進展は速いため、復帰時にはツール・手法の差分キャッチアップを見込んでおきましょう。
+                分析はプロジェクト単位で区切りやすく、分析設計・コード・レポートが成果物として残るため、一般に産休前の引き継ぎ計画を立てやすい仕事です。復帰の面でも、統計学・実験計画・因果推論といった土台の知識は陳腐化しにくく、ブランクで価値が落ちにくいスキル資産といえます。成果がアウトプットで可視化されるため、時短勤務でも評価されやすい傾向です。一方で生成AIをはじめ分析を取り巻く技術の進展は速いため、復帰時にはツール・手法の差分キャッチアップを見込んでおいてください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -769,10 +769,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

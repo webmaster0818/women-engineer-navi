@@ -82,7 +82,7 @@ const faqData = {
       name: "職種別の年収比較で転職におすすめのエージェントはどこですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "職種ごとの相場と求人を比較したいなら、IT特化型のレバテックキャリアやGeeklyが有力です。職種ごとの年収レンジや技術スタックを理解したアドバイザーが、あなたのスキルでどの職種なら年収が上がるかを具体的に提案してくれます。年収交渉にも強みがあります。あわせて、産休育休・リモートなど働き方の条件で絞り込みたいなら、女性のキャリアに詳しいtype女性の転職エージェントを併用するのがおすすめ。高年収職種は激務なイメージもありますが、働き方とのバランスは企業差が大きいため、2〜3社併用して実態を確認しましょう。",
+        text: "職種ごとの相場と求人を比較したいなら、IT特化型のレバテックキャリアやGeeklyが有力です。職種ごとの年収レンジや技術スタックを理解したアドバイザーが、あなたのスキルでどの職種なら年収が上がるかを具体的に提案してくれます。年収交渉にも強みがあります。あわせて、産休育休・リモートなど働き方の条件で絞り込みたいなら、女性のキャリアに詳しいtype女性の転職エージェントを併用するのがおすすめ。高年収職種は激務なイメージもありますが、働き方とのバランスは企業差が大きいため、2〜3社併用して実態をご確認ください。",
       },
     },
   ],
@@ -458,7 +458,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>職種ごとの年収相場と求人を比較するには、IT特化型と女性特化型の併用が効果的です。あなたのスキルでどの職種なら年収が上がるかを、相場を踏まえて提案してもらいましょう。</p>
+            <p>職種ごとの年収相場と求人を比較するには、IT特化型と女性特化型の併用が効果的です。あなたのスキルでどの職種なら年収が上がるかを、相場を踏まえて提案してもらってください。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -476,7 +476,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">職種選びで生涯年収が大きく変わる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、相場を踏まえた最適な一手を見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、相場を踏まえた最適な一手を見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -520,7 +520,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">あなたの職種、まだ年収を上げられます</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。相場を踏まえた最適なキャリアプランを一緒に考えましょう。</p>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。相場を踏まえた最適なキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

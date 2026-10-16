@@ -163,7 +163,7 @@ export default function ArticlePage() {
               派遣には大きく<strong>一般派遣（登録型）</strong>と<strong>常用型派遣（無期雇用型）</strong>の2種類があります。さらに、似た形態でよく混同されるのが<strong>SES（システムエンジニアリングサービス）</strong>です。SESは派遣ではなく「準委任契約」で、もっとも大きな違いは<strong>指揮命令権が誰にあるか</strong>。派遣では派遣先が直接あなたに指示を出せますが、SESでは指示を出すのは所属するSES企業側で、派遣先が直接指示することは原則できません。
             </p>
             <p>
-              なお、かつて存在した「特定派遣」は2015年の法改正で2018年9月末に廃止され、現在は常用型派遣に一本化されています。働き方を選ぶときは、雇用が登録型か無期雇用かを必ず確認しましょう。
+              なお、かつて存在した「特定派遣」は2015年の法改正で2018年9月末に廃止され、現在は常用型派遣に一本化されています。働き方を選ぶときは、雇用が登録型か無期雇用かを必ずご確認ください。
             </p>
             <div className="overflow-x-auto mt-6">
               <table className="w-full text-sm border-collapse">
@@ -259,7 +259,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">派遣エンジニアのメリット・デメリット</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>派遣という働き方には、ライフスタイルに合わせやすい一方で、計画的に動かないと埋もれやすい側面もあります。両面を理解したうえで選びましょう。</p>
+            <p>派遣という働き方には、ライフスタイルに合わせやすい一方で、計画的に動かないと埋もれやすい側面もあります。両面を理解したうえで選ぶことをおすすめします。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-xl border p-6" style={{ borderColor: "#7c3a55", backgroundColor: "#efe3d8" }}>
@@ -325,7 +325,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">派遣から正社員を目指すには</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              派遣は「正社員になれない働き方」ではありません。むしろ、現場の実務経験を積みながら直接雇用へ移る現実的なルートがいくつもあります。代表的な3つの道を押さえておきましょう。
+              派遣は「正社員になれない働き方」ではありません。むしろ、現場の実務経験を積みながら直接雇用へ移る現実的なルートがいくつもあります。代表的な3つの道を押さえておいてください。
             </p>
           </div>
           <div className="space-y-4 mt-6">
@@ -399,7 +399,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">登録先選びで働き方の質が変わる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合った担当者と案件を見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合った担当者と案件を見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -468,8 +468,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">自分に合った働き方を見つけましょう</h2>
-            <p className="text-white/90 mb-6">派遣からのスタートも、正社員化も。まずはエージェントに無料相談して、あなたに合うキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">自分に合った働き方を見つけてください</h2>
+            <p className="text-white/90 mb-6">派遣からのスタートも、正社員化も。まずはエージェントに無料相談して、あなたに合うキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

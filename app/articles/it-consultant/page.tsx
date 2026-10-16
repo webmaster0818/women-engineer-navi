@@ -310,7 +310,7 @@ export default function ArticlePage() {
               全業界でDXが加速し、IT戦略を描ける上流人材は慢性的に不足しています。経済産業省もIT人材不足を指摘しており、ITコンサルの需要・将来性は高い水準が続く見込みです。特にSAPは「2027年問題」で導入が集中し、SAPジャパンが「数年で数千人規模の人材不足が顕在化する」と予想するほど。2027年以降も保守・運用でSAP人材の求人はコンスタントに続くと見られています。
             </p>
             <p>
-              働き方については「激務」のイメージが先行しがちですが、実態は変わってきています。提案やカットオーバー前など繁忙期は忙しくなる一方、近年は<strong>働き方改革とリモート常駐の普及</strong>で稼働の読みやすさが増しました。需要が高く人材が大切に扱われるため、就業環境はむしろ整いやすい側面も。プロジェクト単位でアサインを調整できるため、産休育休からの復帰や時短との両立もしやすくなっています。ただし企業差・部署差が大きいため、実際の稼働時間・復帰率・リモート可否は応募前に確認しましょう。
+              働き方については「激務」のイメージが先行しがちですが、実態は変わってきています。提案やカットオーバー前など繁忙期は忙しくなる一方、近年は<strong>働き方改革とリモート常駐の普及</strong>で稼働の読みやすさが増しました。需要が高く人材が大切に扱われるため、就業環境はむしろ整いやすい側面も。プロジェクト単位でアサインを調整できるため、産休育休からの復帰や時短との両立もしやすくなっています。ただし企業差・部署差が大きいため、実際の稼働時間・復帰率・リモート可否は応募前にご確認ください。
             </p>
           </div>
         </div>
@@ -383,7 +383,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -452,8 +452,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

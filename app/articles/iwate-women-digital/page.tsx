@@ -50,7 +50,7 @@ const faqData = {
       name: "いわて女性デジタル人材育成プロジェクトは無料ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "無料ではありません。受講料は19,800円（税込）です。運営事務局（デジタルハリウッド株式会社）の公式発表によると、この金額にはAdobe Creative Cloud、Canva、Microsoft365など受講に必要なソフトのライセンス費用が含まれています。約4か月・ソフトライセンス込みでこの金額という組み立てですが、「自治体の講座＝無料」と思い込まず、金額を確認したうえで申し込みましょう（出典: デジタルハリウッド公式プレスリリース・釜石市ページ、2026年7月18日確認）。",
+        text: "無料ではありません。受講料は19,800円（税込）です。運営事務局（デジタルハリウッド株式会社）の公式発表によると、この金額にはAdobe Creative Cloud、Canva、Microsoft365など受講に必要なソフトのライセンス費用が含まれています。約4か月・ソフトライセンス込みでこの金額という組み立てですが、「自治体の講座＝無料」と思い込まず、金額を確認したうえで申し込んでください（出典: デジタルハリウッド公式プレスリリース・釜石市ページ、2026年7月18日確認）。",
       },
     },
     {
@@ -404,7 +404,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#c15f47" }}>1. 「自治体の講座＝無料」ではない</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                本事業の受講料は19,800円（税込・ソフトライセンス費込み）です。無料の類似事業（東京都・埼玉県・神奈川県など）とは費用の建て付けが異なるため、「無料だと思っていた」というミスマッチがないよう金額を確認してから申し込みましょう。逆に、Adobe Creative CloudやMicrosoft365のライセンスが含まれる点は、個人でライセンス契約するより負担が小さくなり得る要素です。
+                本事業の受講料は19,800円（税込・ソフトライセンス費込み）です。無料の類似事業（東京都・埼玉県・神奈川県など）とは費用の建て付けが異なるため、「無料だと思っていた」というミスマッチがないよう金額を確認してから申し込んでください。逆に、Adobe Creative CloudやMicrosoft365のライセンスが含まれる点は、個人でライセンス契約するより負担が小さくなり得る要素です。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -482,8 +482,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

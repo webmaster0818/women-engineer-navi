@@ -50,7 +50,7 @@ const faqData = {
       name: "ハラスメントを受けたら、まず何をすべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "まず安全の確保と記録です。日時・場所・相手・具体的な言動・周囲にいた人を、その日のうちにメモに残しましょう。チャットやメールはスクリーンショットを個人の端末にも保存し、体調に影響が出ている場合は受診記録も残します。記録は社内窓口・労働局・弁護士のいずれに相談する場合でも基礎資料になります。並行して、一人で抱え込まずに信頼できる人や相談窓口（社内窓口、総合労働相談コーナーなど）へ早めに相談することが重要です。",
+        text: "まず安全の確保と記録です。日時・場所・相手・具体的な言動・周囲にいた人を、その日のうちにメモに残してください。チャットやメールはスクリーンショットを個人の端末にも保存し、体調に影響が出ている場合は受診記録も残します。記録は社内窓口・労働局・弁護士のいずれに相談する場合でも基礎資料になります。並行して、一人で抱え込まずに信頼できる人や相談窓口（社内窓口、総合労働相談コーナーなど）へ早めに相談することが重要です。",
       },
     },
     {
@@ -167,7 +167,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
-                <span>解決を待たずに<strong>転職で環境を変えることも正当な選択肢</strong>です。我慢し続けることを前提にせず、心身の安全を最優先に判断しましょう。</span>
+                <span>解決を待たずに<strong>転職で環境を変えることも正当な選択肢</strong>です。我慢し続けることを前提にせず、心身の安全を最優先に判断してください。</span>
               </li>
             </ul>
           </div>
@@ -347,7 +347,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>エンジニアの職場で有効な証拠の残し方</h3>
               <ul className="space-y-2 text-sm text-text-light">
-                <li>・<strong>チャット・メールはスクリーンショットで保存。</strong>Slack等のメッセージは後から編集・削除される可能性があるため、日時とチャンネル名が写る形で保存します。会社端末しか使えない場合も、退職や端末返却でアクセスできなくなる前に保全を。ただし<strong>業務上の機密情報（ソースコード・顧客情報等）を社外に持ち出すのは別の問題になる</strong>ため、保存するのはハラスメント言動の記録に限定しましょう。</li>
+                <li>・<strong>チャット・メールはスクリーンショットで保存。</strong>Slack等のメッセージは後から編集・削除される可能性があるため、日時とチャンネル名が写る形で保存します。会社端末しか使えない場合も、退職や端末返却でアクセスできなくなる前に保全を。ただし<strong>業務上の機密情報（ソースコード・顧客情報等）を社外に持ち出すのは別の問題になる</strong>ため、保存するのはハラスメント言動の記録に限定してください。</li>
                 <li>・<strong>口頭での言動は直後にメモ。</strong>自分宛てのメールや日時が自動記録されるメモアプリに送っておくと、作成日時の裏付けになります。</li>
                 <li>・<strong>体調に影響が出たら受診し、記録を残す。</strong>診断書や受診歴は、被害の深刻さを示す客観資料になります。</li>
                 <li>・<strong>社内に相談した事実も記録。</strong>「いつ・誰に・何を相談し、どんな回答だったか」は、会社が措置義務を果たしたかの判断材料になります。</li>
@@ -363,7 +363,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">対処ステップ2: 社内窓口に相談する</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              パワハラ防止法をはじめとする各法律は、会社に対して<strong>相談窓口の設置を含む相談体制の整備</strong>を義務付けています。就業規則やイントラネットに「ハラスメント相談窓口」「コンプライアンス窓口」などの記載があるはずなので、まず確認しましょう。窓口が人事部内の場合も、外部委託（弁護士事務所や専門会社）の場合もあります。
+              パワハラ防止法をはじめとする各法律は、会社に対して<strong>相談窓口の設置を含む相談体制の整備</strong>を義務付けています。就業規則やイントラネットに「ハラスメント相談窓口」「コンプライアンス窓口」などの記載があるはずなので、まずご確認ください。窓口が人事部内の場合も、外部委託（弁護士事務所や専門会社）の場合もあります。
             </p>
             <p>
               相談時のポイントは次の3つです。
@@ -374,7 +374,7 @@ export default function ArticlePage() {
               <li>・<strong>相談記録を自分でも残す。</strong>相談日時・対応者・回答内容をメモしておきます。</li>
             </ul>
             <p>
-              繰り返しになりますが、<strong>相談したことを理由とする解雇や不利益な取り扱いは法律で禁止されています</strong>（労働施策総合推進法第30条の2第2項など）。また、上司本人が加害者の場合は、その上司を飛ばして窓口や別の管理職に相談して問題ありません。社内窓口が機能しない・信頼できない場合は、無理に社内で完結させず、次のステップの外部窓口に進みましょう。
+              繰り返しになりますが、<strong>相談したことを理由とする解雇や不利益な取り扱いは法律で禁止されています</strong>（労働施策総合推進法第30条の2第2項など）。また、上司本人が加害者の場合は、その上司を飛ばして窓口や別の管理職に相談して問題ありません。社内窓口が機能しない・信頼できない場合は、無理に社内で完結させず、次のステップの外部窓口に進んでください。
             </p>
           </div>
         </div>
@@ -468,7 +468,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">転職で環境を変える判断基準</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              社内外の窓口を使って解決を目指すことと並んで、<strong>転職して環境そのものを変えることも正当な選択肢</strong>です。「逃げ」ではありません。ハラスメントが続く環境に留まり続けて心身を損なうことのほうが、キャリアにとってはるかに大きな損失です。次のような状態に当てはまるなら、解決を待たずに転職活動を始めることを検討しましょう。
+              社内外の窓口を使って解決を目指すことと並んで、<strong>転職して環境そのものを変えることも正当な選択肢</strong>です。「逃げ」ではありません。ハラスメントが続く環境に留まり続けて心身を損なうことのほうが、キャリアにとってはるかに大きな損失です。次のような状態に当てはまるなら、解決を待たずに転職活動を始めることをご検討ください。
             </p>
           </div>
           <div className="space-y-4 mt-6">
@@ -485,13 +485,13 @@ export default function ArticlePage() {
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>転職活動で押さえる3つのポイント</h3>
               <ul className="space-y-3 text-sm text-text-light">
                 <li>
-                  <strong>① 在職中に動き始める。</strong>収入が途切れない状態で選考を進めるほうが、焦らず企業を選べます。体調的に在職継続が難しい場合は無理せず、退職・休職と並行して進めましょう。なお、ハラスメントが離職理由とハローワークに認められた場合、雇用保険の<strong>特定受給資格者</strong>に該当し給付面で有利になる可能性があります（ここでもステップ1の記録が効きます）。
+                  <strong>① 在職中に動き始める。</strong>収入が途切れない状態で選考を進めるほうが、焦らず企業を選べます。体調的に在職継続が難しい場合は無理せず、退職・休職と並行して進めてください。なお、ハラスメントが離職理由とハローワークに認められた場合、雇用保険の<strong>特定受給資格者</strong>に該当し給付面で有利になる可能性があります（ここでもステップ1の記録が効きます）。
                 </li>
                 <li>
                   <strong>② エージェントには「環境要件」として伝える。</strong>面談で被害の詳細を細かく話す必要はありません。「心理的安全性のあるチームで働きたい」「ハラスメント対応体制が整った企業を希望する」「〇〇な環境は避けたい」と<strong>次の職場への要件の形で伝える</strong>と、エージェントは社風・離職率・組織体制といった内部情報で絞り込んでくれます。応募先企業に退職理由を伝えるときも、前職への非難ではなく「働く環境を重視して選んでいる」という前向きな軸に変換するのが定石です。
                 </li>
                 <li>
-                  <strong>③ 次の職場は「制度と実態」で選ぶ。</strong>ハラスメント相談窓口の整備状況、女性管理職の在籍、離職率、口コミでの組織風土の評判などを確認しましょう。見極めの観点は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすい企業の見極め方</a>と<a href="/articles/how-to-choose/" className="underline" style={{ color: "#7c3a55" }}>転職エージェントの選び方</a>で詳しく解説しています。
+                  <strong>③ 次の職場は「制度と実態」で選ぶ。</strong>ハラスメント相談窓口の整備状況、女性管理職の在籍、離職率、口コミでの組織風土の評判などをご確認ください。見極めの観点は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすい企業の見極め方</a>と<a href="/articles/how-to-choose/" className="underline" style={{ color: "#7c3a55" }}>転職エージェントの選び方</a>で詳しく解説しています。
                 </li>
               </ul>
             </div>
@@ -543,7 +543,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -616,8 +616,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

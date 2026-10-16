@@ -66,7 +66,7 @@ const faqData = {
       name: "どのくらいの年収アップを求めるのが妥当ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "基準は「現年収からの上げ幅」ではなく「市場相場との差」です。厚生労働省「令和6年雇用動向調査」では、転職で賃金が増加した人は40.5%、うち1割以上増加した人は29.4%でした。現年収が相場より低い場合は1〜2割以上のアップも十分に現実的です。job tag（厚生労働省・職業情報提供サイト）やdodaの平均年収ランキングで自分の職種・経験年数の相場を確認し、相場レンジの中で根拠を示せる金額を希望額にしましょう。",
+        text: "基準は「現年収からの上げ幅」ではなく「市場相場との差」です。厚生労働省「令和6年雇用動向調査」では、転職で賃金が増加した人は40.5%、うち1割以上増加した人は29.4%でした。現年収が相場より低い場合は1〜2割以上のアップも十分に現実的です。job tag（厚生労働省・職業情報提供サイト）やdodaの平均年収ランキングで自分の職種・経験年数の相場を確認し、相場レンジの中で根拠を示せる金額を希望額にしてください。",
       },
     },
     {
@@ -82,7 +82,7 @@ const faqData = {
       name: "年収交渉が通らなかった場合はどうすればいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "選択肢は3つあります。(1)非金銭条件を交渉する：リモートワークの頻度、フレックス、時短、副業可否、学習支援、入社一時金などは年収本体より調整余地が大きい項目です。(2)入社後の昇給条件を確認する：昇給・評価のサイクル、等級制度、ストックオプションの有無をオファー面談で確認し、1年後に再評価される道筋を作ります。(3)辞退も含めて比較する：提示額が市場相場を明確に下回り、改善の見込みもない場合は、他社のオファーと比較して判断しましょう。複数社で選考を進めておくことが交渉力の土台になります。",
+        text: "選択肢は3つあります。(1)非金銭条件を交渉する：リモートワークの頻度、フレックス、時短、副業可否、学習支援、入社一時金などは年収本体より調整余地が大きい項目です。(2)入社後の昇給条件を確認する：昇給・評価のサイクル、等級制度、ストックオプションの有無をオファー面談で確認し、1年後に再評価される道筋を作ります。(3)辞退も含めて比較する：提示額が市場相場を明確に下回り、改善の見込みもない場合は、他社のオファーと比較して判断してください。複数社で選考を進めておくことが交渉力の土台になります。",
       },
     },
   ],
@@ -165,7 +165,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span>根拠にすべきは現年収ではなく<strong>市場相場</strong>。job tag（厚労省）やdodaの公開データで職種別相場を調べてから希望額を決めましょう</span>
+                <span>根拠にすべきは現年収ではなく<strong>市場相場</strong>。job tag（厚労省）やdodaの公開データで職種別相場を調べてから希望額を決めてください</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
@@ -206,13 +206,13 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">データで見る年収交渉の実態（実施率・成功率）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「年収交渉なんてして大丈夫？」という不安に対して、まず公開調査の数字を見てみましょう。マイナビ転職の「転職による年収アップの実態調査」（2024年7〜8月、直近2年以内に転職した20〜50代会社員800名）では、転職時に年収交渉をした人は<strong>55.9%</strong>と半数を超え、交渉した人のうち<strong>85.2%が年収アップに成功</strong>しています。出典: マイナビ転職「転職による年収アップの実態調査」（2026年6月参照）
+              「年収交渉なんてして大丈夫？」という不安に対して、まず公開調査の数字を見てんでください。マイナビ転職の「転職による年収アップの実態調査」（2024年7〜8月、直近2年以内に転職した20〜50代会社員800名）では、転職時に年収交渉をした人は<strong>55.9%</strong>と半数を超え、交渉した人のうち<strong>85.2%が年収アップに成功</strong>しています。出典: マイナビ転職「転職による年収アップの実態調査」（2026年6月参照）
             </p>
             <p>
               ITエンジニアに絞った調査ではさらに顕著です。キッカケクリエイションの「ITエンジニアの年収交渉に関する実態調査」（2026年2月、転職経験のあるITエンジニア393名）では、<strong>74.5%が年収交渉を経験</strong>し、交渉した人の<strong>90.8%が年収アップを実現</strong>。内訳は「希望通りの額になった」34.5%、「希望額には届かなかったが上がった」56.3%でした。一方で、交渉しなかった人の理由は「印象が悪くなる不安」30.9%、「切り出し方がわからない」26.8%、「自分の市場価値がわからない」24.7%が上位。<strong>交渉の成否を分けるのはスキルや度胸ではなく、「不安」と「情報不足」</strong>だということがわかります。出典: キッカケクリエイション「ITエンジニアの年収交渉に関する実態調査」（PR TIMES、2026年6月参照）
             </p>
             <p>
-              転職市場全体の追い風も確認しておきましょう。厚生労働省「令和6年雇用動向調査」によると、転職入職者のうち前職より賃金が<strong>増加した人は40.5%</strong>（うち1割以上の増加は29.4%）で、減少した29.4%を大きく上回り、増加割合は前年から3.3ポイント上昇しました。人手不足を背景に「転職で賃金が上がる」市場が続いており、交渉の通りやすい環境です。出典: 厚生労働省「令和6年雇用動向調査」（2026年6月参照）
+              転職市場全体の追い風も確認しておいてください。厚生労働省「令和6年雇用動向調査」によると、転職入職者のうち前職より賃金が<strong>増加した人は40.5%</strong>（うち1割以上の増加は29.4%）で、減少した29.4%を大きく上回り、増加割合は前年から3.3ポイント上昇しました。人手不足を背景に「転職で賃金が上がる」市場が続いており、交渉の通りやすい環境です。出典: 厚生労働省「令和6年雇用動向調査」（2026年6月参照）
             </p>
             <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>年収交渉の主要データまとめ（2026年6月参照）</h3>
@@ -402,7 +402,7 @@ export default function ArticlePage() {
               「自分から金額の話を切り出すのは気まずい」という人にとって、最も現実的な解決策が転職エージェント経由の交渉です。キッカケクリエイションの調査でも、年収交渉を行ったITエンジニアの<strong>83.7%が転職エージェントを活用</strong>していました。出典: キッカケクリエイション「ITエンジニアの年収交渉に関する実態調査」（2026年6月参照）
             </p>
             <p>
-              仕組みを理解しておきましょう。転職エージェント（有料職業紹介事業者）の紹介手数料は、<strong>入社者の年収に連動する成功報酬型が一般的</strong>です。つまり求職者の年収が上がるほどエージェントの報酬も増えるため、年収を上げる方向で交渉するインセンティブが構造的に組み込まれています。さらに、担当者は同じ企業に何人も紹介してきた実績から「この企業はどこまで上げ余地があるか」という内部相場を知っており、個人では得られない情報で交渉できます。
+              仕組みを理解しておいてください。転職エージェント（有料職業紹介事業者）の紹介手数料は、<strong>入社者の年収に連動する成功報酬型が一般的</strong>です。つまり求職者の年収が上がるほどエージェントの報酬も増えるため、年収を上げる方向で交渉するインセンティブが構造的に組み込まれています。さらに、担当者は同じ企業に何人も紹介してきた実績から「この企業はどこまで上げ余地があるか」という内部相場を知っており、個人では得られない情報で交渉できます。
             </p>
             <p>
               ただし注意点もあります。エージェントには「早く入社を決めたい」というインセンティブも同時に働くため、任せきりにすると提示額のまま話が進むことがあります。<strong>希望額と根拠（相場データ・実績）を自分の言葉で明確に伝え、「市場相場ベースで交渉してほしい」と依頼する</strong>ことが重要です。エージェントと転職サイトの使い分け・併用方法は <a href="/articles/agent-vs-site/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>転職エージェントと転職サイトの違い</a> で詳しく解説しています。
@@ -433,7 +433,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>1. 根拠のない金額を要求する</h3>
-              <p className="text-sm text-text-light leading-relaxed">「とりあえず100万円アップ」のような相場と無関係な要求は、市場を知らない印象を与えます。job tag・dodaなどの公開データで根拠を用意してから臨みましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed">「とりあえず100万円アップ」のような相場と無関係な要求は、市場を知らない印象を与えます。job tag・dodaなどの公開データで根拠を用意してから臨んでください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>2. 現年収や他社オファーを偽る</h3>
@@ -441,7 +441,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>3. 金額の話を何度も蒸し返す</h3>
-              <p className="text-sm text-text-light leading-relaxed">交渉は原則1回勝負です。回答をもらった後に何度も再交渉を持ちかけると「条件だけで会社を選ぶ人」という印象になります。希望・根拠・優先順位は1回でまとめて伝えましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed">交渉は原則1回勝負です。回答をもらった後に何度も再交渉を持ちかけると「条件だけで会社を選ぶ人」という印象になります。希望・根拠・優先順位は1回でまとめて伝えてください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>4. 内定承諾後・入社後に交渉する</h3>
@@ -449,7 +449,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#7c3a55" }}>5. 感情や生活事情だけを理由にする</h3>
-              <p className="text-sm text-text-light leading-relaxed">「家賃が上がったので」「頑張るので」は企業が報酬を決める理由になりません。報酬の根拠はあくまで市場相場と提供できる価値（実績・スキル）に置きましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed">「家賃が上がったので」「頑張るので」は企業が報酬を決める理由になりません。報酬の根拠はあくまで市場相場と提供できる価値（実績・スキル）に置いてください。</p>
             </div>
           </div>
         </div>
@@ -468,13 +468,13 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 入社後の昇給制度・評価サイクルを確認する</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                初年度の提示額が希望に届かなくても、昇給が年2回・等級制度が明確な会社なら1〜2年で逆転できます。オファー面談で「評価・昇給のサイクル」「等級ごとの年収レンジ」「直近の昇給実績」を確認し、可能なら「1年後に◯◯を達成した場合の想定年収」を聞いておきましょう。確認項目の全リストは <a href="/articles/offer-meeting/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきことガイド</a> にまとめています。
+                初年度の提示額が希望に届かなくても、昇給が年2回・等級制度が明確な会社なら1〜2年で逆転できます。オファー面談で「評価・昇給のサイクル」「等級ごとの年収レンジ」「直近の昇給実績」を確認し、可能なら「1年後に◯◯を達成した場合の想定年収」を聞いておいてください。確認項目の全リストは <a href="/articles/offer-meeting/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきことガイド</a> にまとめています。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. ストックオプション（SO）・賞与・手当</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                スタートアップでは現金年収の代わりにストックオプションが提示されることがあります。付与数だけでなく、発行済株式数に対する割合・行使条件・権利確定（ベスティング）の期間を必ず確認しましょう。賞与の算定方法（業績連動か固定か）や、リモートワーク手当・書籍購入補助・資格取得支援などの福利厚生も実質年収を左右します。
+                スタートアップでは現金年収の代わりにストックオプションが提示されることがあります。付与数だけでなく、発行済株式数に対する割合・行使条件・権利確定（ベスティング）の期間を必ずご確認ください。賞与の算定方法（業績連動か固定か）や、リモートワーク手当・書籍購入補助・資格取得支援などの福利厚生も実質年収を左右します。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -565,7 +565,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -633,10 +633,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

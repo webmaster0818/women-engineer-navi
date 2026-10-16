@@ -50,7 +50,7 @@ const faqData = {
       name: "エンジニアの時短勤務は子どもが何歳まで利用できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "育児・介護休業法では、3歳に満たない子を養育する労働者が申し出れば、事業主は所定労働時間を原則1日6時間に短縮する短時間勤務制度を講じる義務があります。これは法律上の最低ラインで、企業によっては小学校就学前（6歳）や小学3年生まで時短を認める独自制度を設けています。さらに2025年10月施行の改正で、3歳から小学校就学前の子を持つ労働者向けに「柔軟な働き方を実現するための措置」（時短・テレワーク・フレックスなど5つから2つ以上）を選択させることが企業に義務付けられました。何歳まで時短可能かは企業差が大きいため、就業規則や求人票で必ず確認しましょう。",
+        text: "育児・介護休業法では、3歳に満たない子を養育する労働者が申し出れば、事業主は所定労働時間を原則1日6時間に短縮する短時間勤務制度を講じる義務があります。これは法律上の最低ラインで、企業によっては小学校就学前（6歳）や小学3年生まで時短を認める独自制度を設けています。さらに2025年10月施行の改正で、3歳から小学校就学前の子を持つ労働者向けに「柔軟な働き方を実現するための措置」（時短・テレワーク・フレックスなど5つから2つ以上）を選択させることが企業に義務付けられました。何歳まで時短可能かは企業差が大きいため、就業規則や求人票で必ずご確認ください。",
       },
     },
     {
@@ -250,7 +250,7 @@ export default function ArticlePage() {
               ["STEP2", "条件で絞れる求人サイト・特化サービスを使う", "「女の転職type」など時短勤務OKのエンジニア求人を条件で絞れるサービスや、IT特化の転職サイトを併用。『時短』『リモート』『ママ歓迎』などのキーワードで検索します。"],
               ["STEP3", "女性のキャリアに強いエージェントに登録する", "求人票に出ない『時短利用者の実態』『時短中の評価・昇給』を知るには、内情に詳しいエージェントが近道。type女性の転職エージェントなど女性特化型と、レバテック・GeeklyなどIT特化型を併用します。"],
               ["STEP4", "希望は選考の早い段階で必ず伝える", "時短やリモートを希望するなら、書類提出時など選考のできるだけ早い段階で会社に伝えるのが望ましいとされています。後出しはミスマッチや内定取り消しの原因になります。"],
-              ["STEP5", "面接で『成果で評価する文化か』を確認する", "時短希望者は『限られた時間で成果を出せるか』を見られます。逆にこちらも、時短利用者がどんな役割で働いているか、評価が時間ではなく成果ベースかを面接で確認しましょう。"],
+              ["STEP5", "面接で『成果で評価する文化か』を確認する", "時短希望者は『限られた時間で成果を出せるか』を見られます。逆にこちらも、時短利用者がどんな役割で働いているか、評価が時間ではなく成果ベースかを面接でご確認ください。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
                 <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
@@ -324,7 +324,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">時短OK企業の見極め方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              求人票に「時短勤務可」と書いてあっても、実態が伴わない企業は残念ながら存在します。「制度はあるが誰も使っていない」「時短にすると評価が下がる」では本末転倒です。次のポイントを確認して、本当に時短で長く働ける会社かを見極めましょう。
+              求人票に「時短勤務可」と書いてあっても、実態が伴わない企業は残念ながら存在します。「制度はあるが誰も使っていない」「時短にすると評価が下がる」では本末転倒です。次のポイントを確認して、本当に時短で長く働ける会社かを見極めてください。
             </p>
           </div>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
@@ -352,7 +352,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">時短勤務の注意点と乗り越え方</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              時短勤務は心強い制度ですが、知らずに使うと思わぬ落とし穴にはまることもあります。事前に注意点を知り、対策をセットで持っておきましょう。
+              時短勤務は心強い制度ですが、知らずに使うと思わぬ落とし穴にはまることもあります。事前に注意点を知り、対策をセットで持っておいてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-1">
@@ -399,7 +399,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">時短求人は「探し方」と「内情の確認」で差がつく</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、働き方の希望を理解してくれるアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、働き方の希望を理解してくれるアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -468,7 +468,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">時短でも、キャリアはあきらめない</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。時短・リモートの希望を理解してくれるアドバイザーと、あなたに合った働き方を見つけましょう。</p>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。時短・リモートの希望を理解してくれるアドバイザーと、あなたに合った働き方を見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

@@ -131,7 +131,7 @@ export default function TypeWomanReviewPage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               type女性の転職エージェントの口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                女性エンジニアへの対応は？徹底検証
+                女性エンジニアへの対応は？検証
               </span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の転職成功事例に基づき再構成）</p>
@@ -559,7 +559,7 @@ export default function TypeWomanReviewPage() {
             <Link href="/articles/mama-engineer/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ママエンジニアの働き方ガイド</Link>
             <Link href="/articles/after-maternity/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 産休育休後の転職ガイド</Link>
             <Link href="/articles/age-20s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 20代女性エンジニアの転職ガイド</Link>
-            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} type女性の転職エージェント vs doda徹底比較</Link>
+            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} type女性の転職エージェント vs doda比較</Link>
           </div>
         </div>
       </div>

@@ -308,7 +308,7 @@ export default function SierIndustryPage() {
             ))}
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            ※ 同じ「メーカー系」「ユーザー系」でも、グループ内の開発子会社・孫会社は親会社より待遇水準が下がるのが一般的です。求人票の社名がグループ名を冠していても、<strong>「本体か子会社か」「何次請けの案件が中心か」</strong>は必ず分けて確認しましょう。
+            ※ 同じ「メーカー系」「ユーザー系」でも、グループ内の開発子会社・孫会社は親会社より待遇水準が下がるのが一般的です。求人票の社名がグループ名を冠していても、<strong>「本体か子会社か」「何次請けの案件が中心か」</strong>は必ず分けてご確認ください。
           </p>
         </div>
       </section>
@@ -369,7 +369,7 @@ export default function SierIndustryPage() {
           <h2 className="text-2xl font-bold mb-6">SIerが女性エンジニアに向く面（実データ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「大手SIerは制度が手厚い」と言われますが、重要なのはそれが<strong>公式に検証できる実績数値として公開されている</strong>ことです。代表例を見てみましょう。
+              「大手SIerは制度が手厚い」と言われますが、重要なのはそれが<strong>公式に検証できる実績数値として公開されている</strong>ことです。代表例を見てんでください。
             </p>
           </div>
           <div className="space-y-6 mt-6">
@@ -432,11 +432,11 @@ export default function SierIndustryPage() {
             {[
               {
                 title: "1. 配属ガチャ｜同じ会社でも部署で別世界",
-                desc: "大手SIerは事業部ごとに顧客業界・技術・働き方が大きく異なります。最新のクラウド案件を扱うDX部門もあれば、20年稼働の基幹システムを保守し続ける部門もあり、配属によってキャリアの方向が大きく変わります。対策: 中途採用は部署・案件を特定して採用する「ジョブ型」求人を選ぶこと。配属先を確約しない「総合職一括採用」型の中途求人は、面接で配属プロセスを必ず確認しましょう。",
+                desc: "大手SIerは事業部ごとに顧客業界・技術・働き方が大きく異なります。最新のクラウド案件を扱うDX部門もあれば、20年稼働の基幹システムを保守し続ける部門もあり、配属によってキャリアの方向が大きく変わります。対策: 中途採用は部署・案件を特定して採用する「ジョブ型」求人を選ぶこと。配属先を確約しない「総合職一括採用」型の中途求人は、面接で配属プロセスを必ずご確認ください。",
               },
               {
                 title: "2. レガシー技術の長期化リスク",
-                desc: "経済産業省「DXレポート」（2018年）は、複雑化・老朽化したレガシーシステムが残存した場合の経済損失を指摘し（いわゆる「2025年の崖」）、基幹系の刷新を促してきました。裏を返せば、SIerにはレガシーシステムの保守・移行案件が今も大量に存在します。COBOLや古いJavaの保守だけが長く続くと市場価値の更新が止まるリスクがあります。対策: モダナイゼーション（クラウド移行・再構築）案件は「レガシーとモダン両方の経験」が積める狙い目です。面接で「移行先の技術スタック」を質問しましょう。",
+                desc: "経済産業省「DXレポート」（2018年）は、複雑化・老朽化したレガシーシステムが残存した場合の経済損失を指摘し（いわゆる「2025年の崖」）、基幹系の刷新を促してきました。裏を返せば、SIerにはレガシーシステムの保守・移行案件が今も大量に存在します。COBOLや古いJavaの保守だけが長く続くと市場価値の更新が止まるリスクがあります。対策: モダナイゼーション（クラウド移行・再構築）案件は「レガシーとモダン両方の経験」が積める狙い目です。面接で「移行先の技術スタック」を質問してください。",
               },
               {
                 title: "3. 客先常駐の可能性",
@@ -648,8 +648,8 @@ export default function SierIndustryPage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">SIerへの転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったSIer企業を見つけましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">SIerへの転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったSIer企業を見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

@@ -252,7 +252,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">出題範囲と科目A・科目B</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              出題は<strong>「テクノロジ系・マネジメント系・ストラテジ系」</strong>の3分野から構成されます。科目Aで幅広い知識を、科目Bでアルゴリズムとセキュリティの実践力を問う形です。下表で全体像を押さえましょう。
+              出題は<strong>「テクノロジ系・マネジメント系・ストラテジ系」</strong>の3分野から構成されます。科目Aで幅広い知識を、科目Bでアルゴリズムとセキュリティの実践力を問う形です。下表で全体像を押さえてください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -297,10 +297,10 @@ export default function ArticlePage() {
             {[
               ["STEP1", "全体像をテキストでつかむ", "まずは1冊のテキストを通読し、IT用語と分野の全体像を把握。完璧を目指さず「こういう話があるんだ」と俯瞰するのが目的。イラスト系の入門書が向いています。"],
               ["STEP2", "科目Aを過去問でインプット", "科目Aは知識勝負。Web問題集「過去問道場」で繰り返し解き、間違えた分野だけテキストに戻る。同じ問題が形を変えて再出題されるため、過去問演習が最も効率的です。"],
-              ["STEP3", "科目Bを早めに着手する", "最大の難所・科目Bは後回し厳禁。疑似言語のトレース（プログラムを1行ずつ追う）に早く慣れることが合否を分けます。サンプル問題・公開問題で手を動かしましょう。"],
+              ["STEP3", "科目Bを早めに着手する", "最大の難所・科目Bは後回し厳禁。疑似言語のトレース（プログラムを1行ずつ追う）に早く慣れることが合否を分けます。サンプル問題・公開問題で手を動かしてください。"],
               ["STEP4", "アルゴリズム＆セキュリティを反復", "科目Bの8割はアルゴリズム、2割はセキュリティ。配列・ループ・条件分岐の典型パターンを繰り返し、解法の型を体に入れます。1日1問でも継続が効きます。"],
               ["STEP5", "本番形式で時間を計って演習", "科目A・Bを通しで解き、時間配分の感覚をつかむ。CBTは画面操作にも慣れが必要なので、IPA公開のサンプルやCBT体験で操作感を確認しておくと安心です。"],
-              ["STEP6", "苦手分野を直前に総ざらい", "受験日が自由に選べるのがCBTの強み。仕上がりを見て日程を確定し、直前は間違えた問題と苦手分野を集中復習。自信がついたタイミングで申込みましょう。"],
+              ["STEP6", "苦手分野を直前に総ざらい", "受験日が自由に選べるのがCBTの強み。仕上がりを見て日程を確定し、直前は間違えた問題と苦手分野を集中復習。自信がついたタイミングで申込んでください。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
                 <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
@@ -400,7 +400,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -411,7 +411,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">次に目指す資格</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
-            <p>基本情報で土台を固めたら、キャリアの方向性に合わせて次の資格に挑戦しましょう。王道は同じIPAの応用情報技術者試験です。</p>
+            <p>基本情報で土台を固めたら、キャリアの方向性に合わせて次の資格に挑戦してください。王道は同じIPAの応用情報技術者試験です。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}><h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>応用情報技術者試験（AP）</h3><p className="text-sm text-text-light">基本情報の正統な上位資格（ITSSレベル3）。設計・マネジメント・記述式が加わり、評価・年収ともに一段アップ。次の一歩の本命です。</p></div>
@@ -460,7 +460,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">資格を活かして理想の転職へ</h2>
-            <p className="text-white/90 mb-6">基本情報で得た基礎を強みに。まずはエージェントに無料相談し、あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <p className="text-white/90 mb-6">基本情報で得た基礎を強みに。まずはエージェントに無料相談し、あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

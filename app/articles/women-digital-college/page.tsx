@@ -434,7 +434,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4">
             {[
-              ["STEP1", "ハローワークまたは東京しごとセンターに登録", "申込要件として、ハローワークの求職登録または東京しごとセンター（飯田橋・多摩）の利用者登録が必要です。未登録の方は先に手続きを済ませましょう。"],
+              ["STEP1", "ハローワークまたは東京しごとセンターに登録", "申込要件として、ハローワークの求職登録または東京しごとセンター（飯田橋・多摩）の利用者登録が必要です。未登録の方は先に手続きを済ませてください。"],
               ["STEP2", "公式サイトで日程・会場・募集期間を確認", "会場（三鷹・千代田・港・渋谷など）と開講日が期ごとに公開されます。託児利用の可否（月齢条件が施設で異なる）もあわせて確認を。"],
               ["STEP3", "Webまたは郵送で申込", "公式サイトの申込フォームからエントリー（郵送申込も可）。同じ募集期間には1会場のみ申込可能です。"],
               ["STEP4", "抽選・選考の結果を待つ", "入門コースは抽選（締切後1週間程度でメール通知）、基礎及び応用コースは原則オンラインでのヒアリング選考です。受講決定後、託児希望者は託児申込書を提出します。"],
@@ -461,7 +461,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">修了後の再就職・転職活動の進め方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              本事業は<strong>就職が保証される制度ではありません</strong>。基礎及び応用コースには2か月間のフォローアップ（キャリアコンサルティング・書類添削・模擬面接）が付きますが、最終的に内定を取るのは自分自身の就職活動です。訓練の成果を活かすために、次の3つを意識しましょう。
+              本事業は<strong>就職が保証される制度ではありません</strong>。基礎及び応用コースには2か月間のフォローアップ（キャリアコンサルティング・書類添削・模擬面接）が付きますが、最終的に内定を取るのは自分自身の就職活動です。訓練の成果を活かすために、次の3つを意識してください。
             </p>
           </div>
           <div className="space-y-4 mt-6">
@@ -491,7 +491,7 @@ export default function ArticlePage() {
             女性デジタルカレッジ事業は比較的新しい事業のため、<strong>第三者による口コミ・体験談はまだ多くありません</strong>。当サイトでも実際の受講者の声は確認できていないため、架空の体験談は掲載していません。応募を検討する際は、次の方法で情報を集めるのが確実です。
           </p>
           <ul className="space-y-3 text-sm leading-relaxed mb-6">
-            <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">1.</span><span><strong>公式サイト・公式発表を一次情報として確認する:</strong> 日程・会場・託児・費用などの事実は<a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>が最も正確です。運営側の発信である点は理解した上で読みましょう。</span></li>
+            <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">1.</span><span><strong>公式サイト・公式発表を一次情報として確認する:</strong> 日程・会場・託児・費用などの事実は<a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>が最も正確です。運営側の発信である点は理解した上で読んでください。</span></li>
             <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">2.</span><span><strong>SNS・個人ブログは「個人の感想」として参考程度に:</strong> 「女性デジタルカレッジ」で検索すると受講検討者・受講者の投稿が見つかることがあります。時期や会場で運用が変わるため、投稿日を必ず確認してください。</span></li>
             <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">3.</span><span><strong>迷ったら申込前に問い合わせ窓口で直接確認する:</strong> 託児の空きや就職支援の内容など、個別事情に関わることは窓口への確認が最も確実です。</span></li>
           </ul>
@@ -564,8 +564,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

@@ -50,7 +50,7 @@ const faqData = {
       name: "時短勤務は法律上いつまで使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "育児・介護休業法により、3歳未満の子を育てる労働者に対して、1日の所定労働時間を原則6時間とする短時間勤務制度を設けることが事業主の義務です。さらに2025年10月施行の改正で、3歳から小学校就学前の子を育てる労働者にも「柔軟な働き方を実現するための措置」（始業時刻変更・テレワーク等・短時間勤務などから企業が2つ以上を用意し、労働者が1つ選択）が義務化されました。企業独自に小学校卒業まで時短を延長できる制度を設けている会社もあるため、転職時は法定を超える部分を確認しましょう。",
+        text: "育児・介護休業法により、3歳未満の子を育てる労働者に対して、1日の所定労働時間を原則6時間とする短時間勤務制度を設けることが事業主の義務です。さらに2025年10月施行の改正で、3歳から小学校就学前の子を育てる労働者にも「柔軟な働き方を実現するための措置」（始業時刻変更・テレワーク等・短時間勤務などから企業が2つ以上を用意し、労働者が1つ選択）が義務化されました。企業独自に小学校卒業まで時短を延長できる制度を設けている会社もあるため、転職時は法定を超える部分をご確認ください。",
       },
     },
     {
@@ -153,7 +153,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
-                <span>両立の成否は「制度の有無」より<strong>職種選び×企業の運用実態</strong>で決まります。本文の比較表と5つの確認条件をチェックしましょう。</span>
+                <span>両立の成否は「制度の有無」より<strong>職種選び×企業の運用実態</strong>で決まります。本文の比較表と5つの確認条件をチェックしてください。</span>
               </li>
             </ul>
           </div>
@@ -410,7 +410,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              職種に加えて「働き方の制度」も比較しましょう。両立のしやすさを大きく左右するのは、<strong>フルリモート可否</strong>、<strong>フレックスタイム（特にコアタイムなし）</strong>、<strong>中抜け（送迎時間の離席）の許容</strong>の3つです。フルリモート企業の探し方は<a href="/articles/fullremote-companies/" className="underline" style={{ color: "#7c3a55" }}>フルリモート企業の記事</a>にまとめています。
+              職種に加えて「働き方の制度」も比較することをおすすめします。両立のしやすさを大きく左右するのは、<strong>フルリモート可否</strong>、<strong>フレックスタイム（特にコアタイムなし）</strong>、<strong>中抜け（送迎時間の離席）の許容</strong>の3つです。フルリモート企業の探し方は<a href="/articles/fullremote-companies/" className="underline" style={{ color: "#7c3a55" }}>フルリモート企業の記事</a>にまとめています。
             </p>
           </div>
         </div>
@@ -422,38 +422,38 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">転職で確認すべき5つの企業条件</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              制度が「ある」ことと「使える」ことは別問題です。転職・復職先を選ぶときは、次の5条件を求人票＋エージェント経由の内部情報で確認しましょう。
+              制度が「ある」ことと「使える」ことは別問題です。転職・復職先を選ぶときは、次の5条件を求人票＋エージェント経由の内部情報でご確認ください。
             </p>
           </div>
           <div className="space-y-4">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 時短勤務制度の適用期間（法定超えか）</h3>
               <p className="text-sm text-text-light">
-                法律上の義務は3歳未満（原則6時間）で、2025年10月以降は3歳〜就学前にも柔軟な働き方の措置が義務化されました。一方、企業によっては「小学校3年生まで」「小学校卒業まで」など法定を超える期間を設けています。制度の有無だけでなく<strong>「何歳まで適用されるか」</strong>を必ず確認しましょう。
+                法律上の義務は3歳未満（原則6時間）で、2025年10月以降は3歳〜就学前にも柔軟な働き方の措置が義務化されました。一方、企業によっては「小学校3年生まで」「小学校卒業まで」など法定を超える期間を設けています。制度の有無だけでなく<strong>「何歳まで適用されるか」</strong>を必ずご確認ください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. フレックス・リモートワークの実態</h3>
               <p className="text-sm text-text-light">
-                情報通信業のテレワーク導入率は94.3%（出典: 総務省「令和6年通信利用動向調査」、2026年6月参照）ですが、「導入している」ことと「育児中の社員が日常的に使えている」ことは別です。実際のリモート率、フレックスのコアタイム、送迎時間の中抜け可否、チーム内での利用状況を確認しましょう。
+                情報通信業のテレワーク導入率は94.3%（出典: 総務省「令和6年通信利用動向調査」、2026年6月参照）ですが、「導入している」ことと「育児中の社員が日常的に使えている」ことは別です。実際のリモート率、フレックスのコアタイム、送迎時間の中抜け可否、チーム内での利用状況をご確認ください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 産休育休の取得実績と復帰率</h3>
               <p className="text-sm text-text-light">
-                女性の育休取得率は全国平均86.6%（出典: 厚生労働省「令和6年度雇用均等基本調査」、2026年6月参照）まで来ていますが、重要なのは<strong>復帰後に元のポジション・評価で働き続けられているか</strong>です。取得実績の人数、復帰率、復帰後の昇進事例の有無を確認しましょう。従業員300人超の企業は男性育休取得率の公表が義務化されており、公開情報からも企業姿勢を読み取れます。
+                女性の育休取得率は全国平均86.6%（出典: 厚生労働省「令和6年度雇用均等基本調査」、2026年6月参照）まで来ていますが、重要なのは<strong>復帰後に元のポジション・評価で働き続けられているか</strong>です。取得実績の人数、復帰率、復帰後の昇進事例の有無をご確認ください。従業員300人超の企業は男性育休取得率の公表が義務化されており、公開情報からも企業姿勢を読み取れます。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 子どもの急病時の対応（看護等休暇・在宅切り替え）</h3>
               <p className="text-sm text-text-light">
-                子どもの急な発熱は避けられません。法定の「子の看護等休暇」は2025年4月から小学3年生修了まで・学級閉鎖や入卒園式も対象に拡大されましたが、<strong>有給扱いか無給か</strong>は企業によって異なります。当日の在宅勤務への切り替えが柔軟にできるかと合わせて、面接前にエージェント経由で確認しておきましょう。
+                子どもの急な発熱は避けられません。法定の「子の看護等休暇」は2025年4月から小学3年生修了まで・学級閉鎖や入卒園式も対象に拡大されましたが、<strong>有給扱いか無給か</strong>は企業によって異なります。当日の在宅勤務への切り替えが柔軟にできるかと合わせて、面接前にエージェント経由で確認しておいてください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>5. 育児中社員・女性管理職の在籍状況</h3>
               <p className="text-sm text-text-light">
-                育児中のエンジニアが実際にチームにいるか、女性管理職がいるかは、制度が機能しているかを測る実態指標です。出産・育児を経て管理職になった事例がある企業は、時短中の評価制度やキャリアパスが整っている傾向があります。長期的なキャリアを考えるうえで必ずチェックしましょう。
+                育児中のエンジニアが実際にチームにいるか、女性管理職がいるかは、制度が機能しているかを測る実態指標です。出産・育児を経て管理職になった事例がある企業は、時短中の評価制度やキャリアパスが整っている傾向があります。長期的なキャリアを考えるうえで必ずチェックしてください。
               </p>
             </div>
           </div>
@@ -535,7 +535,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">育児中のスキルアップ術</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              育児中はまとまった学習時間が取れないのが普通です。前提を「細切れ時間しかない」に置き換えて、学習方法をそれに合わせて設計しましょう。
+              育児中はまとまった学習時間が取れないのが普通です。前提を「細切れ時間しかない」に置き換えて、学習方法をそれに合わせて設計してください。
             </p>
             <ul className="space-y-3 mt-4">
               <li className="flex items-start gap-2">
@@ -548,7 +548,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>業務に直結するテーマに絞る</strong> — 復帰・転職で評価されるのは網羅性より実務との接続。今のチームで使う技術＋AIコーディング支援ツールの活用など、投資対効果の高いテーマを優先しましょう。</span>
+                <span><strong>業務に直結するテーマに絞る</strong> — 復帰・転職で評価されるのは網羅性より実務との接続。今のチームで使う技術＋AIコーディング支援ツールの活用など、投資対効果の高いテーマを優先してください。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
@@ -598,7 +598,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -679,8 +679,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

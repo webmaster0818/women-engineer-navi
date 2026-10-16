@@ -514,7 +514,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              企業選びでは、AIチームの規模・データ基盤の成熟度に加えて、産休育休の取得実績・復帰率、リモートの運用実態を必ず確認しましょう。求人票に出ない実態は、IT領域に詳しい転職エージェント経由で確認するのが確実です。
+              企業選びでは、AIチームの規模・データ基盤の成熟度に加えて、産休育休の取得実績・復帰率、リモートの運用実態を必ずご確認ください。求人票に出ない実態は、IT領域に詳しい転職エージェント経由で確認するのが確実です。
             </p>
           </div>
         </div>
@@ -525,7 +525,7 @@ export default function ArticlePage() {
         <p>AI・データサイエンス分野の求人を探すなら、IT特化型エージェントがおすすめです。レバテックキャリアはデータサイエンス・ML求人を多数保有しており、技術面での深いヒアリングに定評があります。</p>
         <p>Geeklyも AI・データサイエンス分野の求人に強みがあり、スタートアップからメガベンチャーまで幅広い企業の求人を紹介してくれます。リクルートエージェントは大手企業のデータサイエンスポジションが豊富です。</p>
         <p>ビズリーチなどのハイクラス転職サービスも、年収800万円以上のAI・データサイエンス求人を探す際に有効です。スカウト型のサービスを併用することで、自分では見つけられない求人に出会えることもあります。</p>
-        <p>女性特化型のtype女性の転職エージェントとの併用も効果的です。技術面と環境面の両方のニーズを満たす企業を見つけるために、2〜3社のエージェントを併用しましょう。</p>
+        <p>女性特化型のtype女性の転職エージェントとの併用も効果的です。技術面と環境面の両方のニーズを満たす企業を見つけるために、2〜3社のエージェントを併用してください。</p>
       </div></div>
       </section>
 
@@ -573,7 +573,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
-              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)「AIエンジニア募集」でも実態がデータ整備やアノテーション管理中心の求人が混ざっており、業務内容の確認が必須なこと、(2)本記事の年収相場の通り求人の金額幅が極端に大きく、「AI＝即高年収」ではないこと、(3)モデルの本番運用を担う場合は障害対応が発生し得るため、運用体制の確認が必要なこと、の3点は押さえておきましょう。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
+              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)「AIエンジニア募集」でも実態がデータ整備やアノテーション管理中心の求人が混ざっており、業務内容の確認が必須なこと、(2)本記事の年収相場の通り求人の金額幅が極端に大きく、「AI＝即高年収」ではないこと、(3)モデルの本番運用を担う場合は障害対応が発生し得るため、運用体制の確認が必要なこと、の3点は押さえておいてください。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
             </div>
           </div>
           <div className="mt-8 rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -618,7 +618,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
       </section>
     </>
   );

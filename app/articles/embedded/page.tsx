@@ -74,7 +74,7 @@ const faqData = {
       name: "組み込みエンジニアは産休・育休後も働きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "働きやすさは企業差が大きいですが、長く続けやすい職種です。C/C++やマイコン・RTOSの設計スキルは流行に左右されにくく、ブランクがあっても復帰しやすいのが強みです。一方で実機検証はオフィス勤務が前提の現場もあるため、設計・ファームウェア開発中心のポジションやリモート対応の有無、製造業大手の手厚い福利厚生（産休育休取得実績・復帰率）を事前に確認しましょう。求人票に出ない実態は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
+        text: "働きやすさは企業差が大きいですが、長く続けやすい職種です。C/C++やマイコン・RTOSの設計スキルは流行に左右されにくく、ブランクがあっても復帰しやすいのが強みです。一方で実機検証はオフィス勤務が前提の現場もあるため、設計・ファームウェア開発中心のポジションやリモート対応の有無、製造業大手の手厚い福利厚生（産休育休取得実績・復帰率）を事前にご確認ください。求人票に出ない実態は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -90,7 +90,7 @@ const faqData = {
       name: "組み込みエンジニアの職場は男性が多いと聞きますが、女性は働きにくいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "製造業系の開発現場は男性比率が高い職場が依然多いのが実情ですが、働きにくいかどうかは会社・チームの文化で大きく変わります。ダイバーシティ採用を進める大手メーカーを中心に女性エンジニアの採用・登用は広がっており、育休・時短の制度運用が定着している企業も少なくありません。応募前に、女性エンジニアの在籍状況、育休取得・復帰の実績、時短勤務者がどの工程（設計中心か実機検証中心か）を担当しているかを確認しましょう。求人票に出ない現場の実態は、エージェント経由で確認するのが確実です。",
+        text: "製造業系の開発現場は男性比率が高い職場が依然多いのが実情ですが、働きにくいかどうかは会社・チームの文化で大きく変わります。ダイバーシティ採用を進める大手メーカーを中心に女性エンジニアの採用・登用は広がっており、育休・時短の制度運用が定着している企業も少なくありません。応募前に、女性エンジニアの在籍状況、育休取得・復帰の実績、時短勤務者がどの工程（設計中心か実機検証中心か）を担当しているかをご確認ください。求人票に出ない現場の実態は、エージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -338,7 +338,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。実機を触りながら進めると挫折しにくい傾向があります。次の順序で進めましょう。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。実機を触りながら進めると挫折しにくい傾向があります。次の順序で進めてください。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -400,7 +400,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -444,13 +444,13 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 製造業文化との相性</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                メーカー系の開発現場は、設計レビューや品質ゲートを段階的に通していく<strong>プロセス重視・ドキュメント重視</strong>の文化が根付いています。スケジュールが長期で計画的なぶん、締切前の突発的な追い込みが常態化しにくく、「見通しを立てて着実に働きたい」タイプの人と相性が良い環境です。一方で、会議や手続きが多く意思決定が慎重な傾向はあり、Web系のスピード感を求める人には物足りない可能性もあります。また、職場の男女比は現場差が大きく、男性比率の高いチームが依然多いのも事実です。SIer的な多重下請け構造の現場も一部にあるため、商流は<a href="/articles/sier-industry/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">SIer業界の働き方ガイド</a>も参考に確認しましょう。
+                メーカー系の開発現場は、設計レビューや品質ゲートを段階的に通していく<strong>プロセス重視・ドキュメント重視</strong>の文化が根付いています。スケジュールが長期で計画的なぶん、締切前の突発的な追い込みが常態化しにくく、「見通しを立てて着実に働きたい」タイプの人と相性が良い環境です。一方で、会議や手続きが多く意思決定が慎重な傾向はあり、Web系のスピード感を求める人には物足りない可能性もあります。また、職場の男女比は現場差が大きく、男性比率の高いチームが依然多いのも事実です。SIer的な多重下請け構造の現場も一部にあるため、商流は<a href="/articles/sier-industry/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">SIer業界の働き方ガイド</a>も参考にご確認ください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休・育休・時短との相性</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                長期プロジェクトが中心でマイルストーンが読みやすいため、<strong>産休前の引き継ぎ計画や復帰時期の調整が立てやすい</strong>のは組み込みの強みです。C/C++やRTOSの知識は陳腐化しにくく、ブランク後のキャッチアップ負荷も比較的小さめです。ただし、実機検証や量産立ち上げの時期は出社や稼働が集中しやすいため、時短で働くなら設計・実装・レビュー中心のポジションを選ぶのが現実的です。制度の有無だけでなく、時短勤務者が実際にどの工程を担当しているかまで確認しましょう。
+                長期プロジェクトが中心でマイルストーンが読みやすいため、<strong>産休前の引き継ぎ計画や復帰時期の調整が立てやすい</strong>のは組み込みの強みです。C/C++やRTOSの知識は陳腐化しにくく、ブランク後のキャッチアップ負荷も比較的小さめです。ただし、実機検証や量産立ち上げの時期は出社や稼働が集中しやすいため、時短で働くなら設計・実装・レビュー中心のポジションを選ぶのが現実的です。制度の有無だけでなく、時短勤務者が実際にどの工程を担当しているかまでご確認ください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -515,8 +515,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

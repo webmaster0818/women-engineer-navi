@@ -74,7 +74,7 @@ const faqData = {
       name: "海外で働くと手取りは本当に増えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "額面ほどは増えないことが多く見られます。米国のソフトウェア開発者の年収中央値は133,080ドル（米国労働統計局・2024年5月時点）と日本の2倍以上ですが、所得税・社会保障費に加え、サンフランシスコやニューヨークなどテック都市の家賃・物価は日本の主要都市を大きく上回ります。一方シンガポールは所得税率が比較的低く手取りが残りやすいなど、国によって構造が異なります。額面の年収比較だけでなく、税・社会保険・住居費・教育費まで含めた可処分所得で比較し、為替変動の影響も織り込んで判断しましょう。",
+        text: "額面ほどは増えないことが多く見られます。米国のソフトウェア開発者の年収中央値は133,080ドル（米国労働統計局・2024年5月時点）と日本の2倍以上ですが、所得税・社会保障費に加え、サンフランシスコやニューヨークなどテック都市の家賃・物価は日本の主要都市を大きく上回ります。一方シンガポールは所得税率が比較的低く手取りが残りやすいなど、国によって構造が異なります。額面の年収比較だけでなく、税・社会保険・住居費・教育費まで含めた可処分所得で比較し、為替変動の影響も織り込んで判断してください。",
       },
     },
     {
@@ -178,7 +178,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">海外で働く4つのルート（比較表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「海外で働く」と一口に言っても、入口は大きく4つに分かれます。<strong>どのルートを選ぶかで、必要な英語力・ビザの扱い・年収水準・リスクがまったく変わる</strong>ため、まず全体像を押さえましょう。
+              「海外で働く」と一口に言っても、入口は大きく4つに分かれます。<strong>どのルートを選ぶかで、必要な英語力・ビザの扱い・年収水準・リスクがまったく変わる</strong>ため、まず全体像を押さえてください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -473,7 +473,7 @@ export default function ArticlePage() {
       {/* sec7 おすすめの転職サービス */}
       <section id="sec7" className="py-10"><div className="mx-auto max-w-4xl px-4"><h2 className="text-2xl font-bold mb-6">おすすめの転職サービス</h2><div className="space-y-4 text-text-light leading-relaxed">
         <p>海外転職に強い転職エージェントとしては、JACリクルートメント（海外転職に実績豊富）、Robert Walters（外資系・グローバル企業に強い）、Michael Page（世界的な転職エージェント）がおすすめです。</p>
-        <p>求人サイトでは、LinkedIn（海外転職の必須ツール）、Glassdoor（企業の口コミ・年収情報が充実）、AngelList/Wellfound（スタートアップ求人に強い）を活用しましょう。LinkedInのプロフィールを英語で充実させることは、海外転職の第一歩です。</p>
+        <p>求人サイトでは、LinkedIn（海外転職の必須ツール）、Glassdoor（企業の口コミ・年収情報が充実）、AngelList/Wellfound（スタートアップ求人に強い）をご活用ください。LinkedInのプロフィールを英語で充実させることは、海外転職の第一歩です。</p>
         <p>日本にいながら海外企業にリモートで働きたい場合は、Toptal、Turing、Remote.coなどのリモートジョブプラットフォームが役立ちます。これらのプラットフォームでは、世界中のリモートポジションを探すことができます。</p>
         <p>まずは国内のIT特化型エージェントで市場価値を確認してから、海外転職にチャレンジするのも良い戦略です。レバテックキャリアやGeeklyで外資系IT企業の求人を紹介してもらうこともできます。</p>
       </div></div>
@@ -532,7 +532,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
       </section>
     </>
   );

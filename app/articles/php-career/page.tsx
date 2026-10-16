@@ -74,7 +74,7 @@ const faqData = {
       name: "PHPエンジニアは産休・育休後も働きやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "働きやすい職種のひとつです。Web開発はオンラインで完結しやすくフルリモート・フレックス求人が豊富で、PHPは求人の母数が多いぶん「育休実績あり・時短可」といった条件で会社を選びやすいのが強みです。WordPressや受託案件は在宅・副業とも相性が良く、ブランク後の復帰やフリーランス転向もしやすい言語です。ただし企業差は大きいため、産休育休の取得・復帰実績、リモートの運用実態、女性管理職比率は事前に確認しましょう。求人票に出ない実態は女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
+        text: "働きやすい職種のひとつです。Web開発はオンラインで完結しやすくフルリモート・フレックス求人が豊富で、PHPは求人の母数が多いぶん「育休実績あり・時短可」といった条件で会社を選びやすいのが強みです。WordPressや受託案件は在宅・副業とも相性が良く、ブランク後の復帰やフリーランス転向もしやすい言語です。ただし企業差は大きいため、産休育休の取得・復帰実績、リモートの運用実態、女性管理職比率は事前にご確認ください。求人票に出ない実態は女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -373,7 +373,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>PHPの技術を正当に評価してもらうには、IT特化型と女性特化型の併用が効果的です。求人母数が多いPHPだからこそ、複数社で条件を比較しましょう。</p>
+            <p>PHPの技術を正当に評価してもらうには、IT特化型と女性特化型の併用が効果的です。求人母数が多いPHPだからこそ、複数社で条件を比較することをおすすめします。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -391,7 +391,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -460,8 +460,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

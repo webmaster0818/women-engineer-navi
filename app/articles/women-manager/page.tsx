@@ -82,7 +82,7 @@ const faqData = {
       name: "管理職を目指すうえで女性が確認すべき企業の制度は何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "まず女性活躍推進法に基づく「えるぼし認定」（採用・継続就業・働き方・管理職比率・多様なキャリアコースの5基準、3段階＋プラチナえるぼし）と、子育て支援の「くるみん認定」の有無を確認しましょう。2026年4月の改正でえるぼしには「えるぼしプラス」も新設されました。あわせて、有価証券報告書や統合報告書で開示される女性管理職比率の実数値、昇進・評価基準の透明性、女性向けリーダー研修やメンター制度、産休育休からの管理職復帰実績を確認すると、「掛け声だけ」でない本気度を見極められます。",
+        text: "まず女性活躍推進法に基づく「えるぼし認定」（採用・継続就業・働き方・管理職比率・多様なキャリアコースの5基準、3段階＋プラチナえるぼし）と、子育て支援の「くるみん認定」の有無をご確認ください。2026年4月の改正でえるぼしには「えるぼしプラス」も新設されました。あわせて、有価証券報告書や統合報告書で開示される女性管理職比率の実数値、昇進・評価基準の透明性、女性向けリーダー研修やメンター制度、産休育休からの管理職復帰実績を確認すると、「掛け声だけ」でない本気度を見極められます。",
       },
     },
   ],
@@ -441,7 +441,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -509,8 +509,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">管理職への一歩を踏み出しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。女性が活躍できる企業とマネジメントキャリアを一緒に描きましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">管理職への一歩を踏み出してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。女性が活躍できる企業とマネジメントキャリアを一緒に描いてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

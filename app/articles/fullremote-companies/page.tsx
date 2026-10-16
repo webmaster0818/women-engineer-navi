@@ -50,7 +50,7 @@ const faqData = {
       name: "“フルリモート”と“リモート可”は何が違いますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "「フルリモート（完全リモート）」は原則として一切出社しない勤務形態を指し、「リモートワーク可」は週1〜数回や月数回の出社を前提にしているケースが多くあります。求人票の言葉だけでは判断できず、同じ「リモート可」でも実態は『出社メインで在宅は月数回』という企業から『ほぼフルリモート』までさまざまです。求人票に『リモートワーク中心』『ハイブリッド』とある場合は、必ず選考で平均的な月の出社日数を数字で確認しましょう。さらに『恒久的にフルリモートか、いつでも出社命令に切り替わり得るのか（出社回帰の方針）』まで聞くと、入社後のギャップを防げます。",
+        text: "「フルリモート（完全リモート）」は原則として一切出社しない勤務形態を指し、「リモートワーク可」は週1〜数回や月数回の出社を前提にしているケースが多くあります。求人票の言葉だけでは判断できず、同じ「リモート可」でも実態は『出社メインで在宅は月数回』という企業から『ほぼフルリモート』までさまざまです。求人票に『リモートワーク中心』『ハイブリッド』とある場合は、必ず選考で平均的な月の出社日数を数字でご確認ください。さらに『恒久的にフルリモートか、いつでも出社命令に切り替わり得るのか（出社回帰の方針）』まで聞くと、入社後のギャップを防げます。",
       },
     },
     {
@@ -74,7 +74,7 @@ const faqData = {
       name: "女性が長く働けるフルリモート企業はどう見分ければいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "リモートの有無だけでなく、『時短×リモートの両立実績』『産休育休からのリモート復帰実績』『フルフレックスやコアタイムの柔軟さ』『成果で評価される制度』の4点を確認しましょう。ある調査では、給与が同じならフルリモートを希望する女性は男性より多い一方、給与が下がるなら50.3％の女性が『希望しない』と回答しており、女性にとってリモートは“働き続けるための条件”であると同時に、待遇とのバランスも重視されていることが分かります。求人票に出ない実績は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
+        text: "リモートの有無だけでなく、『時短×リモートの両立実績』『産休育休からのリモート復帰実績』『フルフレックスやコアタイムの柔軟さ』『成果で評価される制度』の4点をご確認ください。ある調査では、給与が同じならフルリモートを希望する女性は男性より多い一方、給与が下がるなら50.3％の女性が『希望しない』と回答しており、女性にとってリモートは“働き続けるための条件”であると同時に、待遇とのバランスも重視されていることが分かります。求人票に出ない実績は、女性のキャリアに詳しいエージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -82,7 +82,7 @@ const faqData = {
       name: "口コミサイトの情報はどこまで信じていいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "口コミは“傾向”を読むために使い、鵜呑みにしないのが鉄則です。OpenWorkや転職会議などの口コミは、退職者の不満が強く出やすい・投稿時期が古いといった偏りがあります。見るべきは、(1)『リモート』『在宅』で絞った投稿の最新1〜2年分、(2)出社頻度や評価制度に関する複数人の共通点、(3)投稿日付。1件の極端な意見ではなく、複数の声に共通するパターンを拾いましょう。最終的には、口コミで得た仮説を面接やエージェントへの質問で“裏取り”することが、ミスマッチを防ぐ最も確実な方法です。",
+        text: "口コミは“傾向”を読むために使い、鵜呑みにしないのが鉄則です。OpenWorkや転職会議などの口コミは、退職者の不満が強く出やすい・投稿時期が古いといった偏りがあります。見るべきは、(1)『リモート』『在宅』で絞った投稿の最新1〜2年分、(2)出社頻度や評価制度に関する複数人の共通点、(3)投稿日付。1件の極端な意見ではなく、複数の声に共通するパターンを拾ってください。最終的には、口コミで得た仮説を面接やエージェントへの質問で“裏取り”することが、ミスマッチを防ぐ最も確実な方法です。",
       },
     },
   ],
@@ -226,7 +226,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">入社前に確認すべきチェックリスト（一覧表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              “リモートの本気度”は、次の7項目で総合的に判断します。求人票・面接・口コミ・エージェントを使い、<strong>各項目を「数字」または「具体的な制度名」で確認できるか</strong>がカギです。曖昧なまま放置せず、1つずつ潰していきましょう。
+              “リモートの本気度”は、次の7項目で総合的に判断します。求人票・面接・口コミ・エージェントを使い、<strong>各項目を「数字」または「具体的な制度名」で確認できるか</strong>がカギです。曖昧なまま放置せず、1つずつ潰していいてください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -326,7 +326,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">口コミ・実態情報の集め方（4ステップ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>面接で聞けることには限りがあります。外部情報を使って“裏取り”すると、見極めの精度がぐっと上がります。次の順番で進めましょう。</p>
+            <p>面接で聞けることには限りがあります。外部情報を使って“裏取り”すると、見極めの精度がぐっと上がります。次の順番で進めてください。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -375,11 +375,11 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 成果で評価される文化が根づく</h3>
-              <p className="text-text-light text-sm leading-relaxed">在席時間ではなく成果で評価されれば、時短や中抜けがあっても正当に認められます。女性の昇進・管理職比率もあわせて確認しましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">在席時間ではなく成果で評価されれば、時短や中抜けがあっても正当に認められます。女性の昇進・管理職比率もあわせてご確認ください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 待遇とリモートが両立している</h3>
-              <p className="text-text-light text-sm leading-relaxed">調査でも、給与が下がるなら50.3％の女性がフルリモートを「希望しない」と回答。リモートを“給与ダウンの口実”にしない、待遇とのバランスが取れた企業を選びましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">調査でも、給与が下がるなら50.3％の女性がフルリモートを「希望しない」と回答。リモートを“給与ダウンの口実”にしない、待遇とのバランスが取れた企業を選ぶことをおすすめします。</p>
             </div>
           </div>
           <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
@@ -413,7 +413,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">“リモートの実態”はエージェントに確認するのが近道</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、社内事情に詳しいアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、社内事情に詳しいアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -482,7 +482,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">本当に働きやすいリモート企業を見極めよう</h2>
-            <p className="text-white/90 mb-6">求人票に出ない“リモートの実態”は、エージェントに無料相談。あなたに合った働き方を一緒に見つけましょう。</p>
+            <p className="text-white/90 mb-6">求人票に出ない“リモートの実態”は、エージェントに無料相談。あなたに合った働き方を一緒に見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

@@ -51,7 +51,7 @@ const faqData = {
       name: "地方に住みながら東京の企業にフルリモートで転職できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "可能です。全国どこからでも応募できる「居住地不問・全国フルリモート」の求人がエンジニア領域で増えており、フルリモート対応求人は2023年比で約28%増、AI・クラウド領域では30%超の伸びとされています。dodaの調査では上場・非上場あわせて約62%の企業がリモート採用を戦略的に位置づけています。求人票で『居住地不問』『フルリモート（出社なし）』『地方在住可』と明記されたものを選べば、北海道や九州に住みながら東京本社の開発チームに所属することも現実的です。応募時は『将来も出社義務が発生しないか』を必ず確認しましょう。",
+        text: "可能です。全国どこからでも応募できる「居住地不問・全国フルリモート」の求人がエンジニア領域で増えており、フルリモート対応求人は2023年比で約28%増、AI・クラウド領域では30%超の伸びとされています。dodaの調査では上場・非上場あわせて約62%の企業がリモート採用を戦略的に位置づけています。求人票で『居住地不問』『フルリモート（出社なし）』『地方在住可』と明記されたものを選べば、北海道や九州に住みながら東京本社の開発チームに所属することも現実的です。応募時は『将来も出社義務が発生しないか』を必ずご確認ください。",
       },
     },
     {
@@ -75,7 +75,7 @@ const faqData = {
       name: "地方移住×フルリモートは育児・介護と両立しやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "相性は非常に適しています。通勤がゼロになることで往復の時間がそのまま可処分時間になり、保育園の送迎や子どもの急な発熱、親の通院付き添いに柔軟に対応できます。フレックスや裁量労働制を併用できる求人なら、中抜けして家事・育児・介護をこなし、夜に作業を戻すといった働き方も可能です。地方都市は東京に比べて待機児童が少ない地域や保育料の負担が軽い地域もあり、広い住居で在宅ワーク用の個室を確保しやすいのも利点です。ただし会社のリモート方針が将来変わらないか、子の体調不良時の働き方が認められるかは入社前に確認しましょう。",
+        text: "相性は非常に適しています。通勤がゼロになることで往復の時間がそのまま可処分時間になり、保育園の送迎や子どもの急な発熱、親の通院付き添いに柔軟に対応できます。フレックスや裁量労働制を併用できる求人なら、中抜けして家事・育児・介護をこなし、夜に作業を戻すといった働き方も可能です。地方都市は東京に比べて待機児童が少ない地域や保育料の負担が軽い地域もあり、広い住居で在宅ワーク用の個室を確保しやすいのも利点です。ただし会社のリモート方針が将来変わらないか、子の体調不良時の働き方が認められるかは入社前にご確認ください。",
       },
     },
     {
@@ -227,7 +227,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            注意したいのは、「リモート可」と書かれていても実態は<strong>ハイブリッド（週数日出社）</strong>のことがある点です。地方在住者は<strong>「フルリモート＝出社なし／居住地不問」</strong>と明記された求人だけを母数として扱いましょう。
+            注意したいのは、「リモート可」と書かれていても実態は<strong>ハイブリッド（週数日出社）</strong>のことがある点です。地方在住者は<strong>「フルリモート＝出社なし／居住地不問」</strong>と明記された求人だけを母数として扱ってください。
           </p>
         </div>
       </section>
@@ -344,7 +344,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">移住前に知るべき注意点</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>地方移住×フルリモートは魅力的ですが、メリットだけを見て移住すると後悔します。先に現実的なコストとリスクを把握しておきましょう。</p>
+            <p>地方移住×フルリモートは魅力的ですが、メリットだけを見て移住すると後悔します。先に現実的なコストとリスクを把握しておいてください。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -423,7 +423,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -504,8 +504,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。地方在住でも東京水準で働けるフルリモート求人を一緒に探しましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。地方在住でも東京水準で働けるフルリモート求人を一緒に探してください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

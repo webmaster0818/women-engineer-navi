@@ -82,7 +82,7 @@ const faqData = {
       name: "応用情報技術者試験はCBT方式に変わると聞きました。何が変わりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "令和8年度（2026年度）から、応用情報技術者試験・高度試験・情報処理安全確保支援士試験はパソコンで解答するCBT方式に移行します。従来春期に実施していた区分は「前期試験」として2026年11月頃、秋期区分は「後期試験」として2027年2月頃に実施予定です。出題形式（多肢選択式・記述式）、出題数、試験時間、問う知識・技能の範囲そのものに変更はありません。受験機会の柔軟性が高まる一方、画面上で長文を読み解く形式に慣れておくと安心です。最新の日程・要項はIPA公式サイトで必ず確認しましょう。",
+        text: "令和8年度（2026年度）から、応用情報技術者試験・高度試験・情報処理安全確保支援士試験はパソコンで解答するCBT方式に移行します。従来春期に実施していた区分は「前期試験」として2026年11月頃、秋期区分は「後期試験」として2027年2月頃に実施予定です。出題形式（多肢選択式・記述式）、出題数、試験時間、問う知識・技能の範囲そのものに変更はありません。受験機会の柔軟性が高まる一方、画面上で長文を読み解く形式に慣れておくと安心です。最新の日程・要項はIPA公式サイトで必ずご確認ください。",
       },
     },
   ],
@@ -391,7 +391,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">応用情報技術者試験ドットコム「過去問道場」</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>午前・無料Web</span></div>
-              <p className="text-sm text-text-light">過去問をWeb・スマホで無料演習できる定番サービス。午前は過去問演習が最重要なので、隙間時間に繰り返し回して正答率を安定させましょう。</p>
+              <p className="text-sm text-text-light">過去問をWeb・スマホで無料演習できる定番サービス。午前は過去問演習が最重要なので、隙間時間に繰り返し回して正答率を安定させてください。</p>
             </div>
           </div>
         </div>
@@ -473,7 +473,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">資格を年収・キャリアに変えるなら</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、応用情報を正当に評価してくれるアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、応用情報を正当に評価してくれるアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -516,8 +516,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">資格を活かした転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。応用情報を強みに、あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">資格を活かした転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。応用情報を強みに、あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

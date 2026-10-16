@@ -92,7 +92,7 @@ export default function RecruitAgentReviewPage() {
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>総合型</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               リクルートエージェントの口コミ・評判
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性ITエンジニアの求人数は？徹底検証</span>
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性ITエンジニアの求人数は？検証</span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の利用者の声ベースに刷新）</p>
           </div>
@@ -339,7 +339,7 @@ export default function RecruitAgentReviewPage() {
           <div className="space-y-6">
             {[
               { step: "1", title: "無料会員登録", desc: "公式サイトから基本情報・職歴・希望条件を入力して登録。約5分で完了します。" },
-              { step: "2", title: "キャリアアドバイザーとの面談", desc: "担当アドバイザーとの面談（対面・オンライン選択可）。女性アドバイザーの希望があればこの段階で伝えましょう。キャリアの棚卸しと希望条件のヒアリングを行います。" },
+              { step: "2", title: "キャリアアドバイザーとの面談", desc: "担当アドバイザーとの面談（対面・オンライン選択可）。女性アドバイザーの希望があればこの段階で伝えてください。キャリアの棚卸しと希望条件のヒアリングを行います。" },
               { step: "3", title: "求人紹介", desc: "面談内容をもとに、マッチする求人を紹介。約27万件の非公開求人を含む豊富な選択肢から提案されます。" },
               { step: "4", title: "書類添削・面接対策", desc: "職務経歴書の添削と、過去の面接質問データベースを活用した面接対策を実施。企業ごとの対策が受けられます。" },
               { step: "5", title: "内定・入社", desc: "内定後は年収交渉・入社日調整をアドバイザーが代行。退職交渉のアドバイスも受けられます。" },
@@ -398,7 +398,7 @@ export default function RecruitAgentReviewPage() {
           <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/articles/age-40s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 40代女性エンジニアの転職ガイド</Link>
-            <Link href="/articles/workport-vs-recruit/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ワークポート vs リクルートエージェント徹底比較</Link>
+            <Link href="/articles/workport-vs-recruit/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} ワークポート vs リクルートエージェント比較</Link>
             <Link href="/articles/salary/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアの年収ガイド｜平均年収と年収アップの方法</Link>
             <Link href="/articles/career-path/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} キャリアパス設計ガイド｜5年後・10年後のキャリア設計</Link>
           </div>

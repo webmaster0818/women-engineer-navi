@@ -58,7 +58,7 @@ const faqData = {
       name: "ストックオプションをもらえば一攫千金を狙えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SOはIPOやM&Aが成立して初めて価値が生まれる権利で、確実な報酬ではありません。会社が上場・売却に至らなければ行使機会がなく価値ゼロで終わることも普通にあります。また在籍年数に応じて段階的に権利が確定するベスティング条項や、退職時に失効する設計が一般的です。「上場すれば数千万円」という期待だけで現金給与の不足を受け入れるのは危険で、SOはあくまで成功時の上乗せと位置づけ、付与数・発行済株式数に対する割合・行使価額・退職時の扱いを契約書で確認しましょう。",
+        text: "SOはIPOやM&Aが成立して初めて価値が生まれる権利で、確実な報酬ではありません。会社が上場・売却に至らなければ行使機会がなく価値ゼロで終わることも普通にあります。また在籍年数に応じて段階的に権利が確定するベスティング条項や、退職時に失効する設計が一般的です。「上場すれば数千万円」という期待だけで現金給与の不足を受け入れるのは危険で、SOはあくまで成功時の上乗せと位置づけ、付与数・発行済株式数に対する割合・行使価額・退職時の扱いを契約書でご確認ください。",
       },
     },
     {
@@ -144,7 +144,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>ストックオプションは宝くじではなく「条件付きの権利」。</strong>税制適格SOなら行使時非課税・売却時に約20%の譲渡課税で済みますが、IPO/M&Aに至らなければ価値ゼロ、退職で失効する設計が一般的です。付与割合・ベスティング・行使期限を契約書で必ず確認しましょう。</span>
+                <span><strong>ストックオプションは宝くじではなく「条件付きの権利」。</strong>税制適格SOなら行使時非課税・売却時に約20%の譲渡課税で済みますが、IPO/M&Aに至らなければ価値ゼロ、退職で失効する設計が一般的です。付与割合・ベスティング・行使期限を契約書で必ずご確認ください。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
@@ -365,7 +365,7 @@ export default function ArticlePage() {
               <li>・<strong>ベスティング条項</strong>：在籍1年で25%、その後毎月積み上げなど、権利確定のスケジュールを確認。入社直後の退職では何も残らない設計が一般的です</li>
               <li>・<strong>退職時の扱い</strong>：多くの設計では退職すると未確定分（場合によっては確定分も）が失効します。転職の自由度とトレードオフになる点は冷静に</li>
               <li>・<strong>行使期限と出口</strong>：付与決議から10年（設立5年未満の非上場は15年）の期限内にIPO/M&Aが起きなければ行使機会がないまま終わる可能性があります</li>
-              <li>・<strong>SOは「成功時の上乗せ」</strong>：生活に必要な額は現金給与だけで賄えるオファーかどうかを判断基準にしましょう</li>
+              <li>・<strong>SOは「成功時の上乗せ」</strong>：生活に必要な額は現金給与だけで賄えるオファーかどうかを判断基準にしてください</li>
             </ul>
           </div>
         </div>
@@ -383,7 +383,7 @@ export default function ArticlePage() {
               さらに2025年4月施行の改正で、<strong>子の看護休暇は「子の看護等休暇」となり対象が小学校3年生修了まで拡大</strong>（学級閉鎖や入卒園式も対象に）、<strong>残業免除の対象も3歳未満から小学校就学前までに拡大</strong>。同年10月からは、3歳〜就学前の子を持つ社員向けに柔軟な働き方（テレワーク等）の選択肢を用意することが事業主に義務付けられました（厚生労働省）。
             </p>
             <p>
-              ただし、「取れる」と「取りやすい」は別問題です。育休取得状況の公表義務は従業員300人超の企業が対象のため、<strong>多くのスタートアップは取得実績を公表していません。自分で確認するしかない</strong>のが実情です。面接・カジュアル面談で次のポイントを確認しましょう。
+              ただし、「取れる」と「取りやすい」は別問題です。育休取得状況の公表義務は従業員300人超の企業が対象のため、<strong>多くのスタートアップは取得実績を公表していません。自分で確認するしかない</strong>のが実情です。面接・カジュアル面談で次のポイントをご確認ください。
             </p>
           </div>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
@@ -451,7 +451,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">転職前に確認すべきポイント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>市況が「選別」の局面にあるいま（<a href="#sec1" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>1章</a>）、入社前のデューデリジェンス（自分なりの企業調査）は必須です。最低限、次の5点を確認しましょう。</p>
+            <p>市況が「選別」の局面にあるいま（<a href="#sec1" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>1章</a>）、入社前のデューデリジェンス（自分なりの企業調査）は必須です。最低限、次の5点をご確認ください。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -512,7 +512,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -567,7 +567,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
       </section>
     </>
   );

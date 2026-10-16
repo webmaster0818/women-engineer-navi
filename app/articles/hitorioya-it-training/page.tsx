@@ -396,7 +396,7 @@ export default function ArticlePage() {
               ["STEP1", "お住まいの市区町村窓口に事前相談", "市区町村（町村在住の方は都道府県）のひとり親家庭支援・児童福祉の担当窓口へ。児童扶養手当の受給状況・所得水準など自分が対象者要件を満たしそうか、検討中のIT講座・資格が対象になり得るかを確認します。"],
               ["STEP2", "講座・資格を具体化して対象可否を確認", "「養成機関で6月以上修業」「就職の際に有利となる資格」という条件に照らして、受講したい講座が対象と認められるかを窓口で確認します。自立支援教育訓練給付金は受講前の講座指定が必須です。"],
               ["STEP3", "必要な手続き・書類を確認して申請", "必要書類・申請時期・支給方法は自治体により異なります。自立支援教育訓練給付金では自立に向けた計画（母子・父子自立支援プログラム）の策定等が対象者要件になっているため、その手続きも窓口の案内に従って進めます。"],
-              ["STEP4", "受講・修業", "高等職業訓練促進給付金は訓練期間中の生活費として月額で支給される制度です。修業と仕事・育児の両立設計を窓口相談の段階から詰めておきましょう。"],
+              ["STEP4", "受講・修業", "高等職業訓練促進給付金は訓練期間中の生活費として月額で支給される制度です。修業と仕事・育児の両立設計を窓口相談の段階から詰めておいてください。"],
               ["STEP5", "修了・資格取得と就職活動", "高等職業訓練促進給付金では修了後に5万円（課税世帯25,000円）の支給があります。資格を取ったら、それを評価してくれる求人への転職活動につなげます。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
@@ -470,8 +470,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">資格を取ったら、活かせる職場を見つけましょう</h2>
-            <p className="text-white/90 mb-6">給付制度で負担を抑えて学んだ後は、子育てとの両立に理解のある企業への転職活動へ。まずはエージェントに無料相談して、あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">資格を取ったら、活かせる職場を見つけてください</h2>
+            <p className="text-white/90 mb-6">給付制度で負担を抑えて学んだ後は、子育てとの両立に理解のある企業への転職活動へ。まずはエージェントに無料相談して、あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

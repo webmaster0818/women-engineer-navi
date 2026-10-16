@@ -82,7 +82,7 @@ const faqData = {
       name: "AWS認定取得後、転職に強いエージェントはどこですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "クラウドスキルを正当に評価してもらうなら、IT特化型のレバテックキャリアやGeeklyがおすすめです。AWSの技術スタックや資格レベルを理解したアドバイザーが多く、クラウド求人が豊富で年収交渉にも強みがあります。働き方の条件（リモート・時短・産休育休実績）を重視したい場合は、type女性の転職エージェントを併用すると、女性のキャリア継続に配慮した求人を絞り込めます。資格は持っているだけでなく「どう実務に活かすか」を語れると評価が上がるため、ポートフォリオやハンズオン実績の整理もアドバイザーに相談しましょう。2〜3社の併用がベストです。",
+        text: "クラウドスキルを正当に評価してもらうなら、IT特化型のレバテックキャリアやGeeklyがおすすめです。AWSの技術スタックや資格レベルを理解したアドバイザーが多く、クラウド求人が豊富で年収交渉にも強みがあります。働き方の条件（リモート・時短・産休育休実績）を重視したい場合は、type女性の転職エージェントを併用すると、女性のキャリア継続に配慮した求人を絞り込めます。資格は持っているだけでなく「どう実務に活かすか」を語れると評価が上がるため、ポートフォリオやハンズオン実績の整理もアドバイザーにご相談ください。2〜3社の併用がベストです。",
       },
     },
   ],
@@ -378,7 +378,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            まずは無料教材で始め、本番感覚に不安があれば模試を1つ追加する——これがコストを抑えた王道です。新規アカウントには学習・受験に使えるクーポンや無料枠もあるため、賢く活用しましょう。
+            まずは無料教材で始め、本番感覚に不安があれば模試を1つ追加する——これがコストを抑えた王道です。新規アカウントには学習・受験に使えるクーポンや無料枠もあるため、賢くご活用ください。
           </p>
         </div>
       </section>
@@ -418,7 +418,7 @@ export default function ArticlePage() {
             </ul>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            ただし、資格取得だけで年収が上がるわけではありません。<strong>実務経験と組み合わせて初めて市場価値が高まる</strong>点は押さえておきましょう。資格は「クラウドを体系的に理解している証明」として、面接・年収交渉での説得力を大きく高めてくれます。
+            ただし、資格取得だけで年収が上がるわけではありません。<strong>実務経験と組み合わせて初めて市場価値が高まる</strong>点は押さえておいてください。資格は「クラウドを体系的に理解している証明」として、面接・年収交渉での説得力を大きく高めてくれます。
           </p>
         </div>
       </section>
@@ -446,7 +446,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">資格を「年収」につなげるならエージェント活用が近道</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、クラウドに詳しいアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、クラウドに詳しいアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -489,8 +489,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">AWS認定を、理想の転職につなげましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。資格を活かせる求人とキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">AWS認定を、理想の転職につなげてください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。資格を活かせる求人とキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

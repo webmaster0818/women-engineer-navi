@@ -179,7 +179,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">クラウド需要の実データ（市場成長とAWSのシェア）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「クラウドの需要が高い」という話は定型句になりがちですが、数字で確認しておきましょう。IDC Japanの予測によると、国内パブリッククラウドサービス市場は<strong>2024年に4兆1,423億円（前年比26.1%増）</strong>に達し、2024〜2029年は<strong>年平均成長率（CAGR）16.3%</strong>で拡大、<strong>2029年には2024年比約2.1倍の8兆8,164億円</strong>に達する見込みです。クラウドマイグレーション、クラウドネイティブ化、生成AI活用が成長の牽引役とされています。
+              「クラウドの需要が高い」という話は定型句になりがちですが、数字で確認しておいてください。IDC Japanの予測によると、国内パブリッククラウドサービス市場は<strong>2024年に4兆1,423億円（前年比26.1%増）</strong>に達し、2024〜2029年は<strong>年平均成長率（CAGR）16.3%</strong>で拡大、<strong>2029年には2024年比約2.1倍の8兆8,164億円</strong>に達する見込みです。クラウドマイグレーション、クラウドネイティブ化、生成AI活用が成長の牽引役とされています。
             </p>
             <p className="text-sm">出典: IDC Japan「国内パブリッククラウドサービス市場予測」プレスリリース（2026年6月参照）</p>
             <p>
@@ -274,7 +274,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3"><span className="rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>Phase 1</span><h3 className="text-lg font-bold">基礎サービス（EC2 / S3 / VPC / RDS / IAM）</h3></div>
-              <p className="text-sm text-text-light leading-relaxed">仮想サーバー（EC2）・ストレージ（S3）・ネットワーク（VPC）・データベース（RDS）・権限管理（IAM）の5つがAWSの土台です。前提としてLinuxコマンドとTCP/IP・DNSの基礎も押さえましょう。無料利用枠で実際に手を動かし、「Webサーバーを建てて公開する」までを自力でできれば合格ラインです。</p>
+              <p className="text-sm text-text-light leading-relaxed">仮想サーバー（EC2）・ストレージ（S3）・ネットワーク（VPC）・データベース（RDS）・権限管理（IAM）の5つがAWSの土台です。前提としてLinuxコマンドとTCP/IP・DNSの基礎も押さえてください。無料利用枠で実際に手を動かし、「Webサーバーを建てて公開する」までを自力でできれば合格ラインです。</p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <div className="flex items-center gap-3 mb-3"><span className="rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>Phase 2</span><h3 className="text-lg font-bold">IaC（Terraform / CloudFormation / CDK）</h3></div>
@@ -309,7 +309,7 @@ export default function ArticlePage() {
               ["STEP1", "Linux・ネットワークの基礎（1〜2ヶ月）", "Linuxの基本コマンド、TCP/IP・DNS・HTTPの仕組みを学びます。クラウドの裏側はLinuxとネットワークなので、ここを飛ばすと後で必ず詰まります。"],
               ["STEP2", "AWSの基礎サービスをハンズオンで（1〜2ヶ月）", "EC2・S3・VPC・RDS・IAMを無料利用枠で実際に構築。「WordPressをEC2＋RDSで公開する」など、定番構成を自分の手で作ってみるのが近道です。"],
               ["STEP3", "資格で知識を体系化（CLF→SAA）", "AWS認定クラウドプラクティショナー（CLF）→ソリューションアーキテクトアソシエイト（SAA）の順で取得。未経験者の書類選考での説得力が大きく変わります。"],
-              ["STEP4", "IaCとGitを身につける（1〜2ヶ月）", "STEP2で手動構築した環境をTerraformで作り直してみましょう。コードはGitHubで公開すれば、そのままポートフォリオになります。"],
+              ["STEP4", "IaCとGitを身につける（1〜2ヶ月）", "STEP2で手動構築した環境をTerraformで作り直してんでください。コードはGitHubで公開すれば、そのままポートフォリオになります。"],
               ["STEP5", "ポートフォリオを構成図付きでまとめる", "「構成図＋IaCコード＋設計意図の説明」のセットが最強の応募書類です。なぜこの構成にしたか（コスト・可用性・セキュリティ）を自分の言葉で語れるように。"],
               ["STEP6", "IT特化エージェントで求人を絞り込む", "未経験可のクラウド運用・構築ポジションからスタートし、実務でIaC・コンテナ経験を積んで2〜3年でステップアップするのが現実的なルートです。"],
             ].map(([step, title, desc], i) => (
@@ -349,7 +349,7 @@ export default function ArticlePage() {
             <p>AWS関連の求人を探すなら、IT特化型の転職エージェントがおすすめです。レバテックキャリアはインフラ・クラウドエンジニアの求人を多数保有しており、AWS認定資格の評価基準にも詳しいアドバイザーが在籍しています。</p>
             <p>Geeklyも IT・Web業界に強いエージェントで、SREやDevOpsの求人に強みがあります。リクルートエージェントは大手SIerや社内SEのインフラポジションの求人が豊富です。</p>
             <p>女性特化型のtype女性の転職エージェントとIT特化型エージェントを併用すると、技術面と環境面の両方のニーズを満たす企業を見つけやすくなります。クラウドエンジニアの転職では、2〜3社の併用が効果的です。</p>
-            <p>インフラエンジニアの転職では、資格とハンズオン経験が重要なアピールポイントになります。AWS認定資格の取得状況と、具体的にどのサービスを使った経験があるかを明確にした上で、エージェントに相談しましょう。</p>
+            <p>インフラエンジニアの転職では、資格とハンズオン経験が重要なアピールポイントになります。AWS認定資格の取得状況と、具体的にどのサービスを使った経験があるかを明確にした上で、エージェントにご相談ください。</p>
           </div>
         </div>
       </section>
@@ -430,8 +430,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

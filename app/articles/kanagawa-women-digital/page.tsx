@@ -370,7 +370,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">費用と就職サポート</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              受講料は<strong>無料</strong>です。公式FAQに「通信費等はご負担いただきますが、受講料は無料です」と明記されています。自己負担になるものも正確に押さえておきましょう。
+              受講料は<strong>無料</strong>です。公式FAQに「通信費等はご負担いただきますが、受講料は無料です」と明記されています。自己負担になるものも正確に押さえておいてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -452,13 +452,13 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#c15f47" }}>1. 申し込めば必ず受講できるわけではない</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                e-ラーニング・グループ講座とも選考があります。特にグループ講座は定員30名程度で書類選考・面接（原則対面）があり、原則全日程参加が要件です。日程が合わない場合は、自分のペースで学べるe-ラーニングコースや、オンデマンド型の<a href="/articles/saitama-women-training/" className="underline" style={{ color: "#7c3a55" }}>埼玉県の事業</a>（県内在住・就業希望者向け）など他の選択肢も検討しましょう。
+                e-ラーニング・グループ講座とも選考があります。特にグループ講座は定員30名程度で書類選考・面接（原則対面）があり、原則全日程参加が要件です。日程が合わない場合は、自分のペースで学べるe-ラーニングコースや、オンデマンド型の<a href="/articles/saitama-women-training/" className="underline" style={{ color: "#7c3a55" }}>埼玉県の事業</a>（県内在住・就業希望者向け）など他の選択肢もご検討ください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#c15f47" }}>2. 申込期間が限られている</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                2026年7月18日時点では申込受付中の枠がなく、次はe-ラーニング第2回（8月10日〜9月10日）、グループ講座（8月25日〜10月5日）です。申込期間を逃すと次の回まで待つことになるため、受講したい方はスケジュールを控えておきましょう。
+                2026年7月18日時点では申込受付中の枠がなく、次はe-ラーニング第2回（8月10日〜9月10日）、グループ講座（8月25日〜10月5日）です。申込期間を逃すと次の回まで待つことになるため、受講したい方はスケジュールを控えておいてください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -529,8 +529,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

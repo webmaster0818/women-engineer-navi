@@ -90,7 +90,7 @@ const faqData = {
       name: "データエンジニアに夜間対応はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "データパイプラインのバッチ処理は深夜〜早朝に実行されることが多いため、障害時のアラート対応が夜間に発生する可能性はあります。ただし体制は企業差が大きく、リトライの自動化や監視の外部化で夜間対応がほとんどない環境もあれば、輪番のオンコール当番がある環境もあります。応募時には『バッチ障害時の対応体制』『オンコールの有無と頻度』を確認しましょう。育児中はオンコール免除・調整に応じる企業もあるため、面談で相談する価値があります。",
+        text: "データパイプラインのバッチ処理は深夜〜早朝に実行されることが多いため、障害時のアラート対応が夜間に発生する可能性はあります。ただし体制は企業差が大きく、リトライの自動化や監視の外部化で夜間対応がほとんどない環境もあれば、輪番のオンコール当番がある環境もあります。応募時には『バッチ障害時の対応体制』『オンコールの有無と頻度』をご確認ください。育児中はオンコール免除・調整に応じる企業もあるため、面談で相談する価値があります。",
       },
     },
     {
@@ -400,7 +400,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -444,13 +444,13 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                データ基盤の構築・運用はBigQueryやSnowflakeなどクラウド上で完結しやすく、一般にリモートワークとの相性が非常に良い職種です。体力面もデスクワーク中心です。一方で申し添えておきたいのは、<strong>データパイプラインのバッチ処理が深夜〜早朝に実行されることが多い</strong>という職種特性。障害時のアラート対応が夜間に発生する可能性があり、リトライの自動化や監視体制の整備度合いで負担が大きく変わります。応募時には「バッチ障害時の対応体制」「オンコール当番の有無と頻度」を必ず確認しましょう。
+                データ基盤の構築・運用はBigQueryやSnowflakeなどクラウド上で完結しやすく、一般にリモートワークとの相性が非常に良い職種です。体力面もデスクワーク中心です。一方で申し添えておきたいのは、<strong>データパイプラインのバッチ処理が深夜〜早朝に実行されることが多い</strong>という職種特性。障害時のアラート対応が夜間に発生する可能性があり、リトライの自動化や監視体制の整備度合いで負担が大きく変わります。応募時には「バッチ障害時の対応体制」「オンコール当番の有無と頻度」を必ずご確認ください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休育休・時短との相性</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                データパイプラインはコードと設定・ドキュメントの形で残るため、業務の属人性を下げやすく、一般に産休育休の引き継ぎ計画を立てやすい仕事です。復帰の面でも、中核スキルであるSQLとデータモデリングの考え方は流行に左右されにくく、ブランクで価値が落ちにくいのが強み。処理時間の短縮やデータ品質の改善など成果が数値で残るため、時短勤務でも評価されやすい傾向です。ただしdbtやSnowflakeなどツール側の進化は速いため、復帰時には差分のキャッチアップを見込んでおきましょう。
+                データパイプラインはコードと設定・ドキュメントの形で残るため、業務の属人性を下げやすく、一般に産休育休の引き継ぎ計画を立てやすい仕事です。復帰の面でも、中核スキルであるSQLとデータモデリングの考え方は流行に左右されにくく、ブランクで価値が落ちにくいのが強み。処理時間の短縮やデータ品質の改善など成果が数値で残るため、時短勤務でも評価されやすい傾向です。ただしdbtやSnowflakeなどツール側の進化は速いため、復帰時には差分のキャッチアップを見込んでおいてください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -515,8 +515,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

@@ -160,7 +160,7 @@ export default function ArticlePage() {
               長く働き続けるコツを考える前に、まず「なぜ辞めてしまうのか」を知ることが近道です。IT関連産業の女性比率は約24%、エンジニアに占める女性は2割強にとどまり、情報通信業の女性管理職比率は<strong>約7.5%</strong>と低水準。こうした構造のなかで、女性エンジニアが離職に至る背景には、おおむね次の4つが重なっています。
             </p>
             <p>
-              逆に言えば、この4つを意識して環境を選び・整えれば、辞めずに済む可能性は大きく高まります。自分がどれに引っかかりやすいかを把握しておきましょう。
+              逆に言えば、この4つを意識して環境を選び・整えれば、辞めずに済む可能性は大きく高まります。自分がどれに引っかかりやすいかを把握しておいてください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -234,7 +234,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>6. ライフステージに合わせ働き方を変える</h3>
-              <p className="text-text-light text-sm leading-relaxed">フルタイム・時短・フルリモート・フリーランスを、その時の状況に合わせて行き来する。『辞めるか続けるか』の二択にせず、働き方を変えて続ける発想を持ちましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">フルタイム・時短・フルリモート・フリーランスを、その時の状況に合わせて行き来する。『辞めるか続けるか』の二択にせず、働き方を変えて続ける発想を持ってください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6 md:col-span-2" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>7. 続けられる環境を選び直す</h3>
@@ -297,7 +297,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">キャリアの棚卸しと節目の見直し</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              長く働く人ほど、定期的に立ち止まって「自分は何ができて、次にどこへ行きたいか」を確認しています。社内での評価と<strong>市場価値は別物</strong>。自分の強みを言語化しておけば、評価交渉でも、産休前後でも、転職でも判断に迷いません。半年〜1年ごと、または結婚・出産・異動などの節目に、次のSTEPで棚卸ししましょう。
+              長く働く人ほど、定期的に立ち止まって「自分は何ができて、次にどこへ行きたいか」を確認しています。社内での評価と<strong>市場価値は別物</strong>。自分の強みを言語化しておけば、評価交渉でも、産休前後でも、転職でも判断に迷いません。半年〜1年ごと、または結婚・出産・異動などの節目に、次のSTEPで棚卸ししてください。
             </p>
           </div>
           <div className="space-y-4">
@@ -318,7 +318,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            棚卸しは「転職するため」だけのものではありません。<strong>今の会社で続けるか・働き方を変えるか・移るか</strong>を冷静に選ぶための地図になります。年に一度の自分会議として習慣にしましょう。
+            棚卸しは「転職するため」だけのものではありません。<strong>今の会社で続けるか・働き方を変えるか・移るか</strong>を冷静に選ぶための地図になります。年に一度の自分会議として習慣にしてください。
           </p>
         </div>
       </section>
@@ -370,7 +370,7 @@ export default function ArticlePage() {
               長く働くうえで避けて通れないのが<strong>燃え尽き（バーンアウト）</strong>です。原因は、過度なプレッシャー・自己管理の余裕の欠如・能力を超えるタスクの三つ。近年は生成AIの普及で個々のタスクが速く片づく分、空いた時間に新しい仕事を詰め込み、休憩との境目が消えて<strong>かえって消耗する</strong>という指摘も出ています。「効率化したのに楽にならない」と感じたら要注意です。
             </p>
             <p>
-              燃え尽きは心のSOSであり、根性で乗り切るものではありません。気力を測る余裕がなくなる前に、次のサインと対処を知っておきましょう。
+              燃え尽きは心のSOSであり、根性で乗り切るものではありません。気力を測る余裕がなくなる前に、次のサインと対処を知っておいてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -396,7 +396,7 @@ export default function ArticlePage() {
             </div>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            消耗が続き体調にまで出るなら、それは<strong>個人の弱さではなく環境のミスマッチのサイン</strong>です。退職という極端な選択の前に、部署異動や働き方を変える転職で改善するケースも多くあります。一人で抱えず、第三者に相談して選択肢を広げてから決めましょう。
+            消耗が続き体調にまで出るなら、それは<strong>個人の弱さではなく環境のミスマッチのサイン</strong>です。退職という極端な選択の前に、部署異動や働き方を変える転職で改善するケースも多くあります。一人で抱えず、第三者に相談して選択肢を広げてから決めてください。
           </p>
         </div>
       </section>
@@ -449,7 +449,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            大事なのは「制度があるか」だけでなく<strong>「実際に使われているか」</strong>。産休育休の取得・復帰実績やリモートの運用実態は求人票に出にくいため、転職時はエージェント経由で確認するのが確実です。働き方の見直しは、後ろ向きな撤退ではなく<strong>キャリアを続けるための前向きな調整</strong>と捉えましょう。
+            大事なのは「制度があるか」だけでなく<strong>「実際に使われているか」</strong>。産休育休の取得・復帰実績やリモートの運用実態は求人票に出にくいため、転職時はエージェント経由で確認するのが確実です。働き方の見直しは、後ろ向きな撤退ではなく<strong>キャリアを続けるための前向きな調整</strong>と捉えてください。
           </p>
         </div>
       </section>
@@ -459,7 +459,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>長く働ける環境を選び直すなら、技術を正しく評価するIT特化型と、働き方・キャリア継続に強い女性特化型の併用が効果的です。求人票に出ない『続けやすさ』の実態まで聞き出しましょう。</p>
+            <p>長く働ける環境を選び直すなら、技術を正しく評価するIT特化型と、働き方・キャリア継続に強い女性特化型の併用が効果的です。求人票に出ない『続けやすさ』の実態まで聞き出してください。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -477,7 +477,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">『続けられる環境』はエージェント選びで決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、女性のキャリア継続に詳しいアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、女性のキャリア継続に詳しいアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -520,7 +520,7 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">長く続けられる環境を、一緒に見つけましょう</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">長く続けられる環境を、一緒に見つけてください</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。今のままで続けるか、働き方を変えるか――あなたに合った選択肢を整理できます。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>

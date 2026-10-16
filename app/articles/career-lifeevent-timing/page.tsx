@@ -261,7 +261,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border bg-white p-6 mt-4" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>ポイント2: 有期雇用（契約社員・派遣など）には別の要件がある</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              有期雇用労働者は、上記に加えて<strong>「子が1歳6か月に達する日までに、労働契約（更新される場合には更新後の契約）の期間が満了し、更新されないことが明らかでないこと」</strong>という要件を満たす必要があります（出典: 厚生労働省 育児休業制度特設サイト、2026年7月参照）。契約更新の見込みが立たない状態だと育休を取得できない場合があるため、契約社員・派遣で働きながら妊娠・転職を考えている方は、契約期間と更新見込みをあわせて確認しましょう。
+              有期雇用労働者は、上記に加えて<strong>「子が1歳6か月に達する日までに、労働契約（更新される場合には更新後の契約）の期間が満了し、更新されないことが明らかでないこと」</strong>という要件を満たす必要があります（出典: 厚生労働省 育児休業制度特設サイト、2026年7月参照）。契約更新の見込みが立たない状態だと育休を取得できない場合があるため、契約社員・派遣で働きながら妊娠・転職を考えている方は、契約期間と更新見込みをあわせてご確認ください。
             </p>
           </div>
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
@@ -323,7 +323,7 @@ export default function ArticlePage() {
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>ケース1: 転職して間もなく妊娠が分かった</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">産休:</span><span>勤続期間に関係なく取得できます。まずここは心配いりません。</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">育休:</span><span>育休開始予定日の時点で継続雇用1年未満なら、労使協定がある会社では取得できない可能性があります。出産予定日から逆算すると、育休開始は産後8週間後以降になるため、「入社から育休開始までに1年経過しているか」が実際の分かれ目になります。まず会社の規程・労使協定を確認しましょう。</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">育休:</span><span>育休開始予定日の時点で継続雇用1年未満なら、労使協定がある会社では取得できない可能性があります。出産予定日から逆算すると、育休開始は産後8週間後以降になるため、「入社から育休開始までに1年経過しているか」が実際の分かれ目になります。まず会社の規程・労使協定をご確認ください。</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">給付金:</span><span>前職の離職から1年以内の転職で、間に失業給付の受給資格決定を受けていなければ、前職の被保険者期間と通算して12か月要件を満たせる可能性があります。ハローワークで確認を。</span></li>
               </ul>
             </div>
@@ -379,7 +379,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">決める前の確認リスト（会社規程・ハローワーク）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              本記事で整理した分岐点は、最終的には「その会社の規程」と「自分の雇用保険の記録」で決まります。転職・妊娠のどちらを先にするか決める前に、次の点を確認しておきましょう。
+              本記事で整理した分岐点は、最終的には「その会社の規程」と「自分の雇用保険の記録」で決まります。転職・妊娠のどちらを先にするか決める前に、次の点を確認しておいてください。
             </p>
           </div>
           <div className="space-y-4">
@@ -461,7 +461,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">ライフイベントと両立できる職場を、制度に強いプロと探しませんか</h2>
-            <p className="text-white/90 mb-6">産育休の取得実績や両立支援の実態は、エージェント経由なら選考前に確認しやすくなります。まずは無料相談で、あなたのタイミング設計に合った求人を紹介してもらいましょう。</p>
+            <p className="text-white/90 mb-6">産育休の取得実績や両立支援の実態は、エージェント経由なら選考前に確認しやすくなります。まずは無料相談で、あなたのタイミング設計に合った求人を紹介してもらってください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

@@ -82,7 +82,7 @@ const faqData = {
       name: "東京で女性が働きやすいIT企業はどう見分ければいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "客観的な指標として、厚生労働省の『くるみん』『えるぼし』認定や、女性管理職比率、女性エンジニア比率、産休育休の取得・復帰実績を確認しましょう。たとえばサイバーエージェントは女性従業員比率33.7%・女性管理職比率24.9%と公表し、メルカリやDeNAもDE&I（多様性）施策に積極的です。求人票に出ない実態（リモートの運用、時短の取りやすさ、復帰後の働き方）は、女性のキャリアに詳しいエージェント経由やOpenWorkなどの口コミで確認するのが確実です。",
+        text: "客観的な指標として、厚生労働省の『くるみん』『えるぼし』認定や、女性管理職比率、女性エンジニア比率、産休育休の取得・復帰実績をご確認ください。たとえばサイバーエージェントは女性従業員比率33.7%・女性管理職比率24.9%と公表し、メルカリやDeNAもDE&I（多様性）施策に積極的です。求人票に出ない実態（リモートの運用、時短の取りやすさ、復帰後の働き方）は、女性のキャリアに詳しいエージェント経由やOpenWorkなどの口コミで確認するのが確実です。",
       },
     },
   ],
@@ -257,7 +257,7 @@ export default function ArticlePage() {
               東京には女性活躍に積極的なIT企業が多く、客観的な指標で見極めやすいのも利点です。たとえばサイバーエージェントは女性従業員比率<strong>33.7%</strong>・女性管理職比率<strong>24.9%</strong>を公表し、「ママがCAで長く働く」ための制度パッケージや、技術担当役員直下の「Tech DE&Iプロジェクト」で開発組織のジェンダーギャップ解消に取り組んでいます。メルカリやDeNAもDE&I（多様性）施策に積極的で、女性向けカンファレンスの協賛などを行っています。
             </p>
             <p>
-              企業選びでは、次のような<strong>客観指標</strong>を確認すると失敗しにくくなります。求人票に出ない実態は、女性のキャリアに詳しいエージェントやOpenWorkなどの口コミで補完しましょう。
+              企業選びでは、次のような<strong>客観指標</strong>を確認すると失敗しにくくなります。求人票に出ない実態は、女性のキャリアに詳しいエージェントやOpenWorkなどの口コミで補完してください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -271,7 +271,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 産休育休の取得・復帰実績</h3>
-              <p className="text-text-light text-sm leading-relaxed">「制度がある」だけでなく、実際の取得率・復帰率が重要。復帰後に時短やリモートで活躍している事例があるかを確認しましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">「制度がある」だけでなく、実際の取得率・復帰率が重要。復帰後に時短やリモートで活躍している事例があるかをご確認ください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. リモート・フレックスの運用実態</h3>
@@ -292,7 +292,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4">
             {[
-              ["STEP1", "目指す職種・業態を決める", "東京は業態が幅広いぶん、まず方向性を決めると学習が定まります。自社開発・SaaS・社内SEなど、働き方の希望から逆算しましょう。"],
+              ["STEP1", "目指す職種・業態を決める", "東京は業態が幅広いぶん、まず方向性を決めると学習が定まります。自社開発・SaaS・社内SEなど、働き方の希望から逆算してください。"],
               ["STEP2", "言語を1つ習得する", "未経験はPython・Ruby・PHP・JavaScriptが学びやすい。東京の求人で需要が高い言語から1つに集中して学びます。"],
               ["STEP3", "Web基礎・Git・DBを学ぶ", "Webの仕組み、Gitでのコード管理、データベースとSQLの基礎を押さえる。実務で必ず使う土台です。"],
               ["STEP4", "ポートフォリオを作る", "ログイン機能やCRUD・APIを備えた小さなWebアプリを公開。東京の選考でも実績として最も効きます。"],
@@ -361,7 +361,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで東京転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -430,8 +430,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">東京で理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">東京で理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

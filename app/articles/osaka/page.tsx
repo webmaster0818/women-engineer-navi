@@ -291,7 +291,7 @@ export default function ArticlePage() {
             </div>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            企業を選ぶ際は、求人票に出ない<strong>育休取得率・復帰率、女性管理職比率、リモートの実運用</strong>を必ず確認しましょう。これらは関西求人に詳しいエージェント経由が最も正確です。
+            企業を選ぶ際は、求人票に出ない<strong>育休取得率・復帰率、女性管理職比率、リモートの実運用</strong>を必ずご確認ください。これらは関西求人に詳しいエージェント経由が最も正確です。
           </p>
         </div>
       </section>
@@ -359,7 +359,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>大阪・関西の求人を正しく評価してもらうには、IT特化型と女性特化型の併用が効果的です。関西拠点・リモート案件の両方を見られるアドバイザーを選びましょう。</p>
+            <p>大阪・関西の求人を正しく評価してもらうには、IT特化型と女性特化型の併用が効果的です。関西拠点・リモート案件の両方を見られるアドバイザーを選ぶことをおすすめします。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -377,7 +377,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、関西求人とリモート案件の両方に強いアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、関西求人とリモート案件の両方に強いアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -446,8 +446,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">大阪・関西で理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。関西求人もリモート案件も、あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">大阪・関西で理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。関西求人もリモート案件も、あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

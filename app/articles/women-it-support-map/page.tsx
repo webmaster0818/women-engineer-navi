@@ -129,7 +129,7 @@ export default function ArticlePage() {
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>まず押さえる5つの制度</h2>
             <p className="text-sm text-text-light leading-relaxed mb-4">
-              「女性向けのIT学習支援」は、<strong>全国どこでも使える国の制度</strong>と、<strong>自治体（都道府県）の女性向け事業</strong>の二層構造です。次の3＋2をまず確認しましょう。
+              「女性向けのIT学習支援」は、<strong>全国どこでも使える国の制度</strong>と、<strong>自治体（都道府県）の女性向け事業</strong>の二層構造です。次の3＋2をまずご確認ください。
             </p>
             <ul className="space-y-3 text-sm leading-relaxed">
               <li className="flex items-start gap-2">
@@ -250,7 +250,7 @@ export default function ArticlePage() {
                 厚生労働大臣が指定した講座を受講すると、費用の一部がハローワークから給付される制度です。給付率は3段階あり、<strong>一般教育訓練で20%（上限10万円）</strong>、<strong>特定一般教育訓練で40%（上限20万円・資格取得＋就職等で50%）</strong>、<strong>専門実践教育訓練で50%（年間上限40万円・資格取得＋就職等で70%、さらに賃金上昇で最大80%＝上限64万円）</strong>です。IT分野の指定講座も多く、働きながらスクールで学びたい人の第一候補になります。
               </p>
               <p className="text-sm text-text-light leading-relaxed">
-                雇用保険の加入期間などの受給要件があるため、受講前にハローワークで確認しましょう。詳しくは<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶガイド</a>で解説しています（出典: 厚生労働省「教育訓練給付制度」、2026年7月参照）。
+                雇用保険の加入期間などの受給要件があるため、受講前にハローワークでご確認ください。詳しくは<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶガイド</a>で解説しています（出典: 厚生労働省「教育訓練給付制度」、2026年7月参照）。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -418,7 +418,7 @@ export default function ArticlePage() {
               {[
                 ["STEP1", "「自治体名＋女性＋デジタル」で検索する", "「◯◯県 女性 デジタル」「◯◯県 女性 職業訓練」で検索すると、その年度の事業ページが見つかります。埼玉県の事業もこの方法で確認できます。事業名は「女性デジタル人材育成」「女性向けデジタルスキル習得訓練」など自治体ごとに異なります。"],
                 ["STEP2", "男女共同参画センター（女性センター）に聞く", "多くの自治体にある男女共同参画センターは、女性向け就業支援講座の窓口・共催会場になっていることが多い機関です。地域の女性向け事業の情報がここに集まります。"],
-                ["STEP3", "都道府県労働局・ハローワークで職業訓練を案内してもらう", "自治体独自の女性向け事業が見つからなくても、全国共通の求職者支援訓練・公共職業訓練（ハロートレーニング）はどの都道府県でも受けられます。ハローワークの窓口で「IT系の訓練コース」を相談しましょう。"],
+                ["STEP3", "都道府県労働局・ハローワークで職業訓練を案内してもらう", "自治体独自の女性向け事業が見つからなくても、全国共通の求職者支援訓練・公共職業訓練（ハロートレーニング）はどの都道府県でも受けられます。ハローワークの窓口で「IT系の訓練コース」をご相談ください。"],
               ].map(([step, title, desc], i) => (
                 <div key={i} className="flex gap-4 rounded-xl border p-5" style={{ borderColor: "#d9c7b8" }}>
                   <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
@@ -531,7 +531,7 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">学んだスキルを、理想の転職につなげましょう</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">学んだスキルを、理想の転職につなげてください</h2>
             <p className="text-white/90 mb-6">公的訓練とあわせて転職エージェントに無料相談すれば、スキルを活かせる求人の選択肢が広がります。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>

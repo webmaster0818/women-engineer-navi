@@ -47,7 +47,7 @@ const startGuides = [
   {
     label: "未経験からエンジニアを目指す方",
     color: "#7c3a55",
-    desc: "まず現実的なロードマップで全体像をつかみ、学習手段と作品づくり、エージェント選びへ進みましょう。",
+    desc: "まず現実的なロードマップで全体像をつかみ、学習手段と作品づくり、エージェント選びへ進んでください。",
     steps: [
       { href: "/articles/beginner/", title: "未経験からのロードマップ" },
       { href: "/articles/programming-school/", title: "スクールの要否と給付金活用" },
@@ -58,7 +58,7 @@ const startGuides = [
   {
     label: "経験者でキャリア・年収を上げたい方",
     color: "#7c3a55",
-    desc: "キャリアの方向性と年収の実データで現在地を確認し、職務経歴書と年収交渉で市場価値を最大化しましょう。",
+    desc: "キャリアの方向性と年収の実データで現在地を確認し、職務経歴書と年収交渉で市場価値を最大化してください。",
     steps: [
       { href: "/articles/career-path/", title: "キャリアパス完全マップ" },
       { href: "/articles/salary/", title: "年収の実データを確認" },
@@ -69,7 +69,7 @@ const startGuides = [
   {
     label: "育休・ブランクから復職したい方",
     color: "#c15f47",
-    desc: "復職ロードマップと支援制度を押さえ、復帰か転職かの判断基準、両立しやすい働き方の順で読み進めましょう。",
+    desc: "復職ロードマップと支援制度を押さえ、復帰か転職かの判断基準、両立しやすい働き方の順で読み進めてください。",
     steps: [
       { href: "/articles/return-to-work/", title: "復職ロードマップと支援制度" },
       { href: "/articles/reskilling-leave/", title: "育休中のリスキリング" },
@@ -222,8 +222,8 @@ export default function CategoryIndexPage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

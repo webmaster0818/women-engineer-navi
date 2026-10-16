@@ -91,7 +91,7 @@ export default function DodaReviewPage() {
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>総合型</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               dodaの口コミ・評判
-              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアの転職にdodaは使える？徹底検証</span>
+              <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性エンジニアの転職にdodaは使える？検証</span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを確認済み情報ベースに刷新）</p>
           </div>
@@ -378,7 +378,7 @@ export default function DodaReviewPage() {
           <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
-            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} type女性の転職エージェント vs doda徹底比較</Link>
+            <Link href="/articles/type-vs-doda/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} type女性の転職エージェント vs doda比較</Link>
             <Link href="/articles/career-path/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} キャリアパス設計ガイド｜5年後・10年後のキャリア設計</Link>
             <Link href="/articles/sier-industry/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} SIer（システムインテグレーター）への転職ガイド</Link>
           </div>

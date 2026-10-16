@@ -74,7 +74,7 @@ const faqData = {
       name: "40代未経験からITエンジニアになれますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "不可能ではありませんが、20代・30代より明確に難易度が上がります。未経験可求人の多くは若手のポテンシャル採用を想定しており、開発職への直行は狭き門です。現実的なのはQA・テスター、ITサポート・ヘルプデスク、RPA・ノーコードによる業務改善、社内のDX推進担当など、前職の業務知識を活かしながらITに入る職種です。資格（ITパスポート→基本情報技術者）と学習実績で本気度を示し、年収ダウンを資金計画に織り込んだうえで挑戦しましょう。",
+        text: "不可能ではありませんが、20代・30代より明確に難易度が上がります。未経験可求人の多くは若手のポテンシャル採用を想定しており、開発職への直行は狭き門です。現実的なのはQA・テスター、ITサポート・ヘルプデスク、RPA・ノーコードによる業務改善、社内のDX推進担当など、前職の業務知識を活かしながらITに入る職種です。資格（ITパスポート→基本情報技術者）と学習実績で本気度を示し、年収ダウンを資金計画に織り込んだうえで挑戦してください。",
       },
     },
     {
@@ -153,7 +153,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>未経験からの挑戦はハードルが高い年代。</strong>開発職への直行は狭き門で、現実的な入口はQA・テスター、ITサポート、RPA・ノーコード活用など「前職の業務知識×IT」の職種。年収250万〜350万円程度からの再スタートを織り込んで設計しましょう。</span>
+                <span><strong>未経験からの挑戦はハードルが高い年代。</strong>開発職への直行は狭き門で、現実的な入口はQA・テスター、ITサポート、RPA・ノーコード活用など「前職の業務知識×IT」の職種。年収250万〜350万円程度からの再スタートを織り込んで設計してください。</span>
               </li>
             </ul>
           </div>
@@ -190,7 +190,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">40代女性エンジニアの転職市場【実データ】</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「40代の転職は無理」という思い込みは、まずデータで崩しておきましょう。厚生労働省「令和6年雇用動向調査」によると、2024年の女性の転職入職率は<strong>40〜44歳で10.2%、45〜49歳で10.7%</strong>。同年代男性（6.8%・6.0%）の約1.5〜1.8倍で、40代女性の転職はむしろ同世代男性より活発です。10人に1人が1年間に転職している計算で、「40代で動くのは特別なこと」ではなくなっています。
+              「40代の転職は無理」という思い込みは、まずデータで崩しておいてください。厚生労働省「令和6年雇用動向調査」によると、2024年の女性の転職入職率は<strong>40〜44歳で10.2%、45〜49歳で10.7%</strong>。同年代男性（6.8%・6.0%）の約1.5〜1.8倍で、40代女性の転職はむしろ同世代男性より活発です。10人に1人が1年間に転職している計算で、「40代で動くのは特別なこと」ではなくなっています。
             </p>
             <p>
               ミドル層の市場全体も拡大しています。エン・ジャパン『ミドルの転職』の転職者分析レポート2025によると、ミドル世代の転職者数は<strong>6年で2.45倍</strong>に増加。同社が転職コンサルタント200人に行った調査でも、約8割が2025年のミドル人材求人を「増加する」と予測し、その理由として「マネジメント経験と実務経験の両方を満たし、あと5〜10年働ける年代」への需要を挙げています。
@@ -367,7 +367,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>① マネジメント路線：EM・PM・開発部門責任者へ</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                年収インパクトが最も大きい路線です。課長相当職の女性割合は12.3%・部長相当職は8.7%（厚生労働省・令和6年度雇用均等基本調査）にとどまり、女性管理職比率の目標を掲げる企業ではリーダー経験のある40代女性エンジニアの争奪戦が起きています。エン・ジャパンの調査でも、45〜55歳は「マネジメント経験と実務経験を満たし、あと5〜10年働ける年代」として求人増加の中心と分析されています。チームリード・育成・予算管理の経験は規模が小さくても具体的に書き出しましょう。詳しくは<a href="/articles/women-manager/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性エンジニアの管理職キャリアガイド</a>で解説しています。
+                年収インパクトが最も大きい路線です。課長相当職の女性割合は12.3%・部長相当職は8.7%（厚生労働省・令和6年度雇用均等基本調査）にとどまり、女性管理職比率の目標を掲げる企業ではリーダー経験のある40代女性エンジニアの争奪戦が起きています。エン・ジャパンの調査でも、45〜55歳は「マネジメント経験と実務経験を満たし、あと5〜10年働ける年代」として求人増加の中心と分析されています。チームリード・育成・予算管理の経験は規模が小さくても具体的に書き出してください。詳しくは<a href="/articles/women-manager/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性エンジニアの管理職キャリアガイド</a>で解説しています。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -560,7 +560,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -680,8 +680,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

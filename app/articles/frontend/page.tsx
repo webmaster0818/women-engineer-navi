@@ -386,7 +386,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             {[
               ["STEP1", "HTML / CSSで「見た目」を作れるようになる", "Webページの構造とスタイルを習得し、既存サイトの模写コーディングまで。最初の成果物が早く作れるのがフロントエンドの強みです。"],
-              ["STEP2", "JavaScriptで「動き」を付ける", "変数・関数・DOM操作・非同期処理など基礎文法を丁寧に。タブ切替・モーダル・フォームバリデーションなど小さな部品を自作してみましょう。"],
+              ["STEP2", "JavaScriptで「動き」を付ける", "変数・関数・DOM操作・非同期処理など基礎文法を丁寧に。タブ切替・モーダル・フォームバリデーションなど小さな部品を自作してんでください。"],
               ["STEP3", "Reactを習得する", "コンポーネント・props・state・hooksの考え方を理解し、ToDoアプリやAPIからデータを取得して表示するアプリを作成。ここが転職市場との接続点です。"],
               ["STEP4", "TypeScriptを導入する", "Reactに型を付けて書けるようにします。2026年の新規開発はTypeScriptが事実上の標準で、求人の必須要件になっていることが多いスキルです。"],
               ["STEP5", "Git・AIツール・周辺知識", "GitHubでのコード管理は必須。GitHub CopilotなどのAI開発ツールも実務を想定して使い慣れておくと、採用時の評価につながります。"],
@@ -487,7 +487,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -524,7 +524,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>4. 現実的な注意点</h3>
-              <p className="text-text-light text-sm leading-relaxed">流行の変化が速く、働き続ける限り継続学習が前提になります。定型的なUI実装はAIによる自動化が進んでおり、「言われた画面を作るだけ」のポジションは今後競争が厳しくなる傾向です。また現場によっては深夜のリリース作業や障害対応が発生することもあり、働きやすさは企業の開発体制に大きく左右されます。応募前にリリース運用や残業の実態を確認しておきましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">流行の変化が速く、働き続ける限り継続学習が前提になります。定型的なUI実装はAIによる自動化が進んでおり、「言われた画面を作るだけ」のポジションは今後競争が厳しくなる傾向です。また現場によっては深夜のリリース作業や障害対応が発生することもあり、働きやすさは企業の開発体制に大きく左右されます。応募前にリリース運用や残業の実態を確認しておいてください。</p>
             </div>
           </div>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
@@ -597,10 +597,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

@@ -82,7 +82,7 @@ const faqData = {
       name: "育児中の女性エンジニアでもリモートワークは可能ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "可能です。ただし仕事に集中するためには保育園などの保育環境の確保が前提になります。リモート＋フレックスを組み合わせれば、通勤時間（往復1〜2時間）がなくなるうえ、保育園の送迎に合わせた勤務時間の調整がしやすく、育児との両立の難易度が大きく下がります。パーソル総合研究所の調査でもテレワーク実施者の82.2%が継続を希望しており、特に時間制約のある子育て期には効果の大きい働き方です。産休育休の取得実績や時短勤務の運用実態と合わせて、エージェント経由で事前に確認しましょう。",
+        text: "可能です。ただし仕事に集中するためには保育園などの保育環境の確保が前提になります。リモート＋フレックスを組み合わせれば、通勤時間（往復1〜2時間）がなくなるうえ、保育園の送迎に合わせた勤務時間の調整がしやすく、育児との両立の難易度が大きく下がります。パーソル総合研究所の調査でもテレワーク実施者の82.2%が継続を希望しており、特に時間制約のある子育て期には効果の大きい働き方です。産休育休の取得実績や時短勤務の運用実態と合わせて、エージェント経由で事前にご確認ください。",
       },
     },
   ],
@@ -383,7 +383,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             {[
               ["方法1", "IT特化型エージェントで「リモート条件」を指定する", "IT特化型エージェントはリモート可求人の取り扱いが多く、求人票に出ない「実際の出社頻度」「チームのリモート率」まで把握しています。条件を伝えれば実態ベースで絞り込んでもらえるのが最大の利点です。"],
-              ["方法2", "フルリモート特化の求人サービスを併用する", "掲載求人がフルリモート前提のサービスなら「入社したら出社だった」というミスマッチ自体が起きません。確実に完全在宅で働きたい人は、一般の転職サイトと併用しましょう。"],
+              ["方法2", "フルリモート特化の求人サービスを併用する", "掲載求人がフルリモート前提のサービスなら「入社したら出社だった」というミスマッチ自体が起きません。確実に完全在宅で働きたい人は、一般の転職サイトと併用してください。"],
               ["方法3", "フルリモート企業を直接リストアップして狙う", "全社フルリモートを宣言している企業は、制度ではなく文化としてリモートが根付いており、出社回帰リスクが低いのが特徴です。狙い目企業の探し方は別記事で詳しく解説しています。"],
               ["方法4", "職種・企業タイプで母数を増やす", "前述の通り、バックエンド・フロントエンド・SRE・データ系×自社開発・SaaS企業はリモート可率が高い組み合わせです。職種スキルを寄せていくこと自体が、リモート求人へのアクセスを広げます。"],
             ].map(([step, title, desc], i) => (
@@ -423,7 +423,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>「リモート可」と「フルリモート」の違いを確認</h3>
               <p className="text-sm text-text-light">
-                求人票に「リモート可」と書かれていても、実際には週1〜2回の出社が必要なケースが少なくありません。「フルリモート」であれば完全在宅勤務ですが、「リモート可」は出社頻度が企業やチームによって異なります。転職前に「実際の出社頻度はどのくらいか」をエージェント経由で必ず確認しましょう。
+                求人票に「リモート可」と書かれていても、実際には週1〜2回の出社が必要なケースが少なくありません。「フルリモート」であれば完全在宅勤務ですが、「リモート可」は出社頻度が企業やチームによって異なります。転職前に「実際の出社頻度はどのくらいか」をエージェント経由で必ずご確認ください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -441,7 +441,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>出社回帰リスクを面接で確認する</h3>
               <p className="text-sm text-text-light">
-                働き方の方針は入社後に変わることがあります。「リモート制度はいつから・どんな経緯で導入されたか」「経営陣はリモートをどう位置づけているか」「過去に出社方針へ変更されたことはあるか」を面接やカジュアル面談で確認しましょう。コロナ禍以前からリモートを運用している企業や、全国採用・地方在住社員が多い企業は、出社回帰リスクが構造的に低いと判断できます。
+                働き方の方針は入社後に変わることがあります。「リモート制度はいつから・どんな経緯で導入されたか」「経営陣はリモートをどう位置づけているか」「過去に出社方針へ変更されたことはあるか」を面接やカジュアル面談でご確認ください。コロナ禍以前からリモートを運用している企業や、全国採用・地方在住社員が多い企業は、出社回帰リスクが構造的に低いと判断できます。
               </p>
             </div>
           </div>
@@ -517,7 +517,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -638,8 +638,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

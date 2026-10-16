@@ -245,7 +245,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">スキマ時間でできる学習方法（STEP）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              育児中の学習は「まとまった2時間」ではなく「<strong>細切れの15〜30分をどう積むか</strong>」が勝負です。授乳中・寝かしつけ後・お昼寝中など、スマホ1台で進められる方法を中心に組み立てましょう。次の順序で無理なく軌道に乗せていきます。
+              育児中の学習は「まとまった2時間」ではなく「<strong>細切れの15〜30分をどう積むか</strong>」が勝負です。授乳中・寝かしつけ後・お昼寝中など、スマホ1台で進められる方法を中心に組み立ててください。次の順序で無理なく軌道に乗せていきます。
             </p>
           </div>
           <div className="space-y-4">
@@ -343,7 +343,7 @@ export default function ArticlePage() {
                 <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>国の制度</span>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
-                厚生労働大臣の指定講座を修了すると受講費の一部が戻る制度。<strong>一般教育訓練給付は受講費用の20%（上限10万円）</strong>、より専門的な<strong>専門実践教育訓練給付は経費の50%（年間上限40万円）、資格取得＋就業で70%（上限56万円）、賃金が5%以上上昇すれば最大80%（年間上限64万円）</strong>が支給されます。受講開始日時点で支給要件を満たすかが条件のため、申し込み前にハローワークで受給資格を確認しましょう。
+                厚生労働大臣の指定講座を修了すると受講費の一部が戻る制度。<strong>一般教育訓練給付は受講費用の20%（上限10万円）</strong>、より専門的な<strong>専門実践教育訓練給付は経費の50%（年間上限40万円）、資格取得＋就業で70%（上限56万円）、賃金が5%以上上昇すれば最大80%（年間上限64万円）</strong>が支給されます。受講開始日時点で支給要件を満たすかが条件のため、申し込み前にハローワークで受給資格をご確認ください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -361,7 +361,7 @@ export default function ArticlePage() {
                 <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>地域・社内</span>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
-                東京都は<strong>「育業中スキルアップ助成金」</strong>で育休中の社員の学び直しを後押しする企業を支援するなど、自治体独自の制度もあります。また、日本リスキリングコンソーシアムでは多数のデジタル講座が無料・割引で提供されています。<strong>勤務先の資格手当・受講費補助・育休中eラーニング</strong>など社内制度も要チェック。まずは人事に確認してみましょう。
+                東京都は<strong>「育業中スキルアップ助成金」</strong>で育休中の社員の学び直しを後押しする企業を支援するなど、自治体独自の制度もあります。また、日本リスキリングコンソーシアムでは多数のデジタル講座が無料・割引で提供されています。<strong>勤務先の資格手当・受講費補助・育休中eラーニング</strong>など社内制度も要チェック。まずは人事に確認してんでください。
               </p>
             </div>
           </div>
@@ -377,7 +377,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">学んだことを復職・転職に活かす</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              せっかくの学びは、形にして次のキャリアにつなげましょう。復職か転職かで活かし方は少し変わります。
+              せっかくの学びは、形にして次のキャリアにつなげてください。復職か転職かで活かし方は少し変わります。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -429,7 +429,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">育休中のうちに情報収集だけでも始めよう</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。相談は無料です。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。相談は無料です。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -502,8 +502,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">育休明けのキャリアを、今から準備しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたのペースに合った働き方とキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">育休明けのキャリアを、今から準備してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたのペースに合った働き方とキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

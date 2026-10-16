@@ -286,7 +286,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>STEP2. 資格学習と接続して客観的な証明を作る</h3>
-              <p className="text-sm text-text-light leading-relaxed">マナビDXはITパスポートや基本情報技術者などの試験に対応した講座を検索できるため、講座学習をそのまま資格取得につなげられます。修了証だけよりも国家資格のほうが書類選考での証明力は強いので、「講座で学ぶ→資格で証明」をセットにしましょう。どの資格から取るべきかは<a href="/articles/certification/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの資格ガイド</a>で職種別に整理しています。</p>
+              <p className="text-sm text-text-light leading-relaxed">マナビDXはITパスポートや基本情報技術者などの試験に対応した講座を検索できるため、講座学習をそのまま資格取得につなげられます。修了証だけよりも国家資格のほうが書類選考での証明力は強いので、「講座で学ぶ→資格で証明」をセットにしてください。どの資格から取るべきかは<a href="/articles/certification/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの資格ガイド</a>で職種別に整理しています。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>STEP3. ポートフォリオで「作れること」を見せる</h3>
@@ -428,8 +428,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

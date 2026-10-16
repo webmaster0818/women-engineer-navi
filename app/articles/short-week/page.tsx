@@ -67,7 +67,7 @@ const faqData = {
       name: "週3・週4の業務委託で気をつけることは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "会社員と違い、国民健康保険・国民年金への加入と納付、確定申告を自分で行う必要があります。事業所得が48万円（副業なら20万円）を超えると確定申告が必須で、青色申告にすると最大65万円の特別控除が使えます。また有給・産休育休がない、収入が案件次第で不安定、契約終了リスクがある点もデメリットです。手取りを正社員と単純比較せず、社会保険料や税金を差し引いた額で判断しましょう。",
+        text: "会社員と違い、国民健康保険・国民年金への加入と納付、確定申告を自分で行う必要があります。事業所得が48万円（副業なら20万円）を超えると確定申告が必須で、青色申告にすると最大65万円の特別控除が使えます。また有給・産休育休がない、収入が案件次第で不安定、契約終了リスクがある点もデメリットです。手取りを正社員と単純比較せず、社会保険料や税金を差し引いた額で判断してください。",
       },
     },
     {
@@ -243,7 +243,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">低稼働で働きやすい職種・スキル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              週3・週4の案件は、<strong>担当範囲を切り出しやすく、リモートで完結しやすい職種</strong>ほど豊富です。逆に常駐前提の大規模開発や、チームに密着する要件定義などはフル稼働を求められがち。まずは自分のスキルがどこに位置するかを確認しましょう。
+              週3・週4の案件は、<strong>担当範囲を切り出しやすく、リモートで完結しやすい職種</strong>ほど豊富です。逆に常駐前提の大規模開発や、チームに密着する要件定義などはフル稼働を求められがち。まずは自分のスキルがどこに位置するかをご確認ください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -335,7 +335,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>「手取り」で比べるのが鉄則</h3>
             <p className="text-sm text-text-light leading-relaxed mb-3">
-              業務委託は月単価が高く見えても、<strong>国民健康保険・国民年金・所得税・住民税を自分で負担</strong>します。会社員のように会社が社会保険料を半分払ってくれる仕組みはありません。額面だけで「正社員より得」と判断せず、税金・保険を差し引いた手取りと、有給・育休・賞与といった保障の有無まで含めて比較しましょう。
+              業務委託は月単価が高く見えても、<strong>国民健康保険・国民年金・所得税・住民税を自分で負担</strong>します。会社員のように会社が社会保険料を半分払ってくれる仕組みはありません。額面だけで「正社員より得」と判断せず、税金・保険を差し引いた手取りと、有給・育休・賞与といった保障の有無まで含めて比較することをおすすめします。
             </p>
             <p className="text-sm text-text-light leading-relaxed">
               なお、2025年10月開始の<strong>育児時短就業給付</strong>により、時短勤務で賃金が下がった被保険者に給付が出る制度も整いました。時短正社員を選ぶ場合は、こうした公的支援も収入の一部として考慮できます。
@@ -349,7 +349,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">求人の探し方（5STEP）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>やみくもに探すと「週3で探したのに週5案件ばかり紹介された」となりがち。次の順序で、希望の稼働条件に的を絞って進めましょう。</p>
+            <p>やみくもに探すと「週3で探したのに週5案件ばかり紹介された」となりがち。次の順序で、希望の稼働条件に的を絞って進めてください。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -357,7 +357,7 @@ export default function ArticlePage() {
               ["STEP2", "形態を決める（委託か正社員か）", "安定・育休を取りたいなら時短正社員、収入効率と自由度なら業務委託。迷うなら両方の窓口に登録し、出てくる求人・案件を見比べてから決めても構いません。"],
               ["STEP3", "形態に合ったサービスに2〜3社登録する", "業務委託ならITプロパートナーズ・レバテックフリーランス・クラウドワークステック。時短正社員なら女の転職type・マイナビ転職 女性のおしごと・LIBZ。1社だけだと案件が偏るため複数併用が基本です。"],
               ["STEP4", "面談で「週3・週4が前提」と明言する", "後から条件を出すのではなく、初回面談で稼働条件をはっきり伝えるのが重要。低稼働可の案件は数が限られるため、最初に希望を共有しておくとミスマッチを防げます。"],
-              ["STEP5", "稼働実態と更新条件を確認して決める", "『週3OK』でも繁忙期にフル稼働を求められる案件もあります。実際の稼働時間帯・会議の頻度・契約更新の見込み・リモート可否を確認し、育児スケジュールと合うかをすり合わせて契約しましょう。"],
+              ["STEP5", "稼働実態と更新条件を確認して決める", "『週3OK』でも繁忙期にフル稼働を求められる案件もあります。実際の稼働時間帯・会議の頻度・契約更新の見込み・リモート可否を確認し、育児スケジュールと合うかをすり合わせて契約してください。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
                 <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
@@ -412,7 +412,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">おすすめ転職エージェント・案件サイト</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>週3・週4の求人は数が限られるため、形態に合ったサービスを複数併用するのが成功の近道です。業務委託系と女性特化の時短正社員系を組み合わせましょう。</p>
+            <p>週3・週4の求人は数が限られるため、形態に合ったサービスを複数併用するのが成功の近道です。業務委託系と女性特化の時短正社員系を組み合わせてください。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -438,7 +438,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">複数登録で「週3・週4」の選択肢を最大化</p>
-            <p className="text-sm text-text-light mb-4">低稼働案件は数が限られます。業務委託系＋女性特化系を併用して、希望に合う1件を見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">低稼働案件は数が限られます。業務委託系＋女性特化系を併用して、希望に合う1件を見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -506,8 +506,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">あなたに合った働き方を見つけましょう</h2>
-            <p className="text-white/90 mb-6">週3・週4・時短――まずはエージェントに無料相談。希望の稼働条件で働ける求人・案件を一緒に探しましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">あなたに合った働き方を見つけてください</h2>
+            <p className="text-white/90 mb-6">週3・週4・時短――まずはエージェントに無料相談。希望の稼働条件で働ける求人・案件を一緒に探してください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

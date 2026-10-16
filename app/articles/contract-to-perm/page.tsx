@@ -66,7 +66,7 @@ const faqData = {
       name: "同じ仕事をしているのに契約社員だと給与が低いのは違法ではないのですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "2020年4月施行（中小企業は2021年4月適用）のパートタイム・有期雇用労働法により『同一労働同一賃金』が義務化され、正社員と契約社員の間の不合理な待遇差は禁止されています。職務内容や責任、配置変更の範囲が同じなら、基本給・賞与・各種手当で不合理な差をつけることは違法です。ただし、責任の範囲や転勤の有無など『働き方の違い』に応じた合理的な差は認められます。賞与ゼロや手当の不支給に納得できない場合は、待遇差の理由を会社に説明させる権利（説明義務）があるので、まず根拠を確認しましょう。",
+        text: "2020年4月施行（中小企業は2021年4月適用）のパートタイム・有期雇用労働法により『同一労働同一賃金』が義務化され、正社員と契約社員の間の不合理な待遇差は禁止されています。職務内容や責任、配置変更の範囲が同じなら、基本給・賞与・各種手当で不合理な差をつけることは違法です。ただし、責任の範囲や転勤の有無など『働き方の違い』に応じた合理的な差は認められます。賞与ゼロや手当の不支給に納得できない場合は、待遇差の理由を会社に説明させる権利（説明義務）があるので、まず根拠をご確認ください。",
       },
     },
     {
@@ -196,7 +196,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>(2) 正社員登用制度</h3>
               <p className="text-text-light text-sm leading-relaxed">
-                会社が任意で設ける制度。面接や登用試験、上司推薦などの選考を通過すれば、<strong>賞与・退職金・昇給・福利厚生を含む正社員待遇</strong>に切り替わります。無期転換が「雇用の安定」なら、登用は「待遇そのものの引き上げ」。制度の有無・実績は会社によって差が大きいため、就業規則や募集要項で必ず確認しましょう。
+                会社が任意で設ける制度。面接や登用試験、上司推薦などの選考を通過すれば、<strong>賞与・退職金・昇給・福利厚生を含む正社員待遇</strong>に切り替わります。無期転換が「雇用の安定」なら、登用は「待遇そのものの引き上げ」。制度の有無・実績は会社によって差が大きいため、就業規則や募集要項で必ずご確認ください。
               </p>
             </div>
           </div>
@@ -243,7 +243,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border p-6 mt-8 bg-white" style={{ borderColor: "#7c3a55" }}>
             <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>注意：無期転換＝正社員ではない</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              ある調査では、企業の約<strong>37.3%</strong>が「契約期間だけを無期にして、給与や労働条件は契約社員時代のまま据え置く」方針とされています。この場合、肩書きは「無期契約社員」や「限定正社員（職務・勤務地・時間が限定された無期社員）」にとどまり、賞与や退職金がフルの正社員と同じになるとは限りません。無期転換の案内が来たら、<strong>転換後の労働条件（賞与・退職金・昇給・就業規則の適用範囲）を必ず書面で確認</strong>しましょう。2024年4月からは、雇入れ時や契約更新時に「更新上限」「無期転換の申込機会」「転換後の労働条件」の明示が会社に義務づけられています。
+              ある調査では、企業の約<strong>37.3%</strong>が「契約期間だけを無期にして、給与や労働条件は契約社員時代のまま据え置く」方針とされています。この場合、肩書きは「無期契約社員」や「限定正社員（職務・勤務地・時間が限定された無期社員）」にとどまり、賞与や退職金がフルの正社員と同じになるとは限りません。無期転換の案内が来たら、<strong>転換後の労働条件（賞与・退職金・昇給・就業規則の適用範囲）を必ず書面で確認</strong>してください。2024年4月からは、雇入れ時や契約更新時に「更新上限」「無期転換の申込機会」「転換後の労働条件」の明示が会社に義務づけられています。
             </p>
           </div>
 
@@ -289,7 +289,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">契約社員のメリット・デメリット</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>正社員を目指す前に、契約社員という働き方の長所・短所を冷静に整理しておきましょう。ライフステージによっては、あえて契約社員を選ぶ合理性もあります。</p>
+            <p>正社員を目指す前に、契約社員という働き方の長所・短所を冷静に整理しておいてください。ライフステージによっては、あえて契約社員を選ぶ合理性もあります。</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -376,7 +376,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #7c3a55" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#7c3a55" }}>まとめると</strong>――「今すぐ安定が必要なら無期転換＋登用」「待遇と環境を一気に変えたいなら正社員転職」。どちらの道でも、契約社員で積んだ技術経験が交渉力になります。自分の市場価値を一度客観的に評価してもらい、最適なルートを選びましょう。
+              <strong style={{ color: "#7c3a55" }}>まとめると</strong>――「今すぐ安定が必要なら無期転換＋登用」「待遇と環境を一気に変えたいなら正社員転職」。どちらの道でも、契約社員で積んだ技術経験が交渉力になります。自分の市場価値を一度客観的に評価してもらい、最適なルートを選ぶことをおすすめします。
             </p>
           </div>
         </div>
@@ -405,7 +405,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -475,7 +475,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">契約社員から、安定したキャリアへ</h2>
-            <p className="text-white/90 mb-6">無期転換・登用・正社員転職――あなたに合った道を、エージェントへの無料相談から見つけましょう。</p>
+            <p className="text-white/90 mb-6">無期転換・登用・正社員転職――あなたに合った道を、エージェントへの無料相談から見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

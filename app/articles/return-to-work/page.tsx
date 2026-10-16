@@ -66,7 +66,7 @@ const faqData = {
       name: "ブランク中に何を学び直せばいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "「変わったもの」と「変わらないもの」を分けるのが効率的です。変わったのは開発環境で、クラウド（AWS/Azure/Google Cloud）前提のインフラ、コンテナ、GitHub CopilotなどのAIコーディング支援、フロントエンドのReact＋TypeScript主流化などが代表例です。一方、プログラミングの基礎文法、アルゴリズムとデータ構造、SQL・データベース設計、HTTP・ネットワークの基礎、Gitによるバージョン管理は昔のまま通用します。自分の土台を信じて、離れていた期間の「差分」に絞ってキャッチアップしましょう。AI支援ツールの普及で学び直しの速度自体が上がっているのも追い風です。",
+        text: "「変わったもの」と「変わらないもの」を分けるのが効率的です。変わったのは開発環境で、クラウド（AWS/Azure/Google Cloud）前提のインフラ、コンテナ、GitHub CopilotなどのAIコーディング支援、フロントエンドのReact＋TypeScript主流化などが代表例です。一方、プログラミングの基礎文法、アルゴリズムとデータ構造、SQL・データベース設計、HTTP・ネットワークの基礎、Gitによるバージョン管理は昔のまま通用します。自分の土台を信じて、離れていた期間の「差分」に絞ってキャッチアップしてください。AI支援ツールの普及で学び直しの速度自体が上がっているのも追い風です。",
       },
     },
     {
@@ -74,7 +74,7 @@ const faqData = {
       name: "学び直しに使える給付金や支援制度はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "あります。厚生労働省の教育訓練給付制度では、専門実践教育訓練で受講費用の最大80%（年間上限64万円）が支給されます（2024年10月の改正で給付率が引き上げ）。経済産業省「リスキリングを通じたキャリアアップ支援事業」では、キャリア相談＋講座受講＋転職支援を一体で受けられ、受講費用の最大70%（上限56万円）が補助されます。離職中で雇用保険を受給できない場合は、求職者支援制度により無料の職業訓練（ハロートレーニング）を受けられ、収入等の条件を満たせば月10万円の職業訓練受講給付金も支給されます。東京都在住なら都の女性向けITエンジニア育成事業もあります。利用には条件があるため、各制度の公式情報とハローワークで確認しましょう。",
+        text: "あります。厚生労働省の教育訓練給付制度では、専門実践教育訓練で受講費用の最大80%（年間上限64万円）が支給されます（2024年10月の改正で給付率が引き上げ）。経済産業省「リスキリングを通じたキャリアアップ支援事業」では、キャリア相談＋講座受講＋転職支援を一体で受けられ、受講費用の最大70%（上限56万円）が補助されます。離職中で雇用保険を受給できない場合は、求職者支援制度により無料の職業訓練（ハロートレーニング）を受けられ、収入等の条件を満たせば月10万円の職業訓練受講給付金も支給されます。東京都在住なら都の女性向けITエンジニア育成事業もあります。利用には条件があるため、各制度の公式情報とハローワークでご確認ください。",
       },
     },
     {
@@ -306,7 +306,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">ブランク年数別の復職戦略（1〜2年／3〜5年／5年以上）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              復職の難易度と取るべき戦略は、ブランクの長さでまったく変わります。自分の状況に近い行を起点に、準備期間と狙い方を設計しましょう。
+              復職の難易度と取るべき戦略は、ブランクの長さでまったく変わります。自分の状況に近い行を起点に、準備期間と狙い方を設計してください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -357,7 +357,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">スキルキャッチアップ：変わった技術・変わらない基礎</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              ブランク復帰の学び直しで最も避けたいのは「ゼロから全部やり直す」ことです。技術の世界は速く動きますが、<strong>変わったのは主に開発環境とツールであり、土台となる原理は変わっていません</strong>。「差分」と「不変」を仕分けて、差分だけに学習時間を投資しましょう。
+              ブランク復帰の学び直しで最も避けたいのは「ゼロから全部やり直す」ことです。技術の世界は速く動きますが、<strong>変わったのは主に開発環境とツールであり、土台となる原理は変わっていません</strong>。「差分」と「不変」を仕分けて、差分だけに学習時間を投資してください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -385,7 +385,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              学習の進め方は「細切れ時間」前提で設計するのが現実的です。子どものそばではドキュメントや技術記事のインプット、1人になれる時間にコーディング、と使い分けましょう。育児中の具体的な学習法は<a href="/articles/reskilling-leave/" className="underline" style={{ color: "#7c3a55" }}>育休中のスキルアップ・リスキリングガイド</a>で詳しく解説しています。
+              学習の進め方は「細切れ時間」前提で設計するのが現実的です。子どものそばではドキュメントや技術記事のインプット、1人になれる時間にコーディング、と使い分けてください。育児中の具体的な学習法は<a href="/articles/reskilling-leave/" className="underline" style={{ color: "#7c3a55" }}>育休中のスキルアップ・リスキリングガイド</a>で詳しく解説しています。
             </p>
           </div>
         </div>
@@ -422,7 +422,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>STEP4. エージェント相談・応募・面接</h3>
               <p className="text-sm text-text-light">
-                「ブランクあり」を伝えたうえで、時短可・リモート可・復職実績のある企業に絞った求人を紹介してもらいます。職務経歴書はブランク前の実績＋ブランク中の準備（学習・成果物）を時系列で正確に記載するのが基本。応募〜内定は通常1〜3か月程度を見込み、保育の入園時期から逆算して動き始めましょう。
+                「ブランクあり」を伝えたうえで、時短可・リモート可・復職実績のある企業に絞った求人を紹介してもらいます。職務経歴書はブランク前の実績＋ブランク中の準備（学習・成果物）を時系列で正確に記載するのが基本。応募〜内定は通常1〜3か月程度を見込み、保育の入園時期から逆算して動き始めてください。
               </p>
             </div>
           </div>
@@ -502,7 +502,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">復職先の選び方とブランクの伝え方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              復職先選びの基準は「技術がマッチするか」に加えて、<strong>ブランクからの立ち上がりを支えてくれる環境か</strong>です。次の4点を求人票＋エージェント経由の内部情報で確認しましょう。
+              復職先選びの基準は「技術がマッチするか」に加えて、<strong>ブランクからの立ち上がりを支えてくれる環境か</strong>です。次の4点を求人票＋エージェント経由の内部情報でご確認ください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -516,7 +516,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 正規雇用での採用か</h3>
-              <p className="text-text-light text-sm leading-relaxed">L字カーブの構造上、一度非正規に入ると正規に戻る道は細くなります。「最初は契約社員から」という提案を受けたら、正社員登用の実績・条件を必ず具体的に確認しましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">L字カーブの構造上、一度非正規に入ると正規に戻る道は細くなります。「最初は契約社員から」という提案を受けたら、正社員登用の実績・条件を必ず具体的にご確認ください。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>4. 立ち上がり期間への期待値</h3>
@@ -573,7 +573,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -653,7 +653,7 @@ export default function ArticlePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
+      <section className="py-12"><div className="mx-auto max-w-4xl px-4 text-center"><div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}><h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2><p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p><a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a></div></div>
       </section>
     </>
   );

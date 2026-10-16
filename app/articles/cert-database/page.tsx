@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを徹底比較",
+  title: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを比較",
   description:
     "女性エンジニアがデータベース系資格を取得するためのガイド。OSS-DB Silver/Gold、ORACLE MASTER Bronze/Silver/Gold、データベーススペシャリスト（IPA高度）の難易度・受験料・勉強時間・勉強法を実データで比較。",
   alternates: { canonical: "/articles/cert-database/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを徹底比較",
+    title: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを比較",
     description:
       "OSS-DB・ORACLE MASTER・データベーススペシャリストの難易度・受験料・勉強時間・勉強法・年収への影響を実データで比較。女性エンジニアがDB資格で市場価値を上げる方法を解説。",
     url: "https://women-engineer.com/articles/cert-database/",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを徹底比較",
+  headline: "女性エンジニアのデータベース資格ガイド｜OSS-DB・ORACLE MASTER・DBスペシャリストを比較",
   datePublished: "2026-06-10",
   dateModified: "2026-06-10",
   author: {
@@ -123,7 +123,7 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性エンジニアのデータベース資格ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                OSS-DB・ORACLE MASTER・DBスペシャリストを難易度・受験料・年収で徹底比較
+                OSS-DB・ORACLE MASTER・DBスペシャリストを難易度・受験料・年収で比較
               </span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
@@ -287,7 +287,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">各資格の出題範囲（何が問われるか）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>資格ごとに「どこまでの深さ」が問われるかが異なります。志望業界と現在のレベルに合わせて選びましょう。</p>
+            <p>資格ごとに「どこまでの深さ」が問われるかが異なります。志望業界と現在のレベルに合わせて選ぶことをおすすめします。</p>
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -317,12 +317,12 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4">
             {[
-              ["STEP1", "SQLとDBの基礎を固める", "SELECT・JOIN・集計・サブクエリ、トランザクション、正規化の基本を理解。ここが全資格に共通する土台です。SQLが初めてなら本サイトのSQL/DB記事で全体像をつかんでから進めましょう。"],
+              ["STEP1", "SQLとDBの基礎を固める", "SELECT・JOIN・集計・サブクエリ、トランザクション、正規化の基本を理解。ここが全資格に共通する土台です。SQLが初めてなら本サイトのSQL/DB記事で全体像をつかんでから進めてください。"],
               ["STEP2", "目標資格を1つ決める", "Web系・自社開発志望ならOSS-DB Silver、SIer・大企業志望ならORACLE MASTER Bronze、設計力を国家資格で示したいならDBスペシャリスト。あれこれ手を出さず1つに集中するのが合格の近道です。"],
               ["STEP3", "公式範囲に沿った参考書を1冊通読", "OSS-DBなら『OSS教科書』、ORACLE MASTERなら黒本（翔泳社）、DBスペシャリストなら『情報処理教科書』など定番1冊を、最後まで通読して全体像を把握します。"],
               ["STEP4", "問題演習を繰り返す（Ping-t・過去問）", "ORACLE MASTERやOSS-DBはPing-tや各種Web問題集で反復。DBスペシャリストはIPA公開の過去問を年度ごとに解き、午後の記述に慣れます。間違えた論点はノート化。"],
               ["STEP5", "無料環境で手を動かす", "PostgreSQLやOracle Database XE（無償版）を自宅PCに入れ、実際にSQLを実行・テーブルを設計。手を動かすと知識が定着し、実務でも即戦力になります。"],
-              ["STEP6", "模試・直前演習で仕上げる", "本番形式（CBTや時間配分）に慣れる。DBスペシャリストは午後IIの長文に時間がかかるため、時間を計って解く練習を必ず行いましょう。"],
+              ["STEP6", "模試・直前演習で仕上げる", "本番形式（CBTや時間配分）に慣れる。DBスペシャリストは午後IIの長文に時間がかかるため、時間を計って解く練習を必ず行ってください。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
                 <span className="flex-shrink-0 rounded-full px-3 py-1 h-fit text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>{step}</span>
@@ -440,7 +440,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">資格を活かせるかはエージェント選びで決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、DBスキルを正しく評価してくれるアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、DBスキルを正しく評価してくれるアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -484,7 +484,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">DB資格を活かして理想の転職を</h2>
-            <p className="text-white/90 mb-6">取得した資格を正しく評価してくれるエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <p className="text-white/90 mb-6">取得した資格を正しく評価してくれるエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

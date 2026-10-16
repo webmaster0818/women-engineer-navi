@@ -225,7 +225,7 @@ export default function ArticlePage() {
             </div>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            年齢による違いも押さえておきましょう。未経験可・研修ありの求人は若手ほど門戸が広い傾向があります。ただし、これまでの職務経験や基礎スキルの見せ方で評価は変わるため、年齢だけで諦める必要はありません。自分の年代での可能性は<a href="/articles/age-30s/" className="underline" style={{ color: "#7c3a55" }}>30代の転職ガイド</a>や<a href="/articles/age-40s/" className="underline" style={{ color: "#7c3a55" }}>40代の転職ガイド</a>もあわせてご確認ください。
+            年齢による違いも押さえておいてください。未経験可・研修ありの求人は若手ほど門戸が広い傾向があります。ただし、これまでの職務経験や基礎スキルの見せ方で評価は変わるため、年齢だけで諦める必要はありません。自分の年代での可能性は<a href="/articles/age-30s/" className="underline" style={{ color: "#7c3a55" }}>30代の転職ガイド</a>や<a href="/articles/age-40s/" className="underline" style={{ color: "#7c3a55" }}>40代の転職ガイド</a>もあわせてご確認ください。
           </p>
         </div>
       </section>
@@ -394,7 +394,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">自分に合うルートで、一歩を踏み出す</h2>
-            <p className="text-white/90 mb-6">先に学ぶ・実務で学ぶ・両取り、どの道もエージェントに無料で相談できます。まずは相性の良いエージェントを探しましょう。</p>
+            <p className="text-white/90 mb-6">先に学ぶ・実務で学ぶ・両取り、どの道もエージェントに無料で相談できます。まずは相性の良いエージェントを探してください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

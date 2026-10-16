@@ -50,7 +50,7 @@ const faqData = {
       name: "エンジニア面接の逆質問は何個くらい用意すればいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "実際に聞くのは2〜3問が目安ですが、用意は5〜7問しておくと安心です。面接の会話の中で答えが出てしまう質問もあるため、技術・チーム・評価・働き方など複数カテゴリから幅広く準備しておくと、状況に応じて差し替えられます。フェーズ（一次・最終・役員）によって相手が答えやすいテーマも変わるので、それぞれ向けに数問ずつストックしておくのが理想です。逆質問は『何かありますか？』と聞かれて沈黙するのが最もマイナスなので、最低でも各面接3問は準備しておきましょう。",
+        text: "実際に聞くのは2〜3問が目安ですが、用意は5〜7問しておくと安心です。面接の会話の中で答えが出てしまう質問もあるため、技術・チーム・評価・働き方など複数カテゴリから幅広く準備しておくと、状況に応じて差し替えられます。フェーズ（一次・最終・役員）によって相手が答えやすいテーマも変わるので、それぞれ向けに数問ずつストックしておくのが理想です。逆質問は『何かありますか？』と聞かれて沈黙するのが最もマイナスなので、最低でも各面接3問は準備しておいてください。",
       },
     },
     {
@@ -66,7 +66,7 @@ const faqData = {
       name: "技術面接（一次）と役員・最終面接で逆質問は変えるべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "変えるべきです。相手の立場によって答えられる範囲が違うためです。現場のエンジニアや技術面接官には、技術スタック・開発体制・CI/CD・コードレビュー・オンボーディングなど具体的で実務的な質問が刺さります。最終・役員面接では、相手は経営や事業全体を見ているため、事業の方向性・今後注力する領域・組織が目指す姿・エンジニア組織への投資方針といった抽象度の高い質問が適切です。同じ質問を全フェーズで使い回すと『相手を見ていない』印象になるので、面接官の役割に合わせて質問のレイヤーを上げていきましょう。",
+        text: "変えるべきです。相手の立場によって答えられる範囲が違うためです。現場のエンジニアや技術面接官には、技術スタック・開発体制・CI/CD・コードレビュー・オンボーディングなど具体的で実務的な質問が刺さります。最終・役員面接では、相手は経営や事業全体を見ているため、事業の方向性・今後注力する領域・組織が目指す姿・エンジニア組織への投資方針といった抽象度の高い質問が適切です。同じ質問を全フェーズで使い回すと『相手を見ていない』印象になるので、面接官の役割に合わせて質問のレイヤーを上げていいてください。",
       },
     },
     {
@@ -82,7 +82,7 @@ const faqData = {
       name: "逆質問が思いつかないときや、聞きたいことがもうない場合はどうすればいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "『特にありません』はできるだけ避けましょう。面接での会話を踏まえて『先ほど伺った◯◯について、もう少し詳しく教えていただけますか』と深掘りするのが自然で好印象です。それも難しい場合は、入社後を見据えた質問が無難で評価されやすい傾向があります。たとえば『入社までに勉強しておくと役立つ技術や領域はありますか』『活躍されている方に共通する特徴はありますか』など。これらは意欲が伝わるうえ、どの企業・どのフェーズでも使える汎用ストックになるので、最後の一手として常に1つ持っておくと安心です。",
+        text: "『特にありません』はできるだけ避けてください。面接での会話を踏まえて『先ほど伺った◯◯について、もう少し詳しく教えていただけますか』と深掘りするのが自然で好印象です。それも難しい場合は、入社後を見据えた質問が無難で評価されやすい傾向があります。たとえば『入社までに勉強しておくと役立つ技術や領域はありますか』『活躍されている方に共通する特徴はありますか』など。これらは意欲が伝わるうえ、どの企業・どのフェーズでも使える汎用ストックになるので、最後の一手として常に1つ持っておくと安心です。",
       },
     },
     {
@@ -98,7 +98,7 @@ const faqData = {
       name: "女性エンジニアとして、長く働けるチームかどうかは逆質問でどう見極めますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "制度の有無だけでなく『運用の実態』を引き出す質問が有効です。たとえば残業や繁忙期・オンコールの実際、コードレビューや相談のしやすさ（心理的安全性）、属人化していないか、産休育休からの復帰後にポジションや評価がどうなったかなど、チーム体制の持続可能性に踏み込む質問です。『長く技術者として貢献したいので』と前置きし、制度ではなく事例（実際に活躍している人の働き方）を尋ねると、答え方の具体性から実態が読み取れます。言葉を濁したり抽象論に終始したりする場合は、入社後のギャップに注意しましょう。",
+        text: "制度の有無だけでなく『運用の実態』を引き出す質問が有効です。たとえば残業や繁忙期・オンコールの実際、コードレビューや相談のしやすさ（心理的安全性）、属人化していないか、産休育休からの復帰後にポジションや評価がどうなったかなど、チーム体制の持続可能性に踏み込む質問です。『長く技術者として貢献したいので』と前置きし、制度ではなく事例（実際に活躍している人の働き方）を尋ねると、答え方の具体性から実態が読み取れます。言葉を濁したり抽象論に終始したりする場合は、入社後のギャップにご注意ください。",
       },
     },
   ],
@@ -248,7 +248,7 @@ export default function ArticlePage() {
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「入社後、最初の3か月で期待される役割やゴールはどのようなものですか？」</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5">▶</span><span>「先ほど伺った◯◯について、もう少し具体的にお聞きしてもよろしいですか？」</span></li>
               </ul>
-              <p className="text-xs text-text-light mt-4 leading-relaxed">これらは意欲が伝わり、どの企業・どのフェーズでも使える便利な質問です。「思いつかない時の最後の一手」として常に1つ持っておきましょう。</p>
+              <p className="text-xs text-text-light mt-4 leading-relaxed">これらは意欲が伝わり、どの企業・どのフェーズでも使える便利な質問です。「思いつかない時の最後の一手」として常に1つ持っておいてください。</p>
             </div>
           </div>
         </div>
@@ -327,7 +327,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">やってはいけないNG逆質問</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              良かれと思った質問が、逆に印象を下げてしまうこともあります。NGになりやすいのは次の4タイプ。「聞きたいこと」より先に「これは避けるべきか」をチェックしておきましょう。
+              良かれと思った質問が、逆に印象を下げてしまうこともあります。NGになりやすいのは次の4タイプ。「聞きたいこと」より先に「これは避けるべきか」をチェックしておいてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -343,7 +343,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>✕ すでに話に出た内容の質問</h3>
-              <p className="text-sm text-text-light leading-relaxed mb-2">面接中に説明済みのことを聞くと「話を聞いていなかった」と受け取られます。会話のメモを取り、深掘りに切り替えましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed mb-2">面接中に説明済みのことを聞くと「話を聞いていなかった」と受け取られます。会話のメモを取り、深掘りに切り替えてください。</p>
               <p className="text-xs text-text-light">対策：「先ほどの◯◯について、さらに伺うと…」と接続する</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -354,7 +354,7 @@ export default function ArticlePage() {
           </div>
           <div className="rounded-xl p-5 mt-6 bg-white border" style={{ borderColor: "#c15f47" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#c15f47" }}>最大のNGは「特にありません」</strong>　質問ゼロは志望度が低いと見なされる最も避けたいパターンです。どうしても出ない時は、入社後を見据えた汎用質問（②章④）を1つ用意しておきましょう。
+              <strong style={{ color: "#c15f47" }}>最大のNGは「特にありません」</strong>　質問ゼロは志望度が低いと見なされる最も避けたいパターンです。どうしても出ない時は、入社後を見据えた汎用質問（②章④）を1つ用意しておいてください。
             </p>
           </div>
         </div>
@@ -417,7 +417,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">カジュアル面談での逆質問（本選考との違い）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              一次・最終だけでなく、選考の前段に置かれることが増えた<strong>カジュアル面談</strong>でも逆質問は主役です。カジュアル面談は原則<strong>合否がつかない相互理解の場</strong>で、面談時間の半分ほどが質疑応答にあてられることも多いため、質問の質と量がそのまま面談の成否を左右します。本選考の面接とはねらいが違うので、逆質問も作り分けましょう。
+              一次・最終だけでなく、選考の前段に置かれることが増えた<strong>カジュアル面談</strong>でも逆質問は主役です。カジュアル面談は原則<strong>合否がつかない相互理解の場</strong>で、面談時間の半分ほどが質疑応答にあてられることも多いため、質問の質と量がそのまま面談の成否を左右します。本選考の面接とはねらいが違うので、逆質問も作り分けてください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -511,7 +511,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">逆質問の準備法（5STEP）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>実際に聞くのは2〜3問でも、用意は<strong>5〜7問</strong>。会話の中で答えが出てしまっても差し替えられるよう、複数カテゴリ・複数フェーズ分をストックしておくと安心です。次の順序で準備しましょう。</p>
+            <p>実際に聞くのは2〜3問でも、用意は<strong>5〜7問</strong>。会話の中で答えが出てしまっても差し替えられるよう、複数カテゴリ・複数フェーズ分をストックしておくと安心です。次の順序で準備してください。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -578,7 +578,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">面接対策はエージェント活用が近道</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、逆質問のネタになる企業情報を集めましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、逆質問のネタになる企業情報を集めてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -622,7 +622,7 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
             <p className="text-white/90 mb-6">まずはエージェントに無料相談。面接対策から逆質問の準備まで、あなたに合ったサポートを受けられます。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>

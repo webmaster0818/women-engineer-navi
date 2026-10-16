@@ -82,7 +82,7 @@ const faqData = {
       name: "GreenとReWorksは併用してもいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "併用できます。GreenはIT/Web業界という「業界」の軸、ReWorksはフルリモート正社員という「働き方」の軸で求人を扱うため、両方に登録して選択肢を見比べる使い方が可能です。どちらも求職者は無料で利用できます。ただし、同じ企業の同じ求人に複数の経路から重複して応募すると企業側の混乱を招くため、応募状況はスプレッドシートなどで自分が一元管理しましょう。",
+        text: "併用できます。GreenはIT/Web業界という「業界」の軸、ReWorksはフルリモート正社員という「働き方」の軸で求人を扱うため、両方に登録して選択肢を見比べる使い方が可能です。どちらも求職者は無料で利用できます。ただし、同じ企業の同じ求人に複数の経路から重複して応募すると企業側の混乱を招くため、応募状況はスプレッドシートなどで自分が一元管理してください。",
       },
     },
   ],
@@ -394,7 +394,7 @@ export default function ArticlePage() {
               <div>
                 <h3 className="font-bold mb-1">IT/Web業界の中で技術環境や事業内容を広く比較したい → Greenを起点に</h3>
                 <p className="text-sm text-text-light leading-relaxed">
-                  Greenは公式に「IT/Web業界の求人・中途採用情報に強い転職サイト」と説明されており、業界を軸に求人を見比べたい人に合う形態です。働き方の条件（リモート可否や出社頻度）は求人ごとに異なるため、応募・面談の段階で個別に確認しましょう。
+                  Greenは公式に「IT/Web業界の求人・中途採用情報に強い転職サイト」と説明されており、業界を軸に求人を見比べたい人に合う形態です。働き方の条件（リモート可否や出社頻度）は求人ごとに異なるため、応募・面談の段階で個別にご確認ください。
                 </p>
               </div>
             </div>
@@ -424,7 +424,7 @@ export default function ArticlePage() {
                   <a href="/articles/remote-jobs/" className="underline" style={{ color: "#7c3a55" }}>
                     リモートワーク求人ガイド
                   </a>
-                  のチェックポイントで個別に確認しましょう。
+                  のチェックポイントで個別にご確認ください。
                 </p>
               </div>
             </div>
@@ -484,7 +484,7 @@ export default function ArticlePage() {
               女性特化型のtype女性の転職エージェントとの併用も効果的です。type女性の転職エージェントで女性ならではのキャリア相談を受けつつ、Greenでスカウトを活用し、ReWorksでフルリモートの選択肢を確保するという3本立ての転職活動が理想的です。
             </p>
             <p>
-              注意点として、複数のサービスを利用する場合は、同じ企業に異なるサービスから重複応募しないよう管理しましょう。また、転職活動が広がりすぎて疲弊しないよう、自分のペースを大切にすることも重要です。
+              注意点として、複数のサービスを利用する場合は、同じ企業に異なるサービスから重複応募しないよう管理してください。また、転職活動が広がりすぎて疲弊しないよう、自分のペースを大切にすることも重要です。
             </p>
           </div>
         </div>
@@ -568,8 +568,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>
               女性エンジニアにおすすめの転職サイトランキングを見る
             </a>

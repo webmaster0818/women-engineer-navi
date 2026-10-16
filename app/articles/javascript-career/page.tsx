@@ -191,7 +191,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性がJavaScriptで長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              JavaScript系の職種は、働き方の柔軟性という点で女性がキャリアを継続しやすい条件がそろっています。実データを交えて4つの観点で見てみましょう。
+              JavaScript系の職種は、働き方の柔軟性という点で女性がキャリアを継続しやすい条件がそろっています。実データを交えて4つの観点で見てんでください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -300,7 +300,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">フレームワーク需要（React・Next.js・Vue）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              実務のJavaScriptは、ほぼ必ずフレームワークとセットで使われます。どれを学ぶかで応募できる求人が変わるため、需要データを見て選びましょう。フリーランスボードのJavaScript案件調査（2026年3月、対象42,270件）によるフレームワーク別の案件数は次の通りです。
+              実務のJavaScriptは、ほぼ必ずフレームワークとセットで使われます。どれを学ぶかで応募できる求人が変わるため、需要データを見て選ぶことをおすすめします。フリーランスボードのJavaScript案件調査（2026年3月、対象42,270件）によるフレームワーク別の案件数は次の通りです。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -340,7 +340,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">未経験から目指す学習ロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              1日2〜3時間の学習で<strong>6ヶ月〜1年</strong>が目安です。JavaScriptはブラウザだけで動かせるため、PythonやJavaに比べて「書いたものがすぐ画面に出る」楽しさがあり、挫折しにくいのが利点。次の順序で進めましょう（IT業界の全体像から知りたい方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からの転職ガイド</a>もどうぞ）。
+              1日2〜3時間の学習で<strong>6ヶ月〜1年</strong>が目安です。JavaScriptはブラウザだけで動かせるため、PythonやJavaに比べて「書いたものがすぐ画面に出る」楽しさがあり、挫折しにくいのが利点。次の順序で進めてください（IT業界の全体像から知りたい方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からの転職ガイド</a>もどうぞ）。
             </p>
           </div>
           <div className="space-y-4">
@@ -370,7 +370,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">ポートフォリオと転職活動の進め方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              JavaScript系の転職では、資格よりも<strong>ポートフォリオ（動く作品）</strong>が最大のアピール材料です。画面という目に見える成果物を作る仕事なので、採用側も「実際に作ったもの」でスキルを判断します。未経験・微経験の場合は特に、職務経歴書だけでは伝わらない実力を作品で示しましょう。
+              JavaScript系の転職では、資格よりも<strong>ポートフォリオ（動く作品）</strong>が最大のアピール材料です。画面という目に見える成果物を作る仕事なので、採用側も「実際に作ったもの」でスキルを判断します。未経験・微経験の場合は特に、職務経歴書だけでは伝わらない実力を作品で示してください。
             </p>
             <p>
               評価されやすいポートフォリオの条件は、(1)React＋TypeScriptで構築されている、(2)APIとの連携やログインなど「実用的な機能」がある、(3)スマホ対応（レスポンシブ）されている、(4)GitHubでコードが公開され、コミット履歴やREADMEが整っている、の4点です。チュートリアルの写経で終わらず、自分の課題を解決する小さなアプリ（家計簿・献立管理・学習記録など）に発展させると、面接で「なぜ作ったか」を語れて強くなります。
@@ -477,8 +477,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

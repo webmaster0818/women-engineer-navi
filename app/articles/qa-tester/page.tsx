@@ -98,7 +98,7 @@ const faqData = {
       name: "QAエンジニアは子育てや時短勤務と両立しやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "一般に、テストは計画に沿って進む工程のため業務の繁閑が読みやすく、時短勤務やリモートワークと組み合わせやすい傾向があります。突発対応も開発・インフラ職に比べると少なめです。ただしリリース直前はテストが集中して忙しくなり、リリース頻度の高い現場では負荷が読みにくいこともあります。また実機での検証が必要な現場では出社が基本になる場合もあるため、産休育休の実績・時短の運用・リモート可否は、エージェント経由で個別に確認しましょう。",
+        text: "一般に、テストは計画に沿って進む工程のため業務の繁閑が読みやすく、時短勤務やリモートワークと組み合わせやすい傾向があります。突発対応も開発・インフラ職に比べると少なめです。ただしリリース直前はテストが集中して忙しくなり、リリース頻度の高い現場では負荷が読みにくいこともあります。また実機での検証が必要な現場では出社が基本になる場合もあるため、産休育休の実績・時短の運用・リモート可否は、エージェント経由で個別にご確認ください。",
       },
     },
   ],
@@ -379,7 +379,7 @@ export default function ArticlePage() {
               <li>③ <strong>3年目</strong>: Playwright等での自動化実績を作り、QAエンジニア／自動化エンジニアとして転職・昇格交渉</li>
             </ul>
             <p className="text-sm text-text-light mt-3 leading-relaxed">
-              プログラミングの基礎固めには<a href="/articles/cert-kihonjoho/" className="underline" style={{ color: "#7c3a55" }}>基本情報技術者試験</a>の学習も有効です。また、自動化エンジニアとして開発寄りの選考を受ける場合は<a href="/articles/coding-test/" className="underline" style={{ color: "#7c3a55" }}>コーディングテスト対策</a>も視野に入れておきましょう。
+              プログラミングの基礎固めには<a href="/articles/cert-kihonjoho/" className="underline" style={{ color: "#7c3a55" }}>基本情報技術者試験</a>の学習も有効です。また、自動化エンジニアとして開発寄りの選考を受ける場合は<a href="/articles/coding-test/" className="underline" style={{ color: "#7c3a55" }}>コーディングテスト対策</a>も視野に入れておいてください。
             </p>
           </div>
         </div>
@@ -556,7 +556,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -585,7 +585,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 産休育休・時短との相性</h3>
-              <p className="text-text-light text-sm leading-relaxed">テストは計画に沿って進む工程のため繁閑が読みやすく、時短勤務と組み合わせやすい傾向があります。またJSTQBで体系化されたテスト設計技法の知識は流行に左右されにくく、資格として残るため、産休育休のブランク後も実力を示しやすいのが強みです。リリース直前に業務が集中する点だけは、家庭のサポート体制とあわせて見込んでおきましょう。</p>
+              <p className="text-text-light text-sm leading-relaxed">テストは計画に沿って進む工程のため繁閑が読みやすく、時短勤務と組み合わせやすい傾向があります。またJSTQBで体系化されたテスト設計技法の知識は流行に左右されにくく、資格として残るため、産休育休のブランク後も実力を示しやすいのが強みです。リリース直前に業務が集中する点だけは、家庭のサポート体制とあわせて見込んでおいてください。</p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. キャリアパス: 負荷の強弱をつけながら登れる</h3>
@@ -727,10 +727,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

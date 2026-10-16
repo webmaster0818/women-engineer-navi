@@ -363,7 +363,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 転職時に必ず年収交渉をする（エージェント経由が確実）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                転職時の昇給額に男女で約54万円の差（男性139万円／女性85万円・Forkwell調査）があるのは、希望年収の提示額と交渉の有無が影響していると考えられます。自分で言い出しにくい交渉は、転職エージェントに代行してもらうのが確実です。市場価値を客観的な相場データで示してもらい、現年収ではなく「市場価値ベース」で希望額を設定しましょう。
+                転職時の昇給額に男女で約54万円の差（男性139万円／女性85万円・Forkwell調査）があるのは、希望年収の提示額と交渉の有無が影響していると考えられます。自分で言い出しにくい交渉は、転職エージェントに代行してもらうのが確実です。市場価値を客観的な相場データで示してもらい、現年収ではなく「市場価値ベース」で希望額を設定してください。
               </p>
               <div className="mt-3 rounded-lg p-4" style={{ backgroundColor: "#efe3d8", border: "1px solid #d9c7b8" }}>
                 <p className="text-sm text-text-light leading-relaxed">
@@ -466,7 +466,7 @@ export default function ArticlePage() {
           >
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">
-              複数のエージェントに登録して、自分に合ったアドバイザーを見つけましょう。
+              複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。
             </p>
             <a
               href="/ranking/"
@@ -579,10 +579,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現しましょう
+              理想の転職を実現してください
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
             </p>
             <a
               href="/ranking/"

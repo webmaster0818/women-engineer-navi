@@ -130,7 +130,7 @@ export default function LevtechReviewPage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               レバテックキャリアの口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                女性エンジニアの転職に使える？徹底検証
+                女性エンジニアの転職に使える？検証
               </span>
             </h1>
             <p className="mt-4 text-text-light">
@@ -391,7 +391,7 @@ export default function LevtechReviewPage() {
               },
               {
                 reviewer: "対面の面談拠点は都市部の4カ所",
-                text: "公式サイトのサービス紹介ページによると、対面の面談場所は渋谷（東京本社）・名古屋・大阪・福岡の4拠点です（2026年7月確認）。近くに拠点がない地域の方も電話・Webでの面談が可能と公式FAQに記載されていますが、地方求人は都市部と比べて少ない傾向がある点は理解しておきましょう。",
+                text: "公式サイトのサービス紹介ページによると、対面の面談場所は渋谷（東京本社）・名古屋・大阪・福岡の4拠点です（2026年7月確認）。近くに拠点がない地域の方も電話・Webでの面談が可能と公式FAQに記載されていますが、地方求人は都市部と比べて少ない傾向がある点は理解しておいてください。",
               },
               {
                 reviewer: "公式掲載の口コミは投稿時期がやや古いものが中心",
@@ -624,7 +624,7 @@ export default function LevtechReviewPage() {
             <Link href="/articles/salary/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアの年収ガイド｜平均年収と年収アップの方法</Link>
             <Link href="/articles/age-30s/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 30代女性エンジニアの転職ガイド</Link>
             <Link href="/articles/technical-interview/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} 女性エンジニアの技術面接対策｜コーディングテスト・設計課題の準備法</Link>
-            <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} レバテックキャリア vs Geekly徹底比較</Link>
+            <Link href="/articles/levtech-vs-geekly/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} レバテックキャリア vs Geekly比較</Link>
             <Link href="/articles/techgo-vs-levtech/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"\u2192"} テックゴーとレバテックキャリアの違い</Link>
           </div>
         </div>

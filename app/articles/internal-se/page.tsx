@@ -74,7 +74,7 @@ const faqData = {
       name: "社内SEは本当に残業が少なくて長く働けますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "傾向としては残業が少なく長く働きやすい職種ですが、企業差が大きい点に注意が必要です。情シスの人数が少ない企業では一人に負担が集中したり、システム障害時に対応が発生したりすることもあります。求人票だけでは実態が分からないため、残業の平均時間、情シスの人員体制、産休育休の取得・復帰実績、リモートやフレックスの運用状況を事前に確認しましょう。これらの情報は、企業の内情に詳しい転職エージェント経由で確認するのが確実です。",
+        text: "傾向としては残業が少なく長く働きやすい職種ですが、企業差が大きい点に注意が必要です。情シスの人数が少ない企業では一人に負担が集中したり、システム障害時に対応が発生したりすることもあります。求人票だけでは実態が分からないため、残業の平均時間、情シスの人員体制、産休育休の取得・復帰実績、リモートやフレックスの運用状況を事前にご確認ください。これらの情報は、企業の内情に詳しい転職エージェント経由で確認するのが確実です。",
       },
     },
     {
@@ -90,7 +90,7 @@ const faqData = {
       name: "子育て中の女性でも社内SEは続けやすいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "一般に続けやすい傾向のある職種です。業務がルーティン中心で計画的に進めやすく、突発の納期に振り回されにくいため、時短勤務や保育園の送迎とも両立しやすいとされます。運用手順をドキュメント化する文化が根付きやすく、産休育休の引き継ぎもしやすい仕事です。ただし『一人情シス』（情シス担当が自分だけ）の企業では業務が属人化して休みにくいことがあるため、情シスの人員体制と育休の取得・復帰実績は応募前に必ず確認しましょう。実態は企業差が大きいため、内情に詳しい転職エージェント経由での確認が確実です。",
+        text: "一般に続けやすい傾向のある職種です。業務がルーティン中心で計画的に進めやすく、突発の納期に振り回されにくいため、時短勤務や保育園の送迎とも両立しやすいとされます。運用手順をドキュメント化する文化が根付きやすく、産休育休の引き継ぎもしやすい仕事です。ただし『一人情シス』（情シス担当が自分だけ）の企業では業務が属人化して休みにくいことがあるため、情シスの人員体制と育休の取得・復帰実績は応募前に必ずご確認ください。実態は企業差が大きいため、内情に詳しい転職エージェント経由での確認が確実です。",
       },
     },
     {
@@ -227,7 +227,7 @@ export default function ArticlePage() {
           </div>
           <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong style={{ color: "#7c3a55" }}>注意：</strong>人気職ゆえに「楽すぎる」というイメージが先行しがちですが、情シスの人員が少ない企業では一人に負担が集中することも。求人を選ぶ際は<strong>残業の実態・人員体制・産休育休の取得実績</strong>を必ず確認しましょう。
+              <strong style={{ color: "#7c3a55" }}>注意：</strong>人気職ゆえに「楽すぎる」というイメージが先行しがちですが、情シスの人員が少ない企業では一人に負担が集中することも。求人を選ぶ際は<strong>残業の実態・人員体制・産休育休の取得実績</strong>を必ずご確認ください。
             </p>
           </div>
         </div>
@@ -346,7 +346,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>社内SEは即戦力が求められるため、完全未経験からの直接転職はやや難関。<strong>まずIT経験を積んでから社内SEへ</strong>という「ステップ転職」が現実的で成功率の高いルートです。次の順序で進めましょう。</p>
+            <p>社内SEは即戦力が求められるため、完全未経験からの直接転職はやや難関。<strong>まずIT経験を積んでから社内SEへ</strong>という「ステップ転職」が現実的で成功率の高いルートです。次の順序で進めてください。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -408,7 +408,7 @@ export default function ArticlePage() {
           </div>
           <div className="mt-8 rounded-xl p-6 text-center" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
-            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけましょう。</p>
+            <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
@@ -452,7 +452,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                社内SEはデスクワーク中心で体力的な負担が少なく、業務がルーティン中心で計画的に働きやすい傾向があります。一方で、ヘルプデスクや機器のキッティング（PCのセットアップ）など出社が前提になりやすい業務も含むため、フルリモートよりは「リモート併用」の働き方が一般的です。また、社内システムの障害対応やメンテナンスは業務時間外（夜間・休日）に発生することがあり、その頻度は情シスの人員体制やベンダーへの委託範囲によって大きく変わります。応募時には「障害時の対応体制」「リモートの運用実態」を確認しましょう。
+                社内SEはデスクワーク中心で体力的な負担が少なく、業務がルーティン中心で計画的に働きやすい傾向があります。一方で、ヘルプデスクや機器のキッティング（PCのセットアップ）など出社が前提になりやすい業務も含むため、フルリモートよりは「リモート併用」の働き方が一般的です。また、社内システムの障害対応やメンテナンスは業務時間外（夜間・休日）に発生することがあり、その頻度は情シスの人員体制やベンダーへの委託範囲によって大きく変わります。応募時には「障害時の対応体制」「リモートの運用実態」をご確認ください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -470,7 +470,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                注意点として、(1)人気職のため良い求人ほど競争率が高い、(2)ヘルプデスク中心のポジションに長くとどまるとスキルと年収が伸びにくい、(3)「ホワイトで楽」というイメージが先行しがちだが実態は企業差が非常に大きい、の3点は押さえておきましょう。「社内SEだから働きやすい」のではなく「働きやすい体制の会社の社内SEだから働きやすい」のが実情です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+                注意点として、(1)人気職のため良い求人ほど競争率が高い、(2)ヘルプデスク中心のポジションに長くとどまるとスキルと年収が伸びにくい、(3)「ホワイトで楽」というイメージが先行しがちだが実態は企業差が非常に大きい、の3点は押さえておいてください。「社内SEだから働きやすい」のではなく「働きやすい体制の会社の社内SEだから働きやすい」のが実情です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
               </p>
             </div>
           </div>
@@ -523,8 +523,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>

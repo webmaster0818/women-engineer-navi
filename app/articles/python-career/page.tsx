@@ -296,7 +296,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">AI時代の需要と求人動向（求人統計で見る）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「AIブームでPythonが熱い」と言われますが、雰囲気ではなく求人統計で確認しておきましょう。Indeed Recruit Partnersの「AIに関する採用動向」調査によると、<strong>エンジニア系職種のAI関連求人は2024年時点で2017年度比約6.6倍</strong>、営業・企画など非エンジニア系でも約2.5倍に拡大しています。AI開発のデファクト言語はPythonであり、この拡大はそのままPython人材の追い風です。
+              「AIブームでPythonが熱い」と言われますが、雰囲気ではなく求人統計で確認しておいてください。Indeed Recruit Partnersの「AIに関する採用動向」調査によると、<strong>エンジニア系職種のAI関連求人は2024年時点で2017年度比約6.6倍</strong>、営業・企画など非エンジニア系でも約2.5倍に拡大しています。AI開発のデファクト言語はPythonであり、この拡大はそのままPython人材の追い風です。
             </p>
             <p>
               フリーランス市場でも、フリーランスボードの調査（2026年3月発表）でPythonは<strong>案件数比率9.72%・言語別3位</strong>。職種内訳ではAIエンジニア案件が11.77%を占め、フレームワーク別単価ではPyTorch（89.8万円）・TensorFlow（85.2万円）といったAI系が上位に並びます。エンジニア転職市場全体も、dodaの転職求人倍率レポート（2026年4月発行版）でエンジニア（IT・通信）が<strong>10.68倍</strong>と全職種で突出した売り手市場です。
@@ -512,8 +512,8 @@ export default function ArticlePage() {
       <section className="py-12">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
-            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現しましょう</h2>
-            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えましょう。</p>
+            <h2 className="text-2xl font-bold text-white mb-4">理想の転職を実現してください</h2>
+            <p className="text-white/90 mb-6">まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>
               女性エンジニアにおすすめの転職サイトランキングを見る
             </a>
