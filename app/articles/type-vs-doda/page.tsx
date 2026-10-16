@@ -641,10 +641,10 @@ export default function ArticlePage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              理想の転職を実現してください
+              理想の転職を実現しませんか
             </h2>
             <p className="text-white/90 mb-6">
-              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えてください。
+              まずはエージェントに無料相談。あなたに合ったキャリアプランを一緒に考えます。
             </p>
             <a
               href="/ranking/"

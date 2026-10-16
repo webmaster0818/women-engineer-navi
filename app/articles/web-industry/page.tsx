@@ -830,7 +830,7 @@ export default function WebIndustryPage() {
             }}
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              Web系企業への転職を実現してください
+              Web系企業への転職を実現しませんか
             </h2>
             <p className="text-white/90 mb-6">
               IT特化型エージェントに無料相談して、あなたに合ったWeb系企業を見つけてください。

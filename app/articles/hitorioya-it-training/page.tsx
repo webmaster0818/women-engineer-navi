@@ -471,7 +471,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <div className="rounded-2xl p-8 md:p-12" style={{ background: "linear-gradient(135deg, #7c3a55 0%, #7c3a55 100%)" }}>
             <h2 className="text-2xl font-bold text-white mb-4">資格を取ったら、活かせる職場を見つけてください</h2>
-            <p className="text-white/90 mb-6">給付制度で負担を抑えて学んだ後は、子育てとの両立に理解のある企業への転職活動へ。まずはエージェントに無料相談して、あなたに合ったキャリアプランを一緒に考えてください。</p>
+            <p className="text-white/90 mb-6">給付制度で負担を抑えて学んだ後は、子育てとの両立に理解のある企業への転職活動へ。まずはエージェントに無料相談して、あなたに合ったキャリアプランを一緒に考えます。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-4 text-lg font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47", color: "#ffffff" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
         </div>
