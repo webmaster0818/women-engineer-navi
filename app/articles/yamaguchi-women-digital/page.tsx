@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "山口県 女性デジタル人材育成プログラムWINGsを解説｜対象・費用・申込【2026年】",
     description:
-      "山口県の女性デジタル人材育成プログラム「WINgs YAMAGUCHI」の対象者（県在住または県内就業を検討する未就業・非正規雇用の女性）、講座内容、費用（受講料無料・テキスト代1万円程度実費）、申込方法を公式情報をもとに解説。2026年度は7月31日まで募集中（2026年7月18日確認）。",
+      "山口県の女性デジタル人材育成プログラム「WINgs YAMAGUCHI」の対象者（県在住または県内就業を検討する未就業・非正規雇用の女性）、講座内容、費用（受講料無料・テキスト代1万円程度実費）、申込方法を公式情報をもとに解説。2026年度の受講生募集は2026年8月6日に締め切られました（公式お知らせ・2026年10月17日確認）。",
     url: "https://women-engineer.com/articles/yamaguchi-women-digital/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "山口県「やまぐち女性デジタル人材育成コンソーシアム」による女性デジタル人材育成プログラム（WINgs YAMAGUCHI）の対象者・講座内容・費用（受講料無料）・申込方法を公式情報をもとに解説。2026年度は7月31日まで募集中（2026年7月18日確認）。",
+    "山口県「やまぐち女性デジタル人材育成コンソーシアム」による女性デジタル人材育成プログラム（WINgs YAMAGUCHI）の対象者・講座内容・費用（受講料無料）・申込方法を公式情報をもとに解説。2026年度の受講生募集は2026年8月6日に締め切られました（公式お知らせ・2026年10月17日確認）。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/yamaguchi-women-digital/",
@@ -74,7 +74,7 @@ const faqData = {
       name: "オンラインだけで受講できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "オンライン受講枠（30名程度）がありますが、2026年7月18日時点で公式サイトに「オンライン受講は定員を超過しています」と記載されています。会場受講（山口会場・岩国サテライト・下関サテライト）は週3日以上を目安に会場で受講する形式で、当日都合が悪い場合はe-ラーニングやアーカイブでのフォローがあります。最新の空き状況は公式サイトまたは事務局（083-920-6565）で確認してください。",
+        text: "オンライン受講枠（30名程度）がありますが、2026年7月18日時点では公式サイトに「オンライン受講は定員を超過しています」と記載されていました（2026年度の募集は2026年8月6日に終了）。会場受講（山口会場・岩国サテライト・下関サテライト）は週3日以上を目安に会場で受講する形式で、当日都合が悪い場合はe-ラーニングやアーカイブでのフォローがあります。最新の空き状況は公式サイトまたは事務局（083-920-6565）で確認してください。",
       },
     },
     {
@@ -156,7 +156,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月18日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>募集期間:</strong> 2026年5月11日（月）〜<strong>7月31日（金）</strong>。応募者多数の場合は面談等を経て受講者を決定し、募集を早めに締め切る場合があると案内されています。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>募集人数:</strong> 会場受講は山口会場20名程度・岩国サテライト15名程度・下関サテライト15名程度。オンラインは30名程度ですが、<strong>「オンライン受講は定員を超過しています」と公式サイトに記載</strong>（2026年7月18日時点）。</span></li>
@@ -474,10 +474,10 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-xl font-bold mb-4">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
-            <li>出典: 山口県「やまぐち女性デジタル人材育成コンソーシアム」（産業人材課） <a href="https://www.pref.yamaguchi.lg.jp/soshiki/255/210265.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.yamaguchi.lg.jp/soshiki/255/210265.html</a>（2026年7月18日確認）</li>
-            <li>出典: 山口県 報道発表「山口県女性デジタル人材育成プログラム（WINgs YAMAGUCHI）の受講生の募集について」（2026年5月11日更新） <a href="https://www.pref.yamaguchi.lg.jp/press/346568.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.yamaguchi.lg.jp/press/346568.html</a>（2026年7月18日確認）</li>
-            <li>出典: WINgs YAMAGUCHI 公式サイト（運営: やまぐち女性デジタル人材育成コンソーシアム共同企業体） <a href="https://wings.yamaguchi.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://wings.yamaguchi.jp/</a>（2026年7月18日確認）</li>
-            <li>出典: やまぐち女性デジタル人材育成コンソーシアム <a href="https://wdc.yamaguchi.jp/consortium/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://wdc.yamaguchi.jp/consortium/</a>（2026年7月18日確認）</li>
+            <li>出典: 山口県「やまぐち女性デジタル人材育成コンソーシアム」（産業人材課） <a href="https://www.pref.yamaguchi.lg.jp/soshiki/255/210265.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.yamaguchi.lg.jp/soshiki/255/210265.html</a>（2026年10月17日確認）</li>
+            <li>出典: 山口県 報道発表「山口県女性デジタル人材育成プログラム（WINgs YAMAGUCHI）の受講生の募集について」（2026年5月11日更新） <a href="https://www.pref.yamaguchi.lg.jp/press/346568.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.yamaguchi.lg.jp/press/346568.html</a>（2026年10月17日確認）</li>
+            <li>出典: WINgs YAMAGUCHI 公式サイト（運営: やまぐち女性デジタル人材育成コンソーシアム共同企業体） <a href="https://wings.yamaguchi.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://wings.yamaguchi.jp/</a>（2026年10月17日確認）</li>
+            <li>出典: やまぐち女性デジタル人材育成コンソーシアム <a href="https://wdc.yamaguchi.jp/consortium/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://wdc.yamaguchi.jp/consortium/</a>（2026年10月17日確認）</li>
           </ul>
         </div>
       </section>

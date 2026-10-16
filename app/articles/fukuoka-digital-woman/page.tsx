@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
     description:
-      "福岡県「でじたる女子（でじたる女性）プロジェクト」の事業内容（無料・SAP/RPA・約4か月・PC貸与）と、2026年7月時点の募集状況（公式サイトでは終了と表示・次期は未確認）、代替になる女性向け支援制度を一次情報で解説。",
+      "福岡県「でじたる女子（でじたる女性）プロジェクト」の事業内容（無料・SAP/RPA・約4か月・PC貸与）と、2026年10月17日時点の募集状況（公式サイトに「本事業は終了しました」と表示・次期は未確認）、代替になる女性向け支援制度を一次情報で解説。",
     url: "https://women-engineer.com/articles/fukuoka-digital-woman/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "福岡県「でじたる女子（でじたる女性）プロジェクト」（福岡県女性デジタル人材育成・就業支援事業）の内容・対象者・費用と、2026年7月時点の募集状況（公式サイトでは終了と表示）、代替の支援制度を解説。",
+    "福岡県「でじたる女子（でじたる女性）プロジェクト」（福岡県女性デジタル人材育成・就業支援事業）の内容・対象者・費用と、2026年10月17日時点の募集状況（公式サイトに「本事業は終了しました」と表示）、代替の支援制度を解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/fukuoka-digital-woman/",
@@ -156,7 +156,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月18日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>公式サイトのタイトル直下と申込セクションに<strong>「本事業は終了しました」</strong>と明記されています。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>直近の募集は<strong>第3期（令和7年度）</strong>: 申込期間2025年5月20日〜7月22日・定員50名。この申込はすでに終了しています。</span></li>
@@ -458,8 +458,8 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-xl font-bold mb-4">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
-            <li>出典: 福岡県でじたる女性プロジェクト 公式サイト（ふくおかでじたる女子コンソーシアム） <a href="https://digital-women.maia.co.jp/fukuoka/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://digital-women.maia.co.jp/fukuoka/</a>（2026年7月18日確認）</li>
-            <li>出典: 福岡県報道発表「『福岡県でじたる女性プロジェクト』第３期生を募集します！」（2025年5月19日） <a href="https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html</a>（2026年7月18日確認）</li>
+            <li>出典: 福岡県でじたる女性プロジェクト 公式サイト（ふくおかでじたる女子コンソーシアム） <a href="https://digital-women.maia.co.jp/fukuoka/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://digital-women.maia.co.jp/fukuoka/</a>（2026年10月17日確認）</li>
+            <li>出典: 福岡県報道発表「『福岡県でじたる女性プロジェクト』第３期生を募集します！」（2025年5月19日） <a href="https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html</a>（2026年10月17日確認）</li>
             <li>出典: 福岡県女性活躍推進課 <a href="https://www.pref.fukuoka.lg.jp/soshiki/5200416/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.fukuoka.lg.jp/soshiki/5200416/</a>（2026年7月18日確認・本事業の令和8年度掲載なし）</li>
           </ul>
         </div>

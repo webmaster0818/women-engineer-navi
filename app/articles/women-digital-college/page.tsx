@@ -127,7 +127,7 @@ export default function ArticlePage() {
                 対象者・費用・申込方法と女性ITエンジニア育成事業との違い【2026年度】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月30日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月17日</p>
           </div>
         </div>
       </section>
@@ -157,10 +157,10 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月30日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>入門コース:</strong> 第2期の江戸川・立川会場の申込受付が開始されています（公式発表 2026年7月27日）。<strong>両会場の申込締切は8月7日（金）</strong>です。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 9月14日開講の多摩会場が受付開始。<strong>8月24日開講の三鷹、8月31日開講の千代田・港会場（浜松町）は8月2日（日）締切</strong>、9月7日開講の世田谷・新宿会場は8月16日（日）締切と案内されています。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 今年度の最終募集が進んでいます。11月9日開講の練馬会場は<strong>申込受付期間を10月19日（月）まで延長</strong>（公式発表 2026年10月16日）。11月16日開講の<strong>足立会場・立川会場は10月25日（日）が募集締切</strong>で、いずれも<strong>今年度の最終募集</strong>と案内されています（公式発表 2026年10月14日）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>入門コース:</strong> 2026年5月7日より第1期（計8回）の募集が案内されています。最新の開催回は公式サイトの新着情報をご確認ください。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況・日程は変動します。最新情報は必ず<a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。

@@ -156,7 +156,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月18日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>e-ラーニングコース第1回:</strong> 申込は終了（申込期間: 5月22日〜6月22日）。現在は受講期間中（7月1日〜8月31日）です。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>e-ラーニングコース第2回:</strong> 申込期間は<strong>8月10日〜9月10日</strong>（受講期間: 9月18日〜11月17日）。第3回は申込10月23日〜11月24日（受講12月3日〜2月2日）です。</span></li>
@@ -519,8 +519,8 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-xl font-bold mb-4">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
-            <li>出典: 神奈川県「女性のためのデジタルスキル育成講座」公式ページ（かながわjob） <a href="https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/digital_woman/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/digital_woman/</a>（2026年7月18日確認）</li>
-            <li>出典: 神奈川県「かながわjob（就業支援）」トップページ <a href="https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/index.html</a>（2026年7月18日確認）</li>
+            <li>出典: 神奈川県「女性のためのデジタルスキル育成講座」公式ページ（かながわjob） <a href="https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/digital_woman/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/digital_woman/</a>（2026年10月17日確認）</li>
+            <li>出典: 神奈川県「かながわjob（就業支援）」トップページ <a href="https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/index.html</a>（2026年10月17日確認）</li>
           </ul>
         </div>
       </section>

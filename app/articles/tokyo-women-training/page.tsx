@@ -172,7 +172,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年9月1日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（1期生・2026年8月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集終了。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（2期生・2026年9月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも<strong>募集終了</strong>となりました（9月1日時点）。これをもって<strong>令和8年度の募集はすべて終了</strong>です（※公式には「申込状況により追加募集いたします」の記載があるため、追加募集の有無は公式サイトでご確認ください）。</span></li>

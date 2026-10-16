@@ -156,7 +156,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月5日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で2027年2月生まで受付予定。7月1日より8月受講生（申込期間: 2026年7月1日〜7月25日、受講期間: 8月1日〜8月31日）の申込受付が始まっています。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>自営型テレワーク講座（新設）:</strong> 8月受講生から視聴可能。基礎・応用講座と同一フォームで申込できます。</span></li>

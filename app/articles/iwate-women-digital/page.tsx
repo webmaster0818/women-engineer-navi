@@ -58,7 +58,7 @@ const faqData = {
       name: "申込の締切はいつですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "令和8年度の募集期間は2026年6月25日から7月24日までで、運営事務局の公式発表では申込締切は2026年7月24日（金）23:59とされています（2026年7月18日確認時点で募集中・締切間近）。受講期間は2026年8月10日から12月末までの約4か月です。最新の受付状況は公式サイト（r8iwate-dhw.jp）で確認してください。",
+        text: "令和8年度の募集期間は2026年6月25日から7月24日までで、運営事務局の公式発表では申込締切は2026年7月24日（金）23:59とされています（締切は経過済み。2026年10月17日時点で運営事務局の特設サイト r8iwate-dhw.jp はアクセスできません）。受講期間は2026年8月10日から12月末までの約4か月です。最新の受付状況は公式サイト（r8iwate-dhw.jp）で確認してください。",
       },
     },
     {
@@ -471,9 +471,9 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-xl font-bold mb-4">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
-            <li>出典: 令和8年度 いわて女性デジタル人材育成プロジェクト 公式サイト <a href="https://r8iwate-dhw.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://r8iwate-dhw.jp/</a>（2026年7月18日確認）</li>
-            <li>出典: デジタルハリウッド株式会社 プレスリリース「＜受講生募集＞『令和8年度いわて女性デジタル人材育成プロジェクト』2026年8月開講」（2026年7月1日） <a href="https://prtimes.jp/main/html/rd/p/000002695.000000496.html" target="_blank" rel="noopener noreferrer nofollow" className="underline" style={{ color: "#7c3a55" }}>https://prtimes.jp/main/html/rd/p/000002695.000000496.html</a>（2026年7月18日確認）</li>
-            <li>出典: 釜石市「令和8年度『いわて女性デジタル人材育成プロジェクト』受講生募集中！」 <a href="https://www.city.kamaishi.iwate.jp/docs/2026070900017" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.city.kamaishi.iwate.jp/docs/2026070900017</a>（2026年7月18日確認）</li>
+            <li>出典: 令和8年度 いわて女性デジタル人材育成プロジェクト 公式サイト <a href="https://r8iwate-dhw.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://r8iwate-dhw.jp/</a>（2026年10月17日確認）</li>
+            <li>出典: デジタルハリウッド株式会社 プレスリリース「＜受講生募集＞『令和8年度いわて女性デジタル人材育成プロジェクト』2026年8月開講」（2026年7月1日） <a href="https://prtimes.jp/main/html/rd/p/000002695.000000496.html" target="_blank" rel="noopener noreferrer nofollow" className="underline" style={{ color: "#7c3a55" }}>https://prtimes.jp/main/html/rd/p/000002695.000000496.html</a>（2026年10月17日確認）</li>
+            <li>出典: 釜石市「令和8年度『いわて女性デジタル人材育成プロジェクト』受講生募集中！」 <a href="https://www.city.kamaishi.iwate.jp/docs/2026070900017" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.city.kamaishi.iwate.jp/docs/2026070900017</a>（2026年10月17日確認）</li>
           </ul>
         </div>
       </section>

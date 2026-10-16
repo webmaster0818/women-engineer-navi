@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "山梨県 やまなし女性デジタル人材プロジェクトを解説｜対象・費用・募集状況【2026年】",
     description:
-      "山梨県「やまなし女性デジタル人材プロジェクト」の対象者（県内在住18歳以上の女性）、講座内容（Web制作・デザイン約150時間+企業案件実務）、費用（20,000円・キャッシュバックと免除制度あり）を公式情報で解説。2026年度募集は締切済み（2026年7月18日確認）。次回募集の確認方法と代替支援も紹介。",
+      "山梨県「やまなし女性デジタル人材プロジェクト」の対象者（県内在住18歳以上の女性）、講座内容（Web制作・デザイン約150時間+企業案件実務）、費用（20,000円・キャッシュバックと免除制度あり）を公式情報で解説。2026年度募集は締切済み（2026年10月17日に公式サイトで「本講座へのお申込は終了致しました」を確認）。次回募集の確認方法と代替支援も紹介。",
     url: "https://women-engineer.com/articles/yamanashi-women-digital/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "山梨県「やまなし女性デジタル人材プロジェクト」の対象者・講座内容・費用を公式情報をもとに解説。2026年度の募集は7月8日で締切済み（2026年7月18日確認）。次回募集の確認方法と、今から使える代替の支援制度も整理。",
+    "山梨県「やまなし女性デジタル人材プロジェクト」の対象者・講座内容・費用を公式情報をもとに解説。2026年度の募集は7月8日で締切済み（2026年10月17日確認）。次回募集の確認方法と、今から使える代替の支援制度も整理。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/yamanashi-women-digital/",
@@ -50,7 +50,7 @@ const faqData = {
       name: "やまなし女性デジタル人材プロジェクトは今から申し込めますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "2026年度の募集は申し込めません。申込期間は2026年6月8日〜7月8日で、山梨県公式サイト・特設ページとも「募集は締め切りました」と明記されています（2026年7月18日確認）。次回（2027年度以降）の実施・募集については現時点で公式の発表を確認できていません。県公式ページ（産業人材課「やまなしキャリアアップ・ユニバーシティ 非正規雇用者・求職者向け講座について」）が更新される場所なので、定期的に確認するか、産業人材課（055-223-1566）に直接問い合わせるのが確実です。",
+        text: "2026年度の募集は申し込めません。申込期間は2026年6月8日〜7月8日で、山梨県公式サイト・特設ページとも「本講座へのお申込は終了致しました」と明記されています（2026年10月17日確認）。次回（2027年度以降）の実施・募集については現時点で公式の発表を確認できていません。県公式ページ（産業人材課「やまなしキャリアアップ・ユニバーシティ 非正規雇用者・求職者向け講座について」）が更新される場所なので、定期的に確認するか、産業人材課（055-223-1566）に直接問い合わせるのが確実です。",
       },
     },
     {
@@ -156,7 +156,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月18日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>2026年度の募集は終了:</strong> 申込期間は2026年6月8日（月）〜7月8日（水）で、山梨県公式サイト・特設ページとも「募集は締め切りました」と明記されています。2026年度の講座は7月17日に開始され、LIVE講座は11月中旬まで、就業支援は2027年3月まで実施される予定です。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>次回（2027年度以降）の募集:</strong> 実施・募集の有無は現時点で公式の発表を確認できていません。公式サイトで要確認です（<a href="#sec6" className="underline" style={{ color: "#7c3a55" }}>確認方法はこちら</a>）。</span></li>
@@ -485,7 +485,7 @@ export default function ArticlePage() {
           <h2 className="text-xl font-bold mb-4">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
             <li>出典: 山梨県「やまなしキャリアアップ・ユニバーシティ 非正規雇用者・求職者向け講座について」（産業人材課） <a href="https://www.pref.yamanashi.jp/rosei-jin/digital-women/recruitment.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.yamanashi.jp/rosei-jin/digital-women/recruitment.html</a>（2026年7月18日確認・ページ更新日2026年7月15日）</li>
-            <li>出典: やまなし女性デジタル人材プロジェクト2026 特設ページ（運営: 株式会社東海道シグマ） <a href="https://sigma-jp.co.jp/education/public/yamanashi-digital2026/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://sigma-jp.co.jp/education/public/yamanashi-digital2026/</a>（2026年7月18日確認）</li>
+            <li>出典: やまなし女性デジタル人材プロジェクト2026 特設ページ（運営: 株式会社東海道シグマ） <a href="https://sigma-jp.co.jp/education/public/yamanashi-digital2026/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://sigma-jp.co.jp/education/public/yamanashi-digital2026/</a>（2026年10月17日確認）</li>
           </ul>
         </div>
       </section>
