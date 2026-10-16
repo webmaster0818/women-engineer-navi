@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "女性ITエンジニアの転職データ集｜年収（年代・言語・職種別）・割合・育休・求人倍率【出典つき2026年】",
+    "女性ITエンジニアの転職データ集｜年収（年代・言語・職種別）・割合・育休・求人倍率【出典を併記・2026年】",
   description:
-    "女性ITエンジニアの平均年収（年代別・言語別・主要12職種別）、業界の女性比率、IT人材の求人倍率、情報通信業の育休取得率・テレワーク導入率を、公的統計や調査の出典つきでまとめたデータ集。転職判断やキャリア設計の根拠としてご活用ください。",
+    "女性ITエンジニアの平均年収（年代別・言語別・主要12職種別）、業界の女性比率、IT人材の求人倍率、情報通信業の育休取得率・テレワーク導入率を、公的統計や調査の出典を併記してまとめたデータ集。転職判断やキャリア設計の根拠としてご活用ください。",
   alternates: { canonical: "/articles/data/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性ITエンジニアの転職データ集｜年収・割合・育休・求人倍率【出典つき】",
+    title: "女性ITエンジニアの転職データ集｜年収・割合・育休・求人倍率【出典を併記】",
     description:
       "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を出典を併記して集約したデータ集。",
     url: "https://women-engineer.com/articles/data/",
@@ -90,7 +90,7 @@ export default function DataPage() {
           女性ITエンジニアの転職データ集
         </h1>
         <p className="mt-4 text-sm md:text-base text-text-light leading-[2]">
-          女性ITエンジニアの年収・業界での割合・求人倍率・育休取得率などを、公的統計や調査の<strong>出典つき</strong>で1ページにまとめました。転職するかどうかの判断や、キャリア設計の根拠としてご活用ください。数値はすべて出典・参照時期を明記しています（参照：2026年6月）。
+          女性ITエンジニアの年収・業界での割合・求人倍率・育休取得率などを、公的統計や調査の<strong>出典を併記</strong>して1ページにまとめました。転職するかどうかの判断や、キャリア設計の根拠としてご活用ください。数値はすべて出典・参照時期を明記しています（参照：2026年6月）。
         </p>
 
         {/* 年収 */}
@@ -183,7 +183,7 @@ export default function DataPage() {
 
           <h3 className="mt-6 text-base font-bold text-text">職種・分野別の需要シグナル</h3>
           <p className="mt-2 text-sm text-text-light leading-[1.9]">
-            職種ごとの公的な求人倍率は細分データが乏しいため、「不足度」「年収プレミアム」という需給シグナルで需要の高い分野を示します（いずれも出典つきの公開データ）。
+            職種ごとの公的な求人倍率は細分データが乏しいため、「不足度」「年収プレミアム」という需給シグナルで需要の高い分野を示します（いずれも出典を併記した公開データ）。
           </p>
           <div className="mt-2 overflow-x-auto">
             <table className="w-full border-collapse">
