@@ -295,7 +295,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            ※オファー面談で年収以外に確認すべき項目（昇給制度・評価サイクル・残業代の扱いなど）は <a href="/articles/offer-meeting/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきこと完全ガイド</a> にチェックリストをまとめています。
+            ※オファー面談で年収以外に確認すべき項目（昇給制度・評価サイクル・残業代の扱いなど）は <a href="/articles/offer-meeting/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきことガイド</a> にチェックリストをまとめています。
           </p>
         </div>
       </section>
@@ -469,7 +469,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>1. 入社後の昇給制度・評価サイクルを確認する</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                初年度の提示額が希望に届かなくても、昇給が年2回・等級制度が明確な会社なら1〜2年で逆転できます。オファー面談で「評価・昇給のサイクル」「等級ごとの年収レンジ」「直近の昇給実績」を確認し、可能なら「1年後に◯◯を達成した場合の想定年収」を聞いておきましょう。確認項目の全リストは <a href="/articles/offer-meeting/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきこと完全ガイド</a> にまとめています。
+                初年度の提示額が希望に届かなくても、昇給が年2回・等級制度が明確な会社なら1〜2年で逆転できます。オファー面談で「評価・昇給のサイクル」「等級ごとの年収レンジ」「直近の昇給実績」を確認し、可能なら「1年後に◯◯を達成した場合の想定年収」を聞いておきましょう。確認項目の全リストは <a href="/articles/offer-meeting/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>オファー面談で確認すべきことガイド</a> にまとめています。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -609,7 +609,7 @@ export default function ArticlePage() {
               <p className="text-sm text-text-light">年代・職種別の実データと年収アップ術</p>
             </a>
             <a href="/articles/offer-meeting/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>オファー面談で確認すべきこと完全ガイド</h3>
+              <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>オファー面談で確認すべきことガイド</h3>
               <p className="text-sm text-text-light">条件交渉とチェックリスト</p>
             </a>
             <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>

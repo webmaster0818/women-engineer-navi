@@ -374,7 +374,7 @@ export default function ArticlePage() {
                 チェック4：自分のフェーズに合う守備範囲か
               </h3>
               <p className="text-sm text-text-light leading-relaxed">
-                エージェントには、IT・Web業界に絞った<strong>IT特化型</strong>、全業界を扱う<strong>総合型</strong>、女性のキャリア継続支援に焦点を当てた<strong>女性特化型</strong>というカテゴリの違いがあります。実務経験者はIT特化型を軸に、未経験・キャリアチェンジは総合型や未経験向け支援を軸に、というのが基本の考え方です。カテゴリごとの違いと使い分けは<a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#7c3a55" }}>IT特化型と総合型エージェントの違い</a>で詳しく解説しています。未経験からの学習ロードマップは<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになる完全ガイド</a>を参照してください。
+                エージェントには、IT・Web業界に絞った<strong>IT特化型</strong>、全業界を扱う<strong>総合型</strong>、女性のキャリア継続支援に焦点を当てた<strong>女性特化型</strong>というカテゴリの違いがあります。実務経験者はIT特化型を軸に、未経験・キャリアチェンジは総合型や未経験向け支援を軸に、というのが基本の考え方です。カテゴリごとの違いと使い分けは<a href="/articles/specialized-vs-general/" className="underline" style={{ color: "#7c3a55" }}>IT特化型と総合型エージェントの違い</a>で詳しく解説しています。未経験からの学習ロードマップは<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになるガイド</a>を参照してください。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -694,7 +694,7 @@ export default function ArticlePage() {
               style={{ borderColor: "#d9c7b8" }}
             >
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
-                未経験からエンジニアになる完全ガイド
+                未経験からエンジニアになるガイド
               </h3>
               <p className="text-sm text-text-light">学習ロードマップと転職の進め方</p>
             </a>

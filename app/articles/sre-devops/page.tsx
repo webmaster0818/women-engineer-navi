@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性SRE・DevOpsエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性SRE・DevOpsエンジニアの年収・必要スキル・インフラからのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
+      "女性SRE・DevOpsエンジニアの年収・必要スキル・インフラからのロードマップ・求人動向・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/sre-devops/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -347,7 +347,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">未経験・インフラから目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              SRE・DevOpsは「いきなり未経験から」は難易度が高い職種です。まず<strong>インフラエンジニアか開発エンジニアとして1〜2年の実務経験</strong>を積み、そこから移行するのが王道。インフラ運用や情報システム部門の経験がある女性は、その土台を活かせます。次の順序で進めると挫折しにくいです。
+              SRE・DevOpsは「いきなり未経験から」は難易度が高い職種です。まず<strong>インフラエンジニアか開発エンジニアとして1〜2年の実務経験</strong>を積み、そこから移行するのが王道。インフラ運用や情報システム部門の経験がある女性は、その土台を活かせます。次の順序で進めると挫折しにくい傾向があります。
             </p>
           </div>
           <div className="space-y-4">
@@ -485,7 +485,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
-              <p className="text-sm text-text-light leading-relaxed">正直な注意点として、(1)「SRE募集」でも実態が従来型の運用監視に近い求人が混ざっていること（SLO運用・自動化の実態を面接で質問して見極める）、(2)オンコールの負担は輪番人数・アラート件数・代休運用で大きく変わるため具体的な数字で確認が必要なこと、(3)ツールチェーンの進化が速く継続的な学習が前提になること、の3点は押さえておきましょう。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
+              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)「SRE募集」でも実態が従来型の運用監視に近い求人が混ざっていること（SLO運用・自動化の実態を面接で質問して見極める）、(2)オンコールの負担は輪番人数・アラート件数・代休運用で大きく変わるため具体的な数字で確認が必要なこと、(3)ツールチェーンの進化が速く継続的な学習が前提になること、の3点は押さえておきましょう。求人票で判断できない部分はエージェント経由での確認が確実です。</p>
             </div>
           </div>
           <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>

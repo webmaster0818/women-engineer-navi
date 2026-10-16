@@ -312,7 +312,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">勉強時間と勉強法（STEPで解説）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              目安は、<strong>OSS-DB SilverやORACLE MASTER Bronzeで1〜3ヶ月</strong>、<strong>OSS-DB GoldやORACLE MASTER Goldで半年〜1年</strong>、<strong>データベーススペシャリストで200時間以上</strong>。次の順序で進めると、未経験からでも挫折しにくいです。
+              目安は、<strong>OSS-DB SilverやORACLE MASTER Bronzeで1〜3ヶ月</strong>、<strong>OSS-DB GoldやORACLE MASTER Goldで半年〜1年</strong>、<strong>データベーススペシャリストで200時間以上</strong>。次の順序で進めると、未経験からでも挫折しにくい傾向があります。
             </p>
           </div>
           <div className="space-y-4">

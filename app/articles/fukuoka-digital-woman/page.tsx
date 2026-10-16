@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
   description:
-    "福岡県「でじたる女子プロジェクト」を公式情報をもとに解説。無料でSAP・RPAを学べた支援の内容と、2026年7月18日時点の募集状況（公式サイトに「本事業は終了しました」と表示）、代わりに使える支援制度まで正直に整理します。",
+    "福岡県「でじたる女子プロジェクト」を公式情報をもとに解説。無料でSAP・RPAを学べた支援の内容と、2026年7月18日時点の募集状況（公式サイトに「本事業は終了しました」と表示）、代わりに利用できる支援制度まで整理します。",
   alternates: { canonical: "/articles/fukuoka-digital-woman/" },
   openGraph: { images: ["/og-default.png"],
     title: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
@@ -135,7 +135,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：3つの即答</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：3つの即答</h2>
             <ul className="space-y-3 text-sm leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性PHPエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性PHPエンジニアの仕事内容・年収・必要スキル・未経験ロードマップ・求人動向・将来性・キャリアパスを実データで徹底解説。",
+      "女性PHPエンジニアの仕事内容・年収・必要スキル・未経験ロードマップ・求人動向・将来性・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/php-career/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -329,7 +329,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。PHPは情報が多く、次の順序で進めると挫折しにくいです。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。PHPは情報が多く、次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[

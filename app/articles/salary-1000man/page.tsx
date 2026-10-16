@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが年収1000万を目指す方法｜届く職種・スキル・5つの戦略",
     description:
-      "女性エンジニアが年収1000万円に到達できる職種・必要スキル・達成ルート・5つの戦略を実データで徹底解説。",
+      "女性エンジニアが年収1000万円に到達できる職種・必要スキル・達成ルート・5つの戦略を実データで解説。",
     url: "https://women-engineer.com/articles/salary-1000man/",
     type: "article",
     siteName: "CareeHUB for woman",

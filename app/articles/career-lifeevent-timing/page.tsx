@@ -135,7 +135,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：順番に「正解」はない。ただし分岐点はある</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：順番に「正解」はない。ただし分岐点はある</h2>
             <ul className="space-y-3 text-sm leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
@@ -324,7 +324,7 @@ export default function ArticlePage() {
               <ul className="space-y-2 text-sm text-text-light">
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">産休:</span><span>勤続期間に関係なく取得できます。まずここは心配いりません。</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">育休:</span><span>育休開始予定日の時点で継続雇用1年未満なら、労使協定がある会社では取得できない可能性があります。出産予定日から逆算すると、育休開始は産後8週間後以降になるため、「入社から育休開始までに1年経過しているか」が実際の分かれ目になります。まず会社の規程・労使協定を確認しましょう。</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">給付金:</span><span>前職の離職から1年以内の転職で、間に失業給付の受給資格決定を受けていなければ、前職の被保険者期間と通算して12か月要件を満たせる可能性が高いです。ハローワークで確認を。</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">給付金:</span><span>前職の離職から1年以内の転職で、間に失業給付の受給資格決定を受けていなければ、前職の被保険者期間と通算して12か月要件を満たせる可能性があります。ハローワークで確認を。</span></li>
               </ul>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>

@@ -113,7 +113,7 @@ export default function ResumeGuidePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：通る職務経歴書の4原則</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：通る職務経歴書の4原則</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
@@ -334,7 +334,7 @@ export default function ResumeGuidePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>実務1〜3年で「書ける実績がない」場合</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                若手に大きな実績がないことは採用側も織り込み済みです。見られているのは<strong>担当範囲の正確な記述と、課題への向き合い方</strong>。任されたタスクの中での工夫（テストの観点を増やした、ドキュメントを整備した、レビュー指摘を仕組みで減らした等）を「課題→打ち手→結果」の型で書けば、それ自体が実績になります。技術スタック欄は「研修で触れた」と「実務で使った」を正直に区別して書きましょう。ここを混ぜると面接で必ず露見します。
+                若手に大きな実績がないことは採用側も織り込み済みです。見られているのは<strong>担当範囲の正確な記述と、課題への向き合い方</strong>。任されたタスクの中での工夫（テストの観点を増やした、ドキュメントを整備した、レビュー指摘を仕組みで減らした等）を「課題→打ち手→結果」の型で書けば、それ自体が実績になります。技術スタック欄は「研修で触れた」と「実務で使った」を明確に区別して記載しましょう。ここを混ぜると面接で必ず露見します。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -393,7 +393,7 @@ export default function ResumeGuidePage() {
                 <tr className="bg-white">
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>面接段階</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>働き方の設計と貢献の両方</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>制約だけでなく「その時間内でどう成果を出すか」（業務の優先順位づけ・非同期コミュニケーションの工夫など）をセットで話す。条件交渉は内定前後のオファー面談が本番</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>制約だけでなく「その時間内でどう成果を出すか」（業務の優先順位の整理・非同期コミュニケーションの工夫など）をセットで話す。条件交渉は内定前後のオファー面談が本番</td>
                 </tr>
               </tbody>
             </table>

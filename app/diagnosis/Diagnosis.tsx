@@ -126,7 +126,7 @@ const RELATED: Record<Key, { href: string; label: string }[]> = {
     { href: "/articles/job-hunting-while-employed/", label: "在職中の転職活動の進め方" },
   ],
   techgo: [
-    { href: "/articles/techgo-career-mendan/", label: "テックゴーの無料キャリア面談を徹底解説" },
+    { href: "/articles/techgo-career-mendan/", label: "テックゴーの無料キャリア面談を解説" },
     { href: "/articles/negotiation/", label: "年収交渉術｜タイミングと伝え方" },
   ],
 };

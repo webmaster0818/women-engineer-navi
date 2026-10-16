@@ -382,7 +382,7 @@ export default function ArticlePage() {
           <div className="grid gap-6 md:grid-cols-2 mt-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>1. 自分から選考希望を伝える</h3>
-              <p className="text-sm text-text-light">面談の終盤で「お話を伺ってより興味が湧きました。ぜひ選考に進みたいです」と意思表示を。受け身では話が進まないことも多いです。</p>
+              <p className="text-sm text-text-light">面談の終盤で「お話を伺ってより興味が湧きました。ぜひ選考に進みたいです」と意思表示を。受け身では話が進まないことも多く見られます。</p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>2. 次の流れを確認する</h3>
@@ -424,7 +424,7 @@ export default function ArticlePage() {
           </div>
           <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#efe3d8" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong>補足：</strong>担当者の答え方や、現場エンジニアが同席するかどうかも判断材料になります。制度の数字をスラスラ答えられる、実際に時短や育休復帰の事例を具体的に語れる企業は、運用が根づいている可能性が高いです。逆に言葉を濁す場合は、入社後のギャップに注意。気になる詳細条件は、女性のキャリアに詳しいエージェント経由でも裏取りしておくと安心です。
+              <strong>補足：</strong>担当者の答え方や、現場エンジニアが同席するかどうかも判断材料になります。制度の数字をスラスラ答えられる、実際に時短や育休復帰の事例を具体的に語れる企業は、運用が根づいている可能性があります。逆に言葉を濁す場合は、入社後のギャップに注意。気になる詳細条件は、女性のキャリアに詳しいエージェント経由でも裏取りしておくと安心です。
             </p>
           </div>
         </div>

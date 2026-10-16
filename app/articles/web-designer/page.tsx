@@ -386,13 +386,13 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">キャリアチェンジの学習ロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              Webデザイナーは「HTMLとCSSに触れたことがある」「Webの仕組みを肌感覚で知っている」分、完全未経験よりスタート地点が前にあります。1日2〜3時間の学習で<strong>半年〜1年</strong>が目安です。プログラミング学習全般の進め方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになる完全ガイド</a>も参考にしてください。
+              Webデザイナーは「HTMLとCSSに触れたことがある」「Webの仕組みを肌感覚で知っている」分、完全未経験よりスタート地点が前にあります。1日2〜3時間の学習で<strong>半年〜1年</strong>が目安です。プログラミング学習全般の進め方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになるガイド</a>も参考にしてください。
             </p>
           </div>
           <div className="space-y-4">
             {[
               ["STEP1", "HTML/CSSを「実装者の視点」で再整理する", "デザイナーとして触れてきたHTML/CSSを、Flexbox・Grid・レスポンシブ設計まで体系的に学び直します。自分の過去デザインを1枚、完全に自力でコーディングしてみるのが最良の練習です。"],
-              ["STEP2", "JavaScriptの基礎を固める", "変数・関数・配列・DOM操作・イベント処理まで。デザインに動きを付ける（モーダル、タブ、スクロール連動）題材だと、デザイナー出身者はモチベーションを保ちやすいです。"],
+              ["STEP2", "JavaScriptの基礎を固める", "変数・関数・配列・DOM操作・イベント処理まで。デザインに動きを付ける（モーダル、タブ、スクロール連動）題材だと、デザイナー出身者はモチベーションを保ちやすい傾向があります。"],
               ["STEP3", "ReactとTypeScriptを習得する", "現在のフロントエンド求人の中心。Figmaのコンポーネント概念がそのままReactコンポーネントに対応するため、デザイナー出身者は概念理解が速い傾向があります。学習手順はTypeScript×React学習ガイドを参照。"],
               ["STEP4", "Git・デザイン連携ツールに慣れる", "GitHubでのコード管理は必須。加えてFigmaのDev Mode、Storybookなど「デザインとコードをつなぐツール」を押さえると、デザイナー出身の強みが際立ちます。"],
               ["STEP5", "「自分でデザインして自分で実装した」ポートフォリオを作る", "デザインカンプ（Figma）と実装（公開URL＋GitHub）をセットで提示できるのは、デザイナー出身者だけの武器。架空サービスのLPやWebアプリを1〜2本、細部まで作り込みます。"],
@@ -572,7 +572,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>4. 現実的な注意点</h3>
-              <p className="text-text-light text-sm leading-relaxed">バナー量産やテンプレート的なLP制作など、AIで代替されやすい業務から縮小が進む傾向にあります。「デザインだけ」のスキルセットのままでは、年収も仕事の幅も頭打ちになりやすいのが正直なところです。実装・UX・ディレクションのいずれかを掛け算して「代替されにくい専門性」を作ることが、この職種で長く働くための現実的な戦略です。</p>
+              <p className="text-text-light text-sm leading-relaxed">バナー量産やテンプレート的なLP制作など、AIで代替されやすい業務から縮小が進む傾向にあります。「デザインだけ」のスキルセットのままでは、年収も仕事の幅も頭打ちになりやすい実情があります。実装・UX・ディレクションのいずれかを掛け算して「代替されにくい専門性」を作ることが、この職種で長く働くための現実的な戦略です。</p>
             </div>
           </div>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>

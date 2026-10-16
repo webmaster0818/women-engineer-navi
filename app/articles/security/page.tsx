@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性セキュリティエンジニア転職ガイド｜年収・資格・未経験からの道",
     description:
-      "女性セキュリティエンジニアの年収・必要資格・未経験からのロードマップ・需要・キャリアパスを実データで徹底解説。",
+      "女性セキュリティエンジニアの年収・必要資格・未経験からのロードマップ・需要・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/security/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -340,7 +340,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>セキュリティは上級職のため、いきなりではなく<strong>インフラ経由</strong>が王道。基礎固めに半年〜1年、インフラ実務に2〜3年が一つの目安です。次の順序で進めると挫折しにくいです。</p>
+            <p>セキュリティは上級職のため、いきなりではなく<strong>インフラ経由</strong>が王道。基礎固めに半年〜1年、インフラ実務に2〜3年が一つの目安です。次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -477,7 +477,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
-              <p className="text-sm text-text-light leading-relaxed">正直な注意点として、(1)SOC（監視）は24時間の交代制シフトの現場が多く、夜勤を避けたい場合はポジション選びが必須なこと、(2)インシデント対応は性質上、突発対応が発生し得ること（体制・当番制の有無を要確認）、(3)上級職ゆえに未経験からはインフラ経験を挟む数年単位の道のりになること、の3点は押さえておきましょう。働き方の実態は求人票に出にくいため、エージェント経由での確認が確実です。</p>
+              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)SOC（監視）は24時間の交代制シフトの現場が多く、夜勤を避けたい場合はポジション選びが必須なこと、(2)インシデント対応は性質上、突発対応が発生し得ること（体制・当番制の有無を要確認）、(3)上級職ゆえに未経験からはインフラ経験を挟む数年単位の道のりになること、の3点は押さえておきましょう。働き方の実態は求人票に出にくいため、エージェント経由での確認が確実です。</p>
             </div>
           </div>
           <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>

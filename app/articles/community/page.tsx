@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアコミュニティまとめ｜つながりがキャリアを変える理由と選び方【2026年】",
     description:
-      "2026年6月時点で活動を確認できた女性エンジニア向けコミュニティのみを紹介。対象・活動内容・参加方法、解散・休止情報まで正直に解説。",
+      "2026年6月時点で活動を確認できた女性エンジニア向けコミュニティのみを紹介。対象・活動内容・参加方法、解散・休止情報まで客観的に解説。",
     url: "https://women-engineer.com/articles/community/",
     type: "article",
     siteName: "CareeHUB for woman",

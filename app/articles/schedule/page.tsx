@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
+  title: "エンジニア転職のスケジュールガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
   description:
     "エンジニア転職のスケジュールを実データで解説。全体3〜6ヶ月の標準モデル、フェーズ別タイムライン（準備2〜4週→応募・選考1〜2ヶ月→内定・退職交渉→引き継ぎ・入社）、入社希望日からの逆算プラン、ボーナス月・保育園入園などタイミングの考え方、民法627条と就業規則の関係まで出典付きで網羅します。",
   alternates: { canonical: "/articles/schedule/" },
   openGraph: { images: ["/og-default.png"],
-    title: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
+    title: "エンジニア転職のスケジュールガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
     description:
       "全体3〜6ヶ月の標準モデル、フェーズ別タイムライン、入社希望日からの逆算プラン、ボーナス月・ライフイベントのタイミング、退職の法的ルールまで出典付きで解説。",
     url: "https://women-engineer.com/articles/schedule/",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "エンジニア転職のスケジュール完全ガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
+  headline: "エンジニア転職のスケジュールガイド｜平均期間・逆算プラン・在職中の進め方【2026年】",
   datePublished: "2026-04-27",
   dateModified: "2026-07-13",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
@@ -83,7 +83,7 @@ const breadcrumbData = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://women-engineer.com" },
     { "@type": "ListItem", position: 2, name: "転職コラム", item: "https://women-engineer.com/articles/category-index/" },
-    { "@type": "ListItem", position: 3, name: "転職スケジュール完全ガイド", item: "https://women-engineer.com/articles/schedule/" },
+    { "@type": "ListItem", position: 3, name: "転職スケジュールガイド", item: "https://women-engineer.com/articles/schedule/" },
   ],
 };
 
@@ -97,11 +97,11 @@ export default function ArticlePage() {
       {/* Hero */}
       <section className="relative py-12 md:py-16" style={{ background: "linear-gradient(135deg, #efe3d8 0%, #f4e7da 100%)" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "転職スケジュール完全ガイド" }]} />
+          <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "転職コラム", href: "/articles/category-index/" }, { label: "転職スケジュールガイド" }]} />
           <div className="mt-4">
             <span className="inline-block rounded-full px-4 py-1 text-sm font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>転職ガイド</span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              エンジニア転職のスケジュール完全ガイド
+              エンジニア転職のスケジュールガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">平均期間・逆算プラン・在職中の進め方【2026年】</span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
@@ -113,7 +113,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：転職スケジュールはこの4点で決まる</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：転職スケジュールはこの4点で決まる</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>

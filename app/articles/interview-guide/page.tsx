@@ -113,7 +113,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：面接対策はこの4点を押さえる</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：面接対策はこの4点を押さえる</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
@@ -281,7 +281,7 @@ export default function ArticlePage() {
                 <li><strong>④ 結果と振り返り:</strong> 「今やるなら◯◯を選ぶ」まで言えれば、学習し続けている証明になります。</li>
               </ul>
               <p className="text-sm text-text-light leading-relaxed">
-                会社指定の技術しか使っていない場合も「指定された制約の中でどう工夫したか」は語れます。分からない質問には正直に「分かりません。ただ、調べるなら◯◯から確認します」と返す方が、取り繕うより高評価です。ライブコーディングや設計課題を含む準備は<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接対策</a>で詳しく解説しています。
+                会社指定の技術しか使っていない場合も「指定された制約の中でどう工夫したか」は語れます。分からない質問には率直に「分かりません。ただ、調べるなら◯◯から確認します」と返す方が、取り繕うより高評価です。ライブコーディングや設計課題を含む準備は<a href="/articles/technical-interview/" className="underline" style={{ color: "#7c3a55" }}>技術面接対策</a>で詳しく解説しています。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>

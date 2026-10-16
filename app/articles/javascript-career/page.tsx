@@ -224,7 +224,7 @@ export default function ArticlePage() {
               まず求人数から。paizaが2025年12月に発表した「プログラミング言語に関する調査（2025年）」では、企業からの求人ニーズが最も高い言語は<strong>JavaScript（14.4%）</strong>で、2位のJava（13.9%）、3位のPHP（11.0%）を抑えて1位でした。フリーランス市場でも、フリーランスボードの集計（調査対象42,270件、2026年3月時点）でJavaScript案件は<strong>案件数4位・市場全体の9.21%</strong>を占めます。出典: paiza「プログラミング言語に関する調査（2025年）」（@IT掲載、2026年6月参照）／フリーランスボード「JavaScriptエンジニア案件調査 2026年3月」（INSTANTROOM、2026年6月参照）
             </p>
             <p>
-              年収は、正社員で<strong>平均450万〜500万円</strong>が目安。経験年数とスキルの掛け算で大きく変わります。出典: CAREER COMPASS「JavaScript開発者への転職完全ガイド」（2026年6月参照）
+              年収は、正社員で<strong>平均450万〜500万円</strong>が目安。経験年数とスキルの掛け算で大きく変わります。出典: CAREER COMPASS「JavaScript開発者への転職ガイド」（2026年6月参照）
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -246,7 +246,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-xs text-text-light mt-3">
-            出典: 経験別はCAREER COMPASS「JavaScript開発者への転職完全ガイド」、フリーランスはフリーランスボード「JavaScriptエンジニア案件調査 2026年3月」（いずれも2026年6月参照）。企業・地域・スキルにより変動します。
+            出典: 経験別はCAREER COMPASS「JavaScript開発者への転職ガイド」、フリーランスはフリーランスボード「JavaScriptエンジニア案件調査 2026年3月」（いずれも2026年6月参照）。企業・地域・スキルにより変動します。
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-4">
             <p>
@@ -441,7 +441,7 @@ export default function ArticlePage() {
               <li>・INSTANTROOM「フリーランスボード」JavaScriptエンジニア案件調査 2026年3月（2026年6月参照）— 案件数・単価・リモート比率・フレームワーク別データ</li>
               <li>・INSTANTROOM「フリーランスボード」TypeScriptエンジニア案件調査 2026年3月（2026年6月参照）— TypeScript案件の単価・年収</li>
               <li>・State of JavaScript 2025（InfoQ 2026年3月記事、2026年6月参照）— TypeScript採用率・フレームワーク使用率</li>
-              <li>・CAREER COMPASS「JavaScript開発者への転職完全ガイド」（2026年6月参照）— 正社員の経験年数別年収目安</li>
+              <li>・CAREER COMPASS「JavaScript開発者への転職ガイド」（2026年6月参照）— 正社員の経験年数別年収目安</li>
             </ul>
             <p className="text-xs text-text-light mt-4">年収・案件数は調査時点のものであり、企業・地域・個人のスキルにより変動します。</p>
           </div>

@@ -275,7 +275,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">復職・転職に役立つ資格</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              育休中の学習は「ゴールが見える資格」と相性が良いです。下表は学習時間が読みやすく、復職後の実務や転職市場でも評価されやすい資格をまとめたものです（学習時間はIT実務経験者の目安）。
+              育休中の学習は「ゴールが見える資格」と相性が良好です。下表は学習時間が読みやすく、復職後の実務や転職市場でも評価されやすい資格をまとめたものです（学習時間はIT実務経験者の目安）。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">

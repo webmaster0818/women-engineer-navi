@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性のテクニカルサポート・カスタマーサクセス転職ガイド｜年収・なり方・将来性",
     description:
-      "女性に人気のテクニカルサポート／カスタマーサクセス転職を実データで徹底解説。年収・未経験からのなり方・SaaS拡大による求人動向・キャリアパス。",
+      "女性に人気のテクニカルサポート／カスタマーサクセス転職を実データで解説。年収・未経験からのなり方・SaaS拡大による求人動向・キャリアパス。",
     url: "https://women-engineer.com/articles/support-engineer/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -332,7 +332,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             {[
               ["STEP1", "職種理解と自己分析", "テクニカルサポート/カスタマーサクセスの違いと、SaaS・サブスクの基本を理解。接客・営業・事務など、自分の経験のどこが活かせるかを棚卸しします。"],
-              ["STEP2", "IT・SaaSの基礎を学ぶ", "Web/クラウドの仕組み、API・連携の概念をざっくり把握。代表的なSaaS（Salesforce、Slack、freeeなど）を実際に触ると理解が早まります。"],
+              ["STEP2", "IT・SaaSの基礎を学ぶ", "Web/クラウドの仕組み、API・連携の概念の概要を把握。代表的なSaaS（Salesforce、Slack、freeeなど）を実際に触ると理解が早まります。"],
               ["STEP3", "強みを成果で語れるようにする", "前職で「顧客の課題を聞き出し解決した」「継続・リピートにつなげた」エピソードを数字付きで整理。CS・サポートの成果指標に翻訳します。"],
               ["STEP4", "数値・ツールに慣れる", "Excelでの集計、可能ならSQLの基礎、Zendesk/Intercom等のサポートツールに触れておくと、未経験でも評価が上がります。"],
               ["STEP5", "未経験歓迎求人に応募", "SaaS企業の未経験歓迎・ポテンシャル採用を中心に。IT特化型エージェントに相談すると、求人票に出ない働き方の実態まで確認できます。"],

@@ -691,7 +691,7 @@ export default function ArticlePage() {
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都の女性ITエンジニア育成事業</h3>
-              <p className="text-sm text-text-light">受講料無料の公的支援を徹底解説</p>
+              <p className="text-sm text-text-light">受講料無料の公的支援を解説</p>
             </a>
             <a href="/articles/programming-school/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>プログラミングスクール選びガイド</h3>

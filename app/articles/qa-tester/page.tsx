@@ -90,7 +90,7 @@ const faqData = {
       name: "QAエンジニア・テスターの仕事は単調ではないですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "正直に言うと、テスト実行フェーズは同じ操作の繰り返しが多く、単調に感じる人もいます。向き不向きが分かれるポイントは「細かい違和感に気づく作業が得意・好きかどうか」です。一方、テスト設計や自動化に進むと「どうすれば少ない工数で品質を保証できるか」を考える設計的な仕事に変わり、単調さは大きく減ります。テスト実行はあくまでキャリアの入口と捉え、1〜2年でテスト設計・自動化へ業務を広げる前提で計画するのがおすすめです。",
+        text: "実際には、テスト実行フェーズは同じ操作の繰り返しが多く、単調に感じる人もいます。向き不向きが分かれるポイントは「細かい違和感に気づく作業が得意・好きかどうか」です。一方、テスト設計や自動化に進むと「どうすれば少ない工数で品質を保証できるか」を考える設計的な仕事に変わり、単調さは大きく減ります。テスト実行はあくまでキャリアの入口と捉え、1〜2年でテスト設計・自動化へ業務を広げる前提で計画するのがおすすめです。",
       },
     },
     {
@@ -450,7 +450,7 @@ export default function ArticlePage() {
             </p>
             <h3 className="text-xl font-bold mt-8 mb-3">AIはQAの仕事を奪うのか</h3>
             <p>
-              結論から言うと、<strong>「テスト実行」は代替が進み、「品質保証」はむしろ重要になる</strong>というのが2026年時点の冷静な見立てです。
+              <strong>「テスト実行」は代替が進み、「品質保証」はむしろ重要になる</strong>というのが2026年時点の冷静な見立てです。
             </p>
             <p>
               生成AIやコーディングエージェントによる開発が広がるにつれ、AIが書いたコードの品質を誰がどう保証するかが開発全体のボトルネックになりつつあり、QAの役割は「最後に合否判定する検査」から「最初から品質が落ちない仕組みを設計する」方向へ広がっています（出典: エンジニアtype「AI時代の開発は『品質保証』がボトルネックに」、2026年6月参照）。日本総合研究所も、生成AIで作られたソフトウェアはバグの発生傾向が従来の統計的予測に乗りにくく、品質保証の進化とQA組織・エンジニアの真価が問われると指摘しています（出典: 日本総合研究所「生成AIが変革するソフトウェア品質保証の未来」、2026年6月参照）。
@@ -490,7 +490,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-sm text-text-light leading-relaxed mt-6">
-            未経験からのIT転職全般の進め方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになる完全ガイド</a>を、QAと並ぶもう一つの入口職種については<a href="/articles/support-engineer/" className="underline" style={{ color: "#7c3a55" }}>サポートエンジニア転職ガイド</a>をあわせてご覧ください。
+            未経験からのIT転職全般の進め方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験からエンジニアになるガイド</a>を、QAと並ぶもう一つの入口職種については<a href="/articles/support-engineer/" className="underline" style={{ color: "#7c3a55" }}>サポートエンジニア転職ガイド</a>をあわせてご覧ください。
           </p>
         </div>
       </section>
@@ -593,7 +593,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>4. 現実的な注意点</h3>
-              <p className="text-text-light text-sm leading-relaxed">テスト実行は同じ操作の繰り返しが多く、単調に感じる人もいます。「細かい確認作業が苦にならないか」は職種選びの正直な分かれ目です。また本文で繰り返し述べたとおり、手動テストの実行だけを続けると年収が頭打ちになりやすく、AIによる代替リスクも高い層です。入口の入りやすさに安住せず、設計・自動化へ進む計画を最初から持つことが何より重要です。</p>
+              <p className="text-text-light text-sm leading-relaxed">テスト実行は同じ操作の繰り返しが多く、単調に感じる人もいます。「細かい確認作業が苦にならないか」は職種選びの分かれ目です。また本文で繰り返し述べたとおり、手動テストの実行だけを続けると年収が頭打ちになりやすく、AIによる代替リスクも高い層です。入口の入りやすさに安住せず、設計・自動化へ進む計画を最初から持つことが何より重要です。</p>
             </div>
           </div>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
@@ -669,7 +669,7 @@ export default function ArticlePage() {
               style={{ borderColor: "#d9c7b8" }}
             >
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
-                未経験からエンジニアになる完全ガイド
+                未経験からエンジニアになるガイド
               </h3>
               <p className="text-sm text-text-light">学習方法から求人選びまでの全体像</p>
             </a>

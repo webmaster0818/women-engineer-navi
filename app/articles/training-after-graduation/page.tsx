@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性IT育成事業の修了後の転職活動ガイド｜進路とエージェント活用【2026年】",
   description:
-    "東京都の女性ITエンジニア育成事業やデジタルカレッジなどを修了した女性向けの転職活動ガイド。修了直後にやること（成果物のポートフォリオ化・職務経歴書）、修了生の進路パターン（受託／自社開発／SES）を正直に整理し、未経験〜微経験の転職で定石となるエージェント併用の使い方まで解説します。",
+    "東京都の女性ITエンジニア育成事業やデジタルカレッジなどを修了した女性向けの転職活動ガイド。修了直後にやること（成果物のポートフォリオ化・職務経歴書）、修了生の進路パターン（受託／自社開発／SES）を整理し、未経験〜微経験の転職で定石となるエージェント併用の使い方まで解説します。",
   alternates: { canonical: "/articles/training-after-graduation/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性IT育成事業の修了後の転職活動ガイド｜進路とエージェント活用【2026年】",
@@ -135,7 +135,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：修了後の3つの要点</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：修了後の3つの要点</h2>
             <ul className="space-y-3 text-sm leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
@@ -202,7 +202,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">修了生の進路パターン（受託／自社／SES）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              未経験からの進路は一つではありません。代表的な受け皿を正直に整理します。どれが良い・悪いという単純な優劣はなく、<strong>研修体制・任される業務・キャリアの積み方は会社ごとに差が大きい</strong>点が最も重要です。形態のラベルだけで判断しないでください。
+              未経験からの進路は一つではありません。代表的な受け皿を整理します。どれが良い・悪いという単純な優劣はなく、<strong>研修体制・任される業務・キャリアの積み方は会社ごとに差が大きい</strong>点が最も重要です。形態のラベルだけで判断しないでください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3">

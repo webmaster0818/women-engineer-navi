@@ -486,7 +486,7 @@ export default function GameIndustryPage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>② 産休・育休・時短との相性</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                制度整備は大手を中心に進んでいますが、<strong>企業差が大きい</strong>のが正直なところです。判断材料にすべきは制度の有無ではなく、取得実績・復帰率・復帰後の配属の実態です。復帰後や時短勤務では、繁閑の読みやすい運営タイトルやツール・QA寄りのポジションが両立しやすく、リリース直前期の時短勤務者の扱い（業務分担・免除の運用）まで面接で確認しておくと入社後のギャップを防げます。
+                制度整備は大手を中心に進んでいますが、<strong>企業差が大きい</strong>のが実情です。判断材料にすべきは制度の有無ではなく、取得実績・復帰率・復帰後の配属の実態です。復帰後や時短勤務では、繁閑の読みやすい運営タイトルやツール・QA寄りのポジションが両立しやすく、リリース直前期の時短勤務者の扱い（業務分担・免除の運用）まで面接で確認しておくと入社後のギャップを防げます。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -496,7 +496,7 @@ export default function GameIndustryPage() {
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点（正直に）</h3>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点</h3>
               <ul className="text-sm text-text-light space-y-2 leading-relaxed">
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>エンジニア職の女性はまだ少数派の現場が多く、社内にロールモデルが少ない場合がある（比率のデータは本ページ統計セクション参照）</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>プロジェクトの中止・方針転換が起こりうるため、タイトルではなくスキルに紐づくキャリア設計が安全</span></li>

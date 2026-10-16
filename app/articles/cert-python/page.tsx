@@ -58,7 +58,7 @@ const faqData = {
       name: "Python3エンジニア認定基礎試験とデータ分析試験は、どちらを先に受けるべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "プログラミング自体が初めての方は基礎試験から始めるのが王道です。基礎試験はオライリー『Pythonチュートリアル（第4版）』が出題範囲で、文法・データ型・制御構文・例外処理など土台を固められます。すでに文法に慣れていて、データ分析・AI領域を目指す方は、データ分析試験から入っても問題ありません。データ分析試験は『Pythonによるあたらしいデータ分析の教科書（第3版）』が範囲で、約67.5%が第4章のライブラリ実践（NumPy・pandas・Matplotlib・scikit-learn）から出題されます。最終的にはAI・データ分析職を狙うなら両方取得しておくと強いです。",
+        text: "プログラミング自体が初めての方は基礎試験から始めるのが王道です。基礎試験はオライリー『Pythonチュートリアル（第4版）』が出題範囲で、文法・データ型・制御構文・例外処理など土台を固められます。すでに文法に慣れていて、データ分析・AI領域を目指す方は、データ分析試験から入っても問題ありません。データ分析試験は『Pythonによるあたらしいデータ分析の教科書（第3版）』が範囲で、約67.5%が第4章のライブラリ実践（NumPy・pandas・Matplotlib・scikit-learn）から出題されます。最終的にはAI・データ分析職を狙うなら両方取得しておくと強い傾向があります。",
       },
     },
     {
@@ -244,7 +244,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            合格率が高めなのは、<strong>出題範囲が公式の指定教材から100%出る</strong>ためで、教材をしっかり押さえれば合格を狙えます。「易しすぎて意味がない」のではなく、<strong>最短で土台を固めるのに向いた資格</strong>だと考えると活用しやすいです。
+            合格率が高めなのは、<strong>出題範囲が公式の指定教材から100%出る</strong>ためで、教材をしっかり押さえれば合格を狙えます。「易しすぎて意味がない」のではなく、<strong>最短で土台を固めるのに向いた資格</strong>だと考えると活用しやすい傾向があります。
           </p>
         </div>
       </section>
@@ -443,7 +443,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">40代・50代からのPython資格の活かし方</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              Python資格には受験資格や年齢制限がなく、<strong>何歳からでも挑戦できます</strong>。ただし年代によって「資格の活きる場面」は変わるため、目的を明確にして学ぶのが失敗しないコツです。
+              Python資格には受験資格や年齢制限がなく、<strong>何歳からでも挑戦できます</strong>。ただし年代によって「資格の活きる場面」は変わるため、目的を明確にして学ぶのが選び方のポイントです。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">
@@ -453,7 +453,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#7c3a55" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>50代：転職だけが活用先ではない</h3>
-              <p className="text-text-light text-sm leading-relaxed">正直にお伝えすると、50代の未経験エンジニア転職はかなり難易度が高いのが実情です。一方で、<strong>現職の業務効率化（Excel作業やデータ集計の自動化）・副業・定年後を見据えた学び直し</strong>としてのPython資格は年齢に関係なく価値があります。「転職の武器」ではなく「働き方の選択肢を広げる学習証明」と捉えるのが現実的です。</p>
+              <p className="text-text-light text-sm leading-relaxed">はじめにお伝えすると、50代の未経験エンジニア転職はかなり難易度が高いのが実情です。一方で、<strong>現職の業務効率化（Excel作業やデータ集計の自動化）・副業・定年後を見据えた学び直し</strong>としてのPython資格は年齢に関係なく価値があります。「転職の武器」ではなく「働き方の選択肢を広げる学習証明」と捉えるのが現実的です。</p>
             </div>
           </div>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#fffaf4" }}>

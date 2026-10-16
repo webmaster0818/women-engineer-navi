@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性バックエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性バックエンドエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
+      "女性バックエンドエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/backend/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -338,7 +338,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。次の順序で進めると挫折しにくいです。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -437,14 +437,14 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性がバックエンドエンジニアとして働くリアル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              2章で「長く働きやすい理由」を紹介しましたが、ここでは実際に働くうえで気になる「夜間対応の有無」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向を正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+              2章で「長く働きやすい理由」を紹介しましたが、ここでは実際に働くうえで気になる「夜間対応の有無」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向として整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
             </p>
           </div>
           <div className="space-y-6 mt-6">
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                バックエンド開発はコードを書く・レビューする作業がオンラインで完結しやすく、一般にリモートワークとの相性が良い職種です。体力面もデスクワーク中心で、力仕事はほぼありません。一方で正直に触れておきたいのが、本番サービスの障害に備える<strong>オンコール（呼び出し待機）当番や深夜リリース</strong>の存在です。運用チームが一次対応を担い開発者はほぼ呼ばれない企業もあれば、開発者が輪番で待機する企業もあり、体制次第で負担が大きく変わります。応募時には「障害対応とリリースの体制」を必ず確認しましょう。
+                バックエンド開発はコードを書く・レビューする作業がオンラインで完結しやすく、一般にリモートワークとの相性が良い職種です。体力面もデスクワーク中心で、力仕事はほぼありません。一方で申し添えておきたいのが、本番サービスの障害に備える<strong>オンコール（呼び出し待機）当番や深夜リリース</strong>の存在です。運用チームが一次対応を担い開発者はほぼ呼ばれない企業もあれば、開発者が輪番で待機する企業もあり、体制次第で負担が大きく変わります。応募時には「障害対応とリリースの体制」を必ず確認しましょう。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -462,7 +462,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                正直な注意点は3つ。(1)技術の学習を続けることが前提の職種で、業務外のキャッチアップ時間をどれだけ確保できるかが長期的な差になりやすい、(2)オンコールや障害対応の負担は企業差が大きく、求人票だけでは分からない、(3)開発チームの女性比率が低い職場もあり、ロールモデルの有無やチーム構成は面談・カジュアル面談で確認する価値がある、という点です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+                注意点は3つ。(1)技術の学習を続けることが前提の職種で、業務外のキャッチアップ時間をどれだけ確保できるかが長期的な差になりやすい、(2)オンコールや障害対応の負担は企業差が大きく、求人票だけでは分からない、(3)開発チームの女性比率が低い職場もあり、ロールモデルの有無やチーム構成は面談・カジュアル面談で確認する価値がある、という点です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
               </p>
             </div>
           </div>

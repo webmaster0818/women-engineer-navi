@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性データベースエンジニア（DBA）転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。データエンジニアとの違いも明確に。",
+      "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。データエンジニアとの違いも明確に。",
     url: "https://women-engineer.com/articles/sql-database/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -348,7 +348,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。次の順序で進めると挫折しにくいです。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -470,7 +470,7 @@ export default function ArticlePage() {
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点（正直に）</h3>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点</h3>
               <ul className="text-sm text-text-light space-y-2 leading-relaxed">
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>本番DBの障害対応・夜間メンテナンスが当番制の現場では、生活リズムへの影響がある（設計・チューニング中心のポジション選びで回避可能）</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>金融・基幹系にはオンプレミス環境や客先常駐の現場も残っており、リモート可否は案件差が大きい</span></li>

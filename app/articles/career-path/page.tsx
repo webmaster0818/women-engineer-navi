@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアのキャリアパス完全マップ｜5つの方向性と年収・選び方【2026年】",
   description:
-    "女性エンジニアのキャリアパスを実データで徹底解説。スペシャリスト・マネジメント・PM/PdM・社内SE・フリーランスの5類型を年収データ付きで比較（PM707万円・PdM約774万円=doda/PM Career、社内SE約510万〜580万円等）。",
+    "女性エンジニアのキャリアパスを実データで解説。スペシャリスト・マネジメント・PM/PdM・社内SE・フリーランスの5類型を年収データ付きで比較（PM707万円・PdM約774万円=doda/PM Career、社内SE約510万〜580万円等）。",
   alternates: { canonical: "/articles/career-path/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアのキャリアパス完全マップ｜5つの方向性と年収・選び方【2026年】",
@@ -171,7 +171,7 @@ export default function ArticlePage() {
             <ol className="space-y-2 text-sm">
               <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 女性エンジニアのキャリアを取り巻く現状【実データ】</a></li>
               <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. キャリアパス5類型の比較表（年収・働き方・向き不向き）</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 5つのキャリアパス徹底解説</a></li>
+              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 5つのキャリアパス解説</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. ライフイベントを織り込んだキャリア設計（時短期・復帰期）</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 年代別ロードマップ：いつ・何を決めるか</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 自分に合うキャリアパスの選び方3ステップ</a></li>
@@ -290,7 +290,7 @@ export default function ArticlePage() {
       {/* sec3 5類型の詳細 */}
       <section id="sec3" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">5つのキャリアパス徹底解説</h2>
+          <h2 className="text-2xl font-bold mb-6">5つのキャリアパス解説</h2>
           <div className="space-y-6">
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>① スペシャリスト：技術を深めて市場価値で勝負する</h3>
@@ -413,7 +413,7 @@ export default function ArticlePage() {
           <div className="space-y-4">
             {[
               ["STEP1", "「エネルギーが湧く瞬間」で適性を仮判定する", "技術的な難問を解いた時か、メンバーが成長した時か、リリースが事業数字に効いた時か。年収表より先に、自分がどの瞬間に手応えを感じるかを振り返ると、スペシャリスト/マネジメント/PM・PdMの向きが見えてくる。"],
-              ["STEP2", "ライフプランの制約条件を先に置く", "出産・介護・転居の可能性と時期をざっくり置き、「その時期に無理がない路線か」を確認する。時短と相性が良いのはスペシャリスト・社内SE、収入の安定が必要な時期にフリーランス転向をぶつけない、など制約から逆算すると消去法でも絞れる。"],
+              ["STEP2", "ライフプランの制約条件を先に置く", "出産・介護・転居の可能性と時期をおおまかに想定し、「その時期に無理がない路線か」を確認する。時短と相性が良いのはスペシャリスト・社内SE、収入の安定が必要な時期にフリーランス転向をぶつけない、など制約から逆算すると消去法でも絞れる。"],
               ["STEP3", "現職で小さく試す→市場価値を外部で確認する", "リーダー補佐・PM補佐・高需要技術のタスクなど、現職で各路線の「お試し」を仕掛ける。並行してエージェントのキャリア面談で想定年収レンジを確認すれば、思い込みではなく相場で意思決定できる。"],
             ].map(([step, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性データエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性データエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。データサイエンティストとの違いも明確に。",
+      "女性データエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。データサイエンティストとの違いも明確に。",
     url: "https://women-engineer.com/articles/data-engineer/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -338,7 +338,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。SQLを起点に、次の順序で進めると挫折しにくいです。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。SQLを起点に、次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -437,14 +437,14 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性がデータエンジニアとして働くリアル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              2章で「長く働きやすい理由」を紹介しましたが、ここでは実際に働くうえで気になる「夜間対応の有無」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向を正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+              2章で「長く働きやすい理由」を紹介しましたが、ここでは実際に働くうえで気になる「夜間対応の有無」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向として整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
             </p>
           </div>
           <div className="space-y-6 mt-6">
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>① 働き方との相性（リモート・夜間対応・体力面）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                データ基盤の構築・運用はBigQueryやSnowflakeなどクラウド上で完結しやすく、一般にリモートワークとの相性が非常に良い職種です。体力面もデスクワーク中心です。一方で正直に触れておきたいのは、<strong>データパイプラインのバッチ処理が深夜〜早朝に実行されることが多い</strong>という職種特性。障害時のアラート対応が夜間に発生する可能性があり、リトライの自動化や監視体制の整備度合いで負担が大きく変わります。応募時には「バッチ障害時の対応体制」「オンコール当番の有無と頻度」を必ず確認しましょう。
+                データ基盤の構築・運用はBigQueryやSnowflakeなどクラウド上で完結しやすく、一般にリモートワークとの相性が非常に良い職種です。体力面もデスクワーク中心です。一方で申し添えておきたいのは、<strong>データパイプラインのバッチ処理が深夜〜早朝に実行されることが多い</strong>という職種特性。障害時のアラート対応が夜間に発生する可能性があり、リトライの自動化や監視体制の整備度合いで負担が大きく変わります。応募時には「バッチ障害時の対応体制」「オンコール当番の有無と頻度」を必ず確認しましょう。
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -462,7 +462,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                正直な注意点は3つ。(1)求人の母数がWeb開発職より少なく、未経験直行や地方勤務では選択肢が限られる傾向がある、(2)データ基盤チームは少人数のことが多く、体制によっては業務が属人化して休みにくい場合がある、(3)夜間バッチの監視・障害対応の負担は求人票からは読み取りにくい、という点です。人員体制と復帰実績は面談やエージェント経由で確認してください。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+                注意点は3つ。(1)求人の母数がWeb開発職より少なく、未経験直行や地方勤務では選択肢が限られる傾向がある、(2)データ基盤チームは少人数のことが多く、体制によっては業務が属人化して休みにくい場合がある、(3)夜間バッチの監視・障害対応の負担は求人票からは読み取りにくい、という点です。人員体制と復帰実績は面談やエージェント経由で確認してください。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
               </p>
             </div>
           </div>

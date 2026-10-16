@@ -74,7 +74,7 @@ const faqData = {
       name: "求人数が多い言語と年収が高い言語は違いますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "違います。提示年収が高いのはGo・TypeScript・Ruby・Scala・Kotlinなどモダンな言語ですが、求人数（企業ニーズ）が多いのはJavaScript・Java・PHPです。これは既存システムの保守や大規模サービスを支える人材が大量に必要なためです。女性が転職で失敗しないコツは、この『需給ギャップ』を理解すること。求人が多い言語は採用されやすく未経験の入り口に向き、年収が高い言語はスキルアップ後の伸びしろになります。KotlinやGoは『需要が高いのに扱える人が少ない穴場言語』で、狙う価値があります。",
+        text: "違います。提示年収が高いのはGo・TypeScript・Ruby・Scala・Kotlinなどモダンな言語ですが、求人数（企業ニーズ）が多いのはJavaScript・Java・PHPです。これは既存システムの保守や大規模サービスを支える人材が大量に必要なためです。女性が転職で選び方のポイントは、この『需給ギャップ』を理解すること。求人が多い言語は採用されやすく未経験の入り口に向き、年収が高い言語はスキルアップ後の伸びしろになります。KotlinやGoは『需要が高いのに扱える人が少ない穴場言語』で、狙う価値があります。",
       },
     },
     {
@@ -278,7 +278,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">高単価な言語とその理由（Go・Rust・TypeScript）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              年収ランキング上位の言語には共通点があります。それは<strong>「新しく単価の高い領域で使われ」「扱えるエンジニアが少ない」</strong>こと。代表的な高単価言語を、なぜ稼げるのかという理由とともに見ていきましょう。
+              年収ランキング上位の言語には共通点があります。それは<strong>「新しく単価の高い領域で使われ」「扱えるエンジニアが少ない」</strong>こと。代表的な高単価言語を、なぜ稼げるのかという理由とともにご説明します。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -520,7 +520,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの方法を解説</p></a>
-            <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典つきで集約</p></a>
+            <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典を併記して集約</p></a>
             <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職種別エンジニア年収比較</h3><p className="text-sm text-text-light">職種ごとの年収相場を徹底比較</p></a>
             <a href="/articles/python-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Pythonエンジニアのキャリア</h3><p className="text-sm text-text-light">需要の高いPythonで広がる道</p></a>
             <a href="/articles/go-career/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>Goエンジニアのキャリア</h3><p className="text-sm text-text-light">提示年収1位の高単価言語</p></a>

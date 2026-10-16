@@ -196,7 +196,7 @@ export default function ArticlePage() {
             </p>
           </div>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
-            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>AWS・GCP・Azureの違い（ざっくり比較）</h3>
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>AWS・GCP・Azureの違い（比較）</h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
                 <thead>
@@ -515,7 +515,7 @@ export default function ArticlePage() {
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>現実的な注意点｜事前に確認しておきたい3つのこと</h3>
-              <p className="text-sm text-text-light leading-relaxed">正直な注意点として、(1)クラウドサービスは機能更新が速く、継続的なキャッチアップが働き続ける前提になること、(2)「クラウドエンジニア募集」でも実態が夜勤シフトの監視オペレーターに近い求人が混ざっていること、(3)時短勤務者の評価運用は企業差が大きいこと、の3点は事前確認が必要です。求人票だけで判断が難しい部分は、面接で具体的に質問するか、エージェント経由で実態を確認しましょう。</p>
+              <p className="text-sm text-text-light leading-relaxed">注意点として、(1)クラウドサービスは機能更新が速く、継続的なキャッチアップが働き続ける前提になること、(2)「クラウドエンジニア募集」でも実態が夜勤シフトの監視オペレーターに近い求人が混ざっていること、(3)時短勤務者の評価運用は企業差が大きいこと、の3点は事前確認が必要です。求人票だけで判断が難しい部分は、面接で具体的に質問するか、エージェント経由で実態を確認しましょう。</p>
             </div>
           </div>
           <div className="mt-8 rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>

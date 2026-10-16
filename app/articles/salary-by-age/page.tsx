@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性エンジニアの年代別年収【20代〜50代】実額と推移を徹底解説",
+  title: "女性エンジニアの年代別年収【20代〜50代】実額と推移を解説",
   description:
     "女性エンジニアの年代別年収を実データで解説。20代前半376万円→30代前半500万円台→40代前半600万円超→50代までの推移、男女差約110万円とその理由、ライフイベントの影響、年代ごとの年収アップ戦略を年代別年収表とともに紹介します。",
   alternates: { canonical: "/articles/salary-by-age/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性エンジニアの年代別年収【20代〜50代】実額と推移を徹底解説",
+    title: "女性エンジニアの年代別年収【20代〜50代】実額と推移を解説",
     description:
       "女性エンジニアの20代〜50代の年収推移を実額で解説。男女差の理由・ライフイベントの影響・年代別の年収アップ戦略を年代別年収表とともに紹介。",
     url: "https://women-engineer.com/articles/salary-by-age/",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性エンジニアの年代別年収【20代〜50代】実額と推移を徹底解説",
+  headline: "女性エンジニアの年代別年収【20代〜50代】実額と推移を解説",
   datePublished: "2026-06-10",
   dateModified: "2026-07-07",
   author: {
@@ -459,7 +459,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</h3><p className="text-sm text-text-light">平均年収と年収アップの全体像</p></a>
-            <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典つきで集約</p></a>
+            <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典を併記して集約</p></a>
             <a href="/articles/salary-by-job/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>職種別の女性エンジニア年収</h3><p className="text-sm text-text-light">職種で変わる年収の違いを比較</p></a>
             <a href="/articles/age-30s/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>30代女性エンジニアの転職</h3><p className="text-sm text-text-light">ライフイベントとキャリアの両立</p></a>
             <a href="/articles/negotiation/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収交渉の進め方</h3><p className="text-sm text-text-light">男女差を埋める交渉のコツ</p></a>

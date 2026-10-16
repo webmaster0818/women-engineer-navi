@@ -302,7 +302,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">未経験から大阪で転職するには</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              大阪は未経験可・ポテンシャル採用の母数こそ東京より少ないものの、研修制度のあるSIer・受託企業が一定数あり受け皿は存在します。1日2〜3時間の学習で<strong>半年〜1年</strong>を目安に、次の順序で進めると挫折しにくいです。
+              大阪は未経験可・ポテンシャル採用の母数こそ東京より少ないものの、研修制度のあるSIer・受託企業が一定数あり受け皿は存在します。1日2〜3時間の学習で<strong>半年〜1年</strong>を目安に、次の順序で進めると挫折しにくい傾向があります。
             </p>
           </div>
           <div className="space-y-4">

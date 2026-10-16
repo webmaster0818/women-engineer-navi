@@ -616,7 +616,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性がデータサイエンティストとして働くリアル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              3章では女性比率や働きやすさの現状を出典付きで見ました。ここでは実際に働くうえで気になる「夜間対応や繁閑の波」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向を正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+              3章では女性比率や働きやすさの現状を出典付きで見ました。ここでは実際に働くうえで気になる「夜間対応や繁閑の波」「産休育休との相性」「現実的な注意点」まで、一歩踏み込んで一般的な傾向として整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
             </p>
           </div>
           <div className="space-y-6 mt-6">
@@ -641,7 +641,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                正直な注意点は3つ。(1)「データサイエンティスト」の求人タイトルでも実務は集計・レポーティング中心という場合があり、モデリングまで任せてもらえるかは求人ごとの見極めが必要、(2)3章で見たとおり女性比率は約1割（データサイエンティスト協会調査）とまだ少なく、職場によってはロールモデルが身近にいない、(3)完全未経験からの直行は難易度が高く、アナリスト経由の段階的ルート（8章）が現実的、という点です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+                注意点は3つ。(1)「データサイエンティスト」の求人タイトルでも実務は集計・レポーティング中心という場合があり、モデリングまで任せてもらえるかは求人ごとの見極めが必要、(2)3章で見たとおり女性比率は約1割（データサイエンティスト協会調査）とまだ少なく、職場によってはロールモデルが身近にいない、(3)完全未経験からの直行は難易度が高く、アナリスト経由の段階的ルート（8章）が現実的、という点です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
               </p>
             </div>
           </div>

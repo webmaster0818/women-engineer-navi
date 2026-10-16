@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性ITエンジニアの転職データ集｜年収・割合・育休・求人倍率【出典つき】",
     description:
-      "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を出典つきで集約したデータ集。",
+      "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を出典を併記して集約したデータ集。",
     url: "https://women-engineer.com/articles/data/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -24,7 +24,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性ITエンジニアの転職データ集（年収・割合・育休・求人倍率）",
   description:
-    "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を公的統計・調査の出典つきで集約したデータ集。",
+    "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を公的統計・調査の出典を併記して集約したデータ集。",
   datePublished: "2026-06-21",
   dateModified: "2026-06-28",
   author: { "@type": "Organization", name: "CareeHUB for woman 編集部" },

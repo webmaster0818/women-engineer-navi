@@ -241,7 +241,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">副業の形態比較表（単価目安つき）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              エンジニアの副業は大きく「開発で稼ぐ」「知識を伝えて稼ぐ」「経験を売って稼ぐ」の3系統に分かれます。<strong>必要な実務経験・拘束のされ方・単価がそれぞれ違う</strong>ため、自分の経験年数と使える時間に合わせて選ぶのが失敗しないコツです。
+              エンジニアの副業は大きく「開発で稼ぐ」「知識を伝えて稼ぐ」「経験を売って稼ぐ」の3系統に分かれます。<strong>必要な実務経験・拘束のされ方・単価がそれぞれ違う</strong>ため、自分の経験年数と使える時間に合わせて選ぶのが選び方のポイントです。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">

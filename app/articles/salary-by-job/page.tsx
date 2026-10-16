@@ -74,7 +74,7 @@ const faqData = {
       name: "未経験の女性でも高年収の職種を目指せますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "可能ですが、戦略が必要です。データサイエンティストやセキュリティ、SREなどの高年収職種は、いきなり未経験で就くのは難しいことが多いです。現実的なのは、まず未経験可で入りやすい職種（社内SE・テスト/QA・インフラ運用・バックエンドなど）で実務経験を積み、そこから高年収職種へステップアップする2段階ルート。たとえばインフラ運用→クラウド/SRE、バックエンド→データエンジニア→データサイエンティスト、QA→QAリード/SETといった流れです。最初の1社目は「伸びる業界・上流に近い環境」を選ぶと、その後の年収カーブが変わります。",
+        text: "可能ですが、戦略が必要です。データサイエンティストやセキュリティ、SREなどの高年収職種は、いきなり未経験で就くのは難しいことが多く見られます。現実的なのは、まず未経験可で入りやすい職種（社内SE・テスト/QA・インフラ運用・バックエンドなど）で実務経験を積み、そこから高年収職種へステップアップする2段階ルート。たとえばインフラ運用→クラウド/SRE、バックエンド→データエンジニア→データサイエンティスト、QA→QAリード/SETといった流れです。最初の1社目は「伸びる業界・上流に近い環境」を選ぶと、その後の年収カーブが変わります。",
       },
     },
     {
@@ -164,7 +164,7 @@ export default function ArticlePage() {
             </p>
             <p>
               この記事では、女性が「今の職種からどこへ動けば年収が上がるか」を判断できるよう、主要IT職種の年収を<strong>一覧で比較</strong>します。総合的な年収相場は<a href="/articles/salary/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアの年収ガイド</a>
-            <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典つきで集約</p></a>もあわせてご覧ください。本記事は「職種ごとの比較」に特化しています。
+            <a href="/articles/data/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性ITエンジニアのデータ集</h3><p className="text-sm text-text-light">年収・女性比率・求人倍率を出典を併記して集約</p></a>もあわせてご覧ください。本記事は「職種ごとの比較」に特化しています。
             </p>
             <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>年収を左右する4つの要素</h3>
@@ -286,7 +286,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">高年収な職種とその理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              比較表で上位に来た職種には共通点があります。<strong>「上流に近い」「スキルが希少」「需要が伸びている」</strong>の3つです。それぞれの職種がなぜ稼げるのかを見ていきましょう。
+              比較表で上位に来た職種には共通点があります。<strong>「上流に近い」「スキルが希少」「需要が伸びている」</strong>の3つです。それぞれの職種がなぜ稼げるのかをご説明します。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">

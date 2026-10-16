@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性モバイルアプリエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性モバイルアプリエンジニア（iOS/Android）の年収・必要スキル・未経験ロードマップ・求人動向・キャリアパスを実データで徹底解説。",
+      "女性モバイルアプリエンジニア（iOS/Android）の年収・必要スキル・未経験ロードマップ・求人動向・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/mobile-app/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -66,7 +66,7 @@ const faqData = {
       name: "iOSとAndroid、Flutterのどれから学ぶべきですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "手持ちの端末・PCで選ぶのが現実的です。iPhoneとMacがあるならiOS（Swift／Xcodeはmac必須）、Windows PCならAndroid（Kotlin／Android Studio）から始めやすいです。最初から両OSに対応したい場合は、1つのコードでiOS/Android両対応アプリを作れるFlutter（Dart）が効率的で、フリーランス平均単価も月78万円前後と高め。ただしネイティブ機能に深く触れる場面ではSwift/Kotlinの知識が必要になるため、将来的に市場価値を高めるならネイティブの基礎も押さえておくと安心です。",
+        text: "手持ちの端末・PCで選ぶのが現実的です。iPhoneとMacがあるならiOS（Swift／Xcodeはmac必須）、Windows PCならAndroid（Kotlin／Android Studio）から始めやすい傾向があります。最初から両OSに対応したい場合は、1つのコードでiOS/Android両対応アプリを作れるFlutter（Dart）が効率的で、フリーランス平均単価も月78万円前後と高め。ただしネイティブ機能に深く触れる場面ではSwift/Kotlinの知識が必要になるため、将来的に市場価値を高めるならネイティブの基礎も押さえておくと安心です。",
       },
     },
     {
@@ -321,7 +321,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。次の順序で進めると挫折しにくいです。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[

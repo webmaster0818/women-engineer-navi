@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性 社内SE 転職ガイド｜仕事内容・年収・未経験から目指す道",
     description:
-      "女性に人気の社内SEの仕事内容・年収・必要スキル・未経験からのロードマップ・求人動向を実データで徹底解説。残業少なめでWLBが良好な理由も紹介。",
+      "女性に人気の社内SEの仕事内容・年収・必要スキル・未経験からのロードマップ・求人動向を実データで解説。残業少なめでWLBが良好な理由も紹介。",
     url: "https://women-engineer.com/articles/internal-se/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -445,7 +445,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性が社内SEとして働くリアル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              ここまで仕事内容や年収を見てきましたが、実際に女性が社内SEとして働くうえで気になるのは「働き方の実態」と「ライフイベントとの両立」ではないでしょうか。求人票だけでは見えにくいポイントを、一般的な傾向として正直に整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
+              ここまで仕事内容や年収を見てきましたが、実際に女性が社内SEとして働くうえで気になるのは「働き方の実態」と「ライフイベントとの両立」ではないでしょうか。求人票だけでは見えにくいポイントを、一般的な傾向として整理します（実態は企業ごとに差が大きいため、最終的には個別の企業で確認してください）。
             </p>
           </div>
           <div className="space-y-6 mt-6">
@@ -470,7 +470,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>④ 現実的な注意点</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                正直な注意点として、(1)人気職のため良い求人ほど競争率が高い、(2)ヘルプデスク中心のポジションに長くとどまるとスキルと年収が伸びにくい、(3)「ホワイトで楽」というイメージが先行しがちだが実態は企業差が非常に大きい、の3点は押さえておきましょう。「社内SEだから働きやすい」のではなく「働きやすい体制の会社の社内SEだから働きやすい」のが実情です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
+                注意点として、(1)人気職のため良い求人ほど競争率が高い、(2)ヘルプデスク中心のポジションに長くとどまるとスキルと年収が伸びにくい、(3)「ホワイトで楽」というイメージが先行しがちだが実態は企業差が非常に大きい、の3点は押さえておきましょう。「社内SEだから働きやすい」のではなく「働きやすい体制の会社の社内SEだから働きやすい」のが実情です。年収や需給の具体的な数値は、<a href="/articles/salary-by-job/" className="underline" style={{ color: "#7c3a55" }}>職種別年収ガイド</a>・<a href="/articles/data/" className="underline" style={{ color: "#7c3a55" }}>女性エンジニアのデータ集</a>・<a href="/articles/demand/" className="underline" style={{ color: "#7c3a55" }}>需要と将来性のデータ</a>で出典付きで確認できます。
               </p>
             </div>
           </div>

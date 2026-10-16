@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性Rubyエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性Rubyエンジニア（Ruby on Rails）の年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
+      "女性Rubyエンジニア（Ruby on Rails）の年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/ruby-career/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -326,7 +326,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>合計<strong>800〜1,000時間</strong>（1日2〜3時間で<strong>半年〜1年</strong>）が一つの目安。次の順序で進めると挫折しにくいです。</p>
+            <p>合計<strong>800〜1,000時間</strong>（1日2〜3時間で<strong>半年〜1年</strong>）が一つの目安。次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[

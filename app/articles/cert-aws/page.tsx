@@ -306,7 +306,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">勉強時間と勉強法（STEP）</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              勉強時間の目安は、<strong>CLF（基礎）が未経験40〜60時間／経験者20〜40時間</strong>、<strong>SAA（設計）が未経験150〜300時間（約2〜5か月）／経験者80〜120時間（約1〜3か月）</strong>。1日2時間ならCLFは約1か月で合格圏です。効率的な進め方は「全体像 → 問題演習 → 弱点補強 → 模擬練習」の順。次のSTEPで進めると挫折しにくいです。
+              勉強時間の目安は、<strong>CLF（基礎）が未経験40〜60時間／経験者20〜40時間</strong>、<strong>SAA（設計）が未経験150〜300時間（約2〜5か月）／経験者80〜120時間（約1〜3か月）</strong>。1日2時間ならCLFは約1か月で合格圏です。効率的な進め方は「全体像 → 問題演習 → 弱点補強 → 模擬練習」の順。次のSTEPで進めると挫折しにくい傾向があります。
             </p>
           </div>
           <div className="space-y-4">

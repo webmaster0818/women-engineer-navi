@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性ITコンサルタント転職ガイド｜年収・必要スキル・エンジニアからの道",
     description:
-      "女性ITコンサルタントの年収・必要スキル・エンジニアからのロードマップ・求人動向・キャリアパス・働き方の実態を実データで徹底解説。",
+      "女性ITコンサルタントの年収・必要スキル・エンジニアからのロードマップ・求人動向・キャリアパス・働き方の実態を実データで解説。",
     url: "https://women-engineer.com/articles/it-consultant/",
     type: "article",
     siteName: "CareeHUB for woman",

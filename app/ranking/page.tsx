@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "女性エンジニアにおすすめの転職サイト・転職エージェント9選【2026年8月更新】無料診断つき",
   description:
-    "女性エンジニアの転職に強いエージェント・転職サイト9社を、求人数・実績とも各社公式サイトで確認した現行値だけで比較（2026年8月更新）。IT特化・女性特化・未経験向け・フルリモート特化まで状況別に整理し、8つの質問の無料診断で自分に合う1社を30秒で絞り込めます。口コミはすべて出典つき・架空なし。",
+    "女性エンジニアの転職に強いエージェント・転職サイト9社を、求人数・実績とも各社公式サイトで確認した現行値だけで比較（2026年8月更新）。IT特化・女性特化・未経験向け・フルリモート特化まで状況別に整理し、8つの質問の無料診断で自分に合う1社を30秒で絞り込めます。口コミはすべて出典を併記・架空なし。",
   keywords:
     "女性 エンジニア 転職エージェント おすすめ, 女性エンジニア 転職, 女性 IT転職",
   alternates: { canonical: "/ranking/" },
@@ -130,7 +130,7 @@ const agents: Agent[] = [
     description:
       "Geekly（ギークリー）は、IT・Web・ゲーム業界に特化した転職エージェントです。46,000件以上（非公開含む・2026年6月時点の公式公開値）の求人を保有しています。業界に精通したコンサルタントが在籍しており、企業ごとにカスタマイズした書類添削をサポートしています。女性エンジニアの転職にも対応しており、リモートワーク対応求人の割合は公式サイトでご確認ください。長期的なキャリア形成を考える女性エンジニアに適しています。",
     detailedReview:
-      "Geeklyの最大の魅力は独占求人の多さです。他のエージェントでは出会えない優良企業の求人が多く、特にメガベンチャーやゲーム業界の求人に強みがあります。コンサルタントはIT業界出身者が多く、技術的な会話がスムーズにできる点も評価が高いです。書類添削サービスでは、企業ごとにカスタマイズした職務経歴書の作成をサポートしています（公式サイト記載のサービス内容）。女性エンジニア向けの特別なサービスの記載はありませんが、リモートワークやフレックスタイム制などの働き方の条件は求人ごとに確認できます（対応求人の割合は公式サイトで要確認）。企業とのマッチング精度を重視したサポート方針で、長期的なキャリア形成を考える方にも適しています。",
+      "Geeklyの最大の魅力は独占求人の多さです。他のエージェントでは出会えない優良企業の求人が多く、特にメガベンチャーやゲーム業界の求人に強みがあります。コンサルタントはIT業界出身者が多く、技術的な会話がスムーズにできる点も評価が高い傾向があります。書類添削サービスでは、企業ごとにカスタマイズした職務経歴書の作成をサポートしています（公式サイト記載のサービス内容）。女性エンジニア向けの特別なサービスの記載はありませんが、リモートワークやフレックスタイム制などの働き方の条件は求人ごとに確認できます（対応求人の割合は公式サイトで要確認）。企業とのマッチング精度を重視したサポート方針で、長期的なキャリア形成を考える方にも適しています。",
     bestFor: [
       "独占求人で差別化したい方",
       "ゲーム業界に興味がある方",
@@ -666,7 +666,7 @@ export default function RankingPage() {
 
             <div className="mt-6 rounded-lg border border-border bg-[#f0e7dd] p-4">
               <p className="text-xs font-bold text-secondary">年代・職種から相場を知ってから選ぶ</p>
-              <p className="mt-1 text-xs text-text-light">あなたの年代・目指す職種の年収相場を、出典つきデータで確認してから相談先を選べます。</p>
+              <p className="mt-1 text-xs text-text-light">あなたの年代・目指す職種の年収相場を、出典を併記したデータで確認してから相談先を選べます。</p>
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
                 <Link href="/articles/salary-by-age/" className="block rounded border border-border bg-white px-3 py-2 text-xs font-bold text-text hover:text-primary hover:border-primary transition-colors">年代別の年収相場（20〜40代）</Link>
                 <Link href="/articles/salary-by-job/" className="block rounded border border-border bg-white px-3 py-2 text-xs font-bold text-text hover:text-primary hover:border-primary transition-colors">職種別の年収相場（主要12職種）</Link>
@@ -708,7 +708,7 @@ export default function RankingPage() {
             </div>
             <div className="rounded-xl border border-line bg-base p-5">
               <p className="font-bold text-text mb-2">STEP2: エージェント登録・相談</p>
-              <p className="text-sm text-text-light">本ページのランキングから2〜3社に登録し、面談で求人の幅を確認します。1社に絞らないのが失敗しないコツです。</p>
+              <p className="text-sm text-text-light">本ページのランキングから2〜3社に登録し、面談で求人の幅を確認します。1社に絞らないのが選び方のポイントです。</p>
             </div>
             <div className="rounded-xl border border-line bg-base p-5">
               <p className="font-bold text-text mb-2">STEP3: 応募・面接</p>
@@ -1134,13 +1134,13 @@ export default function RankingPage() {
             <div className="card">
               <h3 className="font-bold text-base">
                 <span className="text-primary mr-2">1.</span>
-                希望条件は具体的かつ正直に伝える
+                希望条件は具体的かつ率直に伝える
               </h3>
               <p className="mt-2 text-sm text-text-light leading-relaxed">
                 「リモートワーク週3日以上」「年収550万円以上」「産休育休取得実績のある企業」など、
                 具体的な条件を伝えることで、マッチ度の高い求人を紹介してもらえます。
                 ライフイベントの予定がある場合も、事前に伝えておくことで適切な求人を提案してもらえます。
-                遠慮せず正直に希望を伝えることが、良いマッチングの第一歩です。
+                遠慮せず希望を伝えることが、良いマッチングの第一歩です。
               </p>
             </div>
             <div className="card">

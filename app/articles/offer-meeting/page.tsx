@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "オファー面談で確認すべきこと完全ガイド｜女性エンジニアの条件交渉・チェックリスト",
+  title: "オファー面談で確認すべきことガイド｜女性エンジニアの条件交渉・チェックリスト",
   description:
     "オファー面談（内定後の条件確認面談）で確認すべきことを女性エンジニア向けに解説。年収内訳・評価制度・配属・残業・リモート・産休育休実績など必須チェックリスト、年収交渉のコツ、辞退の可否、ライフプランの確認ポイント、当日の進め方まで実例つきで紹介します。",
   alternates: { canonical: "/articles/offer-meeting/" },
   openGraph: { images: ["/og-default.png"],
-    title: "オファー面談で確認すべきこと完全ガイド｜女性エンジニアの条件交渉・チェックリスト",
+    title: "オファー面談で確認すべきことガイド｜女性エンジニアの条件交渉・チェックリスト",
     description:
       "内定後のオファー面談で確認すべき項目チェックリスト、年収交渉のコツ、辞退の対応、女性のライフプラン確認ポイントを実データで解説。",
     url: "https://women-engineer.com/articles/offer-meeting/",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "オファー面談で確認すべきこと完全ガイド｜女性エンジニアの条件交渉・チェックリスト",
+  headline: "オファー面談で確認すべきことガイド｜女性エンジニアの条件交渉・チェックリスト",
   datePublished: "2026-06-10",
   dateModified: "2026-07-13",
   author: {
@@ -149,7 +149,7 @@ export default function ArticlePage() {
               選考対策ガイド
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              オファー面談で確認すべきこと完全ガイド
+              オファー面談で確認すべきことガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
                 内定後の条件確認面談を、女性エンジニアが味方につける活用法
               </span>
@@ -334,7 +334,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>「ケースバイケース」で濁されたら要注意</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              数字を尋ねて明確に答えられない、あるいは「人による」「ケースバイケース」とだけ返ってくる場合、制度はあっても運用が伴っていないサインのことがあります。逆に、具体的な人数や復帰後の実例をスラスラ話せる企業は、ライフイベント後も働き続けられる環境が整っている可能性が高いです。テレワーク導入企業では20〜30代女性の離職率が半減した事例もあり、リモートの運用実態は長く働くうえで特に重要な確認ポイントです。聞きにくいテーマは、女性のキャリアに詳しいエージェントを通じて事前に確認しておくのも有効です。
+              数字を尋ねて明確に答えられない、あるいは「人による」「ケースバイケース」とだけ返ってくる場合、制度はあっても運用が伴っていないサインのことがあります。逆に、具体的な人数や復帰後の実例をスラスラ話せる企業は、ライフイベント後も働き続けられる環境が整っている可能性があります。テレワーク導入企業では20〜30代女性の離職率が半減した事例もあり、リモートの運用実態は長く働くうえで特に重要な確認ポイントです。聞きにくいテーマは、女性のキャリアに詳しいエージェントを通じて事前に確認しておくのも有効です。
             </p>
           </div>
         </div>

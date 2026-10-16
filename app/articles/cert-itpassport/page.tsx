@@ -74,7 +74,7 @@ const faqData = {
       name: "ITパスポートはエンジニア転職で有利になりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "正直にお伝えすると、ITパスポートは「ITを利活用する社会人向け」の入門資格であり、エンジニア専門の資格ではないため、これ単体でエンジニア転職の決め手にはなりにくいです。ただし、異業種からのキャリアチェンジでは「ITの基礎を体系的に学び始めた証明」として学習意欲を示せます。IPAも企業の採用活動でエントリーシートへの記入を求める動きが広がっていると紹介しています。エンジニア転職で評価される本命は一段上の基本情報技術者試験（レベル2）で、ITパスポート→基本情報の順で進むのが定番ルートです。",
+        text: "お伝えすると、ITパスポートは「ITを利活用する社会人向け」の入門資格であり、エンジニア専門の資格ではないため、これ単体でエンジニア転職の決め手にはなりにくい傾向があります。ただし、異業種からのキャリアチェンジでは「ITの基礎を体系的に学び始めた証明」として学習意欲を示せます。IPAも企業の採用活動でエントリーシートへの記入を求める動きが広がっていると紹介しています。エンジニア転職で評価される本命は一段上の基本情報技術者試験（レベル2）で、ITパスポート→基本情報の順で進むのが定番ルートです。",
       },
     },
     {
@@ -143,7 +143,7 @@ export default function ArticlePage() {
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 出題範囲と合格基準の注意点</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 勉強の進め方（STEP）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 費用を抑える公的支援（無料講座・給付金）</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 転職での評価の実際（正直な話）</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 転職での評価の実際</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 次に目指す資格</a></li>
               <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
@@ -330,10 +330,10 @@ export default function ArticlePage() {
       {/* sec7 転職での評価 */}
       <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職での評価の実際（正直な話）</h2>
+          <h2 className="text-2xl font-bold mb-6">転職での評価の実際</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              ここは正直にお伝えします。ITパスポートは「ITを利活用する社会人向け」の入門資格であり、<strong>これ単体でエンジニア転職の決め手になる資格ではありません</strong>。エンジニア採用で評価される国家資格の本命は、一段上の基本情報技術者試験（レベル2）です。
+              この点は事実にもとづいてお伝えします。ITパスポートは「ITを利活用する社会人向け」の入門資格であり、<strong>これ単体でエンジニア転職の決め手になる資格ではありません</strong>。エンジニア採用で評価される国家資格の本命は、一段上の基本情報技術者試験（レベル2）です。
             </p>
             <p>
               それでもITパスポートに意味があるのは、<strong>「ゼロではない」ことを最初に証明できる</strong>からです。異業種からのキャリアチェンジでは、応募書類に書ける学習実績があるかどうかで、ポテンシャル採用の説得力が変わります。「ITパスポート合格→基本情報の学習中」という状態は、未経験者が作れる最も分かりやすい成長ストーリーのひとつです。

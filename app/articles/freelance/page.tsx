@@ -454,7 +454,7 @@ export default function ArticlePage() {
           </div>
           <p className="text-text-light text-sm mt-3">出典: フリーランス協会「フリーランス白書2025」（仕事の獲得経路、2026年6月参照）</p>
           <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#fff7ed", border: "2px solid #c15f47" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>「いきなりフリーランス」を正直におすすめしない理由</h3>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>「いきなりフリーランス」をおすすめしない理由</h3>
             <ul className="space-y-2 text-sm text-text-light">
               <li>・<strong>案件の入口が狭い</strong>：エージェント案件の多くは実務経験3年前後を想定。未経験・経験1年では紹介可能案件が大きく減り、低単価のクラウドソーシング案件で消耗しがち</li>
               <li>・<strong>スキルが育ちにくい</strong>：フリーランスは「できることを売る」働き方。会社員のような教育・レビュー・失敗の許容がなく、未熟なまま独立すると成長が止まりやすい</li>

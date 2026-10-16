@@ -127,7 +127,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：プランとは何か・個人には何が関係あるか</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：プランとは何か・個人には何が関係あるか</h2>
             <ul className="space-y-3 text-sm leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
@@ -308,7 +308,7 @@ export default function ArticlePage() {
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>教育訓練給付</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>パターン2・3（AIを含むデジタル講座の対象拡大を明記）</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>在職中に費用を抑えて講座・スクールで学びたい人</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶ完全ガイド</a></td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}><a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶガイド</a></td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>公的職業訓練（求職者支援訓練等）</td>
@@ -387,7 +387,7 @@ export default function ArticlePage() {
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/women-it-support-map/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>全国の女性向けITリスキリング支援まとめ</h3><p className="text-sm text-text-light">全国共通3制度＋自治体事業を統一フォーマットで比較</p></a>
             <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都 女性ITエンジニア育成事業ガイド</h3><p className="text-sm text-text-light">無料6か月訓練＋就職支援の対象・申込方法</p></a>
-            <a href="/articles/training-benefit-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶ完全ガイド</h3><p className="text-sm text-text-light">3種類の給付率・対象講座の探し方・申請手順</p></a>
+            <a href="/articles/training-benefit-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶガイド</h3><p className="text-sm text-text-light">3種類の給付率・対象講座の探し方・申請手順</p></a>
             <a href="/articles/hello-training-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ハロートレーニングでITを学ぶガイド</h3><p className="text-sm text-text-light">求職者支援訓練・月10万円給付金・コースの探し方</p></a>
             <a href="/articles/manabi-dx/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>マナビDX活用ガイド</h3><p className="text-sm text-text-light">無料講座の選び方・転職準備での活用法</p></a>
             <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からITエンジニアになる方法</h3><p className="text-sm text-text-light">学習〜転職までの完全ロードマップ</p></a>

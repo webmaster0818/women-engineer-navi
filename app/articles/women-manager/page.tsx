@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが管理職・マネージャーを目指すガイド｜比率・年収・課題と対策",
     description:
-      "IT業界の女性管理職比率、EM・PMへのルート、管理職の年収、必要なスキル、女性特有の課題と対策、えるぼし認定企業の見極め方を実データで徹底解説。",
+      "IT業界の女性管理職比率、EM・PMへのルート、管理職の年収、必要なスキル、女性特有の課題と対策、えるぼし認定企業の見極め方を実データで解説。",
     url: "https://women-engineer.com/articles/women-manager/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -309,7 +309,7 @@ export default function ArticlePage() {
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>技術・プロジェクト判断</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術選定支援 / 進捗管理 / 優先順位づけ</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>技術選定支援 / 進捗管理 / 優先順位の整理</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>エンジニア出身の強み。実現可否を素早く判断できる</td>
                 </tr>
               </tbody>

@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "IT特化型と総合型転職エージェントの違い｜女性エンジニアの使い分け方【2026年】",
   description:
-    "IT特化型と総合型転職エージェントの違いを徹底解説。求人の専門性・サポート・担当者の知識をカテゴリ別に比較し、経験者・未経験・ブランクありのフェーズ別の使い分けを紹介。厚労省の職業紹介制度に基づく「無料で使える理由」も出典付きで解説します。",
+    "IT特化型と総合型転職エージェントの違いを解説。求人の専門性・サポート・担当者の知識をカテゴリ別に比較し、経験者・未経験・ブランクありのフェーズ別の使い分けを紹介。厚労省の職業紹介制度に基づく「無料で使える理由」も出典付きで解説します。",
   alternates: { canonical: "/articles/specialized-vs-general/" },
   openGraph: { images: ["/og-default.png"],
     title: "IT特化型と総合型転職エージェントの違い｜女性エンジニアの使い分け方【2026年】",
@@ -74,7 +74,7 @@ const faqData = {
       name: "未経験の女性エンジニア志望でもIT特化型エージェントを使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "使えますが、エージェントは企業からの成功報酬で運営されるため、紹介できる求人がない完全未経験の段階では十分な支援を受けられない場合があります。学習前〜学習初期は未経験向け支援に強いサービスや総合型で裾野の広い求人を探し、ポートフォリオなど実績ができた段階でIT特化型に登録すると、技術を評価したマッチングを受けやすくなります。学習ロードマップは未経験からエンジニアになる完全ガイドも参考にしてください。",
+        text: "使えますが、エージェントは企業からの成功報酬で運営されるため、紹介できる求人がない完全未経験の段階では十分な支援を受けられない場合があります。学習前〜学習初期は未経験向け支援に強いサービスや総合型で裾野の広い求人を探し、ポートフォリオなど実績ができた段階でIT特化型に登録すると、技術を評価したマッチングを受けやすくなります。学習ロードマップは未経験からエンジニアになるガイドも参考にしてください。",
       },
     },
     {
@@ -244,7 +244,7 @@ export default function ArticlePage() {
               style={{ borderColor: "#d9c7b8" }}
             >
               <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
-                2つのカテゴリのざっくりした整理
+                2つのカテゴリのした整理
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">
@@ -463,7 +463,7 @@ export default function ArticlePage() {
                 <p className="text-sm text-text-light leading-relaxed">
                   エージェントは企業からの成功報酬で運営されるため、紹介できる求人がない段階では支援が薄くなりがちです。まず学習とポートフォリオ作りを進めながら、裾野の広い総合型や未経験支援に強いサービスで選択肢を確保し、実績ができた段階でIT特化型を加えるのが現実的です。学習の進め方は
                   <a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>
-                    未経験からエンジニアになる完全ガイド
+                    未経験からエンジニアになるガイド
                   </a>
                   を参照してください。
                 </p>
@@ -722,7 +722,7 @@ export default function ArticlePage() {
               style={{ borderColor: "#d9c7b8" }}
             >
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>
-                未経験からエンジニアになる完全ガイド
+                未経験からエンジニアになるガイド
               </h3>
               <p className="text-sm text-text-light">学習ロードマップと転職の進め方</p>
             </a>

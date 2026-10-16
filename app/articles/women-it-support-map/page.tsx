@@ -127,7 +127,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：まず押さえる5つの制度</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：まず押さえる5つの制度</h2>
             <p className="text-sm text-text-light leading-relaxed mb-4">
               「女性向けのIT学習支援」は、<strong>全国どこでも使える国の制度</strong>と、<strong>自治体（都道府県）の女性向け事業</strong>の二層構造です。次の3＋2をまず確認しましょう。
             </p>
@@ -193,7 +193,7 @@ export default function ArticlePage() {
               <strong>2層目は都道府県が実施する女性向けのデジタル人材育成事業</strong>です。国も「女性デジタル人材育成プラン」（内閣府男女共同参画局）を掲げて自治体の取り組みを後押ししており、東京都の「女性ITエンジニア育成事業」「女性デジタルカレッジ」のように、託児つき・就職支援つきで無料という手厚い事業があります。ただし自治体事業は<strong>年度単位</strong>で実施されるため、募集時期・継続の有無は毎年変わります（出典: 内閣府男女共同参画局「女性デジタル人材育成プラン」、2026年7月参照）。
             </p>
             <p>
-              この記事では、公式ページに実際に到達確認できた制度だけを「対象／費用／形式／公式リンク」の統一フォーマットで整理します。まず全国共通の3制度から見ていきましょう。
+              この記事では、公式ページに実際に到達確認できた制度だけを「対象／費用／形式／公式リンク」の統一フォーマットで整理します。まず全国共通の3制度からご説明します。
             </p>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default function ArticlePage() {
                 厚生労働大臣が指定した講座を受講すると、費用の一部がハローワークから給付される制度です。給付率は3段階あり、<strong>一般教育訓練で20%（上限10万円）</strong>、<strong>特定一般教育訓練で40%（上限20万円・資格取得＋就職等で50%）</strong>、<strong>専門実践教育訓練で50%（年間上限40万円・資格取得＋就職等で70%、さらに賃金上昇で最大80%＝上限64万円）</strong>です。IT分野の指定講座も多く、働きながらスクールで学びたい人の第一候補になります。
               </p>
               <p className="text-sm text-text-light leading-relaxed">
-                雇用保険の加入期間などの受給要件があるため、受講前にハローワークで確認しましょう。詳しくは<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶ完全ガイド</a>で解説しています（出典: 厚生労働省「教育訓練給付制度」、2026年7月参照）。
+                雇用保険の加入期間などの受給要件があるため、受講前にハローワークで確認しましょう。詳しくは<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶガイド</a>で解説しています（出典: 厚生労働省「教育訓練給付制度」、2026年7月参照）。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -346,8 +346,8 @@ export default function ArticlePage() {
           <div className="rounded-xl p-6" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>どちらを選ぶ？（2026年7月時点の状況）</h3>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>ITエンジニア職を目指すなら女性ITエンジニア育成事業</strong>。2026年7月時点では後期1期生（8月1日受講開始）がプログラミング・インフラクラウド両コースとも募集中です。詳細は<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>女性ITエンジニア育成事業の完全ガイド</a>へ。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>ブランクからの再就職・PC基礎からなら女性デジタルカレッジ</strong>。訓練場所と同じ施設での無料託児があり、育児中でも通いやすい設計です。詳細は<a href="/articles/women-digital-college/" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジの完全ガイド</a>へ。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>ITエンジニア職を目指すなら女性ITエンジニア育成事業</strong>。2026年7月時点では後期1期生（8月1日受講開始）がプログラミング・インフラクラウド両コースとも募集中です。詳細は<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>女性ITエンジニア育成事業のガイド</a>へ。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>ブランクからの再就職・PC基礎からなら女性デジタルカレッジ</strong>。訓練場所と同じ施設での無料託児があり、育児中でも通いやすい設計です。詳細は<a href="/articles/women-digital-college/" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジのガイド</a>へ。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況は期・年度ごとに変わります。必ず各公式サイトで最新情報を確認してください。
@@ -479,7 +479,7 @@ export default function ArticlePage() {
           <div className="grid gap-4 md:grid-cols-2">
             <a href="/articles/tokyo-women-training/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都 女性ITエンジニア育成事業ガイド</h3><p className="text-sm text-text-light">対象・2コースの内容・申込方法・応募前チェック</p></a>
             <a href="/articles/women-digital-college/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京都 女性デジタルカレッジガイド</h3><p className="text-sm text-text-light">入門/基礎及び応用コース・無料託児・申込の流れ</p></a>
-            <a href="/articles/training-benefit-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶ完全ガイド</h3><p className="text-sm text-text-light">3種類の給付率・対象講座の探し方・申請手順</p></a>
+            <a href="/articles/training-benefit-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>教育訓練給付でITを学ぶガイド</h3><p className="text-sm text-text-light">3種類の給付率・対象講座の探し方・申請手順</p></a>
             <a href="/articles/hello-training-it/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ハロートレーニングでITを学ぶガイド</h3><p className="text-sm text-text-light">求職者支援訓練・月10万円給付金・コースの探し方</p></a>
             <a href="/articles/manabi-dx/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>マナビDX活用ガイド</h3><p className="text-sm text-text-light">無料講座の選び方・学習の始め方・活用手順</p></a>
             <a href="/articles/programming-school/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>女性向けプログラミングスクールの選び方</h3><p className="text-sm text-text-light">公的訓練と民間スクールの使い分けに</p></a>

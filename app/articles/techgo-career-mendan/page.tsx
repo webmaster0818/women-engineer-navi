@@ -3,14 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "テックゴーの無料キャリア面談とは？内容・流れ・準備を徹底解説【2026年】",
+  title: "テックゴーの無料キャリア面談とは？内容・流れ・準備を解説【2026年】",
   description:
     "テックゴー（TechGo）の無料キャリア面談を公式情報をもとに解説。面談で聞かれること、キャリア面談が無料の理由、登録（最短60秒）から内定・入社までの5ステップ、面談前の準備、女性エンジニアが面談で確認したいポイントまで紹介します。",
   keywords:
     "テックゴー 無料キャリア面談, テックゴー キャリア面談 無料, TechGo キャリア面談, テックゴー 面談 内容, テックゴー 登録",
   alternates: { canonical: "/articles/techgo-career-mendan/" },
   openGraph: { images: ["/og-default.png"],
-    title: "テックゴーの無料キャリア面談とは？内容・流れ・準備を徹底解説【2026年】",
+    title: "テックゴーの無料キャリア面談とは？内容・流れ・準備を解説【2026年】",
     description:
       "テックゴー（TechGo）の無料キャリア面談を公式情報をもとに解説。面談で聞かれること、無料の理由、登録から内定までの5ステップ、面談前の準備まで紹介。",
     url: "https://women-engineer.com/articles/techgo-career-mendan/",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "テックゴーの無料キャリア面談とは？内容・流れ・準備を徹底解説【2026年】",
+  headline: "テックゴーの無料キャリア面談とは？内容・流れ・準備を解説【2026年】",
   datePublished: "2026-07-02",
   dateModified: "2026-07-06",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
@@ -103,7 +103,7 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               テックゴーの無料キャリア面談とは？
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                内容・流れ・準備を徹底解説【2026年】
+                内容・流れ・準備を解説【2026年】
               </span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月2日</p>

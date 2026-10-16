@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "明光キャリアパートナーズの評判・口コミ｜エンジニアからM&A・コンサル転職という選択肢を検証",
   description:
-    "株式会社明光キャリアパートナーズ（STRATEGY CAREER・Reverse）を女性エンジニア目線でレビュー。M&A・コンサルティングファーム・ファンド領域特化の人材紹介で、IT実務の転職エージェントではない点も含め、公式情報をもとに正直に解説します。",
+    "株式会社明光キャリアパートナーズ（STRATEGY CAREER・Reverse）を女性エンジニア目線でレビュー。M&A・コンサルティングファーム・ファンド領域特化の人材紹介で、IT実務の転職エージェントではない点も含め、公式情報をもとに客観的に解説します。",
   keywords:
     "明光キャリアパートナーズ 評判, 明光キャリアパートナーズ 口コミ, STRATEGY CAREER 評判, Reverse コンサル 評判, エンジニア M&A 転職",
   alternates: { canonical: "/reviews/meiko-career/" },
   openGraph: { images: ["/og-default.png"],
     title: "明光キャリアパートナーズの評判・口コミ｜エンジニアからM&A・コンサル転職という選択肢を検証",
     description:
-      "M&A・コンサルティングファーム・ファンド領域特化の人材紹介「明光キャリアパートナーズ」を女性エンジニア目線でレビュー。IT実務エージェントとの違いも正直に解説。",
+      "M&A・コンサルティングファーム・ファンド領域特化の人材紹介「明光キャリアパートナーズ」を女性エンジニア目線でレビュー。IT実務エージェントとの違いも客観的に解説。",
     url: "https://women-engineer.com/reviews/meiko-career/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -29,7 +29,7 @@ const structuredData = {
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
-    "M&A・コンサルティングファーム・ファンド領域特化の人材紹介「明光キャリアパートナーズ」を女性エンジニア目線でレビュー。IT実務エージェントとの違いも正直に解説。",
+    "M&A・コンサルティングファーム・ファンド領域特化の人材紹介「明光キャリアパートナーズ」を女性エンジニア目線でレビュー。IT実務エージェントとの違いも客観的に解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/meiko-career/" },
 };
 
@@ -105,11 +105,11 @@ export default function MeikoCareerReviewPage() {
         </div>
       </section>
 
-      {/* 先に結論 */}
+      {/* 結論 */}
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>先に結論: IT実務の転職エージェントではありません</h2>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論: IT実務の転職エージェントではありません</h2>
             <p className="text-sm text-text-light leading-relaxed">
               明光キャリアパートナーズは、コンサルティングファーム・M&Aブティック・ファンド領域を中心としたハイキャリア人材紹介の会社です。女性エンジニア向けのIT実務求人を扱うエージェントではなく、当サイトでは「エンジニア経験を活かしてM&A・コンサルティング・金融などのハイキャリア領域へキャリアチェンジしたい方」向けの選択肢として紹介します。エンジニアのまま転職したい方は、IT特化型の<Link href="/reviews/techgo/" className="underline hover:text-primary" style={{ color: "#7c3a55" }}>テックゴー</Link>や<Link href="/reviews/levtech/" className="underline hover:text-primary" style={{ color: "#7c3a55" }}>レバテックキャリア</Link>のレビューをご覧ください。
             </p>

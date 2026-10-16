@@ -421,7 +421,7 @@ export default function ArticlePage() {
                 <p className="text-sm text-text-light leading-relaxed">
                   両社とも全職種を扱う総合型のため、IT職種に限らず幅広い求人の中から現在の経歴で応募できる選択肢を探せる構造です。ただしエージェントは企業からの成功報酬で運営されるため、どのエージェントでも紹介できる求人がない段階では支援が薄くなることがあります。学習やポートフォリオ作りと並行して進めるのが現実的です。学習ロードマップは
                   <a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>
-                    未経験からエンジニアになる完全ガイド
+                    未経験からエンジニアになるガイド
                   </a>
                   を参照してください。
                 </p>

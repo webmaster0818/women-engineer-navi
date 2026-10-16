@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性組み込み・IoTエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
     description:
-      "女性組み込み・IoTエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで徹底解説。",
+      "女性組み込み・IoTエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/embedded/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -338,7 +338,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。実機を触りながら進めると挫折しにくいです。次の順序で進めましょう。</p>
+            <p>1日2〜3時間の学習で<strong>半年〜1年</strong>が一つの目安。実機を触りながら進めると挫折しにくい傾向があります。次の順序で進めましょう。</p>
           </div>
           <div className="space-y-4">
             {[
@@ -437,7 +437,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性が組み込みエンジニアとして働くリアル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              ここまで制度やスキルの面から働きやすさを見てきましたが、実際に飛び込む前に知っておきたいのは「現場の空気感」です。組み込みの主戦場は自動車・家電・産業機器といった<strong>製造業</strong>で、Web業界とは文化がひと味違います。相性・両立・キャリア・注意点を、一般論として正直に整理します。なお、女性エンジニアの比率や年収の実数は<a href="/articles/data/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">女性エンジニアの実データ集</a>にまとめています。
+              ここまで制度やスキルの面から働きやすさを見てきましたが、実際に飛び込む前に知っておきたいのは「現場の空気感」です。組み込みの主戦場は自動車・家電・産業機器といった<strong>製造業</strong>で、Web業界とは文化がひと味違います。相性・両立・キャリア・注意点を、一般論として整理します。なお、女性エンジニアの比率や年収の実数は<a href="/articles/data/" style={{ color: "#7c3a55" }} className="hover:underline font-bold">女性エンジニアの実データ集</a>にまとめています。
             </p>
           </div>
           <div className="space-y-6 mt-6">
@@ -460,7 +460,7 @@ export default function ArticlePage() {
               </p>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点（正直に）</h3>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#c15f47" }}>④ 現実的な注意点</h3>
               <ul className="text-sm text-text-light space-y-2 leading-relaxed">
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>女性エンジニアが少ない現場が依然多く、社内にロールモデルを見つけにくい場合がある</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="font-bold">&#9888;</span><span>実機が必要な工程はリモートに制約があり、フルリモート求人はWeb系より少ない</span></li>

@@ -479,7 +479,7 @@ export default function FaqAllPage() {
             </a>
             <a href="/articles/beginner/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>未経験からエンジニアへ</h3>
-              <p className="text-sm text-text-light">未経験からの転職を徹底解説</p>
+              <p className="text-sm text-text-light">未経験からの転職を解説</p>
             </a>
             <a href="/articles/salary/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>年収ガイド</h3>

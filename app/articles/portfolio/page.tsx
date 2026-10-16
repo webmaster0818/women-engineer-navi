@@ -113,7 +113,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>先に結論：ポートフォリオは「誰に・どれだけ」必要？</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：ポートフォリオは「誰に・どれだけ」必要？</h2>
             <ul className="space-y-3 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
@@ -322,7 +322,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 mt-6">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>指針1：READMEでAI利用を正直に明示する</h3>
+              <h3 className="text-lg font-bold mb-2" style={{ color: "#7c3a55" }}>指針1：READMEでAI利用を明示する</h3>
               <p className="text-sm text-text-light leading-relaxed">
                 「実装補助にGitHub Copilotを使用。要件定義・DB設計・技術選定は自分で行い、生成コードは全行レビューのうえ採用」のように、<strong>使用ツールと役割分担</strong>を書きます。隠して後の面接で露見するより、検証プロセスまで含めて開示するほうが「AIを道具として使いこなせる人」という今いちばん欲しがられる評価につながります。
               </p>

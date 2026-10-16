@@ -157,7 +157,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">育児とエンジニアの両立のリアル</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「育児と仕事、本当に両立できるの？」――産休・育休を経て復帰する女性エンジニアの多くが、最初に抱える不安です。結論から言えば、エンジニア職は<strong>両立しやすい職種のひとつ</strong>。リモートワークやフレックスを導入する企業が多く、コードや担当機能といった成果が客観的に残るため、勤務時間の長さではなく成果で評価されやすいからです。時短勤務でも実力が認められやすいのは、他職種にはない大きな強みです。
+              「育児と仕事、本当に両立できるの？」――産休・育休を経て復帰する女性エンジニアの多くが、最初に抱える不安です。エンジニア職は<strong>両立しやすい職種のひとつ</strong>。リモートワークやフレックスを導入する企業が多く、コードや担当機能といった成果が客観的に残るため、勤務時間の長さではなく成果で評価されやすいからです。時短勤務でも実力が認められやすいのは、他職種にはない大きな強みです。
             </p>
             <p>
               とはいえ、現実は楽ではありません。ワーママにとって最大の課題は<strong>「時間の使い方」</strong>。朝の準備、保育園の送迎、お迎え後の家事・寝かしつけが固定で時間を奪うなか、限られた稼働時間で成果を出す必要があります。子どもの急な発熱で予定が崩れることも日常茶飯事です。
@@ -229,7 +229,7 @@ export default function ArticlePage() {
                 <tr><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>6:00</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>起床・朝食／お弁当準備・身支度</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>通勤がある分、早起きが必須</td></tr>
                 <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>8:00</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>子どもの支度・保育園へ送り</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td></tr>
                 <tr><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>9:00</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>通勤（電車内で技術記事・Slack確認）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>移動時間をインプットに活用</td></tr>
-                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>10:00</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>始業。タスク整理・実装</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>時短のため最初に優先順位づけ</td></tr>
+                <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>10:00</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>始業。タスク整理・実装</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>時短のため最初に優先順位の整理</td></tr>
                 <tr><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>12:00</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>昼休憩（短め）</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>—</td></tr>
                 <tr style={{ backgroundColor: "#fff" }}><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>12:45</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>会議・レビュー・実装</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>会議は午前〜昼過ぎに寄せてもらう</td></tr>
                 <tr><td className="border px-4 py-3 font-bold whitespace-nowrap" style={{ borderColor: "#d9c7b8" }}>16:00</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>終業（時短）・退勤</td><td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>残タスクは翌朝へ。残業はしない設計</td></tr>
@@ -404,7 +404,7 @@ export default function ArticlePage() {
           <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>本音のひとこと</h3>
             <p className="text-sm text-text-light leading-relaxed">
-              「正直、毎日ギリギリ。でもエンジニアでよかったと思うのは、リモートと成果評価のおかげで<strong>『時間』ではなく『成果』で勝負できる</strong>こと。子どもが熱を出しても在宅でカバーできるし、時短でも担当機能をしっかり出せば評価される。完璧じゃなくていい、続けられる働き方を選べたことが一番の財産です。」
+              「毎日ぎりぎり。でもエンジニアでよかったと思うのは、リモートと成果評価のおかげで<strong>『時間』ではなく『成果』で勝負できる</strong>こと。子どもが熱を出しても在宅でカバーできるし、時短でも担当機能をしっかり出せば評価される。完璧じゃなくていい、続けられる働き方を選べたことが一番の財産です。」
             </p>
           </div>
         </div>

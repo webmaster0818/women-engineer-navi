@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性UXデザイナー転職ガイド｜仕事内容・年収・未経験からの道",
     description:
-      "女性UXデザイナー・UXリサーチャーの仕事内容・年収・必要スキル・未経験からのロードマップ・将来性・キャリアパスを実データで徹底解説。",
+      "女性UXデザイナー・UXリサーチャーの仕事内容・年収・必要スキル・未経験からのロードマップ・将来性・キャリアパスを実データで解説。",
     url: "https://women-engineer.com/articles/ux-designer/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -321,7 +321,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験から目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>最初の3カ月で基礎とツール、10〜12カ月目で転職活動を本格化させるのが一般的な流れ。次の順序で進めると挫折しにくいです。</p>
+            <p>最初の3カ月で基礎とツール、10〜12カ月目で転職活動を本格化させるのが一般的な流れ。次の順序で進めると挫折しにくい傾向があります。</p>
           </div>
           <div className="space-y-4">
             {[

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性TypeScript・Reactエンジニア転職ガイド｜年収・型安全・モダンフロント",
     description:
-      "女性のTypeScript・Reactエンジニアの年収・必要スキル・JSからのロードマップ・求人動向・キャリアパスを実データで徹底解説。型安全なモダンフロント開発の魅力を紹介。",
+      "女性のTypeScript・Reactエンジニアの年収・必要スキル・JSからのロードマップ・求人動向・キャリアパスを実データで解説。型安全なモダンフロント開発の魅力を紹介。",
     url: "https://women-engineer.com/articles/typescript-react/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -360,7 +360,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">未経験・JSから目指すロードマップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>Reactの基礎理解に約<strong>40〜60時間</strong>、Next.jsの基本に約<strong>50〜70時間</strong>、実践アプリ開発とデプロイに約<strong>100〜150時間</strong>が目安。次の順序で進めると挫折しにくいです。すでにJavaScriptが書ける人はSTEP2から始められます。</p>
+            <p>Reactの基礎理解に約<strong>40〜60時間</strong>、Next.jsの基本に約<strong>50〜70時間</strong>、実践アプリ開発とデプロイに約<strong>100〜150時間</strong>が目安。次の順序で進めると挫折しにくい傾向があります。すでにJavaScriptが書ける人はSTEP2から始められます。</p>
           </div>
           <div className="space-y-4">
             {[

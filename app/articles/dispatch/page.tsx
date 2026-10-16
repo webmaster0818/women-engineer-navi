@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"],
     title: "女性派遣エンジニアという働き方ガイド｜時給・年収相場・正社員化の道",
     description:
-      "女性派遣エンジニアの仕組み・時給年収相場・メリットデメリット・正社員化の道・向いている人を実データで徹底解説。",
+      "女性派遣エンジニアの仕組み・時給年収相場・メリットデメリット・正社員化の道・向いている人を実データで解説。",
     url: "https://women-engineer.com/articles/dispatch/",
     type: "article",
     siteName: "CareeHUB for woman",
