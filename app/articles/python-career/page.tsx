@@ -113,7 +113,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：Pythonは「AI時代の本命言語」。ただし入り口はWeb開発・業務自動化が現実的</h2>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Pythonの需要と未経験からの入り口</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li>・PythonはTIOBE Indexで<strong>人気1位</strong>（2026年6月参照）、フリーランス市場でも<strong>案件数比率9.72%で言語別3位</strong>（フリーランスボード調査・2026年3月）。AI関連求人はエンジニア系で<strong>2017年度比約6.6倍</strong>に拡大しています（Indeed Recruit Partners調査）。</li>
               <li>・年収はフリーランスのPython案件で<strong>平均月額単価78.6万円（年収換算約944万円）</strong>。正社員はAIエンジニアで平均約571万円、プログラマー全体で約463万円が目安です（求人ボックス給料ナビ・2026年6月参照）。</li>

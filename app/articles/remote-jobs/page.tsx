@@ -137,7 +137,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：エンジニアはリモート転職しやすい職種。ただし主流は「ハイブリッド型」</h2>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>リモート転職の実態と主流の働き方</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li>・<strong>情報通信業のテレワーク導入率は94.3%</strong>で産業別トップ。全産業平均（47.3%）の約2倍（総務省・令和6年通信利用動向調査）</li>
               <li>・働く側で見ても、情報通信業の正社員テレワーク実施率は<strong>56.3%</strong>と業種別最高（全体平均22.5%。パーソル総合研究所・2025年7月調査）</li>

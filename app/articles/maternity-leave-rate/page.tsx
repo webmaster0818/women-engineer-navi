@@ -137,7 +137,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：最新データの即答</h2>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>最新データで見るIT業界の育休取得率</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>

@@ -247,7 +247,7 @@ export default function ArticlePage() {
               style={{ borderColor: "#d9c7b8" }}
             >
               <h3 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>
-                2つの仕組みのした整理
+                2つの仕組みの違いの整理
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">

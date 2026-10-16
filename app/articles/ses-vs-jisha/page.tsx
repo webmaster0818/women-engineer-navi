@@ -137,7 +137,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：「SESか自社開発か」より先に「契約の仕組み」を理解する。働く場所・スキル・産育休の決まり方はビジネスモデルで構造的に変わる</h2>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>SESと自社開発を比べる前に理解したい契約の仕組み</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li>・SESは<strong>準委任契約</strong>で客先に常駐する働き方、受託は<strong>請負契約</strong>で成果物を納める働き方、自社開発は<strong>自社サービス</strong>を作る働き方。どれが上という話ではなく、収益の仕組みが違います。</li>
               <li>・日本ではIT人材の<strong>約7割がベンダー側（IT企業）に所属</strong>しており（IPA調査）、SES・受託が多いのは個人の選択以前の産業構造です。</li>

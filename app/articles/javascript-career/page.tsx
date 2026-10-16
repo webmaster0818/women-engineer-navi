@@ -114,7 +114,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
             <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
-              結論：JavaScriptは求人ニーズ国内1位。ただし伸ばすなら「JS＋TypeScript」
+              JavaScriptの求人ニーズと、あわせて学ぶべきTypeScript
             </h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
@@ -286,7 +286,7 @@ export default function ArticlePage() {
           </div>
           <p className="text-xs text-text-light mt-3">出典: paiza「プログラミング言語に関する調査（2025年）」（@IT掲載）／フリーランスボード「JavaScript／TypeScriptエンジニア案件調査 2026年3月」（いずれも2026年6月参照）</p>
           <div className="rounded-xl border p-6 mt-6 bg-white" style={{ borderColor: "#d9c7b8" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：JSを学んだら、TSまで足して止める</h3>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>JavaScriptの次に学ぶ言語の考え方</h3>
             <p className="text-sm text-text-light leading-relaxed">
               JavaScriptの基礎を固めたら、TypeScriptの型注釈・interface・ジェネリクスまでを1ヶ月程度で上乗せするのが、学習コストに対するリターンが最も大きい投資です。「JSだけ」で応募するのと「JS＋TS」で応募するのとでは、応募できる求人の幅と提示額が変わります。TypeScript×Reactの技術スタックや案件相場の詳細は<a href="/articles/typescript-react/" className="underline" style={{ color: "#7c3a55" }}>TypeScript・Reactエンジニア転職ガイド</a>で解説しています。
             </p>

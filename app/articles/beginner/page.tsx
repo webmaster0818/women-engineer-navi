@@ -153,7 +153,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6 md:p-8" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：未経験からのエンジニア転職は可能。ただし「半年〜1年の学習」と「職種選び」が前提</h2>
+            <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>未経験からのエンジニア転職の現実</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li>・IT人材は構造的に不足しており（経済産業省の試算で2030年に最大約79万人不足）、エンジニア（IT・通信）の転職求人倍率は<strong>10.68倍</strong>（doda・2026年3月）。未経験者を育てる前提の採用は今も続いています。</li>
               <li>・ただし「1ヶ月でなれる」は幻想。<strong>1日2〜3時間×6ヶ月〜1年の学習＋ポートフォリオ</strong>が現実的な条件です。</li>

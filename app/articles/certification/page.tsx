@@ -314,7 +314,7 @@ export default function CertificationPage() {
             </div>
           </div>
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>結論：資格は「証明書」、主役は実務とポートフォリオ</h3>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>資格と実務・ポートフォリオの位置づけ</h3>
             <p className="text-sm text-text-light leading-relaxed">
               資格の本質的な価値は「体系的に学んだことの客観的な証明」です。未経験・ブランク・キャリアチェンジなど<strong>実績で語れない局面ほど効果が大きく</strong>、実績が積み上がるほど相対的な重みは下がります。自分の現在地に合わせて、資格と実務・成果物のバランスを設計しましょう。
             </p>

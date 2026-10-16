@@ -127,7 +127,7 @@ export default function ArticlePage() {
       <section className="py-8">
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-xl p-6" style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}>
-            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>結論：まず押さえる5つの制度</h2>
+            <h2 className="text-lg font-bold mb-4" style={{ color: "#7c3a55" }}>まず押さえる5つの制度</h2>
             <p className="text-sm text-text-light leading-relaxed mb-4">
               「女性向けのIT学習支援」は、<strong>全国どこでも使える国の制度</strong>と、<strong>自治体（都道府県）の女性向け事業</strong>の二層構造です。次の3＋2をまず確認しましょう。
             </p>

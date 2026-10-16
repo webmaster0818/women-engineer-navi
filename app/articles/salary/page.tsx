@@ -139,8 +139,7 @@ export default function ArticlePage() {
             style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
-              結論：女性エンジニアの平均年収は約420万〜500万円
-            </h2>
+              女性エンジニアの平均年収の水準</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>

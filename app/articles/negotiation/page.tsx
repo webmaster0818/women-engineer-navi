@@ -153,8 +153,7 @@ export default function ArticlePage() {
             style={{ backgroundColor: "#efe3d8", border: "2px solid #7c3a55" }}
           >
             <h2 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
-              結論：交渉した人の85〜91%が年収アップに成功している
-            </h2>
+              年収交渉の成功率と交渉可能な範囲</h2>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
