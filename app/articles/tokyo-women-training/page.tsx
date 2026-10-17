@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   datePublished: "2026-06-12",
-  dateModified: "2026-08-10",
+  dateModified: "2026-10-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -142,7 +142,7 @@ export default function ArticlePage() {
                 内容・費用・申込方法と応募前に知るべきポイント【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年8月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月17日</p>
           </div>
         </div>
       </section>

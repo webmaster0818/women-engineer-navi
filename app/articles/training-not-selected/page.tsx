@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性IT育成事業に落ちたら？無料で学べる代替ルートと研修付き転職という選択肢【2026年】",
   datePublished: "2026-07-21",
-  dateModified: "2026-08-10",
+  dateModified: "2026-10-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -126,7 +126,7 @@ export default function ArticlePage() {
                 無料で学べる代替ルートと「研修付き転職」という選択肢【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年8月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月17日</p>
           </div>
         </div>
       </section>
@@ -197,7 +197,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">令和9年度（来年度）の募集はいつ？【定点更新】</h2>
           <div className="rounded-xl border p-5 mb-4" style={{ borderColor: "#d9c7b8", backgroundColor: "#f7f1ea" }}>
             <p className="text-sm leading-relaxed">
-              <strong>2026年8月10日時点で、東京都の女性ITエンジニア育成事業の令和9年度（2027年度）募集は公式に発表されていません。</strong>令和8年度の募集は後期2期生（2026年9月1日開始）をもって終了と案内されています。当ページでは公式発表を毎月確認し、発表があり次第この欄を更新します。
+              <strong>2026年10月17日時点で、東京都の女性ITエンジニア育成事業の令和9年度（2027年度）募集は公式に発表されていません。</strong>令和8年度の募集は後期2期生（2026年9月1日開始）をもって終了と案内されています。当ページでは公式発表を毎月確認し、発表があり次第この欄を更新します。
             </p>
           </div>
           <p className="text-sm leading-relaxed text-text-light mb-3">

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "山口県 女性デジタル人材育成プログラムWINGsを解説｜対象・費用・申込【2026年】",
   datePublished: "2026-07-18",
-  dateModified: "2026-07-18",
+  dateModified: "2026-10-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -147,7 +147,7 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>今申し込める？</strong> <strong>2026年度は7月31日（金）まで受講生を募集中です</strong>（2026年7月18日確認）。ただしオンライン受講枠は定員超過と公式サイトに記載されており、会場受講（山口・岩国・下関）が中心の検討になります。</span>
+                <span><strong>今申し込める？</strong> <strong>2026年度の受講生募集は2026年8月6日に締め切られています</strong>（公式サイトのお知らせ・2026年10月17日確認）。講座は2026年9月2日から始まっています。</span>
               </li>
             </ul>
             <p className="text-xs text-text-light mt-4">
@@ -158,8 +158,8 @@ export default function ArticlePage() {
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
             <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>募集期間:</strong> 2026年5月11日（月）〜<strong>7月31日（金）</strong>。応募者多数の場合は面談等を経て受講者を決定し、募集を早めに締め切る場合があると案内されています。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>募集人数:</strong> 会場受講は山口会場20名程度・岩国サテライト15名程度・下関サテライト15名程度。オンラインは30名程度ですが、<strong>「オンライン受講は定員を超過しています」と公式サイトに記載</strong>（2026年7月18日時点）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>募集期間:</strong> 2026年5月11日（月）〜7月31日（金）と案内されていましたが、<strong>2026年8月6日に「受講生募集を締め切りました」と公式サイトで発表</strong>されています。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>募集人数:</strong> 会場受講は山口会場20名程度・岩国サテライト15名程度・下関サテライト15名程度。オンラインは30名程度ですが、募集期間中、「オンライン受講は定員を超過しています」と公式サイトに記載されていました（2026年7月18日時点）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>受講期間:</strong> 2026年9月2日（水）〜2027年1月29日（金）の平日9:00〜14:30（休憩あり・土日祝と年末年始は休講）。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
@@ -257,7 +257,7 @@ export default function ArticlePage() {
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>申込方法</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>公式サイトの申込フォームからオンライン申請（募集期間: 2026年5月11日〜7月31日）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>公式サイトの申込フォームからオンライン申請（2026年度の募集は2026年8月6日に締切）</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>問い合わせ</td>
@@ -388,7 +388,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">申込方法と受講までのステップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              申込は公式サイトの申込フォームから行います。2026年度の募集期間は<strong>2026年5月11日〜7月31日</strong>です（応募者多数の場合は面談等を経て受講者を決定し、早めに締め切る場合あり）。
+              申込は公式サイトの申込フォームから行います。2026年度の募集期間は2026年5月11日〜7月31日と案内され、<strong>2026年8月6日に締め切られました</strong>（2026年10月17日確認）。次回の募集があった場合の参考にしてください。
             </p>
           </div>
           <div className="space-y-4">

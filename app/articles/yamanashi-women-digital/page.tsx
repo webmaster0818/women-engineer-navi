@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "山梨県 やまなし女性デジタル人材プロジェクトを解説｜対象・費用・募集状況【2026年】",
   datePublished: "2026-07-18",
-  dateModified: "2026-07-18",
+  dateModified: "2026-10-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -82,7 +82,7 @@ const faqData = {
       name: "募集が終わった今、山梨県在住の女性がデジタルスキルを学ぶ方法はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "あります。全国どこからでも使える制度として、国の教育訓練給付（受講費用の一部を給付・年齢上限なし）や、経済産業省のポータル「マナビDX」の無料・低額講座があります。また、同じ山梨県の「やまなしキャリアアップ・ユニバーシティ」には女性限定ではない非正規雇用者・求職者向け講座（大人のしごと学び直し講座など）もあり、県公式ページで募集状況が案内されています（2026年7月18日時点で「受講者募集中」の表示。最新状況は公式サイトで要確認）。全国の女性向け支援は「女性向けITスキル支援マップ」で整理しています。",
+        text: "あります。全国どこからでも使える制度として、国の教育訓練給付（受講費用の一部を給付・年齢上限なし）や、経済産業省のポータル「マナビDX」の無料・低額講座があります。また、同じ山梨県の「やまなしキャリアアップ・ユニバーシティ」には女性限定ではない非正規雇用者・求職者向け講座（大人のしごと学び直し講座など）もあり、県公式ページで募集状況が案内されています（最新状況は公式サイトで要確認）。全国の女性向け支援は「女性向けITスキル支援マップ」で整理しています。",
       },
     },
   ],
@@ -160,7 +160,7 @@ export default function ArticlePage() {
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>2026年度の募集は終了:</strong> 申込期間は2026年6月8日（月）〜7月8日（水）で、山梨県公式サイト・特設ページとも「募集は締め切りました」と明記されています。2026年度の講座は7月17日に開始され、LIVE講座は11月中旬まで、就業支援は2027年3月まで実施される予定です。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>次回（2027年度以降）の募集:</strong> 実施・募集の有無は現時点で公式の発表を確認できていません。公式サイトで要確認です（<a href="#sec6" className="underline" style={{ color: "#7c3a55" }}>確認方法はこちら</a>）。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>同県の他講座:</strong> 女性限定ではありませんが、同じやまなしキャリアアップ・ユニバーシティの「大人のしごと学び直し講座（IT活用・生成AI）」は2026年7月18日時点で「受講者募集中」と公式ページに表示されています（先着50名・最新状況は公式サイトで要確認）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>同県の他講座:</strong> 女性限定ではありませんが、同じやまなしキャリアアップ・ユニバーシティの「大人のしごと学び直し講座（IT活用・生成AI）」があります（募集状況は公式サイトで要確認）。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況は変動します。最新情報は必ず<a href="https://www.pref.yamanashi.jp/rosei-jin/digital-women/recruitment.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>山梨県公式サイト</a>でご確認ください。

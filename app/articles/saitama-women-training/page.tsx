@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "埼玉県 女性のデジタル人材育成推進事業を解説｜対象・費用・申込【2026年】",
+  title: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
   description:
-    "埼玉県「女性のデジタル人材育成推進事業」を公式情報をもとに解説。埼玉県在住または県内就業を希望する女性が対象（在職中も受講可）、全講座オンライン・受講料無料。",
+    "埼玉県の女性のデジタル人材育成講座（女性のデジタル人材育成推進事業）を公式情報をもとに解説。県内在住・県内就業希望の女性が対象（在職中も可）、全講座オンライン・受講料無料。",
   alternates: { canonical: "/articles/saitama-women-training/" },
   openGraph: { images: ["/og-default.png"],
-    title: "埼玉県 女性のデジタル人材育成推進事業を解説｜対象・費用・申込【2026年】",
+    title: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
     description:
       "埼玉県「女性のデジタル人材育成推進事業」の対象者（県内在住・県内就業希望の女性、在職中も可）、講座内容、費用（受講料無料・通信費のみ自己負担）、申込方法を公式情報をもとに解説。東京都の女性向け事業や教育訓練給付との違いも比較表で整理。",
     url: "https://women-engineer.com/articles/saitama-women-training/",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "埼玉県 女性のデジタル人材育成推進事業を解説｜対象・費用・申込【2026年】",
+  headline: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
   datePublished: "2026-07-05",
-  dateModified: "2026-07-05",
+  dateModified: "2026-10-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -158,9 +158,9 @@ export default function ArticlePage() {
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
             <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で2027年2月生まで受付予定。7月1日より8月受講生（申込期間: 2026年7月1日〜7月25日、受講期間: 8月1日〜8月31日）の申込受付が始まっています。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で2027年2月生まで受付予定。10月1日より11月受講生（申込期間: 2026年10月1日〜10月25日、受講期間: 11月2日〜11月30日）の申込を受け付けています。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>自営型テレワーク講座（新設）:</strong> 8月受講生から視聴可能。基礎・応用講座と同一フォームで申込できます。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>実践講座:</strong> 1期（Officeテクニカル/WEBクリエイター）は2026年8月17日〜9月14日、2期（生成AI活用/デジタルデザイン）は2026年11月9日〜12月7日に実施予定です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>実践講座:</strong> 1期（Officeテクニカル/WEBクリエイター）は2026年8月17日〜9月14日の日程で終了しています。2期（生成AI活用/デジタルデザイン）は2026年11月9日〜12月7日に実施予定です。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況・日程は変動します。最新情報は必ず<a href="https://woman-jobtraining-pref-saitama.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
@@ -200,7 +200,7 @@ export default function ArticlePage() {
               最大の特徴は、講座が<strong>全てオンライン</strong>で、コンテンツを<strong>24時間いつでも視聴できる</strong>こと。公式サイトでも「子育て・介護があるのでスクールには通えないが、実務に役立つデジタルスキルを身に付けたい」方などにおすすめの講座として案内されています。受講料は全講座無料（通信費は自己負担）で、条件を満たせば修了証（PDF）も発行されます。
             </p>
             <p>
-              講座は3階層で構成されています。エントリーレベルの<strong>基礎講座・応用講座</strong>（データ分析/WEB/CADエンジニア/Office）、その修了者が選考を経て進める発展レベルの<strong>実践講座</strong>（Officeテクニカル/WEBクリエイター/生成AI活用/デジタルデザイン）、そして2026年度に新設された<strong>自営型テレワーク講座</strong>（8月開講予定）です。
+              講座は3階層で構成されています。エントリーレベルの<strong>基礎講座・応用講座</strong>（データ分析/WEB/CADエンジニア/Office）、その修了者が選考を経て進める発展レベルの<strong>実践講座</strong>（Officeテクニカル/WEBクリエイター/生成AI活用/デジタルデザイン）、そして2026年度に新設された<strong>自営型テレワーク講座</strong>（8月受講生から視聴可能）です。
             </p>
             <p>
               なお、東京都が実施する<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>女性ITエンジニア育成事業</a>（6か月・エンジニア職向け）とは、対象地域も内容も異なる別の事業です（<a href="#sec7" className="underline" style={{ color: "#7c3a55" }}>比較表はこちら</a>）。全国の類似事業は<a href="/articles/women-it-support-map/" className="underline" style={{ color: "#7c3a55" }}>女性向けITスキル支援マップ</a>で整理しています。
@@ -232,7 +232,7 @@ export default function ArticlePage() {
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>講座構成</td>
-                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>基礎講座・応用講座（エントリーレベル・オンデマンド）／実践講座（発展レベル・ライブまたはアーカイブ）／自営型テレワーク講座（新設・オンデマンド・8月開講予定）</td>
+                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>基礎講座・応用講座（エントリーレベル・オンデマンド）／実践講座（発展レベル・ライブまたはアーカイブ）／自営型テレワーク講座（新設・オンデマンド・8月受講生から視聴可能）</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>形式</td>
@@ -361,7 +361,7 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
-            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>自営型テレワーク講座（2026年度新設・8月開講予定）</h3>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>自営型テレワーク講座（2026年度新設・8月受講生から視聴可能）</h3>
             <p className="text-sm text-text-light leading-relaxed">
               自営型テレワーカー（業務委託等で在宅で働く働き方）として働くための基礎を学べるオンデマンド講座です。合計約5時間で、自営型テレワークの基礎理解・始め方・主要スキル・仕事の受注・法律や契約の基礎を扱います。この講座だけの受講も可能で、スマートフォンでも視聴できます（修了証の発行はありません）。
             </p>
@@ -423,7 +423,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">申込方法と受講までのステップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              基礎・応用講座と自営型テレワーク講座は、公式サイトの申込フォームから<strong>月ごとの募集</strong>で申し込みます（同一フォーム・令和8年6月1日受付開始、2027年2月生まで募集）。例えば8月受講生の申込期間は2026年7月1日〜7月25日、受講期間は8月1日〜8月31日です。募集期間中でも定員（各月1,000名）に達し次第締め切られることがあります。
+              基礎・応用講座と自営型テレワーク講座は、公式サイトの申込フォームから<strong>月ごとの募集</strong>で申し込みます（同一フォーム・令和8年6月1日受付開始、2027年2月生まで募集）。例えば11月受講生の申込期間は2026年10月1日〜10月25日、受講期間は11月2日〜11月30日です（2026年10月17日確認）。募集期間中でも定員（各月1,000名）に達し次第締め切られることがあります。
             </p>
           </div>
           <div className="space-y-4">
@@ -444,7 +444,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-xs text-text-light mt-4">
-            出典: 公式サイト「お申し込み」ページ（公式サイトにて2026年7月確認）。申込期間・定員は変動するため、必ず<a href="https://woman-jobtraining-pref-saitama.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>で最新情報を確認してください。
+            出典: 公式サイト「お申し込み」ページ（公式サイトにて2026年10月17日確認）。申込期間・定員は変動するため、必ず<a href="https://woman-jobtraining-pref-saitama.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>で最新情報を確認してください。
           </p>
         </div>
       </section>

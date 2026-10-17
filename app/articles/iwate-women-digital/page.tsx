@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "いわて女性デジタル人材育成プロジェクトを解説｜対象・受講料・申込【2026年】",
   datePublished: "2026-07-18",
-  dateModified: "2026-07-18",
+  dateModified: "2026-10-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -156,9 +156,9 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年7月18日確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>現在募集中です。</strong>令和8年度の募集期間は2026年6月25日〜7月24日で、運営事務局の公式発表では<strong>申込締切は2026年7月24日（金）23:59</strong>とされています。<strong>締切まで残りわずか</strong>です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>令和8年度の募集は締め切られています。</strong>募集期間は2026年6月25日〜7月24日で、運営事務局の公式発表では<strong>申込締切は2026年7月24日（金）23:59</strong>でした。2026年10月17日時点で、運営事務局の特設サイト（r8iwate-dhw.jp）はアクセスできません。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>受講期間:</strong> 2026年8月10日〜12月末（約4か月）。定員60名（グラフィックフリーランス10名／Web担当者・広報25名／ITスキル就転職25名）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>オンライン説明会（7月7日・7月18日）と体験授業（7月11日）が公式発表に案内されていました。</span></li>
             </ul>
@@ -241,7 +241,7 @@ export default function ArticlePage() {
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>募集期間</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2026年6月25日〜7月24日（公式発表では締切7月24日23:59）。2026年7月18日確認時点で募集中</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>2026年6月25日〜7月24日（公式発表では締切7月24日23:59）。締切は経過済み（2026年10月17日確認）</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>説明会等</td>
@@ -371,13 +371,13 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">募集状況と申込の流れ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              2026年7月18日確認時点で<strong>令和8年度の受講生を募集中</strong>です（募集期間: 2026年6月25日〜7月24日、公式発表の締切表記は7月24日23:59）。受講を検討している方は締切に注意してください。
+              <strong>令和8年度の受講生募集は締め切られています</strong>（募集期間: 2026年6月25日〜7月24日、公式発表の締切表記は7月24日23:59）。次回の募集があった場合は、以下の流れが参考になります（2026年10月17日確認）。
             </p>
           </div>
           <div className="space-y-4">
             {[
               ["STEP1", "公式サイト・説明会で内容を確認", "公式サイト（r8iwate-dhw.jp）でコース内容・受講料・要件を確認します。オンライン説明会（7/7・7/18）や体験授業（7/11）も案内されていました。"],
-              ["STEP2", "専用フォームから申込", "公式サイト・市町村の案内ページに掲載されている専用フォーム（Microsoft Forms）からオンラインで申し込みます。締切は2026年7月24日（金）23:59です（公式発表より）。"],
+              ["STEP2", "専用フォームから申込", "公式サイト・市町村の案内ページに掲載されている専用フォーム（Microsoft Forms）からオンラインで申し込みます。令和8年度の締切は2026年7月24日（金）23:59でした（公式発表より）。"],
               ["STEP3", "受講開始（2026年8月10日〜）", "受講期間は2026年8月10日から12月末までの約4か月。全コースオンラインで24時間いつでも学習できます。"],
               ["STEP4", "修了→最大1年間のキャリアサポート・マッチング", "修了後はキャリアカウンセラーのサポート（最大1年間）を受けながら、県内企業への就労やフリーランスとしての受注を目指します。"],
             ].map(([step, title, desc], i) => (
@@ -408,9 +408,9 @@ export default function ArticlePage() {
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-base font-bold mb-2" style={{ color: "#c15f47" }}>2. 締切が近い（2026年7月24日）</h3>
+              <h3 className="text-base font-bold mb-2" style={{ color: "#c15f47" }}>2. 令和8年度の募集は終了（締切は2026年7月24日）</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                2026年7月18日確認時点で募集中ですが、締切（7月24日23:59・公式発表より）まで日がありません。締切後の次回募集（令和9年度以降）が実施されるかは現時点では未確認です。
+                令和8年度の募集は2026年7月24日23:59（公式発表より）に締め切られています。次回募集（令和9年度以降）が実施されるかは、2026年10月17日時点では確認できていません。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>

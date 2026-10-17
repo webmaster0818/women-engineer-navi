@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "全国の女性向けITリスキリング・訓練支援まとめ【公的制度ハブ・2026年】",
   datePublished: "2026-07-04",
-  dateModified: "2026-08-14",
+  dateModified: "2026-10-17",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -344,9 +344,9 @@ export default function ArticlePage() {
             出典: 東京都「令和8年度女性ITエンジニア育成事業」公式サイト、東京都「女性デジタルカレッジ事業」公式サイト・TOKYOはたらくネット（いずれも2026年7月参照）
           </p>
           <div className="rounded-xl p-6" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>どちらを選ぶ？（2026年7月時点の状況）</h3>
+            <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>どちらを選ぶ？（2026年10月17日時点の状況）</h3>
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>ITエンジニア職を目指すなら女性ITエンジニア育成事業</strong>。2026年7月時点では後期1期生（8月1日受講開始）がプログラミング・インフラクラウド両コースとも募集中です。詳細は<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>女性ITエンジニア育成事業のガイド</a>へ。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>ITエンジニア職を目指すなら女性ITエンジニア育成事業</strong>。ただし令和8年度の受講申込はすべて受付を終了しています（2026年10月17日確認）。詳細は<a href="/articles/tokyo-women-training/" className="underline" style={{ color: "#7c3a55" }}>女性ITエンジニア育成事業のガイド</a>へ。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>ブランクからの再就職・PC基礎からなら女性デジタルカレッジ</strong>。訓練場所と同じ施設での無料託児があり、育児中でも通いやすい設計です。詳細は<a href="/articles/women-digital-college/" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジのガイド</a>へ。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
@@ -368,7 +368,7 @@ export default function ArticlePage() {
 
           <div className="space-y-6 mb-8">
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">埼玉県「女性のデジタル人材育成推進事業」</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>募集中（2026年7月確認）</span></div>
+              <div className="flex items-center gap-3 mb-3"><h3 className="text-lg font-bold">埼玉県「女性のデジタル人材育成推進事業」</h3><span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>募集中（2026年10月17日確認）</span></div>
               <ul className="space-y-2 text-sm text-text-light">
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>対象:</strong> 埼玉県在住または県内で就業を希望する女性。<strong>在職中でも受講可</strong></span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>費用:</strong> 受講料無料（通信費は自己負担）</span></li>
@@ -389,19 +389,19 @@ export default function ArticlePage() {
               <p className="mt-3 text-sm"><a href="/articles/fukuoka-digital-woman/" className="font-bold underline" style={{ color: "#7c3a55" }}>→ 福岡県事業の詳細解説（実施していた内容・今後の確認方法）はこちら</a></p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3">そのほか公式ページに到達確認できた自治体事業（2026年7月18日確認・詳細解説つき）</h3>
+              <h3 className="text-lg font-bold mb-3">そのほかの自治体事業（2026年10月17日確認・詳細解説つき）</h3>
               <ul className="space-y-3 text-sm text-text-light">
                 <li className="flex items-start gap-2">
-                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>募集中</span>
-                  <span><a href="/articles/iwate-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>岩手県「いわて女性デジタル人材育成プロジェクト」</a> — 申込〜2026年7月24日・受講料19,800円税込（無料ではない点に注意）・8月開講</span>
+                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>締切済み</span>
+                  <span><a href="/articles/iwate-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>岩手県「いわて女性デジタル人材育成プロジェクト」</a> — 令和8年度は2026年7月24日に申込締切・受講料19,800円税込（無料ではない点に注意）</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>募集中</span>
-                  <span><a href="/articles/yamaguchi-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>山口県「WINGs YAMAGUCHI」</a> — 申込〜2026年7月31日・受講料無料（テキスト代実費）・9月開講。オンライン枠は定員超過表示あり</span>
+                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>締切済み</span>
+                  <span><a href="/articles/yamaguchi-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>山口県「WINGs YAMAGUCHI」</a> — 2026年度の募集は2026年8月6日に締切・受講料無料（テキスト代実費）</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#bd8a3c" }}>次回8月〜</span>
-                  <span><a href="/articles/kanagawa-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>神奈川県「女性のためのデジタルスキル育成講座」</a> — 受講料無料・eラーニング第2回の申込は2026年8月10日開始予定</span>
+                  <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#bd8a3c" }}>次回10/23〜</span>
+                  <span><a href="/articles/kanagawa-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>神奈川県「女性のためのデジタルスキル育成講座」</a> — 受講料無料・e-ラーニング第3回の申込は2026年10月23日〜11月24日</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>締切済み</span>
