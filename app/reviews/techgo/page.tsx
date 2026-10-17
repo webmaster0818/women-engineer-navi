@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "テックゴー（TechGo）の口コミ・評判｜悪い評判・注意点と平均144万円年収アップの実態【2026年10月】",
   description:
-    "ITエンジニア特化の転職エージェント「テックゴー（TechGo）」を女性エンジニア目線で徹底レビュー。平均144万円の年収アップ実績・無料キャリア面談・企業別の選考対策など、公式情報をもとに強みと注意点を解説します。",
+    "テックゴー（TechGo）の口コミ・評判を女性エンジニア目線でレビュー。公式の転職支援事例12件を集計すると全件が男性・28〜35歳でした。平均144万円の年収アップ実績、悪い評判につながりやすい注意点、無料キャリア面談の流れを公式情報をもとに解説します。",
   keywords:
     "テックゴー 口コミ, テックゴー 評判, TechGo 評判, テックゴー 無料キャリア面談, テックゴー 面談 流れ, テックゴー 断られた, テックゴー 女性 エンジニア",
   alternates: { canonical: "/reviews/techgo/" },
   openGraph: { images: ["/og-default.png"],
     title: "テックゴー（TechGo）の口コミ・評判｜悪い評判・注意点と平均144万円年収アップの実態【2026年10月】",
     description:
-      "ITエンジニア特化の転職エージェント「テックゴー」を女性エンジニア目線で徹底レビュー。年収アップ実績・無料キャリア面談・選考対策の実力を公式情報をもとに検証。",
+      "テックゴーの口コミ・評判を女性エンジニア目線でレビュー。公式の転職支援事例12件の集計、年収アップ実績、悪い評判につながりやすい注意点を公式情報をもとに解説。",
     url: "https://women-engineer.com/reviews/techgo/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -25,10 +25,10 @@ const structuredData = {
   "@type": "Article",
   headline: "テックゴー（TechGo）の口コミ・評判｜悪い評判・注意点と平均144万円年収アップの実態【2026年10月】",
   datePublished: "2026-07-02",
-  dateModified: "2026-07-21",
+  dateModified: "2026-10-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
-  description: "ITエンジニア特化の転職エージェント「テックゴー」を女性エンジニア目線で徹底レビュー。年収アップ実績・無料キャリア面談・選考対策の実力を検証。",
+  description: "テックゴーの口コミ・評判を女性エンジニア目線でレビュー。公式の転職支援事例12件の集計、年収アップ実績、注意点を公式情報をもとに解説。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/techgo/" },
 };
 
@@ -123,7 +123,7 @@ export default function TechgoReviewPage() {
                 平均144万円年収アップの実力を検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月15日（実績数値・会社概要を公式サイトで同日再確認。年収アップ実績は2026年3月実績に更新）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月17日（公式サイトの転職支援事例12件を集計して追加。実績数値・会社概要は10月15日に公式サイトで再確認）</p>
           </div>
         </div>
       </section>
@@ -268,10 +268,10 @@ export default function TechgoReviewPage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">テックゴーの口コミ・評判</h2>
           <p className="text-xs text-text-light mb-8">
-            ※以下はテックゴー公式サイト「ご利用者の声」に掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
+            ※以下はテックゴー公式サイト「ご利用者の声」に掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。掲載は2026年10月17日に公式サイトで再確認したものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>公式サイト掲載の利用者の声（要約）</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>良い口コミ：公式サイト掲載の利用者の声（要約）</h3>
           <div className="space-y-4 mb-8">
             {[
               {
@@ -294,7 +294,7 @@ export default function TechgoReviewPage() {
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>悪い評判につながりやすい注意点</h3>
           <div className="space-y-4 mb-6">
             {[
               {
@@ -304,6 +304,10 @@ export default function TechgoReviewPage() {
               {
                 reviewer: "未経験向けの育成サポートは打ち出していない",
                 text: "テックゴーはエンジニア経験を活かした年収アップ・キャリアアップの支援を前面に掲げており、無料スクールのような未経験向け育成プログラムの記載は公式サイトにありません。未経験からのスタートを考えている方は、未経験支援に実績のあるエージェントとの併用が安心です。",
+              },
+              {
+                reviewer: "公式の転職支援事例に女性の掲載がない",
+                text: "公式サイトの転職支援事例一覧（2026年10月17日時点・12件）は、すべて男性・28〜35歳の事例です。女性が利用できないという意味ではありませんが、女性の転職実績は公開情報からは確認できません。産休・育休の取得実績やリモート可否など、女性ならではの条件をどこまで求人選びに反映してもらえるかは、無料キャリア面談で具体的に質問して確かめてください。",
               },
             ].map((review, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#fef2f2", border: "1px solid #fecaca" }}>
@@ -320,6 +324,75 @@ export default function TechgoReviewPage() {
               <li><a href="https://tech-go.jp/service" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">テックゴー公式サイト - サービスのご紹介（ご利用者の声）</a></li>
               <li><a href="https://tech-go.jp/about" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">テックゴー公式サイト - 会社概要</a></li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 公式の転職支援事例の集計 */}
+      <section id="cases" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-2">公式の転職支援事例12件の集計</h2>
+          <p className="text-xs text-text-light mb-6">
+            出典: <a href="https://tech-go.jp/success-stories" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">テックゴー公式サイト - 転職支援事例一覧</a>（2026年10月17日参照・掲載されている全12件）。年収は公式の表記どおりです。
+          </p>
+          <div className="grid gap-4 sm:grid-cols-3 mb-6">
+            {[
+              ["年収アップ幅", "+50万〜+200万円", "中央値 +145万円・平均 +137.5万円"],
+              ["年齢", "28〜35歳", "20代4件・30代8件"],
+              ["性別", "12件すべて男性", "女性の事例は掲載なし"],
+            ].map(([label, value, note]) => (
+              <div key={label} className="rounded-xl p-5 text-center" style={{ backgroundColor: "#efe3d8", border: "1px solid #ecdcce" }}>
+                <p className="text-xs text-text-light">{label}</p>
+                <p className="text-xl font-bold my-1" style={{ color: "#7c3a55" }}>{value}</p>
+                <p className="text-xs text-text-light">{note}</p>
+              </div>
+            ))}
+          </div>
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr style={{ backgroundColor: "#7c3a55", color: "#fff" }}>
+                  <th className="p-2 text-left">年齢</th>
+                  <th className="p-2 text-left">転職前（業界／職種）</th>
+                  <th className="p-2 text-left">転職後（業界／職種）</th>
+                  <th className="p-2 text-right">年収（万円）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {([
+              ["35歳", "観光・サービス業界の大手企業／社内SE", "独立系SIer／データエンジニア", 480, 600],
+              ["29歳", "国内大手SIer／インフラエンジニア", "国内大手ITベンダー／クラウドエンジニア", 450, 600],
+              ["33歳", "中堅スタートアップ／リードエンジニア", "大手IT・インターネット企業／プラットフォームエンジニア", 820, 980],
+              ["30歳", "自動車メーカー／ADAS先行開発エンジニア", "自動車メーカー／ロボティクス制御エンジニア", 750, 880],
+              ["31歳", "通信事業／アプリケーションエンジニア", "インターネットサービス／データエンジニア", 850, 980],
+              ["30歳", "SIer／AIコンサルタント", "IT／バックエンドエンジニア", 780, 920],
+              ["29歳", "人材系／Webアプリケーションエンジニア", "IT／リードエンジニア", 850, 1000],
+              ["34歳", "データストレージ／OTエンジニア", "総合電機メーカー／DXエンジニア", 700, 850],
+              ["29歳", "医療系スタートアップ／Webエンジニア", "日系大手IT企業／クラウドエンジニア", 500, 700],
+              ["32歳", "SaaS系ジョイントベンチャー／リードエンジニア", "大手CXプラットフォーム企業／プラットフォームエンジニア", 650, 700],
+              ["33歳", "IT／プロジェクトマネージャー", "IT／プロジェクトマネージャー", 850, 1000],
+              ["28歳", "AI系スタートアップ／ソフトウェアエンジニア", "Web系スタートアップ／サーバーサイドエンジニア", 500, 620]
+                ] as [string, string, string, number, number][]).map(([age, before, after, from, to], i) => (
+                  <tr key={i} className="border-b" style={{ borderColor: "#ecdcce" }}>
+                    <td className="p-2 whitespace-nowrap">{age}</td>
+                    <td className="p-2">{before}</td>
+                    <td className="p-2">{after}</td>
+                    <td className="p-2 text-right whitespace-nowrap">{from}→{to}（+{to - from}）</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="space-y-3 text-sm leading-relaxed">
+            <p>
+              12件すべてが転職後の年収600万円以上で、転職前の年収も450万円以上ある経験者の事例です。トップページの「平均144万円アップ」（2026年3月の内定承諾者のうち年収アップした方の平均）と、事例一覧の中央値+145万円はほぼ同じ水準です。
+            </p>
+            <p>
+              事例に添えられた利用者のコメントで多く挙がっているのは、職務経歴書の添削（技術的な成果の書き方）、返信の早さ、模擬面接の回数の3点です。良い口コミの傾向は上の「公式サイト掲載の利用者の声」とも一致します。
+            </p>
+            <p>
+              一方で、女性・20代前半・未経験からの転職事例は一覧にありません。これらに当てはまる方は、テックゴーを使う場合でも、<Link href="/reviews/type-woman/" className="underline hover:text-primary">type女性の転職エージェント</Link>など女性の転職支援に特化したエージェントと併用し、紹介される求人を比べることをおすすめします。
+            </p>
           </div>
         </div>
       </section>
