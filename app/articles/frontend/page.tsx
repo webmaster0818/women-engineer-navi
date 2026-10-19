@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性フロントエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
+  title: "女性フロントエンドエンジニアの年収と働き方｜リモート・未経験からの転職ガイド",
   description:
-    "女性フロントエンドエンジニアの転職ガイド。平均年収446万円（20代378万〜40代655万）やReact・TypeScriptなど必要スキル、未経験からのロードマップ、AI時代の役割の変化、キャリアパスを出典付きの実データで解説。おすすめ転職エージェントも紹介します。",
+    "女性フロントエンドエンジニアの転職ガイド。平均年収446万円（20代378万〜40代655万）やReact・TypeScriptなど必要スキル、未経験からのロードマップ、AI時代の役割の変化、キャリアパスを出典付きで解説。リモートや時短と両立しやすい理由、おすすめ転職エージェントも紹介します。",
   alternates: { canonical: "/articles/frontend/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性フロントエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
+    title: "女性フロントエンドエンジニアの年収と働き方｜リモート・未経験からの転職ガイド",
     description:
-      "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを実データで解説。",
+      "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを出典付きで解説。",
     url: "https://women-engineer.com/articles/frontend/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性フロントエンドエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
+  headline: "女性フロントエンドエンジニアの年収と働き方｜リモート・未経験からの転職ガイド",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-09",
+  dateModified: "2026-10-19",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを実データで解説。",
+    "女性フロントエンドエンジニアの年収・必要スキル・未経験からのロードマップ・AI時代の変化・キャリアパスを出典付きで解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/frontend/",
@@ -139,7 +139,7 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性フロントエンドエンジニア転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                年収・必要スキル・未経験からの道のりを実データで解説
+                年収・働き方・未経験からの道のりを出典付きで解説
               </span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
