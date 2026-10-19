@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性 社内SE 転職ガイド｜仕事内容・年収・未経験から目指す道",
+  title: "女性の社内SE転職ガイド｜仕事内容・年収・向いている理由と未経験からの目指し方",
   description:
-    "女性に人気の社内SE（情シス）への転職ガイド。仕事内容（社内インフラ・ヘルプデスク・業務システム・ベンダー管理・DX推進）、平均年収（20代450万〜40代600万）、必要スキル、求人動向、未経験からのロードマップを実データで解説。残業少なめ・WLB良好で腰を据えて働ける理由とおすすめエージェントも紹介します。",
+    "女性が社内SE（情シス）へ転職するためのガイド。仕事内容（社内インフラ・ヘルプデスク・業務システム・ベンダー管理・DX推進）、年代別の年収の目安、女性に選ばれている理由、必要なスキルと資格、未経験からのロードマップを解説します。",
   alternates: { canonical: "/articles/internal-se/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性 社内SE 転職ガイド｜仕事内容・年収・未経験から目指す道",
+    title: "女性の社内SE転職ガイド｜仕事内容・年収・向いている理由と未経験からの目指し方",
     description:
-      "女性に人気の社内SEの仕事内容・年収・必要スキル・未経験からのロードマップ・求人動向を実データで解説。残業少なめでWLBが良好な理由も紹介。",
+      "女性が社内SEへ転職するためのガイド。仕事内容・年代別の年収の目安・必要なスキル・未経験からのロードマップ・求人動向を解説します。",
     url: "https://women-engineer.com/articles/internal-se/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性 社内SE 転職ガイド｜仕事内容・年収・未経験から目指す道",
+  headline: "女性の社内SE転職ガイド｜仕事内容・年収・向いている理由と未経験からの目指し方",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-09",
+  dateModified: "2026-10-19",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "女性に人気の社内SEの仕事内容・年収・必要スキル・未経験からのロードマップ・求人動向を実データで解説。残業少なめでWLBが良好な理由も紹介。",
+    "女性が社内SEへ転職するためのガイド。仕事内容・年代別の年収の目安・必要なスキル・未経験からのロードマップ・求人動向を解説します。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/internal-se/",
@@ -139,10 +139,10 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性のための社内SE転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                残業少なめ・WLB良好で腰を据えて働ける人気職を実データで解説
+                仕事内容・年収の目安・未経験からの目指し方
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月19日</p>
           </div>
         </div>
       </section>
