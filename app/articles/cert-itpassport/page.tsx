@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性のITパスポート試験ガイド｜合格率48.6%・未経験の最初の一歩【2026年】",
+  title: "女性のITパスポート試験ガイド｜合格率48.6%・受験料7,500円・年齢制限なし【2026年】",
   description:
     "ITパスポート試験（iパス）を未経験からITを目指す女性向けに解説。IPA公式データに基づく試験概要（CBT随時・受験料7,500円・100問120分）、令和7年度合格率48.6%、出題範囲と合格基準、勉強の進め方、教育訓練給付・無料講座など費用を抑える公的支援、転職での評価の実際まで。",
   alternates: { canonical: "/articles/cert-itpassport/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性のITパスポート試験ガイド｜合格率48.6%・未経験の最初の一歩【2026年】",
+    title: "女性のITパスポート試験ガイド｜合格率48.6%・受験料7,500円・年齢制限なし【2026年】",
     description:
       "ITパスポート試験をIPA公式データで解説。CBT随時・7,500円・令和7年度合格率48.6%。未経験女性の最初の一歩としての活かし方と公的支援の使い方。",
     url: "https://women-engineer.com/articles/cert-itpassport/",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性のITパスポート試験ガイド｜合格率48.6%・未経験の最初の一歩【2026年】",
+  headline: "女性のITパスポート試験ガイド｜合格率48.6%・受験料7,500円・年齢制限なし【2026年】",
   datePublished: "2026-07-05",
-  dateModified: "2026-07-05",
+  dateModified: "2026-10-20",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -126,7 +126,7 @@ export default function ArticlePage() {
                 合格率48.6%・未経験の「最初の一歩」をIPA公式データで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月5日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月20日</p>
           </div>
         </div>
       </section>
@@ -187,7 +187,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">難易度・合格率（IPA公式データ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              IPAが公開する統計によると、<strong>令和7年度（2025年4月〜2026年3月）の合格率は48.6%</strong>。年間30万人以上が応募する人気試験で、受験者のほぼ2人に1人が合格しています。合格率約40%の基本情報技術者試験より一段やさしく、「対策すれば未経験でも十分届く」水準です。
+              IPAが公開する統計によると、<strong>令和7年度（2025年4月〜2026年3月）の合格率は48.6%</strong>。年間30万人以上が応募する人気試験で、受験者のほぼ2人に1人が合格しています。令和8年度に入ってからも、4月〜8月の累計で受験者92,634人・合格者45,700人・合格率49.3%と同じ水準です（IPA「試験結果」令和8年8月度、2026年10月20日確認）。合格率約40%の基本情報技術者試験より一段やさしく、「対策すれば未経験でも十分届く」水準です。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
