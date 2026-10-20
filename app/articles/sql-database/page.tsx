@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性データベースエンジニア（DBA）転職ガイド｜年収・必要スキル・未経験からの道",
+  title: "女性データベースエンジニア（DBA）の働き方と年収｜リモート・夜間対応の有無と未経験からの転職ガイド",
   description:
-    "女性データベースエンジニア・DBAの転職ガイド。DB設計・SQL・RDBMS運用・パフォーマンスチューニングという仕事内容やデータエンジニアとの違い、平均年収（20代373万〜40代600万）、必要スキル・資格（ORACLE MASTER/OSS-DB）、未経験ロードマップ、求人動向、キャリアパスを実データで解説。",
+    "女性データベースエンジニア・DBAの働き方と転職ガイド。リモートのしやすさ、夜間対応（オンコール）の有無の見分け方、平均年収（20代373万〜40代600万）、必要スキル・資格（ORACLE MASTER/OSS-DB）、未経験からのロードマップを解説します。",
   alternates: { canonical: "/articles/sql-database/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性データベースエンジニア（DBA）転職ガイド｜年収・必要スキル・未経験からの道",
+    title: "女性データベースエンジニア（DBA）の働き方と年収｜リモート・夜間対応の有無と未経験からの転職ガイド",
     description:
-      "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。データエンジニアとの違いも明確に。",
+      "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスと、リモートや夜間対応の有無など働き方の見分け方を解説します。",
     url: "https://women-engineer.com/articles/sql-database/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性データベースエンジニア（DBA）転職ガイド｜年収・必要スキル・未経験からの道",
+  headline: "女性データベースエンジニア（DBA）の働き方と年収｜リモート・夜間対応の有無と未経験からの転職ガイド",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-09",
+  dateModified: "2026-10-20",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。データエンジニアとの違いも明確に。",
+    "女性データベースエンジニア・DBAの年収・必要スキル・資格・未経験からのロードマップ・求人動向・キャリアパスと、リモートや夜間対応の有無など働き方の見分け方を解説します。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/sql-database/",
@@ -139,10 +139,10 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性データベースエンジニア（DBA）転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                SQL・DB設計・RDBMS運用とチューニングを実データで解説
+                リモート・夜間対応の有無から年収・必要スキルまで解説
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月20日</p>
           </div>
         </div>
       </section>
