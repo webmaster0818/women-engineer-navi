@@ -23,7 +23,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性デジタルカレッジ事業の口コミ・評判は？対象者・費用・申込方法【2026年度】",
   datePublished: "2026-07-04",
-  dateModified: "2026-07-30",
+  dateModified: "2026-10-21",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -157,9 +157,9 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月21日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 今年度の最終募集が進んでいます。11月9日開講の練馬会場は<strong>申込受付期間を10月19日（月）まで延長</strong>（公式発表 2026年10月16日）。11月16日開講の<strong>足立会場・立川会場は10月25日（日）が募集締切</strong>で、いずれも<strong>今年度の最終募集</strong>と案内されています（公式発表 2026年10月14日）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 今年度の最終募集が進んでいます。11月16日開講の<strong>足立会場・立川会場は10月25日（日）が募集締切</strong>（選考は10月27日）、11月23日開講の<strong>品川会場・墨田会場は11月1日（日）が募集締切</strong>で、いずれも各会場の今年度最終募集と案内されています（公式発表 2026年10月21日）。11月9日開講の練馬会場の申込受付は10月19日で終了しています。公式サイトには「令和9年1月～3月の基礎及び応用コースの訓練開催はありません」とあります。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>入門コース:</strong> 2026年5月7日より第1期（計8回）の募集が案内されています。最新の開催回は公式サイトの新着情報をご確認ください。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
