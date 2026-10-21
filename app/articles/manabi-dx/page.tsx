@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "マナビDX（経産省・IPA）の使い方ガイド｜無料講座の探し方と転職準備での活用法【2026年】",
+  title: "マナビDX（デラックス）とは？経産省・IPAの無料講座の探し方と転職準備での活用法【2026年】",
   description:
-    "経済産業省とIPAが運営するデジタル人材育成ポータル「マナビDX」を公式情報をもとに解説。デジタルスキル標準（DSS）との関係、受講料無料の講座の絞り込み方、教育訓練給付対象講座の探し方、無料実践プログラム「マナビDX Quest」、女性エンジニア転職の準備での活用法まで紹介します。",
+    "マナビDX（デラックス）とは、経済産業省とIPAが運営するデジタル人材育成ポータルです。公式情報をもとに、デジタルスキル標準（DSS）との関係、受講料無料の講座の絞り込み方、教育訓練給付対象講座の探し方、無料実践プログラム「マナビDX Quest」、女性エンジニア転職の準備での活用法まで紹介します。",
   alternates: { canonical: "/articles/manabi-dx/" },
   openGraph: { images: ["/og-default.png"],
-    title: "マナビDX（経産省・IPA）の使い方ガイド｜無料講座の探し方と転職準備での活用法【2026年】",
+    title: "マナビDX（デラックス）とは？経産省・IPAの無料講座の探し方と転職準備での活用法【2026年】",
     description:
       "経産省・IPA運営のポータル「マナビDX」の使い方を公式情報をもとに解説。無料講座の絞り込み方、教育訓練給付対象講座、マナビDX Quest、転職準備での活用法を紹介。",
     url: "https://women-engineer.com/articles/manabi-dx/",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "マナビDX（経産省・IPA）の使い方ガイド｜無料講座の探し方と転職準備での活用法【2026年】",
   datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  dateModified: "2026-10-21",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -66,7 +66,7 @@ const faqData = {
       name: "マナビDX Questとは何ですか？マナビDXとの違いは？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "マナビDX Questは、経済産業省が推進する参加無料の実践型デジタル人材育成プログラムです。講座を「探す」ポータルであるマナビDXに対し、Questは実企業の課題データを使って課題特定からソリューション提案までを学ぶケーススタディ教育プログラム（約3か月）と、中小企業と協働して実課題解決に取り組む地域企業協働プログラムで構成されます。デジタル経験の有無を問わず参加でき、修了者にはDX推進スキル標準（DSS-P）に基づくデジタルバッジが発行されます。2026年度はケーススタディ教育プログラムが受講生募集中、地域企業協働プログラムは秋以降開始予定です（出典: マナビDX Quest公式サイト、2026年7月参照）。",
+        text: "マナビDX Questは、経済産業省が推進する参加無料の実践型デジタル人材育成プログラムです。講座を「探す」ポータルであるマナビDXに対し、Questは実企業の課題データを使って課題特定からソリューション提案までを学ぶケーススタディ教育プログラム（約3か月）と、中小企業と協働して実課題解決に取り組む地域企業協働プログラムで構成されます。デジタル経験の有無を問わず参加でき、修了者にはDX推進スキル標準（DSS-P）に基づくデジタルバッジが発行されます。2026年度の募集はケーススタディ教育プログラム・地域企業協働プログラムともに締め切られています（出典: マナビDX Quest公式サイト、2026年10月21日確認）。次年度の募集は公式サイトのお知らせで発表されます。",
       },
     },
     {
@@ -113,12 +113,12 @@ export default function ArticlePage() {
               支援制度ガイド
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              マナビDX（経産省・IPA）の使い方ガイド
+              マナビDX（デラックス）とは？経産省・IPAの学習ポータルの使い方
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
                 無料講座の探し方と女性エンジニア転職準備での活用法【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月4日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月21日</p>
           </div>
         </div>
       </section>
@@ -173,7 +173,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">マナビDXとは（デジタルスキル標準との関係）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「マナビDX（マナビディーエックス）」は、<strong>経済産業省と独立行政法人情報処理推進機構（IPA）が運営する</strong>デジタル人材育成のポータルサイトです。「すべての人に学びの場を提供」することを掲げ、デジタルスキルを身につけられる講座を横断的に検索・比較できます（出典: マナビDX公式サイト、2026年7月参照）。
+              「マナビDX（デラックス）」は、2022年3月に開設された、<strong>経済産業省と独立行政法人情報処理推進機構（IPA）が運営する</strong>デジタル人材育成のポータルサイトです。「すべての人に学びの場を提供」することを掲げ、デジタルスキルを身につけられる講座を横断的に検索・比較できます（出典: マナビDX公式サイト、2026年7月参照）。
             </p>
             <p>
               最大の特徴は、掲載講座が<strong>国の「デジタルスキル標準（DSS）」にひもづいている</strong>ことです。デジタルスキル標準は経産省・IPAが策定したスキルの共通ものさしで、全ビジネスパーソン向けの「DXリテラシー標準（DSS-L）」と、DXを推進する人材の役割・スキルを定義した「DX推進スキル標準（DSS-P）」の2階建てになっています。マナビDXでは、スキル標準への対応を経産省・IPAが審査した講座が掲載されるため、「どの講座が体系的な学びとして信頼できるか」を自分で見極める手間を減らせます（出典: IPA「デジタルスキル標準」、2026年7月参照）。
@@ -227,7 +227,7 @@ export default function ArticlePage() {
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>関連プログラム</td>
-                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>マナビDX Quest（経産省の実践型プログラム・参加無料・2026年度募集中）</td>
+                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>マナビDX Quest（経産省の実践型プログラム・参加無料・2026年度の募集は終了）</td>
                 </tr>
               </tbody>
             </table>
@@ -302,7 +302,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">無料の実践プログラム「マナビDX Quest」</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              マナビDXの姉妹プログラムとして、経済産業省が推進する<strong>参加無料</strong>の実践型プログラム「マナビDX Quest」があります。講座を「探す」ポータルであるマナビDXと違い、Questは実際の企業データ・企業課題を題材に手を動かして学ぶプログラムです（出典: マナビDX Quest公式サイト、2026年7月参照）。
+              マナビDXの姉妹プログラムとして、経済産業省が推進する<strong>参加無料</strong>の実践型プログラム「マナビDX Quest」があります。講座を「探す」ポータルであるマナビDXと違い、Questは実際の企業データ・企業課題を題材に手を動かして学ぶプログラムです。公式サイトによると、2025年度はケーススタディ教育プログラムの受講生がのべ2,093名（満足度76％）、地域企業協働プログラムは受講生393名・中小企業77社が参加し、受講生満足度87％・企業満足度93％でした（出典: マナビDX Quest公式サイト、2026年10月21日確認）。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -311,20 +311,20 @@ export default function ArticlePage() {
               <ul className="space-y-2 text-sm text-text-light">
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>実企業の課題をもとに「課題特定→ソリューション検討→提案」を約3か月で学ぶPBL（課題解決型学習）</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>デジタル経験の有無を問わず参加可能（プログラムにより要件あり）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>2026年度は受講生募集中（2026年7月参照時点）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>2026年度の受講生募集は締め切り（SIGNATE提供プログラムは8月17日まで延長のうえ終了・2026年10月21日確認）</span></li>
               </ul>
             </div>
             <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>地域企業協働プログラム</h3>
               <ul className="space-y-2 text-sm text-text-light">
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>中小企業と協働し、実課題の解決に2〜3か月取り組むインターンシップ型</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>2026年度は秋以降開始予定・詳細は後日公開（2026年7月参照時点）</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>2026年度の募集は締め切り。採択チームから順次開始し、プログラム終了は2027年1月29日（仮）の予定（2026年10月21日確認）</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span>修了者にはDX推進スキル標準（DSS-P）に基づくデジタルバッジを発行</span></li>
               </ul>
             </div>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
-            未経験転職では「実務に近い経験」の有無が書類・面接の通過率を左右します。費用をかけずに実課題ベースの経験とデジタルバッジを得られるQuestは、独学のポートフォリオを補強する選択肢になります。募集時期・参加要件は年度ごとに変わるため、必ず<a href="https://dxq.manabi-dx.ipa.go.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>で最新情報を確認してください。
+            未経験転職では「実務に近い経験」の有無が書類・面接の通過率を左右します。費用をかけずに実課題ベースの経験とデジタルバッジを得られるQuestは、独学のポートフォリオを補強する選択肢になります。募集時期・参加要件は年度ごとに変わるため、必ず<a href="https://dxq.manabi-dx.ipa.go.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>で最新情報を確認してください。2026年度の募集はすでに終了しているため、今から始める場合はマナビDXの無料講座で基礎を固めながら、次年度の募集開始を待つ進め方が現実的です。
           </p>
         </div>
       </section>
@@ -417,7 +417,7 @@ export default function ArticlePage() {
           <ul className="space-y-2 text-sm text-text-light">
             <li>出典: 経済産業省・IPA「マナビDX」公式サイト <a href="https://manabi-dx.ipa.go.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://manabi-dx.ipa.go.jp/</a>（2026年7月参照）</li>
             <li>出典: マナビDX「マナビDXとは」 <a href="https://manabi-dx.ipa.go.jp/what" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://manabi-dx.ipa.go.jp/what</a>（2026年7月参照）</li>
-            <li>出典: 経済産業省「マナビDX Quest」公式サイト <a href="https://dxq.manabi-dx.ipa.go.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://dxq.manabi-dx.ipa.go.jp/</a>（2026年7月参照）</li>
+            <li>出典: 経済産業省「マナビDX Quest」公式サイト <a href="https://dxq.manabi-dx.ipa.go.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://dxq.manabi-dx.ipa.go.jp/</a>（2026年10月21日確認）</li>
             <li>出典: IPA「デジタルスキル標準」 <a href="https://www.ipa.go.jp/jinzai/skill-standard/dss/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.ipa.go.jp/jinzai/skill-standard/dss/index.html</a>（2026年7月参照）</li>
             <li>出典: 厚生労働省「教育訓練給付制度」 <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/kyouiku.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/kyouiku.html</a>（2026年7月参照）</li>
           </ul>
