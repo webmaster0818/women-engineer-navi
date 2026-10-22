@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性データエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
+  title: "女性データエンジニアの年収と転職ガイド｜年代別の年収目安・必要スキル・未経験からの道",
   description:
-    "女性データエンジニアの転職ガイド。データ基盤・ETL・データパイプライン構築という仕事内容やデータサイエンティストとの違い、年収（20代466万〜40代707万）、必要スキル（SQL/Python/BigQuery/Snowflake/dbt）、未経験ロードマップ、求人動向、キャリアパスを実データで解説します。",
+    "女性データエンジニアの年収と転職ガイド。年代別の年収目安（20代466万〜40代707万・各種調査をもとにした目安）、データサイエンティストとの違い、必要スキル（SQL/Python/BigQuery/Snowflake/dbt）、未経験からのロードマップ、キャリアパスを解説します。",
   alternates: { canonical: "/articles/data-engineer/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性データエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
+    title: "女性データエンジニアの年収と転職ガイド｜年代別の年収目安・必要スキル・未経験からの道",
     description:
-      "女性データエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。データサイエンティストとの違いも明確に。",
+      "女性データエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを解説。データサイエンティストとの違いも明確に。",
     url: "https://women-engineer.com/articles/data-engineer/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性データエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
+  headline: "女性データエンジニアの年収と転職ガイド｜年代別の年収目安・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-09",
+  dateModified: "2026-10-22",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "女性データエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを実データで解説。データサイエンティストとの違いも明確に。",
+    "女性データエンジニアの年収・必要スキル・未経験からのロードマップ・求人動向・キャリアパスを解説。データサイエンティストとの違いも明確に。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/data-engineer/",
@@ -139,7 +139,7 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性データエンジニア転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                データ基盤・ETL・パイプラインを支える高需要職種を実データで解説
+                データ基盤・ETL・パイプラインを支える高需要職種の年収と働き方を解説
               </span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
