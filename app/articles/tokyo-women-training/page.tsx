@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   datePublished: "2026-06-12",
-  dateModified: "2026-10-17",
+  dateModified: "2026-10-22",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -142,7 +142,7 @@ export default function ArticlePage() {
                 内容・費用・申込方法と応募前に知るべきポイント【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月17日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月22日</p>
           </div>
         </div>
       </section>
@@ -399,6 +399,9 @@ export default function ArticlePage() {
             </p>
             <p>
               さらに注意したいのは、この事業は<strong>年度ごとに運営事業者が変わる</strong>点です（令和6年度は株式会社ワークポート、令和7年度からはアデコ株式会社が受託）。過去の体験談がそのまま現行のカリキュラム・運営に当てはまるとは限りません。口コミを探すより、次のチェックポイントを一次情報（公式サイト・運営事務局）で確認するほうが、応募判断として確実です。
+            </p>
+            <p>
+              なお、同じ東京都の事業でも、再就職を目指す女性向けの託児付き職業訓練は別事業です。そちらの口コミ・評判の調べ方と募集状況は<a href="/articles/women-digital-college/#kuchikomi" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジ事業の口コミ・評判</a>のページにまとめています。
             </p>
           </div>
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
