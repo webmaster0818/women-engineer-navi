@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの言語別年収比較｜Go・Python・TypeScriptで稼げる言語の選び方",
   description:
-    "女性エンジニア向けにプログラミング言語別の年収を比較。Go723万円・TypeScript714万円・Ruby689万円など主要11言語の平均年収とフリーランス単価を一覧表で解説。高単価言語の理由、女性が年収を上げる言語選び、未経験から狙える言語、言語を変えて年収アップした事例まで実データで紹介します。",
+    "女性エンジニア向けにプログラミング言語別の年収を比較。Go723万円・TypeScript714万円・Ruby689万円など主要11言語の平均年収とフリーランス単価を一覧表で解説。高単価言語の理由、女性が年収を上げる言語選び、未経験から狙える言語まで紹介します。",
   alternates: { canonical: "/articles/salary-by-language/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの言語別年収比較｜稼げる言語の選び方",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの言語別年収比較｜Go・Python・TypeScriptで稼げる言語の選び方",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -142,10 +142,9 @@ export default function ArticlePage() {
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 高単価な言語とその理由（Go・Rust・TypeScript）</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が選ぶべき言語の考え方</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験でも年収を狙える言語</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 言語を変えて年収アップした女性の事例</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 言語別に年収を上げるロードマップ</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>6. 言語別に年収を上げるロードマップ</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -387,39 +386,6 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* sec6 言語を変えて年収アップした事例 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">言語を変えて年収アップした女性の事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・PHP→Go）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のPHPエンジニア / 年収440万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のGoエンジニア / 年収620万円・フルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">PHPで培ったDB設計とAPIの経験を土台に、副業でGoのマイクロサービスに触れて実績を作成。IT特化型エージェント経由で「PHP経験＋Go」として売り込み、年収180万円アップとフルリモートを同時に実現しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・JavaScript→TypeScript）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">制作会社のフロントエンド（JavaScript）/ 年収380万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のフロントエンド（TypeScript/React）/ 年収520万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">既存のJavaScriptスキルにTypeScriptの型設計を上乗せし、Reactの実務に応用。新言語をゼロから学ぶのではなく、得意分野の延長で高単価化したことで、ブランクのリスクを抑えつつ年収140万円アップを達成しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代後半・Java→Python×AI）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerの業務システム開発（Java）/ 年収520万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">事業会社のデータ・AI領域（Python）/ 年収680万円・時短可</p></div>
-              </div>
-              <p className="text-sm text-text-light">Javaの設計力を活かしつつ、育休中にPythonとLLM/RAGの学習を進めて社内案件で実績化。AIスキルの年収プレミアムを取り込み、時短勤務でも年収160万円アップ。ライフイベントを言語転換のチャンスに変えた好例です。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* sec7 ロードマップ */}
       <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
@@ -512,7 +478,6 @@ export default function ArticlePage() {
           </div>
         </div>
       </section>
-
 
       {/* 関連記事 */}
       <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>

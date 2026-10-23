@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "エンジニアの円満退職・退職交渉の進め方ガイド｜民法ルールから引き継ぎ・有給消化まで",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -145,8 +145,7 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. エンジニア特有の注意点（ソース・権限）</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 女性がスムーズに退職する工夫</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 円満退職の事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -470,31 +469,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">円満退職は「次が決まっていること」から</p>
             <p className="text-sm text-text-light mb-4">複数登録して、入社日まで伴走してくれるアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">円満退職の事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・自社開発バックエンド）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">退職交渉の状況</p><p className="text-sm font-bold">退職申し出時に「年収を50万上げる」とカウンターオファー</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>結果</p><p className="text-sm font-bold">入社日を盾に引き止めを辞退／有給20日を全消化して退職</p></div>
-              </div>
-              <p className="text-sm text-text-light">転職先の入社日を確定させてから、退職希望日の1ヶ月半前に直属の上司へ口頭で報告。年収アップの提案には「金額ではなく挑戦したい技術を変えたい」と返し、引き継ぎ資料を背景込みで整備。最終出社日後に有給を全消化し、関係を保ったまま円満に退職しました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・SES／客先常駐）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">退職交渉の状況</p><p className="text-sm font-bold">「常駐先の契約が残っている」と時期の延期を要請される</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>結果</p><p className="text-sm font-bold">民法627条を踏まえつつ余裕ある引き継ぎ計画を提示し合意</p></div>
-              </div>
-              <p className="text-sm text-text-light">就業規則は「2ヶ月前」でしたが、民法上は2週間で退職可能と理解したうえで、常駐先にも配慮し1ヶ月半前に申し出。最終出社日までに常駐先のドキュメントを整備し、権限・アカウントの移譲も完了。会社・常駐先双方に角を立てず、産休育休実績のある自社開発企業へ移りました。</p>
-            </div>
           </div>
         </div>
       </section>

@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの福岡転職ガイド｜年収相場・働きやすい企業・移住の選択肢",
   description:
-    "福岡で転職したい女性エンジニア向けガイド。スタートアップ都市・エンジニアフレンドリーシティ福岡の求人動向、年収相場（SE約523万・東京比較）、LINEヤフー・ヌーラボ・Fusicなど働きやすい企業、移住支援金100万円やリモート移住、未経験ロードマップ、転職事例まで実データで解説します。",
+    "福岡で転職したい女性エンジニア向けガイド。スタートアップ都市・エンジニアフレンドリーシティ福岡の求人動向、年収相場（SE約523万・東京比較）、LINEヤフー・ヌーラボ・Fusicなど働きやすい企業、移住支援金100万円やリモート移住、未経験ロードマップまで解説します。",
   alternates: { canonical: "/articles/fukuoka/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの福岡転職ガイド｜年収相場・働きやすい企業・移住の選択肢",
     description:
-      "福岡のIT転職市場・年収相場・女性が働きやすい企業・リモート移住・転職事例を実データで解説。「女性エンジニア 転職 福岡」の決定版ガイド。",
+      "福岡のIT転職市場・年収相場・女性が働きやすい企業・リモート移住を解説。「女性エンジニア 転職 福岡」の決定版ガイド。",
     url: "https://women-engineer.com/articles/fukuoka/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの福岡転職ガイド｜年収相場・働きやすい企業・移住の選択肢",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "福岡で転職したい女性エンジニア向けに、IT転職市場・年収相場・働きやすい企業・移住支援・リモート移住・転職事例を実データで解説。",
+    "福岡で転職したい女性エンジニア向けに、IT転職市場・年収相場・働きやすい企業・移住支援・リモート移住を解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/fukuoka/",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験から福岡で転職するには（STEP）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. リモート移住という選択肢</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 福岡への転職・移住事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -375,31 +374,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、福岡・リモート求人に強いアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 転職・移住事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">福岡への転職・移住事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・東京→福岡へUターン移住）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">東京の受託開発・Webエンジニア / 年収540万円・家賃14万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">福岡の自社開発企業 / 年収500万円・家賃7万円・移住支援金活用</p></div>
-              </div>
-              <p className="text-sm text-text-light">額面は40万円下がったものの、家賃が月7万円安くなり生活費全体では年間100万円ほど節約。移住支援金（世帯）も受け取り、可処分所得はむしろ増加。通勤も短くなり、育児との両立がしやすくなりました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・福岡在住・未経験→自社開発）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">福岡の事務職（IT未経験）/ 年収310万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">福岡の自社開発企業（PHP）/ 年収430万円・フレックス</p></div>
-              </div>
-              <p className="text-sm text-text-light">エンジニアカフェに通いながら独学でPHPとSQLを習得し、CRUD＋API付きのポートフォリオを公開。勉強会で知った企業文化を決め手に、未経験可の自社開発企業へ転職。地元を離れずキャリアチェンジを実現しました。</p>
-            </div>
           </div>
         </div>
       </section>

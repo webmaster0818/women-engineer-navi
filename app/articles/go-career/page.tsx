@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性Goエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -145,8 +145,7 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験・他言語から目指すロードマップ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. Goエンジニアのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -394,31 +393,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・PHP→Go）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のPHPエンジニア / 年収440万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のGoバックエンド / 年収650万円・フルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">既存のWeb開発経験を活かしつつ、Gin＋GORMでREST APIを自作してポートフォリオ化。IT特化型エージェントで「Go経験のある即戦力」として提案してもらい、年収210万円アップとフルリモートを同時に実現しました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・未経験→Go）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">事務職（IT未経験）/ 年収330万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発スタートアップのGoエンジニア / 年収450万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">まずWeb基礎とSQLを固め、A Tour of Go＋EchoでDocker化したAPIを公開。Go人材が不足する自社開発スタートアップにポテンシャル採用で転職し、産休育休実績のある環境で長く働ける基盤を得ました。</p>
-            </div>
           </div>
         </div>
       </section>

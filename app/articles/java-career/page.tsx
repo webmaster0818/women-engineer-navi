@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性Javaエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -145,8 +145,7 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から目指すロードマップ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. Javaエンジニアのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -388,31 +387,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・SES Java→金融系自社開発）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SESのJavaプログラマー / 年収440万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">金融系企業の自社開発（Spring Boot）/ 年収620万円・産休実績あり</p></div>
-              </div>
-              <p className="text-sm text-text-light">IT特化型エージェントでSpring Bootと基本設計の経験を整理。上流工程に踏み込める金融系の自社開発に移り、年収180万円アップと、将来の出産も見据えた制度の整った環境を同時に手に入れました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・未経験→Java）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">販売職（IT未経験）/ 年収310万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SIerのJavaエンジニア（研修あり）/ 年収400万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">独学＋スクールでJava・Spring Bootを学び、Java Silverを取得。CRUD＋API付きのWebアプリを公開し、研修制度の整った業務系SIerに転職。育休からの復帰実績がある現場で、長く働ける基盤を得ました。</p>
-            </div>
           </div>
         </div>
       </section>

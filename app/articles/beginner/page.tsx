@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "未経験から女性エンジニアになるには？現実のロードマップと職種の選び方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-30",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -183,9 +183,8 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>7. ポートフォリオの作り方</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>8. 転職活動の進め方と求人の見極め方</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. 転職成功事例</a></li>
-              <li><a href="#age-route" className="hover:underline" style={{ color: "#7c3a55" }}>11. 30代・40代から未経験で目指す場合</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>12. よくある質問</a></li>
+              <li><a href="#age-route" className="hover:underline" style={{ color: "#7c3a55" }}>10. 30代・40代から未経験で目指す場合</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -574,44 +573,6 @@ export default function ArticlePage() {
             <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（20代後半・事務職→バックエンド）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">一般事務（IT未経験）</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">自社開発企業のバックエンドエンジニア（Python）</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">働きながら独学でPythonを開始し、3ヶ月続いたことを確認してからスクールへ。CRUD＋ログイン機能付きのWebアプリをポートフォリオとして公開し、約10ヶ月で内定。IT特化型エージェント経由で「教育体制が整った未経験可求人」に絞って応募したことが、入社後のミスマッチ回避につながりました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（30代前半・販売職→QA→開発）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">アパレル販売職（IT未経験）</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">QAテスター → 2年後に社内異動で開発エンジニアへ</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">長時間の学習時間を確保しづらかったため「段階ルート」を選択。ITパスポート取得とテスト技法の基礎学習でQAテスターとしてIT業界に入り、収入を維持しながら社内でプログラミングを学習。テスト自動化の担当を経て開発チームへ異動しました。女性特化型エージェントで産休育休実績のある企業を選んだことで、長く働ける環境も確保しています。</p>
-            </div>
-          </div>
-          <p className="text-sm text-text-light mt-4">※ 成功パターンを再構成したモデルケースです。共通点は「学習の証拠を作ってから応募」「エージェントで企業の実態を確認」の2点です。</p>
         </div>
       </section>
 

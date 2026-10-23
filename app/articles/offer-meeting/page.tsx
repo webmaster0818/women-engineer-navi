@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "オファー面談で確認すべきことガイド｜女性エンジニアの条件交渉・チェックリスト",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-13",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -173,8 +173,7 @@ export default function ArticlePage() {
               <li><a href="#sec-pre-accept" className="hover:underline" style={{ color: "#7c3a55" }}>6. オファー受諾前チェックリスト（女性エンジニア版）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>7. 辞退する場合の対応とマナー</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. オファー面談の活用事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -463,31 +462,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">条件交渉はエージェントを盾にするのが正解</p>
             <p className="text-sm text-text-light mb-4">複数登録して、年収交渉に強いアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">オファー面談の活用事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・年収内訳を分解して交渉）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">面談前の提示</p><p className="text-sm font-bold">想定年収520万円（固定残業45時間・賞与込み）</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>交渉後</p><p className="text-sm font-bold">基本給を引き上げ年収560万円・残業実態は月10時間と確認</p></div>
-              </div>
-              <p className="text-sm text-text-light">オファー面談で内訳を分解したところ、提示額が固定残業45時間込みと判明。実残業は月10時間程度と確認したうえで、現職年収とAWS/Pythonの実績を根拠にレバテックキャリア経由で交渉。基本給ベースで40万円の上積みに成功しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・育休復帰率を確認して入社を決断）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">面談前の不安</p><p className="text-sm font-bold">求人票は「育休制度あり」のみで実態が不明</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>面談で確認後</p><p className="text-sm font-bold">育休復帰率95%・時短復帰者が同チームに在籍と判明し入社</p></div>
-              </div>
-              <p className="text-sm text-text-light">オファー面談で配属予定の上長に育休復帰率と時短勤務者の人数を質問。復帰率95%、同じチームに時短で活躍中の先輩がいると具体的に説明され、長く働けるイメージが持てたため内定を承諾しました。</p>
-            </div>
           </div>
         </div>
       </section>

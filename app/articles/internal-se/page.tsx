@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性の社内SE転職ガイド｜仕事内容・年収・向いている理由と未経験からの目指し方",
   datePublished: "2026-06-10",
-  dateModified: "2026-10-19",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -161,9 +161,8 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から目指すロードマップ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 社内SEのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性が社内SEとして働くリアル</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
+              <li><a href="#sec-women" className="hover:underline" style={{ color: "#7c3a55" }}>9. 女性が社内SEとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -410,31 +409,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・SES→社内SE）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SESの客先常駐エンジニア / 年収430万円・残業多め</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">メーカーの社内SE（情シス）/ 年収520万円・残業月10時間</p></div>
-              </div>
-              <p className="text-sm text-text-light">客先常駐で残業が多く将来の働き方に不安を感じ、IT特化型エージェントに相談。インフラ運用の経験を強みに自社情シスへ転職し、年収90万円アップと残業大幅減を同時に実現。産休育休実績のある企業を選び、長く働ける土台を得ました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・事務職→社内SE）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">営業事務（社内システム担当を兼務）/ 年収330万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">IT企業の社内SE（ヘルプデスク＋業務システム）/ 年収420万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">営業事務として勤怠・販売管理システムの運用やトラブル対応を担当していた経験を棚卸し。ITパスポートと基本情報技術者を取得して基礎を証明し、未経験可の社内SE求人へ。業務理解と調整力を評価され、ヘルプデスク＋業務システム担当としてキャリアチェンジに成功しました。</p>
-            </div>
           </div>
         </div>
       </section>

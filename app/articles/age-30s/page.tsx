@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "30代女性エンジニアの転職ガイド｜年収相場・未経験の現実・両立戦略【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -177,8 +177,7 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. ライフイベントとの両立戦略</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 30代の転職活動の進め方</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -518,44 +517,6 @@ export default function ArticlePage() {
             <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・経験者のキャリアアップ）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">中小SIerのシステムエンジニア / 年収420万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">SaaS企業のバックエンドエンジニア / 年収560万円・フルリモート</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">現職で担当していたAWS移行の経験を棚卸しし、IT特化型エージェント経由でクラウド経験者として応募。30代前半の「実務×伸びしろ」評価で年収140万円アップとフルリモートを同時に実現しました。「転職者の半数近くが賃金増というデータを見て、市場価値の確認だけでもと思ったのがきっかけでした」</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（30代後半・両立軸の転職）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">受託開発のリーダー職（残業多め）/ 年収530万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">自社開発企業のテックリード / 年収580万円・フレックス＋リモート併用</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">5名チームのリーダー経験と障害対応の改善実績を定量化して職務経歴書に反映。女性特化型エージェントで育休取得実績と復帰率を事前確認し、出産を見据えて「両立できる会社」へ先回りの転職をしました。年収を維持どころか上げながら、労働時間の課題を解消しています。</p>
-            </div>
-          </div>
-          <p className="text-xs text-text-light mt-4">※事例は30代女性エンジニアの典型的な転職パターンをもとに構成したモデルケースです。</p>
         </div>
       </section>
 

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアが年収1000万を目指す方法｜届く職種・スキル・5つの戦略",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -142,10 +142,9 @@ export default function ArticlePage() {
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 必要なスキルと経験年数</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が1000万を目指す5つの戦略</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 外資・フリーランスという選択</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 年収を上げる転職事例</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 関連記事</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>6. おすすめ転職エージェント</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>7. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. 関連記事</a></li>
             </ol>
           </div>
         </div>
@@ -347,39 +346,6 @@ export default function ArticlePage() {
           <p className="text-text-light leading-relaxed mt-6 text-sm">
             どちらも「専門性が単価に直結する」点は同じです。まずは社員として希少スキルを固め、そのうえで外資への転職、または独立を選ぶ――という順序が、リスクを抑えながら1000万円に届く堅実なルートです。
           </p>
-        </div>
-      </section>
-
-      {/* sec6 転職事例 */}
-      <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">年収を上げる転職事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・インフラ→SRE）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerのインフラ運用 / 年収520万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のSRE / 年収920万円・フルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">AWSとTerraform（IaC）、Kubernetesの運用経験を業務外でも積み上げ、SREへ職種転換。希少性の高い領域に移ったことで、時短勤務を維持しつつ年収400万円アップとフルリモートを同時に実現しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（30代後半・SE→ITコンサル）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">業務系SE（実装中心）/ 年収600万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">ITコンサル（要件定義・IT戦略）/ 年収1080万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">実装スキルに加え、要件定義・上流での顧客折衝の実績を職務経歴書で整理。実力主義のコンサルファームに上流人材として転職し、シニア級として1000万円の大台を突破しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Eさん（40代・テックリード→独立EM）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">独立前</p><p className="text-sm font-bold">自社開発のテックリード / 年収780万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>独立後</p><p className="text-sm font-bold">業務委託EM（月単価100万円）/ 年収換算1100万円超</p></div>
-              </div>
-              <p className="text-sm text-text-light">開発リード＋組織マネジメントの経験を武器に、フラクショナルな業務委託EMとして独立。月100万円前後の案件を組み合わせ、稼働日数を調整しながら育児と両立しつつ1000万円超を実現しています。</p>
-            </div>
-          </div>
         </div>
       </section>
 

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニア 転職 東京ガイド｜求人動向・年収相場・働きやすい企業",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験から東京で転職するには</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. リモートという選択肢（保活・通勤事情）</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 転職成功事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -363,31 +362,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで東京転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 成功事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・地方SIer→東京の自社開発）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">地方SIerのSE / 年収420万円・常駐勤務</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">東京の自社開発SaaS / 年収580万円・フルリモート（地方在住のまま）</p></div>
-              </div>
-              <p className="text-sm text-text-light">IT特化型エージェント経由で、地方在住可のフルリモート求人に応募。引っ越さず東京水準の年収を得て、保活の負担が軽い地元で子育てしながら働く環境を実現しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・未経験→東京のメガベンチャー）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">都内の事務職（IT未経験）/ 年収340万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">東京のメガベンチャー（バックエンド）/ 年収480万円・フレックス</p></div>
-              </div>
-              <p className="text-sm text-text-light">東京の勉強会やコミュニティに参加しながら独学＋スクールでPythonを習得し、CRUD＋API付きのポートフォリオを公開。女性活躍制度が整った企業に未経験から転職し、女性管理職のロールモデルがいる環境で長期キャリアの土台を得ました。</p>
-            </div>
           </div>
         </div>
       </section>

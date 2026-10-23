@@ -23,7 +23,7 @@ const structuredData = {
   headline:
     "女性エンジニア転職【名古屋・東海】製造業DX・社内SEで広がる選択肢｜年収相場と働きやすい企業",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -145,8 +145,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 未経験から名古屋で転職するには（STEP）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. リモートで選択肢を広げる</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 名古屋での転職成功事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -384,31 +383,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、名古屋・東海の事情に詳しいアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 成功事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">名古屋での転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・品質管理→製造業の社内SE）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">自動車部品メーカーの品質管理 / 年収400万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">大手製造業の社内SE（生産管理DX）/ 年収560万円・転勤なし</p></div>
-              </div>
-              <p className="text-sm text-text-light">現場の業務知識とExcel/SQLでの改善実績を評価され、製造業DXの社内SEへ。基本情報技術者を取得して基礎を補強し、年収160万円アップと転勤なしの安定環境を同時に実現しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・地場SES→フルリモートWeb系）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">名古屋の地場SES（常駐）/ 年収380万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">首都圏SaaS企業の開発（フルリモート）/ 年収540万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">IT特化型エージェントで「フルリモート可」に絞って活動。名古屋に住んだまま首都圏のSaaS企業へ転職し、通勤ゼロのまま年収160万円アップ。生活コストの低さも相まって、可処分所得が大きく改善しました。</p>
-            </div>
           </div>
         </div>
       </section>

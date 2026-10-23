@@ -23,7 +23,7 @@ const structuredData = {
   headline:
     "女性エンジニアが週3・週4・時短で働ける求人の探し方｜形態・収入・注意点",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -145,8 +145,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 求人の探し方（5STEP）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. メリット・デメリットと注意点</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント・案件サイト</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 育児と両立した転職事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -440,31 +439,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">複数登録で「週3・週4」の選択肢を最大化</p>
             <p className="text-sm text-text-light mb-4">低稼働案件は数が限られます。業務委託系＋女性特化系を併用して、希望に合う1件を見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">育児と両立した転職事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代後半・正社員→週3業務委託）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerのバックエンド（PHP/Laravel）/ 週5フルタイム・年収520万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業の業務委託（API開発）/ 週3・フルリモート・月単価45万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">2人目の育休復帰を機に、ITプロパートナーズで「週3・フルリモート」案件に絞って参画。稼働は子どもが学校・園にいる10〜16時に集中させ、午後の送り迎えと両立。単価プレミアムで時間あたりの効率はフルタイム時より上がりました。社保・税は自分で管理し、青色申告で節税しています。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（30代前半・フルタイム→時短正社員）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のフロントエンド / 残業多めの週5・年収450万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業の時短正社員（1日6時間）/ フルリモート・基本給は約75%</p></div>
-              </div>
-              <p className="text-sm text-text-light">安定と育休の再取得を重視し、女の転職type経由で時短勤務OKの自社開発企業へ。給与は時間比で下がったものの、社会保険・賞与・育児短時間勤務制度が維持でき、2025年開始の育児時短就業給付も活用。子が小学校に入るまで時短を続けられる環境で、長く働く土台を整えました。</p>
-            </div>
           </div>
         </div>
       </section>

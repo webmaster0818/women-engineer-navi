@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニア｜契約社員から正社員を目指すガイド｜無期転換・登用の道筋",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 「正社員転職」という選択肢</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 女性が安定を得るための戦略</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 正社員化の成功事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -407,31 +406,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 成功事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">正社員化の成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・社内登用で正社員へ）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">自社サービス企業の契約社員（PHP）/ 年収380万円・賞与なし</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">同社の正社員（登用試験合格）/ 年収500万円・賞与・退職金あり</p></div>
-              </div>
-              <p className="text-sm text-text-light">通算4年目に上司へ正社員希望を明確に伝え、担当機能の改修実績と障害削減を数値で整理。登用試験（小論文＋面接）に合格し、賞与・退職金を含む正社員待遇に。まず無期転換の申込権も確保したうえで挑んだのが安心材料になりました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・正社員転職を選択）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発の契約社員（Java）/ 年収360万円・登用実績ほぼなし</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業の正社員バックエンド / 年収480万円・フルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">在籍企業に登用実績がないと分かり、無期転換を待たずに正社員転職へ切り替え。IT特化型エージェントで契約社員時代のプロジェクト規模・役割を職務経歴書に言語化し、産休育休実績のあるSaaS企業に内定。安定とリモートを同時に手に入れました。</p>
-            </div>
           </div>
         </div>
       </section>

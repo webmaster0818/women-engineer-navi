@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "育休中のスキルアップ・リスキリングガイド｜エンジニアが復職・転職に向けて学ぶ方法",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. リスキリング支援制度・給付金</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 学んだことを復職・転職に活かす</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 育休リスキリングの体験事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -432,34 +431,6 @@ export default function ArticlePage() {
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。相談は無料です。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
-        </div>
-      </section>
-
-      {/* sec8 体験事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">育休リスキリングの体験事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・フロントエンド→AI領域へ幅を広げ復職）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">育休前</p><p className="text-sm font-bold">フロントエンドエンジニア / AIは未経験</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>育休中〜復職後</p><p className="text-sm font-bold">G検定・データ系資格を取得 / 課題解決を牽引する役割へ</p></div>
-              </div>
-              <p className="text-sm text-text-light">生後半年頃から子のお昼寝中にオンライン講座でAI・ディープラーニングの基礎を学習。G検定とデータ系の検定に合格し、復職後は『エンジニアとしての幅を広げ、課題解決を牽引する人材』としてキャリアの軸を太くしました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・事務職→育休中にプログラミング学習で転職）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">育休前</p><p className="text-sm font-bold">事務職（IT未経験）</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>育休中〜転職後</p><p className="text-sm font-bold">独学でプログラミング学習 / Webエンジニアへ転職</p></div>
-              </div>
-              <p className="text-sm text-text-light">育休中のリスキリングとしてスキマ時間にプログラミングを独学。小さなWebアプリを作りながら学び、復職を機にWebエンジニアへキャリアチェンジしました。『無理のない範囲で毎日少しずつ』を続けたことが、未経験からの転職を実現させた最大の要因だったと振り返っています。</p>
-            </div>
-          </div>
-          <p className="text-text-light leading-relaxed mt-4 text-xs">
-            ※体験事例は、公開されている育休リスキリングの体験談・インタビューをもとに構成した一般的なケースです。成果には個人差があります。
-          </p>
         </div>
       </section>
 

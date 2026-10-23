@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "在職中の転職活動の進め方ガイド｜エンジニアのスケジュール・面接調整・退職交渉",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 仕事と両立する効率化のコツ（6STEP）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 内定後〜退職交渉のタイミング</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 在職中転職の成功事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -406,31 +405,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">在職中こそエージェント活用が効く</p>
             <p className="text-sm text-text-light mb-4">面倒な日程調整や交渉を任せ、自分は意思決定に集中してください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 成功事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">在職中転職の成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・SES→自社開発・育児と両立）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">活動前</p><p className="text-sm font-bold">SESのJavaエンジニア / 出社必須・残業多め / 年収450万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>活動後</p><p className="text-sm font-bold">自社開発企業 / フルリモート・時短可 / 年収520万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">寝かしつけ後の30分でスカウト返信、面接はすべてオンラインに統一。エージェントに平日夜の枠を集約してもらい、有給は半休3回のみで完結。約4ヶ月で内定承諾後に退職を切り出し、収入を途切れさせず移籍しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・受託→SaaS・バレずに完走）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">活動前</p><p className="text-sm font-bold">受託開発のフロントエンド / 年収400万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>活動後</p><p className="text-sm font-bold">SaaS企業のフロントエンド / フレックス / 年収500万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">スカウト型サービスで現職を非公開設定にし、連絡はすべて個人スマホで実施。1日に2社の面接をまとめて受け有給を節約。半年で複数内定を獲得し、条件を比較したうえで年収100万円アップを実現しました。</p>
-            </div>
           </div>
         </div>
       </section>

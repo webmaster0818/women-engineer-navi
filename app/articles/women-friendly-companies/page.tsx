@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性が働きやすいIT企業の見極め方｜認定制度と公開データの読み方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-13",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -182,8 +182,7 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 見極めの注意点とよくある落とし穴</a></li>
               <li><a href="#sec-official-check" className="hover:underline" style={{ color: "#7c3a55" }}>8. 公式データで確かめる（3ステップ）</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>10. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -593,51 +592,6 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
-                転職成功者Aさん（30代前半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">中小IT企業のエンジニア / 年収400万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">大手Web企業のシニアエンジニア / 年収580万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                IT特化型エージェントを活用し、技術力を正当に評価してくれる企業に出会いました。年収180万円アップに加え、フルリモート勤務が可能になり、ワークライフバランスが大幅に改善。「エージェントに相談して本当に良かった」と語っています。
-              </p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>
-                転職成功者Bさん（20代後半）
-              </h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">SES企業のエンジニア / 年収350万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">自社開発企業のエンジニア / 年収480万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">
-                女性特化型のエージェントを利用し、産休育休制度が充実した自社開発企業に転職。年収130万円アップと働きやすい環境の両方を手に入れました。「女性の悩みに寄り添ったサポートが心強かった」とのこと。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
@@ -707,7 +661,6 @@ export default function ArticlePage() {
           </div>
         </div>
       </section>
-
 
       {/* 関連記事 */}
       <section className="py-10" style={{ backgroundColor: "#f0e7dd" }}>

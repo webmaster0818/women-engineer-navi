@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "20代女性エンジニアの転職ガイド｜年収相場・第二新卒・未経験の選択肢【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -177,8 +177,7 @@ export default function Age20sArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 20代のうちに作るキャリアの土台</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 20代の転職活動の進め方</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -543,44 +542,6 @@ export default function Age20sArticlePage() {
               女性エンジニアにおすすめの転職サイトランキングを見る
             </a>
           </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（20代後半・経験者の職種転換）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">SES企業の保守運用エンジニア / 年収330万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">自社開発企業のWebエンジニア / 年収420万円・リモート併用</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">実務2年半の保守運用経験に加え、業務外でReactを学習しポートフォリオを公開。IT特化型エージェント経由で「実務基礎×学習意欲」のポテンシャル評価を受け、開発職への転換と年収90万円アップを同時に実現したケースです。25〜29歳は転職者の46.3%が賃金増・職種転換も通りやすい時期で、最も典型的な成功パターンです。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代前半・第二新卒の未経験挑戦）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">新卒2年目の一般事務 / 年収290万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">研修制度のあるWeb系企業のバックエンドエンジニア / 年収340万円</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">事務職のかたわら半年間Pythonを学習し、ITパスポートを取得して第二新卒枠で応募。「事務で培った業務理解×学習の継続実績」を評価され、研修制度の厚い企業に入社したケースです。第二新卒の採用予定企業は80.9%にのぼり、20代前半なら実務未経験でもポテンシャル採用の対象になります。</p>
-            </div>
-          </div>
-          <p className="text-xs text-text-light mt-4">※事例は20代女性エンジニアの典型的な転職パターンをもとに構成したモデルケースです。</p>
         </div>
       </section>
 

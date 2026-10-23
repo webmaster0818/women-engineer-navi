@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニア 時短勤務で転職・継続するガイド｜制度・求人の探し方・年収への影響",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 時短OK企業の見極め方</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 時短勤務の注意点と乗り越え方</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 時短転職の体験事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -401,31 +400,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">時短求人は「探し方」と「内情の確認」で差がつく</p>
             <p className="text-sm text-text-light mb-4">複数登録して、働き方の希望を理解してくれるアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 体験事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">時短転職の体験事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・SE→自社開発バックエンド）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerのSE / 時短制度はあるが利用者ゼロ・出社必須</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のバックエンド / 9〜16時の時短＋フルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">復帰後、時短利用者がいない職場で肩身が狭く転職を決意。女性特化エージェントで『時短利用率』『時短中の昇給実績』を確認し、成果ベースで評価する自社開発企業へ。基本給は約2割下がったものの、育児時短就業給付金とフルリモートで生活はむしろ安定し、設計タスクも任され続けています。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（30代後半・フロントエンド・転職せず社内で時短継続）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">課題</p><p className="text-sm font-bold">時短にしたら重要度の低い改修ばかり任されマミートラック化</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>結果</p><p className="text-sm font-bold">裁量ある機能開発に復帰 / フルタイム復帰後に昇給</p></div>
-              </div>
-              <p className="text-sm text-text-light">上司に「時短でも責任ある機能を担当したい」と明言し、担当機能の改善数値を毎月共有して成果を見える化。時短中もReact/TypeScriptのスキルを磨き続けた結果、子の入園を機にフルタイムへ戻すと同時に昇給。転職せず社内でキャリアを立て直した事例です。</p>
-            </div>
           </div>
         </div>
       </section>

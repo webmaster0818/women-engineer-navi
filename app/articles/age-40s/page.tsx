@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "40代女性エンジニアの転職ガイド｜年収相場・現実的な選択肢・強みの活かし方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -177,8 +177,7 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 家庭・介護と両立しながら長く働く戦略</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 40代の転職活動の進め方</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -563,44 +562,6 @@ export default function ArticlePage() {
             <p className="text-sm text-text-light mb-4">複数のエージェントに登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
           </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（40代前半・マネジメント路線）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">SIerのプロジェクトリーダー / 年収580万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">事業会社のエンジニアリングマネージャー / 年収720万円・リモート併用</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">8名チームのリーダー経験と予算管理・育成実績を年表形式で棚卸しし、マネジメント路線に絞って職務経歴書を再構成。女性管理職の登用を進める事業会社のEMポジションに採用され、年収140万円アップを実現しました。「転職者の半数近くが賃金増というデータを知り、提示条件を冷静に比較できたのが大きかったです」</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（40代後半・社内SE路線）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}>
-                  <p className="text-xs font-bold text-text-light mb-1">転職前</p>
-                  <p className="text-sm font-bold">受託開発のシステムエンジニア（残業多め）/ 年収520万円</p>
-                </div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}>
-                  <p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p>
-                  <p className="text-sm font-bold">製造業の情報システム部門 / 年収540万円・フレックス＋リモート併用</p>
-                </div>
-              </div>
-              <p className="text-sm text-text-light">製造業向けシステム開発20年のドメイン知識を武器に、ユーザー企業側の情シスへ転身。ベンダーコントロールと基幹システム刷新の経験が決め手になりました。親の介護が視野に入る前に柔軟な働き方を確保し、「あと20年働ける環境」を手に入れています。</p>
-            </div>
-          </div>
-          <p className="text-xs text-text-light mt-4">※事例は40代女性エンジニアの典型的な転職パターンをもとに構成したモデルケースです。</p>
         </div>
       </section>
 

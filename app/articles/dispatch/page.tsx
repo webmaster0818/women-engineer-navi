@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性派遣エンジニアという働き方ガイド｜時給・年収相場・正社員化の道",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 派遣から正社員を目指すには</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 向いている人・始める前の注意点</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 体験事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -401,31 +400,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">登録先選びで働き方の質が変わる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合った担当者と案件を見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 体験事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">体験事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代後半・育児中・派遣→紹介予定派遣で正社員）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">出産で離職・ブランク2年 / 時給1,500円の事務派遣</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">社内SEとして正社員登用 / 残業ほぼなし・時短可</p></div>
-              </div>
-              <p className="text-sm text-text-light">復帰前研修でExcel・SQLを学び直し、まずIT派遣の運用サポートから再開。紹介予定派遣の案件で半年勤務した後、双方合意で社内SEとして直接雇用に。残業少なめ・時短勤務OKの環境を確保しました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・未経験→常用型派遣でPython）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">販売職（IT未経験）/ 年収300万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">常用型派遣のPython開発 / 時給2,400円・無期雇用</p></div>
-              </div>
-              <p className="text-sm text-text-light">未経験可の常用型派遣に登録し、研修後にデータ処理の案件へ。無期雇用で案件の合間も給与が出る安定性に納得しつつ、Python×データの実務を積んで時給を引き上げ。次は正社員のデータエンジニアを目指しています。</p>
-            </div>
           </div>
         </div>
       </section>

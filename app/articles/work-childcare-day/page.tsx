@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "育児と両立する女性エンジニアの1日｜リアルなタイムスケジュール",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,8 +144,7 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 病児・急な休みへの備え</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 両立のコツと本音</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 体験談</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -435,31 +434,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">「両立できる職場」は、エージェント選びで決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、働き方の条件に合った求人とアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 体験談 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">体験談</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代・フロントエンド／2歳児ママ・フルリモート＋フレックス）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">復帰前の不安</p><p className="text-sm font-bold">出社必須・残業前提の職場でフルタイム復帰できるか不安だった</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">フルリモート＋コアタイムなしのSaaS企業へ。延長保育なしで両立</p></div>
-              </div>
-              <p className="text-sm text-text-light leading-relaxed">「通勤がなくなって、朝も夕方も子どもとの時間が増えました。フレックスなので、お迎えで中断した分は寝かしつけ後に補完。会議はオンラインで完結するので、急な発熱の日も午後だけ稼働して乗り切れています。『時間』ではなく『出したコード』で評価される文化が、本当にありがたいです。」</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（30代・バックエンド／小1児ママ・出社＋時短勤務）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">課題</p><p className="text-sm font-bold">「小1の壁」で学童後のお迎え時間に追われていた</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>工夫</p><p className="text-sm font-bold">10〜16時の時短＋学童＋家事の固定分担で安定稼働</p></div>
-              </div>
-              <p className="text-sm text-text-light leading-relaxed">「時短で6時間勤務にし、会議は午前〜昼に寄せてもらって、実装は割り込みの少ない時間に集中。ドラム式洗濯乾燥機と食洗機で家事を半分以下に減らしました。子の看護休暇も時間単位で使えるので、通院だけサッと抜けられるのが助かります。完璧は目指さず『続けられること』を最優先にしています。」</p>
-            </div>
           </div>
         </div>
       </section>

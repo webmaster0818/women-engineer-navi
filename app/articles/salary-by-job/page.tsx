@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアの職種別年収比較｜フロントからデータサイエンスまで一覧",
   description:
-    "女性エンジニアの職種別年収を一覧比較。フロントエンド523万・バックエンド・インフラ497万・SRE/クラウド660万・データサイエンティスト・セキュリティ629万・ITコンサル595万・PM等を実データで比較。高年収職種の傾向、女性が年収を上げる戦略、年代別推移、未経験から高年収を狙う道、転職事例も解説。",
+    "女性エンジニアの職種別年収を一覧比較。フロントエンド523万・バックエンド・インフラ497万・SRE/クラウド660万・データサイエンティスト・セキュリティ629万・ITコンサル595万・PM等を実データで比較。高年収職種の傾向、女性が年収を上げる戦略、年代別推移、未経験から高年収を狙う道も解説。",
   alternates: { canonical: "/articles/salary-by-job/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアの職種別年収比較｜フロントからデータサイエンスまで一覧",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの職種別年収比較｜フロントからデータサイエンスまで一覧",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-07",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -143,9 +143,8 @@ export default function ArticlePage() {
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 女性が年収を上げる5つの方法</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 年代別の年収推移（20代〜40代）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から高年収職種を目指すには</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 転職での年収アップ事例</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -417,39 +416,6 @@ export default function ArticlePage() {
           <p className="text-text-light leading-relaxed mt-6 text-sm">
             最初の1社目は「伸びる業界・上流に近い環境」を選ぶことが、その後の年収を大きく左右します。未経験からの始め方は<a href="/articles/beginner/" className="underline" style={{ color: "#7c3a55" }}>未経験ガイド</a>も参考に。
           </p>
-        </div>
-      </section>
-
-      {/* sec7 転職での年収アップ事例 */}
-      <section id="sec7" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職での年収アップ事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・インフラ運用 → SRE）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SESのインフラ運用 / 年収430万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のSRE / 年収650万円・フルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">AWS資格を取得しIaC（Terraform）の学習実績を整理。職種を運用からSREへ移し、年収220万円アップとフルリモートを同時に実現しました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（30代後半・バックエンド → データエンジニア）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">受託開発のバックエンド / 年収520万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">事業会社のデータエンジニア / 年収640万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">Python・SQLの強みにデータ基盤（BigQuery）の経験を足し、データ領域へ移行。育休復帰後に時短勤務のまま年収120万円アップを実現しました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Eさん（40代前半・社内SE → PM）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">社内SE / 年収540万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">自社開発企業のPM / 年収780万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">業務知識と調整力を武器に、上流のプロジェクト管理へ。マネジメント職へ移ることで年収240万円アップ。40代でのキャリアの伸びを示す好例です。</p>
-            </div>
-          </div>
         </div>
       </section>
 

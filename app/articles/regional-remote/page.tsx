@@ -4,7 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニアが地方在住×フルリモートで転職するガイド｜東京水準の年収を地方で得る方法",
   description:
-    "地方在住の女性エンジニアがフルリモートで東京水準の年収を得る方法を実データで解説。家賃96万円差の地理的アービトラージ、フルリモート求人の現状、受かりやすい職種・条件、求人の探し方STEP、移住のリアルな注意点、育児・介護との両立、転職事例とFAQまで網羅します。",
+    "地方在住の女性エンジニアがフルリモートで東京水準の年収を得る方法を実データで解説。家賃96万円差の地理的アービトラージ、フルリモート求人の現状、受かりやすい職種・条件、求人の探し方STEP、移住のリアルな注意点、育児・介護との両立とFAQまで網羅します。",
   alternates: { canonical: "/articles/regional-remote/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニアが地方在住×フルリモートで転職するガイド｜東京水準の年収を地方で得る方法",
@@ -23,7 +23,7 @@ const structuredData = {
   headline:
     "女性エンジニアが地方在住×フルリモートで転職するガイド｜東京水準の年収を地方で得る方法",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -146,8 +146,7 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 移住前に知るべき注意点</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 女性のライフプランとの相性（育児・介護）</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -429,31 +428,6 @@ export default function ArticlePage() {
         </div>
       </section>
 
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・福岡在住／地元SIer→東京SaaS）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">地元SIerのバックエンド / 年収400万円・出社</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">東京本社SaaSのバックエンド（Go）/ 年収620万円・福岡からフルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">IT特化型エージェント経由で『居住地不問』のSaaS求人に応募。福岡に住んだまま東京水準の給与テーブルが適用され、年収220万円アップ。家賃は東京の半額のままで、貯蓄ペースが一気に上がりました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（30代後半・長野へUターン／育児と両立）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">東京の自社開発フロントエンド / 年収560万円・通勤往復2時間</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">東京本社のフルスタック / 年収560万円維持・長野からフルリモート＋時短可</p></div>
-              </div>
-              <p className="text-sm text-text-light">女性特化型エージェントで『完全在宅×時短』の求人を紹介され、長野の実家近くへUターン。年収を維持したまま2LDKの広い家へ。通勤がゼロになり、保育園の送迎と親の見守りを両立できるようになりました。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section id="sec10" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
@@ -485,7 +459,6 @@ export default function ArticlePage() {
           </div>
         </div>
       </section>
-
 
       {/* 関連記事 */}
       <section className="py-10">

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性組み込み・IoTエンジニア転職ガイド｜年収・必要スキル・未経験からの道",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-09",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -161,9 +161,8 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験から目指すロードマップ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 組み込みのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec-women-real" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性が組み込みエンジニアとして働くリアル</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
+              <li><a href="#sec-women-real" className="hover:underline" style={{ color: "#7c3a55" }}>9. 女性が組み込みエンジニアとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -402,31 +401,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Aさん（30代前半・家電制御→車載）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">家電メーカーの組み込み開発 / 年収450万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">車載Tier1の制御ソフト開発（CAN/機能安全）/ 年収640万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">機電特化型エージェントでCAN通信とRTOSの実績を整理。需要の高い車載（SDV）分野に軸足を移し、年収190万円アップと育休復帰実績のある大手環境を同時に実現しました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Bさん（20代後半・未経験→IoT）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">電機メーカーの品質管理（開発未経験）/ 年収330万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">IoT機器メーカーの組み込み開発（C/FreeRTOS）/ 年収420万円</p></div>
-              </div>
-              <p className="text-sm text-text-light">独学でCとRaspberry Piを学び、センサーデータをクラウドに送るIoT作品を公開。未経験可・研修ありの自社製品メーカーに転職し、産休育休実績のある環境で長く働ける基盤を得ました。</p>
-            </div>
           </div>
         </div>
       </section>

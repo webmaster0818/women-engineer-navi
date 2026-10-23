@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性クラウドエンジニア転職ガイド（GCP・Azure）｜年収・資格・未経験から",
   datePublished: "2026-06-10",
-  dateModified: "2026-07-09",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -175,9 +175,8 @@ export default function ArticlePage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 未経験・インフラから目指すロードマップ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. クラウドエンジニアのキャリアパス</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. おすすめ転職エージェント</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. 転職成功事例</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
-              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. 女性がクラウドエンジニアとして働くリアル</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>10. 女性がクラウドエンジニアとして働くリアル</a></li>
             </ol>
           </div>
         </div>
@@ -442,31 +441,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">エージェント選びで転職の成否が決まる</p>
             <p className="text-sm text-text-light mb-4">複数登録して、自分に合ったアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec9 成功事例 */}
-      <section id="sec9" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">転職成功事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代前半・オンプレ運用→Azure）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">SIerでオンプレ運用監視 / 年収440万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">大手製造業のAzureクラウド移行担当 / 年収640万円・週4リモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">AZ-900→AZ-104→AZ-305と段階的に取得し、Microsoft 365連携の知識を活かしてエンタープライズのクラウド移行案件へ。年収200万円アップと週4リモートを実現しました。</p>
-            </div>
-            <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半・データ事務→GCP）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">転職前</p><p className="text-sm font-bold">マーケ部門のデータ集計事務 / 年収360万円</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>転職後</p><p className="text-sm font-bold">SaaS企業のGCPクラウド／データ基盤 / 年収520万円・フルリモート</p></div>
-              </div>
-              <p className="text-sm text-text-light">Google Cloud Digital Leader→Associate Cloud Engineerを取得し、BigQueryで分析基盤を作る学習をポートフォリオ化。データ事務の経験を強みに、未経験可のSaaS企業へ転職しフルリモート環境を得ました。</p>
-            </div>
           </div>
         </div>
       </section>

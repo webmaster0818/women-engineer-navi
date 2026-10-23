@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "フルリモート企業の見極め方ガイド｜“なんちゃってリモート”を見抜く選び方",
   datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  dateModified: "2026-10-23",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -144,9 +144,8 @@ export default function ArticlePage() {
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 口コミ・実態情報の集め方（4ステップ）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 女性が長く働けるリモート企業の特徴</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. おすすめ転職エージェント</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 見極めの成功・失敗事例</a></li>
-              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. よくある質問</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. 関連記事</a></li>
+              <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>8. よくある質問</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>9. 関連記事</a></li>
             </ol>
           </div>
         </div>
@@ -415,31 +414,6 @@ export default function ArticlePage() {
             <p className="font-bold text-lg mb-2">“リモートの実態”はエージェントに確認するのが近道</p>
             <p className="text-sm text-text-light mb-4">複数登録して、社内事情に詳しいアドバイザーを見つけてください。</p>
             <a href="/ranking/" className="inline-block rounded-full px-8 py-3 text-white font-bold transition-transform hover:scale-105" style={{ backgroundColor: "#c15f47" }}>女性エンジニアにおすすめの転職サイトランキングを見る</a>
-          </div>
-        </div>
-      </section>
-
-      {/* sec8 事例 */}
-      <section id="sec8" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">見極めの成功・失敗事例</h2>
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Cさん（30代・育児中／見極め成功）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">見極めポイント</p><p className="text-sm font-bold">「平均の月出社日数」を数字で確認＋復帰実績を質問</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>結果</p><p className="text-sm font-bold">原則出社ゼロのSaaS企業／時短×フルリモートで両立</p></div>
-              </div>
-              <p className="text-sm text-text-light">面接で「月の平均出社日数」と「産休育休からのリモート復帰者がいるか」を確認。在宅手当・PC貸与・非同期コミュニケーションが制度として整っていたことが決め手となり、育児と両立しながら正当に評価される環境に転職できました。</p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>Dさん（20代後半／見極め不足の反省）</h3>
-              <div className="grid gap-4 md:grid-cols-2 mb-4">
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#f0e7dd" }}><p className="text-xs font-bold text-text-light mb-1">起きたこと</p><p className="text-sm font-bold">「フルリモート可」で入社→実際は週2〜3出社が前提だった</p></div>
-                <div className="rounded-lg p-3" style={{ backgroundColor: "#efe3d8" }}><p className="text-xs font-bold mb-1" style={{ color: "#7c3a55" }}>その後</p><p className="text-sm font-bold">再転職時に“数字での確認”を徹底し、原則リモート企業へ</p></div>
-              </div>
-              <p className="text-sm text-text-light">「フルリモート可」という言葉だけで判断し、出社頻度・評価制度・恒久性を確認しないまま入社。「重要な打ち合わせは出社」が頻繁で、実態は週2〜3出社でした。再転職では本記事のチェックリストで数字と制度を確認し、ミスマッチを解消しました。</p>
-            </div>
           </div>
         </div>
       </section>
