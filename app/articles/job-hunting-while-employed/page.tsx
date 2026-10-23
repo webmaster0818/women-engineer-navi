@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "在職中の転職活動の進め方ガイド｜エンジニアのスケジュール・面接調整・退職交渉",
+  title: "在職中の転職活動と面接の進め方｜平日面接の日程調整・「いつから働けるか」の答え方・退職交渉【女性エンジニア】",
   description:
-    "在職中の転職活動の進め方を女性エンジニア向けに解説。収入を維持しながら進めるメリット、3〜6ヶ月の全体スケジュール、平日面接の日程調整術（有給・半休・オンライン面接）、会社にバレない注意点、育児と両立する効率化のコツ、退職交渉のタイミングまで具体的に紹介します。",
+    "在職中の転職活動と面接の進め方を女性エンジニア向けに解説。平日面接の日程調整（オンライン・半休・夜間）とメール例文、面接で「いつから働けますか」と聞かれたときの答え方、在職中も使えるハローワーク、会社にバレない注意点、退職交渉のタイミングまで紹介します。",
   alternates: { canonical: "/articles/job-hunting-while-employed/" },
   openGraph: { images: ["/og-default.png"],
-    title: "在職中の転職活動の進め方ガイド｜エンジニアのスケジュール・面接調整・退職交渉",
+    title: "在職中の転職活動と面接の進め方｜平日面接の日程調整・「いつから働けるか」の答え方・退職交渉【女性エンジニア】",
     description:
-      "在職中の転職活動の進め方を女性エンジニア向けに解説。スケジュール・面接日程の調整術・バレない注意点・退職交渉のタイミングを実例つきで紹介。",
+      "在職中の転職活動と面接の進め方を女性エンジニア向けに解説。平日面接の日程調整とメール例文、「いつから働けますか」への答え方、在職中も使えるハローワーク、バレない注意点、退職交渉のタイミングまで紹介。",
     url: "https://women-engineer.com/articles/job-hunting-while-employed/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "在職中の転職活動の進め方ガイド｜エンジニアのスケジュール・面接調整・退職交渉",
+  headline: "在職中の転職活動と面接の進め方｜平日面接の日程調整・「いつから働けるか」の答え方・退職交渉【女性エンジニア】",
   datePublished: "2026-06-10",
   dateModified: "2026-10-23",
   author: {
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "在職中の転職活動の進め方を女性エンジニア向けに解説。スケジュール・面接日程の調整術・バレない注意点・退職交渉のタイミングを実例つきで紹介。",
+    "在職中の転職活動と面接の進め方を女性エンジニア向けに解説。平日面接の日程調整とメール例文、「いつから働けますか」への答え方、在職中も使えるハローワーク、バレない注意点、退職交渉のタイミングまで紹介。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/job-hunting-while-employed/",
@@ -75,6 +75,22 @@ const faqData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "限られた時間を仕組みで生み出すのがポイントです。(1)通勤電車・子の昼寝中・寝かしつけ後の30分など『スキマ時間』をスマホでの求人チェックやスカウト返信に充てる、(2)面接はオンライン中心にして移動時間ゼロにする（自宅の静かな部屋から参加）、(3)食材宅配やミールキットで家事時間を圧縮して活動時間を捻出する、(4)書類添削や日程調整はエージェントに任せて自分は意思決定に集中する、が有効です。企業選びでは、残業の少なさだけでなくフルリモート・フレックス・時短勤務・看護休暇の実績を求人票やエージェント経由でご確認ください。全国23ヶ所のマザーズハローワークも、託児スペース付きで相談できる無料の選択肢です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "在職中の面接で「いつから働けますか」と聞かれたら、どう答えればいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "現職の就業規則で退職の申し出期限を確認したうえで、「内定をいただいてから引き継ぎを含めて1〜2ヶ月ほどで入社できます」のように根拠のある期間で答えてください。法律上は申し出から2週間で退職できますが（民法627条）、就業規則で1〜2ヶ月前と定める企業が多いため、短すぎる期間を答えると守れない約束になりがちです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "在職中でもハローワークは使えますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "使えます。新潟労働局の「在職者のための転職ガイド」は、ハローワークは在職中でも利用でき、平日夜間や土曜日に職業相談・職業紹介を行う窓口もあると案内しています。夜間・土曜の受付の有無は窓口ごとに異なるため、事前に最寄りのハローワークへ確認してください。",
       },
     },
     {
@@ -123,10 +139,10 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               在職中の転職活動の進め方ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                働きながら進めるスケジュール・面接調整・退職交渉を実例で解説
+                平日面接の日程調整・「いつから働けるか」の答え方・退職交渉まで
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月10日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月23日</p>
           </div>
         </div>
       </section>
@@ -276,6 +292,21 @@ export default function ArticlePage() {
               なお<strong>オンラインでの面接も可能</strong>でしたら、そちらも希望いたします。」
             </p>
             <p className="text-text-light text-xs leading-relaxed mt-3">※ 候補日は必ず複数提示し、辞退と受け取られないよう「参加したい意思」を添えるのがマナーです。</p>
+          </div>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#ffffff" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>面接で「いつから働けますか」と聞かれたら</h3>
+            <p className="text-text-light text-sm leading-relaxed">
+              在職中の応募者がほぼ必ず聞かれる質問です。答える前に<strong>現職の就業規則で「退職の申し出は何日前まで」と定められているか</strong>を確認しておき、「内定をいただいてから引き継ぎを含めて1〜2ヶ月ほどで入社できます」のように、根拠のある期間で答えてください。法律上は申し出から2週間で退職できますが（民法627条）、就業規則で1〜2ヶ月前と定める企業が多く、引き継ぎと有給消化を考えると短すぎる回答は守れない約束になりがちです。入社日に融通が利く場合は「ご希望があれば調整します」と添えると前向きな印象になります。
+            </p>
+          </div>
+          <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#ffffff" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>ハローワークは在職中でも使える</h3>
+            <p className="text-text-light text-sm leading-relaxed">
+              新潟労働局の「在職者のための転職ガイド」は、ハローワークは在職中でも利用でき、平日夜間や土曜日に職業相談・職業紹介を行う窓口もあること、求人企業の了解が得られれば土曜日などに面接を依頼できる場合があることを案内しています。あわせて<strong>「最終面接」は平日になると考えてスケジュールを調整する必要がある</strong>とも書かれているため、最終面接の1日分は有給を残しておくと安心です。夜間・土曜の受付の有無は窓口ごとに異なるため、利用する前に最寄りのハローワークへ確認してください。
+            </p>
+            <p className="text-text-light text-xs leading-relaxed mt-3">
+              出典：<a href="https://jsite.mhlw.go.jp/niigata-hellowork/kyushokusha/kyushokusha/work20070710.html" target="_blank" rel="noopener noreferrer" className="underline">新潟労働局「在職者のための転職ガイド」</a>（2026年10月23日確認）
+            </p>
           </div>
         </div>
       </section>
