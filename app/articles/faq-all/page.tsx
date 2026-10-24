@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
   description:
-    "女性エンジニア転職のよくある質問を実データで総まとめ。平均年収419万〜約497万円、求人倍率10.68倍、育休取得率86.6%、テレワーク導入率94.3%など公的統計・公開調査に基づき、年収・未経験・両立・選考・働き方の19の疑問に出典付きで回答します。",
+    "女性エンジニア転職のよくある質問を実データで総まとめ。平均年収419万〜約497万円、求人倍率12.04倍、育休取得率86.6%、テレワーク導入率94.3%など公的統計・公開調査に基づき、年収・未経験・両立・選考・働き方の19の疑問に出典付きで回答します。",
   alternates: { canonical: "/articles/faq-all/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
     description:
-      "平均年収419万〜約497万円、求人倍率10.68倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブです。",
+      "平均年収419万〜約497万円、求人倍率12.04倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブです。",
     url: "https://women-engineer.com/articles/faq-all/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -22,11 +22,11 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-24",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
-    "平均年収419万〜約497万円、求人倍率10.68倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブ。",
+    "平均年収419万〜約497万円、求人倍率12.04倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブ。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/faq-all/" },
 };
 
@@ -63,7 +63,7 @@ const faqData = {
       name: "未経験から女性エンジニアになれますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "可能です。エンジニア（IT・通信）の転職求人倍率は10.68倍（全職種平均2.39倍・doda 2026年3月）と突出した売り手市場で、経済産業省の試算では2030年に最大約79万人のIT人材が不足します。ただし学習ゼロでの内定はほぼなく、学習実績とポートフォリオを作ってから応募するのが大前提です。",
+        text: "可能です。エンジニア（IT・通信）の転職求人倍率は12.04倍（全職種平均2.89倍・doda 2026年9月）と突出した売り手市場で、経済産業省の試算では2030年に最大約79万人のIT人材が不足します。ただし学習ゼロでの内定はほぼなく、学習実績とポートフォリオを作ってから応募するのが大前提です。",
       },
     },
     {
@@ -178,7 +178,7 @@ const faqCategories: FaqCategory[] = [
     faqs: [
       {
         q: "未経験から女性エンジニアになれますか？",
-        a: "可能です。エンジニア（IT・通信）の転職求人倍率は10.68倍（全職種平均2.39倍・doda 2026年3月）と突出した売り手市場で、経済産業省の試算では2030年に最大約79万人のIT人材が不足します。ただし学習ゼロでの内定はほぼなく、学習実績とポートフォリオを作ってから応募するのが大前提です。",
+        a: "可能です。エンジニア（IT・通信）の転職求人倍率は12.04倍（全職種平均2.89倍・doda 2026年9月）と突出した売り手市場で、経済産業省の試算では2030年に最大約79万人のIT人材が不足します。ただし学習ゼロでの内定はほぼなく、学習実績とポートフォリオを作ってから応募するのが大前提です。",
         links: [{ label: "未経験からのロードマップ", href: "/articles/beginner/" }],
       },
       {
@@ -292,7 +292,7 @@ const faqCategories: FaqCategory[] = [
 ];
 
 const keyStats = [
-  { value: "10.68倍", label: "エンジニア（IT・通信）の転職求人倍率", source: "doda 2026年3月（全職種平均2.39倍）" },
+  { value: "12.04倍", label: "エンジニア（IT・通信）の転職求人倍率", source: "doda 2026年9月（全職種平均2.89倍）" },
   { value: "419万〜約497万円", label: "女性エンジニアの平均年収の目安", source: "doda／賃金構造基本統計調査ベース" },
   { value: "86.6%", label: "女性の育児休業取得率", source: "厚労省 令和6年度雇用均等基本調査" },
   { value: "94.3%", label: "情報通信業のテレワーク導入率", source: "総務省 令和6年通信利用動向調査" },
@@ -317,7 +317,7 @@ export default function FaqAllPage() {
               女性エンジニア転職のFAQ総まとめ
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・未経験・両立の疑問に全回答【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月24日</p>
           </div>
         </div>
       </section>
@@ -421,7 +421,7 @@ export default function FaqAllPage() {
           <div className="grid gap-4 md:grid-cols-2 mt-6">
             {[
               { title: "年収の実データを知りたい", desc: "年代別・職種別の年収表、男女賃金差の実態、差を埋める3つの具体策。", href: "/articles/salary/", label: "女性エンジニアの年収ガイド" },
-              { title: "未経験から目指したい", desc: "求人倍率10.68倍の市場データ、職種別の未経験ハードル比較、学習ロードマップ。", href: "/articles/beginner/", label: "未経験からのロードマップ" },
+              { title: "未経験から目指したい", desc: "求人倍率12.04倍の市場データ、職種別の未経験ハードル比較、学習ロードマップ。", href: "/articles/beginner/", label: "未経験からのロードマップ" },
               { title: "育児と両立したい", desc: "育休取得率86.6%・2025年法改正のポイント、両立しやすい職種の比較、時短×在宅のモデルケース。", href: "/articles/mama-engineer/", label: "ママエンジニアの働き方ガイド" },
               { title: "リモートで働きたい", desc: "テレワーク導入率94.3%の実態、職種別のリモートのしやすさ、フルリモート求人の探し方。", href: "/articles/remote-jobs/", label: "在宅・リモート転職ガイド" },
               { title: "年収交渉に踏み出したい", desc: "交渉した人の90.8%が年収アップ。タイミング・相場の調べ方・伝え方のフレーズ例。", href: "/articles/negotiation/", label: "年収交渉術" },

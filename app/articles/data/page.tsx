@@ -26,7 +26,7 @@ const structuredData = {
   description:
     "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を公的統計・調査の出典を併記して集約したデータ集。",
   datePublished: "2026-06-21",
-  dateModified: "2026-06-28",
+  dateModified: "2026-10-24",
   author: { "@type": "Organization", name: "CareeHUB for woman 編集部" },
   publisher: {
     "@type": "Organization",
@@ -64,7 +64,7 @@ const datasetStructuredData = {
   measurementTechnique: "公的統計・調査の公開値を出典・参照時期つきで集計（推定値・出典不明の数値は不採用）",
   temporalCoverage: "2026",
   datePublished: "2026-06-21",
-  dateModified: "2026-07-25",
+  dateModified: "2026-10-24",
   url: "https://women-engineer.com/articles/data/",
   isAccessibleForFree: true,
 };
@@ -167,7 +167,7 @@ export default function DataPage() {
         <section className="mt-10">
           <h2 className="text-xl text-text">2. 業界での女性比率・IT人材の需給</h2>
           <div className="mt-3 grid sm:grid-cols-3 gap-3">
-            {[["18.8%","エンジニアに占める女性の割合","doda"],["10.68倍","IT・通信エンジニアの求人倍率","doda"],["最大約79万人","2030年のIT人材不足の試算","経済産業省"]].map(([n,l,src])=>(
+            {[["18.8%","エンジニアに占める女性の割合","doda"],["12.04倍","IT・通信エンジニアの求人倍率","doda"],["最大約79万人","2030年のIT人材不足の試算","経済産業省"]].map(([n,l,src])=>(
               <div key={l} className="card">
                 <p className="numeral text-2xl">{n}</p>
                 <p className="mt-1 text-sm text-text">{l}</p>
@@ -191,12 +191,12 @@ export default function DataPage() {
               <tbody>
                 <tr className="border-b border-border bg-white"><td className={td}>DX推進人材（クラウド・データ活用・AI関連）</td><td className={td}>量が「大幅に不足」とする企業 58.5%</td><td className={td}>IPA「DX動向2025」</td></tr>
                 <tr className="border-b border-border bg-[#f0e7dd]"><td className={td}>IT人材全体</td><td className={td}>2030年に最大約79万人不足（低位試算でも約45万人）</td><td className={td}>経済産業省「IT人材需給に関する調査」</td></tr>
-                <tr className="border-b border-border bg-white"><td className={td}>IT・通信エンジニア（経験者含む）</td><td className={td}>転職求人倍率 10.68倍（全職種平均を大きく上回る）</td><td className={td}>パーソルキャリア「doda転職求人倍率レポート」2026年3月</td></tr>
+                <tr className="border-b border-border bg-white"><td className={td}>IT・通信エンジニア（経験者含む）</td><td className={td}>転職求人倍率 12.04倍（全職種平均2.89倍を大きく上回る）</td><td className={td}>パーソルキャリア「doda転職求人倍率レポート」2026年9月（2026年10月24日参照）</td></tr>
                 <tr className="border-b border-border bg-[#f0e7dd]"><td className={td}>高需要職種（クラウド/SRE・データ/AI・セキュリティ）</td><td className={td}>平均年収より約200万円高い水準＝需要の強さの表れ</td><td className={td}>doda「平均年収ランキング2025」ほか</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="mt-2 text-xs text-text-light">参照：2026年6月。求人倍率10.68倍は経験者を含むIT・通信全体の値で、未経験はこの限りではありません。「79万人不足」は高位シナリオの値です。</p>
+          <p className="mt-2 text-xs text-text-light">参照：2026年6月。求人倍率12.04倍は経験者を含むIT・通信全体の値で、未経験はこの限りではありません。「79万人不足」は高位シナリオの値です。</p>
           <p className="mt-3 text-sm text-text-light leading-[1.9]">
             とくに<strong>クラウド/SRE・データ/AI・セキュリティ</strong>は「不足度が高い × 年収が高い」分野で、未経験から狙う場合もインフラ運用などの入口職種から段階的に移行しやすいのが特徴です。職種ごとの相場は
             <Link href="/articles/salary-by-job/" className="link-underline text-primary font-medium">職種別の年収ガイド</Link>

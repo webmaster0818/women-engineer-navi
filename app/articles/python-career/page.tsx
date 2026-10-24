@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "Pythonで女性エンジニア転職｜年収・AI時代の需要・未経験からの道筋【2026年】",
   datePublished: "2026-04-28",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-24",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -104,7 +104,7 @@ export default function ArticlePage() {
               Pythonで女性エンジニア転職
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・AI時代の需要・未経験からの道筋【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月24日</p>
           </div>
         </div>
       </section>
@@ -299,7 +299,7 @@ export default function ArticlePage() {
               「AIブームでPythonが熱い」と言われますが、雰囲気ではなく求人統計で確認しておいてください。Indeed Recruit Partnersの「AIに関する採用動向」調査によると、<strong>エンジニア系職種のAI関連求人は2024年時点で2017年度比約6.6倍</strong>、営業・企画など非エンジニア系でも約2.5倍に拡大しています。AI開発のデファクト言語はPythonであり、この拡大はそのままPython人材の追い風です。
             </p>
             <p>
-              フリーランス市場でも、フリーランスボードの調査（2026年3月発表）でPythonは<strong>案件数比率9.72%・言語別3位</strong>。職種内訳ではAIエンジニア案件が11.77%を占め、フレームワーク別単価ではPyTorch（89.8万円）・TensorFlow（85.2万円）といったAI系が上位に並びます。エンジニア転職市場全体も、dodaの転職求人倍率レポート（2026年4月発行版）でエンジニア（IT・通信）が<strong>10.68倍</strong>と全職種で突出した売り手市場です。
+              フリーランス市場でも、フリーランスボードの調査（2026年3月発表）でPythonは<strong>案件数比率9.72%・言語別3位</strong>。職種内訳ではAIエンジニア案件が11.77%を占め、フレームワーク別単価ではPyTorch（89.8万円）・TensorFlow（85.2万円）といったAI系が上位に並びます。エンジニア転職市場全体も、dodaの転職求人倍率レポート（2026年10月22日発表・2026年9月分）でエンジニア（IT・通信）が<strong>12.04倍</strong>と全職種で突出した売り手市場です。
             </p>
             <p>
               一方で冷静に見るべき点もあります。paizaの「プログラミング言語に関する調査（2025年版）」では、人気はPythonとJavaの二強体制が定着しているものの、提示年収の1位は3年連続でGoでした。つまりPythonは「学習者も多く競争もある言語」。差がつくのは<strong>Python＋何か（AI・データ分析・クラウド・ドメイン知識）</strong>の掛け算です。AIの追い風は本物ですが、それを年収に変えるには分野スキルの上積みが前提になります。
@@ -476,7 +476,7 @@ export default function ArticlePage() {
             <li>・出典: Indeed Recruit Partners「AIに関する採用動向」調査 — エンジニア系職種のAI関連求人が2024年時点で2017年度比約6.6倍、非エンジニア系約2.5倍（2026年6月参照）</li>
             <li>・出典: paiza「プログラミング言語に関する調査（2025年版）」（2025年12月発表）— 提示年収1位はGo（3年連続）、人気はPythonとJavaの二強体制（2026年6月参照）</li>
             <li>・出典: TIOBE Index — プログラミング言語人気ランキングでPythonが1位（2026年6月参照）</li>
-            <li>・出典: パーソルキャリア「doda転職求人倍率レポート」2026年4月発行版 — エンジニア（IT・通信）の転職求人倍率10.68倍（2026年6月参照）</li>
+            <li>・出典: パーソルキャリア「doda転職求人倍率レポート」2026年10月22日発表版 — 2026年9月のエンジニア（IT・通信）の転職求人倍率12.04倍（2026年10月24日参照）</li>
             <li>・出典: 一般社団法人Pythonエンジニア育成推進協会 — Python3エンジニア認定試験の累計受験者数50,990名（2024年2月末時点）、基礎試験合格率76.0%（業務未経験率36.8%）、データ分析試験合格率81.5%・2026年1月5日改定（2026年6月参照）</li>
             <li>・出典: ヒューマンリソシア「データで見る世界のITエンジニアレポート」— 日本のITエンジニアの女性比率18.8%（2023年データ）（2026年6月参照）</li>
           </ul>
