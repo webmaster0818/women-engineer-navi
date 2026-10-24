@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
   datePublished: "2026-07-05",
-  dateModified: "2026-10-17",
+  dateModified: "2026-10-24",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -159,6 +159,7 @@ export default function ArticlePage() {
             <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で2027年2月生まで受付予定。10月1日より11月受講生（申込期間: 2026年10月1日〜10月25日、受講期間: 11月2日〜11月30日）の申込を受け付けています。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>公式サイトはメンテナンス中:</strong> 2026年10月24日時点で、公式サイトはシステムメンテナンスのため一時停止中です。告知ページには「基礎応用講座11月受講にお申込み希望の方は以下の申込フォームよりお願い申し上げます。（申込期間は10月25日23：59までとなります。）」とあり、申込フォームへのリンクが置かれています。問い合わせ先は埼玉県女性キャリアセンター 事務局（048-601-5810・受付 9：30〜17：30 月〜土曜日、祝日・毎月第3木曜日・年末年始を除く）です。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>自営型テレワーク講座（新設）:</strong> 8月受講生から視聴可能。基礎・応用講座と同一フォームで申込できます。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>実践講座:</strong> 1期（Officeテクニカル/WEBクリエイター）は2026年8月17日〜9月14日の日程で終了しています。2期（生成AI活用/デジタルデザイン）は2026年11月9日〜12月7日に実施予定です。</span></li>
             </ul>
