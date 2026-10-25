@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野を解説【2026年】",
+  title: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】",
   description:
     "シングルマザー・シングルファザーがIT資格取得で使える給付制度を、こども家庭庁の公式情報をもとに解説。高等職業訓練促進給付金（月額10万円）、自立支援教育訓練給付金（受講費の60%）の支給内容・対象者・申請窓口をまとめました。",
   alternates: { canonical: "/articles/hitorioya-it-training/" },
   openGraph: { images: ["/og-default.png"],
-    title: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野を解説【2026年】",
+    title: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】",
     description:
       "ひとり親がIT資格取得で使える給付制度をこども家庭庁の公式情報をもとに解説。高等職業訓練促進給付金（月額10万円・シスコ/LPI等デジタル分野も対象例）、自立支援教育訓練給付金、申請窓口、他制度との違いまで。",
     url: "https://women-engineer.com/articles/hitorioya-it-training/",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野を解説【2026年】",
+  headline: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】",
   datePublished: "2026-07-05",
-  dateModified: "2026-07-05",
+  dateModified: "2026-10-25",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -51,6 +51,14 @@ const faqData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "使える可能性があります。こども家庭庁の公式案内では、対象資格の例として看護師・保育士などの国家資格に加えて「シスコシステムズ認定資格、LPI認定資格等のデジタル分野等の民間資格」が明記されています。ただし対象は「就職の際に有利となる資格で、養成機関において6月以上修業するもの」という条件があり、個別の講座・資格が対象になるかは自治体の判断によります。受講を検討する段階で、必ずお住まいの都道府県・市区町村の窓口に事前相談してください（出典: こども家庭庁「高等職業訓練促進給付金のご案内」、2026年7月参照）。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Webデザイナーを目指す講座でも高等職業訓練促進給付金は使えますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "講座によります。こども家庭庁の公式案内には「Webデザイナー」という資格名の例示はありません。対象資格は「就職の際に有利となる資格で、養成機関において6月以上修業するもの」で、注記に「教育訓練給付の対象講座を受講して取得する資格（一部を除く）など」とあります。そのため、①カリキュラムが6か月以上か、②厚生労働省の教育訓練給付の対象講座か、③お住まいの自治体が対象と認めるか、の3点を受講前に確認してください。自治体の案内が国の案内と異なる例もあります（出典: こども家庭庁「高等職業訓練促進給付金のご案内」、2026年10月25日確認）。",
       },
     },
     {
@@ -123,10 +131,10 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               ひとり親のIT資格取得に使える給付金
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                高等職業訓練促進給付金のデジタル分野を解説【2026年】
+                高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月5日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月25日</p>
           </div>
         </div>
       </section>
@@ -164,7 +172,7 @@ export default function ArticlePage() {
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
               <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 高等職業訓練促進給付金とは（月額・対象者・デジタル分野）</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 対象になるIT系資格の例（公式に列挙されているもの）</a></li>
+              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 対象になるIT系資格の例とWebデザイン講座の扱い</a></li>
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 自立支援教育訓練給付金（受講費の60%）</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 一般の教育訓練給付・求職者支援制度との違い（比較表）</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 申請の流れ（窓口は市区町村・事前相談が必須）</a></li>
@@ -235,7 +243,7 @@ export default function ArticlePage() {
       {/* sec2 対象IT系資格の例 */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">対象になるIT系資格の例（公式に列挙されているもの）</h2>
+          <h2 className="text-2xl font-bold mb-6">対象になるIT系資格の例とWebデザイン講座の扱い</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
               こども家庭庁の公式案内が対象資格の例として名指しで挙げているIT系（デジタル分野）の資格は、次の2つです。
@@ -250,6 +258,23 @@ export default function ArticlePage() {
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>LPI認定資格</h3>
               <p className="text-sm text-text-light leading-relaxed">Linux Professional Institute（LPI）によるLinux技術者の認定資格。サーバー運用の基盤であるLinuxのスキルを証明でき、こちらもインフラ・サーバー系のキャリアの入口になり得ます。</p>
             </div>
+          </div>
+          <div className="rounded-xl p-6 mt-6 bg-white" style={{ border: "2px solid #7c3a55" }}>
+            <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>Webデザイナーを目指す講座は対象になる？</h3>
+            <p className="text-sm text-text-light leading-relaxed mb-3">
+              こども家庭庁の公式案内には「Webデザイナー」という資格名の例示はありません。一方で対象資格の注記には「教育訓練給付の対象講座を受講して取得する資格（一部を除く）など」とあり、Webデザイン系の講座がすべて対象外というわけでもありません。受講を決める前に、次の3点を確認してください。
+            </p>
+            <ol className="space-y-2 text-sm text-text-light list-decimal pl-5">
+              <li><strong>カリキュラムが6か月以上か。</strong>対象は「養成機関において6月以上修業するもの」です。</li>
+              <li><strong>教育訓練給付の対象講座か。</strong>厚生労働省の<a href="https://www.kyufu.mhlw.go.jp/kensaku/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付金 検索システム</a>で、講座名やスクール名から確認できます。</li>
+              <li><strong>お住まいの自治体が対象と認めるか。</strong>最終的な判断は申請先の都道府県・市区町村が行います。</li>
+            </ol>
+            <p className="text-sm text-text-light leading-relaxed mt-3">
+              自治体の案内が国の案内と異なる例もあります。たとえば大阪府泉大津市の案内（2026年9月24日更新）は、デジタル分野等の民間資格を「令和3年4月1日から令和5年3月31日までに修業を開始する場合に限り」対象と記載しています。国の案内だけで判断せず、お住まいの自治体の案内と窓口で確認してください。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              出典: <a href="https://www.cfa.go.jp/policies/hitori-oya/syokugyou-kunren/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>こども家庭庁「高等職業訓練促進給付金のご案内」</a>／<a href="https://www.city.izumiotsu.lg.jp/kakuka/kenko/kosodateouen/hitorioya/16340.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>泉大津市「高等職業訓練促進給付金制度」</a>（いずれも2026年10月25日確認）
+            </p>
           </div>
           <div className="rounded-xl p-6 mt-6 bg-white" style={{ border: "2px solid #c15f47" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>誤解しやすいポイント</h3>
