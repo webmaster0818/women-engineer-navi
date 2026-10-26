@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性インフラエンジニア転職ガイド｜年収・未経験からの道・夜勤の実態【2026年】",
+  title: "女性インフラエンジニアの年収と夜勤の実態｜妊娠・育児中の深夜業の制限・未経験からの道【2026年】",
   description:
-    "インフラエンジニアの年収は、未経験から入る運用監視で300万円台、構築で450万円前後、設計・上流で550万〜800万円と段階的に上がります（平均約475万円・求人ボックス）。女性が未経験から入るルート、夜勤・オンコールの実態、CCNA/LPICの資格ルートを出典付きで解説します。",
+    "インフラエンジニアの年収は、未経験から入る運用監視で300万円台、構築で450万円前後、設計・上流で550万〜800万円と段階的に上がります（平均約475万円・求人ボックス）。未経験からのルート、夜勤の実態と妊娠・育児中に深夜業を断れる法律上のルール、CCNA/LPICの資格ルートを出典付きで解説します。",
   alternates: { canonical: "/articles/infrastructure/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性インフラエンジニア転職ガイド｜年収・未経験からの道・夜勤の実態【2026年】",
+    title: "女性インフラエンジニアの年収と夜勤の実態｜妊娠・育児中の深夜業の制限・未経験からの道【2026年】",
     description:
-      "女性インフラエンジニアの年収（ラダー別）・未経験から運用監視で入るルート・夜勤の実態と回避策・資格ルート・クラウド化の影響を実データで解説。",
+      "女性インフラエンジニアの年収（ラダー別）・未経験から運用監視で入るルート・夜勤の実態と回避策・資格ルート・クラウド化の影響を出典付きで解説。",
     url: "https://women-engineer.com/articles/infrastructure/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性インフラエンジニア転職ガイド｜年収・未経験からの道・夜勤の実態【2026年】",
+  headline: "女性インフラエンジニアの年収と夜勤の実態｜妊娠・育児中の深夜業の制限・未経験からの道【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-09",
+  dateModified: "2026-10-26",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "女性インフラエンジニアの年収（運用保守→構築→設計のラダー別）・未経験からのルート・夜勤オンコールの実態と回避策・資格ルート・クラウド化の影響を実データで解説。",
+    "女性インフラエンジニアの年収（運用保守→構築→設計のラダー別）・未経験からのルート・夜勤オンコールの実態と回避策・資格ルート・クラウド化の影響を出典付きで解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/infrastructure/",
@@ -67,6 +67,14 @@ const faqData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "全員にあるわけではありません。夜勤が発生するのは主に24時間監視や夜間メンテナンスを担う運用・監視フェーズで、2交代制（例: 夜勤17時〜翌朝9時）や3交代制のシフトが一般的です。深夜労働には労働基準法で25%以上の割増賃金が義務付けられており、夜勤手当で若手のうちは収入が増える面もあります。一方、構築・設計などの上流工程、クラウド運用、社内SEは日勤中心です。夜勤を避けたい場合は「日勤のみ」の求人を選ぶか、構築・設計へのステップアップを前提にキャリアを設計してください。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "妊娠中や子育て中に夜勤を断ることはできますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "法律上、請求すれば深夜業をしなくてよい場合が2つあります。1つは労働基準法第66条第3項で、妊産婦（妊娠中の女性と産後1年を経過しない女性）が請求した場合、使用者は深夜業をさせてはなりません。もう1つは育児・介護休業法第19条で、小学校入学前の子を養育する労働者が請求した場合、午後10時から午前5時までの労働をさせてはなりません。ただし第19条は、雇用されて1年に満たない人などは対象外で、事業の正常な運営を妨げる場合も除かれます。父親も対象です。いずれも本人の請求が前提のため、職場の手続きを確認してください。",
       },
     },
     {
@@ -139,10 +147,10 @@ export default function ArticlePage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
               女性インフラエンジニア転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                年収・未経験からの道・夜勤の実態【2026年】
+                年収・夜勤の実態・妊娠育児中の深夜業の制限【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月26日</p>
           </div>
         </div>
       </section>
@@ -362,6 +370,16 @@ export default function ArticlePage() {
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>回避策4: 社内SE・情シスへ転身する</h3>
               <p className="text-text-light text-sm leading-relaxed">自社システムを支える社内SEは日勤・土日休みが基本で、インフラ運用経験者の代表的な転身先です。詳しくは<a href="/articles/internal-se/" className="underline" style={{ color: "#7c3a55" }}>社内SE転職ガイド</a>をご覧ください。</p>
             </div>
+          </div>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>妊娠中・子育て中に深夜業を断れる法律上のルール</h3>
+            <p className="text-text-light text-sm leading-relaxed mb-3">夜勤のある職場でも、本人が請求すれば深夜業をしなくてよい場合が法律で定められています。</p>
+            <ul className="text-text-light text-sm leading-relaxed space-y-2">
+              <li>・<strong>妊娠中と産後1年以内</strong>：労働基準法第66条第3項「使用者は、妊産婦が請求した場合においては、深夜業をさせてはならない。」（妊産婦＝妊娠中の女性と産後1年を経過しない女性・同法第64条の3）</li>
+              <li>・<strong>小学校入学前の子を育てている間</strong>：育児・介護休業法第19条により、請求すれば午後10時から午前5時までの労働が制限されます。雇用されて1年に満たない人などは対象外で、事業の正常な運営を妨げる場合も除かれます。性別を問わず、父親も対象です。</li>
+            </ul>
+            <p className="text-text-light text-sm leading-relaxed mt-3">どちらも本人の請求が前提です。応募段階で「妊娠・育児中のシフト変更の実績」を確認しておくと、入社後の見通しが立てやすくなります。</p>
+            <p className="text-text-light text-xs mt-3">出典: e-Gov法令検索「<a href="https://laws.e-gov.go.jp/law/322AC0000000049" className="underline" target="_blank" rel="noopener noreferrer">労働基準法</a>」第64条の3・第66条／「<a href="https://laws.e-gov.go.jp/law/403AC0000000076" className="underline" target="_blank" rel="noopener noreferrer">育児休業、介護休業等育児又は家族介護を行う労働者の福祉に関する法律</a>」第19条（2026年10月26日確認）</p>
           </div>
           <p className="text-text-light text-xs mt-4">
             出典: ウズウズカレッジ「インフラエンジニアに夜勤がある理由は？」（2026年6月参照）／労働基準法第37条（深夜割増賃金）
@@ -629,6 +647,7 @@ export default function ArticlePage() {
               <li>・出典: IDC Japan「国内パブリッククラウドサービス市場予測」2026年3月発表（2026年6月参照）</li>
               <li>・出典: 経済産業省「IT人材需給に関する調査」2019年（2026年6月参照）</li>
               <li>・出典: ウズウズカレッジ「インフラエンジニアに夜勤がある理由は？」（2026年6月参照）</li>
+              <li>・出典: e-Gov法令検索 労働基準法 第64条の3・第66条／育児・介護休業法 第19条（2026年10月26日確認）</li>
             </ul>
           </div>
         </div>
