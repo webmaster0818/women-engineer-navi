@@ -95,6 +95,14 @@ const faqData = {
     },
     {
       "@type": "Question",
+      name: "次の募集（令和9年度）はいつ始まりますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "2026年10月27日時点で、令和9年度の実施・募集は発表されていません。公式サイトには「令和8年度の受講お申し込みは全て受け付け終了しました」と表示されています。過去2年度は、令和7年度がアデコ株式会社の運営開始の発表（2025年5月1日）、令和8年度が2026年4月30日の募集開始と、いずれも4月末〜5月初に始まっています。ただし年度ごとに事業の内容や受託事業者が変わることがあるため、同じ時期に始まるとは限りません。待たずに学び始めたい方は、女性デジタルカレッジ事業や教育訓練給付の対象講座も検討してください。",
+      },
+    },
+    {
+      "@type": "Question",
       name: "女性ITエンジニア育成事業にデメリット・注意点はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
@@ -172,11 +180,11 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月27日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（1期生・2026年8月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも募集終了。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>後期（2期生・2026年9月1日 受講開始）:</strong> プログラミング・インフラクラウドの両コースとも<strong>募集終了</strong>となりました（9月1日時点）。これをもって<strong>令和8年度の募集はすべて終了</strong>です（※公式には「申込状況により追加募集いたします」の記載があるため、追加募集の有無は公式サイトでご確認ください）。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>令和8年度の募集は終了しました。<strong>次年度（令和9年度）の実施・募集は未発表</strong>です（当サイトで毎月公式サイトを確認し、発表があれば更新します）。いま学び始めたい方は下記の「募集終了後の選択肢」をご覧ください。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>令和8年度の募集は終了しました。公式サイトのトップには「令和8年度の受講お申し込みは全て受け付け終了しました」と表示されています（10月27日確認）。<strong>次年度（令和9年度）の実施・募集は未発表</strong>です（当サイトで毎月公式サイトを確認し、発表があれば更新します）。参考までに、過去2年度の始まりは<strong>4月末〜5月初</strong>でした（令和7年度＝アデコ株式会社が2025年5月1日に運営開始を発表／令和8年度＝2026年4月30日に募集開始）。令和9年度が同じ時期になるとは限りません。いま学び始めたい方は下記の「募集終了後の選択肢」をご覧ください。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況は変動します。最新の空き状況は必ず<a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
