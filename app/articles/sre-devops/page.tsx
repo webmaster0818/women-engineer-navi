@@ -280,7 +280,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
-            2026年時点では、<strong>Terraform×Kubernetes×クラウド</strong>のスキルセットが揃うと市場価値が一気に上がり、月単価が70万円から120万円へアップした事例もあります。加えて、開発・運用チームの橋渡しをする<strong>コミュニケーション力</strong>も評価される、技術と対人の両方が活きる職種です。
+            2026年時点では、<strong>Terraform×Kubernetes×クラウド</strong>のスキルセットが揃うと市場価値が上がります。加えて、開発・運用チームの橋渡しをする<strong>コミュニケーション力</strong>も評価される、技術と対人の両方が活きる職種です。
           </p>
         </div>
       </section>

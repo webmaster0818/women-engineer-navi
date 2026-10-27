@@ -256,7 +256,7 @@ export default function ArticlePage() {
                   <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>バックエンド</td>
                   <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>約500万〜520万円</td>
                   <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>中位</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>Python・GoやSaaSで上振れ。28歳370万→35歳820万に伸びた事例も。設計力が積み上がる</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>Python・GoやSaaSで上振れ。設計力が積み上がる</td>
                 </tr>
                 <tr>
                   <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>ソフトウェアエンジニア</td>
