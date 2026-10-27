@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "全国の女性向けITリスキリング・訓練支援まとめ【公的制度ハブ・2026年】",
   datePublished: "2026-07-04",
-  dateModified: "2026-10-17",
+  dateModified: "2026-10-27",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -280,14 +280,29 @@ export default function ArticlePage() {
                 対象・補助の内訳・女性の活用事例・口コミの見方は<a href="/articles/reskilling-careerup/" className="underline" style={{ color: "#7c3a55" }}>リスキリングを通じたキャリアアップ支援事業の解説記事</a>で詳しく紹介しています（出典: 公式ポータル、2026年7月21日確認）。
               </p>
             </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+            <div id="digikare" className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>5. 東京都 デジタル人材育成支援事業（デジカレTOKYO） — 35歳以下・受講料無料の職業訓練＋就職支援</h3>
               <p className="text-sm text-text-light leading-relaxed mb-3">
-                東京都の事業で、<strong>原則35歳以下・求職中または非正規雇用で就業中の方</strong>（都内のIT関連就職を希望・学生でない方）を対象に、<strong>1.5〜3か月の職業訓練とキャリアカウンセリング・就職マッチングを一体で無料提供</strong>します（受講料・テキスト代無料、オンライン校はPC無料貸出あり）。短期集中コース（デジタル人材／インフラ・AWS／プログラミング等）は通学・オンラインの両方に対応。女性限定の事業ではありませんが、女性ITエンジニア育成事業（39歳以下・女性限定）の対象外だった方や、より短期で就職を目指したい方の受け皿になります。
+                東京都の事業で、<strong>原則35歳以下・求職中または非正規雇用で就業中の方</strong>（都内のIT関連就職を希望・学生でない方）を対象に、<strong>1.5か月または2か月の職業訓練（平日9:30〜17:30）と就職支援を一体で無料提供</strong>します（受講料・テキスト代無料、オンライン校はPC無料貸出あり。交通費・通信費は自己負担）。2か月コースは通学・オンラインを選べます。女性限定の事業ではありませんが、女性ITエンジニア育成事業（39歳以下・女性限定）の対象外だった方や、より短期で就職を目指したい方の受け皿になります。
               </p>
               <p className="text-sm text-text-light leading-relaxed">
-                令和8年度の募集は2026年4月30日開始。最新の募集状況・申込は<a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>と<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/digitaljinzai/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>でご確認ください（出典: 各公式サイト、2026年8月14日確認）。
+                令和8年度の募集は2026年4月30日開始。最新の募集状況・申込は<a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>と<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/digitaljinzai/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>でご確認ください（出典: 各公式サイト、2026年10月27日確認）。
               </p>
+              <div className="mt-4 rounded-lg p-4" style={{ background: "#f8f3ee" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>デジカレTOKYOの口コミ・評判はどこで確認できる？</p>
+                <p className="text-sm text-text-light leading-relaxed mb-2">
+                  公式サイトのトップページに「受講生の声」があり、2026年8月27日に今年度の訓練生の声が更新されています。参加者本人が書いた体験記は、noteに次のようなものがあります（いずれも2026年10月27日に公開を確認）。
+                </p>
+                <ul className="text-sm text-text-light leading-relaxed list-disc pl-5 mb-2">
+                  <li><a href="https://note.com/fine_lion402/n/n6c1ac0702fbb" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>令和7年 デジカレ東京参加してみた感想</a>（2026年2月6日公開）</li>
+                  <li><a href="https://note.com/hearty_hawk4139/n/n0c33a52f7a61" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>東京都デジタル人材育成支援事業に参加した話（1）</a>（2025年7月22日公開）</li>
+                  <li><a href="https://note.com/soma229/n/n4fd80958027b" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>【デジカレ東京】東京都のデジタル人材育成支援事業に参加した話</a>（2024年8月3日公開）</li>
+                  <li><a href="https://note.com/salty_liche/n/n99569ba16bc7" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>東京都デジタル人材育成支援に参加して1ヶ月が経過した話</a>（2023年2月3日公開）</li>
+                </ul>
+                <p className="text-sm text-text-light leading-relaxed">
+                  体験記は参加した年度の内容です。応募前に、公式FAQで次の点を確認しておくと判断しやすくなります。①「技能習得手当」「職業訓練受講給付金」の対象外（交通費は自己負担） ②学習だけを目的とした参加はできない（IT関連企業への就職が前提） ③正社員で在職中の場合は、入校日時点で退職済みか退職日が確定していることが条件。説明会は在職中でも参加できます。
+                </p>
+              </div>
             </div>
           </div>
         </div>
