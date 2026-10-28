@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアの職種別年収比較｜フロントからデータサイエンスまで一覧",
   datePublished: "2026-06-10",
-  dateModified: "2026-10-23",
+  dateModified: "2026-10-28",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -50,7 +50,7 @@ const faqData = {
       name: "エンジニアの職種で一番年収が高いのはどれですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "平均年収で上位に来るのは、QAエンジニア（東京の事業会社で約700万円）、SRE/クラウドエンジニア（約660万円）、データサイエンティスト（クラウドエンジニアと同水準でランキング上位5位）、セキュリティエンジニア（約629万円）、ITコンサルタント（約595万円）、PM（年収中央値550万〜750万円）です。一方フロントエンドは約523万円、システムエンジニアは約516万円、インフラエンジニアは約497万円が目安。上流工程・希少スキル（クラウド設計、AI、セキュリティ）に近い職種ほど高年収になる傾向があり、シニアやマネジメントに進めばどの職種でも700万〜1,000万円超が見えてきます。",
+        text: "平均年収で上位に来るのは、QAエンジニア（約550万〜700万円）、SRE/クラウドエンジニア（約660万円）、データサイエンティスト（クラウドエンジニアと同水準でランキング上位5位）、セキュリティエンジニア（約629万円）、ITコンサルタント（約595万円）、PM（年収中央値550万〜750万円）です。一方フロントエンドは約523万円、システムエンジニアは約516万円、インフラエンジニアは約497万円が目安。上流工程・希少スキル（クラウド設計、AI、セキュリティ）に近い職種ほど高年収になる傾向があり、シニアやマネジメントに進めばどの職種でも700万〜1,000万円超が見えてきます。",
       },
     },
     {
@@ -202,7 +202,7 @@ export default function ArticlePage() {
                   <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>QAエンジニア</td>
                   <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8", color: "#7c3a55" }}>約550万〜700万円</td>
                   <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>高め</td>
-                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>東京の事業会社で約700万円の事例。品質設計や自動化（SET）で高単価。未経験から入りやすく女性に人気</td>
+                  <td className="border px-3 py-3" style={{ borderColor: "#d9c7b8" }}>東京のテストエンジニア（事業法人）は、Morgan McKinley「2026年版 年収ガイド」で基本給が経験の浅い方700万円・平均900万円（<a href="https://www.morganmckinley.com/jp-ja/salary-guide/data/%E3%83%86%E3%82%B9%E3%83%88%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2-%E4%BA%8B%E6%A5%AD%E6%B3%95%E4%BA%BA/%E6%9D%B1%E4%BA%AC" target="_blank" rel="noopener noreferrer" className="underline">出典</a>、2026年10月28日確認）。品質設計や自動化（SET）で高単価。未経験から入りやすく女性に人気</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
                   <td className="border px-3 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>SRE / クラウド</td>
@@ -401,7 +401,7 @@ export default function ArticlePage() {
             {[
               ["ROUTE 1", "インフラ運用 → クラウド / SRE", "未経験可の多いインフラ運用（約497万円）でサーバー・ネットワークの基礎を固め、AWS等のクラウド資格を取得。SRE/クラウド（約660万円）へ移行して年収を引き上げる王道です。"],
               ["ROUTE 2", "バックエンド → データエンジニア → データサイエンティスト", "Python・SQLでバックエンド経験を積み、データ基盤（データエンジニア・約544万円）へ。統計・機械学習を足してデータサイエンティスト（約650万円〜）を狙う、AI時代の伸びるルート。"],
-              ["ROUTE 3", "QA / テスト → QAリード / SET", "未経験から入りやすいQA（テスト）で品質設計を学び、テスト自動化（SET）やQAリードへ。QAは東京の事業会社で約700万円の事例もあり、開発に戻らず高年収を狙えます。"],
+              ["ROUTE 3", "QA / テスト → QAリード / SET", "未経験から入りやすいQA（テスト）で品質設計を学び、テスト自動化（SET）やQAリードへ。東京の事業法人のテストエンジニアは、人材紹介会社 Morgan McKinley の2026年版年収ガイドで、経験の浅い方でも基本給700万円とされており、開発に戻らず高年収を狙えます。"],
               ["ROUTE 4", "社内SE → PM / ITコンサル", "残業が少なく両立しやすい社内SE（約516万円）で業務知識と調整力を磨き、プロジェクト管理へ。PM（約550万〜750万円）・ITコンサル（約595万円）の上流ルートへ進みます。"],
             ].map(([route, title, desc], i) => (
               <div key={i} className="flex gap-4 rounded-xl border bg-white p-5" style={{ borderColor: "#d9c7b8" }}>
