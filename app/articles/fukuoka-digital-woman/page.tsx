@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
   description:
-    "福岡県「でじたる女子プロジェクト」を公式情報をもとに解説。無料でSAP・RPAを学べた支援の内容と、2026年7月18日時点の募集状況（公式サイトに「本事業は終了しました」と表示）、代わりに利用できる支援制度まで整理します。",
+    "福岡県「でじたる女子プロジェクト」を公式情報をもとに解説。無料でSAP・RPAを学べた支援の内容と、2026年10月28日時点の募集状況（公式サイトに「本事業は終了しました」と表示）と、いま申し込める福岡県の女性向け支援（キャリア・リデザイン福岡 第4クール・11月30日締切）まで整理します。",
   alternates: { canonical: "/articles/fukuoka-digital-woman/" },
   openGraph: { images: ["/og-default.png"],
     title: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
     description:
-      "福岡県「でじたる女子（でじたる女性）プロジェクト」の事業内容（無料・SAP/RPA・約4か月・PC貸与）と、2026年10月17日時点の募集状況（公式サイトに「本事業は終了しました」と表示・次期は未確認）、代替になる女性向け支援制度を一次情報で解説。",
+      "福岡県「でじたる女子（でじたる女性）プロジェクト」の事業内容（無料・SAP/RPA・約4か月・PC貸与）と、2026年10月28日時点の募集状況（公式サイトに「本事業は終了しました」と表示・次期は未確認）、いま申し込める福岡県の女性向け支援を一次情報で解説。",
     url: "https://women-engineer.com/articles/fukuoka-digital-woman/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "福岡県 でじたる女子プロジェクトとは？内容・費用・現在の募集状況【2026年】",
   datePublished: "2026-07-18",
-  dateModified: "2026-07-18",
+  dateModified: "2026-10-28",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "福岡県「でじたる女子（でじたる女性）プロジェクト」（福岡県女性デジタル人材育成・就業支援事業）の内容・対象者・費用と、2026年10月17日時点の募集状況（公式サイトに「本事業は終了しました」と表示）、代替の支援制度を解説。",
+    "福岡県「でじたる女子（でじたる女性）プロジェクト」（福岡県女性デジタル人材育成・就業支援事業）の内容・対象者・費用と、2026年10月28日時点の募集状況（公式サイトに「本事業は終了しました」と表示）、代替の支援制度を解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/fukuoka-digital-woman/",
@@ -50,7 +50,7 @@ const faqData = {
       name: "福岡県のでじたる女子プロジェクトは今から申し込めますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "2026年7月18日時点では申し込めません。公式サイト（ふくおかでじたる女子コンソーシアム運営）には「本事業は終了しました」と表示されており、直近の第3期（令和7年度）の申込は2025年7月22日で締め切られています。令和8年度（2026年度）の募集情報は、公式サイト・福岡県女性活躍推進課のページのいずれでも確認できませんでした。次期実施の有無は未定のため、最新情報は福岡県の公式サイトで確認してください。",
+        text: "2026年10月28日時点では申し込めません。公式サイト（ふくおかでじたる女子コンソーシアム運営）には「本事業は終了しました」と表示されており、直近の第3期（令和7年度）の申込は2025年7月22日で締め切られています。令和8年度（2026年度）の募集情報は、公式サイト・福岡県女性活躍推進課のページのいずれでも確認できませんでした。次期実施の有無は未定のため、最新情報は福岡県の公式サイトで確認してください。",
       },
     },
     {
@@ -83,6 +83,14 @@ const faqData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "全国どこからでも使える制度として、国の教育訓練給付（受講費用の20%〜最大80%を給付）や、経産省ポータル「マナビDX」の無料講座があります。ハローワークの公共職業訓練・求職者支援訓練も選択肢です。地域別の女性向け支援は当サイトの「女性向けITスキル支援マップ」で整理しています。福岡県の最新の女性就業支援は、福岡県ママと女性の就業支援センターや県の公式サイトで確認してください。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "福岡県の事業で、いま申し込めるものはありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "2026年10月28日時点では、福岡県の「キャリア・リデザイン福岡（働く女性キャリア・リデザイン応援プロジェクト）」が第4クールの参加者を募集しています。対象は県内企業で新たなキャリアを目指す、働いている女性またはキャリア中断中の女性で、参加費は無料、申込締切は2026年11月30日（月）正午です（企業と出会う「ドラフト会議」は2027年1月21日・福岡市科学館で対面開催）。参加には福岡県ママと女性の就業支援センターへの登録が必要です。ITスキルの研修ではなく、自己分析セミナー・個別面談・企業との出会いを中心にしたキャリア支援です。なお、県の女性IT人材育成事業「My work step プログラム」も、県のポータルサイトで令和7年度までの3年間で終了した事業と案内されています（出典: 福岡県庁・キャリア・リデザイン福岡公式サイト・福岡県女性の活躍推進ポータルサイト、2026年10月28日確認）。",
       },
     },
   ],
@@ -126,7 +134,7 @@ export default function ArticlePage() {
                 事業内容・費用と現在の募集状況・代わりに使える制度【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月18日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月28日</p>
           </div>
         </div>
       </section>
@@ -143,11 +151,11 @@ export default function ArticlePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>今申し込める？</strong> <strong>申し込めません。</strong>公式サイトには「本事業は終了しました」と表示されており（2026年7月18日確認）、令和8年度（2026年度）の募集情報は確認できませんでした。次期実施は未定です。</span>
+                <span><strong>今申し込める？</strong> <strong>申し込めません。</strong>公式サイトには「本事業は終了しました」と表示されており（2026年10月28日確認）、令和8年度（2026年度）の募集情報は確認できませんでした。次期実施は未定です。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>代わりは？</strong> 全国対象の<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付</a>や<a href="/articles/manabi-dx/" className="underline" style={{ color: "#7c3a55" }}>マナビDX</a>、他自治体の類似事業（<a href="/articles/women-it-support-map/" className="underline" style={{ color: "#7c3a55" }}>支援マップ</a>参照）が候補になります。</span>
+                <span><strong>代わりは？</strong> 全国対象の<a href="/articles/training-benefit-it/" className="underline" style={{ color: "#7c3a55" }}>教育訓練給付</a>や<a href="/articles/manabi-dx/" className="underline" style={{ color: "#7c3a55" }}>マナビDX</a>、他自治体の類似事業（<a href="/articles/women-it-support-map/" className="underline" style={{ color: "#7c3a55" }}>支援マップ</a>参照）が候補になります。福岡県の事業では<a href="#redesign" className="underline" style={{ color: "#7c3a55" }}>キャリア・リデザイン福岡（第4クール・11月30日締切）</a>が受付中です。</span>
               </li>
             </ul>
             <p className="text-xs text-text-light mt-4">
@@ -156,11 +164,12 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月17日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月28日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>公式サイトのタイトル直下と申込セクションに<strong>「本事業は終了しました」</strong>と明記されています。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>直近の募集は<strong>第3期（令和7年度）</strong>: 申込期間2025年5月20日〜7月22日・定員50名。この申込はすでに終了しています。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>令和8年度（2026年度）の募集情報は確認できませんでした。</strong>福岡県女性活躍推進課の新着情報にも本事業の掲載はありません（2026年7月18日確認）。次期実施の有無は公式サイトで要確認です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>県の別のIT人材育成事業<strong>「My work step プログラム」</strong>も、福岡県女性の活躍推進ポータルサイトで<strong>「７年度終了事業」</strong>と表示されています（令和5〜7年度の3年間で実施。<a href="https://joseikatsuyakuoentai.pref.fukuoka.jp/approaches/detail/89" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>県ポータルの事業ページ</a>・2026年10月28日確認）。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※今後、後継事業が発表される可能性があります。最新情報は<a href="https://www.pref.fukuoka.lg.jp/soshiki/5200416/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>福岡県女性活躍推進課</a>・<a href="https://digital-women.maia.co.jp/fukuoka/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
@@ -408,6 +417,17 @@ export default function ArticlePage() {
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><a href="/articles/hello-training-it/" className="underline" style={{ color: "#7c3a55" }}>ハロートレーニング（公共職業訓練）</a> — 求職中ならIT分野の訓練を原則無料で受講できる</span></li>
                 <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><a href="/articles/women-it-support-map/" className="underline" style={{ color: "#7c3a55" }}>女性向けITスキル支援マップ</a> — 東京都・埼玉県など他自治体の女性向け事業を一覧で比較</span></li>
               </ul>
+              <div id="redesign" className="rounded-lg p-4 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>福岡県でいま申し込める事業: キャリア・リデザイン福岡（第4クール）</p>
+                <ul className="space-y-1 text-sm text-text-light">
+                  <li>・<strong>対象</strong>: 県内企業で新たなキャリアを目指す、働いている女性またはキャリア中断中の女性</li>
+                  <li>・<strong>参加費</strong>: 無料（主催: 福岡県）</li>
+                  <li>・<strong>申込締切</strong>: 2026年11月30日（月）正午（応募多数の場合は早めに締め切る場合あり）</li>
+                  <li>・<strong>内容</strong>: 自己分析セミナー → キャリアコンシェルジュとの個別面談（オンライン・12月）→ 企業と出会う「ドラフト会議」（2027年1月21日・福岡市科学館で対面）</li>
+                  <li>・<strong>参加条件</strong>: 福岡県ママと女性の就業支援センターへの登録</li>
+                </ul>
+                <p className="text-xs text-text-light mt-2">ITスキルを学ぶ研修ではなく、キャリアの方向づけと企業との出会いを支援する事業です。IT職を目指す場合は、上の国の制度と組み合わせて使う形になります。出典: <a href="https://www.pref.fukuoka.lg.jp/contents/career-redesign.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>福岡県庁「キャリア・リデザイン福岡」</a>・<a href="https://career-redesign-fuk.net/second-third-entry/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>キャリア・リデザイン福岡 公式サイト（第4クール募集）</a>（いずれも2026年10月28日確認）</p>
+              </div>
               <p className="text-sm text-text-light leading-relaxed mt-3">
                 福岡県の女性就業支援の窓口としては「福岡県ママと女性の就業支援センター」が公式情報で言及されています。最新の県事業は<a href="https://www.pref.fukuoka.lg.jp/soshiki/5200416/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>福岡県女性活躍推進課</a>のページで確認してください。
               </p>
@@ -458,9 +478,12 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-xl font-bold mb-4">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
-            <li>出典: 福岡県でじたる女性プロジェクト 公式サイト（ふくおかでじたる女子コンソーシアム） <a href="https://digital-women.maia.co.jp/fukuoka/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://digital-women.maia.co.jp/fukuoka/</a>（2026年10月17日確認）</li>
-            <li>出典: 福岡県報道発表「『福岡県でじたる女性プロジェクト』第３期生を募集します！」（2025年5月19日） <a href="https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html</a>（2026年10月17日確認）</li>
+            <li>出典: 福岡県でじたる女性プロジェクト 公式サイト（ふくおかでじたる女子コンソーシアム） <a href="https://digital-women.maia.co.jp/fukuoka/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://digital-women.maia.co.jp/fukuoka/</a>（2026年10月28日確認）</li>
+            <li>出典: 福岡県報道発表「『福岡県でじたる女性プロジェクト』第３期生を募集します！」（2025年5月19日） <a href="https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.fukuoka.lg.jp/press-release/degital-josei.html</a>（2026年10月28日確認）</li>
             <li>出典: 福岡県女性活躍推進課 <a href="https://www.pref.fukuoka.lg.jp/soshiki/5200416/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.fukuoka.lg.jp/soshiki/5200416/</a>（2026年7月18日確認・本事業の令和8年度掲載なし）</li>
+            <li>出典: 福岡県庁「働く女性キャリア・リデザイン応援プロジェクト『キャリア・リデザイン福岡』」 <a href="https://www.pref.fukuoka.lg.jp/contents/career-redesign.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.pref.fukuoka.lg.jp/contents/career-redesign.html</a>（2026年10月28日確認）</li>
+            <li>出典: キャリア・リデザイン福岡 公式サイト「第４クール（対面開催）エントリー受付中」 <a href="https://career-redesign-fuk.net/second-third-entry/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://career-redesign-fuk.net/second-third-entry/</a>（2026年10月28日確認）</li>
+            <li>出典: 福岡県女性の活躍推進ポータルサイト「【７年度終了事業】福岡県女性IT人材育成事業【My work step プログラム】」 <a href="https://joseikatsuyakuoentai.pref.fukuoka.jp/approaches/detail/89" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://joseikatsuyakuoentai.pref.fukuoka.jp/approaches/detail/89</a>（2026年10月28日確認）</li>
           </ul>
         </div>
       </section>
