@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
   datePublished: "2026-07-05",
-  dateModified: "2026-10-25",
+  dateModified: "2026-10-29",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -121,12 +121,12 @@ export default function ArticlePage() {
               支援制度ガイド
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              埼玉県の女性のデジタル人材育成推進事業とは？
+              埼玉県の女性のデジタル人材育成推進事業（女性のデジタル人材育成講座）とは？
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
                 対象者・費用・申込方法と東京都事業・国の制度との違い【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月5日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月29日</p>
           </div>
         </div>
       </section>
@@ -156,11 +156,11 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月25日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月29日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で、公式の申込スケジュールには2027年の「2－3月生」（申込期間: 2027年2月1日〜2月11日）までが載っています。11月受講生の申込（2026年10月1日〜10月25日・受講期間: 11月2日〜11月30日）は締め切られました。次の12月受講生は申込期間2026年11月1日〜11月25日・受講期間12月1日〜2027年1月3日です。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>自営型テレワーク講座（新設）:</strong> 8月受講生から視聴可能。基礎・応用講座と同一フォームで申込できます。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>実践講座:</strong> 1期（Officeテクニカル/WEBクリエイター）は2026年8月17日〜9月14日の日程で終了しています。2期（生成AI活用/デジタルデザイン）は2026年11月9日〜12月7日に実施予定です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>実践講座:</strong> 1期（Officeテクニカル/WEBクリエイター）は2026年8月17日〜9月14日の日程で終了しています。2期（生成AI活用/デジタルデザイン）は2026年11月9日〜12月7日に実施予定で、申込は2026年10月5日〜10月20日（延長後の締切・23時59分）に受け付けられ、締め切られました。2期はZoomの面接（15分）があり、結果は11月2日にメールで通知されます。応募できるのは令和6〜8年度に対象の基礎・応用コースを修了した方で、1期を受講した方も応募できます（2026年10月5日の公式お知らせ）。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況・日程は変動します。最新情報は必ず<a href="https://woman-jobtraining-pref-saitama.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
@@ -179,6 +179,7 @@ export default function ArticlePage() {
               <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 事業概要表（対象者・期間・費用・内容・申込）</a></li>
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 対象者・受講条件</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 講座・コース内容（基礎応用／実践／自営型テレワーク）</a></li>
+              <li><a href="#voices" className="hover:underline" style={{ color: "#7c3a55" }}>・公式サイトに載っている受講者の声（口コミ）</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 費用と支援（無料の範囲と自己負担・就職サポート）</a></li>
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 申込方法と受講までのステップ</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 東京都事業・国の制度との違い（比較表）</a></li>
@@ -369,6 +370,33 @@ export default function ArticlePage() {
           <p className="text-xs text-text-light mt-4">
             出典: 公式サイト「基礎講座・応用講座」「実践講座」「自営型テレワーク講座」各ページ（公式サイトにて2026年7月確認）
           </p>
+        </div>
+      </section>
+
+      {/* 受講者の声（公式掲載） */}
+      <section id="voices" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">公式サイトに載っている受講者の声（口コミ）</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>
+              公式サイトの実践講座のページには「受講者の声」が掲載されています。挙がっているのは、進め方と支援体制についての声です。以下はその一部の引用です。
+            </p>
+            <blockquote className="rounded-xl p-5 text-sm" style={{ backgroundColor: "#fffaf4", borderLeft: "4px solid #7c3a55" }}>
+              「受講者のスピードに合わせて講師の方に進めていただいたため、取り残されることなく進めることができました。」
+            </blockquote>
+            <blockquote className="rounded-xl p-5 text-sm" style={{ backgroundColor: "#fffaf4", borderLeft: "4px solid #7c3a55" }}>
+              「オンラインで受講するのが不安でしたが、講師2名体制で講義が行われたり、事務局のサポートが手厚く感動しました。」
+            </blockquote>
+            <blockquote className="rounded-xl p-5 text-sm" style={{ backgroundColor: "#fffaf4", borderLeft: "4px solid #7c3a55" }}>
+              「グループワーク参加の緊張感は辛かったですが、終えてみると共感を得られたり客観的な意見をいただいたり、毎回達成感を感じ楽しく終えることができました。」
+            </blockquote>
+            <p>
+              掲載されている声は実践講座の受講者のもので、主催者が選んで載せたものです。基礎・応用講座の感想や、合わなかったという声は公式サイトには載っていません。グループワークに緊張を感じたという声もあるため、実践講座に申し込む場合はプレオリエンテーション動画で進め方を確認しておくと安心です。
+            </p>
+            <p className="text-xs">
+              出典: <a href="https://woman-jobtraining-pref-saitama.com/course/practical/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>女性のデジタル人材育成推進事業 公式サイト「実践講座」</a>（2026年10月29日確認）
+            </p>
+          </div>
         </div>
       </section>
 
