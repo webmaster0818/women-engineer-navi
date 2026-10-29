@@ -23,7 +23,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性デジタルカレッジ事業の口コミ・評判は？対象者・費用・申込方法【2026年度】",
   datePublished: "2026-07-04",
-  dateModified: "2026-10-26",
+  dateModified: "2026-10-29",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -127,7 +127,7 @@ export default function ArticlePage() {
                 対象者・費用・申込方法と女性ITエンジニア育成事業との違い【2026年度】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月26日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月29日</p>
           </div>
         </div>
       </section>
@@ -157,11 +157,11 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月21日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月29日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 今年度の最終募集です。11月16日開講の<strong>足立会場・立川会場は10月25日（日）で募集締切</strong>となりました（選考は10月27日）。11月23日開講の<strong>品川会場・墨田会場は11月1日（日）が募集締切</strong>です。いずれも各会場の今年度最終募集と案内されています（公式発表 2026年10月21日）。11月9日開講の練馬会場の申込受付は10月19日で終了しています。公式サイトには「令和9年1月～3月の基礎及び応用コースの訓練開催はありません」とあります。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>公式サイトはメンテナンス中:</strong> 2026年10月26日時点でも、公式サイトは「現在メンテナンス中」と表示されています（TOKYOはたらくネットも同日「緊急のメンテナンス中」）。告知ページに記載の問い合わせ先は、基礎及び応用コースが女性デジタルカレッジ事業事務局（TEL 03-3230-2445）、入門コースが同事務局（TEL 03-6261-7524）で、受付時間はいずれも平日9時～17時（土日祝除く）です。11月1日（日）締切の品川・墨田会場への申込方法は、再開後の公式サイトか事務局でご確認ください。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>入門コース:</strong> 2026年5月7日より第1期（計8回）の募集が案内されています。最新の開催回は公式サイトの新着情報をご確認ください。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 公式サイトは10月28日付で申込受付期間の延長を告知しています。11月16日開講の<strong>足立会場・立川会場は10月30日（金）まで</strong>（選考は随時実施）、11月23日開講の<strong>品川会場・墨田会場は11月2日（月）まで</strong>（選考は11月4日）。いずれも各会場の今年度最終募集と案内されています。11月9日開講の練馬会場の申込受付は10月19日で終了しています。公式サイトには「令和9年1月～3月の基礎及び応用コースの訓練開催はありません」とあります。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>公式サイトのメンテナンスは終了:</strong> 10月23日から続いていた公式サイトのメンテナンスについて、10月28日付で「システムメンテナンスは終了いたしました。現在、通常通りご利用いただけます。」と告知されています。問い合わせ先は、基礎及び応用コースが女性デジタルカレッジ事業事務局（TEL 03-3230-2445）、入門コースが同事務局（TEL 03-6261-7524）で、受付時間はいずれも平日9時～17時（土日祝除く）です。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>入門コース:</strong> 第3期の葛飾会場（12月7日開講・かつしかシンフォニーヒルズ）と調布会場（12月14日開講・調布市市民プラザあくろす）の申込受付期間が11月13日（金）まで延長されています。抽選結果は11月20日（金）までに通知されます（公式発表 2026年10月28日）。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況・日程は変動します。最新情報は必ず<a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>でご確認ください。
