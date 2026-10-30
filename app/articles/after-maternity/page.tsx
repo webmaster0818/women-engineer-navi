@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "産休・育休後のエンジニア転職ガイド｜復帰と転職の判断基準・タイミング【2026年】",
   description:
-    "産休・育休後のエンジニア転職ガイド。育休からの復職率93.2%・女性の育休取得率86.6%などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを育児休業給付金・保育園・現職への心証の3つの論点で整理。ブランク不安への対処や転職タイミングの目安まで出典付きで解説します。",
+    "産休・育休後のエンジニア転職ガイド。育休からの復職率92.1%・女性の育休取得率88.3%（令和7年度雇用均等基本調査）などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを育児休業給付金・保育園・現職への心証の3つの論点で整理。ブランク不安への対処や転職タイミングの目安まで出典付きで解説します。",
   alternates: { canonical: "/articles/after-maternity/" },
   openGraph: { images: ["/og-default.png"],
     title: "産休・育休後のエンジニア転職ガイド｜復帰と転職の判断基準・タイミング【2026年】",
     description:
-      "育休からの復職率93.2%・女性の育休取得率86.6%などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを給付金・保育園・心証の3論点で整理。転職タイミングの判断基準がわかります。",
+      "育休からの復職率92.1%・女性の育休取得率88.3%（令和7年度雇用均等基本調査）などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを給付金・保育園・心証の3論点で整理。転職タイミングの判断基準がわかります。",
     url: "https://women-engineer.com/articles/after-maternity/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "産休・育休後のエンジニア転職ガイド｜復帰と転職の判断基準・タイミング【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-30",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "育休からの復職率93.2%・女性の育休取得率86.6%などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを育児休業給付金・保育園・現職への心証の3つの論点で整理。転職タイミングの判断基準を出典付きで解説。",
+    "育休からの復職率92.1%・女性の育休取得率88.3%（令和7年度雇用均等基本調査）などの公的統計をもとに、「復帰してから転職」と「育休中に転職活動」の違いを育児休業給付金・保育園・現職への心証の3つの論点で整理。転職タイミングの判断基準を出典付きで解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/after-maternity/",
@@ -74,7 +74,7 @@ const faqData = {
       name: "産休・育休のブランクは転職で不利になりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "大きなマイナスにはなりにくいのが実態です。厚生労働省「令和5年度雇用均等基本調査」では、育休を終えて復職予定だった女性の93.2%が実際に復職しており、育休を挟んで働き続けること自体が標準になっています。IT業界は人材不足が続き、実務経験者は1〜2年のブランクがあっても歓迎される傾向です。面接では「ブランクをどう埋めたか」を具体的に示すことが重要で、使用技術の差分キャッチアップや小さなアウトプット（個人開発・技術記事など）が有効な材料になります。",
+        text: "大きなマイナスにはなりにくいのが実態です。厚生労働省「令和7年度雇用均等基本調査」では、育休を終えて復職予定だった女性の92.1%が実際に復職しており、育休を挟んで働き続けること自体が標準になっています。IT業界は人材不足が続き、実務経験者は1〜2年のブランクがあっても歓迎される傾向です。面接では「ブランクをどう埋めたか」を具体的に示すことが重要で、使用技術の差分キャッチアップや小さなアウトプット（個人開発・技術記事など）が有効な材料になります。",
       },
     },
     {
@@ -128,7 +128,7 @@ export default function ArticlePage() {
                 復帰と転職の判断基準・タイミング【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月30日</p>
           </div>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function ArticlePage() {
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
-                <span>育休を終えて復職予定だった女性の<strong>93.2%が実際に復職</strong>。育休を挟んで働き続けることは完全に標準になっています（出典: 厚生労働省「令和5年度雇用均等基本調査」）。</span>
+                <span>育休を終えて復職予定だった女性の<strong>92.1%が実際に復職</strong>。育休を挟んで働き続けることは完全に標準になっています（出典: 厚生労働省「令和7年度雇用均等基本調査」）。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
@@ -225,10 +225,10 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">データで見る育休後の復職・転職の実態</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「育休後に戻れるのか」「ブランクは不利にならないか」という不安は、まず数字で確かめてください。厚生労働省「令和5年度雇用均等基本調査」によると、育児休業を終了し復職予定だった女性のうち、<strong>実際に復職した人は93.2%</strong>（退職は6.8%）。育休を取って職場に戻ることは、すでに圧倒的多数派です。
+              「育休後に戻れるのか」「ブランクは不利にならないか」という不安は、まず数字で確かめてください。厚生労働省「令和7年度雇用均等基本調査」によると、2024年4月〜2025年3月に育児休業を終了し復職予定だった女性のうち、<strong>実際に復職した人は92.1%</strong>（退職は7.9%。前回の令和5年度調査は復職93.2%・退職6.8%）。育休を取って職場に戻ることは、すでに圧倒的多数派です。
             </p>
             <p>
-              入口側のデータも同じ傾向です。厚生労働省「令和6年度雇用均等基本調査」では女性の育児休業取得率は<strong>86.6%</strong>（男性は40.5%で過去最高）。国立社会保障・人口問題研究所「第16回出生動向基本調査」では、第1子出産前後の妻の就業継続率は<strong>69.5%</strong>（2015〜19年出産）まで上昇し、就業継続者の79.2%が育児休業制度を利用しています。
+              入口側のデータも同じ傾向です。厚生労働省「令和7年度雇用均等基本調査」では女性の育児休業取得率は<strong>88.3%</strong>（前回の令和6年度86.6%から1.7ポイント上昇）、男性は50.9%（同40.5%から10.4ポイント上昇）です。IT業界にあたる情報通信業では、育児休業制度の規定がある事業所が<strong>96.6%</strong>と、全産業（84.0%）を大きく上回ります（いずれも同調査・事業所規模5人以上）。国立社会保障・人口問題研究所「第16回出生動向基本調査」では、第1子出産前後の妻の就業継続率は<strong>69.5%</strong>（2015〜19年出産）まで上昇し、就業継続者の79.2%が育児休業制度を利用しています。
             </p>
             <p>
               さらにエンジニアには職種固有の追い風があります。総務省「令和6年通信利用動向調査」によると、情報通信業のテレワーク導入率は<strong>94.3%</strong>と全産業トップ（全産業平均47.3%）。復帰・転職後に「時短×在宅」「フルリモート×フルタイム」といった働き方を選び直せる余地が、他業界より格段に大きいのです。
@@ -246,13 +246,18 @@ export default function ArticlePage() {
               <tbody className="text-text-light">
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>育休終了後の女性の復職者割合</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>93.2%（退職6.8%）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和5年度雇用均等基本調査」</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>92.1%（退職7.9%）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和7年度雇用均等基本調査」</td>
                 </tr>
                 <tr style={{ backgroundColor: "#f0e7dd" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>女性の育児休業取得率</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>86.6%（男性は40.5%で過去最高）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和6年度雇用均等基本調査」</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>88.3%（男性は50.9%）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和7年度雇用均等基本調査」</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>育児休業制度の規定がある事業所（情報通信業）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>96.6%（全産業84.0%）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和7年度雇用均等基本調査」</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>第1子出産前後の妻の就業継続率</td>
@@ -268,7 +273,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light text-sm mt-3">
-            出典: 厚生労働省「令和5年度・令和6年度雇用均等基本調査」、国立社会保障・人口問題研究所「第16回出生動向基本調査」、総務省「令和6年通信利用動向調査」（いずれも2026年6月参照）
+            出典: 厚生労働省「<a href="https://www.mhlw.go.jp/toukei/list/71-r07.html" target="_blank" rel="noopener noreferrer" className="underline">令和7年度雇用均等基本調査</a>」（2026年10月30日確認）、国立社会保障・人口問題研究所「第16回出生動向基本調査」、総務省「令和6年通信利用動向調査」（2026年6月参照）
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
@@ -612,8 +617,8 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
-            <li>・出典: 厚生労働省「令和5年度雇用均等基本調査」（2026年6月参照）— 育児休業を終了し復職予定だった女性の復職者割合93.2%・退職6.8%</li>
-            <li>・出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）— 女性の育児休業取得率86.6%、男性40.5%</li>
+            <li>・出典: 厚生労働省「令和7年度雇用均等基本調査」事業所調査 結果概要（2026年10月30日確認）— 育児休業を終了し復職予定だった女性の復職者割合92.1%・退職7.9%（令和5年度は93.2%・6.8%）、育児休業制度の規定がある事業所 全産業84.0%・情報通信業96.6%</li>
+            <li>・出典: 厚生労働省「令和7年度雇用均等基本調査」報道用発表資料（2026年10月30日確認）— 女性の育児休業取得率88.3%（令和6年度86.6%）、男性50.9%（同40.5%）</li>
             <li>・出典: 国立社会保障・人口問題研究所「第16回出生動向基本調査（結婚と出産に関する全国調査）」（2026年6月参照）— 第1子出産前後の妻の就業継続率69.5%、就業継続者の育休利用79.2%</li>
             <li>・出典: 総務省「令和6年通信利用動向調査」（2026年6月参照）— テレワーク導入率：企業全体47.3%、情報通信業94.3%</li>
             <li>・出典: 厚生労働省・ハローワーク「育児休業給付の内容と支給申請手続」（2026年6月参照）— 支給率67%（180日まで）・50%（181日以降）、復職を前提としない取得は支給対象外</li>
