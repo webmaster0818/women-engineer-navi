@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "全国の女性向けITリスキリング・訓練支援まとめ【公的制度ハブ・2026年】",
   datePublished: "2026-07-04",
-  dateModified: "2026-10-27",
+  dateModified: "2026-10-31",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -301,6 +301,18 @@ export default function ArticlePage() {
                 </ul>
                 <p className="text-sm text-text-light leading-relaxed">
                   体験記は参加した年度の内容です。応募前に、公式FAQで次の点を確認しておくと判断しやすくなります。①「技能習得手当」「職業訓練受講給付金」の対象外（交通費は自己負担） ②学習だけを目的とした参加はできない（IT関連企業への就職が前提） ③正社員で在職中の場合は、入校日時点で退職済みか退職日が確定していることが条件。説明会は在職中でも参加できます。
+                </p>
+              </div>
+              <div id="digikare-hiyou" className="mt-4 rounded-lg p-4" style={{ background: "#f8f3ee" }}>
+                <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用と、選考の流れ（落ちることはある？）</p>
+                <p className="text-sm text-text-light leading-relaxed mb-2">
+                  <strong>費用：</strong>公式FAQでは「受講料やテキスト代は無料」です。オンライン校でパソコンのレンタルを希望する場合も無料で貸し出されます。自己負担になるのは、新宿キャンパスへ通う交通費と、オンライン校の通信費です。「技能習得手当」「職業訓練受講給付金」の対象外のため、受講中の生活費の手当はありません。
+                </p>
+                <p className="text-sm text-text-light leading-relaxed mb-2">
+                  <strong>選考の流れ：</strong>公式サイトの「申込から受講開始の流れ」は、①面談の予約 ②説明会のあと申込フォームを入力し、カジュアル面談 ③選考結果を合否にかかわらず全員に後日メールで通知 ④受講開始、の順です。選考があるため、申し込んだ人が全員入校できるわけではありません。
+                </p>
+                <p className="text-sm text-text-light leading-relaxed">
+                  合否の基準や倍率は公式サイトに掲載されていません。応募前に、上の①〜③（学習だけが目的の参加は不可・在職中の正社員は退職日の確定が条件など）に当てはまるかを確認してください。選考に通らなかった場合に無料で学べるほかの制度は、<a href="/articles/training-not-selected/" className="underline" style={{ color: "#7c3a55" }}>育成事業に落ちたときの代替ルート</a>にまとめています（出典: <a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>、2026年10月31日確認）。
                 </p>
               </div>
             </div>
