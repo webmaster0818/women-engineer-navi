@@ -26,7 +26,7 @@ const structuredData = {
   description:
     "女性ITエンジニアの年収・女性比率・求人倍率・育休取得率を公的統計・調査の出典を併記して集約したデータ集。",
   datePublished: "2026-06-21",
-  dateModified: "2026-10-24",
+  dateModified: "2026-10-31",
   author: { "@type": "Organization", name: "CareeHUB for woman 編集部" },
   publisher: {
     "@type": "Organization",
@@ -64,7 +64,7 @@ const datasetStructuredData = {
   measurementTechnique: "公的統計・調査の公開値を出典・参照時期つきで集計（推定値・出典不明の数値は不採用）",
   temporalCoverage: "2026",
   datePublished: "2026-06-21",
-  dateModified: "2026-10-24",
+  dateModified: "2026-10-31",
   url: "https://women-engineer.com/articles/data/",
   isAccessibleForFree: true,
 };
@@ -213,8 +213,8 @@ export default function DataPage() {
             <table className="w-full border-collapse">
               <thead><tr className="bg-primary"><th className={th}>指標</th><th className={th}>数値</th><th className={th}>出典</th></tr></thead>
               <tbody>
-                <tr className="border-b border-border bg-white"><td className={td}>育児休業取得率（女性・情報通信業）</td><td className={td}>94.4%</td><td className={td}>厚労省 令和6年度雇用均等基本調査</td></tr>
-                <tr className="border-b border-border bg-[#f0e7dd]"><td className={td}>育児休業取得率（男性・情報通信業）</td><td className={td}>58.1%</td><td className={td}>厚労省 令和6年度雇用均等基本調査</td></tr>
+                <tr className="border-b border-border bg-white"><td className={td}>育児休業取得率（女性・情報通信業）</td><td className={td}>82.6%（前年度94.4%）</td><td className={td}>厚労省 令和7年度雇用均等基本調査</td></tr>
+                <tr className="border-b border-border bg-[#f0e7dd]"><td className={td}>育児休業取得率（男性・情報通信業）</td><td className={td}>51.1%（前年度58.1%）</td><td className={td}>厚労省 令和7年度雇用均等基本調査</td></tr>
                 <tr className="border-b border-border bg-white"><td className={td}>テレワーク導入率（情報通信業）</td><td className={td}>94.3%</td><td className={td}>総務省 通信利用動向調査</td></tr>
               </tbody>
             </table>

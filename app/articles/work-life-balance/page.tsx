@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニアのワークライフバランス実態｜残業・有給・柔軟な働き方のデータ【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-31",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -128,7 +128,7 @@ export default function ArticlePage() {
                 残業・有給・柔軟な働き方のデータ【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月31日</p>
           </div>
         </div>
       </section>
@@ -416,7 +416,7 @@ export default function ArticlePage() {
           </div>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              なお、育児との両立については、女性の育児休業取得率86.6%（厚生労働省「令和6年度雇用均等基本調査」）などのデータと2025年施行の法改正を<a href="/articles/mama-engineer/" className="underline" style={{ color: "#7c3a55" }}>ママエンジニアの働き方ガイド</a>で、時短勤務の制度と収入への影響は<a href="/articles/short-time/" className="underline" style={{ color: "#7c3a55" }}>時短勤務エンジニアの記事</a>で詳しく解説しています。
+              なお、育児との両立については、女性の育児休業取得率88.3%（厚生労働省「令和7年度雇用均等基本調査」）などのデータと2025年施行の法改正を<a href="/articles/mama-engineer/" className="underline" style={{ color: "#7c3a55" }}>ママエンジニアの働き方ガイド</a>で、時短勤務の制度と収入への影響は<a href="/articles/short-time/" className="underline" style={{ color: "#7c3a55" }}>時短勤務エンジニアの記事</a>で詳しく解説しています。
             </p>
           </div>
         </div>
@@ -604,7 +604,7 @@ export default function ArticlePage() {
             <li>・出典: 総務省「令和6年通信利用動向調査」（2026年6月参照）— テレワーク導入率（情報通信業94.3%・全産業47.3%）</li>
             <li>・出典: パーソル総合研究所「第十回・テレワークに関する調査」（2025年発表、2026年6月参照）— 正社員テレワーク実施率（情報通信業56.3%・全体22.5%）</li>
             <li>・出典: レバレジーズ「IT人材の正社員転職市場動向 2025年6月」「ITエンジニアのリモートワークに関する実態調査」（2026年6月参照）— IT人材の転職求人倍率11.2倍、フルリモート求人ピーク比約30%減、ハイブリッド型勤務が主流</li>
-            <li>・出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）— 女性の育児休業取得率86.6%</li>
+            <li>・出典: 厚生労働省「令和7年度雇用均等基本調査」（2026年10月31日確認）— 女性の育児休業取得率88.3%</li>
             <li>・出典: 厚生労働省「育児・介護休業法 改正ポイントのご案内（令和7年4月1日・10月1日施行）」（2026年6月参照）— 介護両立支援制度の個別周知・意向確認の義務化、介護期テレワークの努力義務ほか</li>
           </ul>
           <p className="text-xs text-text-light mt-4">

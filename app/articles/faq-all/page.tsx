@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
   description:
-    "女性エンジニア転職のよくある質問を実データで総まとめ。平均年収419万〜約497万円、求人倍率12.04倍、育休取得率86.6%、テレワーク導入率94.3%など公的統計・公開調査に基づき、年収・未経験・両立・選考・働き方の19の疑問に出典付きで回答します。",
+    "女性エンジニア転職のよくある質問を実データで総まとめ。平均年収419万〜約497万円、求人倍率12.04倍、育休取得率88.3%、テレワーク導入率94.3%など公的統計・公開調査に基づき、年収・未経験・両立・選考・働き方の19の疑問に出典付きで回答します。",
   alternates: { canonical: "/articles/faq-all/" },
   openGraph: { images: ["/og-default.png"],
     title: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
     description:
-      "平均年収419万〜約497万円、求人倍率12.04倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブです。",
+      "平均年収419万〜約497万円、求人倍率12.04倍、育休取得率88.3%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブです。",
     url: "https://women-engineer.com/articles/faq-all/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -22,11 +22,11 @@ const structuredData = {
   "@type": "Article",
   headline: "女性エンジニア転職のFAQ総まとめ｜年収・未経験・両立の疑問に全回答【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-10-24",
+  dateModified: "2026-10-31",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
-    "平均年収419万〜約497万円、求人倍率12.04倍、育休取得率86.6%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブ。",
+    "平均年収419万〜約497万円、求人倍率12.04倍、育休取得率88.3%など実データに基づき、女性エンジニア転職の19の疑問に出典付きで回答するFAQハブ。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/articles/faq-all/" },
 };
 
@@ -87,7 +87,7 @@ const faqData = {
       name: "女性エンジニアは出産後も働き続けられますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "厚生労働省「令和6年度雇用均等基本調査」によると、女性の育児休業取得率は86.6%で、取得者の9割以上が6か月以上取得しています。第1子出産前後の妻の就業継続率も69.5%まで上昇しており（国立社会保障・人口問題研究所「第16回出生動向基本調査」）、「出産＝退職」の時代は終わりつつあります。",
+        text: "厚生労働省「令和7年度雇用均等基本調査」によると、女性の育児休業取得率は88.3%で、取得者の9割以上が6か月以上取得しています。第1子出産前後の妻の就業継続率も69.5%まで上昇しており（国立社会保障・人口問題研究所「第16回出生動向基本調査」）、「出産＝退職」の時代は終わりつつあります。",
       },
     },
     {
@@ -208,7 +208,7 @@ const faqCategories: FaqCategory[] = [
     faqs: [
       {
         q: "出産後も働き続けられますか？育休の実態は？",
-        a: "厚生労働省「令和6年度雇用均等基本調査」によると、女性の育児休業取得率は86.6%で、取得者の9割以上が6か月以上取得しています。第1子出産前後の妻の就業継続率も69.5%まで上昇しており（国立社会保障・人口問題研究所の調査）、「出産＝退職」の時代は終わりつつあります。",
+        a: "厚生労働省「令和7年度雇用均等基本調査」によると、女性の育児休業取得率は88.3%で、取得者の9割以上が6か月以上取得しています。第1子出産前後の妻の就業継続率も69.5%まで上昇しており（国立社会保障・人口問題研究所の調査）、「出産＝退職」の時代は終わりつつあります。",
         links: [{ label: "ママエンジニアの働き方ガイド", href: "/articles/mama-engineer/" }],
       },
       {
@@ -294,7 +294,7 @@ const faqCategories: FaqCategory[] = [
 const keyStats = [
   { value: "12.04倍", label: "エンジニア（IT・通信）の転職求人倍率", source: "doda 2026年9月（全職種平均2.89倍）" },
   { value: "419万〜約497万円", label: "女性エンジニアの平均年収の目安", source: "doda／賃金構造基本統計調査ベース" },
-  { value: "86.6%", label: "女性の育児休業取得率", source: "厚労省 令和6年度雇用均等基本調査" },
+  { value: "88.3%", label: "女性の育児休業取得率", source: "厚労省 令和7年度雇用均等基本調査" },
   { value: "94.3%", label: "情報通信業のテレワーク導入率", source: "総務省 令和6年通信利用動向調査" },
   { value: "90.8%", label: "年収交渉をした人の年収アップ率", source: "キッカケクリエイション調査（ITエンジニア393名）" },
   { value: "18.8%", label: "日本のITエンジニアの女性比率", source: "ヒューマンリソシア（2023年データ）" },
@@ -317,7 +317,7 @@ export default function FaqAllPage() {
               女性エンジニア転職のFAQ総まとめ
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・未経験・両立の疑問に全回答【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月24日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月31日</p>
           </div>
         </div>
       </section>
@@ -422,7 +422,7 @@ export default function FaqAllPage() {
             {[
               { title: "年収の実データを知りたい", desc: "年代別・職種別の年収表、男女賃金差の実態、差を埋める3つの具体策。", href: "/articles/salary/", label: "女性エンジニアの年収ガイド" },
               { title: "未経験から目指したい", desc: "求人倍率12.04倍の市場データ、職種別の未経験ハードル比較、学習ロードマップ。", href: "/articles/beginner/", label: "未経験からのロードマップ" },
-              { title: "育児と両立したい", desc: "育休取得率86.6%・2025年法改正のポイント、両立しやすい職種の比較、時短×在宅のモデルケース。", href: "/articles/mama-engineer/", label: "ママエンジニアの働き方ガイド" },
+              { title: "育児と両立したい", desc: "育休取得率88.3%・2025年法改正のポイント、両立しやすい職種の比較、時短×在宅のモデルケース。", href: "/articles/mama-engineer/", label: "ママエンジニアの働き方ガイド" },
               { title: "リモートで働きたい", desc: "テレワーク導入率94.3%の実態、職種別のリモートのしやすさ、フルリモート求人の探し方。", href: "/articles/remote-jobs/", label: "在宅・リモート転職ガイド" },
               { title: "年収交渉に踏み出したい", desc: "交渉した人の90.8%が年収アップ。タイミング・相場の調べ方・伝え方のフレーズ例。", href: "/articles/negotiation/", label: "年収交渉術" },
               { title: "選考を突破したい", desc: "paiza・Track Testなど実在サービスの形式比較とレベル別対策ロードマップ。", href: "/articles/coding-test/", label: "コーディングテスト対策" },

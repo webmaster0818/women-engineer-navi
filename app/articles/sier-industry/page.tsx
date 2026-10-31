@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "SIerで働く女性エンジニアのリアル｜年収・安定性・Web系との違い【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-31",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -157,7 +157,7 @@ export default function SierIndustryPage() {
                 年収・安定性・Web系との違いを実データで解説【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月31日</p>
           </div>
         </div>
       </section>
@@ -390,9 +390,9 @@ export default function SierIndustryPage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>富士通｜女性幹部比率を毎年開示</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                女性幹部社員比率を毎年度公開しており、<strong>2024年度実績はグループ16.8%（単体11.5%）</strong>。厚生労働省「令和6年度雇用均等基本調査」による課長相当職の女性割合の全産業平均12.3%と比較する基準として使えます。中期経営計画の非財務指標として目標値も掲げており、「実績＋目標＋期限」をセットで開示する典型例です。
+                女性幹部社員比率を毎年度公開しており、<strong>2024年度実績はグループ16.8%（単体11.5%）</strong>。厚生労働省「令和7年度雇用均等基本調査」による課長相当職の女性割合の全産業平均13.2%と比較する基準として使えます。中期経営計画の非財務指標として目標値も掲げており、「実績＋目標＋期限」をセットで開示する典型例です。
               </p>
-              <p className="text-xs text-text-light mt-2">出典: 富士通 統合レポート・人材戦略説明資料、厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</p>
+              <p className="text-xs text-text-light mt-2">出典: 富士通 統合レポート・人材戦略説明資料、厚生労働省「令和7年度雇用均等基本調査」（2026年10月31日確認）</p>
             </div>
           </div>
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
@@ -404,14 +404,14 @@ export default function SierIndustryPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
-                <span><strong>プロジェクトが長期で計画的</strong>: 数年単位の大規模案件が多く、工程と要員計画が事前に引かれるため、産育休・時短のスケジュールを組み込みやすい。厚生労働省の調査では女性の育休取得率は全産業で86.6%まで上昇しており、制度の整った大手SIerでは取得がほぼ前提になっている</span>
+                <span><strong>プロジェクトが長期で計画的</strong>: 数年単位の大規模案件が多く、工程と要員計画が事前に引かれるため、産育休・時短のスケジュールを組み込みやすい。厚生労働省の調査では女性の育休取得率は全産業で88.3%まで上昇しており、制度の整った大手SIerでは取得がほぼ前提になっている</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span>
                 <span><strong>評価される能力が長持ちする</strong>: 要件定義・設計・品質管理・顧客折衝といった上流スキルは技術トレンドに左右されにくく、ブランクの影響を受けにくい。復職後も「設計力・調整力」で勝負できる</span>
               </li>
             </ul>
-            <p className="text-xs text-text-light mt-3">出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</p>
+            <p className="text-xs text-text-light mt-3">出典: 厚生労働省「令和7年度雇用均等基本調査」（2026年10月31日確認）</p>
           </div>
           <p className="text-text-light leading-relaxed mt-6 text-sm">
             制度の充実した企業の具体的な見極め方（くるみん・えるぼしの調べ方、行動計画の読み方）は、<a href="/articles/women-friendly-companies/" className="font-bold hover:underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見極め方</a>で詳しく解説しています。
@@ -610,7 +610,7 @@ export default function SierIndustryPage() {
             <li>出典: NTTデータグループ「ダイバーシティ、エクイティ＆インクルージョン」（2026年6月参照）</li>
             <li>出典: SCSK「採用情報 データ集」・「働き方改革（サステナビリティ）」・ニュースリリース「プラチナくるみんプラス認定を取得」（2025年11月12日）（2026年6月参照）</li>
             <li>出典: 富士通「統合レポート・人材戦略説明資料・サステナビリティデータ」（2026年6月参照）</li>
-            <li>出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）</li>
+            <li>出典: 厚生労働省「令和7年度雇用均等基本調査」（2026年10月31日確認）</li>
           </ul>
         </div>
       </section>

@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ママエンジニアの働き方ガイド｜時短・在宅の実態と両立できる職種【2026年】",
   description:
-    "ママエンジニアの働き方ガイド。女性の育休取得率86.6%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法（時短勤務・テレワーク・残業免除）を出典付きで解説。育児と両立しやすい職種の比較や時短×在宅のモデルケースも紹介します。",
+    "ママエンジニアの働き方ガイド。女性の育休取得率88.3%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法（時短勤務・テレワーク・残業免除）を出典付きで解説。育児と両立しやすい職種の比較や時短×在宅のモデルケースも紹介します。",
   alternates: { canonical: "/articles/mama-engineer/" },
   openGraph: { images: ["/og-default.png"],
     title: "ママエンジニアの働き方ガイド｜時短・在宅の実態と両立できる職種【2026年】",
     description:
-      "女性の育休取得率86.6%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法を出典付きで解説。育児と両立しやすい職種・働き方がわかります。",
+      "女性の育休取得率88.3%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法を出典付きで解説。育児と両立しやすい職種・働き方がわかります。",
     url: "https://women-engineer.com/articles/mama-engineer/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ママエンジニアの働き方ガイド｜時短・在宅の実態と両立できる職種【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-31",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "女性の育休取得率86.6%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法を出典付きで解説。育児と両立しやすい職種・働き方の比較も紹介。",
+    "女性の育休取得率88.3%・IT業界のテレワーク導入率94.3%などの公的統計と、2025年施行の改正育児・介護休業法を出典付きで解説。育児と両立しやすい職種・働き方の比較も紹介。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/mama-engineer/",
@@ -58,7 +58,7 @@ const faqData = {
       name: "育休を取って復帰する女性エンジニアは実際どのくらいいますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "厚生労働省「令和6年度雇用均等基本調査」によると、女性の育児休業取得率は86.6%で、取得者の9割以上が6か月以上取得しています。また国立社会保障・人口問題研究所「第16回出生動向基本調査」では、第1子出産前後の妻の就業継続率は69.5%（2015〜19年出産）まで上昇し、就業継続者の79.2%が育児休業制度を利用しています。IT業界（情報通信業）はテレワーク導入率94.3%（総務省「令和6年通信利用動向調査」）と全産業トップで、復帰後も柔軟に働きやすい環境です。",
+        text: "厚生労働省「令和7年度雇用均等基本調査」によると、女性の育児休業取得率は88.3%で、取得者の9割以上が6か月以上取得しています。また国立社会保障・人口問題研究所「第16回出生動向基本調査」では、第1子出産前後の妻の就業継続率は69.5%（2015〜19年出産）まで上昇し、就業継続者の79.2%が育児休業制度を利用しています。IT業界（情報通信業）はテレワーク導入率94.3%（総務省「令和6年通信利用動向調査」）と全産業トップで、復帰後も柔軟に働きやすい環境です。",
       },
     },
     {
@@ -128,7 +128,7 @@ export default function ArticlePage() {
                 時短・在宅の実態と両立できる職種【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月31日</p>
           </div>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function ArticlePage() {
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
-                <span>女性の育児休業取得率は<strong>86.6%</strong>、第1子出産前後の就業継続率は<strong>69.5%</strong>まで上昇。「出産＝退職」の時代は終わりつつあります（出典: 厚生労働省・国立社会保障・人口問題研究所）。</span>
+                <span>女性の育児休業取得率は<strong>88.3%</strong>、第1子出産前後の就業継続率は<strong>69.5%</strong>まで上昇。「出産＝退職」の時代は終わりつつあります（出典: 厚生労働省・国立社会保障・人口問題研究所）。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
@@ -230,7 +230,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">データで見るママエンジニアの現状（育休取得率・復帰率）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              まず、公的統計で「出産後も働き続ける」ことがどれだけ一般的になったかを確認します。厚生労働省「令和6年度雇用均等基本調査」によると、女性の育児休業取得率は<strong>86.6%</strong>（前年度84.1%）。取得した女性の9割以上が6か月以上の育休を取得しており、育休を取って復帰するキャリアはすでに標準的な選択肢です。男性の取得率も<strong>40.5%</strong>と初めて4割を超え、夫婦で育児を分担しやすい環境整備が進んでいます。
+              まず、公的統計で「出産後も働き続ける」ことがどれだけ一般的になったかを確認します。厚生労働省「令和7年度雇用均等基本調査」によると、女性の育児休業取得率は<strong>88.3%</strong>（前年度84.1%）。取得した女性の9割以上が6か月以上の育休を取得しており、育休を取って復帰するキャリアはすでに標準的な選択肢です。男性の取得率も<strong>50.9%</strong>と初めて5割を超え、夫婦で育児を分担しやすい環境整備が進んでいます。
             </p>
             <p>
               出産を機に仕事を続けられるかを示す指標としては、国立社会保障・人口問題研究所「第16回出生動向基本調査」があります。第1子出産前後の妻の就業継続率は、かつて5割前後で推移していましたが、2015〜19年に出産した妻では<strong>69.5%</strong>まで上昇。就業を継続した人の<strong>79.2%が育児休業制度を利用</strong>しており、「育休を使って復帰する」が両立の王道ルートになっています。
@@ -251,12 +251,12 @@ export default function ArticlePage() {
               <tbody className="text-text-light">
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>女性の育児休業取得率</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>86.6%（9割以上が6か月以上取得）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和6年度雇用均等基本調査」</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>88.3%（9割以上が6か月以上取得）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>厚生労働省「令和7年度雇用均等基本調査」</td>
                 </tr>
                 <tr style={{ backgroundColor: "#f0e7dd" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>男性の育児休業取得率</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>40.5%（過去最高）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>50.9%（過去最高）</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>同上</td>
                 </tr>
                 <tr>
@@ -273,7 +273,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light text-sm mt-3">
-            出典: 厚生労働省「令和6年度雇用均等基本調査」、国立社会保障・人口問題研究所「第16回出生動向基本調査」、総務省「令和6年通信利用動向調査」（いずれも2026年6月参照）
+            出典: 厚生労働省「令和7年度雇用均等基本調査」、国立社会保障・人口問題研究所「第16回出生動向基本調査」、総務省「令和6年通信利用動向調査」（雇用均等基本調査は2026年10月31日確認、ほかは2026年6月参照）
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
@@ -441,7 +441,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 産休育休の取得実績と復帰率</h3>
               <p className="text-sm text-text-light">
-                女性の育休取得率は全国平均86.6%（出典: 厚生労働省「令和6年度雇用均等基本調査」、2026年6月参照）まで来ていますが、重要なのは<strong>復帰後に元のポジション・評価で働き続けられているか</strong>です。取得実績の人数、復帰率、復帰後の昇進事例の有無をご確認ください。従業員300人超の企業は男性育休取得率の公表が義務化されており、公開情報からも企業姿勢を読み取れます。
+                女性の育休取得率は全国平均88.3%（出典: 厚生労働省「令和7年度雇用均等基本調査」、2026年6月参照）まで来ていますが、重要なのは<strong>復帰後に元のポジション・評価で働き続けられているか</strong>です。取得実績の人数、復帰率、復帰後の昇進事例の有無をご確認ください。従業員300人超の企業は男性育休取得率の公表が義務化されており、公開情報からも企業姿勢を読み取れます。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
@@ -629,7 +629,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
-            <li>・出典: 厚生労働省「令和6年度雇用均等基本調査」（2026年6月参照）— 女性の育児休業取得率86.6%、男性40.5%ほか</li>
+            <li>・出典: 厚生労働省「令和7年度雇用均等基本調査」（2026年10月31日確認）— 女性の育児休業取得率88.3%、男性50.9%ほか</li>
             <li>・出典: 国立社会保障・人口問題研究所「第16回出生動向基本調査（結婚と出産に関する全国調査）」（2026年6月参照）— 第1子出産前後の妻の就業継続率69.5%、就業継続者の育休利用79.2%</li>
             <li>・出典: 総務省「令和6年通信利用動向調査」（2026年6月参照）— テレワーク導入率：企業全体47.3%、情報通信業94.3%</li>
             <li>・出典: 厚生労働省「育児・介護休業法 改正ポイントのご案内（令和7年4月1日・10月1日施行）」（2026年6月参照）— 残業免除の対象拡大、子の看護等休暇の拡充、テレワーク努力義務、柔軟な働き方を実現するための措置等</li>

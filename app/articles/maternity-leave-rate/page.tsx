@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "IT業界の育休取得率・復帰率データまとめ【2026年最新】企業の調べ方つき",
   description:
-    "IT業界（情報通信業）の育休取得率は女性94.4%・男性58.1%（厚生労働省・令和6年度雇用均等基本調査）。全産業との比較、年次推移、男女別データ、IT企業の公開実績、育児休業給付金の制度数値まで全数値出典付きで整理。厚労省データベースで企業ごとの実績を調べる方法も解説します。",
+    "IT業界（情報通信業）の育休取得率は女性82.6%・男性51.1%（厚生労働省・令和7年度雇用均等基本調査）。前年度の94.4%・58.1%から下がり、女性は全産業平均を下回りました。全産業比較・年次推移・IT企業の公開実績を出典付きで整理し、企業ごとの実績の調べ方も解説します。",
   alternates: { canonical: "/articles/maternity-leave-rate/" },
   openGraph: { images: ["/og-default.png"],
     title: "IT業界の育休取得率・復帰率データまとめ【2026年最新】企業の調べ方つき",
     description:
-      "IT業界（情報通信業）の育休取得率は女性94.4%・男性58.1%（令和6年度雇用均等基本調査）。全産業比較・年次推移・男女別・企業公開値を出典付きで整理し、企業ごとの実績の調べ方も解説します。",
+      "IT業界（情報通信業）の育休取得率は女性82.6%・男性51.1%（令和7年度雇用均等基本調査・前年度は94.4%・58.1%）。全産業比較・年次推移・男女別・企業公開値を出典付きで整理し、企業ごとの実績の調べ方も解説します。",
     url: "https://women-engineer.com/articles/maternity-leave-rate/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "IT業界の育休取得率・復帰率データまとめ【2026年最新】企業の調べ方つき",
   datePublished: "2026-04-27",
-  dateModified: "2026-06-12",
+  dateModified: "2026-10-31",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "IT業界（情報通信業）の育休取得率は女性94.4%・男性58.1%（厚生労働省・令和6年度雇用均等基本調査）。全産業との比較、年次推移、男女別データ、IT企業の公開実績、育児休業給付金の制度数値を全数値出典付きで整理したデータ記事。",
+    "IT業界（情報通信業）の育休取得率は女性82.6%・男性51.1%（厚生労働省・令和7年度雇用均等基本調査）。前年度の94.4%・58.1%から下がり、女性は全産業平均を下回りました。全産業との比較、年次推移、男女別データ、IT企業の公開実績、育児休業給付金の制度数値を全数値出典付きで整理したデータ記事。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/articles/maternity-leave-rate/",
@@ -50,7 +50,7 @@ const faqData = {
       name: "IT業界（情報通信業）の育休取得率は何%ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "厚生労働省「令和6年度雇用均等基本調査」の産業別データ（付属統計表第1表）によると、情報通信業の育児休業取得率は女性94.4%・男性58.1%です。全産業平均（女性86.6%・男性40.5%）をいずれも大きく上回り、女性は製造業（94.4%）と並ぶ高水準、男性は金融業・保険業（63.6%）、学術研究・専門技術サービス業（60.7%）に次ぐ水準です。なお産業別の値は事業所調査のため年度ごとの振れが大きい点には注意が必要です。",
+        text: "厚生労働省「令和7年度雇用均等基本調査」の産業別データ（付属統計表第12表）によると、情報通信業の育児休業取得率は女性82.6%・男性51.1%です。全産業平均（女性88.3%・男性50.9%）と比べると、女性は下回り、男性はほぼ同じ水準です。前年度（令和6年度）の情報通信業は女性94.4%・男性58.1%で、男女とも全産業平均を上回っていました。産業別の値は事業所調査のサンプルにもとづくため、年度ごとの振れが大きい点に注意が必要です。",
       },
     },
     {
@@ -128,7 +128,7 @@ export default function ArticlePage() {
                 【2026年最新】公的統計＋企業公開値・企業の調べ方つき
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年6月12日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年10月31日</p>
           </div>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function ArticlePage() {
             <ul className="space-y-2 text-sm text-text-light leading-relaxed">
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
-                <span>IT業界（情報通信業）の育休取得率は<strong>女性94.4%・男性58.1%</strong>。全産業平均（女性86.6%・男性40.5%）を男女とも大きく上回ります（出典: 厚生労働省「令和6年度雇用均等基本調査」）。</span>
+                <span>IT業界（情報通信業）の育休取得率は<strong>女性82.6%・男性51.1%</strong>。全産業平均（女性88.3%・男性50.9%）に対し、女性は下回り、男性はほぼ同水準です。前年度は女性94.4%・男性58.1%で、年度による振れが大きい数値です（出典: 厚生労働省「令和7年度雇用均等基本調査」）。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span style={{ color: "#7c3a55" }} className="mt-0.5 font-bold">&#10003;</span>
@@ -230,7 +230,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">育休取得率の最新値と年次推移（全産業・男女別）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              育休取得率の公的統計の基本は、厚生労働省が毎年公表する「雇用均等基本調査」です。最新の令和6年度調査（2024年10月1日時点）によると、育児休業取得率は<strong>女性86.6%</strong>（前年度84.1%）、<strong>男性40.5%</strong>（前年度30.1%）。男性は前年度から10.4ポイント上昇し、初めて4割を超えて過去最高を更新しました。
+              育休取得率の公的統計の基本は、厚生労働省が毎年公表する「雇用均等基本調査」です。最新の令和7年度調査（2025年10月1日時点）によると、育児休業取得率は<strong>女性88.3%</strong>（前年度86.6%）、<strong>男性50.9%</strong>（前年度40.5%）。男性は前年度から10.4ポイント上昇し、初めて5割を超えて過去最高を更新しました。
             </p>
             <p>
               取得率の定義は「調査前々年10月1日〜前年9月30日の1年間に出産した者（男性は配偶者が出産した者）のうち、調査時点までに育児休業を開始した者（申出をしている者を含む）の割合」です。男性には2022年10月創設の産後パパ育休（出生時育児休業）が含まれます。
@@ -271,23 +271,28 @@ export default function ArticlePage() {
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>84.1%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>30.1%</td>
                 </tr>
+                <tr>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>2024年度（令和6）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>86.6%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>40.5%</td>
+                </tr>
                 <tr style={{ backgroundColor: "#efe3d8" }}>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>2024年度（令和6・最新）</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>86.6%</td>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>40.5%（過去最高）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>2025年度（令和7・最新）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>88.3%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>50.9%（過去最高）</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-text-light text-sm mt-3">
-            出典: 厚生労働省「令和6年度雇用均等基本調査」結果概要・図1「育児休業取得率の推移」（2026年6月参照）。令和5年度以降の男性は産後パパ育休を含む。
+            出典: 厚生労働省「令和7年度雇用均等基本調査」事業所調査 結果概要・図4「育児休業取得率の推移」（2026年10月31日確認）。令和6年度以前は各年度の同調査（2026年6月参照）。令和5年度以降の男性は産後パパ育休を含む。
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              推移を見ると、女性は8割台で高止まりしている一方、男性は2019年度の7.48%から5年で40.5%へと約5倍に急伸しています。背景には2022年の産後パパ育休創設と、取得率の公表義務化（後述）があります。ただし取得期間には男女差が残り、同調査では<strong>女性は9割以上が6か月以上</strong>取得しているのに対し、<strong>男性は約4割が2週間未満</strong>の短期取得です。
+              推移を見ると、女性は8割台で推移している一方、男性は2019年度の7.48%から6年で50.9%へと約7倍に急伸しています。背景には2022年の産後パパ育休創設と、取得率の公表義務化（後述）があります。ただし取得期間には男女差が残り、同調査では<strong>女性は9割以上が6か月以上</strong>取得しているのに対し、<strong>男性は約2割（20.8%）が2週間未満</strong>の短期取得です（令和7年度・付属統計表第16表。最も多いのは「1か月～3か月未満」の30.3%）。
             </p>
             <p>
-              また、雇用形態による差もあります。有期契約労働者の育休取得率は<strong>女性73.2%・男性33.2%</strong>（令和6年度・同調査表1）で、全体平均より女性で約13ポイント低くなっています。転職時に正社員か契約社員かで取得のしやすさに差が出うる点は押さえておいてください。
+              また、雇用形態による差もあります。有期契約労働者の育休取得率は<strong>女性74.8%・男性40.4%</strong>（令和7年度・同調査表5）で、全体平均より女性で約14ポイント低くなっています。転職時に正社員か契約社員かで取得のしやすさに差が出うる点は押さえておいてください。
             </p>
           </div>
         </div>
@@ -299,7 +304,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">IT業界（情報通信業）の育休取得率 — 産業別データ</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              雇用均等基本調査は産業別の集計（付属統計表第1表）も公表しています。IT業界が属する<strong>情報通信業の育休取得率は女性94.4%・男性58.1%</strong>（令和6年度）。女性は製造業と並んで全産業トップクラス、男性は金融業・保険業（63.6%）、学術研究・専門技術サービス業（60.7%）に次ぐ高水準で、<strong>男女とも全産業平均を大きく上回ります</strong>。
+              雇用均等基本調査は産業別の集計（令和7年度は付属統計表第12表）も公表しています。IT業界が属する<strong>情報通信業の育休取得率は女性82.6%・男性51.1%</strong>（令和7年度）。全産業平均（女性88.3%・男性50.9%）と比べると、<strong>女性は約6ポイント下回り、男性はほぼ同じ</strong>です。前年度（令和6年度）は女性94.4%・男性58.1%で男女とも全産業平均を上回っていたため、女性は1年で全産業平均との上下が入れ替わりました。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
@@ -307,48 +312,66 @@ export default function ArticlePage() {
               <thead>
                 <tr style={{ backgroundColor: "#efe3d8" }}>
                   <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>産業</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>女性</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>男性</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>女性（令和7年度）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>男性（令和7年度）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>女性（令和6年度）</th>
+                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>男性（令和6年度）</th>
                 </tr>
               </thead>
               <tbody className="text-text-light">
                 <tr style={{ backgroundColor: "#efe3d8" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>情報通信業（IT業界）</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>82.6%</td>
+                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>51.1%</td>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>94.4%</td>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>58.1%</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>全産業（総数）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>88.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>50.9%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>86.6%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>40.5%</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>金融業・保険業</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>99.1%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>62.3%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>98.8%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>63.6%</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>学術研究・専門・技術サービス業</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>92.3%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>66.9%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>93.8%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>60.7%</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>製造業</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>89.1%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>55.9%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>94.4%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>48.7%</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>医療・福祉</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>87.8%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>55.9%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>90.9%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>49.7%</td>
                 </tr>
                 <tr style={{ backgroundColor: "#fff" }}>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>卸売業・小売業</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>82.8%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>44.9%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>83.1%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>29.9%</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>宿泊業・飲食サービス業</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>77.1%</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>45.0%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>57.3%</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>33.3%</td>
                 </tr>
@@ -356,7 +379,7 @@ export default function ArticlePage() {
             </table>
           </div>
           <p className="text-text-light text-sm mt-3">
-            出典: 厚生労働省「令和6年度雇用均等基本調査」付属統計表第1表「育児休業者割合（産業別）」（2026年6月参照）。産業別の値は事業所調査のサンプルに基づくため、年度間の振れが大きい点に注意。
+            出典: 厚生労働省「令和7年度雇用均等基本調査」付属統計表第12表「育児休業者割合」（2026年10月31日確認）、「令和6年度雇用均等基本調査」付属統計表第1表（2026年6月参照）。小数第2位を四捨五入。産業別の値は事業所調査のサンプルに基づくため、年度間の振れが大きい点に注意。
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
@@ -459,7 +482,7 @@ export default function ArticlePage() {
           </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
-              ここから読み取れるのは、<strong>大手IT企業の公開値は産業別統計（女性94.4%・男性58.1%）よりさらに高い水準</strong>にあるということです。特に復職率97〜100%という公開値は「育休を取ったら戻れない」という不安が大手では既に過去のものになりつつあることを示します。一方で、こうした数値を公開しているのは体力のある企業に偏るため、<strong>非公開の企業ほど面接前の確認が重要</strong>になります。制度が充実した企業の選び方は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の記事</a>にまとめています。
+              ここから読み取れるのは、<strong>大手IT企業の公開値は産業別統計（令和7年度 女性82.6%・男性51.1%）よりさらに高い水準</strong>にあるということです。特に復職率97〜100%という公開値は「育休を取ったら戻れない」という不安が大手では既に過去のものになりつつあることを示します。一方で、こうした数値を公開しているのは体力のある企業に偏るため、<strong>非公開の企業ほど面接前の確認が重要</strong>になります。制度が充実した企業の選び方は<a href="/articles/women-friendly-companies/" className="underline" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の記事</a>にまとめています。
             </p>
           </div>
         </div>
@@ -565,13 +588,13 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>2. 「取得率」と「取得期間」はセットで見る</h3>
               <p className="text-sm text-text-light">
-                男性取得率40.5%（全産業）の内実は、約4割が2週間未満の短期取得です（出典: 厚生労働省「令和6年度雇用均等基本調査」）。「男性育休取得率が高い＝家庭と両立しやすい職場」とは限らないため、NTTデータの「平均取得日数100.3日」のように<strong>平均取得日数まで公開している企業</strong>はより信頼度の高いシグナルと読めます。
+                男性取得率50.9%（全産業）の内実を見ると、約2割（20.8%）が2週間未満の短期取得です（出典: 厚生労働省「令和7年度雇用均等基本調査」付属統計表第16表）。「男性育休取得率が高い＝家庭と両立しやすい職場」とは限らないため、NTTデータの「平均取得日数100.3日」のように<strong>平均取得日数まで公開している企業</strong>はより信頼度の高いシグナルと読めます。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>3. 産業別の数値は年度間の振れが大きい</h3>
               <p className="text-sm text-text-light">
-                雇用均等基本調査の産業別データは事業所のサンプル調査のため、年度によって数値が大きく動きます。情報通信業の女性94.4%・男性58.1%も「単年の調査値」であり、毎年この水準が保証されるものではありません。傾向としては「IT業界は男女とも全産業平均より高い」という読み方に留めるのが正確です。
+                雇用均等基本調査の産業別データは事業所のサンプル調査のため、年度によって数値が大きく動きます。実際に情報通信業は、令和6年度の女性94.4%・男性58.1%から、令和7年度は女性82.6%・男性51.1%に下がりました。「IT業界は取得率が高い」と一律に言うのではなく、<strong>応募先の企業ごとの公開値を確認する</strong>読み方が正確です。
               </p>
             </div>
           </div>
@@ -694,6 +717,7 @@ export default function ArticlePage() {
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">出典・参考資料</h2>
           <ul className="space-y-2 text-sm text-text-light">
+            <li>・出典: 厚生労働省「令和7年度雇用均等基本調査」事業所調査 結果概要・付属統計表第12・13・16表（2026年10月31日確認）— 育児休業取得率 女性88.3%・男性50.9%、情報通信業 女性82.6%・男性51.1%、有期契約労働者 女性74.8%・男性40.4%、男性の2週間未満20.8%</li>
             <li>・出典: 厚生労働省「令和6年度雇用均等基本調査」結果概要・付属統計表（2026年6月参照）— 育児休業取得率 女性86.6%・男性40.5%、年次推移、産業別（情報通信業 女性94.4%・男性58.1%）、規模別、有期契約労働者の取得率、取得期間の分布</li>
             <li>・出典: 国立社会保障・人口問題研究所「第16回出生動向基本調査（結婚と出産に関する全国調査）」（2026年6月参照）— 第1子出産前後の妻の就業継続率69.5%、就業継続者の育休利用79.2%</li>
             <li>・出典: 総務省「令和6年通信利用動向調査」（2026年6月参照）— テレワーク導入率：企業全体47.3%、情報通信業94.3%</li>
