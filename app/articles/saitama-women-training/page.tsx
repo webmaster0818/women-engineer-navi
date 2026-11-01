@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
+  title: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年11月】",
   description:
     "埼玉県の女性のデジタル人材育成講座（女性のデジタル人材育成推進事業）を公式情報をもとに解説。県内在住・県内就業希望の女性が対象（在職中も可）、全講座オンライン・受講料無料。",
   alternates: { canonical: "/articles/saitama-women-training/" },
   openGraph: { images: ["/og-default.png"],
-    title: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
+    title: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年11月】",
     description:
       "埼玉県「女性のデジタル人材育成推進事業」の対象者（県内在住・県内就業希望の女性、在職中も可）、講座内容、費用（受講料無料・通信費のみ自己負担）、申込方法を公式情報をもとに解説。東京都の女性向け事業や教育訓練給付との違いも比較表で整理。",
     url: "https://women-engineer.com/articles/saitama-women-training/",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年10月】",
+  headline: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年11月】",
   datePublished: "2026-07-05",
-  dateModified: "2026-10-29",
+  dateModified: "2026-11-01",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -126,7 +126,7 @@ export default function ArticlePage() {
                 対象者・費用・申込方法と東京都事業・国の制度との違い【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月29日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月1日</p>
           </div>
         </div>
       </section>
@@ -158,7 +158,7 @@ export default function ArticlePage() {
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
             <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年10月29日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で、公式の申込スケジュールには2027年の「2－3月生」（申込期間: 2027年2月1日〜2月11日）までが載っています。11月受講生の申込（2026年10月1日〜10月25日・受講期間: 11月2日〜11月30日）は締め切られました。次の12月受講生は申込期間2026年11月1日〜11月25日・受講期間12月1日〜2027年1月3日です。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で、公式の申込スケジュールには2027年の「2－3月生」（申込期間: 2027年2月1日〜2月11日）までが載っています。11月受講生の申込（2026年10月1日〜10月25日・受講期間: 11月2日〜11月30日）は締め切られました。12月受講生は申込期間2026年11月1日〜11月25日・受講期間12月1日〜2027年1月3日で、いまが申込期間中です（公式の申込スケジュールで2026年11月1日確認。同日時点では、公式のお知らせ欄に12月受講生の受付開始の告知はまだ出ていません）。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>自営型テレワーク講座（新設）:</strong> 8月受講生から視聴可能。基礎・応用講座と同一フォームで申込できます。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>実践講座:</strong> 1期（Officeテクニカル/WEBクリエイター）は2026年8月17日〜9月14日の日程で終了しています。2期（生成AI活用/デジタルデザイン）は2026年11月9日〜12月7日に実施予定で、申込は2026年10月5日〜10月20日（延長後の締切・23時59分）に受け付けられ、締め切られました。2期はZoomの面接（15分）があり、結果は11月2日にメールで通知されます。応募できるのは令和6〜8年度に対象の基礎・応用コースを修了した方で、1期を受講した方も応募できます（2026年10月5日の公式お知らせ）。</span></li>
             </ul>
@@ -451,7 +451,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">申込方法と受講までのステップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              基礎・応用講座と自営型テレワーク講座は、公式サイトの申込フォームから<strong>月ごとの募集</strong>で申し込みます（同一フォーム・令和8年6月1日受付開始、公式の申込スケジュールは2027年の「2－3月生」まで）。例えば12月受講生の申込期間は2026年11月1日〜11月25日、受講期間は12月1日〜2027年1月3日です（2026年10月25日確認）。募集期間中でも定員（各月1,000名）に達し次第締め切られることがあります。
+              基礎・応用講座と自営型テレワーク講座は、公式サイトの申込フォームから<strong>月ごとの募集</strong>で申し込みます（同一フォーム・令和8年6月1日受付開始、公式の申込スケジュールは2027年の「2－3月生」まで）。いま申し込めるのは12月受講生で、申込期間は2026年11月1日〜11月25日、受講期間は12月1日〜2027年1月3日です（2026年11月1日確認）。募集期間中でも定員（各月1,000名）に達し次第締め切られることがあります。
             </p>
           </div>
           <div className="space-y-4">
@@ -472,7 +472,7 @@ export default function ArticlePage() {
             ))}
           </div>
           <p className="text-xs text-text-light mt-4">
-            出典: 公式サイト「お申し込み」ページ（公式サイトにて2026年10月25日確認）。申込期間・定員は変動するため、必ず<a href="https://woman-jobtraining-pref-saitama.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>で最新情報を確認してください。
+            出典: 公式サイト「お申し込み」ページ（公式サイトにて2026年11月1日確認）。申込期間・定員は変動するため、必ず<a href="https://woman-jobtraining-pref-saitama.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式サイト</a>で最新情報を確認してください。
           </p>
         </div>
       </section>
