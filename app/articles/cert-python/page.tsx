@@ -243,6 +243,9 @@ export default function ArticlePage() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs mt-3" style={{ color: "#8a7566" }}>
+            ★の付け方（当サイトの判断基準）：公式が公表している出題範囲・問題数・試験時間・合格率をもとに、編集部が3段階で整理した難易度の目安です。測定値や公式の難易度表示ではありません。
+          </p>
           <p className="text-text-light leading-relaxed mt-4 text-sm">
             合格率が高めなのは、<strong>出題範囲が公式の指定教材から100%出る</strong>ためで、教材をしっかり押さえれば合格を狙えます。「易しすぎて意味がない」のではなく、<strong>最短で土台を固めるのに向いた資格</strong>だと考えると活用しやすい傾向があります。
           </p>

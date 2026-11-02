@@ -279,6 +279,9 @@ export default function ArticlePage() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs mt-3" style={{ color: "#8a7566" }}>
+            ★の付け方（当サイトの判断基準）：求人サイトで見られる未経験可求人の多さと、その分野で前提として求められる知識の量をもとに、編集部が3段階で整理した目安です。測定値ではありません。
+          </p>
           <div className="space-y-4 text-text-light leading-relaxed mt-6">
             <p>
               ポイントは、<strong>「入りやすい分野」と「年収が高い分野」が異なる</strong>こと。未経験からはWeb開発・業務自動化で実務経験を作り、働きながらデータ分析→AIへとスキルを寄せていくのが、遠回りに見えて確実なルートです。

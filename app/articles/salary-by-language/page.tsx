@@ -378,6 +378,9 @@ export default function ArticlePage() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs mt-3" style={{ color: "#8a7566" }}>
+            ★の付け方（当サイトの判断基準）：文法の習得しやすさと、未経験可求人の多さをもとに、編集部が5段階で整理した学びやすさの目安です。測定値ではありません。
+          </p>
           <div className="rounded-xl border p-6 mt-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <p className="text-sm text-text-light leading-relaxed">
               <strong style={{ color: "#7c3a55" }}>未経験の王道ルート：</strong>PythonまたはRubyで基礎＋ポートフォリオ → 求人の多い言語で実務経験を1〜2年 → GoやTypeScript、AIスキルを足して年収アップ。最初の1社に入る入りやすさと、その後の年収の伸びしろの<strong>両方</strong>を意識すると失敗しません。
