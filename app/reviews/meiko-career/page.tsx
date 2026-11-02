@@ -155,6 +155,20 @@ export default function MeikoCareerReviewPage() {
                 ))}
               </div>
             </div>
+            <div className="mt-6 pt-5 border-t" style={{ borderColor: "#e4d6c8" }}>
+              <p className="text-xs font-bold mb-2" style={{ color: "#7c3a55" }}>評価の付け方（当サイトの判断基準）</p>
+              <p className="text-xs leading-relaxed mb-2" style={{ color: "#8a7566" }}>
+                各項目は、下記を公式サイトで確認して編集部が5段階で付けています。総合評価は各項目を総合した編集部の判断で、利用者アンケートや当サイトの利用実績にもとづく数値ではありません。広告・提携の有無は評価に反映していません。
+              </p>
+              <ul className="text-xs leading-relaxed list-disc list-inside" style={{ color: "#8a7566" }}><li>IT実務求人の専門性：公式の求人にITの実務職（開発・インフラ等）が含まれるか</li><li>ハイキャリア領域の専門性：公式が公開しているコンサル・管理職などの取扱領域</li><li>学習・選考対策サポート：公式に記載のある学習支援と選考対策の範囲</li><li>実績・情報の公開度：公式が実績値や料金・条件をどこまで公開しているか</li><li>女性への配慮：公式に記載のある女性専任の担当・産育休や時短求人の扱い</li></ul>
+            </div>
+            <div className="mt-6 pt-5 border-t" style={{ borderColor: "#e4d6c8" }}>
+              <p className="text-xs font-bold mb-2" style={{ color: "#7c3a55" }}>評価の付け方（当サイトの判断基準）</p>
+              <p className="text-xs leading-relaxed mb-2" style={{ color: "#8a7566" }}>
+                各項目は、下記を公式サイトで確認して編集部が5段階で付けています。総合評価は各項目を総合した編集部の判断で、利用者アンケートや当サイトの利用実績にもとづく数値ではありません。広告・提携の有無は評価に反映していません。
+              </p>
+              <ul className="text-xs leading-relaxed list-disc list-inside" style={{ color: "#8a7566" }}><li>IT実務求人の専門性：公式の求人にITの実務職（開発・インフラ等）が含まれるか</li><li>ハイキャリア領域の専門性：公式が公開しているコンサル・管理職などの取扱領域</li><li>学習・選考対策サポート：公式に記載のある学習支援と選考対策の範囲</li><li>実績・情報の公開度：公式が実績値や料金・条件をどこまで公開しているか</li><li>女性への配慮：公式に記載のある女性専任の担当・産育休や時短求人の扱い</li></ul>
+            </div>
             <p className="text-xs text-text-light mt-4">
               ※「IT実務求人の専門性」が低いのは欠点というより対象領域の違いです。M&A・コンサル領域の支援品質を示すものではありません。
             </p>

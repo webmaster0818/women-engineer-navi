@@ -196,6 +196,13 @@ export default function TypeWomanReviewPage() {
                 ))}
               </div>
             </div>
+            <div className="mt-6 pt-5 border-t" style={{ borderColor: "#e4d6c8" }}>
+              <p className="text-xs font-bold mb-2" style={{ color: "#7c3a55" }}>評価の付け方（当サイトの判断基準）</p>
+              <p className="text-xs leading-relaxed mb-2" style={{ color: "#8a7566" }}>
+                各項目は、下記を公式サイトで確認して編集部が5段階で付けています。総合評価は各項目を総合した編集部の判断で、利用者アンケートや当サイトの利用実績にもとづく数値ではありません。広告・提携の有無は評価に反映していません。
+              </p>
+              <ul className="text-xs leading-relaxed list-disc list-inside" style={{ color: "#8a7566" }}><li>女性への配慮：公式に記載のある女性専任の担当・産育休や時短求人の扱い</li><li>サポート体制：公式に記載のある面談・書類添削・面接対策の範囲</li><li>IT求人の充実度：公式のIT・エンジニア職の求人件数と職種の幅</li><li>面接対策：公式に記載のある面接練習・フィードバックの範囲</li><li>カウンセリング：公式に記載のあるカウンセリングの時間と進め方</li></ul>
+            </div>
           </div>
         </div>
       </section>
