@@ -277,6 +277,9 @@ export default function MeikoCareerReviewPage() {
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">明光キャリアパートナーズの口コミ・評判</h2>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            当サイトは、出典を示せない口コミの本文を掲載していません。ここに載せているのは、公式サイトで確認できた利用者の声（出典つき）と、公式情報から編集部が整理した注意点です。第三者の投稿は下記の口コミサイトでご確認ください。
+          </p>
           <p className="text-xs text-text-light mb-8">
             ※明光キャリアパートナーズ本体（STRATEGY CAREER）について、公式サイトに利用者の声のまとまった掲載は確認できませんでした（2026年7月時点）。以下は、グループのコーチングサービス「Reverse」公式サイトの「お客様体験談」に掲載されているインタビューを要約・再構成したものです。ReverseはSTRATEGY CAREER本体（人材紹介）とは別のコーチングサービスであり、いずれも公式発信の内容（氏名は原文でも仮名）です。出典元の原文とは異なります。
           </p>

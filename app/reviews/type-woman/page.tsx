@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "type女性の転職エージェントの口コミ・評判｜女性エンジニアへの対応は？",
   description:
-    "type女性の転職エージェントを女性エンジニア目線で徹底レビュー。女性特化・年間15,000名以上のカウンセリング実績（2024年）など、リアルな口コミと評判を紹介。",
+    "type女性の転職エージェントを女性エンジニア目線で検証。女性特化・年間15,000名以上のカウンセリング実績（2024年）など、公式サイトで確認できる情報をもとに解説します。",
   keywords:
     "type女性の転職エージェント 口コミ, type女性の転職エージェント 評判, type 女性 エンジニア",
   alternates: { canonical: "/reviews/type-woman/" },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title:
       "type女性の転職エージェントの口コミ・評判｜女性エンジニアへの対応は？",
     description:
-      "type女性の転職エージェントを女性エンジニア目線で徹底レビュー。女性特化の手厚いサポートなど、リアルな口コミと評判を紹介。",
+      "type女性の転職エージェントを女性エンジニア目線で検証。女性特化の手厚いサポートなど、公式サイトで確認できる情報をもとに解説します。",
     url: "https://women-engineer.com/reviews/type-woman/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -40,7 +40,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "type女性の転職エージェントを女性エンジニア目線で徹底レビュー。女性特化・年間15,000名以上のカウンセリング実績（2024年）。",
+    "type女性の転職エージェントを女性エンジニア目線で検証。女性特化・年間15,000名以上のカウンセリング実績（2024年）。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/reviews/type-woman/",
@@ -570,6 +570,20 @@ export default function TypeWomanReviewPage() {
           </div>
         </div>
       </div>
+
+      {/* 口コミ・評判について */}
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-2">type女性の転職エージェントの口コミ・評判について</h2>
+          <p className="text-sm text-text-light leading-relaxed mb-4">
+            当サイトは、出典を示せない口コミの本文を掲載していません。地域や年代を差し替えた体験談も作成していません。そのため、このページで載せているのは
+            <strong>公式サイトで確認できた事実（確認日つき）</strong>と、そこから編集部が整理した注意点だけです。
+          </p>
+          <p className="text-sm text-text-light leading-relaxed">
+            利用者の投稿そのものを読みたい場合は、みん評などの口コミサイトでご確認ください。担当者との相性やサポートの実感は人によって差が大きいため、無料登録後の面談で確かめるのが確実です。
+          </p>
+        </div>
+      </section>
 
       {/* FAQ */}
       <section className="py-10">

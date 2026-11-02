@@ -358,7 +358,7 @@ export default function ArticlePage() {
         <div className="bg-[#f0e7dd] border border-[#d9c7b8] rounded-lg p-5 my-8">
           <h3 className="text-base font-bold text-[#7c3a55] mb-3">関連記事</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            <Link href="/reviews/techgo/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} テックゴーの口コミ・評判｜徹底レビュー</Link>
+            <Link href="/reviews/techgo/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} テックゴーの口コミ・評判を検証</Link>
             <Link href="/reviews/levtech/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} レバテックキャリアの口コミ・評判</Link>
             <Link href="/articles/techgo-career-mendan/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} テックゴーの無料キャリア面談とは</Link>
             <Link href="/articles/negotiation/" className="text-sm text-gray-700 hover:text-[#7c3a55] transition-colors">{"→"} 年収交渉のやり方ガイド</Link>

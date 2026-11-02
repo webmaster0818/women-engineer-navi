@@ -5,13 +5,13 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ReWorks(リワークス)の口コミ・評判｜フルリモート×女性エンジニア",
   description:
-    "ReWorks(リワークス)を女性エンジニア目線で徹底レビュー。フルリモート特化・女性向けサポート・SE/エンジニア求人豊富・キャリア相談無料など、リアルな口コミと評判を紹介。",
+    "ReWorks(リワークス)を女性エンジニア目線で検証。フルリモート特化・女性向けサポート・SE/エンジニア求人豊富・キャリア相談無料など、公式サイトで確認できる情報をもとに解説します。",
   keywords:
     "ReWorks 口コミ, リワークス 評判, ReWorks 女性, リワークス エンジニア フルリモート",
   alternates: { canonical: "/reviews/reworks/" },
   openGraph: { images: ["/og-default.png"],
     title: "ReWorks(リワークス)の口コミ・評判｜フルリモート×女性エンジニア",
-    description: "ReWorks(リワークス)を女性エンジニア目線で徹底レビュー。フルリモート特化の実力を検証。",
+    description: "ReWorks(リワークス)を女性エンジニア目線で検証。フルリモート特化の実力を検証。",
     url: "https://women-engineer.com/reviews/reworks/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -27,7 +27,7 @@ const structuredData = {
   dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
-  description: "ReWorks(リワークス)を女性エンジニア目線で徹底レビュー。フルリモート特化の実力を検証。",
+  description: "ReWorks(リワークス)を女性エンジニア目線で検証。フルリモート特化の実力を検証。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/reworks/" },
 };
 
@@ -245,6 +245,9 @@ export default function ReworksReviewPage() {
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">ReWorksの口コミ・評判</h2>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            当サイトは、出典を示せない口コミの本文を掲載していません。ここに載せているのは、公式サイトで確認できた利用者の声（出典つき）と、公式情報から編集部が整理した注意点です。第三者の投稿は下記の口コミサイトでご確認ください。
+          </p>
           <p className="text-xs text-text-light mb-8">
             ※当セクションは、公式サイトの公開情報と当ページに掲載している確認済みの事実のみに基づいて構成しています。実在を確認できない体験談は掲載していません。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>

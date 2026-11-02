@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Geekly(ギークリー)の口コミ・評判｜女性ITエンジニアの転職実績",
   description:
-    "Geekly(ギークリー)を女性エンジニア目線で徹底レビュー。IT特化・独占求人3万件以上・マッチング精度の高さなど、リアルな口コミと評判を紹介。書類通過率UPの実績も解説します。",
+    "Geekly(ギークリー)を女性エンジニア目線で検証。IT特化・独占求人3万件以上・マッチング精度の高さなど、公式サイトで確認できる情報をもとに解説します。書類通過率UPの実績も解説します。",
   keywords:
     "Geekly 口コミ, ギークリー 評判, Geekly 女性, ギークリー エンジニア 転職",
   alternates: { canonical: "/reviews/geekly/" },
   openGraph: { images: ["/og-default.png"],
     title: "Geekly(ギークリー)の口コミ・評判｜女性ITエンジニアの転職実績",
     description:
-      "Geekly(ギークリー)を女性エンジニア目線で徹底レビュー。IT特化・独占求人3万件以上・マッチング精度の高さなど、リアルな口コミを紹介。",
+      "Geekly(ギークリー)を女性エンジニア目線で検証。IT特化・独占求人3万件以上・マッチング精度の高さなど、公式サイトで確認できる情報をもとに解説します。",
     url: "https://women-engineer.com/reviews/geekly/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -37,7 +37,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "Geekly(ギークリー)を女性エンジニア目線で徹底レビュー。IT特化・独占求人3万件以上・マッチング精度の高さを解説。",
+    "Geekly(ギークリー)を女性エンジニア目線で検証。IT特化・独占求人3万件以上・マッチング精度の高さを解説。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/reviews/geekly/",
@@ -282,6 +282,9 @@ export default function GeeklyReviewPage() {
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">Geeklyの口コミ・評判</h2>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            当サイトは、出典を示せない口コミの本文を掲載していません。ここに載せているのは、公式サイトで確認できた利用者の声（出典つき）と、公式情報から編集部が整理した注意点です。第三者の投稿は下記の口コミサイトでご確認ください。
+          </p>
           <p className="text-xs text-text-light mb-8">
             ※以下はGeekly公式サイト「転職成功事例・お客様の声」ページに掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。公式サイトでの発信である点に留意してください。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>

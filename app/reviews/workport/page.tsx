@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ワークポートの口コミ・評判｜女性ITエンジニア育成事業受託の実力",
   description:
-    "ワークポートを女性エンジニア目線で徹底レビュー。IT特化+全国47拠点・東京都女性ITエンジニア育成事業受託・未経験OKなど、リアルな口コミと評判を紹介。",
+    "ワークポートを女性エンジニア目線で検証。IT特化+全国47拠点・東京都女性ITエンジニア育成事業受託・未経験OKなど、公式サイトで確認できる情報をもとに解説します。",
   keywords:
     "ワークポート 口コミ, ワークポート 評判, ワークポート 女性, ワークポート エンジニア 未経験",
   alternates: { canonical: "/reviews/workport/" },
   openGraph: { images: ["/og-default.png"],
     title: "ワークポートの口コミ・評判｜女性ITエンジニア育成事業受託の実力",
     description:
-      "ワークポートを女性エンジニア目線で徹底レビュー。IT特化+全国47拠点・東京都女性ITエンジニア育成事業受託の実力を検証。",
+      "ワークポートを女性エンジニア目線で検証。IT特化+全国47拠点・東京都女性ITエンジニア育成事業受託の実力を検証。",
     url: "https://women-engineer.com/reviews/workport/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -28,7 +28,7 @@ const structuredData = {
   dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
-  description: "ワークポートを女性エンジニア目線で徹底レビュー。IT特化+全国47拠点・未経験OKの実力を検証。",
+  description: "ワークポートを女性エンジニア目線で検証。IT特化+全国47拠点・未経験OKの実力を検証。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/workport/" },
 };
 
@@ -243,6 +243,9 @@ export default function WorkportReviewPage() {
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">ワークポートの口コミ・評判</h2>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            当サイトは、出典を示せない口コミの本文を掲載していません。ここに載せているのは、公式サイトで確認できた利用者の声（出典つき）と、公式情報から編集部が整理した注意点です。第三者の投稿は下記の口コミサイトでご確認ください。
+          </p>
           <p className="text-xs text-text-light mb-8">
             ※以下はワークポート公式サイト「利用者のクチコミ」に掲載されている転職決定者の声を要約・再構成したものです（2026年7月参照・公式発信の内容）。出典元の原文とは異なります。利用者の属性（年齢・性別・決定職種）は出典の記載に基づきます。掲載内容は入れ替わる場合があります。
           </p>

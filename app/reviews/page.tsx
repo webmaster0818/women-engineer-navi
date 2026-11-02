@@ -5,12 +5,12 @@ import Breadcrumb from "../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "転職エージェント・サービスレビュー一覧｜女性エンジニア目線で検証",
   description:
-    "女性エンジニア目線で検証した転職エージェント・転職サービスのレビュー一覧。IT特化型・女性特化型・総合型・ハイキャリア型まで、公式確認済みの情報と出典付きの口コミで比較できます。",
+    "女性エンジニア目線で検証した転職エージェント・転職サービスのレビュー一覧。IT特化型・女性特化型・総合型・ハイキャリア型まで、各社の公式サイトで確認した情報（確認日つき）と、公式に公開されている実績値で比較できます。出典を示せない口コミの本文は掲載していません。",
   alternates: { canonical: "/reviews/" },
   openGraph: { images: ["/og-default.png"],
     title: "転職エージェント・サービスレビュー一覧｜女性エンジニア目線で検証",
     description:
-      "女性エンジニア目線で検証した転職エージェント・サービスのレビュー一覧。公式確認済みの情報と出典付きの口コミで比較。",
+      "女性エンジニア目線で検証した転職エージェント・サービスのレビュー一覧。各社の公式サイトで確認した情報と公開実績値で比較。出典のない口コミは掲載していません。",
     url: "https://women-engineer.com/reviews/",
     type: "website",
     siteName: "CareeHUB for woman",
@@ -65,6 +65,8 @@ export default function ReviewsIndexPage() {
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">転職エージェント・サービスレビュー一覧</h1>
             <p className="mt-4 text-text-light max-w-2xl">
               女性エンジニア目線で検証したレビューの一覧です。掲載情報は各社公式サイトで確認した内容に基づき、口コミはすべて出典リンク付きの実在ソースのみを掲載しています（架空の口コミはありません）。
+            
+              当サイトは、出典を示せない口コミの本文を掲載していません。各ページに載せているのは、公式サイトで確認した事実（確認日つき）と、そこから編集部が整理した注意点です。
             </p>
           </div>
         </div>

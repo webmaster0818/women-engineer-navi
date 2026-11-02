@@ -5,13 +5,13 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "リクルートエージェントの口コミ・評判｜女性ITエンジニアの求人数は？",
   description:
-    "リクルートエージェントを女性エンジニア目線で徹底レビュー。非公開含む約100万件（2026年6月時点）の求人・IT求人多数など、リアルな口コミと評判を紹介。",
+    "リクルートエージェントを女性エンジニア目線で検証。非公開含む約100万件（2026年6月時点）の求人・IT求人多数など、公式サイトで確認できる情報をもとに解説します。",
   keywords:
     "リクルートエージェント 口コミ, リクルートエージェント 評判, リクルートエージェント 女性, リクルートエージェント エンジニア",
   alternates: { canonical: "/reviews/recruit-agent/" },
   openGraph: { images: ["/og-default.png"],
     title: "リクルートエージェントの口コミ・評判｜女性ITエンジニアの求人数は？",
-    description: "リクルートエージェントを女性エンジニア目線で徹底レビュー。非公開含む約100万件（2026年6月時点）の求人の実力を検証。",
+    description: "リクルートエージェントを女性エンジニア目線で検証。非公開含む約100万件（2026年6月時点）の求人の実力を検証。",
     url: "https://women-engineer.com/reviews/recruit-agent/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -27,7 +27,7 @@ const structuredData = {
   dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
-  description: "リクルートエージェントを女性エンジニア目線で徹底レビュー。非公開含む約100万件（2026年6月時点）の求人の実力を検証。",
+  description: "リクルートエージェントを女性エンジニア目線で検証。非公開含む約100万件（2026年6月時点）の求人の実力を検証。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/recruit-agent/" },
 };
 
@@ -245,6 +245,9 @@ export default function RecruitAgentReviewPage() {
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">リクルートエージェントの口コミ・評判</h2>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            当サイトは、出典を示せない口コミの本文を掲載していません。ここに載せているのは、公式サイトで確認できた利用者の声（出典つき）と、公式情報から編集部が整理した注意点です。第三者の投稿は下記の口コミサイトでご確認ください。
+          </p>
           <p className="text-xs text-text-light mb-8">
             ※以下はリクルートエージェント公式サイト（トップページ）に掲載されている「ご利用者の声」を要約・再構成したものです。出典元の原文とは異なります。利用者の属性は出典に記載されている範囲（年齢・職種）のみを記載しており、性別の記載は出典にありません。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>

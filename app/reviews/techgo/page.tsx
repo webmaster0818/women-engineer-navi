@@ -274,6 +274,9 @@ export default function TechgoReviewPage() {
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">テックゴーの口コミ・評判</h2>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            当サイトは、出典を示せない口コミの本文を掲載していません。ここに載せているのは、公式サイトで確認できた利用者の声（出典つき）と、公式情報から編集部が整理した注意点です。第三者の投稿は下記の口コミサイトでご確認ください。
+          </p>
           <p className="text-xs text-text-light mb-8">
             ※以下はテックゴー公式サイト「ご利用者の声」に掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。掲載は2026年10月17日に公式サイトで再確認したものであり、変更される場合があります。
           </p>

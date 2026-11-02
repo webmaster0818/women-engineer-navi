@@ -5,12 +5,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Greenの口コミ・評判｜女性エンジニアのカジュアル転職に最適？",
   description:
-    "Green（グリーン）を女性エンジニア目線で徹底レビュー。IT特化転職サイト・カジュアル面談・スタートアップ/ベンチャー豊富・スカウト型など、リアルな口コミと評判を紹介。",
+    "Green（グリーン）を女性エンジニア目線で検証。IT特化転職サイト・カジュアル面談・スタートアップ/ベンチャー豊富・スカウト型など、公式サイトで確認できる情報をもとに解説します。",
   keywords: "Green 口コミ, グリーン 評判, Green 女性, Green エンジニア 転職",
   alternates: { canonical: "/reviews/green/" },
   openGraph: { images: ["/og-default.png"],
     title: "Greenの口コミ・評判｜女性エンジニアのカジュアル転職に最適？",
-    description: "Green（グリーン）を女性エンジニア目線で徹底レビュー。カジュアル面談・スカウト型の実力を検証。",
+    description: "Green（グリーン）を女性エンジニア目線で検証。カジュアル面談・スカウト型の実力を検証。",
     url: "https://women-engineer.com/reviews/green/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -26,7 +26,7 @@ const structuredData = {
   dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
-  description: "Green（グリーン）を女性エンジニア目線で徹底レビュー。カジュアル面談・スカウト型の実力を検証。",
+  description: "Green（グリーン）を女性エンジニア目線で検証。カジュアル面談・スカウト型の実力を検証。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/green/" },
 };
 
@@ -244,6 +244,9 @@ export default function GreenReviewPage() {
       <section className="py-10">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-2">Greenの口コミ・評判</h2>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            当サイトは、出典を示せない口コミの本文を掲載していません。ここに載せているのは、公式サイトで確認できた利用者の声（出典つき）と、公式情報から編集部が整理した注意点です。第三者の投稿は下記の口コミサイトでご確認ください。
+          </p>
           <p className="text-xs text-text-light mb-8">
             ※当セクションはGreen公式サイトの公開情報に基づく編集部の解説です。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>

@@ -5,12 +5,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "dodaの口コミ・評判｜女性エンジニアの転職にdodaは使える？",
   description:
-    "dodaを女性エンジニア目線で徹底レビュー。総合型・求人数業界2位・Women's Career運営・エンジニア求人も充実など、リアルな口コミと評判を紹介。",
+    "dodaを女性エンジニア目線で検証。総合型・求人数業界2位・Women's Career運営・エンジニア求人も充実など、公式サイトで確認できる情報をもとに解説します。",
   keywords: "doda 口コミ, doda 評判, doda 女性, doda エンジニア 転職",
   alternates: { canonical: "/reviews/doda/" },
   openGraph: { images: ["/og-default.png"],
     title: "dodaの口コミ・評判｜女性エンジニアの転職にdodaは使える？",
-    description: "dodaを女性エンジニア目線で徹底レビュー。求人数業界2位・Women's Career運営の実力を検証。",
+    description: "dodaを女性エンジニア目線で検証。求人数業界2位・Women's Career運営の実力を検証。",
     url: "https://women-engineer.com/reviews/doda/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -26,7 +26,7 @@ const structuredData = {
   dateModified: "2026-07-17",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
-  description: "dodaを女性エンジニア目線で徹底レビュー。求人数業界2位・Women's Career運営の実力を検証。",
+  description: "dodaを女性エンジニア目線で検証。求人数業界2位・Women's Career運営の実力を検証。",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://women-engineer.com/reviews/doda/" },
 };
 

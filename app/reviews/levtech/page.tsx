@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   title:
     "レバテックキャリアの口コミ・評判｜女性エンジニアの転職に使える？",
   description:
-    "レバテックキャリアを女性エンジニア目線で徹底レビュー。IT特化・求人約58,000件（2026年7月時点）・年収70万UP実績など、リアルな口コミと評判を紹介。産休育休やリモートワーク対応の求人情報も詳しく解説します。",
+    "レバテックキャリアを女性エンジニア目線で検証。IT特化・求人約58,000件（2026年7月時点）・年収70万UP実績など、公式サイトで確認できる情報をもとに解説します。産休育休やリモートワーク対応の求人情報も詳しく解説します。",
   keywords:
     "レバテックキャリア 口コミ, レバテックキャリア 評判, レバテックキャリア 女性, レバテックキャリア エンジニア",
   alternates: { canonical: "/reviews/levtech/" },
   openGraph: { images: ["/og-default.png"],
     title: "レバテックキャリアの口コミ・評判｜女性エンジニアの転職に使える？",
     description:
-      "レバテックキャリアを女性エンジニア目線で徹底レビュー。IT特化・求人約58,000件（2026年7月時点）・年収70万UP実績など、リアルな口コミと評判を紹介。",
+      "レバテックキャリアを女性エンジニア目線で検証。IT特化・求人約58,000件（2026年7月時点）・年収70万UP実績など、公式サイトで確認できる情報をもとに解説します。",
     url: "https://women-engineer.com/reviews/levtech/",
     type: "article",
     siteName: "CareeHUB for woman",
@@ -39,7 +39,7 @@ const structuredData = {
     url: "https://women-engineer.com",
   },
   description:
-    "レバテックキャリアを女性エンジニア目線で徹底レビュー。IT特化・求人約58,000件（2026年7月時点）・年収70万UP実績など、リアルな口コミと評判を紹介。",
+    "レバテックキャリアを女性エンジニア目線で検証。IT特化・求人約58,000件（2026年7月時点）・年収70万UP実績など、公式サイトで確認できる情報をもとに解説します。",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://women-engineer.com/reviews/levtech/",
@@ -643,6 +643,20 @@ export default function LevtechReviewPage() {
           </div>
         </div>
       </div>
+
+      {/* 口コミ・評判について */}
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-2">レバテックキャリアの口コミ・評判について</h2>
+          <p className="text-sm text-text-light leading-relaxed mb-4">
+            当サイトは、出典を示せない口コミの本文を掲載していません。地域や年代を差し替えた体験談も作成していません。そのため、このページで載せているのは
+            <strong>公式サイトで確認できた事実（確認日つき）</strong>と、そこから編集部が整理した注意点だけです。
+          </p>
+          <p className="text-sm text-text-light leading-relaxed">
+            利用者の投稿そのものを読みたい場合は、みん評などの口コミサイトでご確認ください。担当者との相性やサポートの実感は人によって差が大きいため、無料登録後の面談で確かめるのが確実です。
+          </p>
+        </div>
+      </section>
 
       {/* FAQ */}
       <section className="py-10">
