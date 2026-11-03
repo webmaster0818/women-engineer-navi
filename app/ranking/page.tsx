@@ -1251,7 +1251,7 @@ export default function RankingPage() {
                 20代は技術スキルを幅広く身につけるチャンスの時期です。
                 未経験からのキャリアチェンジも20代なら選択肢が豊富です。
                 ワークポートの無料プログラミングスクール「みんスク」や、
-                レバテックキャリアでの年収アップ転職を検討してんでください。
+                レバテックキャリアでの年収アップ転職を検討してみてください。
                 将来のライフイベントを見据えて、産休育休制度が整った企業を選ぶのも賢い選択です。
               </p>
             </div>
@@ -1458,7 +1458,7 @@ export default function RankingPage() {
               </h3>
               <p className="text-sm leading-relaxed text-text-light">
                 すべてのエージェントが完全無料で利用できます。転職しなくても料金は一切発生しません。
-                まずは気になるエージェントに登録して、キャリアアドバイザーに相談してみることから始めてんでください。
+                まずは気になるエージェントに登録して、キャリアアドバイザーに相談してみることから始めてみてください。
                 あなたらしいキャリアを、IT業界で実現するための第一歩を応援しています。
               </p>
             </div>
@@ -1475,7 +1475,7 @@ export default function RankingPage() {
           <p className="mt-4 text-sm text-text-light">
             女性エンジニアの転職に強い9社を厳選比較。
             <br />
-            まずは気になるエージェントに無料登録して、キャリア相談から始めてんでください。
+            まずは気になるエージェントに無料登録して、キャリア相談から始めてみてください。
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#levtech-career" className="btn-cta text-sm">

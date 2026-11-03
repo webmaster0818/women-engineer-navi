@@ -186,7 +186,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性がJavaで長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              IT人材における女性比率はまだ2割程度とされますが、Javaが活躍する金融・大手SIer・自社開発企業は制度が整っている企業が多く、女性が長くキャリアを築きやすい環境がそろっています。Javaならではの「働きやすさ」を4つの観点で見てんでください。
+              IT人材における女性比率はまだ2割程度とされますが、Javaが活躍する金融・大手SIer・自社開発企業は制度が整っている企業が多く、女性が長くキャリアを築きやすい環境がそろっています。Javaならではの「働きやすさ」を4つの観点で見てみてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">

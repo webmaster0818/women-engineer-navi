@@ -360,7 +360,7 @@ export default function ArticlePage() {
                 <span className="inline-block rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#7c3a55" }}>地域・社内</span>
               </div>
               <p className="text-sm text-text-light leading-relaxed">
-                東京都は<strong>「育業中スキルアップ助成金」</strong>で育休中の社員の学び直しを後押しする企業を支援するなど、自治体独自の制度もあります。また、日本リスキリングコンソーシアムでは多数のデジタル講座が無料・割引で提供されています。<strong>勤務先の資格手当・受講費補助・育休中eラーニング</strong>など社内制度も要チェック。まずは人事に確認してんでください。
+                東京都は<strong>「育業中スキルアップ助成金」</strong>で育休中の社員の学び直しを後押しする企業を支援するなど、自治体独自の制度もあります。また、日本リスキリングコンソーシアムでは多数のデジタル講座が無料・割引で提供されています。<strong>勤務先の資格手当・受講費補助・育休中eラーニング</strong>など社内制度も要チェック。まずは人事に確認してみてください。
               </p>
             </div>
           </div>

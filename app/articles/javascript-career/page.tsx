@@ -191,7 +191,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">女性がJavaScriptで長く働きやすい理由</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              JavaScript系の職種は、働き方の柔軟性という点で女性がキャリアを継続しやすい条件がそろっています。実データを交えて4つの観点で見てんでください。
+              JavaScript系の職種は、働き方の柔軟性という点で女性がキャリアを継続しやすい条件がそろっています。実データを交えて4つの観点で見てみてください。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 mt-6">

@@ -369,7 +369,7 @@ export default function SierIndustryPage() {
           <h2 className="text-2xl font-bold mb-6">SIerが女性エンジニアに向く面（実データ）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              「大手SIerは制度が手厚い」と言われますが、重要なのはそれが<strong>公式に検証できる実績数値として公開されている</strong>ことです。代表例を見てんでください。
+              「大手SIerは制度が手厚い」と言われますが、重要なのはそれが<strong>公式に検証できる実績数値として公開されている</strong>ことです。代表例を見てみてください。
             </p>
           </div>
           <div className="space-y-6 mt-6">

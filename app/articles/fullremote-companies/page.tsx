@@ -225,7 +225,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">入社前に確認すべきチェックリスト（一覧表）</h2>
           <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              “リモートの本気度”は、次の7項目で総合的に判断します。求人票・面接・口コミ・エージェントを使い、<strong>各項目を「数字」または「具体的な制度名」で確認できるか</strong>がカギです。曖昧なまま放置せず、1つずつ潰していいてください。
+              “リモートの本気度”は、次の7項目で総合的に判断します。求人票・面接・口コミ・エージェントを使い、<strong>各項目を「数字」または「具体的な制度名」で確認できるか</strong>がカギです。曖昧なまま放置せず、1つずつ潰していってください。
             </p>
           </div>
           <div className="overflow-x-auto mt-6">
