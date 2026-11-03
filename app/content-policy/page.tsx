@@ -119,8 +119,6 @@ export default function ContentPolicyPage() {
                 <li>厚生労働省、経済産業省等の公的機関のデータ・統計</li>
                 <li>IPA（情報処理推進機構）等の業界団体の調査報告書</li>
                 <li>信頼性の高い民間調査会社のレポート</li>
-                <li>IT業界で働く女性エンジニアへのヒアリング・アンケート</li>
-                <li>編集部メンバーの実体験・業界知識</li>
               </ul>
             </div>
 
