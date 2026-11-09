@@ -23,7 +23,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性デジタルカレッジ事業の口コミ・評判は？対象者・費用・申込方法【2026年度】",
   datePublished: "2026-07-04",
-  dateModified: "2026-11-08",
+  dateModified: "2026-11-09",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -127,7 +127,7 @@ export default function ArticlePage() {
                 対象者・費用・申込方法と女性ITエンジニア育成事業との違い【2026年度】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年11月8日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月9日</p>
           </div>
         </div>
       </section>
@@ -152,12 +152,12 @@ export default function ArticlePage() {
               </li>
             </ul>
             <p className="text-xs text-text-light mt-4">
-              出典: <a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジ事業 公式サイト</a>（各コース案内・Q&amp;A・新着情報、2026年11月8日確認）／<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/jyosei_digital/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>（2026年7月参照）
+              出典: <a href="https://tokyo-woman-d.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジ事業 公式サイト</a>（各コース案内・Q&amp;A・新着情報、2026年11月9日確認）／<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/jyosei_digital/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>（2026年7月参照）
             </p>
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年11月8日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年11月9日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎及び応用コース:</strong> 公式サイトは10月28日付で申込受付期間の延長を告知しています。11月16日開講の足立会場・立川会場は<strong>10月30日（金）で申込受付を終了</strong>しています（延長後の締切）。11月23日開講の<strong>品川会場は11月2日（月）で申込受付を終了</strong>しています。墨田会場（KFCHall＆Rooms・両国駅徒歩7分）は再延長後の<strong>11月5日（木）で申込受付を締め切りました</strong>（公式の新着情報 2026年11月5日）。<strong>11月30日開講の江戸川会場（大原日本語学院・船堀駅徒歩3分）は申込受付中で、締切は11月9日（月）に延長</strong>されました（選考は11月10日。公式の新着情報 2026年11月6日）。<strong>12月7日開講の八王子会場（八王子市学園都市センター・八王子駅北口徒歩3分）も申込受付中で、締切は11月15日（日）</strong>です（公式の新着情報 2026年11月6日）。いずれも各会場の今年度最終募集と案内されています。11月9日開講の練馬会場の申込受付は10月19日で終了しています。公式サイトには「令和9年1月～3月の基礎及び応用コースの訓練開催はありません」とあります。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>公式サイトのメンテナンスは終了:</strong> 10月23日から続いていた公式サイトのメンテナンスについて、10月28日付で「システムメンテナンスは終了いたしました。現在、通常通りご利用いただけます。」と告知されています。問い合わせ先は、基礎及び応用コースが女性デジタルカレッジ事業事務局（TEL 03-3230-2445）、入門コースが同事務局（TEL 03-6261-7524）で、受付時間はいずれも平日9時～17時（土日祝除く）です。</span></li>
