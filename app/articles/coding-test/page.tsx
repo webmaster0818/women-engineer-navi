@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "転職のコーディングテスト対策ガイド｜出題形式・難易度・対策ロードマップ【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-07-07",
+  dateModified: "2026-11-09",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -163,7 +163,7 @@ export default function CodingTestPage() {
               <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. 出題形式の傾向（2026年）</a></li>
               <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 難易度の目安：どこまでやれば足りるか</a></li>
               <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. レベル別・対策ロードマップ</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. 落ちやすいポイントと当日の注意</a></li>
+              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. コーディングテストに落ちる主な原因と当日の注意</a></li>
               <li><a href="#sec-patterns" className="hover:underline" style={{ color: "#7c3a55" }}>7. 頻出パターン別の対策（言語非依存）</a></li>
               <li><a href="#sec-flow" className="hover:underline" style={{ color: "#7c3a55" }}>8. 当日の進め方：受験開始から提出まで</a></li>
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>9. ブランクからの再挑戦という選択肢</a></li>
@@ -372,7 +372,7 @@ export default function CodingTestPage() {
       {/* sec6 落ちやすいポイントと当日の注意 */}
       <section id="sec6" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">落ちやすいポイントと当日の注意</h2>
+          <h2 className="text-2xl font-bold mb-6">コーディングテストに落ちる主な原因と当日の注意</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>実力はあるのにスコアを落とす典型パターンは決まっています。事前に知っておくだけで防げるものばかりです。</p>
           </div>
