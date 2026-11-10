@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "全国の女性向けITリスキリング・訓練支援まとめ【公的制度ハブ・2026年】",
   datePublished: "2026-07-04",
-  dateModified: "2026-10-31",
+  dateModified: "2026-11-10",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -312,7 +312,7 @@ export default function ArticlePage() {
                   <strong>選考の流れ：</strong>公式サイトの「申込から受講開始の流れ」は、①面談の予約 ②説明会のあと申込フォームを入力し、カジュアル面談 ③選考結果を合否にかかわらず全員に後日メールで通知 ④受講開始、の順です。選考があるため、申し込んだ人が全員入校できるわけではありません。
                 </p>
                 <p className="text-sm text-text-light leading-relaxed">
-                  合否の基準や倍率は公式サイトに掲載されていません。応募前に、上の①〜③（学習だけが目的の参加は不可・在職中の正社員は退職日の確定が条件など）に当てはまるかを確認してください。選考に通らなかった場合に無料で学べるほかの制度は、<a href="/articles/training-not-selected/" className="underline" style={{ color: "#7c3a55" }}>育成事業に落ちたときの代替ルート</a>にまとめています（出典: <a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>、2026年10月31日確認）。
+                  合否の基準や倍率は公式サイトに掲載されていません。応募前に、上の①〜③（学習だけが目的の参加は不可・在職中の正社員は退職日の確定が条件など）に当てはまるかを確認してください。選考に通らなかった場合に無料で学べるほかの制度は、<a href="/articles/training-not-selected/" className="underline" style={{ color: "#7c3a55" }}>育成事業に落ちたときの代替ルート</a>にまとめています（出典: <a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>、2026年11月10日確認）。
                 </p>
               </div>
             </div>
