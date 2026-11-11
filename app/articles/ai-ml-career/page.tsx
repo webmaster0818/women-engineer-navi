@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性AI・機械学習エンジニア転職ガイド｜年収・必要スキル・現実的な道筋【2026年】",
   datePublished: "2026-04-28",
-  dateModified: "2026-07-09",
+  dateModified: "2026-11-11",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -131,7 +131,7 @@ export default function ArticlePage() {
               女性AI・機械学習エンジニア転職ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">年収・必要スキル・未経験からの現実的な道筋【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月9日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月11日</p>
           </div>
         </div>
       </section>
@@ -166,8 +166,9 @@ export default function ArticlePage() {
               <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>7. 学習ロードマップ</a></li>
               <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>8. 女性が長く働きやすい理由とキャリアパス</a></li>
               <li><a href="#sec9" className="hover:underline" style={{ color: "#7c3a55" }}>9. おすすめ転職エージェント</a></li>
-              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
-              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>11. 女性がAI・機械学習エンジニアとして働くリアル</a></li>
+              <li><a href="#sec9b" className="hover:underline" style={{ color: "#7c3a55" }}>10. エージェント以外の求人の探し先</a></li>
+              <li><a href="#sec10" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
+              <li><a href="#sec11" className="hover:underline" style={{ color: "#7c3a55" }}>12. 女性がAI・機械学習エンジニアとして働くリアル</a></li>
             </ol>
           </div>
         </div>
@@ -527,6 +528,21 @@ export default function ArticlePage() {
         <p>ビズリーチなどのハイクラス転職サービスも、年収800万円以上のAI・データサイエンス求人を探す際に有効です。スカウト型のサービスを併用することで、自分では見つけられない求人に出会えることもあります。</p>
         <p>女性特化型のtype女性の転職エージェントとの併用も効果的です。技術面と環境面の両方のニーズを満たす企業を見つけるために、2〜3社のエージェントを併用してください。</p>
       </div></div>
+      </section>
+
+      {/* sec9b エージェント以外の求人の探し先 */}
+      <section id="sec9b" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">エージェント以外の求人の探し先</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>エージェントを通さず、自分で求人を見て回りたい場合は、スカウト型のプラットフォームを併用する方法もあります。</p>
+            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
+              <h3 className="text-lg font-bold mb-3">Offers（オファーズ）</h3>
+              <p className="leading-relaxed"><a href="https://offers.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>Offers（オファーズ）</a>は、株式会社overflowが運営するエンジニア・PdM向けの転職プラットフォームです。登録者は40,000人、導入企業数は累計1,000社以上です。スキルや志向性に合ったスカウト・求人の紹介を受けられ、カジュアル面談から転職活動を始められます。職務経歴の整理にはAIを活用した機能も用意されています。</p>
+              <p className="mt-3 text-sm text-text-light">出典：Offers 公式サイト（2026年11月10日確認）</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* sec10 FAQ */}
