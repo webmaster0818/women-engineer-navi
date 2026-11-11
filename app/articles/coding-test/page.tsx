@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "転職のコーディングテスト対策ガイド｜出題形式・難易度・対策ロードマップ【2026年】",
   datePublished: "2026-04-29",
-  dateModified: "2026-11-09",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -76,6 +76,22 @@ const faqData = {
     },
     {
       "@type": "Question",
+      name: "Track TestのWebカメラは必須ですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "企業の設定によって異なります。Webカメラ監視は、対応プランの企業が試験ごとに有効にする機能で、使用を必須にするか任意にするかも別に設定します。任意の試験でカメラを使えない場合は、理由を入力する項目が表示されます。必須の試験ではカメラの準備が必要なため、受験案内で確認してください。クイズ形式の問題、制限時間が180分を超える問題、ローカル受験は監視の対象外です（出典: Trackヘルプセンター、2026年11月11日確認）。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "HireRooの難易度はどのくらいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "問題ごとに難易度があり、企業が採用したいレベルに合わせて選びます。公式ヘルプの推奨例では、中途のWebエンジニア向けがアルゴリズム形式2問（普通・難しい）とAI協働形式、システムデザインまたは選択問題形式の組み合わせで、合計時間は1〜2時間以内です。新卒向けは易しい問題を中心とした組み合わせで45分〜1時間程度です。実際の出題は企業ごとに異なります（出典: HireRooヘルプセンター、2026年11月11日確認）。",
+      },
+    },
+    {
+      "@type": "Question",
       name: "コーディングテストで特に対策すべき頻出パターンは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
@@ -120,7 +136,7 @@ export default function CodingTestPage() {
               転職のコーディングテスト対策ガイド
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">出題形式・難易度・対策ロードマップを実データで解説【2026年】</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月7日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月11日</p>
           </div>
         </div>
       </section>
@@ -166,8 +182,9 @@ export default function CodingTestPage() {
               <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. コーディングテストに落ちる主な原因と当日の注意</a></li>
               <li><a href="#sec-patterns" className="hover:underline" style={{ color: "#7c3a55" }}>7. 頻出パターン別の対策（言語非依存）</a></li>
               <li><a href="#sec-flow" className="hover:underline" style={{ color: "#7c3a55" }}>8. 当日の進め方：受験開始から提出まで</a></li>
-              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>9. ブランクからの再挑戦という選択肢</a></li>
-              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>10. よくある質問</a></li>
+              <li><a href="#sec-services" className="hover:underline" style={{ color: "#7c3a55" }}>9. Track Test・HireRooの受験環境と難易度</a></li>
+              <li><a href="#sec7" className="hover:underline" style={{ color: "#7c3a55" }}>10. ブランクからの再挑戦という選択肢</a></li>
+              <li><a href="#sec8" className="hover:underline" style={{ color: "#7c3a55" }}>11. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -230,7 +247,7 @@ export default function CodingTestPage() {
                 <tr className="bg-white">
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>HireRoo</td>
                   <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>「AI時代のスキル面接」を掲げ、AIツールを使いながら実務に近い課題を解く形式。解答プロセスを全記録・タイムライン再生し、実装力とAI協働力の両方を評価</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>導入200社以上（DMM・freee・GREEなど）</td>
+                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>導入322社（DMM・freee・GREEなど。公式サイトの掲載値、2026年11月11日確認）</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>アルゴリズム実技検定 PAST<br /><span className="font-normal text-xs">（AtCoder）</span></td>
@@ -462,6 +479,37 @@ export default function CodingTestPage() {
         </div>
       </section>
 
+      {/* sec-services サービス別の受験環境 */}
+      <section id="sec-services" className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-2xl font-bold mb-6">Track Test・HireRooの受験環境と難易度</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
+            <p>受験するサービスが分かっている場合は、公式ヘルプの次の項目を事前に確認してください。設定は企業ごとに異なるため、受験案内の記載が優先です。</p>
+            <h3 className="text-lg font-bold text-text">Track TestのWebカメラ</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Webカメラ監視は対応プランの企業が試験ごとに有効にする機能で、必須か任意かも別に設定します。任意の試験でカメラを使えない場合は、理由を入力する項目が表示されます。</li>
+              <li>試験開始時に顔認証があり、問題の開始前に再度カメラの使用を求められます。問題の解答が終わるたびにカメラはオフになります。</li>
+              <li>検知の対象は、なりすまし、受験者の不在、スマートフォンなど外部デバイスの使用、複数人での受験です。</li>
+              <li>クイズ形式の問題、制限時間が180分を超える問題、ローカル受験は監視の対象外です。</li>
+            </ul>
+            <h3 className="text-lg font-bold text-text">Track Testの受験前の確認事項</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>スマートフォンなどモバイルからは受験できません。推奨ブラウザはChrome、Firefox、Safari、Microsoft Edgeの最新版です。</li>
+              <li>試験開始前のページからチュートリアルを試せます。本番と同じ流れと操作方法を確認できます。</li>
+              <li>提出期限までは好きなタイミングで問題を開始できますが、問題を開くと制限時間のカウントが始まり、止められません。</li>
+            </ul>
+            <h3 className="text-lg font-bold text-text">HireRooの難易度と練習方法</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>問題ごとに難易度があり、企業が求めるレベルに合わせて選びます。公式ヘルプの推奨例は、中途のWebエンジニア向けがアルゴリズム形式2問（普通・難しい）、AI協働形式、システムデザインまたは選択問題形式の組み合わせです。</li>
+              <li>合計時間の推奨は、中途採用が1〜2時間以内、新卒のスクリーニングが45分〜1時間程度です。</li>
+              <li>本番の前にデモテストを何回でも受けられます。デモには本番で出題される形式の問題が自動で選ばれます。</li>
+              <li>解答画面のGoogle検索とChatGPTは、企業が許可している場合にのみ表示されます。使用履歴は記録される場合があります。</li>
+            </ul>
+          </div>
+          <p className="text-xs text-text-light mt-3">出典（いずれも2026年11月11日確認）: <a href="https://help.tracks.run/ja/articles/10831614" target="_blank" rel="noopener noreferrer" className="underline">Track「Web カメラ監視機能について」</a>、<a href="https://help.tracks.run/ja/articles/2594450" target="_blank" rel="noopener noreferrer" className="underline">Track「試験を受ける手順」</a>、<a href="https://support.hireroo.io/recruiters/how-to-choose-questions" target="_blank" rel="noopener noreferrer" className="underline">HireRoo「テストの問題選定方法」</a>、<a href="https://support.hireroo.io/candidates/demonstrate-test" target="_blank" rel="noopener noreferrer" className="underline">HireRoo「デモ環境で試す」</a>、<a href="https://support.hireroo.io/candidates/how-to-use-google-search-and-chatgpt-during-the-test" target="_blank" rel="noopener noreferrer" className="underline">HireRoo「解答中にGoogle検索・ChatGPTを使う方法」</a></p>
+        </div>
+      </section>
+
       {/* sec7 ブランクから */}
       <section id="sec7" className="py-10">
         <div className="mx-auto max-w-4xl px-4">
@@ -507,7 +555,7 @@ export default function CodingTestPage() {
           <ul className="space-y-2 text-sm text-text-light leading-relaxed">
             <li>・出典: paiza「paizaスキルチェック」「プログラミングスキルチェック」公式ページ（2026年6月参照）— ランク定義（S=上位1%／A=上位10%／B=上位30%／C=上位60%）、採用企業3,000社以上、総受験回数1,700万回以上、15言語対応</li>
             <li>・出典: 株式会社ギブリー「Track Test」公式サイト・ニュースリリース（2026年6月参照）— 導入400社以上、累計受験者100万人以上、公式問題1,000問以上、アクションログ機能・Webカメラモニタリング機能</li>
-            <li>・出典: HireRoo公式サイト（2026年6月参照）— AI協働型スキル評価、解答プロセスの全記録・タイムライン再生、導入200社以上</li>
+            <li>・出典: HireRoo公式サイト（2026年6月参照）— AI協働型スキル評価、解答プロセスの全記録・タイムライン再生／導入322社（2026年11月11日確認）</li>
             <li>・出典: AtCoder「アルゴリズム実技検定（PAST）」公式サイト（2026年6月参照）— 5時間15問100点満点、5段階認定の点数基準、受験料8,800円（税込）、認定有効期間2年</li>
           </ul>
         </div>
