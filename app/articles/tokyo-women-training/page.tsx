@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   datePublished: "2026-06-12",
-  dateModified: "2026-11-10",
+  dateModified: "2026-11-12",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -150,7 +150,7 @@ export default function ArticlePage() {
                 内容・費用・申込方法と応募前に知るべきポイント【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月31日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月12日</p>
           </div>
         </div>
       </section>
@@ -176,6 +176,18 @@ export default function ArticlePage() {
             </ul>
             <p className="text-xs text-text-light mt-4">
               出典: <a href="https://women-tokyo-en.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>令和8年度女性ITエンジニア育成事業 公式サイト</a>（2026年7月8日参照）
+            </p>
+          </div>
+
+          <div id="digikare-note" className="rounded-xl p-5 mt-4" style={{ backgroundColor: "#fff", border: "1px solid #d9c7b8" }}>
+            <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>「デジカレ東京（デジカレTOKYO）」の費用・評判をお探しの方へ</p>
+            <p className="text-sm leading-relaxed">
+              デジカレTOKYO（東京都のデジタル人材育成支援事業・35歳以下が対象の職業訓練）は、このページの女性ITエンジニア育成事業とは<strong>別の事業</strong>です。公式FAQでは受講料・テキスト代は無料で、自己負担は新宿キャンパスへの交通費とオンライン校の通信費です。説明会のあとに面談と選考があり、倍率や定員は公式サイトに掲載されていません（<a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>、2026年11月10日確認）。
+            </p>
+            <p className="text-sm mt-2">
+              <a href="/articles/women-it-support-map/#digikare-hiyou" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用と選考の流れ</a>
+              <span className="text-text-light">／</span>
+              <a href="/articles/women-it-support-map/#digikare" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの口コミ・評判</a>
             </p>
           </div>
 
