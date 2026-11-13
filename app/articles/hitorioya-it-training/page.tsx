@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】",
   datePublished: "2026-07-05",
-  dateModified: "2026-10-25",
+  dateModified: "2026-11-13",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -59,6 +59,14 @@ const faqData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "講座によります。こども家庭庁の公式案内には「Webデザイナー」という資格名の例示はありません。対象資格は「就職の際に有利となる資格で、養成機関において6月以上修業するもの」で、注記に「教育訓練給付の対象講座を受講して取得する資格（一部を除く）など」とあります。そのため、①カリキュラムが6か月以上か、②厚生労働省の教育訓練給付の対象講座か、③お住まいの自治体が対象と認めるか、の3点を受講前に確認してください。自治体の案内が国の案内と異なる例もあります（出典: こども家庭庁「高等職業訓練促進給付金のご案内」、2026年10月25日確認）。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "オンライン（通信制）の講座でも高等職業訓練促進給付金は使えますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "自治体によります。こども家庭庁の公式案内には通信制・オンライン講座の扱いの記載がなく、自治体の案内では原則を通学制としたうえで例外を設ける書き方が多く見られます。たとえばさいたま市は「通学が困難な場合など、特にやむを得ない場合や、働きながら資格取得を目指す場合は通信制の利用も可」、川崎市は「eラーニングのみの講座、通信制の講座の一部は、条件により対象とならない場合があります」と案内しています。申し込む前に、お住まいの自治体の窓口で確認してください（出典: さいたま市・川崎市の公式案内、2026年11月13日確認）。",
       },
     },
     {
@@ -134,7 +142,7 @@ export default function ArticlePage() {
                 高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月25日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月13日</p>
           </div>
         </div>
       </section>
@@ -274,6 +282,24 @@ export default function ArticlePage() {
             </p>
             <p className="text-xs text-text-light mt-3">
               出典: <a href="https://www.cfa.go.jp/policies/hitori-oya/syokugyou-kunren/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>こども家庭庁「高等職業訓練促進給付金のご案内」</a>／<a href="https://www.city.izumiotsu.lg.jp/kakuka/kenko/kosodateouen/hitorioya/16340.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>泉大津市「高等職業訓練促進給付金制度」</a>（いずれも2026年10月25日確認）
+            </p>
+          </div>
+          <div className="rounded-xl p-6 mt-6 bg-white" style={{ border: "2px solid #7c3a55" }}>
+            <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>オンライン（通信制・eラーニング）の講座は対象になる？</h3>
+            <p className="text-sm text-text-light leading-relaxed mb-3">
+              こども家庭庁の公式案内には、通信制・オンライン講座の扱いについての記載はありません。自治体の案内では「原則は通学制、通信制は事情により認められる場合がある」という書き方が多く、条件も自治体ごとに異なります。
+            </p>
+            <ul className="space-y-2 text-sm text-text-light list-disc pl-5">
+              <li><strong>さいたま市：</strong>「養成機関が遠隔地にあるため通学が困難な場合など、特にやむを得ない場合や、働きながら資格取得を目指す場合は通信制の利用も可」</li>
+              <li><strong>相模原市：</strong>「原則、通学制の講座が対象です。通信制の講座については、養成機関が遠方にあって修学が困難、就業しながら修学するなど、やむを得ないご事情の場合は対象となります。」</li>
+              <li><strong>町田市：</strong>「原則として日中に通学する講座が対象ですが、事情により通信制が認められる場合もあります。」</li>
+              <li><strong>川崎市：</strong>「eラーニングのみの講座、通信制の講座の一部は、条件により対象とならない場合があります。」</li>
+            </ul>
+            <p className="text-sm text-text-light leading-relaxed mt-3">
+              オンラインで受講したい場合は、申し込む前に「通信制（オンライン）でも対象になるか」「どの事情なら認められるか」をお住まいの自治体の窓口で確認してください。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              出典: <a href="https://www.city.saitama.lg.jp/002/003/005/p005138.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>さいたま市「ひとり親家庭高等職業訓練促進給付金」</a>／<a href="https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/1017783/1018467.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>相模原市「高等職業訓練促進給付金等」</a>／<a href="https://kosodate-machida.tokyo.jp/soshiki/4/5/7/1185.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>町田市「ひとり親家庭高等職業訓練促進給付金制度」</a>／<a href="https://www.city.kawasaki.jp/450/page/0000030511.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>川崎市「川崎市高等職業訓練促進給付金等事業」</a>（いずれも2026年11月13日確認）
             </p>
           </div>
           <div className="rounded-xl p-6 mt-6 bg-white" style={{ border: "2px solid #c15f47" }}>
