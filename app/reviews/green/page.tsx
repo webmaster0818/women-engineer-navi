@@ -258,6 +258,37 @@ export default function GreenReviewPage() {
             </p>
           </div>
 
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>第三者サイトの評価（2026年11月15日確認）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ backgroundColor: "#f7f1ea" }}>
+                  <th className="p-3 text-left">出典</th>
+                  <th className="p-3 text-left">対象</th>
+                  <th className="p-3 text-left">口コミの評価</th>
+                  <th className="p-3 text-left">口コミ件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://apps.apple.com/jp/app/id1444728748" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">App Store</a></td>
+                  <td className="p-3">Green - IT/Web業界に強い転職アプリ（デベロッパ: Atrae, Inc.）</td>
+                  <td className="p-3">4.4 / 5</td>
+                  <td className="p-3">1,209件</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://jobs.qiita.com/green/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">Qiita Job Change</a></td>
+                  <td className="p-3">Green（Qiita株式会社のアンケート調査）</td>
+                  <td className="p-3">個別の回答に★評価あり（総合スコアの掲載はなし）</td>
+                  <td className="p-3">記載なし</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            App Store の評価は<strong>アプリに対する評価</strong>であり、転職サイトとしてのサービス全体や企業とのやり取りの質を表すものではありません。Qiita Job Change はアンケート調査で、回答者の年代・利用年と★評価が個別に掲載されています（2025年12月1日回答分）。<strong>口コミの本文は著作権が投稿者にあるため、当サイトでは転載せず、評価と件数・出典リンクのみを掲載しています。</strong>数値は確認日時点のもので、変動します。
+          </p>
+
           <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点</h3>
           <div className="space-y-4 mb-6">
             {[

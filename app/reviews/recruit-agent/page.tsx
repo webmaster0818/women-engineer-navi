@@ -278,6 +278,31 @@ export default function RecruitAgentReviewPage() {
             出典: <a href="https://www.r-agent.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">リクルートエージェント公式サイト トップページ「ご利用者の声」</a>（2026年7月参照）。公式サイトが発信している内容の要約のため、中立的な第三者の評価とは性質が異なります。
           </p>
 
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>第三者サイトの評価（2026年11月15日確認）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ backgroundColor: "#f7f1ea" }}>
+                  <th className="p-3 text-left">出典</th>
+                  <th className="p-3 text-left">対象</th>
+                  <th className="p-3 text-left">口コミの評価</th>
+                  <th className="p-3 text-left">口コミ件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://apps.apple.com/jp/app/id6499424428" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">App Store</a></td>
+                  <td className="p-3">転職 リクルートエージェント｜求人・仕事探しなら転職アプリで（デベロッパ: INDEED RECRUIT PARTNERS, CO., LTD.）</td>
+                  <td className="p-3">4.4 / 5</td>
+                  <td className="p-3">3,265件</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            App Store の評価は<strong>アプリに対する評価</strong>であり、担当アドバイザーの対応やサービス全体の質を表すものではありません。デベロッパ名は、当ページに記載している運営会社（インディードリクルートパートナーズ）と一致します。<strong>口コミの本文は著作権が投稿者にあるため、当サイトでは転載せず、評価と件数・出典リンクのみを掲載しています。</strong>数値は確認日時点のもので、変動します。
+          </p>
+
           <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>利用前に知っておきたい注意点（編集部）</h3>
           <div className="space-y-4 mb-6">
             {[
