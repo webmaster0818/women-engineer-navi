@@ -18,6 +18,7 @@ const mainPages: { href: string; label: string }[] = [
   { href: "/articles/faq-all/", label: "女性エンジニア転職のFAQ総まとめ" },
   { href: "/articles/tokyo-women-training/", label: "東京都 女性ITエンジニア育成事業の解説" },
   { href: "/articles/women-it-support-map/", label: "全国の女性向けIT訓練・支援まとめ" },
+  { href: "/articles/digital-jinzai-ikusei-tokyo/", label: "デジカレTOKYO（デジタル人材育成支援事業）の費用・評判" },
 ];
 
 const reviews: { name: string; slug: string }[] = [

@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "女性が働きやすいIT企業の見極め方・実務編｜公式データベースの使い方・面接での聞き方文例【2026年】",
+  title: "女性の働きやすさを面接で確かめる聞き方｜文例とEDINETの見方【2026年】",
   description:
-    "求人票の「女性活躍中」を鵜呑みにせず、入社前に実態を確かめる具体手順を解説。厚生労働省「女性の活躍推進企業データベース」で管理職比率・勤続年数の男女差・残業時間・育休取得率を確認する方法、えるぼし・くるみん認定の読み方、有価証券報告書（EDINET）の探し方、面接で産休育休について角を立てずに聞く文例まで。",
+    "女性の働きやすさを面接・面談で確かめる聞き方を文例つきで解説。上場企業の有価証券報告書（EDINET）で女性管理職比率や男女間賃金差異を見る手順、聞くタイミングの使い分けまで整理します。認定制度と公開データの読み方は別ページにまとめています。",
   alternates: { canonical: "/articles/company-check-guide/" },
   openGraph: { images: ["/og-default.png"],
-    title: "女性が働きやすいIT企業の見極め方・実務編｜公式データベースの使い方・面接での聞き方文例【2026年】",
+    title: "女性の働きやすさを面接で確かめる聞き方｜文例とEDINETの見方【2026年】",
     description:
       "「女性活躍中」の求人票を印象で信じない。厚労省の公式データベース・えるぼし/くるみん認定・有価証券報告書という公表データの見方と、面接での聞き方文例で、入社前に女性の働きやすさを確かめる実務手順を解説します。",
     url: "https://women-engineer.com/articles/company-check-guide/",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "女性が働きやすいIT企業の見極め方・実務編｜公式データベースの使い方・面接での聞き方文例【2026年】",
+  headline: "女性の働きやすさを面接で確かめる聞き方｜文例とEDINETの見方【2026年】",
   datePublished: "2026-07-13",
-  dateModified: "2026-07-13",
+  dateModified: "2026-11-16",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -121,9 +121,9 @@ export default function ArticlePage() {
               企業の見極めガイド
             </span>
             <h1 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              女性が働きやすいIT企業の見極め方・実務編
+              女性の働きやすさを面接で確かめる聞き方
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">
-                公式データベースの使い方・認定の読み方・面接での聞き方文例【2026年】
+                面接での聞き方文例とEDINETの見方【2026年】
               </span>
             </h1>
             <p className="mt-4 text-text-light">最終更新: 2026年7月13日</p>
@@ -163,12 +163,11 @@ export default function ArticlePage() {
           <div className="rounded-xl border p-6" style={{ borderColor: "#d9c7b8", backgroundColor: "#f0e7dd" }}>
             <h2 className="text-lg font-bold mb-4">目次</h2>
             <ol className="space-y-2 text-sm">
-              <li><a href="#sec1" className="hover:underline" style={{ color: "#7c3a55" }}>1. 「女性活躍中」の求人票だけでは分からない理由と、見極めの全体像</a></li>
-              <li><a href="#sec2" className="hover:underline" style={{ color: "#7c3a55" }}>2. 厚労省「女性の活躍推進企業データベース」の使い方</a></li>
-              <li><a href="#sec3" className="hover:underline" style={{ color: "#7c3a55" }}>3. えるぼし認定・くるみん認定の読み方</a></li>
-              <li><a href="#sec4" className="hover:underline" style={{ color: "#7c3a55" }}>4. 上場企業なら有価証券報告書（EDINET）も見る</a></li>
-              <li><a href="#sec5" className="hover:underline" style={{ color: "#7c3a55" }}>5. 面接・面談での聞き方（文例とタイミングの使い分け）</a></li>
-              <li><a href="#sec6" className="hover:underline" style={{ color: "#7c3a55" }}>6. よくある質問</a></li>
+              <li><a href="#sec1" className="underline" style={{ color: "#7c3a55" }}>1. 「女性活躍中」の求人票だけでは分からない理由と、見極めの全体像</a></li>
+              <li><a href="#sec2" className="underline" style={{ color: "#7c3a55" }}>2. 公表データと認定制度は別ページで確認する</a></li>
+              <li><a href="#sec4" className="underline" style={{ color: "#7c3a55" }}>3. 上場企業なら有価証券報告書（EDINET）も見る</a></li>
+              <li><a href="#sec5" className="underline" style={{ color: "#7c3a55" }}>4. 面接・面談での聞き方（文例とタイミングの使い分け）</a></li>
+              <li><a href="#sec6" className="underline" style={{ color: "#7c3a55" }}>5. よくある質問</a></li>
             </ol>
           </div>
         </div>
@@ -212,132 +211,18 @@ export default function ArticlePage() {
       {/* sec2 データベースの使い方 */}
       <section id="sec2" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">厚労省「女性の活躍推進企業データベース」の使い方</h2>
-          <div className="space-y-4 text-text-light leading-relaxed mb-6">
+          <h2 className="text-2xl font-bold mb-6">公表データと認定制度は別ページで確認する</h2>
+          <div className="space-y-4 text-text-light leading-relaxed">
             <p>
-              <a href="https://positive-ryouritsu.mhlw.go.jp/positivedb/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>女性の活躍推進企業データベース</a>は、女性活躍推進法に基づいて各企業が行動計画と女性活躍に関する実績データを公表する、厚生労働省の公式データベースです。2026年7月時点のトップページでは、データ公表企業43,003社・行動計画公表企業58,625社が登録されていると表示されています。登録・閲覧とも無料で、会員登録なしに企業名で検索できます（出典: 同データベース、2026年7月参照）。
+              厚生労働省「女性の活躍推進企業データベース」の検索手順、えるぼし・くるみん・なでしこ銘柄・健康経営優良法人の違い、女性管理職比率や育休復帰率といった公開データの読み方は、<a href="/articles/women-friendly-companies/" className="underline font-bold" style={{ color: "#7c3a55" }}>女性が働きやすいIT企業の見極め方（認定制度と公開データの読み方）</a>にまとめています。比較の物差しになる全産業平均や、IT大手が実際に公開している数値の例もそちらに掲載しています。
             </p>
             <p>
-              使い方はシンプルで、トップページの「企業情報の検索」から<strong>企業名・業種・所在地などで検索</strong>するだけです。「女性管理職比率」「男女の平均継続勤務年数」などのランキング機能や、公表データの一括ダウンロード機能もあります。
-            </p>
-          </div>
-          <h3 className="text-lg font-bold mb-3">公表される項目（主なもの）</h3>
-          <p className="text-sm text-text-light leading-relaxed mb-4">
-            企業が公表する項目は同データベースの「各項目の定義」ページで定められています。求職者目線で特に見たい項目を整理すると次のとおりです。
-          </p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
-              <thead>
-                <tr style={{ backgroundColor: "#efe3d8" }}>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>公表項目</th>
-                  <th className="border px-4 py-3 text-left" style={{ borderColor: "#d9c7b8" }}>何が分かるか・見方のポイント</th>
-                </tr>
-              </thead>
-              <tbody className="text-text-light">
-                <tr>
-                  <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>採用した労働者に占める女性割合／採用の競争倍率の男女比</td>
-                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>入口で女性を採っているか。「女性活躍中」と言いながら採用実績が乏しい場合はここに表れます。</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>男女の平均継続勤務年数の差異／採用10年前後の男女別継続雇用割合</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>女性だけ早く辞めていないか。絶対年数よりも<strong>男女差の小ささ</strong>が「続けられる職場か」のシグナルになります。</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>男女別の育児休業取得率</td>
-                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>女性の取得率は分母が「出産した労働者数」のため高く出やすい項目です。<strong>男性の取得率</strong>もあわせて見ると、両立を職場全体で支える文化かどうかの手がかりになります。</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>一月当たりの平均残業時間（雇用管理区分ごとの数値がある場合も）</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>法定時間外・法定休日労働の平均。育児との両立可能性に直結します。えるぼし認定の労働時間基準が「各月すべて45時間未満」であることも、水準感の参考になります。</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>年次有給休暇の取得率</td>
-                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>休みを取れる職場かどうかの基礎データです。</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>係長級・管理職・役員に占める女性割合</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>昇進の道が実際に開いているか＝ロールモデルの存在。管理職は「課長級以上」で定義されています。係長級も見ると「次の世代が育っているか」まで分かります。</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold bg-white" style={{ borderColor: "#d9c7b8" }}>男女の賃金の差異</td>
-                  <td className="border px-4 py-3 bg-white" style={{ borderColor: "#d9c7b8" }}>女性の平均年間賃金÷男性の平均年間賃金（%）。301人以上の企業は2022年7月から公表義務。2026年4月施行の改正で101〜300人の企業も必須項目になりました。</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-3 font-bold" style={{ borderColor: "#d9c7b8" }}>男女別の職種・雇用形態の転換実績／再雇用・中途採用実績</td>
-                  <td className="border px-4 py-3" style={{ borderColor: "#d9c7b8" }}>非正規から正社員への転換や、30歳以上の女性の正社員採用など、キャリアの入り直しに寛容かが分かります。転職者には見逃せない項目です。</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-text-light mt-4">
-            出典: <a href="https://positive-ryouritsu.mhlw.go.jp/positivedb/common/definition.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>女性の活躍推進企業データベース「各項目の定義」</a>（2026年7月参照）。企業がどの項目を公表するかは選択制の部分があり、全企業が全項目を公表しているわけではありません。公表項目は制度改正で変わることがあります。
-          </p>
-          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
-            <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>ITエンジニア職で読むときのコツ</h3>
-            <ul className="space-y-2 text-sm text-text-light">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>全社数値は職種の混合値です。</strong>営業・事務・エンジニアを合算した数値のため、たとえば「女性比率が高い」会社でも技術部門は別、ということがあり得ます。「雇用管理区分ごと」の数値（総合職・技術職など区分別）が公表されていれば、そちらを優先してご覧ください。区分別がない場合、エンジニア職の実態は面接で確認する項目に回します。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>勤続年数は「絶対値」より「男女差」。</strong>転職によるキャリアアップが一般的な業界では平均勤続年数そのものは短めに出ることがあります。男女で差が大きい場合に「女性だけ辞めている理由」を面接で確かめる、という使い方が実践的です。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>残業時間は繁忙の偏りに注意。</strong>公表値は年間平均のため、リリース前や障害対応など時期による偏りは見えません。平均値を入口に、繁忙期の実態を面接で聞くのがセットです。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">&#8226;</span><span><strong>データが古くないかを確認。</strong>公表データには対象期間が示されます。法律上は年1回の更新が求められているので、極端に古いまま放置されている場合、公表への熱意そのものが一つの判断材料になります。</span></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* sec3 えるぼし・くるみん */}
-      <section id="sec3" className="py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold mb-6">えるぼし認定・くるみん認定の読み方</h2>
-          <div className="space-y-4 text-text-light leading-relaxed mb-6">
-            <p>
-              データベースの数値とあわせて見たいのが、厚生労働大臣による2つの認定マークです。どちらも<strong>国の基準を満たしたことの第三者証明</strong>で、求人票の自称表現とは信頼性が異なります。
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>えるぼし認定（女性活躍推進法）</h3>
-              <p className="text-sm text-text-light leading-relaxed mb-3">
-                行動計画を策定・届出した企業のうち、女性の活躍推進の取組状況が優良な企業を認定する制度。<strong>「採用」「継続就業」「労働時間等の働き方」「管理職比率」「多様なキャリアコース」の5つの基準</strong>のうち、満たした数に応じて段階が決まります。
-              </p>
-              <ul className="space-y-2 text-sm text-text-light mb-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>1段階目:</strong> 5基準のうち1〜2つを満たす（満たさない基準も改善状況の公表等が必要）</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>2段階目:</strong> 3〜4つを満たす</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>3段階目:</strong> 5つすべてを満たし、実績をデータベースで毎年公表</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>プラチナえるぼし:</strong> えるぼし認定企業のうち、行動計画の目標達成など取組が特に優良な企業。管理職比率などの基準がさらに厳しくなります</span></li>
-              </ul>
-              <p className="text-sm text-text-light leading-relaxed">
-                労働時間の基準は「残業＋休日労働の平均が各月すべて45時間未満」、継続就業は「女性÷男性の平均継続勤務年数が7割以上」など、具体的な数値基準です。マークの段階（星の数）を見れば、どこまで満たした企業かが読み取れます。なお2026年4月からは、女性の健康支援の基準も満たす企業への「えるぼしプラス」認定が加わりました。
-              </p>
-            </div>
-            <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
-              <h3 className="text-lg font-bold mb-3" style={{ color: "#7c3a55" }}>くるみん認定（次世代育成支援対策推進法）</h3>
-              <p className="text-sm text-text-light leading-relaxed mb-3">
-                「子育てサポート企業」として厚生労働大臣が認定するマークです。企業が行動計画を策定し、計画に定めた目標を達成するなど一定の基準を満たした場合に、申請により認定されます。
-              </p>
-              <ul className="space-y-2 text-sm text-text-light mb-3">
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>くるみん:</strong> 基本の認定</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>プラチナくるみん:</strong> より高い水準の取組を行う企業の特例認定</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>トライくるみん:</strong> 2022年4月に新設された認定類型</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#7c3a55" }} className="mt-1 font-bold">&#10003;</span><span><strong>プラス認定:</strong> 不妊治療と仕事の両立支援に取り組む企業への追加認定</span></li>
-              </ul>
-              <p className="text-sm text-text-light leading-relaxed">
-                えるぼしが「女性の活躍」全般の認定であるのに対し、くるみんは「子育てとの両立支援」に焦点があります。産休・育休後も働き続けたい人は、両方の認定状況を見ると立体的に判断できます。認定基準は2025年4月施行の改正で見直されているため、詳細は公式ページで確認してください。
-              </p>
-            </div>
-          </div>
-          <div className="rounded-xl p-6 mt-6" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h3 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>注意点：「認定なし＝悪い会社」ではない</h3>
-            <p className="text-sm text-text-light leading-relaxed">
-              どちらの認定も<strong>企業が自ら申請して初めて審査される</strong>制度です。実態が良くても、申請の手間やコストから取得していない企業（特に中小・スタートアップ）は珍しくありません。したがって「認定あり」は加点材料として確度が高い一方、「認定なし」から悪い評価を導くのは早計です。認定がない企業は、データベースの公表実績と面接での質問で個別に確かめてください。逆に、認定マークだけを見て公表実績を確認しないのも避けたいところです。
-            </p>
-            <p className="text-xs text-text-light mt-3">
-              出典: <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000091025.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>厚生労働省「女性活躍推進法特集ページ」</a>／<a href="https://www.mhlw.go.jp/content/11900000/001677221.pdf" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>えるぼし認定、プラチナえるぼし認定の概要（PDF）</a>／<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/kurumin/index.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>くるみんマーク・プラチナくるみんマーク・トライくるみんマークについて</a>（いずれも2026年7月参照）
+              このページは、そこで調べた数値を<strong>面接・面談でどう確かめるか</strong>という実務に絞って解説します。上場企業で使える有価証券報告書（EDINET）の見方と、聞き方の文例が中心です。
             </p>
           </div>
         </div>
       </section>
 
-      {/* sec4 有価証券報告書 */}
       <section id="sec4" className="py-10" style={{ backgroundColor: "#f0e7dd" }}>
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-2xl font-bold mb-6">上場企業なら有価証券報告書（EDINET）も見る</h2>

@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "女性が働きやすいIT企業の見極め方｜認定制度と公開データの読み方【2026年】",
   datePublished: "2026-04-27",
-  dateModified: "2026-10-31",
+  dateModified: "2026-11-16",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -128,7 +128,7 @@ export default function ArticlePage() {
                 認定制度と公開データの読み方【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月31日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月16日</p>
           </div>
         </div>
       </section>

@@ -286,7 +286,7 @@ export default function ArticlePage() {
                 東京都の事業で、<strong>原則35歳以下・求職中または非正規雇用で就業中の方</strong>（都内のIT関連就職を希望・学生でない方）を対象に、<strong>1.5か月または2か月の職業訓練（平日9:30〜17:30）と就職支援を一体で無料提供</strong>します（受講料・テキスト代無料、オンライン校はPC無料貸出あり。交通費・通信費は自己負担）。2か月コースは通学・オンラインを選べます。女性限定の事業ではありませんが、女性ITエンジニア育成事業（39歳以下・女性限定）の対象外だった方や、より短期で就職を目指したい方の受け皿になります。
               </p>
               <p className="text-sm text-text-light leading-relaxed">
-                令和8年度の募集は2026年4月30日開始。最新の募集状況・申込は<a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>と<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/digitaljinzai/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>でご確認ください（出典: 各公式サイト、2026年10月27日確認）。
+                令和8年度の募集は2026年4月30日開始。2026年11月16日の確認時点では<strong>12月生を募集中</strong>（申込締切11月30日・入校12月2日）です。対象の条件・費用の内訳・3コースの内容・選考の流れは<a href="/articles/digital-jinzai-ikusei-tokyo/" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用・評判と女性向け2事業との違い</a>にまとめました。最新の募集状況・申込は<a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>と<a href="https://www.hataraku.metro.tokyo.lg.jp/kyushokusha-kunren/etc/digitaljinzai/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>TOKYOはたらくネット</a>でご確認ください（出典: 各公式サイト、2026年11月16日確認）。
               </p>
               <div className="mt-4 rounded-lg p-4" style={{ background: "#f8f3ee" }}>
                 <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>デジカレTOKYOの口コミ・評判はどこで確認できる？</p>

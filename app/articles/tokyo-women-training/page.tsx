@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "東京都 女性ITエンジニア育成事業の口コミ・評判は？内容・費用・申込方法【2026年】",
   datePublished: "2026-06-12",
-  dateModified: "2026-11-12",
+  dateModified: "2026-11-16",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -182,12 +182,12 @@ export default function ArticlePage() {
           <div id="digikare-note" className="rounded-xl p-5 mt-4" style={{ backgroundColor: "#fff", border: "1px solid #d9c7b8" }}>
             <p className="text-sm font-bold mb-2" style={{ color: "#7c3a55" }}>「デジカレ東京（デジカレTOKYO）」の費用・評判をお探しの方へ</p>
             <p className="text-sm leading-relaxed">
-              デジカレTOKYO（東京都のデジタル人材育成支援事業・35歳以下が対象の職業訓練）は、このページの女性ITエンジニア育成事業とは<strong>別の事業</strong>です。公式FAQでは受講料・テキスト代は無料で、自己負担は新宿キャンパスへの交通費とオンライン校の通信費です。説明会のあとに面談と選考があり、倍率や定員は公式サイトに掲載されていません（<a href="https://digital-tokyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYO公式サイト</a>、2026年11月10日確認）。
+              デジカレTOKYO（東京都のデジタル人材育成支援事業・原則35歳以下・男女を問わない職業訓練）は、このページの女性ITエンジニア育成事業とは<strong>別の事業</strong>です。対象・費用・3コース・選考の流れは<a href="/articles/digital-jinzai-ikusei-tokyo/" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用・評判と女性向け2事業との違い</a>にまとめています。
             </p>
             <p className="text-sm mt-2">
-              <a href="/articles/women-it-support-map/#digikare-hiyou" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用と選考の流れ</a>
+              <a href="/articles/digital-jinzai-ikusei-tokyo/#digikare-hiyou" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用と選考の流れ</a>
               <span className="text-text-light">／</span>
-              <a href="/articles/women-it-support-map/#digikare" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの口コミ・評判</a>
+              <a href="/articles/digital-jinzai-ikusei-tokyo/#digikare" className="underline font-bold" style={{ color: "#7c3a55" }}>デジカレTOKYOの口コミ・評判</a>
             </p>
           </div>
 
@@ -421,7 +421,7 @@ export default function ArticlePage() {
               さらに注意したいのは、この事業は<strong>年度ごとに運営事業者が変わる</strong>点です（令和6年度は株式会社ワークポート、令和7年度からはアデコ株式会社が受託）。過去の体験談がそのまま現行のカリキュラム・運営に当てはまるとは限りません。口コミを探すより、次のチェックポイントを一次情報（公式サイト・運営事務局）で確認するほうが、応募判断として確実です。
             </p>
             <p>
-              なお、同じ東京都の事業でも、再就職を目指す女性向けの託児付き職業訓練は別事業です。そちらの口コミ・評判の調べ方と募集状況は<a href="/articles/women-digital-college/#kuchikomi" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジ事業の口コミ・評判</a>のページにまとめています。35歳以下が対象の職業訓練（デジタル人材育成支援事業・デジカレTOKYO）も別事業で、口コミ・体験記の探し方は<a href="/articles/women-it-support-map/#digikare" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYOの口コミ・評判</a>で紹介しています。デジカレTOKYOも受講料・テキスト代は無料ですが、説明会のあとに面談と選考があります。選考の倍率や定員は公式サイトに掲載されていません（2026年11月10日確認）。費用の内訳と選考の流れは<a href="/articles/women-it-support-map/#digikare-hiyou" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用と選考の流れ</a>をご覧ください。
+              なお、同じ東京都の事業でも、再就職を目指す女性向けの託児付き職業訓練は別事業です。そちらの口コミ・評判の調べ方と募集状況は<a href="/articles/women-digital-college/#kuchikomi" className="underline" style={{ color: "#7c3a55" }}>女性デジタルカレッジ事業の口コミ・評判</a>のページにまとめています。35歳以下が対象の職業訓練（デジタル人材育成支援事業・デジカレTOKYO）も別事業で、口コミ・体験記の探し方は<a href="/articles/digital-jinzai-ikusei-tokyo/#digikare" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYOの口コミ・評判</a>で紹介しています。デジカレTOKYOも受講料・テキスト代は無料ですが、説明会のあとに面談と選考があります。選考の倍率や定員は公式サイトに掲載されていません（2026年11月10日確認）。費用の内訳と選考の流れは<a href="/articles/digital-jinzai-ikusei-tokyo/#digikare-hiyou" className="underline" style={{ color: "#7c3a55" }}>デジカレTOKYOの費用と選考の流れ</a>をご覧ください。
             </p>
           </div>
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>

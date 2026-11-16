@@ -542,6 +542,7 @@ export default function ArticlePage() {
             <a href="/articles/return-to-work/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ブランクからの復職ガイド</h3><p className="text-sm text-text-light">育児等のブランク明けの再就職戦略</p></a>
             <a href="/articles/mama-engineer/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>ママエンジニアの働き方</h3><p className="text-sm text-text-light">育児と両立するキャリアの作り方</p></a>
             <a href="/articles/tokyo/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>東京の女性エンジニア転職ガイド</h3><p className="text-sm text-text-light">求人動向・年収相場・企業の選び方</p></a>
+            <a href="/articles/digital-jinzai-ikusei-tokyo/" className="block rounded-xl border bg-white p-5 transition-shadow hover:shadow-md" style={{ borderColor: "#d9c7b8" }}><h3 className="font-bold mb-1" style={{ color: "#7c3a55" }}>デジカレTOKYO（デジタル人材育成支援事業）</h3><p className="text-sm text-text-light">原則35歳以下・男女を問わない1.5〜2か月の訓練</p></a>
           </div>
         </div>
       </section>
