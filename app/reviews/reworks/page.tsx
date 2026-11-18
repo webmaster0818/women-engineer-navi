@@ -252,6 +252,24 @@ export default function ReworksReviewPage() {
             ※当セクションは、公式サイトの公開情報と当ページに掲載している確認済みの事実のみに基づいて構成しています。実在を確認できない体験談は掲載していません。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
 
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月19日確認）</h3>
+          <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong>ReWorksの口コミの評価・件数は、当サイトでは確認できていません。</strong>2026年11月19日に次の3つを調べた結果です。
+            </p>
+            <ul className="text-sm text-text-light leading-relaxed mt-3 space-y-1 list-disc pl-5">
+              <li>みん評：当サイトの環境からページを取得できず（評点を確認できませんでした）</li>
+              <li>Qiita Job Change：ReWorksのページが存在しません（該当ページなし）</li>
+              <li>App Store：ReWorksのアプリが見つかりません（名前の似た「Redecor」はフィンランドのゲーム会社 Reworks Oy のもので、別の会社です）</li>
+            </ul>
+            <p className="text-xs text-text-light mt-3">
+              そのため当ページでは、<strong>口コミの評価・件数・本文はいずれも掲載していません</strong>。掲載しているのは、公式サイトで確認できた事実と、そこから編集部が整理した注意点だけです。確認できる評点が見つかった時点で、出典と確認日を付けて掲載します。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              ※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。
+            </p>
+          </div>
+
           <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>利用者の声について</h3>
           <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
             <p className="text-sm text-text-light leading-relaxed">

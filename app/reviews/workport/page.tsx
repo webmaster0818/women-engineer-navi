@@ -250,6 +250,37 @@ export default function WorkportReviewPage() {
             ※以下はワークポート公式サイト「利用者のクチコミ」に掲載されている転職決定者の声を要約・再構成したものです（2026年7月参照・公式発信の内容）。出典元の原文とは異なります。利用者の属性（年齢・性別・決定職種）は出典の記載に基づきます。掲載内容は入れ替わる場合があります。
           </p>
 
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月19日確認）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ backgroundColor: "#f7f1ea" }}>
+                  <th className="p-3 text-left">出典</th>
+                  <th className="p-3 text-left">対象</th>
+                  <th className="p-3 text-left">口コミの評価</th>
+                  <th className="p-3 text-left">口コミ件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://jobs.qiita.com/workport/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">Qiita Job Change</a></td>
+                  <td className="p-3">ワークポート（Qiita株式会社のアンケート調査・最終更新 2026年11月6日）</td>
+                  <td className="p-3">2.81 / 5</td>
+                  <td className="p-3">21名（利用者の回答数）</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://apps.apple.com/jp/app/id1286927072" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">App Store</a></td>
+                  <td className="p-3">eコンシェル（デベロッパ: WORKPORT,INC.）</td>
+                  <td className="p-3">1.8 / 5</td>
+                  <td className="p-3">38件</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            Qiita Job Change の数値は、同サイトが実施したアンケート調査（調査方法: インターネット調査／調査対象: Qiitaアカウントをお持ちの方／全国／2025年12月15日〜31日／調査人数314名／調査機関: Qiita株式会社）のうち、ワークポート利用者21名分の集計です。内訳は求人の量・質 3.05、サービス・機能・システム 2.81、提案力 3.00。同ページには「株式会社マイナビ等のプロモーションを含みます」と記載があり、<strong>広告を含むページである点にご留意ください</strong>。App Store の評価は<strong>アプリに対する評価</strong>で、エージェントの対応品質を表すものではなく、38件と件数も少ないため傾向としては読めません。<strong>当ページ上部の総合評価4.4は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートではありません</strong>。第三者の調査（2.81）とは性質が異なるため、数値が離れています。みん評は当サイトの環境から取得できず（2026年11月19日時点）、評点を確認できませんでした。<strong>口コミの本文は著作権が投稿者にあるため転載せず、評価・件数・出典リンクのみを掲載しています。</strong>数値は確認日時点のもので、変動します。
+          </p>
+
           <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>公式サイト掲載の利用者の声（要約）</h3>
           <div className="space-y-4 mb-8">
             {[
