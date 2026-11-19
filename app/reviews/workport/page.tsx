@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ワークポートの口コミ・評判｜女性ITエンジニア育成事業受託の実力",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-17",
+  dateModified: "2026-11-19",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "ワークポートを女性エンジニア目線で検証。IT特化+全国47拠点・未経験OKの実力を検証。",
@@ -99,7 +99,7 @@ export default function WorkportReviewPage() {
                 女性ITエンジニア育成事業受託の実力を検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の利用者の声に基づき再構成）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月19日（第三者サイトの評点の掲載状況を追加。口コミセクションは公式サイト掲載の利用者の声に基づき再構成）</p>
           </div>
         </div>
       </section>

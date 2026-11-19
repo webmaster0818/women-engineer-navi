@@ -24,7 +24,7 @@ const structuredData = {
   "@type": "Article",
   headline: "リクルートエージェントの口コミ・評判｜女性ITエンジニアの求人数は？",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-17",
+  dateModified: "2026-11-20",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "リクルートエージェントを女性エンジニア目線で検証。非公開含む約100万件（2026年6月時点）の求人の実力を検証。",
@@ -94,7 +94,7 @@ export default function RecruitAgentReviewPage() {
               リクルートエージェントの口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">女性ITエンジニアの求人数は？検証</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の利用者の声ベースに刷新）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月20日（第三者サイトの評点の掲載状況を更新。口コミセクションは公式サイト掲載の利用者の声ベース）</p>
           </div>
         </div>
       </section>
@@ -136,13 +136,6 @@ export default function RecruitAgentReviewPage() {
                   </div>
                 ))}
               </div>
-            </div>
-            <div className="mt-6 pt-5 border-t" style={{ borderColor: "#e4d6c8" }}>
-              <p className="text-xs font-bold mb-2" style={{ color: "#7c3a55" }}>評価の付け方（当サイトの判断基準）</p>
-              <p className="text-xs leading-relaxed mb-2" style={{ color: "#8a7566" }}>
-                各項目は、下記を公式サイトで確認して編集部が5段階で付けています。総合評価は各項目を総合した編集部の判断で、利用者アンケートや当サイトの利用実績にもとづく数値ではありません。広告・提携の有無は評価に反映していません。
-              </p>
-              <ul className="text-xs leading-relaxed list-disc list-inside" style={{ color: "#8a7566" }}><li>求人数：公式が公開している求人件数</li><li>転職実績：公式が公開している転職決定の実績値</li><li>大手求人：公式の掲載企業に占める大手企業の比重</li><li>IT特化度：公式の全求人に対するIT・エンジニア職の比重</li><li>女性への配慮：公式に記載のある女性専任の担当・産育休や時短求人の扱い</li></ul>
             </div>
             <div className="mt-6 pt-5 border-t" style={{ borderColor: "#e4d6c8" }}>
               <p className="text-xs font-bold mb-2" style={{ color: "#7c3a55" }}>評価の付け方（当サイトの判断基準）</p>
@@ -278,7 +271,7 @@ export default function RecruitAgentReviewPage() {
             出典: <a href="https://www.r-agent.com/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">リクルートエージェント公式サイト トップページ「ご利用者の声」</a>（2026年7月参照）。公式サイトが発信している内容の要約のため、中立的な第三者の評価とは性質が異なります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>第三者サイトの評価（2026年11月15日確認）</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月20日確認）</h3>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm">
               <thead>
@@ -294,7 +287,7 @@ export default function RecruitAgentReviewPage() {
                   <td className="p-3"><a href="https://apps.apple.com/jp/app/id6499424428" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">App Store</a></td>
                   <td className="p-3">転職 リクルートエージェント｜求人・仕事探しなら転職アプリで（デベロッパ: INDEED RECRUIT PARTNERS, CO., LTD.）</td>
                   <td className="p-3">4.4 / 5</td>
-                  <td className="p-3">3,265件</td>
+                  <td className="p-3">3,309件</td>
                 </tr>
               </tbody>
             </table>
