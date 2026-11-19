@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "テックゴー（TechGo）の口コミ・評判｜悪い評判・注意点と平均144万円年収アップの実態【2026年10月】",
   datePublished: "2026-07-02",
-  dateModified: "2026-10-17",
+  dateModified: "2026-11-20",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "テックゴーの口コミ・評判を女性エンジニア目線でレビュー。公式の転職支援事例12件の集計、年収アップ実績、注意点を公式情報をもとに解説。",
@@ -302,6 +302,24 @@ export default function TechgoReviewPage() {
                 <p className="text-sm text-text-light leading-relaxed">{review.text}</p>
               </div>
             ))}
+          </div>
+
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月20日確認）</h3>
+          <div className="rounded-xl p-6 mb-6" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong>テックゴーの口コミの評価・件数は、当サイトでは確認できていません。</strong>2026年11月20日に次の3つを調べた結果です。
+            </p>
+            <ul className="text-sm text-text-light leading-relaxed mt-3 space-y-1 list-disc pl-5">
+              <li>みん評：当サイトの環境からページを取得できず（評点を確認できませんでした）</li>
+              <li>Qiita Job Change：テックゴーのページが存在しません（該当ページなし）</li>
+              <li>App Store：テックゴーのアプリが見つかりません</li>
+            </ul>
+            <p className="text-xs text-text-light mt-3">
+              そのため当ページでは、<strong>第三者サイトの口コミの評価・件数・本文は掲載していません</strong>。上の「良い口コミ」は公式サイトに掲載された利用者の声の要約です。確認できる評点が見つかった時点で、出典と確認日を付けて掲載します。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              ※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。
+            </p>
           </div>
 
           <h3 className="text-xl font-bold mb-4" style={{ color: "#c15f47" }}>悪い評判につながりやすい注意点</h3>
