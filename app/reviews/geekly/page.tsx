@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "Geekly(ギークリー)の口コミ・評判｜女性ITエンジニアの転職実績",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-17",
+  dateModified: "2026-11-21",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -131,7 +131,7 @@ export default function GeeklyReviewPage() {
                 女性ITエンジニアの転職実績を検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の声に基づき再構成）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月21日（口コミセクションを公式サイト掲載の声に基づき再構成）</p>
           </div>
         </div>
       </section>
@@ -281,6 +281,44 @@ export default function GeeklyReviewPage() {
           <p className="text-xs text-text-light mb-8">
             ※以下はGeekly公式サイト「転職成功事例・お客様の声」ページに掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。公式サイトでの発信である点に留意してください。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
+
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月21日確認）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ backgroundColor: "#f7f1ea" }}>
+                  <th className="p-3 text-left">出典</th>
+                  <th className="p-3 text-left">対象</th>
+                  <th className="p-3 text-left">口コミの評価</th>
+                  <th className="p-3 text-left">口コミ件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://jobs.qiita.com/geekly/" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">Qiita Job Change</a></td>
+                  <td className="p-3">Geekly（Qiita株式会社のアンケート調査・最終更新 2026年11月6日）</td>
+                  <td className="p-3">個別の回答に★評価あり（総合スコアの掲載はなし）</td>
+                  <td className="p-3"><strong>22名</strong>（調査全体は314名）</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong>Geeklyの口コミの「総合評価」は、当サイトでは確認できていません。</strong>2026年11月21日に次の3つを調べた結果です。
+            </p>
+            <ul className="text-sm text-text-light leading-relaxed mt-3 space-y-1 list-disc pl-5">
+              <li>Qiita Job Change：<strong>Qiitaユーザー22名の調査</strong>が掲載されています（インターネット調査・2025年12月15日〜31日・調査全体314名・調査機関 Qiita株式会社）。個別の回答に★評価は付いていますが、<strong>総合スコアの掲載はありません</strong>。なお、このページには「株式会社マイナビ等のプロモーションを含みます」と記載があり、広告を含む記事です</li>
+              <li>App Store：Geeklyのアプリが見つかりません（該当なし）</li>
+              <li>みん評：当サイトの環境からページを取得できませんでした</li>
+            </ul>
+            <p className="text-xs text-text-light mt-3">
+              そのため当ページでは、<strong>口コミの点数・本文は掲載していません</strong>。掲載しているのは、公式サイトで確認できた事実と、そこから編集部が整理した注意点だけです。確認できる総合評価が見つかった時点で、出典と確認日を付けて掲載します。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              ※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。
+            </p>
+          </div>
 
           <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>公式サイト掲載の利用者の声（要約）</h3>
           <p className="text-sm text-text-light mb-4 leading-relaxed">

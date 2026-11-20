@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "明光キャリアパートナーズの評判・口コミ｜エンジニアからM&A・コンサル転職という選択肢を検証",
   datePublished: "2026-07-17",
-  dateModified: "2026-07-17",
+  dateModified: "2026-11-21",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description:
@@ -100,7 +100,7 @@ export default function MeikoCareerReviewPage() {
                 エンジニアからM&A・コンサル転職という選択肢を検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（会社情報・サービス内容を公式サイトで同日確認）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月21日（会社情報・サービス内容を公式サイトで同日確認）</p>
           </div>
         </div>
       </section>
@@ -276,6 +276,24 @@ export default function MeikoCareerReviewPage() {
           <p className="text-xs text-text-light mb-8">
             ※明光キャリアパートナーズ本体（STRATEGY CAREER）について、公式サイトに利用者の声のまとまった掲載は確認できませんでした（2026年7月時点）。以下は、グループのコーチングサービス「Reverse」公式サイトの「お客様体験談」に掲載されているインタビューを要約・再構成したものです。ReverseはSTRATEGY CAREER本体（人材紹介）とは別のコーチングサービスであり、いずれも公式発信の内容（氏名は原文でも仮名）です。出典元の原文とは異なります。
           </p>
+
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月21日確認）</h3>
+          <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
+            <p className="text-sm text-text-light leading-relaxed">
+              <strong>明光キャリアパートナーズの口コミの評価・件数は、当サイトでは確認できていません。</strong>2026年11月21日に次の3つを調べた結果です。
+            </p>
+            <ul className="text-sm text-text-light leading-relaxed mt-3 space-y-1 list-disc pl-5">
+              <li>みん評：当サイトの環境からページを取得できず（評点を確認できませんでした）</li>
+              <li>Qiita Job Change：該当ページが存在しません</li>
+              <li>App Store：該当するアプリが見つかりません</li>
+            </ul>
+            <p className="text-xs text-text-light mt-3">
+              そのため当ページでは、<strong>口コミの評価・件数・本文はいずれも掲載していません</strong>。掲載しているのは、公式サイトで確認できた事実と、そこから編集部が整理した注意点だけです。確認できる評点が見つかった時点で、出典と確認日を付けて掲載します。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              ※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。
+            </p>
+          </div>
 
           <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>Reverse公式サイト掲載の体験談（要約）</h3>
           <div className="space-y-4 mb-8">

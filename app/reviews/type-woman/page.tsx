@@ -28,7 +28,7 @@ const structuredData = {
   headline:
     "type女性の転職エージェントの口コミ・評判｜女性エンジニアへの対応は？",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-17",
+  dateModified: "2026-11-21",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -134,7 +134,7 @@ export default function TypeWomanReviewPage() {
                 女性エンジニアへの対応は？検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の転職成功事例に基づき再構成）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月21日（口コミセクションを公式サイト掲載の転職成功事例に基づき再構成）</p>
           </div>
         </div>
       </section>
@@ -321,6 +321,31 @@ export default function TypeWomanReviewPage() {
           </h2>
           <p className="text-xs text-text-light mb-8">
             ※以下はtype女性の転職エージェント公式サイト「転職成功事例」に掲載されている内容を要約・再構成したものです。出典元の原文とは異なります。属性・数値は出典ページの記載に基づきます（2026年7月参照）。サービス内容は変更される場合があります。
+          </p>
+
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月21日確認）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ backgroundColor: "#f7f1ea" }}>
+                  <th className="p-3 text-left">出典</th>
+                  <th className="p-3 text-left">対象</th>
+                  <th className="p-3 text-left">口コミの評価</th>
+                  <th className="p-3 text-left">口コミ件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://apps.apple.com/jp/app/id1480480873" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">App Store</a></td>
+                  <td className="p-3">転職なら女の転職type 女性のための求人・仕事探しのアプリ（デベロッパ: Career Design Center Co., Ltd.）</td>
+                  <td className="p-3">4.5 / 5</td>
+                  <td className="p-3">2,672件</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            App Store の評価は<strong>アプリに対する評価</strong>であり、求人サイトとしてのサービス全体を表すものではありません。デベロッパは株式会社キャリアデザインセンター（Career Design Center Co., Ltd.）で、当ページで紹介している運営会社と一致します。みん評は当サイトの環境からページを取得できず、Qiita Job Change には該当ページがありませんでした（2026年11月21日確認）。<strong>口コミの本文は著作権が投稿者にあるため、当サイトでは転載せず、評価と件数・出典リンクのみを掲載しています。</strong>数値は確認日時点のもので、変動します。<br />※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。
           </p>
 
           <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>

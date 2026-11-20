@@ -27,7 +27,7 @@ const structuredData = {
   headline:
     "レバテックキャリアの口コミ・評判｜女性エンジニアの転職に使える？",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-17",
+  dateModified: "2026-11-21",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -134,7 +134,7 @@ export default function LevtechReviewPage() {
               </span>
             </h1>
             <p className="mt-4 text-text-light">
-              最終更新: 2026年7月17日（口コミセクションを公式サイト掲載の声に基づき再構成）
+              最終更新: 2026年11月21日（口コミセクションを公式サイト掲載の声に基づき再構成）
             </p>
           </div>
         </div>
@@ -343,6 +343,31 @@ export default function LevtechReviewPage() {
           </p>
 
           {/* 公式サイト掲載の利用者の声 */}
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月21日確認）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ backgroundColor: "#f7f1ea" }}>
+                  <th className="p-3 text-left">出典</th>
+                  <th className="p-3 text-left">対象</th>
+                  <th className="p-3 text-left">口コミの評価</th>
+                  <th className="p-3 text-left">口コミ件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="p-3"><a href="https://apps.apple.com/jp/app/id6795057883" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-primary">App Store</a></td>
+                  <td className="p-3">レバテックキャリア - ITエンジニア専門の転職・求人情報（デベロッパ: leverages Inc.）</td>
+                  <td className="p-3">5.0 / 5</td>
+                  <td className="p-3">4件</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs leading-relaxed mb-8" style={{ color: "#8a7566" }}>
+            ★<strong>件数が4件しかないため、評価の傾向としては読めません</strong>。参考値として出典つきで載せています。App Store の評価は<strong>アプリに対する評価</strong>であり、転職エージェントとしての対応の質を表すものではありません。デベロッパ名は親会社のレバレジーズ（leverages Inc.）で、当ページで紹介している運営会社はレバテック株式会社（同グループ）です。みん評は当サイトの環境からページを取得できず、Qiita Job Change には該当ページがありませんでした（2026年11月21日確認）。<strong>口コミの本文は著作権が投稿者にあるため、当サイトでは転載せず、評価と件数・出典リンクのみを掲載しています。</strong>数値は確認日時点のもので、変動します。<br />※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。
+          </p>
+
           <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>
             公式サイト掲載の利用者の声（要約）
           </h3>
