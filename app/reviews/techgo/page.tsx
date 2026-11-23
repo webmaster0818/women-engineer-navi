@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article",
   headline: "テックゴー（TechGo）の口コミ・評判｜悪い評判・注意点と平均144万円年収アップの実態【2026年10月】",
   datePublished: "2026-07-02",
-  dateModified: "2026-11-20",
+  dateModified: "2026-11-24",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "テックゴーの口コミ・評判を女性エンジニア目線でレビュー。公式の転職支援事例12件の集計、年収アップ実績、注意点を公式情報をもとに解説。",
@@ -123,7 +123,7 @@ export default function TechgoReviewPage() {
                 平均144万円年収アップの実力を検証
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年10月17日（公式サイトの転職支援事例12件を集計して追加。実績数値・会社概要は10月15日に公式サイトで再確認）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月24日（Googleマップの評価と、公式サイトの利用者の声・転職支援事例の件数を再確認）</p>
           </div>
         </div>
       </section>
@@ -304,18 +304,33 @@ export default function TechgoReviewPage() {
             ))}
           </div>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月20日確認）</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（口コミの評価・2026年11月24日確認）</h3>
           <div className="rounded-xl p-6 mb-6" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong>テックゴーの口コミの評価・件数は、当サイトでは確認できていません。</strong>2026年11月20日に次の3つを調べた結果です。
+              Googleマップで確認できた<strong>口コミの評価は 4.8</strong>（クチコミ件数は表示されていません／2026年11月24日確認）。ただしこれは<strong>運営会社である株式会社MyVisionの事業所</strong>に付いた評価で、テックゴーというサービスに対する評価ではありません。
             </p>
             <ul className="text-sm text-text-light leading-relaxed mt-3 space-y-1 list-disc pl-5">
-              <li>みん評：当サイトの環境からページを取得できず（評点を確認できませんでした）</li>
-              <li>Qiita Job Change：テックゴーのページが存在しません（該当ページなし）</li>
-              <li>App Store：テックゴーのアプリが見つかりません</li>
+              <li>Googleマップのリスティング名：MyVision（運営会社の事業所・分類は「人事コンサルティング」）／口コミの評価 4.8／件数の表示なし／2026年11月24日確認</li>
+              <li>「テックゴー」「TechGo」という名前のリスティングは見つかりません</li>
             </ul>
             <p className="text-xs text-text-light mt-3">
-              そのため当ページでは、<strong>第三者サイトの口コミの評価・件数・本文は掲載していません</strong>。上の「良い口コミ」は公式サイトに掲載された利用者の声の要約です。確認できる評点が見つかった時点で、出典と確認日を付けて掲載します。
+              Googleのクチコミは事業所ごとに付くため、「サービス全体の評価」は存在しません。MyVisionは同名のコンサル業界向け転職エージェントも運営しており、<strong>この評価をテックゴー利用者の口コミとして読むことはできません</strong>。
+            </p>
+            <p className="text-sm text-text-light leading-relaxed mt-4">
+              <strong>公式サイトの利用者の声・転職支援事例（2026年11月24日確認）</strong>
+            </p>
+            <ul className="text-sm text-text-light leading-relaxed mt-3 space-y-1 list-disc pl-5">
+              <li><a href="https://tech-go.jp/service" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#c15f47" }}>サービスのご紹介</a>の「ご利用者の声」に<strong>3件</strong>（上の「良い口コミ」はこの3件の要約です）</li>
+              <li><a href="https://tech-go.jp/success-stories" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#c15f47" }}>転職支援事例一覧</a>に<strong>12件</strong>（<strong>12件すべてが男性の事例</strong>）。年収の変化と転職先の傾向は<a href="#cases" className="underline" style={{ color: "#c15f47" }}>下の「公式サイトの転職支援事例」</a>で集計しています（本文は転載していません）</li>
+            </ul>
+            <p className="text-xs text-text-light mt-3">
+              いずれも公式サイトが選んで掲載しているもので、第三者が集めた口コミではありません。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              第三者の口コミサイトも2026年11月20日に調べましたが、評価・件数は確認できませんでした（みん評：当サイトの環境からページを取得できず／Qiita Job Change：テックゴーのページが存在しない／App Store：テックゴーのアプリなし）。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              そのため当ページでは、<strong>テックゴーというサービスに対する第三者の口コミの評価・件数・本文は掲載していません</strong>。上の「良い口コミ」は公式サイトに掲載された利用者の声の要約です。確認できる評点が見つかった時点で、出典と確認日を付けて掲載します。
             </p>
             <p className="text-xs text-text-light mt-3">
               ※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。

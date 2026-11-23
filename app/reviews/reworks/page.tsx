@@ -24,7 +24,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ReWorks(リワークス)の口コミ・評判｜フルリモート×女性エンジニア",
   datePublished: "2026-04-27",
-  dateModified: "2026-07-17",
+  dateModified: "2026-11-24",
   author: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   publisher: { "@type": "Organization", name: "CareeHUB for woman", url: "https://women-engineer.com" },
   description: "ReWorks(リワークス)を女性エンジニア目線で検証。フルリモート特化の実力を検証。",
@@ -94,7 +94,7 @@ export default function ReworksReviewPage() {
               ReWorks（リワークス）の口コミ・評判
               <span className="block text-lg font-medium text-text-light mt-2 md:text-xl">フルリモート×女性エンジニアの転職を検証</span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年7月17日（口コミセクションを公式サイト確認に基づき再構成）</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月24日（Googleマップの評価と、公式サイトの利用者の声の有無を再確認）</p>
           </div>
         </div>
       </section>
@@ -245,18 +245,26 @@ export default function ReworksReviewPage() {
             ※当セクションは、公式サイトの公開情報と当ページに掲載している確認済みの事実のみに基づいて構成しています。実在を確認できない体験談は掲載していません。サービス内容は調査時点（2026年7月）のものであり、変更される場合があります。
           </p>
 
-          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（第三者サイトの評点・2026年11月19日確認）</h3>
+          <h3 className="text-xl font-bold mb-4" style={{ color: "#7c3a55" }}>口コミの掲載状況（口コミの評価・2026年11月24日確認）</h3>
           <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#f4e7da", border: "1px solid #e4d2c4" }}>
             <p className="text-sm text-text-light leading-relaxed">
-              <strong>ReWorksの口コミの評価・件数は、当サイトでは確認できていません。</strong>2026年11月19日に次の3つを調べた結果です。
+              Googleマップで確認できた<strong>口コミの評価は 3.7</strong>（クチコミ件数は表示されていません／2026年11月24日確認）。ただしこれは<strong>運営会社である株式会社アイドマ・ホールディングスの事業所</strong>に付いた評価で、ReWorksというサービスに対する評価ではありません。
             </p>
             <ul className="text-sm text-text-light leading-relaxed mt-3 space-y-1 list-disc pl-5">
-              <li>みん評：当サイトの環境からページを取得できず（評点を確認できませんでした）</li>
-              <li>Qiita Job Change：ReWorksのページが存在しません（該当ページなし）</li>
-              <li>App Store：ReWorksのアプリが見つかりません（名前の似た「Redecor」はフィンランドのゲーム会社 Reworks Oy のもので、別の会社です）</li>
+              <li>Googleマップのリスティング名：㈱アイドマ･ホールディングス（運営会社の事業所）／口コミの評価 3.7／件数の表示なし／2026年11月24日確認</li>
+              <li>「ReWorks」「リワークス」という名前のリスティングは見つかりません（検索すると復職支援の「リワーク施設」が並びます。「株式会社リワークス」も別の会社です）</li>
             </ul>
             <p className="text-xs text-text-light mt-3">
-              そのため当ページでは、<strong>口コミの評価・件数・本文はいずれも掲載していません</strong>。掲載しているのは、公式サイトで確認できた事実と、そこから編集部が整理した注意点だけです。確認できる評点が見つかった時点で、出典と確認日を付けて掲載します。
+              Googleのクチコミは事業所ごとに付くため、「サービス全体の評価」は存在しません。アイドマ・ホールディングスは営業支援などを手がける会社で、ReWorksはその一事業です。<strong>この評価をReWorksの口コミとして読むことはできません</strong>。
+            </p>
+            <p className="text-sm text-text-light leading-relaxed mt-4">
+              <strong>公式サイトの利用者の声・転職成功事例</strong>：2026年11月24日にサイトマップに掲載された171ページを確認しましたが、利用者の声・体験談・転職成功事例のページはありません（「体験談・お役立ち情報」として案内されている<a href="https://rework-s.com/column" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#c15f47" }}>コラム</a>は、リモートワークの解説記事です）。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              第三者の口コミサイトも2026年11月19日に調べましたが、評価・件数は確認できませんでした（みん評：当サイトの環境からページを取得できず／Qiita Job Change：ReWorksのページが存在しない／App Store：ReWorksのアプリなし。名前の似た「Redecor」はフィンランドのゲーム会社 Reworks Oy のもので別の会社です）。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              そのため当ページでは、<strong>ReWorksというサービスに対する口コミの評価・件数・本文はいずれも掲載していません</strong>。掲載しているのは、公式サイトで確認できた事実と、そこから編集部が整理した注意点だけです。確認できる評点が見つかった時点で、出典と確認日を付けて掲載します。
             </p>
             <p className="text-xs text-text-light mt-3">
               ※当ページ上部の総合評価は、公式サイトで確認できる情報をもとに編集部が項目別に判断した数値で、利用者アンケートにもとづくものではありません。
