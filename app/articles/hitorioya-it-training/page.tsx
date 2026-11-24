@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "ひとり親のIT資格取得に使える給付金｜高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】",
   datePublished: "2026-07-05",
-  dateModified: "2026-11-13",
+  dateModified: "2026-11-25",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -142,7 +142,7 @@ export default function ArticlePage() {
                 高等職業訓練促進給付金のデジタル分野とWebデザイン講座の扱い【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年11月13日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月25日</p>
           </div>
         </div>
       </section>
@@ -422,6 +422,15 @@ export default function ArticlePage() {
           <p className="text-xs text-text-light mt-4">
             出典: こども家庭庁「高等職業訓練促進給付金のご案内」「母子家庭自立支援給付金及び父子家庭自立支援給付金事業について」、厚生労働省「教育訓練給付制度」「求職者支援制度のご案内」（いずれも2026年7月参照）
           </p>
+          <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
+            <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>在職中に休暇を取って学ぶ場合：教育訓練休暇給付金</h3>
+            <p className="text-sm leading-relaxed">
+              会社に勤めたまま学ぶ時間を確保したい場合は、雇用保険の「教育訓練休暇給付金」もあります。厚生労働省の案内では、一定の条件を満たす雇用保険の一般被保険者が、就業規則等に基づき<strong>連続した30日以上の無給の教育訓練休暇</strong>を取得する場合に、基本手当に相当する給付として賃金の一定割合が支給される制度です。利用には<strong>事業主と合意したうえで休暇を取得する必要</strong>があり、勤務先に休暇制度があることが前提です。支給要件の詳細は厚生労働省のパンフレットを確認し、ハローワークに問い合わせてください。
+            </p>
+            <p className="text-xs text-text-light mt-3">
+              出典: 厚生労働省「教育訓練休暇給付金」 <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/koyouhoken/kyukakyufukin.html" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/koyouhoken/kyukakyufukin.html</a>（2026年11月25日確認）
+            </p>
+          </div>
           <div className="rounded-xl border bg-white p-6 mt-6" style={{ borderColor: "#d9c7b8" }}>
             <h3 className="text-base font-bold mb-3" style={{ color: "#7c3a55" }}>使い分けの考え方</h3>
             <ul className="space-y-2 text-sm text-text-light">
