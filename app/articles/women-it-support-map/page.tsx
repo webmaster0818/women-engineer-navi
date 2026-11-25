@@ -428,7 +428,7 @@ export default function ArticlePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#bd8a3c" }}>次回10/23〜</span>
-                  <span><a href="/articles/kanagawa-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>神奈川県「女性のためのデジタルスキル育成講座」</a> — 受講料無料・e-ラーニング第3回の申込は2026年10月23日〜11月24日</span>
+                  <span><a href="/articles/kanagawa-women-digital/" className="font-bold underline" style={{ color: "#7c3a55" }}>神奈川県「女性のためのデジタルスキル育成講座」</a> — 受講料無料・e-ラーニング第3回の申込は2026年11月24日で締切（次回は公式の発表待ち）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="inline-block flex-shrink-0 rounded-full px-3 py-1 text-xs font-bold text-white" style={{ backgroundColor: "#c15f47" }}>締切済み</span>
