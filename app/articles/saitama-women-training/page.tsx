@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "埼玉県 女性のデジタル人材育成講座（推進事業）を解説｜無料・在職中も可・申込【2026年11月】",
   datePublished: "2026-07-05",
-  dateModified: "2026-11-24",
+  dateModified: "2026-11-26",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -126,7 +126,7 @@ export default function ArticlePage() {
                 対象者・費用・申込方法と東京都事業・国の制度との違い【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年11月24日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月26日</p>
           </div>
         </div>
       </section>
@@ -156,9 +156,9 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年11月24日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年11月26日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で、公式の申込スケジュールには2027年の「2－3月生」（申込期間: 2027年2月1日〜2月11日）までが載っています。11月受講生の申込（2026年10月1日〜10月25日・受講期間: 11月2日〜11月30日）は締め切られました。12月受講生は申込期間2026年11月1日〜11月25日・受講期間12月1日〜2027年1月3日で、いまが申込期間中です（公式の申込スケジュールで2026年11月19日確認。公式のお知らせ欄には2026年11月1日付で「11月1日（日）9:30より、11月受講生のお申し込み受付を開始いたしました。」と掲載されていますが、申込スケジュール上、11月1日に受付が始まるのは12月受講生です）。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>基礎・応用講座:</strong> 月ごとの募集で、公式の申込スケジュールには2027年の「2－3月生」（申込期間: 2027年2月1日〜2月11日）までが載っています。12月受講生の申込（2026年11月1日〜11月25日・受講期間: 12月1日〜2027年1月3日）は締め切られました。次は1月受講生で、申込期間は2026年12月1日〜12月24日・受講期間は2027年1月4日〜1月31日です（公式の申込スケジュールで2026年11月26日確認）。定員は各月1,000名（定員に達し次第受付終了）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>自営型テレワーク講座（新設）:</strong> 8月受講生から視聴可能。基礎・応用講座と同一フォームで申込できます。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>実践講座:</strong> 1期（Officeテクニカル/WEBクリエイター）は2026年8月17日〜9月14日の日程で終了しています。2期（生成AI活用/デジタルデザイン）は2026年11月9日〜12月7日の日程で実施中で、申込は2026年10月5日〜10月20日（延長後の締切・23時59分）に受け付けられ、締め切られました。2期はZoomの面接（15分）があり、結果は11月2日にメールで通知されます。応募できるのは令和6〜8年度に対象の基礎・応用コースを修了した方で、1期を受講した方も応募できます（2026年10月5日の公式お知らせ）。</span></li>
             </ul>
@@ -451,7 +451,7 @@ export default function ArticlePage() {
           <h2 className="text-2xl font-bold mb-6">申込方法と受講までのステップ</h2>
           <div className="space-y-4 text-text-light leading-relaxed mb-6">
             <p>
-              基礎・応用講座と自営型テレワーク講座は、公式サイトの申込フォームから<strong>月ごとの募集</strong>で申し込みます（同一フォーム・令和8年6月1日受付開始、公式の申込スケジュールは2027年の「2－3月生」まで）。いま申し込めるのは12月受講生で、申込期間は2026年11月1日〜11月25日、受講期間は12月1日〜2027年1月3日です（2026年11月1日確認）。募集期間中でも定員（各月1,000名）に達し次第締め切られることがあります。
+              基礎・応用講座と自営型テレワーク講座は、公式サイトの申込フォームから<strong>月ごとの募集</strong>で申し込みます（同一フォーム・令和8年6月1日受付開始、公式の申込スケジュールは2027年の「2－3月生」まで）。12月受講生の申込（2026年11月1日〜11月25日）は締め切られました。次に申し込めるのは1月受講生で、申込期間は2026年12月1日〜12月24日、受講期間は2027年1月4日〜1月31日です（2026年11月26日確認）。募集期間中でも定員（各月1,000名）に達し次第締め切られることがあります。
             </p>
           </div>
           <div className="space-y-4">
