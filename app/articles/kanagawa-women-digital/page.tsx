@@ -22,7 +22,7 @@ const structuredData = {
   "@type": "Article",
   headline: "神奈川県 女性のためのデジタルスキル育成講座を解説｜対象・費用・申込【2026年】",
   datePublished: "2026-07-18",
-  dateModified: "2026-11-25",
+  dateModified: "2026-11-28",
   author: {
     "@type": "Organization",
     name: "CareeHUB for woman",
@@ -126,7 +126,7 @@ export default function ArticlePage() {
                 対象者・費用・e-ラーニングとグループ講座の内容・申込方法【2026年】
               </span>
             </h1>
-            <p className="mt-4 text-text-light">最終更新: 2026年11月25日</p>
+            <p className="mt-4 text-text-light">最終更新: 2026年11月28日</p>
           </div>
         </div>
       </section>
@@ -156,12 +156,12 @@ export default function ArticlePage() {
           </div>
 
           <div className="rounded-xl p-6 mt-4" style={{ backgroundColor: "#fffaf4", border: "1px solid #d9c7b8" }}>
-            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年11月25日 公式サイト確認）</h2>
+            <h2 className="text-base font-bold mb-3" style={{ color: "#c15f47" }}>最新の募集状況（2026年11月28日 公式サイト確認）</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>e-ラーニングコース第1回:</strong> 申込・受講ともに終了（申込期間: 5月22日〜6月22日、受講期間: 7月1日〜8月31日）。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>e-ラーニングコース第2回:</strong> 申込・受講ともに終了（申込期間: 8月10日〜9月10日、受講期間: 9月18日〜11月17日）。第3回は申込10月23日〜11月24日で<strong>申込は締切</strong>（受講12月3日〜2月2日）です。</span></li>
               <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span><strong>グループ講座（Webデザイン実践）:</strong> 申込は終了（申込期間: 8月25日〜10月5日）。講座は10月28日〜11月27日の全10回で、定員30名程度（書類選考・面接あり）です。</span></li>
-              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>2026年11月25日時点で<strong>申込受付中の回はありません</strong>（e-ラーニング第3回の申込は11月24日で締切）。次回の募集は公式サイトでの発表をお待ちください。</span></li>
+              <li className="flex items-start gap-2"><span style={{ color: "#c15f47" }} className="mt-0.5 font-bold">◆</span><span>2026年11月28日時点で<strong>申込受付中の回はありません</strong>（e-ラーニング第3回の申込は11月24日で締切）。次回の募集は公式サイトでの発表をお待ちください。</span></li>
             </ul>
             <p className="text-xs text-text-light mt-3">
               ※募集状況・日程は変動します。最新情報は必ず<a href="https://www.pref.kanagawa.jp/osirase/0607/kanagawa-gosetsu/digital_woman/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "#7c3a55" }}>公式ページ</a>でご確認ください。
@@ -458,7 +458,7 @@ export default function ArticlePage() {
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
               <h3 className="text-base font-bold mb-2" style={{ color: "#c15f47" }}>2. 申込期間が限られている</h3>
               <p className="text-sm text-text-light leading-relaxed">
-                2026年11月25日時点で受付中の回はありません（e-ラーニング第3回の申込は11月24日で締切）。申込期間を逃すと次の回まで待つことになるため、受講したい方は公式サイトで次回の募集を確認してください。
+                2026年11月28日時点で受付中の回はありません（e-ラーニング第3回の申込は11月24日で締切）。申込期間を逃すと次の回まで待つことになるため、受講したい方は公式サイトで次回の募集を確認してください。
               </p>
             </div>
             <div className="rounded-xl border bg-white p-6" style={{ borderColor: "#d9c7b8" }}>
